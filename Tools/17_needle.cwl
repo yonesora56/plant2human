@@ -16,22 +16,24 @@ inputs:
     type: File
     default:
       class: File
-      location: file:///workspaces/004_foldseek/scripts/run_needle.sh
+      location: ../scripts/run_needle.sh
   - id: foldseek_extract_tsv
     type: File
+    format: edam:format_3475
     default:
       class: File
-      location: file:///workspaces/004_foldseek/test/workflow_test/foldseek_rice_up_9606.tsv
+      format: edam:format_3475
+      location: ../test/workflow_test/foldseek_rice_up_9606.tsv
   - id: split_fasta_query_species_dir
     type: Directory
     default:
       class: Directory
-      location: file:///workspaces/004_foldseek/test/workflow_test/split_fasta_query_species/
+      location: ../test/workflow_test/split_fasta_query_species/
   - id: split_fasta_hit_species_dir
     type: Directory
     default:
       class: Directory
-      location: file:///workspaces/004_foldseek/test/workflow_test/split_fasta_hit_species/
+      location: ../test/workflow_test/split_fasta_hit_species/
   - id: result_needle_dir_name
     type: string
     default: "result_needle"
