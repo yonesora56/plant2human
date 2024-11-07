@@ -18,7 +18,7 @@ inputs:
     doc: "database file"
     default:
       class: File
-      location: file:///workspaces/004_foldseek/Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta
+      location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta
     secondaryFiles:
       - .pdb
       - .phd
@@ -36,7 +36,7 @@ inputs:
     type: File
     default:
       class: File
-      location: file:///workspaces/004_foldseek/out/rice_up/uniprot_id_rice_up.txt
+      location: ../out/rice_up/uniprot_id_rice_up.txt
   - id: retrieve_result_file_name
     type: string
     default: "blastdbcmd_result_rice_up.fasta"

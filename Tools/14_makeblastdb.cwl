@@ -21,22 +21,22 @@ inputs:
     default:
       class: File
       format: edam:format_1332
-      location: file:///workspaces/004_foldseek/Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta
-  - id: output_index_name
-    type: string
-    doc: "output index name"
-    default: uniprotkb_rice_all_240820
-  - id: dbtype
-    type: string
-    doc: "database type"
-    default: "prot"
+      location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta
+  # - id: output_index_name
+  #   type: string
+  #   doc: "output index name"
+  #   default: uniprotkb_rice_all_240820
+  # - id: dbtype
+  #   type: string
+  #   doc: "database type"
+  #   default: "prot"
 
 arguments:
   - shellQuote: false
     valueFrom: |
       mkdir -p $(inputs.index_dir_name)
-      makeblastdb -in $(inputs.input_fasta_file.path) -out $(inputs.index_dir_name)/$(inputs.output_index_name) -dbtype $(inputs.dbtype) -hash_index -parse_seqids
-      touch $(inputs.index_dir_name)/$(inputs.output_index_name) # create empty file
+      makeblastdb -in $(inputs.input_fasta_file.path) -out $(inputs.index_dir_name)/$(inputs.input_fasta_file.basename) -dbtype prot -hash_index -parse_seqids
+      touch $(inputs.index_dir_name)/$(inputs.input_fasta_file.basename) # create empty file
 
 outputs:
   - id: index_dir
@@ -46,7 +46,7 @@ outputs:
   - id: index_file
     type: File
     outputBinding:
-      glob: "$(inputs.index_dir_name)/$(inputs.output_index_name)"
+      glob: "$(inputs.index_dir_name)/$(inputs.input_fasta_file.basename)"
     secondaryFiles:
       - .pdb
       - .phd
@@ -61,21 +61,9 @@ outputs:
       - .ptf
       - .pto
 
-# outputs:
-#   - id: all-for-debugging
-#     type:
-#       type: array
-#       items: [File, Directory]
-#     outputBinding:
-#       glob: "*"
-
 hints:
   - class: DockerRequirement
     dockerPull: quay.io/biocontainers/blast:2.16.0--hc155240_2
-
-# hints:
-#   - class: DockerRequirement
-#     dockerPull: ncbi/blast:2.16.0
 
 $namespaces:
   s: https://schema.org/
