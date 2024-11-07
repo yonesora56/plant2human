@@ -1,0 +1,33 @@
+db:
+  class: File
+  location: file:///workspaces/004_foldseek/index/index_uniprot_rice/uniprotkb_rice_all_240820.fasta
+  secondaryFiles:
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_rice/uniprotkb_rice_all_240820.fasta.pdb
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_rice/uniprotkb_rice_all_240820.fasta.phd
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_rice/uniprotkb_rice_all_240820.fasta.phi
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_rice/uniprotkb_rice_all_240820.fasta.phr
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_rice/uniprotkb_rice_all_240820.fasta.pin
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_rice/uniprotkb_rice_all_240820.fasta.pjs
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_rice/uniprotkb_rice_all_240820.fasta.pog
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_rice/uniprotkb_rice_all_240820.fasta.pos
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_rice/uniprotkb_rice_all_240820.fasta.pot
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_rice/uniprotkb_rice_all_240820.fasta.psq
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_rice/uniprotkb_rice_all_240820.fasta.ptf
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_rice/uniprotkb_rice_all_240820.fasta.pto
+entry_batch:
+  class: File
+  location: file:///workspaces/004_foldseek/out/rice_up/uniprot_id_rice_up.txt
+out: blastdbcmd_rice_up.fasta
+logfile: blastdbcmd_rice_up.log

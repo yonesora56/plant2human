@@ -1,0 +1,33 @@
+db:
+  class: File
+  location: file:///workspaces/004_foldseek/index/index_uniprot_human/uniprotkb_human_all_240630.fasta
+  secondaryFiles:
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_human/uniprotkb_human_all_240630.fasta.pdb
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_human/uniprotkb_human_all_240630.fasta.phd
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_human/uniprotkb_human_all_240630.fasta.phi
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_human/uniprotkb_human_all_240630.fasta.phr
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_human/uniprotkb_human_all_240630.fasta.pin
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_human/uniprotkb_human_all_240630.fasta.pjs
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_human/uniprotkb_human_all_240630.fasta.pog
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_human/uniprotkb_human_all_240630.fasta.pos
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_human/uniprotkb_human_all_240630.fasta.pot
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_human/uniprotkb_human_all_240630.fasta.psq
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_human/uniprotkb_human_all_240630.fasta.ptf
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot_human/uniprotkb_human_all_240630.fasta.pto
+entry_batch:
+  class: File
+  location: file:///workspaces/004_foldseek/out/rice_down/uniprot_id_human_down.txt
+out: blastdbcmd_human_down.fasta
+logfile: blastdbcmd_human_down.log

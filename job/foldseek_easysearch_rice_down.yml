@@ -1,0 +1,50 @@
+input_directory:
+  class: Directory
+  location: file:///workspaces/004_foldseek/out/rice_down/rice_down_mmcif/
+file_match_pattern: "*.cif"
+index_for_search:
+  class: File
+  location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot
+  secondaryFiles:
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot_ca
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot_ca.dbtype
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot_ca.index
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot_h
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot_h.dbtype
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot_h.index
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot_mapping
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot_ss
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot_ss.dbtype
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot_ss.index
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot_taxonomy
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot.dbtype
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot.index
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot.lookup
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot.version
+output_file_name: foldseek_output_uniprot_down_all_evalue01.tsv
+tmp_dir:
+  class: Directory
+  location: file:///workspaces/004_foldseek/tmp/
+param_sensitivity: 9.5
+param_evalue: 0.1
+param_format_mode: 4
+param_format_output: "query,target,evalue,prob,gapopen,pident,fident,nident,qstart,qend,qlen,tstart,tend,tlen,alnlen,qcov,tcov,lddt,qtmscore,ttmscore,alntmscore,rmsd,taxid,taxname,taxlineage,qaln,taln,mismatch,lddtfull"
+param_threads: 16
+param_split_memory_limit: "120G"
+param_input_format: 2
+param_taxonomy_id_list: "9606,10090,3702,4577,4529"

@@ -1,0 +1,10 @@
+file:
+  class: File
+  location: file:///workspaces/004_foldseek/execute_240822/foldseek_result_all_human_hit.tsv
+query_taxon_name: oryza_sativa
+target_taxon_id: 9606
+result_dir:
+  class: Directory
+  location: file:///workspaces/004_foldseek/execute_240822/rice_up_pan_homology
+no_homology_file: rice_up_no_homology_gene.tsv
+output_json_concat_file: rice_up_pan_homology_concat.tsv
