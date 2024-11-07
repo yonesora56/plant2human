@@ -16,10 +16,10 @@ inputs:
       class: File
       format: edam:format_1332
       location: file:///workspaces/004_foldseek/test/workflow_test/blastdbcmd_result_query_species.fasta
-  - id: sformat1
-    type: string
-    doc: "sequence format"
-    default: "fasta"
+  # - id: sformat1
+  #   type: string
+  #   doc: "sequence format"
+  #   default: "fasta"
   - id: output_dir_name
     type: string
     doc: "output directory name"
@@ -29,15 +29,7 @@ arguments:
   - shellQuote: false
     valueFrom: |
       mkdir -p $(inputs.output_dir_name)
-      seqretsplit -sequence $(inputs.sequence.path) -sformat1 $(inputs.sformat1) -sprotein1 -osdirectory2 $(inputs.output_dir_name) -auto
-
-# outputs:
-#   - id: seqretsplit_result
-#     type:
-#       type: array
-#       items: [Directory, File]
-#     outputBinding:
-#       glob: "*"
+      seqretsplit -sequence $(inputs.sequence.path) -sformat1 fasta -sprotein1 -osdirectory2 $(inputs.output_dir_name) -auto
 
 outputs:
   - id: output_dir
@@ -47,7 +39,7 @@ outputs:
   - id: split_fasta_files
     type: File[]
     outputBinding:
-      glob: "$(inputs.output_dir_name)/*.$(inputs.sformat1)"
+      glob: "$(inputs.output_dir_name)/*.fasta"
 
 hints:
   - class: DockerRequirement

@@ -1,5 +1,5 @@
 #!/usr/bin/env cwl-runner
-# Generated from: foldseek easy-search ../Data/rice_up_mmCIFfile/*.cif ../index/index_uniprot/uniprot ../out/foldseek_output_uniprot_up_all_evalue01.tsv ../tmp -s 9.5 -e 0.1 --format-mode 4 --format-output query,target,evalue,prob,gapopen,pident,fident,nident,qstart,qend,qlen,tstart,tend,tlen,alnlen,qcov,tcov,lddt,qtmscore,ttmscore,alntmscore,rmsd,taxid,taxname,taxlineage,qaln,taln,mismatch,lddtfull --threads 10 --split-memory-limit 60G
+# Generated from: foldseek easy-search ../Data/rice_up_mmCIFfile/*.cif ../index/index_uniprot/uniprot ../out/foldseek_output_uniprot_up_all_evalue01.tsv ../tmp -e 0.1 --format-mode 4 --format-output query,target,evalue,prob,gapopen,pident,fident,nident,qstart,qend,qlen,tstart,tend,tlen,alnlen,qcov,tcov,lddt,qtmscore,ttmscore,alntmscore,rmsd,taxid,taxname,taxlineage,qaln,taln,mismatch,lddtfull --threads 10 --split-memory-limit 60G
 class: CommandLineTool
 cwlVersion: v1.2
 baseCommand: [foldseek, easy-search]
@@ -8,8 +8,6 @@ arguments:
   - $(inputs.index)
   - $(inputs.output_file_name)
   - $(runtime.tmpdir)
-  - -s
-  - $(inputs.sensitivity)
   - -e
   - $(inputs.e_value)
   - --format-mode
@@ -32,7 +30,7 @@ inputs:
     type: File
     default:
       class: File
-      location: file:///workspaces/004_foldseek/index/index_uniprot/uniprot
+      location: ../index/index_uniprot/uniprot
     secondaryFiles:
       - _ca
       - _ca.dbtype
@@ -54,9 +52,6 @@ inputs:
     type: string
     default: "foldseek_output_uniprot_up_all_evalue01.tsv"
 
-  - id: sensitivity
-    type: double
-    default: 9.5
   - id: e_value
     type: double
     default: 0.1

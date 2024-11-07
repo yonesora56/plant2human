@@ -20,12 +20,12 @@ inputs:
   - id: PARAM_INDEX_DIR_NAME_QUERY_SPECIES
     type: string
     doc: "index directory name"
-    default: index_uniprot_rice
+    default: index_query_species
 
   - id: PARAM_INDEX_DIR_NAME_HIT_SPECIES
     type: string
     doc: "index directory name"
-    default: index_uniprot_human
+    default: index_hit_species
   
   - id: PARAM_INPUT_FASTA_FILE_QUERY_SPECIES
     type: File
@@ -34,7 +34,7 @@ inputs:
     default:
       class: File
       format: edam:format_1332
-      location: file:///workspaces/004_foldseek/Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta
+      location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta
 
   - id: PARAM_INPUT_FASTA_FILE_HIT_SPECIES
     type: File
@@ -43,22 +43,7 @@ inputs:
     default:
       class: File
       format: edam:format_1332
-      location: file:///workspaces/004_foldseek/Data/Data_uniprot/FASTA_for_index/uniprotkb_human_all_241107.fasta
-    
-  - id: PARAM_OUTPUT_INDEX_NAME_QUERY_SPECIES
-    type: string
-    doc: "output index name"
-    default: uniprotkb_rice_all_240820
-
-  - id: PARAM_OUTPUT_INDEX_NAME_HIT_SPECIES
-    type: string
-    doc: "output index name"
-    default: uniprotkb_human_all_241107
-
-  - id: PARAM_DBTYPE
-    type: string
-    doc: "database type"
-    default: "prot"
+      location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_human_all_241107.fasta
 
   # blastdbcmd inputs
   - id: PARAM_ENTRY_BATCH_QUERY_SPECIES
@@ -66,14 +51,14 @@ inputs:
     doc: "entry batch file"
     default:
       class: File
-      location: file:///workspaces/004_foldseek/test/workflow_test/foldseek_result_query_species.txt
+      location: ../test/workflow_test/foldseek_result_query_species.txt
 
   - id: PARAM_ENTRY_BATCH_HIT_SPECIES
     type: File
     doc: "entry batch file"
     default:
       class: File
-      location: file:///workspaces/004_foldseek/test/workflow_test/foldseek_result_hit_species.txt
+      location: ../test/workflow_test/foldseek_result_hit_species.txt
 
   - id: PARAM_RETRIEVE_RESULT_FILE_NAME_QUERY_SPECIES
     type: string
@@ -96,11 +81,6 @@ inputs:
     default: "blastdbcmd_result_hit_species.log"
 
   # seqretsplit inputs
-  - id: PARAM_SEQUENCE_FORMAT
-    type: string
-    doc: "sequence format"
-    default: "fasta"
-
   - id: PARAM_OUTPUT_SEQRETSPLIT_DIR_NAME_QUERY_SPECIES
     type: string
     doc: "output directory name"
@@ -111,21 +91,7 @@ inputs:
     doc: "output directory name"
     default: "split_fasta_hit_species"
 
-  # needle and water inputs
-  - id: NEEDLE_SCRIPT
-    type: File
-    doc: "needle script"
-    default:
-      class: File
-      location: file:///workspaces/004_foldseek/scripts/run_needle.sh
-
-  - id: WATER_SCRIPT
-    type: File
-    doc: "water script"
-    default:
-      class: File
-      location: file:///workspaces/004_foldseek/scripts/run_water.sh
-
+  # foldseek extract tsv
   - id: PARAM_FOLDSEEK_EXTRACT_TSV
     type: File
     doc: "foldseek extract tsv"
@@ -133,8 +99,9 @@ inputs:
     default:
       class: File
       format: edam:format_3475
-      location: file:///workspaces/004_foldseek/test/workflow_test/foldseek_rice_up_9606.tsv
+      location: ../test/workflow_test/foldseek_rice_up_9606.tsv
   
+  # needle and water inputs
   - id: PARAM_NEEDLE_RESULT_DIR_NAME
     type: string
     doc: "needle result directory name"
@@ -235,8 +202,6 @@ steps:
     in:
       index_dir_name: PARAM_INDEX_DIR_NAME_QUERY_SPECIES
       input_fasta_file: PARAM_INPUT_FASTA_FILE_QUERY_SPECIES
-      output_index_name: PARAM_OUTPUT_INDEX_NAME_QUERY_SPECIES
-      dbtype: PARAM_DBTYPE
     out: [index_dir, index_file]
 
   makeblastdb_hit_species:
@@ -244,8 +209,6 @@ steps:
     in:
       index_dir_name: PARAM_INDEX_DIR_NAME_HIT_SPECIES
       input_fasta_file: PARAM_INPUT_FASTA_FILE_HIT_SPECIES
-      output_index_name: PARAM_OUTPUT_INDEX_NAME_HIT_SPECIES
-      dbtype: PARAM_DBTYPE
     out: [index_dir, index_file]
 
   blastdbcmd_query_species:
@@ -270,7 +233,6 @@ steps:
     run: ../Tools/16_seqretsplit.cwl
     in:
       sequence: blastdbcmd_query_species/blastdbcmd_result
-      sformat1: PARAM_SEQUENCE_FORMAT
       output_dir_name: PARAM_OUTPUT_SEQRETSPLIT_DIR_NAME_QUERY_SPECIES
     out: [output_dir, split_fasta_files]
 
@@ -278,14 +240,12 @@ steps:
     run: ../Tools/16_seqretsplit.cwl
     in:
       sequence: blastdbcmd_hit_species/blastdbcmd_result
-      sformat1: PARAM_SEQUENCE_FORMAT
       output_dir_name: PARAM_OUTPUT_SEQRETSPLIT_DIR_NAME_HIT_SPECIES
     out: [output_dir, split_fasta_files]
 
   global_alignment_using_needle:
     run: ../Tools/17_needle.cwl
     in:
-      run_needle_script: NEEDLE_SCRIPT
       foldseek_extract_tsv: PARAM_FOLDSEEK_EXTRACT_TSV
       split_fasta_query_species_dir: seqretsplit_query_species/output_dir
       split_fasta_hit_species_dir: seqretsplit_hit_species/output_dir
@@ -297,7 +257,6 @@ steps:
   local_alignment_using_water:
     run: ../Tools/17_water.cwl
     in:
-      run_water_script: WATER_SCRIPT
       foldseek_extract_tsv: PARAM_FOLDSEEK_EXTRACT_TSV
       split_fasta_query_species_dir: seqretsplit_query_species/output_dir
       split_fasta_hit_species_dir: seqretsplit_hit_species/output_dir
