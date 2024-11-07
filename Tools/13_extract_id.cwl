@@ -15,7 +15,7 @@ inputs:
     doc: "input tsv file"
     default:
       class: File
-      location: file:///workspaces/004_foldseek/test/workflow_test/foldseek_rice_up_9606.tsv
+      location: ../test/workflow_test/foldseek_rice_up_9606.tsv
   - id: column_number
     type: int
     doc: "column number"
