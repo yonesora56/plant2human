@@ -1,0 +1,43 @@
+{
+  "name": "plant2human",
+  "build": {
+    "context": ".",
+    "dockerfile": "Dockerfile"
+  },
+  "runArgs": [
+    "--init"
+    ], //https://github.com/microsoft/vscode-dev-containers/blob/main/script-library/docs/docker-in-docker.md
+  "customizations": { //https://zenn.dev/newgyu/scraps/4c24bf3df804bd
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-python.pylint",
+        "njqdev.vscode-python-typehint",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.jupyter-keymap",
+        "GitHub.copilot",
+        "ms-azuretools.vscode-docker",
+        "mechatroner.rainbow-csv",
+        "usernamehw.errorlens",
+        "hediet.vscode-drawio",
+        "sbg-rabix.benten-cwl",
+        "REditorSupport.r"
+        ]
+      }
+    },
+  "remoteUser": "root",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": "latest",
+    "ghcr.io/devcontainers/features/git:1": "os-provided",
+    "ghcr.io/rocker-org/devcontainer-features/r-rig:latest": {
+      "version": "4.4.1"
+    },
+    "ghcr.io/rocker-org/devcontainer-features/r-packages:1.1.0": {
+      "packages": "repr,IRkernel,languageserver,IRdisplay,magick,igraph,Cairo,DiagrammeR,dplyr,UpSetR,ggplot2,ComplexUpset",
+      "installSystemRequirements": true
+    }
+  },
+  "postCreateCommand": "R -e \"IRkernel::installspec(user = FALSE)\""
+}

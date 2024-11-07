@@ -1,0 +1,11 @@
+python_script_for_idmapping:
+  class: File
+  location: file:///workspaces/004_foldseek/scripts/uniprot_idmapping.py
+input:
+  class: File
+  location: file:///workspaces/004_foldseek/out/rice_up_pan_homology/rice_up_pan_homology_concat.tsv
+output_name: rice_up_pan_homology_concat_uniprot_id.tsv
+column: target_id
+unmapped_list: fldsk_out_prot_up_all_phm_add_protid_unmapped.tsv
+from_db: Ensembl
+to_db: UniProtKB

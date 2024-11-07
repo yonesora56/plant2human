@@ -1,0 +1,98 @@
+input_directory:
+  class: Directory
+  location: file:///workspaces/004_foldseek/out/rice_up/rice_up_mmcif/
+file_match_pattern: "*.cif"
+index_for_search:
+  class: File
+  location: file:///workspaces/004_foldseek/index/index_pdb/pdb
+  secondaryFiles:
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_ca
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_ca.dbtype
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_ca.index
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_clu
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_clu.dbtype
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_clu.index
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_h
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_h.dbtype
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_h.index
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_mapping
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq_ca.0
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq_ca.1
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq_ca.dbtype
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq_ca.index
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq_h.0
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq_h.1
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq_h.dbtype
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq_h.index
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq_mapping
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq_ss.0
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq_ss.1
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq_ss.dbtype
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq_ss.index
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq.taxonomy
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq.0
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq.1
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq.dbtype
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq.index
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq.lookup
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_seq.source
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_ss
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_ss.dbtype
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_ss.index
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb_taxonomy
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb.dbtype
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb.index
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb.lookup
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb.source
+    - class: File
+      location: file:///workspaces/004_foldseek/index/index_pdb/pdb.version
+output_file_name: foldseek_output_pdb_up_all_evalue01.tsv
+tmp_dir:
+  class: Directory
+  location: file:///workspaces/004_foldseek/tmp/
+param_sensitivity: 9.5
+param_evalue: 0.1
+param_format_mode: 4
+param_format_output: "query,target,evalue,prob,gapopen,pident,fident,nident,qstart,qend,qlen,tstart,tend,tlen,alnlen,qcov,tcov,lddt,qtmscore,ttmscore,alntmscore,rmsd,taxid,taxname,taxlineage,qaln,taln,mismatch,lddtfull"
+param_threads: 16
+param_split_memory_limit: "120G"
+param_input_format: 2
+param_taxonomy_id_list: "9606,10090,3702,4577,4529"

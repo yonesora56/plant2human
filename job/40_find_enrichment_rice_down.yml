@@ -1,0 +1,17 @@
+target_genelist:
+  class: File
+  location: file:///workspaces/004_foldseek/Data/Data_HN5_genelist_rice_2402/HN5_genes_down_rice.txt
+background_genelist:
+  class: File
+  location: file:///workspaces/004_foldseek/Data/Data_ensembl/rice_all_genelist.txt
+annotation_file:
+  class: File
+  location: file:///workspaces/004_foldseek/Data/Data_ensembl/rice_go_annotation_r58_concatenated.tsv
+pvalue: 0.01
+method: fdr_bh
+pval_field: fdr_bh
+obo_file:
+  class: File
+  location: file:///workspaces/004_foldseek/Data/go.obo
+obsolete_go: replace
+output_file_name: rice_go_enrichment_down.tsv
