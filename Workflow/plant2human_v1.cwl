@@ -19,7 +19,7 @@ requirements:
 inputs:
   # listing files
   - id: INPUT_DIRECTORY
-    doc: "query protein structure file directory"
+    doc: "query protein structure cif file directory"
     type: Directory
     default:
       class: Directory
@@ -31,7 +31,7 @@ inputs:
   #   default: "*.cif"
   
   - id: INDEX_FOR_SEARCH
-    doc: "search index file"
+    label: "foldseek index file"
     type: File
     default:
       class: File
@@ -74,19 +74,21 @@ inputs:
     default: 2
 
   - id: PARAM_TAXONOMY_ID_LIST
+    label: "taxonomy id list"
+    doc: "taxonomy id list. separated by comma. Be sure to set “9606”."
     type: string
     default: "9606,10090,3702,4577,4529"
   
-
-  - id: PARAM_HIT_TAXONOMY_ID
-    type: int
-    default: 9606
+  # - id: PARAM_HIT_TAXONOMY_ID
+  #   type: int
+  #   default: 9606
   
   - id: PARAM_OUTPUT_FILE_NAME
     type: string
     default: "foldseek_rice_up_9606.tsv"
   
   - id: PARM_COLUMN_NUMBER_QUERY_SPECIES
+    label: "column number of query species"
     type: int
     default: 1
   
@@ -257,8 +259,7 @@ steps:
   extract_target_species:
     run: ../Tools/12_extract_target_species.cwl
     in:
-      input_file: foldseek_easy_search/all
-      target_species: PARAM_HIT_TAXONOMY_ID
+      input_file: foldseek_easy_search/all # workflow output
       output_file_name: PARAM_OUTPUT_FILE_NAME
     out:
       - output_extract_file
@@ -266,7 +267,7 @@ steps:
   extract_query_species_column:
     run: ../Tools/13_extract_id.cwl
     in:
-      tsvfile: extract_target_species/output_extract_file
+      tsvfile: extract_target_species/output_extract_file # workflow output
       column_number: PARM_COLUMN_NUMBER_QUERY_SPECIES
       output_file_name: PARAM_OUTPUT_FILE_NAME_QUERY_SPECIES
     out:
@@ -275,7 +276,7 @@ steps:
   extract_hit_species_column:
     run: ../Tools/13_extract_id.cwl
     in:
-      tsvfile: extract_target_species/output_extract_file
+      tsvfile: extract_target_species/output_extract_file # workflow output
       column_number: PARAM_COLUMN_NUMBER_HIT_SPECIES
       output_file_name: PARAM_OUTPUT_FILE_NAME_HIT_SPECIES
     out: 
@@ -320,7 +321,7 @@ steps:
   togoid_convert:
     run: ../Tools/18_togoid_convert.cwl
     in:
-      id_convert_file: extract_hit_species_column/output_file
+      id_convert_file: extract_hit_species_column/output_file # workflow output
       output_file_name: TOGOID_CONVERT_OUTPUT_FILE_NAME
     out:
       - output_file
