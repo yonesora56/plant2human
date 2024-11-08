@@ -1,5 +1,7 @@
 #!usr/bin/env python3
-
+"""
+Map gene IDs from Ensembl gene ids to UniProtKB.
+"""
 # -*- coding: utf-8 -*-
 import time
 import argparse
