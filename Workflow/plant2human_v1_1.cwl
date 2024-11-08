@@ -14,19 +14,24 @@ requirements:
 inputs:
   # listing files
   - id: INPUT_DIRECTORY
-    doc: "query protein structure cif file directory"
+    label: "input cif file directory"
+    doc: "query protein structure cif file directory for foldseek easy-search input."
     type: Directory
     default:
       class: Directory
       location: ../out/rice_up/rice_up_mmcif/
 
   - id: FILE_MATCH_PATTERN
-    doc: "file match pattern for listing"
+    label: "file match pattern"
+    doc: "file match pattern for listing input cif files."
     type: string
     default: "*.cif"
   
   - id: FOLDSEEK_INDEX
     label: "foldseek index file"
+    doc: |
+      foldseek index file for foldseek easy-search input.
+      This index file can be retrieved by executing the `foldseek databases` command.
     type: File
     default:
       class: File
@@ -50,6 +55,8 @@ inputs:
 
   - id: OUTPUT_FILE_NAME1
     label: "output file name (foldseek easy-search)"
+    doc: "output file name for foldseek easy-search result."
+    format: edam:data_1050
     type: string
     default: "foldseek_output_uniprot_up_all_evalue01.tsv"
 
