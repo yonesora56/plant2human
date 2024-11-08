@@ -4,7 +4,7 @@ class: CommandLineTool
 cwlVersion: v1.2
 baseCommand: [foldseek, easy-search]
 arguments:
-  - $(inputs.mmcif_file)
+  - $(inputs.mmcif_files)
   - $(inputs.index)
   - $(inputs.output_file_name)
   - $(runtime.tmpdir)
@@ -23,7 +23,7 @@ arguments:
   - --taxon-list
   - $(inputs.taxonomy_id_list)
 inputs:
-  - id: mmcif_file
+  - id: mmcif_files
     type: File[]
   
   - id: index
@@ -107,7 +107,7 @@ outputs:
     type: File
     format: edam:format_3475
     outputBinding:
-      glob: "*"
+      glob: "$(inputs.output_file_name)"
 
 # outputs:
 #   - id: all

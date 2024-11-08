@@ -1,5 +1,5 @@
-# plant2human
+# plant2human workflow -Find understudied genes in plants through comparing with human-
 
 ```bash
-cwltool --debug ./Workflow/10_foldseek_main_wf.cwl
+cwltool --debug ./Workflow/plant2human_v1.cwl
 ```
