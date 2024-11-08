@@ -15,7 +15,7 @@ inputs:
       position: 1
     default:
       class: Directory
-      location: file:///workspaces/004_foldseek/out/rice_up/rice_up_mmcif/
+      location: ../out/rice_up/rice_up_mmcif/
   - id: glob_pattern
     type: string
     default: "*.cif"
@@ -26,7 +26,7 @@ outputs:
     outputBinding:
       # glob: $(inputs.glob_root.path)/$(inputs.glob_pattern)
       glob: $(inputs.glob_root.basename)/$(inputs.glob_pattern)
-stdout: listing.txt
+# stdout: listing.txt
 
 # Reference: https://zenn.dev/tom_tan/articles/568852ad644a02
 requirements:
