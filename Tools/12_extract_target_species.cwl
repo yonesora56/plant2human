@@ -16,14 +16,14 @@ inputs:
     type: File
     default:
       class: File
-      location: file:///workspaces/004_foldseek/scripts/extract_target_species.py
+      location: ../scripts/extract_target_species.py
   - id: input_file
     type: File
     format: edam:format_3475
     default:
       class: File
       format: edam:format_3475
-      location: file:///workspaces/004_foldseek/out/rice_up/foldseek_output_uniprot_up_all_evalue01.tsv
+      location: ../out/rice_up/foldseek_output_uniprot_up_all_evalue01.tsv
   - id: target_species
     type: int
     default: 9606

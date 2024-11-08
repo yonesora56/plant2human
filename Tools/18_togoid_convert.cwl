@@ -19,12 +19,12 @@ inputs:
     type: File
     default:
       class: File
-      location: file:///workspaces/004_foldseek/scripts/togoid_convert.sh
+      location: ../scripts/togoid_convert.sh
   - id: id_convert_file
     type: File
     default:
       class: File
-      location: file:///workspaces/004_foldseek/test/workflow_test/foldseek_result_hit_species.txt
+      location: ../test/workflow_test/foldseek_result_hit_species.txt
   - id: route_dataset
     type: string
     default: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
