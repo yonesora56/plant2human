@@ -47,20 +47,20 @@ inputs:
       location: file:///workspaces/004_foldseek/test/HN5_genes_up_rice.tsv
   - id: output_name
     type: string
-    default: HN5_genes_up_rice_mapping.tsv
+    default: "HN5_genes_up_rice_mapping.tsv"
   - id: column
     type: string
     doc: "Target column name containing gene IDs"
     default: From
   - id: unmapped_list_name
     type: string
-    default: HN5_genes_up_rice_unmapping_list.tsv
+    default: "HN5_genes_up_rice_unmapping_list.tsv"
   - id: from_db
     type: string
-    default: Ensembl_Genomes
+    default: "Ensembl_Genomes"
   - id: to_db
     type: string
-    default: UniProtKB
+    default: "UniProtKB"
 outputs:
   - id: idmapping_result
     type: File

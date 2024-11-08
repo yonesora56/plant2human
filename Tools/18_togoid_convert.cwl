@@ -34,5 +34,10 @@ inputs:
 outputs:
   - id: output_file
     type: File
+    format: edam:format_3475
     outputBinding:
       glob: "$(inputs.output_file_name)"
+
+$namespaces:
+  s: https://schema.org/
+  edam: http://edamontology.org/
