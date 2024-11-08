@@ -3,7 +3,7 @@ cwlVersion: v1.2
 class: Workflow
 label: "foldseek easy-search sub-workflow"
 doc: |
-  Three steps to retrieve sequence from blastdbcmd result
+  retrieve sequence from blastdbcmd result
   makeblastdb: ../Tools/14_makeblastdb.cwl
   blastdbcmd: ../Tools/15_blastdbcmd.cwl
   seqretsplit: ../Tools/16_seqretsplit.cwl
