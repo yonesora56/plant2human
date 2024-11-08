@@ -16,28 +16,33 @@ arguments:
   - --outfile=$(inputs.output_file_name)
 inputs:
   - id: target_genelist
-    doc: "Target genelist"
+    label: "Target genelist"
+    doc: "Target genelist text file"
     type: File
     default:
       class: File
       location: file:///workspaces/004_foldseek/Data/Data_HN5_genelist_rice_2402/HN5_genes_up_rice.txt
   - id: background_genelist
-    doc: "Background genelist. Ensembl Plants release 58"
+    label: "Background genelist"
+    doc: "Background genelist text file. For example, Data are retrieved from Ensembl Plants release 58."
     type: File
     default:
       class: File
       location: file:///workspaces/004_foldseek/Data/Data_ensembl/rice_all_genelist.txt
   - id: annotation_file
+    label: "Gene Ontology annotation file"
     doc: "GO annotation file. default: rice_go_annotation_r58_concatenated.tsv (Ensembl Plants release 58)"
     type: File
     default:
       class: File
       location: file:///workspaces/004_foldseek/Data/Data_ensembl/rice_go_annotation_r58_concatenated.tsv
   - id: pvalue
+    label: "P-value threshold"
     doc: "Only print results with uncorrected p-value < PVAL. Print all results, significant and otherwise, by setting --pval=1.0 (default: 0.05)"
     type: float
     default: 0.01
   - id: method
+    label: "Multiple testing correction method"
     doc: |
       "Available methods: local( bonferroni sidak holm fdr )
       statsmodels( sm_bonferroni sm_sidak holm_sidak sm_holm
@@ -46,14 +51,14 @@ inputs:
     type: string
     default: "fdr_bh"
   - id: pval_field
+    label: "P-value field"
     doc: "Only print results when PVAL_FIELD < PVAL. (default: None)"
     type: string
     default: "fdr_bh"
   - id: obo_file
+    label: "OBO formatfile"
     doc: |
-      "Specifies location and name of the obo file (default: go-basic.obo)
-      OBO foundry access: 2024/10/02
-      "
+      "Specifies location and name of the obo file (default: go-basic.obo). OBO foundry access: 2024/10/02"
     type: File
     format: edam:format_2549
     default:
@@ -61,12 +66,15 @@ inputs:
       format: edam:format_2549
       location: file:///workspaces/004_foldseek/Data/go.obo
   - id: obsolete_go
-    doc: "keep,replace,skip. Strategy for handling obsolete GO terms (default:skip)"
+    label: "Strategy for handling obsolete GO terms"
+    doc: "keep,replace,skip. (in this CWL file, default is replace)"
     type: string
     default: "replace"
   - id: output_file_name
+    label: "Output file name"
+    doc: "Output file name (default: rice_go_enrichment_up.tsv)"
     type: string
-    default: rice_go_enrichment_up.tsv
+    default: "rice_go_enrichment_up.tsv"
 outputs:
   - id: all-for-debugging
     type:
