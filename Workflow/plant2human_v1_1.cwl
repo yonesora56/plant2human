@@ -3,13 +3,7 @@ cwlVersion: v1.2
 class: Workflow
 label: "plant2human workflow"
 doc: |
-  plant2human workflow
-  listing files: ../Tools/10_listing.cwl
-  foldseek easy search: ../Tools/11_foldseek_easy_search.cwl
-  extract target species: ../Tools/12_extract_target_species.cwl
-  sub-workflow: ./11_retrieve_sequence_wf.cwl
-  togoid convert: ../Tools/18_togoid_convert.cwl
-  papermill: ../Tools/19_papermill.cwl
+  Novel gene discovery workflow by comparing plant species and model organisms with humans based on structural similarity search.
 
 requirements:
   - class: WorkReuse
