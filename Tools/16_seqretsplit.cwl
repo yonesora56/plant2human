@@ -15,7 +15,7 @@ inputs:
     default:
       class: File
       format: edam:format_1332
-      location: file:///workspaces/004_foldseek/test/workflow_test/blastdbcmd_result_query_species.fasta
+      location: ../test/workflow_test/blastdbcmd_result_query_species.fasta
   # - id: sformat1
   #   type: string
   #   doc: "sequence format"

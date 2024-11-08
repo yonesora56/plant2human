@@ -9,6 +9,7 @@ doc: |
   extract target species: ../Tools/12_extract_target_species.cwl
   sub-workflow: ./11_retrieve_sequence_wf.cwl
   togoid convert: ../Tools/18_togoid_convert.cwl
+  papermill: ../Tools/19_papermill.cwl
 
 requirements:
   - class: WorkReuse
@@ -149,6 +150,29 @@ inputs:
     type: string
     default: "foldseek_hit_species_togoid_convert.tsv"
 
+  # papermill process
+  - id: OUT_NOTEBOOK_NAME
+    label: "output notebook name (papermill)"
+    type: string
+    default: "plant2human_report.ipynb"
+
+  - id: QUERY_IDMAPPING_TSV
+    label: "query idmapping tsv (papermill)"
+    type: File
+    format: edam:format_3475
+    default:
+      class: File
+      format: edam:format_3475
+      location: ../test/workflow_test/rice_up_idmapping.tsv
+
+  - id: QUERY_GENE_LIST_TSV
+    label: "query gene list tsv (papermill)"
+    type: File
+    format: edam:format_3475
+    default:
+      class: File
+      format: edam:format_3475
+      location: ../test/workflow_test/HN5_genes_up_rice.tsv
 
 # ----------OUTPUTS----------
 outputs:
@@ -264,7 +288,14 @@ outputs:
   - id: tsvfile3
     label: "output file (togoid convert)"
     type: File
+    format: edam:format_3475
     outputSource: togoid_convert/output_file
+
+  - id: report_notebook
+    label: "output notebook (papermill)"
+    type: File
+    outputSource: papermill/report_notebook
+
 
 # ----------STEPS----------
 steps:
@@ -359,6 +390,23 @@ steps:
       output_file_name: OUTPUT_FILE_NAME3
     out:
       - output_file
+
+  papermill:
+    run: ../Tools/19_papermill.cwl
+    in:
+      report_notebook_name: OUT_NOTEBOOK_NAME
+      foldseek_result_tsv: extract_target_species/output_extract_file # workflow output
+      query_uniprot_idmapping_tsv: QUERY_IDMAPPING_TSV
+      water_result_dir: sub_workflow_retrieve_sequence_query_species/output_water_result_dir
+      needle_result_dir: sub_workflow_retrieve_sequence_query_species/output_needle_result_dir
+      query_gene_list_tsv: QUERY_GENE_LIST_TSV
+      togoid_convert_tsv: togoid_convert/output_file
+    out:
+      - report_notebook
+
+# metadata
+s:dateCreated: "2024-11-08"
+s:license: https://spdx.org/licenses/MIT
 
 $namespaces:
   s: https://schema.org/
