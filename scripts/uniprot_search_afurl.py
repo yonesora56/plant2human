@@ -1,15 +1,17 @@
 #!usr/bin/env python3
+"""
+Retrieve AlphaFold JSON data and save to directory.
+"""
 # -*- coding: utf-8 -*-
 
-
-import requests
-import json
-import polars as pl
 import time
+import json
 import argparse
 import logging
 import pathlib
 from datetime import datetime
+import requests
+import polars as pl
 
 
 def setup_logging(target_dir: str):
@@ -31,32 +33,26 @@ def get_af_json(dataframe: pl.DataFrame, target_dir: str):
     """
     pathlib.Path(target_dir).mkdir(parents=True, exist_ok=True)
     setup_logging(target_dir)
-    
     for row in dataframe.iter_rows():
         gene_id = row[0]
         uniprot_id = row[1]
-        
         json_file_name = pathlib.Path(target_dir) / f"{gene_id}_{uniprot_id}_info.json"
-        
         if json_file_name.exists():
             message_1 = f"{json_file_name} already exists"
             print(message_1)
             logging.info(message_1)
             continue
-        
         request_url = f"https://alphafold.ebi.ac.uk/api/prediction/{uniprot_id}"
-        
         try:
             response = requests.get(request_url, headers={"Accept": "application/json"}, timeout=30)
             response.raise_for_status()
-            
             if response.text:
                 data = json.loads(response.text) # parse json
                 if isinstance(data, list) and len(data) > 0:
                     message_2 = f"AlphaFold ID {uniprot_id} found in AlphaFold"
                     print(message_2)
                     logging.info(message_2)
-                    with open(json_file_name, 'w') as f:
+                    with open(json_file_name, 'w', encoding='utf-8') as f:
                         json.dump(data[0], f, indent=4)
                 else:
                     message_3 = f"AlphaFold ID {uniprot_id} not found in AlphaFold"
@@ -75,14 +71,16 @@ def get_af_json(dataframe: pl.DataFrame, target_dir: str):
             logging.warning(message_6)
         time.sleep(5)
 
-  
 def main():
-    parser = argparse.ArgumentParser(description="Retrieve AlphaFold JSON data and save to directory.")
+    """
+    Main function
+    """
+    parser = argparse.ArgumentParser(
+        description="Retrieve AlphaFold JSON data and save to directory."
+    )
     parser.add_argument("--file", type=str, help="Path to the CSV file containing the data.")
     parser.add_argument("--target_dir", type=str, help="Directory to save the JSON files.")
-    
     args = parser.parse_args()
-    
     dataframe = pl.read_csv(args.file, separator="\t")
     get_af_json(dataframe, args.target_dir)
 
