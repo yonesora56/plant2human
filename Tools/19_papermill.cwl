@@ -2,6 +2,10 @@
 # Generated from: papermill ./notebooks/foldseek_result_parse.ipynb ./plant2human_report.ipynb -p foldseek_result_tsv ./out/rice_up/foldseek_rice_up_9606.tsv -p rice_uniprot_idmapping_tsv ./out/rice_up/rice_up_idmapping.tsv -p water_result_dir_path ./out/rice_up/water_result -p needle_result_dir_path ./out/rice_up/needle_result -p gene_list_tsv_path ./Data/Data_HN5_genelist_rice_2402/HN5_genes_up_rice.tsv -p togoid_convert_tsv_path ./out/rice_up/rice_up_togoid_convert.tsv
 class: CommandLineTool
 cwlVersion: v1.2
+label: "papermill execution"
+doc: |
+  papermill execution for plant2human notebook report
+  
 
 requirements:
   ShellCommandRequirement: {}

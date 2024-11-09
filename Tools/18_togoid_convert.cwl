@@ -2,6 +2,12 @@
 # Generated from: bash ./scripts/togoid_convert.sh ./test/workflow_test/foldseek_result_hit_species.txt uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol foldseek_hit_species_togoid_convert.tsv
 class: CommandLineTool
 cwlVersion: v1.2
+label: "togoid convert"
+doc: |
+  togoid convert using TOGO ID API
+  see article: doi:10.1093/bioinformatics/btac491
+
+
 baseCommand: [bash]
 requirements:
   - class: NetworkAccess
