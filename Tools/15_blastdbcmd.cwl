@@ -46,7 +46,7 @@ inputs:
 outputs:
   - id: blastdbcmd_result
     type: File
-    format: edam:format_1332
+    format: edam:format_1929
     outputBinding:
       glob: "$(inputs.retrieve_result_file_name)"
   - id: logfile
