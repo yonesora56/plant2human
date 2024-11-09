@@ -42,9 +42,9 @@ RUN pip install \
     PyYAML==6.0.1 \ 
     requests==2.31.0 \ 
     #python-dotenv==1.0.1 \
-    polars==1.9.0 \
-    cwltool==3.1.20240708091337 \
-    cwltest==2.5.20240714110256 \
+    polars==1.12.0 \
+    cwltool==3.1.20241024121129 \
+    cwltest==2.5.20240906231108 \
     cwl_runner==1.0 \
     argparse==1.4.0 \
     #duckdb==1.0.0 \
