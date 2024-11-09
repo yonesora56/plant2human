@@ -35,20 +35,20 @@ inputs:
     type: File
     label: "input fasta file"
     doc: "input fasta file for makeblastdb. Retrieve files in advance."
-    format: edam:format_1332
+    format: edam:format_1929
     default:
       class: File
-      format: edam:format_1332
+      format: edam:format_1929
       location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta
 
   - id: PARAM_INPUT_FASTA_FILE_HIT_SPECIES
     type: File
     label: "input fasta file"
     doc: "input fasta file for makeblastdb. Retrieve files in advance."
-    format: edam:format_1332
+    format: edam:format_1929
     default:
       class: File
-      format: edam:format_1332
+      format: edam:format_1929
       location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_human_all_241107.fasta
 
   # blastdbcmd inputs
