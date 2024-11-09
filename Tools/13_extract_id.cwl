@@ -3,18 +3,22 @@
 # https://www.commonwl.org/user_guide/topics/parameter-references.html
 cwlVersion: v1.2
 class: CommandLineTool
-#baseCommand: [bash, -c]
-doc:  "awk -> sort -> uniq -> redirect to uniprot_id.txt"
+label: "extract result"
+doc:  |
+  extract result from tsv file based on taxonomy id (9606)
+  awk -> sort -> uniq -> redirect to uniprot_id.txt
 
 requirements:
   ShellCommandRequirement: {}
 
 inputs:
   - id: tsvfile
+    label: "input tsv file"
     type: File
-    doc: "input tsv file"
+    format: edam:format_3475
     default:
       class: File
+      format: edam:format_3475
       location: ../test/workflow_test/foldseek_rice_up_9606.tsv
   - id: column_number
     type: int
@@ -36,9 +40,14 @@ arguments:
 outputs:
   - id: output_file
     type: File
+    format: edam:format_3475
     outputBinding:
       glob: "$(inputs.output_file_name)"
 
 hints:
   - class: DockerRequirement
     dockerPull: quay.io/biocontainers/gawk:4.1.3--0
+
+$namespaces:
+  s: https://schema.org/
+  edam: http://edamontology.org/

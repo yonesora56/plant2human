@@ -3,7 +3,7 @@ cwlVersion: v1.2
 class: Workflow
 label: "plant2human workflow"
 doc: |
-  Novel gene discovery workflow by comparing plant species and model organisms with humans based on structural similarity search.
+  Novel gene discovery workflow by comparing plant species and human based on structural similarity search.
 
 requirements:
   - class: WorkReuse
@@ -12,7 +12,7 @@ requirements:
 
 # ----------WORKFLOW INPUTS----------
 inputs:
-  # listing files
+  # foldseek easy-search sub-workflow inputs
   - id: INPUT_DIRECTORY
     label: "input cif file directory"
     doc: "query protein structure cif file directory for foldseek easy-search input."
@@ -32,10 +32,11 @@ inputs:
     doc: |
       foldseek index file for foldseek easy-search input.
       This index file can be retrieved by executing the `foldseek databases` command.
+      example: `foldseek databases Alphafold/Swiss-Prot index_swissprot/swissprot tmp --threads 16`
     type: File
     default:
       class: File
-      location: ../index/index_uniprot/uniprot
+      location: ../index/index_swissprot/swissprot
     secondaryFiles:
       - _ca
       - _ca.dbtype
@@ -58,20 +59,23 @@ inputs:
     doc: "output file name for foldseek easy-search result."
     format: edam:data_1050
     type: string
-    default: "foldseek_output_uniprot_up_all_evalue01.tsv"
+    default: "foldseek_output_swissprot_up_all_evalue01.tsv"
 
   - id: EVALUE
     label: "e-value (foldseek easy-search)"
+    doc: "e-value threshold for foldseek easy-search. default: 0.1"
     type: double
     default: 0.1
 
   - id: THREADS
     label: "threads (foldseek easy-search)"
+    doc: "threads for foldseek easy-search. default: 16"
     type: int
     default: 16
 
   - id: SPLIT_MEMORY_LIMIT
     label: "split memory limit (foldseek easy-search)"
+    doc: "split memory limit for foldseek easy-search. default: 120G"
     type: string
     default: "120G"
 
@@ -81,7 +85,7 @@ inputs:
 
   - id: TAXONOMY_ID_LIST
     label: "taxonomy id list (foldseek easy-search)"
-    doc: "taxonomy id list. separated by comma. Be sure to set “9606”."
+    doc: "taxonomy id list. separated by comma. Be sure to set “9606”. default: 9606 (human), 10090 (mouse), 3702 (Arabidopsis), 4577 (Zea mays), 4529 (Oryza rufipogon)"
     type: string
     default: "9606,10090,3702,4577,4529"
   
@@ -90,32 +94,43 @@ inputs:
   #   default: 9606
   
   - id: OUTPUT_FILE_NAME2
+    label: "output file name (extract target species)"
+    doc: "output file name for extract target species python script."
+    format: edam:data_1050
     type: string
     default: "foldseek_rice_up_9606.tsv"
   
   - id: WF_COLUMN_NUMBER_QUERY_SPECIES
     label: "column number of query species"
+    doc: "column number of query species. default: 1"
     type: int
     default: 1
   
   - id: OUTPUT_FILE_NAME_QUERY_SPECIES
+    label: "output file name (extract query species column)"
+    doc: "output file name for extract query species column python script."
+    format: edam:data_1050
     type: string
     default: "foldseek_result_query_species.txt"
 
   - id: WF_COLUMN_NUMBER_HIT_SPECIES
     label: "column number of hit species"
+    doc: "column number of hit species. default: 2"
     type: int
     default: 2
   
   - id: OUTPUT_FILE_NAME_HIT_SPECIES
+    label: "output file name (extract hit species column)"
+    doc: "output file name for extract hit species column python script."
+    format: edam:data_1050
     type: string
     default: "foldseek_result_hit_species.txt"
 
-  # sub-workflow retrieve sequence inputs (makeblastdb)
+  # sub-workflow retrieve sequence inputs
   - id: SW_INPUT_FASTA_FILE_QUERY_SPECIES
     type: File
     label: "input fasta file (for blastdbcmd)"
-    doc: "input fasta file"
+    doc: "input fasta file for blastdbcmd. Retrieve files in advance."
     format: edam:format_1332
     default:
       class: File
@@ -125,7 +140,7 @@ inputs:
   - id: SW_INPUT_FASTA_FILE_HIT_SPECIES
     type: File
     label: "input fasta file (for blastdbcmd)"
-    doc: "input fasta file"
+    doc: "input fasta file for blastdbcmd. Retrieve files in advance."
     format: edam:format_1332
     default:
       class: File
@@ -148,17 +163,22 @@ inputs:
 
   - id: OUTPUT_FILE_NAME3
     label: "output file name (togoid convert)"
+    doc: "output file name for togoid convert python script."
+    format: edam:data_1050
     type: string
     default: "foldseek_hit_species_togoid_convert.tsv"
 
   # papermill process
   - id: OUT_NOTEBOOK_NAME
     label: "output notebook name (papermill)"
+    doc: "output notebook name for papermill."
+    format: edam:data_1050
     type: string
     default: "plant2human_report.ipynb"
 
   - id: QUERY_IDMAPPING_TSV
     label: "query idmapping tsv (papermill)"
+    doc: "query idmapping tsv file. Retrieve files in advance."
     type: File
     format: edam:format_3475
     default:
@@ -168,6 +188,7 @@ inputs:
 
   - id: QUERY_GENE_LIST_TSV
     label: "query gene list tsv (papermill)"
+    doc: "query gene list tsv file. Retrieve files in advance."
     type: File
     format: edam:format_3475
     default:
@@ -178,153 +199,168 @@ inputs:
 # ----------OUTPUTS----------
 outputs:
 
-  - id: tsvfile1
+  - id: TSVFILE1
     label: "output file (foldseek easy-search)"
+    doc: "output file for foldseek easy-search all hit result."
     type: File
     format: edam:format_3475
-    outputSource: foldseek_easy_search/all
+    outputSource: sub_workflow_foldseek_easy_search/tsvfile
 
-  - id: tsvfile2
+  - id: TSVFILE2
     label: "output file (extract target species)"
+    doc: "extract target species foldseek result file. (in this workflow, human result only)"
     type: File
     format: edam:format_3475
     outputSource: extract_target_species/output_extract_file
   
-  - id: idlist1
+  - id: IDLIST1
     label: "output file (extract query species column)"
+    doc: "extract query species column UniProt ID list file."
     type: File
     outputSource: extract_query_species_column/output_file
 
-  - id: idlist2
+  - id: IDLIST2
     label: "output file (extract hit species column)"
+    doc: "extract hit species column UniProt ID list file."
     type: File
     format: edam:format_3475
     outputSource: extract_hit_species_column/output_file
   
   # sub-workflow retrieve sequence outputs (makeblastdb)
-  - id: index_dir1
+  - id: INDEX_DIR1
     label: "index directory (query species)"
+    doc: "index directory for query species."
     type: Directory
     outputSource: sub_workflow_retrieve_sequence_query_species/output_index_dir_query_species
 
-  - id: index_files1
-    label: "index file (query species)"
+  - id: INDEX_FILES1
+    label: "index files (query species)"
+    doc: "index files for query species."
     type: File
     outputSource: sub_workflow_retrieve_sequence_query_species/output_index_file_query_species
 
-  - id: index_dir2
+  - id: INDEX_DIR2
     label: "index directory (hit species)"
+    doc: "index directory for hit species."
     type: Directory
     outputSource: sub_workflow_retrieve_sequence_query_species/output_index_dir_hit_species
 
-  - id: index_files2
-    label: "index file (hit species)"
+  - id: INDEX_FILES2
+    label: "index files (hit species)"
+    doc: "index files for hit species."
     type: File
     outputSource: sub_workflow_retrieve_sequence_query_species/output_index_file_hit_species
 
   # sub-workflow retrieve sequence outputs (blastdbcmd)
-  - id: blastdbcmd_result1
+  - id: BLASTDBCMD_RESULT1
     label: "blastdbcmd result (query species)"
+    doc: "blastdbcmd result file for query species."
     type: File
     outputSource: sub_workflow_retrieve_sequence_query_species/output_blastdbcmd_result_query_species
 
-  - id: blastdbcmd_result2
+  - id: BLASTDBCMD_RESULT2
     label: "blastdbcmd result (hit species)"
+    doc: "blastdbcmd result file for hit species."
     type: File
     outputSource: sub_workflow_retrieve_sequence_query_species/output_blastdbcmd_result_hit_species
 
-  - id: logfile1
+  - id: LOGFILE1
     label: "logfile (blastdbcmd query species)"
+    doc: "logfile for blastdbcmd query species."
     type: File
     outputSource: sub_workflow_retrieve_sequence_query_species/output_logfile_query_species
 
-  - id: logfile2
+  - id: LOGFILE2
     label: "logfile (blastdbcmd hit species)"
+    doc: "logfile for blastdbcmd hit species."
     type: File
     outputSource: sub_workflow_retrieve_sequence_query_species/output_logfile_hit_species
 
   # sub-workflow retrieve sequence outputs (seqretsplit)
-  - id: dir1
+  - id: DIR1
     label: "directory (seqretsplit query species)"
+    doc: "directory for seqretsplit query species."
     type: Directory
     outputSource: sub_workflow_retrieve_sequence_query_species/output_dir_query_species
 
-  - id: fasta_files1
+  - id: FASTA_FILES1
     label: "split fasta files (seqretsplit query species)"
+    doc: "split fasta files for seqretsplit query species."
     type: File[]
     outputSource: sub_workflow_retrieve_sequence_query_species/output_split_fasta_files_query_species
 
-  - id: dir2
+  - id: DIR2
     label: "directory (seqretsplit hit species)"
+    doc: "directory for seqretsplit hit species."
     type: Directory
     outputSource: sub_workflow_retrieve_sequence_query_species/output_dir_hit_species
 
-  - id: fasta_files2
+  - id: FASTA_FILES2
     label: "split fasta files (seqretsplit hit species)"
+    doc: "split fasta files for seqretsplit hit species."
     type: File[]
     outputSource: sub_workflow_retrieve_sequence_query_species/output_split_fasta_files_hit_species
 
   # sub-workflow retrieve sequence outputs (needle)
-  - id: dir3
+  - id: DIR3
     label: "needle result directory"
+    doc: "needle result directory."
     type: Directory
     outputSource: sub_workflow_retrieve_sequence_query_species/output_needle_result_dir
 
-  - id: needle
+  - id: NEEDLE_RESULT_FILE
     label: "needle result file (.needle)"
+    doc: "needle result files. suffix is .needle."
     type: File[]
     outputSource: sub_workflow_retrieve_sequence_query_species/output_needle_result_file
 
   # sub-workflow retrieve sequence outputs (water)
-  - id: dir4
+  - id: DIR4
     label: "water result directory"
+    doc: "water result directory."
     type: Directory
     outputSource: sub_workflow_retrieve_sequence_query_species/output_water_result_dir
 
-  - id: water
+  - id: WATER_RESULT_FILE
     label: "water result file (.water)"
+    doc: "water result files. suffix is .water."
     type: File[]
     outputSource: sub_workflow_retrieve_sequence_query_species/output_water_result_file
 
-  - id: tsvfile3
+  - id: TSVFILE3
     label: "output file (togoid convert)"
+    doc: "output file for togoid convert."
     type: File
     format: edam:format_3475
     outputSource: togoid_convert/output_file
 
-  - id: report_notebook
+  - id: REPORT_NOTEBOOK
     label: "output notebook (papermill)"
+    doc: "output notebook using papermill."
     type: File
     outputSource: papermill/report_notebook
 
 
 # ----------STEPS----------
 steps:
-  list_files:
-    run: ../Tools/10_listing.cwl
+  sub_workflow_foldseek_easy_search:
+    run: ./10_foldseek_easy_search_wf.cwl
     in:
-      glob_root: INPUT_DIRECTORY
-      glob_pattern: FILE_MATCH_PATTERN
+      INPUT_DIRECTORY: INPUT_DIRECTORY
+      FILE_MATCH_PATTERN: FILE_MATCH_PATTERN
+      FOLDSEEK_INDEX: FOLDSEEK_INDEX
+      OUTPUT_FILE_NAME1: OUTPUT_FILE_NAME1
+      EVALUE: EVALUE
+      THREADS: THREADS
+      SPLIT_MEMORY_LIMIT: SPLIT_MEMORY_LIMIT
+      TAXONOMY_ID_LIST: TAXONOMY_ID_LIST
     out:
-      - files
-
-  foldseek_easy_search:
-    run: ../Tools/11_foldseek_easy_search.cwl
-    in:
-      mmcif_files: list_files/files # workflow input
-      index: FOLDSEEK_INDEX
-      output_file_name: OUTPUT_FILE_NAME1
-      e_value: EVALUE
-      threads: THREADS
-      split_memory_limit: SPLIT_MEMORY_LIMIT
-      taxonomy_id_list: TAXONOMY_ID_LIST
-    out:
-      - all
+      - tsvfile
 
   extract_target_species:
     run: ../Tools/12_extract_target_species.cwl
     in:
-      input_file: foldseek_easy_search/all # workflow output
+      input_file: sub_workflow_foldseek_easy_search/tsvfile # workflow input
       output_file_name: OUTPUT_FILE_NAME2
     out:
       - output_extract_file
@@ -332,7 +368,7 @@ steps:
   extract_query_species_column:
     run: ../Tools/13_extract_id.cwl
     in:
-      tsvfile: extract_target_species/output_extract_file # workflow output
+      tsvfile: extract_target_species/output_extract_file # workflow input
       column_number: WF_COLUMN_NUMBER_QUERY_SPECIES
       output_file_name: OUTPUT_FILE_NAME_QUERY_SPECIES
     out:
@@ -341,7 +377,7 @@ steps:
   extract_hit_species_column:
     run: ../Tools/13_extract_id.cwl
     in:
-      tsvfile: extract_target_species/output_extract_file # workflow output
+      tsvfile: extract_target_species/output_extract_file # workflow input
       column_number: WF_COLUMN_NUMBER_HIT_SPECIES
       output_file_name: OUTPUT_FILE_NAME_HIT_SPECIES
     out: 
@@ -351,18 +387,19 @@ steps:
     run: ./11_retrieve_sequence_wf.cwl
     doc: |
       "
-      ../Tools/14_makeblastdb.cwl
-      ../Tools/15_blastdbcmd.cwl
-      ../Tools/16_seqretsplit.cwl
-      ../Tools/17_needle.cwl
-      ../Tools/18_water.cwl
+      retrieve sequence from blastdbcmd result
+      makeblastdb: ../Tools/14_makeblastdb.cwl
+      blastdbcmd: ../Tools/15_blastdbcmd.cwl
+      seqretsplit: ../Tools/16_seqretsplit.cwl
+      needle (Global alignment): ../Tools/17_needle.cwl
+      water (Local alignment): ../Tools/17_water.cwl
       "
     in:
       PARAM_INPUT_FASTA_FILE_QUERY_SPECIES: SW_INPUT_FASTA_FILE_QUERY_SPECIES
       PARAM_INPUT_FASTA_FILE_HIT_SPECIES: SW_INPUT_FASTA_FILE_HIT_SPECIES
-      PARAM_ENTRY_BATCH_QUERY_SPECIES: extract_query_species_column/output_file # workflow output
-      PARAM_ENTRY_BATCH_HIT_SPECIES: extract_hit_species_column/output_file # workflow output
-      PARAM_FOLDSEEK_EXTRACT_TSV: extract_target_species/output_extract_file # workflow output
+      PARAM_ENTRY_BATCH_QUERY_SPECIES: extract_query_species_column/output_file # workflow input
+      PARAM_ENTRY_BATCH_HIT_SPECIES: extract_hit_species_column/output_file # workflow input
+      PARAM_FOLDSEEK_EXTRACT_TSV: extract_target_species/output_extract_file # workflow input
       PARAM_ALIGNMENT_QUERY_COL_NUM: WF_COLUMN_NUMBER_QUERY_SPECIES
       PARAM_ALIGNMENT_TARGET_COL_NUM: WF_COLUMN_NUMBER_HIT_SPECIES
     out:
@@ -386,7 +423,7 @@ steps:
   togoid_convert:
     run: ../Tools/18_togoid_convert.cwl
     in:
-      id_convert_file: extract_hit_species_column/output_file # workflow output
+      id_convert_file: extract_hit_species_column/output_file # workflow input
       route_dataset: ROUTE_DATASET
       output_file_name: OUTPUT_FILE_NAME3
     out:
@@ -396,7 +433,7 @@ steps:
     run: ../Tools/19_papermill.cwl
     in:
       report_notebook_name: OUT_NOTEBOOK_NAME
-      foldseek_result_tsv: extract_target_species/output_extract_file # workflow output
+      foldseek_result_tsv: extract_target_species/output_extract_file # workflow input
       query_uniprot_idmapping_tsv: QUERY_IDMAPPING_TSV
       water_result_dir: sub_workflow_retrieve_sequence_query_species/output_water_result_dir
       needle_result_dir: sub_workflow_retrieve_sequence_query_species/output_needle_result_dir
