@@ -4,6 +4,7 @@ class: Workflow
 label: "foldseek easy-search workflow"
 doc: |
   foldseek easy-search workflow
+  listing files and foldseek easy-search process
 
 requirements:
   - class: WorkReuse
@@ -13,6 +14,7 @@ requirements:
 inputs:
   # listing files
   - id: INPUT_DIRECTORY
+    label: "input cif file directory"
     doc: "query protein structure cif file directory"
     type: Directory
     default:
@@ -20,16 +22,18 @@ inputs:
       location: ../out/rice_up/rice_up_mmcif/
 
   - id: FILE_MATCH_PATTERN
-    doc: "file match pattern for listing"
+    label: "file match pattern"
+    doc: "file match pattern for listing. e.g. *.cif"
     type: string
     default: "*.cif"
   
   - id: FOLDSEEK_INDEX
     label: "foldseek index file"
+    doc: "Foldseek index file for searching"
     type: File
     default:
       class: File
-      location: ../index/index_uniprot/uniprot
+      location: ../index/index_swissprot/swissprot
     secondaryFiles:
       - _ca
       - _ca.dbtype
@@ -49,35 +53,43 @@ inputs:
 
   - id: OUTPUT_FILE_NAME1
     label: "output file name (foldseek easy-search)"
+    doc: "output file name for foldseek easy-search result (tsv format)"
     type: string
-    default: "foldseek_output_uniprot_up_all_evalue01.tsv"
+    default: "foldseek_output_swissprot_up_all_evalue01.tsv"
 
   - id: EVALUE
-    label: "e-value (foldseek easy-search)"
+    label: "e-value"
+    doc: "e-value threshold for foldseek easy-search"
     type: double
     default: 0.1
 
   - id: FORMAT_MODE
-    label: "format mode (foldseek easy-search)"
+    label: "format mode"
+    doc: "format mode for foldseek easy-search"
     type: int
     default: 4
 
   - id: FORMAT_OUTPUT
-    label: "format output (foldseek easy-search)"
+    label: "format output"
+    doc: "format output for foldseek easy-search. separated by comma. e.g. query,target..."
     type: string
     default: "query,target,evalue,prob,gapopen,pident,fident,nident,qstart,qend,qlen,tstart,tend,tlen,alnlen,qcov,tcov,lddt,qtmscore,ttmscore,alntmscore,rmsd,taxid,taxname,taxlineage,qaln,taln,mismatch,lddtfull"
 
   - id: THREADS
-    label: "threads (foldseek easy-search)"
+    label: "threads"
+    doc: "threads for foldseek easy-search"
     type: int
     default: 16
 
   - id: SPLIT_MEMORY_LIMIT
-    label: "split memory limit (foldseek easy-search)"
+    label: "split memory limit"
+    doc: "split memory limit for foldseek easy-search"
     type: string
     default: "120G"
 
   - id: PARAM_INPUT_FORMAT
+    label: "input file format"
+    doc: "input file format for foldseek easy-search. 0: Auto-detect by extension, 1: PDB, 2: mmCIF, 3: mmJSON, 4: ChemComp, 5: Foldcomp in this workflow default: 2"
     type: int
     default: 2
 
@@ -93,6 +105,7 @@ outputs:
 
   - id: tsvfile
     label: "output file (foldseek easy-search)"
+    doc: "output file for foldseek easy-search result (tsv format)"
     type: File
     format: edam:format_3475
     outputSource: foldseek_easy_search/all

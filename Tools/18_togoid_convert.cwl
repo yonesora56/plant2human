@@ -16,20 +16,29 @@ arguments:
   - $(inputs.output_file_name)
 inputs:
   - id: togoid_convert_script
+    label: "togoid convert script"
+    doc: "togoid convert shell script. using TOGO ID API."
     type: File
     default:
       class: File
       location: ../scripts/togoid_convert.sh
   - id: id_convert_file
+    label: "id convert file"
+    doc: "target id file. default: UniProt ID list."
     type: File
     default:
       class: File
       location: ../test/workflow_test/foldseek_result_hit_species.txt
   - id: route_dataset
+    label: "route dataset"
+    doc: "route dataset for togoid convert."
     type: string
     default: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
   - id: output_file_name
     type: string
+    label: "output file name (togoid convert)"
+    doc: "output file name for togoid convert python script."
+    format: edam:data_1050
     default: "foldseek_hit_species_togoid_convert.tsv"
 outputs:
   - id: output_file

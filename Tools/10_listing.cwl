@@ -1,22 +1,22 @@
 #!/usr/bin/env cwl-runner
 cwlVersion: v1.2
 class: CommandLineTool
+label: "Listing files"
 doc: |
-  "
   List files in a directory for foldseek easy-search process.
   e.g. ../Data/rice_up_mmCIFfile/*.cif
-  Reference: https://qiita.com/kyusque/items/a291fd251a10f783390e#3-glob%E7%94%A8%E3%81%AEclt%E3%82%92%E4%BD%BF%E3%81%86
-  "
+
+# Reference: https://qiita.com/kyusque/items/a291fd251a10f783390e#3-glob%E7%94%A8%E3%81%AEclt%E3%82%92%E4%BD%BF%E3%81%86
 baseCommand: [ls]
 inputs:
   - id: glob_root
+    label: "Root directory"
     type: Directory
-    inputBinding:
-      position: 1
     default:
       class: Directory
       location: ../out/rice_up/rice_up_mmcif/
   - id: glob_pattern
+    label: "File pattern"
     type: string
     default: "*.cif"
 

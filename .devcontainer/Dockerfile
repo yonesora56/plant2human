@@ -60,6 +60,12 @@ RUN pipx install benten==2021.1.5
 RUN python3 -m ipykernel install --user --name=python3 
 RUN jupyter notebook --generate-config
 
+# install zatsu-cwl-generator
+ARG zatsu_ver=v1.1.1
+RUN curl -fLSs https://github.com/tom-tan/zatsu-cwl-generator/releases/download/${zatsu_ver}/zatsu-cwl-generator-${zatsu_ver}-linux-x86_64.tar.xz | \
+    tar Jxvf - && \
+    mv zatsu-cwl-generator /usr/local/bin
+
 #install fasta36
 # ARG fasta36_ver="fasta-36.3.8i"
 # RUN curl -fLSs -o ${fasta36_ver}.tar.gz https://fasta.bioch.virginia.edu/wrpearson/fasta/fasta36/${fasta36_ver}.tar.gz && \
@@ -72,14 +78,8 @@ RUN jupyter notebook --generate-config
 #     cd / && \
 #     rm -rf ${fasta36_ver} ${fasta36_ver}.tar.gz
 
-# install zatsu-cwl-generator
-ARG zatsu_ver=v1.1.1
-RUN curl -fLSs https://github.com/tom-tan/zatsu-cwl-generator/releases/download/${zatsu_ver}/zatsu-cwl-generator-${zatsu_ver}-linux-x86_64.tar.xz | \
-    tar Jxvf - && \
-    mv zatsu-cwl-generator /usr/local/bin
-
 #install foldseek (Linux arm64) 2024-08-04 download from mmseqs.com
-RUN curl -fLSs https://mmseqs.com/foldseek/foldseek-linux-arm64.tar.gz | \
-    tar zxvf - -C /usr/local && \
-    ln -s /usr/local/foldseek/bin/* /usr/local/bin/
+# RUN curl -fLSs https://mmseqs.com/foldseek/foldseek-linux-arm64.tar.gz | \
+#     tar zxvf - -C /usr/local && \
+#     ln -s /usr/local/foldseek/bin/* /usr/local/bin/
 
