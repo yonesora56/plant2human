@@ -158,6 +158,7 @@ inputs:
   # togoid convert process
   - id: ROUTE_DATASET
     label: "route dataset (togoid convert)"
+    doc: "route dataset for togoid convert. default: uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
     type: string
     default: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
 
