@@ -435,14 +435,22 @@ steps:
       report_notebook_name: OUT_NOTEBOOK_NAME
       foldseek_result_tsv: extract_target_species/output_extract_file # workflow input
       query_uniprot_idmapping_tsv: QUERY_IDMAPPING_TSV
-      water_result_dir: sub_workflow_retrieve_sequence_query_species/output_water_result_dir
-      needle_result_dir: sub_workflow_retrieve_sequence_query_species/output_needle_result_dir
-      query_gene_list_tsv: QUERY_GENE_LIST_TSV
-      togoid_convert_tsv: togoid_convert/output_file
+      water_result_dir: sub_workflow_retrieve_sequence_query_species/output_water_result_dir # workflow input
+      needle_result_dir: sub_workflow_retrieve_sequence_query_species/output_needle_result_dir # workflow input
+      query_gene_list_tsv: QUERY_GENE_LIST_TSV 
+      togoid_convert_tsv: togoid_convert/output_file # workflow input
     out:
       - report_notebook
 
 # metadata
+s:author:
+  - class: s:Person
+    s:identifier: https://orcid.org/0009-0004-1874-3117
+    s:email: d246887@hiroshima-u.ac.jp
+    s:name: Sora Yonezawa
+
+
+s:codeRepository: https://github.com/yonesora56/plant2human
 s:dateCreated: "2024-11-08"
 s:license: https://spdx.org/licenses/MIT
 
