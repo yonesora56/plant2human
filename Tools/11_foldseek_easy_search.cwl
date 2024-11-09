@@ -2,6 +2,11 @@
 # Generated from: foldseek easy-search ../Data/rice_up_mmCIFfile/*.cif ../index/index_uniprot/uniprot ../out/foldseek_output_uniprot_up_all_evalue01.tsv ../tmp -e 0.1 --format-mode 4 --format-output query,target,evalue,prob,gapopen,pident,fident,nident,qstart,qend,qlen,tstart,tend,tlen,alnlen,qcov,tcov,lddt,qtmscore,ttmscore,alntmscore,rmsd,taxid,taxname,taxlineage,qaln,taln,mismatch,lddtfull --threads 10 --split-memory-limit 60G
 class: CommandLineTool
 cwlVersion: v1.2
+label: "Foldseek easy-search"
+doc: |
+  Foldseek easy-search process
+
+
 baseCommand: [foldseek, easy-search]
 arguments:
   - $(inputs.mmcif_files)
@@ -24,13 +29,17 @@ arguments:
   - $(inputs.taxonomy_id_list)
 inputs:
   - id: mmcif_files
+    label: "mmCIF files"
     type: File[]
   
   - id: index
+    label: "Foldseek index file"
+    doc: |
+      Foldseek index file for searching
     type: File
     default:
       class: File
-      location: ../index/index_uniprot/uniprot
+      location: ../index/index_swissprot/swissprot
     secondaryFiles:
       - _ca
       - _ca.dbtype
@@ -49,18 +58,25 @@ inputs:
       - .version
   
   - id: output_file_name
+    label: "Output file name"
+    format: edam:data_1050
+    doc: |
+      Output file name for search results name (tsv format)
     type: string
-    default: "foldseek_output_uniprot_up_all_evalue01.tsv"
+    default: "foldseek_output_swissprot_up_all_evalue01.tsv"
 
   - id: e_value
+    label: "E-value"
+    doc: |
+      E-value threshold for search results
     type: double
     default: 0.1
 
   - id: format_mode
+    label: "Format mode"
     doc: |
-      "
       see foldseek easy-search --help
-      Output format:
+      Output format list:
       0: BLAST-TAB
       1: SAM
       2: BLAST-TAB + query/db length
@@ -69,24 +85,26 @@ inputs:
       5: Calpha only PDB super-posed to query
       BLAST-TAB (0) and BLAST-TAB + column headers (4)support custom output formats (--format-output)
       (5) Superposed PDB files (Calpha only) [0]
-      "
     type: int
     default: 4
 
   - id: format_output
+    label: "Format output"
     type: string
     default: "query,target,evalue,prob,gapopen,pident,fident,nident,qstart,qend,qlen,tstart,tend,tlen,alnlen,qcov,tcov,lddt,qtmscore,ttmscore,alntmscore,rmsd,taxid,taxname,taxlineage,qaln,taln,mismatch,lddtfull"
   - id: threads
+    label: "Threads"
     type: int
     default: 16
 
   - id: split_memory_limit
+    label: "Split memory limit"
     type: string
     default: 120G
   
   - id: input_file_format
+    label: "Input file format"
     doc: |
-      "
       Format of input structures:
       0: Auto-detect by extension
       1: PDB
@@ -94,30 +112,27 @@ inputs:
       3: mmJSON
       4: ChemComp
       5: Foldcomp [0]
-      "
+    
     type: int
     default: 2
 
   - id: taxonomy_id_list
+    label: "Taxonomy ID list"
+    doc: |
+      Taxonomy ID list for filtering search results
+      e.g. "9606,10090,3702,4577,4529"
     type: string
     default: "9606,10090,3702,4577,4529"
 
 outputs:
   - id: all
+    label: "Output file"
+    doc: |
+      Output file for search results (tsv format)
     type: File
     format: edam:format_3475
     outputBinding:
       glob: "$(inputs.output_file_name)"
-
-# outputs:
-#   - id: all
-#     type:
-#       type: array
-#       items:
-#         - File
-#         - Directory
-#     outputBinding:
-#       glob: "*"
 
 hints:
   - class: DockerRequirement
