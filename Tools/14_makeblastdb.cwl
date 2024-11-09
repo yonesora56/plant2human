@@ -16,11 +16,11 @@ inputs:
     default: index_uniprot_rice
   - id: input_fasta_file
     type: File
-    format: edam:format_1332
+    format: edam:format_1929
     doc: "input fasta file"
     default:
       class: File
-      format: edam:format_1332
+      format: edam:format_1929
       location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta
   # - id: output_index_name
   #   type: string

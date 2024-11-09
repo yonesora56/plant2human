@@ -131,20 +131,20 @@ inputs:
     type: File
     label: "input fasta file (for blastdbcmd)"
     doc: "input fasta file for blastdbcmd. Retrieve files in advance."
-    format: edam:format_1332
+    format: edam:format_1929
     default:
       class: File
-      format: edam:format_1332
+      format: edam:format_1929
       location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta
 
   - id: SW_INPUT_FASTA_FILE_HIT_SPECIES
     type: File
     label: "input fasta file (for blastdbcmd)"
     doc: "input fasta file for blastdbcmd. Retrieve files in advance."
-    format: edam:format_1332
+    format: edam:format_1929
     default:
       class: File
-      format: edam:format_1332
+      format: edam:format_1929
       location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_human_all_241107.fasta
 
   # - id: SW_ALIGNMENT_QUERY_COL_NUM
@@ -223,7 +223,6 @@ outputs:
     label: "output file (extract hit species column)"
     doc: "extract hit species column UniProt ID list file."
     type: File
-    format: edam:format_3475
     outputSource: extract_hit_species_column/output_file
   
   # sub-workflow retrieve sequence outputs (makeblastdb)
@@ -256,12 +255,14 @@ outputs:
     label: "blastdbcmd result (query species)"
     doc: "blastdbcmd result file for query species."
     type: File
+    format: edam:format_1929
     outputSource: sub_workflow_retrieve_sequence_query_species/output_blastdbcmd_result_query_species
 
   - id: BLASTDBCMD_RESULT2
     label: "blastdbcmd result (hit species)"
     doc: "blastdbcmd result file for hit species."
     type: File
+    format: edam:format_1929
     outputSource: sub_workflow_retrieve_sequence_query_species/output_blastdbcmd_result_hit_species
 
   - id: LOGFILE1
@@ -287,6 +288,7 @@ outputs:
     label: "split fasta files (seqretsplit query species)"
     doc: "split fasta files for seqretsplit query species."
     type: File[]
+    format: edam:format_1929
     outputSource: sub_workflow_retrieve_sequence_query_species/output_split_fasta_files_query_species
 
   - id: DIR2
@@ -299,6 +301,7 @@ outputs:
     label: "split fasta files (seqretsplit hit species)"
     doc: "split fasta files for seqretsplit hit species."
     type: File[]
+    format: edam:format_1929
     outputSource: sub_workflow_retrieve_sequence_query_species/output_split_fasta_files_hit_species
 
   # sub-workflow retrieve sequence outputs (needle)

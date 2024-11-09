@@ -11,10 +11,10 @@ inputs:
   - id: sequence
     type: File
     doc: "sequence file"
-    format: edam:format_1332
+    format: edam:format_1929
     default:
       class: File
-      format: edam:format_1332
+      format: edam:format_1929
       location: ../test/workflow_test/blastdbcmd_result_query_species.fasta
   # - id: sformat1
   #   type: string
