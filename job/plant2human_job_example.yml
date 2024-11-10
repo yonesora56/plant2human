@@ -1,0 +1,52 @@
+QUERY_GENE_LIST_TSV:  # default value of type 'File'.
+    class: File
+    format: http://edamontology.org/format_3475
+    location: file:///workspaces/plant2human/test/workflow_test/HN5_genes_up_rice.tsv
+
+# ----------OUTPUTS----------
+QUERY_IDMAPPING_TSV:  # default value of type 'File'.
+    class: File
+    format: http://edamontology.org/format_3475
+    location: file:///workspaces/plant2human/test/workflow_test/rice_up_idmapping.tsv
+
+OUT_NOTEBOOK_NAME: "plant2human_report.ipynb"  # default value of type 'string'.
+OUTPUT_FILE_NAME3: "foldseek_hit_species_togoid_convert.tsv"  # default value of type 'string'.
+ROUTE_DATASET: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"  # default value of type 'string'.
+SW_INPUT_FASTA_FILE_HIT_SPECIES:  # default value of type 'File'.
+    class: File
+    format: http://edamontology.org/format_1929
+    location: 
+        file:///workspaces/plant2human/Data/Data_uniprot/FASTA_for_index/uniprotkb_human_all_241107.fasta
+
+  # - id: SW_ALIGNMENT_QUERY_COL_NUM
+  #   type: int
+  #   default: 1
+
+  # - id: SW_PARAM_ALIGNMENT_TARGET_COL_NUM
+  #   type: int
+  #   default: 2
+  # togoid convert process
+SW_INPUT_FASTA_FILE_QUERY_SPECIES:  # default value of type 'File'.
+    class: File
+    format: http://edamontology.org/format_1929
+    location: 
+        file:///workspaces/plant2human/Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta
+
+OUTPUT_FILE_NAME_HIT_SPECIES: "foldseek_result_hit_species.txt"  # default value of type 'string'.
+WF_COLUMN_NUMBER_HIT_SPECIES: 2  # default value of type 'int'.
+OUTPUT_FILE_NAME_QUERY_SPECIES: "foldseek_result_query_species.txt"  # default value of type 'string'.
+WF_COLUMN_NUMBER_QUERY_SPECIES: 1  # default value of type 'int'.
+OUTPUT_FILE_NAME2: "foldseek_rice_up_9606.tsv"  # default value of type 'string'.
+TAXONOMY_ID_LIST: "9606,10090,3702,4577,4529"  # default value of type 'string'.
+SPLIT_MEMORY_LIMIT: "120G"  # default value of type 'string'.
+THREADS: 16  # default value of type 'int'.
+EVALUE: 0.1  # default value of type 'double'.
+OUTPUT_FILE_NAME1: "foldseek_output_swissprot_up_all_evalue01.tsv"  # default value of type 'string'.
+FOLDSEEK_INDEX:  # default value of type 'File'.
+    class: File
+    location: file:///workspaces/plant2human/index/index_swissprot/swissprot
+FILE_MATCH_PATTERN: "*.cif"  # default value of type 'string'.
+INPUT_DIRECTORY:  # default value of type 'Directory'.
+    class: Directory
+    location: file:///workspaces/plant2human/out/rice_up/rice_up_mmcif/
+
