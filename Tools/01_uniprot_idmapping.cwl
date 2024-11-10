@@ -10,8 +10,7 @@ requirements:
   NetworkAccess:
     networkAccess: true
   WorkReuse:
-    enableReuse: true
-  # enableReuse: false
+    enableReuse: false
 
 inputs:
   - id: notebook_path
@@ -34,6 +33,7 @@ inputs:
     type: File
     label: "gene id file"
     doc: "gene id file. default: ../Data/Data_HN5_genelist_rice_2402/HN5_genes_up_rice.tsv"
+    format: edam:format_3475
     default:
       class: File
       format: edam:format_3475
