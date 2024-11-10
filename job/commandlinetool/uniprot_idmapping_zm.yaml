@@ -1,0 +1,18 @@
+unmapped_file_name: "zm_test_unmapped.tsv"  # default value of type 'string'.
+id_mapping_all_file_name: "zm_test_idmapping_all.tsv"  # default value of type 'string'.
+structure_dir_name: "zm_test_mmcif"  # default value of type 'string'.
+data_url: "cifUrl"  # default value of type 'string'.
+json_dir_name: "zm_test_afinfo_json"  # default value of type 'string'.
+uniprot_api_target_db: "UniProtKB"  # default value of type 'string'.
+uniprot_api_query_db: "Ensembl_Genomes"  # default value of type 'string'.
+gene_id_file:  # default value of type 'File'.
+    class: File
+    format: http://edamontology.org/format_3475
+    location: 
+        file:///workspaces/plant2human/Data/Data_HN5_genelist_rice_2402/HN5_genes_up_rice.tsv
+
+
+output_notebook_name: "zm_test_uniprot_idmapping.ipynb"  # default value of type 'string'.
+# notebook_path:  # default value of type 'File'.
+#     class: File
+#     location: file:///workspaces/plant2human/notebooks/uniprot_idmapping.ipynb
