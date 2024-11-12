@@ -76,11 +76,11 @@ inputs:
     doc: "id mapping all file name. default: rice_up_idmapping_all.tsv"
     default: "rice_up_idmapping_all.tsv"
 
-  - id: unmapped_file_name
-    type: string
-    label: "unmapped file name"
-    doc: "unmapped file name in id mapping process. default: rice_up_unmapped.tsv"
-    default: "rice_up_unmapped.tsv"
+  # - id: unmapped_file_name
+  #   type: string
+  #   label: "unmapped file name"
+  #   doc: "unmapped file name in id mapping process. default: rice_up_unmapped.tsv"
+  #   default: "rice_up_unmapped.tsv"
 
 arguments:
   - shellQuote: false
@@ -92,8 +92,7 @@ arguments:
       -p json_dir $(inputs.json_dir_name) \
       -p data_url $(inputs.data_url) \
       -p structure_dir $(inputs.structure_dir_name) \
-      -p id_mapping_all_file $(inputs.id_mapping_all_file_name) \
-      -p unmapped_file $(inputs.unmapped_file_name)
+      -p id_mapping_all_file $(inputs.id_mapping_all_file_name)
 
 outputs:
   - id: output_notebook
@@ -137,13 +136,6 @@ outputs:
     doc: "id mapping all file"
     outputBinding:
       glob: "$(inputs.id_mapping_all_file_name)"
-
-  - id: unmapped_file
-    type: File
-    label: "unmapped file"
-    doc: "unmapped file"
-    outputBinding:
-      glob: "$(inputs.unmapped_file_name)"
 
 $namespaces:
   s: https://schema.org/
