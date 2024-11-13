@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:13
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/a6nht5.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_a6nht5_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_a6nht5_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: A6NHT5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 270
+# Identity:      65/270 (24.1%)
+# Similarity:    89/270 (33.0%)
+# Gaps:          99/270 (36.7%)
+# Score: 117.5
+# 
+#
+#=======================================
+
+Q5VPE3            26 SSPGAG--------------------SSSPWAAAL-NSIVGDVRRDQAAA     54
+                     |||.:|                    |.||....| .|...:.:::..||
+A6NHT5           143 SSPASGTDRDSPEPLLKADPDHKELDSKSPDEIILEESDSEESKKEGEAA    192
+
+Q5VPE3            55 HAAAAVGVGV-----GGEEMYQGRASTSPDSAAALSSASGKRERELERSG     99
+                     ..||...||.     |.|:..:|  :.||:...|..              
+A6NHT5           193 PGAAGASVGAAAATPGAEDWKKG--AESPEKKPACR--------------    226
+
+Q5VPE3           100 SGVDDDDGADGAGGRKKLR--LSKDQAAVLEECFKTHSTLNPKQKVALAN    147
+                                   :||.|  .|:.|...||..|.....|:..::..||.
+A6NHT5           227 --------------KKKTRTVFSRSQVFQLESTFDMKRYLSSSERAGLAA    262
+
+Q5VPE3           148 RLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKEL    197
+                     .|.|...||::||||||               .:|..:||          
+A6NHT5           263 SLHLTETQVKIWFQNRR---------------NKWKRQLA----------    287
+
+Q5VPE3           198 ADLRALKAAPSPASASAMQP----SSSAAATLTMCPSCRRVATAGAP---    240
+                     |:|.|...:.:.|......|    .:|||....       .|.||||   
+A6NHT5           288 AELEAANLSHAAAQRIVRVPILYHENSAAEGAA-------AAAAGAPVPV    330
+
+Q5VPE3           241 HQPNHQQCHP--KSNTTISS    258
+                     .||.....||  .|:..:||
+A6NHT5           331 SQPLLTFPHPVYYSHPVVSS    350
+
+
+#---------------------------------------
+#---------------------------------------

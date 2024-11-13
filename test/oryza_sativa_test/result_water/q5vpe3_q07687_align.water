@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:15
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q07687.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_q07687_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_q07687_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q07687
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 313
+# Identity:      82/313 (26.2%)
+# Similarity:   113/313 (36.1%)
+# Gaps:          93/313 (29.7%)
+# Score: 135.0
+# 
+#
+#=======================================
+
+Q5VPE3            17 SLTSSTTTTSS----------PGAGSSSPW---------AAALNSIVGDV     47
+                     :|..||.|.||          .|.|..||:         |:.||::....
+Q07687            55 TLPVSTATDSSYYTNQQHPAGGGGGGGSPYAHMGSYQYQASGLNNVPYSA    104
+
+Q5VPE3            48 RRDQAAAHAAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGKRERE-LE     96
+                     :......:.||.......|       .|:||        |:.:.|:| ||
+Q07687           105 KSSYDLGYTAAYTSYAPYG-------TSSSP--------ANNEPEKEDLE    139
+
+Q5VPE3            97 RSGSGVDDDDGADGAGGRKKLR-----LSKDQAAVLEECFKTHSTLNPKQ    141
+                     .....|:        |..||:|     .|..|.|.|:..|:....|...:
+Q07687           140 PEIRIVN--------GKPKKVRKPRTIYSSFQLAALQRRFQKTQYLALPE    181
+
+Q5VPE3           142 KVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENK    191
+                     :..||..|||...||::||||||::.|           |.|         
+Q07687           182 RAELAASLGLTQTQVKIWFQNRRSKFK-----------KMW---------    211
+
+Q5VPE3           192 RLEKELADLRALKAAPSPASASAMQPSSSAAATLTM-CPSCRRVATAGAP    240
+                      ...|:...:...|:.||..||   |..||.|:... .|  :|:|..|.|
+Q07687           212 -KSGEIPSEQHPGASASPPCAS---PPVSAPASWDFGVP--QRMAGGGGP    255
+
+Q5VPE3           241 HQPNHQQCHPKSNTTISSSSTAAAAVAVAGGNVLPSHCQFFPAAAAAADR    290
+                     ....       |....|.||.::||.|..|.  .|.:.|         ..
+Q07687           256 GSGG-------SGAGSSGSSPSSAASAFLGN--YPWYHQ---------TS    287
+
+Q5VPE3           291 TSQSTWNAAAPLV    303
+                     .|.|...|.|||:
+Q07687           288 GSASHLQATAPLL    300
+
+
+#---------------------------------------
+#---------------------------------------

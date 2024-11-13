@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:21
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q58f21.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_q58f21_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_q58f21_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q58F21
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 268
+# Identity:      50/268 (18.7%)
+# Similarity:    86/268 (32.1%)
+# Gaps:          98/268 (36.6%)
+# Score: 73.0
+# 
+#
+#=======================================
+
+Q5VPE3            85 SSASGKRERELERSGSGVDDDDGADGAGGRKKLRLS--------------    120
+                     |..:..::|:.:..|...:|:|.|......:|.:||              
+Q58F21           484 SKRNQPKKRKQQFIGLKSEDEDNAKPMNYDEKRQLSLNINKLPGDKLGRV    533
+
+Q5VPE3           121 ---------------KDQAAVLEECFKTHSTLNPKQKV--ALANRLGLRP    153
+                                    .|:..:..|..|. |||...:|.  |...:..|:|
+Q58F21           534 VHIIQSREPSLSNSNPDEIEIDFETLKA-STLRELEKYVSACLRKRPLKP    582
+
+Q5VPE3           154 RQVEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRAL    203
+                     ...::........::.|| |::        :||.|.|.:|.......::.
+Q58F21           583 PAKKIMMSKEELHSQKKQ-ELE--------KRLLDVNNQLNSRKRQTKSD    623
+
+Q5VPE3           204 KAAPSPA------------SASAMQPSSSAAATLT----------MCPSC    231
+                     |..||.|            |:|:...|.|:::.|:          |.|..
+Q58F21           624 KTQPSKAVENVSRLSESSSSSSSSSESESSSSDLSSSDSSDSESEMFPKF    673
+
+Q5VPE3           232 RRVATAGAPHQPN----HQQCHP------------------KSNTTISSS    259
+                     ..|....:|.:.|    ..:|.|                  .:|||:...
+Q58F21           674 TEVKPNDSPSKENVKKMKNECIPPEGRTGVTQIGYCVQDTTSANTTLVHQ    723
+
+Q5VPE3           260 STAAAAVAVAGGNVLPSH    277
+                     :|             |||
+Q58F21           724 TT-------------PSH    728
+
+
+#---------------------------------------
+#---------------------------------------

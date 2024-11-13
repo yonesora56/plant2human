@@ -1,0 +1,69 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:09
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q9y570.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/a0a0p0vam0_q9y570_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/a0a0p0vam0_q9y570_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q9Y570
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 371
+# Identity:      64/371 (17.3%)
+# Similarity:   130/371 (35.0%)
+# Gaps:          96/371 (25.9%)
+# Score: 70.0
+# 
+#
+#=======================================
+
+A0A0P0VAM0        22 VARPPPPPILGGPGGPPVSSPRVQLKDGRHLAY------------REAGV     59
+                     :.|.|..|.|.|.||.. |..::::..||...:            .:..|
+Q9Y570            10 LGRLPSRPPLPGSGGSQ-SGAKMRMGPGRKRDFSPVPWSQYFESMEDVEV     58
+
+A0A0P0VAM0        60 GREIAK-----YK-------IIFSHGFASTKESDFPVSQELAEELGIYLL     97
+                     ..|..|     ||       ::..||...:..|....:..:...:...::
+Q9Y570            59 ENETGKDTFRVYKSGSEGPVLLLLHGGGHSALSWAVFTAAIISRVQCRIV    108
+
+A0A0P0VAM0        98 YFDRAGYGDSDANPKRGLKSD--ATDVEELADKL--QLGEKFYVVGTSMG    143
+                     ..|...:|::.......|.::  |.||..:.:.:  .|.....::|.|||
+Q9Y570           109 ALDLRSHGETKVKNPEDLSAETMAKDVGNVVEAMYGDLPPPIMLIGHSMG    158
+
+A0A0P0VAM0       144 GYVA--WSCLNYIPYRLAGVALVVPAVNYWWPMPASVSASAYRKLDVGDR    191
+                     |.:|  .:..|.:| .|.|:.::                      ||.:.
+Q9Y570           159 GAIAVHTASSNLVP-SLLGLCMI----------------------DVVEG    185
+
+A0A0P0VAM0       192 RTFWIAHHMPWLFYAWFNQKWFRISPIVEGKPEAFTEK----DWEILAEI    237
+                     ......:.|         |.:.|      |:|:.|...    :|.:    
+Q9Y570           186 TAMDALNSM---------QNFLR------GRPKTFKSLENAIEWSV----    216
+
+A0A0P0VAM0       238 QRTGQ---LDRGRATKQGAYHSLCRDATILFGAWEFDPTAIENPFPNGDG    284
+                      ::||   |:..|.:..|.... |...|...|:.......||....:.:|
+Q9Y570           217 -KSGQIRNLESARVSMVGQVKQ-CEGITSPEGSKSIVEGIIEEEEEDEEG    264
+
+A0A0P0VAM0       285 VVSIWQGREDKIVRVEAQRYVAEKLPWVRYHEHPEG-----GHLFMCAD-    328
+                     ..||.:.:::..:..:.......::...:..::.:|     .:||:... 
+Q9Y570           265 SESISKRKKEDDMETKKDHPYTWRIELAKTEKYWDGWFRGLSNLFLSCPI    314
+
+A0A0P0VAM0       329 -------GLGDKIVRELLLGE    342
+                            |: |::.::|.:|:
+Q9Y570           315 PKLLLLAGV-DRLDKDLTIGQ    334
+
+
+#---------------------------------------
+#---------------------------------------

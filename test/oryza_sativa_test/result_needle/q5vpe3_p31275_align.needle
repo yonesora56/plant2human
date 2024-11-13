@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:36
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p31275.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_p31275_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_p31275_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P31275
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 432
+# Identity:      55/432 (12.7%)
+# Similarity:    76/432 (17.6%)
+# Gaps:         274/432 (63.4%)
+# Score: 96.5
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P31275             1 MGEHNLLNPGFVGPLVNIHTGDTFYFPNFRASGAQLPGLPSLSYPRRDNV     50
+
+Q5VPE3             1 -----------------------------------------------MMD      3
+                                                                    ...
+P31275            51 CSLSWPSAEPCNGYPQPYLGSPVSLNPPFGRTCELARVEDGKGYYREPCA    100
+
+Q5VPE3             4 LGLSLGLGLASQGSLTSSTTTTSSPGAGSSSPWAAAL------NSIVGDV     47
+                     .|...||....:|         ..||||   |.||.|      ...:| .
+P31275           101 EGGGGGLKREERG---------RDPGAG---PGAALLPLEPSGPPALG-F    137
+
+Q5VPE3            48 RRDQAAAHAAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGKRERELER     97
+                     :.|.||.......|.|.|.........|...||:::|.:...|       
+P31275           138 KYDYAAGGGGGDGGGGAGPPHDPPSCQSLESDSSSSLLNEGNK-------    180
+
+Q5VPE3            98 SGSGVDDDD------------GADGA-------GGRKKLR-LSKDQAAVL    127
+                      |:|..|..            .|.||       ..|||.: .||.|.|.|
+P31275           181 -GAGAGDPGSLVSPLNPGGGLSASGAPWYPINSRSRKKRKPYSKLQLAEL    229
+
+Q5VPE3           128 EECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTK-LKQTEVDC    176
+                     |..|..:..:..:::..|::||.|..:||::||||||.:.| |...|...
+P31275           230 EGEFLVNEFITRQRRRELSDRLNLSDQQVKIWFQNRRMKKKRLLLREQAL    279
+
+Q5VPE3           177 EYLKRWCERLADENKRLEKELADLRALKAAPSPASASAMQPSSSAAATLT    226
+                     .:.                                               
+P31275           280 SFF-----------------------------------------------    282
+
+Q5VPE3           227 MCPSCRRVATAGAPHQPNHQQCHPKSNTTISSSSTAAAAVAVAGGNVLPS    276
+                                                                       
+P31275           282 --------------------------------------------------    282
+
+Q5VPE3           277 HCQFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                                                     
+P31275           282 --------------------------------    282
+
+
+#---------------------------------------
+#---------------------------------------

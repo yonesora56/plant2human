@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:27
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q6uww8.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_q6uww8_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_q6uww8_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q6UWW8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 692
+# Identity:      72/692 (10.4%)
+# Similarity:   102/692 (14.7%)
+# Gaps:         466/692 (67.3%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+Q94DD0             1 ---MVALSKLVLITAVALLGWAYKVARPPPPPILGGPG---GPPVSSPRV     44
+                        .|.:...||:..|.||              |..|.   ||.|:.|.|
+Q6UWW8             1 MERAVRVESGVLVGVVCLL--------------LACPATATGPEVAQPEV     36
+
+Q94DD0            45 QLKDGRHLAYREAGVGREIAKYKIIFSHGFASTKESDFPVSQELAEELGI     94
+                     ....|| :..|:.||........:.....||..     |:..        
+Q6UWW8            37 DTTLGR-VRGRQVGVKGTDRLVNVFLGIPFAQP-----PLGP--------     72
+
+Q94DD0            95 YLLYFDRAGYGDSDANPKRGLKSDAT-------DVEELADKLQLGEKFYV    137
+                          ||.. ....|.|..|::..:|       |||.:.     ..:|.:
+Q6UWW8            73 -----DRFS-APHPAQPWEGVRDASTAPPMCLQDVESMN-----SSRFVL    111
+
+Q94DD0           138 VGTSMGGYVAWSCLNYIPYRLAGVALVVPAVNYWWPMPASVSASAYRKLD    187
+                     .|......|:..||               .:|.:  .||.|.|.:.|.:.
+Q6UWW8           112 NGKQQIFSVSEDCL---------------VLNVY--SPAEVPAGSGRPVM    144
+
+Q94DD0           188 VGDRRTFWIAHHMPWLFYAWFNQKWFRISPIVEGKPEAFTEKDWEILAEI    237
+                     |                       |.....::.|   |.|..|...||  
+Q6UWW8           145 V-----------------------WVHGGALITG---AATSYDGSALA--    166
+
+Q94DD0           238 QRTGQLDRGRATKQGAYHSLCRDATIL-----FGAWEFDPTAIENPFPNG    282
+                                    ||    .|..::     .|...|..|..|:. |..
+Q6UWW8           167 ---------------AY----GDVVVVTVQYRLGVLGFFSTGDEHA-PGN    196
+
+Q94DD0           283 DGVVSIWQGREDKIVRVEAQRYVAEKLPWVRYHEHPEGGHL---FMCADG    329
+                     .|.:.:          |.|.|:|.|.:.       |.||.|   .:....
+Q6UWW8           197 QGFLDV----------VAALRWVQENIA-------PFGGDLNCVTVFGGS    229
+
+Q94DD0           330 LGDKIVRELLLGEEPRDL--------------------------------    347
+                     .|..|:..|:|......|                                
+Q6UWW8           230 AGGSIISGLVLSPVAAGLFHRAITQSGVITTPGIIDSHPWPLAQKIANTL    279
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q6UWW8           280 ACSSSSPAEMVQCLQQKEGEELVLSKKLKNTIYPLTVDGTVFPKSPKELL    329
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q6UWW8           330 KEKPFHSVPFLMGVNNHEFSWLIPRGWGLLDTMEQMSREDMLAISTPVLT    379
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q6UWW8           380 SLDVPPEMMPTVIDEYLGSNSDAQAKCQAFQEFMGDVFINVPTVSFSRYL    429
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q6UWW8           430 RDSGSPVFFYEFQHRPSSFAKIKPAWVKADHGAEGAFVFGGPFLMDESSR    479
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q6UWW8           480 LAFPEATEEEKQLSLTMMAQWTHFARTGDPNSKALPPWPQFNQAEQYLEI    529
+
+Q94DD0           347 ------------------------------------------    347
+                                                               
+Q6UWW8           530 NPVPRAGQKFREAWMQFWSETLPSKIQQWHQKQKNRKAQEDL    571
+
+
+#---------------------------------------
+#---------------------------------------

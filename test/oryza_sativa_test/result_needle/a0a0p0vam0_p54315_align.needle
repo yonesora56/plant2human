@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:34
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p54315.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/a0a0p0vam0_p54315_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/a0a0p0vam0_p54315_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: P54315
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 553
+# Identity:      80/553 (14.5%)
+# Similarity:   116/553 (21.0%)
+# Gaps:         292/553 (52.8%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+A0A0P0VAM0         1 MVALSKLVLITAVALLGWAYKVARPPPPPILGGPGGPPVSSPRVQLKDGR     50
+                                  .|:.|...:.      :||.             ..|:
+P54315             1 -------------MLIFWTITLF------LLGA-------------AKGK     18
+
+A0A0P0VAM0        51 HLAYREAGV--------GREIAKYKIIFSHGFASTKESDFPVSQELAEEL     92
+                     .:.|.:.|.        |..|...||:             |.|   .|::
+P54315            19 EVCYEDLGCFSDTEPWGGTAIRPLKIL-------------PWS---PEKI     52
+
+A0A0P0VAM0        93 GI-YLLYFDRAGYGDSDANPKRG---LKSDATDVEELADKLQLGEK--FY    136
+                     |. :|||        ::.||...   |.||.:.:|  |...|:..|  |.
+P54315            53 GTRFLLY--------TNENPNNFQILLLSDPSTIE--ASNFQMDRKTRFI     92
+
+A0A0P0VAM0       137 VVGTSMGGYVAW--------------SCLNYIPYRLAGVALVVPAVNYWW    172
+                     :.|....|..:|              :|: .:.::....|....|.|   
+P54315            93 IHGFIDKGDESWVTDMCKKLFEVEEVNCI-CVDWKKGSQATYTQAAN---    138
+
+A0A0P0VAM0       173 PMPASVSASAYRKLDV-------GDRRTFWIAHHMPWLFYAWFNQKWFRI    215
+                      ....|.|...:.||:       ...:...|.|.:..........|...:
+P54315           139 -NVRVVGAQVAQMLDILLTEYSYPPSKVHLIGHSLGAHVAGEAGSKTPGL    187
+
+A0A0P0VAM0       216 SPIVEGKPEAFTEKDWEILAEIQRTGQLDRGRATKQGAYHSLCRDATIL-    264
+                     |.|....|   .|..:|...|..|   ||...|......|:   ||..| 
+P54315           188 SRITGLDP---VEASFESTPEEVR---LDPSDADFVDVIHT---DAAPLI    228
+
+A0A0P0VAM0       265 ----------FGAWEFDPTAIENPFPNG------------------DGVV    286
+                               .|..:|        ||||                  ||  
+P54315           229 PFLGFGTNQQMGHLDF--------FPNGGESMPGCKKNALSQIVDLDG--    268
+
+A0A0P0VAM0       287 SIWQGREDKIV--RVEAQRYVAEKL---------PWVRYHEHPEGGHLFM    325
+                      ||.|..|.:.  .:.:.:|..|.:         |...|... |....|.
+P54315           269 -IWAGTRDFVACNHLRSYKYYLESILNPDGFAAYPCTSYKSF-ESDKCFP    316
+
+A0A0P0VAM0       326 CAD-------GLGDKIVRELLLGEEPRDL---------------------    347
+                     |.|       ...||....  ..||.:..                     
+P54315           317 CPDQGCPQMGHYADKFAGR--TSEEQQKFFLNTGEASNFARWRYGVSITL    364
+
+A0A0P0VAM0       347 --------------------------------------------------    347
+                                                                       
+P54315           365 SGRTATGQIKVALFGNKGNTHQYSIFRGILKPGSTHSYEFDAKLDVGTIE    414
+
+A0A0P0VAM0       347 --------------------------------------------------    347
+                                                                       
+P54315           415 KVKFLWNNNVINPTLPKVGATKITVQKGEEKTVYNFCSEDTVREDTLLTL    464
+
+A0A0P0VAM0       347 ---    347
+                        
+P54315           465 TPC    467
+
+
+#---------------------------------------
+#---------------------------------------

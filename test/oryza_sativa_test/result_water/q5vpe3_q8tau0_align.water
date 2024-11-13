@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:20
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q8tau0.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_q8tau0_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_q8tau0_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q8TAU0
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 266
+# Identity:      71/266 (26.7%)
+# Similarity:    98/266 (36.8%)
+# Gaps:          67/266 (25.2%)
+# Score: 128.0
+# 
+#
+#=======================================
+
+Q5VPE3            57 AAAVGVGVGGEEMYQGRAST--------------SPDSAAALSSASGKRE     92
+                     |||.|.|..| ...||...|              .|:.....|..|.:.:
+Q8TAU0            77 AAADGHGDSG-LCPQGYVHTVLRDSCSEPKEHEEEPEVVRDRSQKSCQLK    125
+
+Q5VPE3            93 RELERSGSGVDDDDGADGA-----GGRKKLRLSKDQAAV--LEECFKTHS    135
+                     :.||.:|    |...|:.:     ..|:|.|:...||.|  ||..||...
+Q8TAU0           126 KSLETAG----DCKAAEESERPKPRSRRKPRVLFSQAQVFELERRFKQQR    171
+
+Q5VPE3           136 TLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCER    185
+                     .|:..::..||:.|.|...||::||||||.:                |:|
+Q8TAU0           172 YLSAPEREHLASSLKLTSTQVKIWFQNRRYK----------------CKR    205
+
+Q5VPE3           186 LADENKRLEKELADLRALKAAPSPASASAMQPSSSAAATLTMCPSCRRVA    235
+                          :|.:|.| :|.|  .||.|.......|.........:.||.:   
+Q8TAU0           206 -----QRQDKSL-ELGA--HAPPPPPRRVAVPVLVRDGKPCVTPSAQ---    244
+
+Q5VPE3           236 TAGAPHQPNHQQCHPKSNTTISSSSTAAAAVAVAGGNVLPSHCQFFPAAA    285
+                     ..|||:..........|.......::||||.|.              |||
+Q8TAU0           245 AYGAPYSVGASAYSYNSFPAYGYGNSAAAAAAA--------------AAA    280
+
+Q5VPE3           286 AAADRTSQSTWNAAAP    301
+                     |||.....|::..|.|
+Q8TAU0           281 AAAAAAYSSSYGCAYP    296
+
+
+#---------------------------------------
+#---------------------------------------

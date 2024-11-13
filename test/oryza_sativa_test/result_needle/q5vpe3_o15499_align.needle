@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:35
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/o15499.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_o15499_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_o15499_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: O15499
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 341
+# Identity:      52/341 (15.2%)
+# Similarity:    81/341 (23.8%)
+# Gaps:         169/341 (49.6%)
+# Score: 102.5
+# 
+#
+#=======================================
+
+Q5VPE3             1 ----------------------------MMDLGLSLGLGLASQGSLTSST     22
+                                                 :.:..|........|.:...|.
+O15499             1 MAAAAGGAASRRGAGRPCPFSIEHILSSLPERSLPARAACPPQPAGRQSP     50
+
+Q5VPE3            23 TTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQG     72
+                     .....|||..::|.|..  ...|    .:||.........|:|....:..
+O15499            51 AKPEEPGAPEAAPCACC--CCCG----PRAAPCGPPEAAAGLGARLAWPL     94
+
+Q5VPE3            73 RASTSPDSAAALSSASGKRERELERSGSGVDDDDGADGAGGRKKLR----    118
+                     |  ..|....:|.:.:|         |||.  ..||.|.|.:::.|    
+O15499            95 R--LGPAVPLSLGAPAG---------GSGA--LPGAVGPGSQRRTRRHRT    131
+
+Q5VPE3           119 -LSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRART    167
+                      .|::|...||..|..:...:...:..||.|:.||..:|||||:||||:.
+O15499           132 IFSEEQLQALEALFVQNQYPDVSTRERLAGRIRLREERVEVWFKNRRAKW    181
+
+Q5VPE3           168 KLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPSPASASAMQP    217
+                     :         :.||     |..:.||      |..:|.:|..:.      
+O15499           182 R---------HQKR-----ASASARL------LPGVKKSPKGSC------    205
+
+Q5VPE3           218 SSSAAATLTMCPSCRRVATAGAPHQPNHQQCHPKSNTTISSSSTAAAAVA    267
+                                                                       
+O15499           205 --------------------------------------------------    205
+
+Q5VPE3           268 VAGGNVLPSHCQFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                                                              
+O15499           205 -----------------------------------------    205
+
+
+#---------------------------------------
+#---------------------------------------

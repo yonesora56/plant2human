@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:04
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/o95372.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_o95372_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_o95372_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: O95372
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 162
+# Identity:      39/162 (24.1%)
+# Similarity:    63/162 (38.9%)
+# Gaps:          52/162 (32.1%)
+# Score: 91.5
+# 
+#
+#=======================================
+
+Q94DD0            57 AGVGREIAKYKIIFSHGFASTKES---------------DFPVSQELAEE     91
+                     :|..||.|  .:||.||...|..|               ..|.:..:...
+O95372            18 SGAERETA--AVIFLHGLGDTGHSWADALSTIRLPHVKYICPHAPRIPVT     65
+
+Q94DD0            92 LGIYLL---YFDRAGYGDSDANPKRGLKSDATDVEEL----------ADK    128
+                     |.:.::   :||..|........:.|:|..|.:::.|          |::
+O95372            66 LNMKMVMPSWFDLMGLSPDAPEDEAGIKKAAENIKALIEHEMKNGIPANR    115
+
+Q94DD0           129 LQLGEKFYVVGTSMGG----YVAWSCLNYIPYRLAGVALVVPAVNYWWPM    174
+                     :.||      |.|.||    |.|.:|    |:.|||:.    |::.|.|:
+O95372           116 IVLG------GFSQGGALSLYTALTC----PHPLAGIV----ALSCWLPL    151
+
+Q94DD0           175 ----PASVSASA    182
+                         |.:.:.||
+O95372           152 HRAFPQAANGSA    163
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:29
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q8nfv4.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/a0a0p0vam0_q8nfv4_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/a0a0p0vam0_q8nfv4_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q8NFV4
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 395
+# Identity:      83/395 (21.0%)
+# Similarity:   131/395 (33.2%)
+# Gaps:         137/395 (34.7%)
+# Score: 94.5
+# 
+#
+#=======================================
+
+A0A0P0VAM0         1 MVALSKLVLITAVALLGW--AYKV------------ARPP--PPPILGGP     34
+                                   :|.|  |:::            ||.|  |....||.
+Q8NFV4             1 --------------MLRWTRAWRLPREGLGPHGPSFARVPVAPSSSSGGR     36
+
+A0A0P0VAM0        35 GGPPVSSPR-----VQLKDGRHLAYREAGVGREIAKYKIIFSHGFASTKE     79
+                     ||   :.||     .:|.||            |.|...::|.||...:|.
+Q8NFV4            37 GG---AEPRPLPLSYRLLDG------------EAALPAVVFLHGLFGSKT     71
+
+A0A0P0VAM0        80 SDFPVSQELAEELGIYLLYFDRAGYGDSDANPKRGLKSDATDVEELADKL    129
+                     :...:::.||::.|..:|..|...:|||..:|....:..:.|:::|..:|
+Q8NFV4            72 NFNSIAKILAQQTGRRVLTVDARNHGDSPHSPDMSYEIMSQDLQDLLPQL    121
+
+A0A0P0VAM0       130 QLGEKFYVVGTSMGGYVAW-------------SCLNYIPYRLAGVA----    162
+                     .| ....|||.||||..|.             ..::..|....||:    
+Q8NFV4           122 GL-VPCVVVGHSMGGKTAMLLALQRPELVERLIAVDISPVESTGVSHFAT    170
+
+A0A0P0VAM0       163 --LVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHMPWLFYAWFNQ    210
+                       ..:.|:|....:|.|.:    |||  .|.:...:...|.      ..|
+Q8NFV4           171 YVAAMRAINIADELPRSRA----RKL--ADEQLSSVIQDMA------VRQ    208
+
+A0A0P0VAM0       211 KWFRISPIVEGK------PEAFTEKDWEILAEIQRTGQLDRGRATKQGAY    254
+                     ........|:|:      .:|.|:...:|||..||           |.:|
+Q8NFV4           209 HLLTNLVEVDGRFVWRVNLDALTQHLDKILAFPQR-----------QESY    247
+
+A0A0P0VAM0       255 HSLCRDATILFGAWEFDPTAIENPFPNGDGVVSIWQGREDKIVRVEAQRY    304
+                                    ..||.    |..|.....:......:|:|:     
+Q8NFV4           248 ---------------LGPTL----FLLGGNSQFVHPSHHPEIMRL-----    273
+
+A0A0P0VAM0       305 VAEKLPWVRYHEHPEGGHLFMCADGLGDKI--VRELLLGEEPRDL    347
+                         .|..:....|..|| ::.||...|.|  :|..|:       
+Q8NFV4           274 ----FPRAQMQTVPNAGH-WIHADRPQDFIAAIRGFLV-------    306
+
+
+#---------------------------------------
+#---------------------------------------

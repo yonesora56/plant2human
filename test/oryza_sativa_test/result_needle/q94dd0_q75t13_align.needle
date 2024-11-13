@@ -1,0 +1,117 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:26
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q75t13.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_q75t13_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_q75t13_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q75T13
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 988
+# Identity:      92/988 ( 9.3%)
+# Similarity:   142/988 (14.4%)
+# Gaps:         707/988 (71.6%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q75T13             1 MFLHSVNLWNLAFYVFMVFLATLGLWDVFFGFEENKCSMSYMFEYPEYQK     50
+
+Q94DD0             1 -----------------------MVALSKLVLITAVALLGWAYKVARPPP     27
+                                            .....|::.:|.:              
+Q75T13            51 IELPKKLAKRYPAYELYLYGEGSYAEEHKILPLTGI--------------     86
+
+Q94DD0            28 PPILGGPGGPPVSSPRVQLKDGRHLAYREAGVGREIAKYKIIFSHGFAST     77
+                      |:|..||.   :....|::....:|.|:|    |...:|..|       
+Q75T13            87 -PVLFLPGN---AGSYKQVRSIGSIALRKA----EDIDFKYHF-------    121
+
+Q94DD0            78 KESDFPVSQELAEELGIYLLYFDRAGYGDSDANPKRGLKSDATDVEELAD    127
+                        || .|....|||        .|.||.|       |:.....|.|...
+Q75T13           122 ---DF-FSVNFNEEL--------VALYGGS-------LQKQTKFVHECIK    152
+
+Q94DD0           128 ---KLQLGEKF-----YVVGTSMGGYVAWSCL---NY--------IPYRL    158
+                        ||..|::|     .::|.||||.||.:.|   |:        |....
+Q75T13           153 TILKLYKGQEFAPKSVAIIGHSMGGLVARALLTLKNFKHDLINLLITQAT    202
+
+Q94DD0           159 AGVALVVP----------AVNYWWPMPA--------SVSASAYRKLDVGD    190
+                     ..||.|:|          .||.:|.:.|        || |..:|...|..
+Q75T13           203 PHVAPVMPLDRFITDFYTTVNNYWILNARHINLTTLSV-AGGFRDYQVRS    251
+
+Q94DD0           191 RRTFW--IAHH----------MP--W-----LFYAWFNQ-------KWFR    214
+                     ..||.  ::||          :|  |     |...|..|       .:|.
+Q75T13           252 GLTFLPKLSHHTSALSVVSSAVPKTWVSTDHLSIVWCKQLQLTTVRAFFD    301
+
+Q94DD0           215 I-----SPIVEGK--------------PEAFTEKDWEILAEIQRTGQLDR    245
+                     :     ..|.:..              |....|::..|::::..|.....
+Q75T13           302 LIDADTKQITQNSKKKLSVLYHHFIRHPSKHFEENPAIISDLTGTSMWVL    351
+
+Q94DD0           246 GRATK--QGAY--------------------HSLCRDATILFGAWEFDPT    273
+                     .:.:|  ..||                    |..|:...:...:|.|  .
+Q75T13           352 VKVSKWTYVAYNESEKIYFTFPLENHRKIYTHVYCQSTMLDTNSWIF--A    399
+
+Q94DD0           274 AIENPFPNGDGVVSIWQGREDKIVRVEAQRYVAEKLPWVRY-----HEHP    318
+                     .|.:......||...|:               ||.||.::|     .::|
+Q75T13           400 CINSTSMCLQGVDLSWK---------------AELLPTIKYLTLRLQDYP    434
+
+Q94DD0           319 EGGHLFMCADGL-GDKIVREL-LLGEEPRDL-------------------    347
+                     ...||.:....: |.|.|.:. ...:|.|.:                   
+Q75T13           435 SLSHLVVYVPSVRGSKFVVDCEFFKKEKRYIQLPVTHLFSFGLSSRKVVL    484
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q75T13           485 NTNGLYYNLELLNFGQIYQAFKINVVSKCSAVKEEITSIYRLHIPWSYED    534
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q75T13           535 SLTIAQAPSSTEISLKLHIAQPENNTHVALFKMYTSSDCRYEVTVKTSFS    584
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q75T13           585 QILGQVVRFHGGALPAYVVSNILLAYRGQLYSLFSTGCCLEYATMLDKEA    634
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q75T13           635 KPYKVDPFVIIIKFLLGYKWFKELWDVLLLPELDAVILTCQSMCFPLISL    684
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q75T13           685 ILFLFGTCTAYWSGLLSSASVRLLSSLWLALKRPSELPKDIKMISPDLPF    734
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q75T13           735 LTIVLIIVSWTTCGALAILLSYLYYVFKVVHLQASLTTFKNSQPVNPKHS    784
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q75T13           785 RRSEKKSNHHKDSSIHHLRLSANDAEDSLRMHSTVINLLTWIVLLSMPSL    834
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q75T13           835 IYWLKNLRYYFKLNPDPCKPLAFILIPTMAILGNTYTVSIKSSKLLKTTS    884
+
+Q94DD0           347 --------------------------------------    347
+                                                           
+Q75T13           885 QFPLPLAVGVIAFGSAHLYRLPCFVFIPLLLHALCNFM    922
+
+
+#---------------------------------------
+#---------------------------------------

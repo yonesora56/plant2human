@@ -1,0 +1,49 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:03
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p48147.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_p48147_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_p48147_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: P48147
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 130
+# Identity:      27/130 (20.8%)
+# Similarity:    48/130 (36.9%)
+# Gaps:          39/130 (30.0%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+Q94DD0            13 VALLGWAYKVARPPPPPILGGPGGPPVSSPRVQLKDGRHLAYREAGVGRE     62
+                     |||.|:|:.                         :||.:.||..:..|.:
+P48147           125 VALRGYAFS-------------------------EDGEYFAYGLSASGSD    149
+
+Q94DD0            63 IAKYKIIFSHGFASTKESDFPVSQELAEELGIYLLYFDRAGYG-DSDANP    111
+                     ....|.:...|     ..:.|   ::.|.:....:.:...|.| ..::.|
+P48147           150 WVTIKFMKVDG-----AKELP---DVLERVKFSCMAWTHDGKGMFYNSYP    191
+
+Q94DD0           112 KRGLKSDATDVE-ELADKLQLGEKFYVVGT    140
+                     ::..|||.|:.. .|..||.    ::|:||
+P48147           192 QQDGKSDGTETSTNLHQKLY----YHVLGT    217
+
+
+#---------------------------------------
+#---------------------------------------

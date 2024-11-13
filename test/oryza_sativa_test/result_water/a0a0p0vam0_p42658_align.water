@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:10
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p42658.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/a0a0p0vam0_p42658_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/a0a0p0vam0_p42658_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: P42658
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 309
+# Identity:      63/309 (20.4%)
+# Similarity:    96/309 (31.1%)
+# Gaps:         109/309 (35.3%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+A0A0P0VAM0        33 GPGGPPVS-------SPRVQLKDGRH------------LAYREAGVGREI     63
+                     |||.|.|:       .....|:...|            :.||:..:....
+P42658           556 GPGVPMVTVHNTTDKKKMFDLETNEHVKKAINDRQMPKVEYRDIEIDDYN    605
+
+A0A0P0VAM0        64 AKYKIIFSHGFASTKE-------SDFPVSQELAEEL------------GI     94
+                     ...:|:....|..|..       ...|.||.:||:.            |.
+P42658           606 LPMQILKPATFTDTTHYPLLLVVDGTPGSQSVAEKFEVSWETVMVSSHGA    655
+
+A0A0P0VAM0        95 YLLYFDRAGYGDS------DANPKRGLKSDATDVEELADKLQLGEKFY--    136
+                     .::..|..|.|..      :...:.||..:...:|  |.:..|.|::.  
+P42658           656 VVVKCDGRGSGFQGTKLLHEVRRRLGLLEEKDQME--AVRTMLKEQYIDR    703
+
+A0A0P0VAM0       137 ----VVGTSMGGYVAWSCLNYI-PYR--------LAGVALVVPAVNYWWP    173
+                         |.|...|||::    .|| |.:        ..|.|| .|..::  .
+P42658           704 TRVAVFGKDYGGYLS----TYILPAKGENQGQTFTCGSAL-SPITDF--K    746
+
+A0A0P0VAM0       174 MPASVSASAYRKLDVGDRRTF---WIAHHMPWLFYAWFNQKWFRISPIVE    220
+                     :.||..:..|..|...|.|.:   .:||.:.    |...|::..|.|..:
+P42658           747 LYASAFSERYLGLHGLDNRAYEMTKVAHRVS----ALEEQQFLIIHPTAD    792
+
+A0A0P0VAM0       221 GKPEAFTEKDWEILAEIQRTG----QLDRGRAT-----------------    249
+                     .|            ...|.|.    ||.||:|.                 
+P42658           793 EK------------IHFQHTAELITQLIRGKANYSLQIYPDESHYFTSSS    830
+
+A0A0P0VAM0       250 -KQGAYHSL    257
+                      ||..|.|:
+P42658           831 LKQHLYRSI    839
+
+
+#---------------------------------------
+#---------------------------------------

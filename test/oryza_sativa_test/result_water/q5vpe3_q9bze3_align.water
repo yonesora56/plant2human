@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:17
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q9bze3.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_q9bze3_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_q9bze3_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q9BZE3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 273
+# Identity:      66/273 (24.2%)
+# Similarity:   100/273 (36.6%)
+# Gaps:          76/273 (27.8%)
+# Score: 126.0
+# 
+#
+#=======================================
+
+Q5VPE3            10 LGLASQGSLTSSTTTTSSPG-----AGSSSPWAAALNSIVGDVRRDQAAA     54
+                     |.|:.:...:|..::.:|||     .|:..|..|:...:...::..|.:|
+Q9BZE3            36 LELSPRSESSSDCSSPASPGRDCLETGTPRPGGASGPGLDSHLQPGQLSA     85
+
+Q5VPE3            55 HA---------------------AAAVGVGVGGEEMYQGRASTSPDSAAA     83
+                     .|                     ||.......|:.     |:..|....|
+Q9BZE3            86 PAQSRTVTSSFLIRDILADCKPLAACAPYSSSGQP-----AAPEPGGRLA    130
+
+Q5VPE3            84 LSSASGKRERELERSGSGVDDDD--GADGAGGRK--------KLRLSK--    121
+                     ..:|...|:: |::|||....|.  .....|.|:        .:||.|  
+Q9BZE3           131 AKAAEDFRDK-LDKSGSNASSDSEYKVKEEGDREISSSRDSPPVRLKKPR    179
+
+Q5VPE3           122 --------DQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNR    163
+                             .|.|.||..|:....|:.:.::.||..|.|...||:.|:|||
+Q9BZE3           180 KARTAFTDHQLAQLERSFERQKYLSVQDRMELAASLNLTDTQVKTWYQNR    229
+
+Q5VPE3           164 RARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRAL-KAAPSP---    209
+                     |.:.| :||.|..|.|               .|..:..|| :..|||   
+Q9BZE3           230 RTKWK-RQTAVGLELL---------------AEAGNYSALQRMFPSPYFY    263
+
+Q5VPE3           210 --ASASAMQPSSSAAATLTMCPS    230
+                       :..|.:.|  .||..|...||
+Q9BZE3           264 PQSLVSNLDP--GAALYLYRGPS    284
+
+
+#---------------------------------------
+#---------------------------------------

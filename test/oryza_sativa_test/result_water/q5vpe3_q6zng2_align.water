@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:18
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q6zng2.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_q6zng2_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_q6zng2_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q6ZNG2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 272
+# Identity:      65/272 (23.9%)
+# Similarity:    99/272 (36.4%)
+# Gaps:          73/272 (26.8%)
+# Score: 119.0
+# 
+#
+#=======================================
+
+Q5VPE3            18 LTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVGGE     67
+                     |..:....|..||...:.||..:.|         .:|.:|...|...|..
+Q6ZNG2            85 LCPAAEQVSPAGAPYGTRWAFQVLS---------PSADSARLPGRAPGDR    125
+
+Q5VPE3            68 E-MYQGRA---------STSPDSAA---------ALSSASGKRERELERS     98
+                     : .:|..|         ||.|..:|         |.|:|..:.|..|...
+Q6ZNG2           126 DCTFQPSAPAPSKPFLLSTPPFYSACCGGSCRRPASSTAFPREESMLPLL    175
+
+Q5VPE3            99 GSGVDDDDGADGAGGRKKLRLSKDQAAVLEECFKTHSTLNPKQKVALANR    148
+                        ..|.:.....|..::...|:||...||:.|:....::...:..||..
+Q6ZNG2           176 ---TQDSNSKARRGILRRAVFSEDQRKALEKMFQKQKYISKTDRKKLAIN    222
+
+Q5VPE3           149 LGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELA    198
+                     |||:..||::||||||               .:|      .|.: |||:.
+Q6ZNG2           223 LGLKESQVKIWFQNRR---------------MKW------RNSK-EKEVL    250
+
+Q5VPE3           199 DLRALKAA---PSPASASAMQ-PSSSAAATLTMCPSCRRVATAGAPHQ--    242
+                     ..|.::..   ..|.|.||:. ||.        |||...|     |.|  
+Q6ZNG2           251 SNRCIQEVGLQEDPLSRSALGFPSP--------CPSIWDV-----PQQHS    287
+
+Q5VPE3           243 -PNHQQCHPKSNTTISSSSTAA    263
+                      |..::..|:.:..:...|:.|
+Q6ZNG2           288 SPRWRENSPEPSERLIQESSGA    309
+
+
+#---------------------------------------
+#---------------------------------------

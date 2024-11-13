@@ -1,0 +1,45 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:04
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/o95870.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_o95870_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_o95870_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: O95870
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      17/67 (25.4%)
+# Similarity:    32/67 (47.8%)
+# Gaps:           4/67 ( 6.0%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+Q94DD0            91 ELGIYLLYFDRAGYGDSDANPKRGLKSDATDVEELADKLQLG---EKFYV    137
+                     |.|..:|.::..|:..|...|....:::|.||.......:||   :...:
+O95870           302 EAGYSVLGWNHPGFAGSTGVPFPQNEANAMDVVVQFAIHRLGFQPQDIII    351
+
+Q94DD0           138 VGTSMGGYVA-WSCLNY    153
+                     ...|:||:.| |:.::|
+O95870           352 YAWSIGGFTATWAAMSY    368
+
+
+#---------------------------------------
+#---------------------------------------

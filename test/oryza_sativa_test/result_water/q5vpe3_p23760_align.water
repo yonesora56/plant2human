@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:16
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p23760.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_p23760_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_p23760_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P23760
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 264
+# Identity:      60/264 (22.7%)
+# Similarity:    89/264 (33.7%)
+# Gaps:          73/264 (27.7%)
+# Score: 84.0
+# 
+#
+#=======================================
+
+Q5VPE3            84 LSSASGKRERE---LER--------------------------SGSGVDD    104
+                     |.|..||.|.|   |||                          |..|.|.
+P23760           158 LRSKFGKGEEEEADLERKEAEESEKKAKHSIDGILSERASAPQSDEGSDI    207
+
+Q5VPE3           105 DDGADGAGGRKKLR----LSKDQAAVLEECF-KTH-STLNPKQKVALANR    148
+                     |...|....||:.|    .:.:|...||..| :|| ..:..:::  ||.|
+P23760           208 DSEPDLPLKRKQRRSRTTFTAEQLEELERAFERTHYPDIYTREE--LAQR    255
+
+Q5VPE3           149 LGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELA    198
+                     ..|...:|:|||.||||               || .:.|..|     :|.
+P23760           256 AKLTEARVQVWFSNRRA---------------RW-RKQAGAN-----QLM    284
+
+Q5VPE3           199 DLRALKAAPSPASASAMQPSSSAAATLTMCPSCRRVAT--AGAPHQPN--    244
+                     ....|.....|.:|....|:...:.|.....|..:..:  :...|:|.  
+P23760           285 AFNHLIPGGFPPTAMPTLPTYQLSETSYQPTSIPQAVSDPSSTVHRPQPL    334
+
+Q5VPE3           245 -----HQQCHPKSNTTISSSSTAAAAVAVAGGNVLPSHCQFFPAAAAAAD    289
+                          ||...|.:    ..||:|....:...|  ..|:...|...:..::
+P23760           335 PPSTVHQSTIPSN----PDSSSAYCLPSTRHG--FSSYTDSFVPPSGPSN    378
+
+Q5VPE3           290 RTSQSTWNAAAPLV    303
+                     ..:.:..|..:|.|
+P23760           379 PMNPTIGNGLSPQV    392
+
+
+#---------------------------------------
+#---------------------------------------

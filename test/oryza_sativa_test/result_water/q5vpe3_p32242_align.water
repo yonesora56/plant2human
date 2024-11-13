@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:16
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p32242.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_p32242_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_p32242_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P32242
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 197
+# Identity:      49/197 (24.9%)
+# Similarity:    85/197 (43.1%)
+# Gaps:          65/197 (33.0%)
+# Score: 126.5
+# 
+#
+#=======================================
+
+Q5VPE3           114 RKKLRLSKDQAAVLEECF-KT-HSTLNPKQKVALANRLGLRPRQVEVWFQ    161
+                     |::...::.|..|||..| || :..:..:::|||  ::.|...:|:|||:
+P32242            40 RERTTFTRSQLDVLEALFAKTRYPDIFMREEVAL--KINLPESRVQVWFK     87
+
+Q5VPE3           162 NRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPS---    208
+                     ||||:.:.:|....           ..:::..:|:.:.:|....:.|   
+P32242            88 NRRAKCRQQQQSGS-----------GTKSRPAKKKSSPVRESSGSESSGQ    126
+
+Q5VPE3           209 ---PASASAMQPSSSAAATLTMCPSCRRVATAGAPHQPNHQQCHPKSNTT    255
+                        ||.:|:...||||::                                
+P32242           127 FTPPAVSSSASSSSSASS--------------------------------    144
+
+Q5VPE3           256 ISSSSTAAAAVAVAGGNVLPSHCQFFPAAAAAADRT--SQSTWNAAA    300
+                      ||::.||||.|..|||         |.|||::..|  :.|.|:.|:
+P32242           145 -SSANPAAAAAAGLGGN---------PVAAASSLSTPAASSIWSPAS    181
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:40
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/o43365.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_o43365_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_o43365_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: O43365
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 514
+# Identity:      74/514 (14.4%)
+# Similarity:   111/514 (21.6%)
+# Gaps:         277/514 (53.9%)
+# Score: 87.5
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+O43365             1 MQKATYYDSSAIYGGYPYQAANGFAYNANQQPYPASAALGADGEYHRPAC     50
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+O43365            51 SLQSPSSAGGHPKAHELSEACLRTLSAPPSQPPSLGEPPLHPPPPQAAPP    100
+
+Q5VPE3             1 ------------MMDLGLSLGLGLASQGSLTSSTTTTSSPGAGSSSPWAA     38
+                                                     :.|..:.|...|:||...
+O43365           101 APQPPQPAPQPP--------------------APTPAAPPPPSSASPPQN    130
+
+Q5VPE3            39 ALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQGRASTSPDSAAAL----     84
+                     |.|        :...|:||             :.....||..|..:    
+O43365           131 ASN--------NPTPANAA-------------KSPLLNSPTVAKQIFPWM    159
+
+Q5VPE3            85 --SSASGKRERELERSGSGVDDDDGADGAGGRKKLRLSKDQAAV--LEEC    130
+                       |..:.|::.....||.....|....|....|:.|.:...|.:  ||:.
+O43365           160 KESRQNTKQKTSSSSSGESCAGDKSPPGQASSKRARTAYTSAQLVELEKE    209
+
+Q5VPE3           131 FKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLK    180
+                     |..:..|...::|.:||.|.|..||:::||||||.:.|..|         
+O43365           210 FHFNRYLCRPRRVEMANLLNLTERQIKIWFQNRRMKYKKDQ---------    250
+
+Q5VPE3           181 RWCERLADENKRLEKE------------------LADLRAL-------KA    205
+                             :.|.:...                  |..:.:|       ..
+O43365           251 --------KGKGMLTSSGGQSPSRSPVPPGAGGYLNSMHSLVNSVPYEPQ    292
+
+Q5VPE3           206 APSPASASAM----QPSSSAAATLTMC----PSCRRVATAGA--------    239
+                     :|.|.|....    .|.:|..|:|..|    |..:|...|||        
+O43365           293 SPPPFSKPPQGTYGLPPASYPASLPSCAPPPPPQKRYTAAGAGAGGTPDY    342
+
+Q5VPE3           240 -PHQPNHQQCHPKSNTTISSSSTAAAAVAVAGGNVLP-----------SH    277
+                      ||....|     .|.:..:.....:.|.|.|..|.|           :|
+O43365           343 DPHAHGLQ-----GNGSYGTPHIQGSPVFVGGSYVEPMSNSGPALFGLTH    387
+
+Q5VPE3           278 CQFFPAAAAAADRTSQSTWNAAAPLVTRELF-------------------    308
+                        .|.||:.|     ..:..|.||.:....                   
+O43365           388 ---LPHAASGA-----MDYGGAGPLGSGHHHGPGPGEPHPTYTDLTGHHP    429
+
+Q5VPE3           308 --------------    308
+                                   
+O43365           430 SQGRIQEAPKLTHL    443
+
+
+#---------------------------------------
+#---------------------------------------

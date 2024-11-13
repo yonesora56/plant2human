@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:04
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p54317.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_p54317_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_p54317_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: P54317
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 211
+# Identity:      45/211 (21.3%)
+# Similarity:    73/211 (34.6%)
+# Gaps:          45/211 (21.3%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+Q94DD0            72 HGFASTKESDFP--VSQELAEELGIYLLYFD-----RAGYGDSDANPKRG    114
+                     |||....|..:|  :.:::.|...:..:..|     ||.|..:..|.:..
+P54317            94 HGFLDKAEDSWPSDMCKKMFEVEKVNCICVDWRHGSRAMYTQAVQNIRVV    143
+
+Q94DD0           115 LKSDATDVEELADKLQLG---EKFYVVGTSMGGYVAWSCLNYIPYRLAGV    161
+                     ....|..::.|:  .|||   |..:|:|.|:|.:.|......:..|:..:
+P54317           144 GAETAFLIQALS--TQLGYSLEDVHVIGHSLGAHTAAEAGRRLGGRVGRI    191
+
+Q94DD0           162 ALVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHMPWLFYAWFNQK    211
+                     ..:.||...:...|..|      :||..|.....:.|             
+P54317           192 TGLDPAGPCFQDEPEEV------RLDPSDAVFVDVIH-------------    222
+
+Q94DD0           212 WFRISPIVEGKPEAFTEKDWEILAEIQRTGQLD---RGRATKQGAYHSLC    258
+                      ...||||.......:          |:.|.||   .|.....|...::.
+P54317           223 -TDSSPIVPSLGFGMS----------QKVGHLDFFPNGGKEMPGCKKNVL    261
+
+Q94DD0           259 RDATILFGAWE    269
+                     ...|.:.|.||
+P54317           262 STITDIDGIWE    272
+
+
+#---------------------------------------
+#---------------------------------------

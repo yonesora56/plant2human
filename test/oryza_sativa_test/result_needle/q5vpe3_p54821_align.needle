@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:36
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p54821.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_p54821_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_p54821_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P54821
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 352
+# Identity:      59/352 (16.8%)
+# Similarity:    96/352 (27.3%)
+# Gaps:         151/352 (42.9%)
+# Score: 92.0
+# 
+#
+#=======================================
+
+Q5VPE3             1 MMDLGLSLGLGLASQGSLTSS--TTTTSSPGAGSSSPWAAALNSIVGDVR     48
+                                      :|||  ......|..|........|:::  ..:
+P54821             1 -----------------MTSSYGHVLERQPALGGRLDSPGNLDTL--QAK     31
+
+Q5VPE3            49 RDQAAAH------------AAAAVGVGVGGEEMYQGRASTSPDSAA----     82
+                     ::.:.:|            |.|...||..|..:.:....||.....    
+P54821            32 KNFSVSHLLDLEEAGDMVAAQADENVGEAGRSLLESPGLTSGSDTPQQDN     81
+
+Q5VPE3            83 -ALSSASGKRERELERSGSGVDDDDGADGAGGRKKLRLSKDQAAVLEECF    131
+                      .|:|...|:.::                  .|.:...:..|...||..|
+P54821            82 DQLNSEEKKKRKQ------------------RRNRTTFNSSQLQALERVF    113
+
+Q5VPE3           132 -KTHSTLNPKQKVA--LANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEY    178
+                      :||   .|...|.  ||.|:.|...:|:||||||||:.:..:..:    
+P54821           114 ERTH---YPDAFVREDLARRVNLTEARVQVWFQNRRAKFRRNERAM----    156
+
+Q5VPE3           179 LKRWCERLADENKRLEKELA-DLRAL------KAAPSP------------    209
+                            ||::|..|.|..: |:.|:      :.||.|            
+P54821           157 -------LANKNASLLKSYSGDVTAVEQPIVPRPAPRPTDYLSWGTASPY    199
+
+Q5VPE3           210 ---ASASAMQPSSSAAATLTMCPSCRRVATAGAPHQPNHQQCHPKSNTTI    256
+                        |:.||...::|.|..:.|..|...:......:.....|. |..|   
+P54821           200 SAMATYSATCANNSPAQGINMANSIANLRLKAKEYSLQRNQV-PTVN---    245
+
+Q5VPE3           257 SSSSTAAAAVAVAGGNVLPSHCQFFPAAAAAADRTSQSTWNAAAPLVTRE    306
+                                                                       
+P54821           245 --------------------------------------------------    245
+
+Q5VPE3           307 LF    308
+                       
+P54821           245 --    245
+
+
+#---------------------------------------
+#---------------------------------------

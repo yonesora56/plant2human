@@ -1,0 +1,105 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:44
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q7xvn5.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q6zn04.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q7xvn5_q6zn04_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q7xvn5_q6zn04_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q7XVN5
+# 2: Q6ZN04
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 822
+# Identity:      67/822 ( 8.2%)
+# Similarity:   108/822 (13.1%)
+# Gaps:         605/822 (73.6%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+Q7XVN5             1 MALTAAAASGGDAHDDEYAKLVRGMNPPRVVVDNEACDEATVIRVDSVSS     50
+                                                                       
+Q6ZN04             0 --------------------------------------------------      0
+
+Q7XVN5            51 HGTLLAVVQVIADLGLVIRKAYFSSDGSWFMDVFNVTDRDGNKVLDDQTI    100
+                                                                       
+Q6ZN04             0 --------------------------------------------------      0
+
+Q7XVN5           101 SYIQTTLEADDWYYPEVRNTVGIVPAEEYTVIELTGTDRPGLLSEVCAVL    150
+                                                                       
+Q6ZN04             0 --------------------------------------------------      0
+
+Q7XVN5           151 AGMRCAVRSAELWTHNTRVAAVVHVTDDGGSGGAIEDEARIADISTRLGN    200
+                                                               ..|:...:
+Q6ZN04             1 ------------------------------------------MPSSLFAD      8
+
+Q7XVN5           201 LLRGQSGVRAAAAAAPGGLTHKERRLHQMMFDD-----RDYDGGGGAASS    245
+                     |.|..|| .....::.||.|..::|..|:..|.     .|.|.|.....|
+Q6ZN04             9 LERNGSG-GGGGGSSGGGETLDDQRALQLALDQLSLLGLDSDEGASLYDS     57
+
+Q7XVN5           246 SPRGRS-------PTPATEVSVTPCAERGYTAVVVRCRDRPKLLFDTVCT    288
+                     .||.:|       |.|::|........:|.....:|.:...         
+Q6ZN04            58 EPRKKSVNMTECVPVPSSEHVAEIVGRQGCKIKALRAKTNT---------     98
+
+Q7XVN5           289 ITDMGYVIHHGAVSSEPRGGAYQEYYIRHVDGDPVRSE------------    326
+                                              ||:    .|||.|            
+Q6ZN04            99 -------------------------YIK----TPVRGEEPVFVVTGRKED    119
+
+Q7XVN5           327 --AERQRVVQCLE------AAIERRTA-DG-----------LALEVRTGD    356
+                       ..|:.::...|      |:..:.|| :|           ..::||...
+Q6ZN04           120 VAMARREIISAAEHFSMIRASRNKNTALNGAVPGPPNLPGQTTIQVRVPY    169
+
+Q7XVN5           357 RAGLLSDVTRIFRENGLTIRRAEISSERGEAVDTFYLSDPQ---------    397
+                     |.     |..:....|.||:|.:..:..       |:..|.         
+Q6ZN04           170 RV-----VGLVVGPKGATIKRIQQQTHT-------YIVTPSRDKEPVFEV    207
+
+Q7XVN5           398 -GHPVEAKTIDAIRAQIGEATLRVK---------HNPF-ADG--------    428
+                      |.|   :.:|..|.:| ||.:.::         .|.| |:|        
+Q6ZN04           208 TGMP---ENVDRAREEI-EAHIALRTGGIIELTDENDFHANGTDVGFDLH    253
+
+Q7XVN5           429 DGAGGGGGGA-----TDDVAGSTAFLFGNLFKFYRPFQNFSLIKLYS---    470
+                     .|:||.|.|:     |..:..:..      .|.:..::|.|...|.|   
+Q6ZN04           254 HGSGGSGPGSLWSKPTPSITPTPG------RKPFSSYRNDSSSSLGSAST    297
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q6ZN04           298 DSYFGGGTSSSAAATQRLADYSPPSPALSFAHNGNNNNNGNGYTYTAGGE    347
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q6ZN04           348 ASVPSPDGCPELQPTFDPAPAPPPGAPLIWAQFERSPGGGPAAPVSSSCS    397
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q6ZN04           398 SSASSSASSSSVVFPGGGASAPSNANLGLLVHRRLHPGTSCPRLSPPLHM    447
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q6ZN04           448 APGAGEHHLARRVRSDPGGGGLAYAAYANGLGAQLPGLQPSDTSGSSSSS    497
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q6ZN04           498 SSSSSSSSSSSGLRRKGSRDCSVCFESEVIAALVPCGHNLFCMECANRIC    547
+
+Q7XVN5           470 ----------------------    470
+                                           
+Q6ZN04           548 EKSEPECPVCHTAVTQAIRIFS    569
+
+
+#---------------------------------------
+#---------------------------------------

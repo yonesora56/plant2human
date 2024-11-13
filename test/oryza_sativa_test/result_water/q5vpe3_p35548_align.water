@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:15
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p35548.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_p35548_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_p35548_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P35548
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 265
+# Identity:      63/265 (23.8%)
+# Similarity:    86/265 (32.5%)
+# Gaps:         118/265 (44.5%)
+# Score: 122.0
+# 
+#
+#=======================================
+
+Q5VPE3            26 SSPGAGSS--SPWAAALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQGR     73
+                     :||..|:.  ||              |:......|..|.|.||.|   |.
+P35548             2 ASPSKGNDLFSP--------------DEEGPAVVAGPGPGPGGAE---GA     34
+
+Q5VPE3            74 A-------STSPDSAAAL----------------SSASGKRERELERSGS    100
+                     |       |:.|.|..||                |:::|...|.|..||.
+P35548            35 AEERRVKVSSLPFSVEALMSDKKPPKEASPLPAESASAGATLRPLLLSGH     84
+
+Q5VPE3           101 G------------------VDDDDGADGAG-----GR-------------    114
+                     |                  |..::..|||.     ||             
+P35548            85 GAREAHSPGPLVKPFETASVKSENSEDGAAWMQEPGRYSPPPRHMSPTTC    134
+
+Q5VPE3           115 --------KKLR--LSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPR    154
+                             :|.|  .:..|...||..|:....|:..::...::.|.|...
+P35548           135 TLRKHKTNRKPRTPFTTSQLLALERKFRQKQYLSIAERAEFSSSLNLTET    184
+
+Q5VPE3           155 QVEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALK    204
+                     ||::|||||||:.                       |||::  |:|..||
+P35548           185 QVKIWFQNRRAKA-----------------------KRLQE--AELEKLK    209
+
+Q5VPE3           205 AAPSPASASAMQPSS    219
+                     .|..|     |.|||
+P35548           210 MAAKP-----MLPSS    219
+
+
+#---------------------------------------
+#---------------------------------------

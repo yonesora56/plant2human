@@ -1,0 +1,117 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:25
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p42658.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_p42658_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_p42658_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: P42658
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 981
+# Identity:      69/981 ( 7.0%)
+# Similarity:   108/981 (11.0%)
+# Gaps:         750/981 (76.5%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P42658             1 MASLYQRFTGKINTSRSFPAPPEASHLLGGQGPEEDGGAGAKPLGPRAQA     50
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P42658            51 AAPRERGGGGGGAGGRPRFQYQARSDGDEEDELVGSNPPQRNWKGIAIAL    100
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P42658           101 LVILVICSLIVTSVILLTPAEDNSLSQKKKVTVEDLFSEDFKIHDPEAKW    150
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P42658           151 ISDTEFIYREQKGTVRLWNVETNTSTVLIEGKKIESLRAIRYEISPDREY    200
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P42658           201 ALFSYNVEPIYQHSYTGYYVLSKIPHGDPQSLDPPEVSNAKLQYAGWGPK    250
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P42658           251 GQQLIFIFENNIYYCAHVGKQAIRVVSTGKEGVIYNGLSDWLYEEEILKT    300
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P42658           301 HIAHWWSPDGTRLAYAAINDSRVPIMELPTYTGSIYPTVKPYHYPKAGSE    350
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P42658           351 NPSISLHVIGLNGPTHDLEMMPPDDPRMREYYITMVKWATSTKVAVTWLN    400
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P42658           401 RAQNVSILTLCDATTGVCTKKHEDESEAWLHRQNEEPVFSKDGRKFFFIR    450
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P42658           451 AIPQGGRGKFYHITVSSSQPNSSNDNIQSITSGDWDVTKILAYDEKGNKI    500
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P42658           501 YFLSTEDLPRRRQLYSANTVGNFNRQCLSCDLVENCTYFSASFSHSMDFF    550
+
+Q94DD0             1 MVALSKLVLITAVALLGWAYKVARPPPPPILGGPGGPPVS-------SPR     43
+                     ::...                           |||.|.|:       ...
+P42658           551 LLKCE---------------------------GPGVPMVTVHNTTDKKKM    573
+
+Q94DD0            44 VQLKDGRH------------LAYREAGVGREIAKYKIIFSHGFASTKE--     79
+                     ..|:...|            :.||:..:.......:|:....|..|..  
+P42658           574 FDLETNEHVKKAINDRQMPKVEYRDIEIDDYNLPMQILKPATFTDTTHYP    623
+
+Q94DD0            80 -----SDFPVSQELAEEL------------GIYLLYFDRAGYGDS-----    107
+                          ...|.||.:||:.            |..::..|..|.|..     
+P42658           624 LLLVVDGTPGSQSVAEKFEVSWETVMVSSHGAVVVKCDGRGSGFQGTKLL    673
+
+Q94DD0           108 -DANPKRGLKSDATDVEELADKLQLGEKFY------VVGTSMGGYVAWSC    150
+                      :...:.||..:...:|  |.:..|.|::.      |.|...|||::   
+P42658           674 HEVRRRLGLLEEKDQME--AVRTMLKEQYIDRTRVAVFGKDYGGYLS---    718
+
+Q94DD0           151 LNYI-PYR--------LAGVALVVPAVNYWWPMPASVSASAYRKLDVGDR    191
+                      .|| |.:        ..|.|| .|..::  .:.||..:..|..|...|.
+P42658           719 -TYILPAKGENQGQTFTCGSAL-SPITDF--KLYASAFSERYLGLHGLDN    764
+
+Q94DD0           192 RTF---WIAHHMPWLFYAWFNQKWFRISPIVEGKPEAFTEKDWEILAEIQ    238
+                     |.:   .:||.:.    |...|::..|.|..:.|            ...|
+P42658           765 RAYEMTKVAHRVS----ALEEQQFLIIHPTADEK------------IHFQ    798
+
+Q94DD0           239 RTG----QLDRGRAT------------------KQGAYHSLCRDATILFG    266
+                     .|.    ||.||:|.                  ||..|.|:.......|.
+P42658           799 HTAELITQLIRGKANYSLQIYPDESHYFTSSSLKQHLYRSIINFFVECFR    848
+
+Q94DD0           267 AWEFDPTAIENPFPNGDGVVSIWQGREDKIVRVEAQRYVAEKLPWVRYHE    316
+                     .                         :||::.|.|:....|.        
+P42658           849 I-------------------------QDKLLTVTAKEDEEED--------    865
+
+Q94DD0           317 HPEGGHLFMCADGLGDKIVRELLLGEEPRDL    347
+                                                    
+P42658           865 -------------------------------    865
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:18
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p50219.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_p50219_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_p50219_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P50219
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 295
+# Identity:      67/295 (22.7%)
+# Similarity:   103/295 (34.9%)
+# Gaps:          86/295 (29.2%)
+# Score: 120.0
+# 
+#
+#=======================================
+
+Q5VPE3             5 GLSLGL---GLASQGSLTSSTTTTSSPGAGSSSPWAAALNSIVG------     45
+                     ||:|||   |......|.:.......|..|.|:  |||..::.|      
+P50219           136 GLALGLHPGGAQGGAGLPAQAALYGHPVYGYSA--AAAAAALAGQHPALS    183
+
+Q5VPE3            46 -DVRRDQAA--AHAAAAVGVGVGGEEMYQG-RASTS-------PD-SAAA     83
+                      ...:.|.|  ||.|..:.:|.|..::.|. ||||:       || ::.|
+P50219           184 YSYPQVQGAHPAHPADPIKLGAGTFQLDQWLRASTAGMILPKMPDFNSQA    233
+
+Q5VPE3            84 LSSASGKRERELERSGSGVDDDDGADGAGGRKKLRLSKDQAAVLEECFKT    133
+                     .|:..||..                     |.:...:..|...||..||.
+P50219           234 QSNLLGKCR---------------------RPRTAFTSQQLLELEHQFKL    262
+
+Q5VPE3           134 HSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWC    183
+                     :..|:..::..:|..|.|...||::||||||.:.|..         |:..
+P50219           263 NKYLSRPKRFEVATSLMLTETQVKIWFQNRRMKWKRS---------KKAK    303
+
+Q5VPE3           184 ERLADENKRLE----------KELADLRALKAAPSPASASAMQ-------    216
+                     |:.|.|.::.:          .|......|...|:|....:.:       
+P50219           304 EQAAQEAEKQKGGGGGAGKGGAEEPGAEELLGPPAPGDKGSGRRLRDLRD    353
+
+Q5VPE3           217 ---------------PSSSAAATLTMCPSCRRVATAGAPHQPNHQ    246
+                                    |.|:.|:.......|.. .....|.:|:||
+P50219           354 SDPEEDEDEDDEDHFPYSNGASVHAASSDCSS-EDDSPPPRPSHQ    397
+
+
+#---------------------------------------
+#---------------------------------------

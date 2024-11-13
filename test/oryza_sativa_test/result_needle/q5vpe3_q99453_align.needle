@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:42
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q99453.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_q99453_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_q99453_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q99453
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 389
+# Identity:      77/389 (19.8%)
+# Similarity:   117/389 (30.1%)
+# Gaps:         156/389 (40.1%)
+# Score: 91.5
+# 
+#
+#=======================================
+
+Q5VPE3             1 -------------------MMDLGLSLGLGLASQGSLTSS---------T     22
+                                        .||.. ||....|...|.:.:         |
+Q99453             1 MYKMEYSYLNSSAYESCMAGMDTS-SLASAYADFSSCSQASGFQYNPIRT     49
+
+Q5VPE3            23 TTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQG     72
+                     |..::.|..|.:|.:.:|    |.:|..|::.:||....:          
+Q99453            50 TFGATSGCPSLTPGSCSL----GTLRDHQSSPYAAVPYKL----------     85
+
+Q5VPE3            73 RASTSPDSAAALSSASGKRERELERSGSGVDDDDGADGAGGRKKLRLSKD    122
+                                .:...|..|:..:|                |.:...:..
+Q99453            86 -----------FTDHGGLNEKRKQR----------------RIRTTFTSA    108
+
+Q5VPE3           123 QAAVLEECF-KTH-STLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLK    170
+                     |...||..| :|| ..:..::::||  ::.|...:|:||||||||:.: |
+Q99453           109 QLKELERVFAETHYPDIYTREELAL--KIDLTEARVQVWFQNRRAKFR-K    155
+
+Q5VPE3           171 QTEVDCEYLKRWCERLA----------DENKRLEKELADLRALKAAPSPA    210
+                     |            ||.|          ...|:.:....|......:..|.
+Q99453           156 Q------------ERAAAAAAAAAKNGSSGKKSDSSRDDESKEAKSTDPD    193
+
+Q5VPE3           211 SASAMQPSSSAAATLTMCPSCRR-------VATAGAPHQ--PNHQQCHPK    251
+                     |.....|:.:..      |||..       .:.||||..  |......|.
+Q99453           194 STGGPGPNPNPT------PSCGANGGGGGGPSPAGAPGAAGPGGPGGEPG    237
+
+Q5VPE3           252 SNTTISSSSTAAAAVAVAGGNVLPSHCQFFPAAA---AAADRTSQSTW--    296
+                     .....::::.||||.|.|..           |||   |||....|. |  
+Q99453           238 KGGAAAAAAAAAAAAAAAAA-----------AAAGGLAAAGGPGQG-WAP    275
+
+Q5VPE3           297 ---------------------------NAAAPLVTRELF    308
+                                                .|.|.||...:|
+Q99453           276 GPGPITSIPDSLGGPFASVLSSLQRPNGAKAALVKSSMF    314
+
+
+#---------------------------------------
+#---------------------------------------

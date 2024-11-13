@@ -1,0 +1,49 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:09
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q8wu67.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/a0a0p0vam0_q8wu67_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/a0a0p0vam0_q8wu67_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q8WU67
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 136
+# Identity:      34/136 (25.0%)
+# Similarity:    54/136 (39.7%)
+# Gaps:          26/136 (19.1%)
+# Score: 72.5
+# 
+#
+#=======================================
+
+A0A0P0VAM0        37 PPVS--SPRVQLKDGRHLA-----------YREAGVGREIAKYKIIFSHG     73
+                     |||.  :..::..||..::           |.:|.     .:..|:...|
+Q8WU67           103 PPVQYRNELIKTADGGQISLDWFDNDNSTCYMDAS-----TRPTILLLPG    147
+
+A0A0P0VAM0        74 FAST-KESDFPVSQELAEELGIYLLYFDRAGY-GDSDANPKRGLKSDATD    121
+                     ...| |||.......|:||||...:.|:..|. |::...|:....::..|
+Q8WU67           148 LTGTSKESYILHMIHLSEELGYRCVVFNNRGVAGENLLTPRTYCCANTED    197
+
+A0A0P0VAM0       122 VEEL---ADKLQLGEKFYVVGTSMGGYVAWSCLNYI    154
+                     :|.:   ...|.....|...|.||||.:   .|||:
+Q8WU67           198 LETVIHHVHSLYPSAPFLAAGVSMGGML---LLNYL    230
+
+
+#---------------------------------------
+#---------------------------------------

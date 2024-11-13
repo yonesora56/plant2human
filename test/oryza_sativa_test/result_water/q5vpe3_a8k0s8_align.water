@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:19
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/a8k0s8.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_a8k0s8_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_a8k0s8_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: A8K0S8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 228
+# Identity:      47/228 (20.6%)
+# Similarity:    75/228 (32.9%)
+# Gaps:          86/228 (37.7%)
+# Score: 68.5
+# 
+#
+#=======================================
+
+Q5VPE3            16 GSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVG     65
+                     ||:...|...||.|..|.|          ||...||         |||: 
+A8K0S8           194 GSVHLGTPGPSSGGLASQS----------GDNSSDQ---------GVGL-    223
+
+Q5VPE3            66 GEEMYQGRASTSPDSAAALSSASGKRERELERSGSGVDDDDGADGAGGRK    115
+                                  |::.|..|:.|:            |:|...:....:|
+A8K0S8           224 -------------DTSVASPSSGGE------------DEDLDQEPRRNKK    248
+
+Q5VPE3           116 -----KLRLSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWF    160
+                          |:..:..:|.:.:..:  |...:.:||..|....||...||..||
+A8K0S8           249 RGIFPKVATNIMRAWLFQHLW--HPYPSEEQKKQLVQDTGLTILQVNNWF    296
+
+Q5VPE3           161 QNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPSPA    210
+                     .|.|               :|..:.:.|::.|:.:        .||.||.
+A8K0S8           297 INAR---------------RRMVQPMIDQSNRIGQ--------GAAFSPE    323
+
+Q5VPE3           211 SAS-----------AMQPSSSAAATLTM    227
+                     ...           |.:|.:|...:|.:
+A8K0S8           324 GQPIGGYTETEPHVAFRPPASVGMSLNL    351
+
+
+#---------------------------------------
+#---------------------------------------

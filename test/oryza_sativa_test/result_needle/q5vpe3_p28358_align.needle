@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:36
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p28358.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_p28358_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_p28358_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P28358
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 474
+# Identity:      45/474 ( 9.5%)
+# Similarity:    79/474 (16.7%)
+# Gaps:         300/474 (63.3%)
+# Score: 85.5
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P28358             1 MSFPNSSPAANTFLVDSLISACRSDSFYSSSASMYMPPPSADMGTYGMQT     50
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P28358            51 CGLLPSLAKREVNHQNMGMNVHPYIPQVDSWTDPNRSCRIEQPVTQQVPT    100
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P28358           101 CSFTTNIKEESNCCMYSDKRNKLISAEVPSYQRLVPESCPVENPEVPVPG    150
+
+Q5VPE3             1 MMDLGLSLGLGLASQGSLT---SSTTTTSSPGAGSSSPWAAALNSIVGDV     47
+                     ...|..:...|...:.:.:   |||........|::.|..:|        
+P28358           151 YFRLSQTYATGKTQEYNNSPEGSSTVMLQLNPRGAAKPQLSA--------    192
+
+Q5VPE3            48 RRDQAAAHAAAAVGVGVGGEEMYQGRASTSPDSAAAL------------S     85
+                         |.......:...|.|:|..:.....||::...|            |
+P28358           193 ----AQLQMEKKMNEPVSGQEPTKVSQVESPEAKGGLPEERSCLAEVSVS    238
+
+Q5VPE3            86 SASGKRERELERSGSGVDDDDGADGAGGRKK-LRLSKDQAAVLEECFKTH    134
+                     |...:.:...|...|.....:......|||| ...:|.|...||:.|..:
+P28358           239 SPEVQEKESKEEIKSDTPTSNWLTAKSGRKKRCPYTKHQTLELEKEFLFN    288
+
+Q5VPE3           135 STLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCE    184
+                     ..|..::::.::..:.|..|||::||||||.:.|                
+P28358           289 MYLTRERRLEISKSVNLTDRQVKIWFQNRRMKLK----------------    322
+
+Q5VPE3           185 RLADENKRLEKELADLRALKAAPSPASASAMQPSSSAAATLTMCPSCRRV    234
+                     :::.|| |:.:..|:|...                               
+P28358           323 KMSREN-RIRELTANLTFS-------------------------------    340
+
+Q5VPE3           235 ATAGAPHQPNHQQCHPKSNTTISSSSTAAAAVAVAGGNVLPSHCQFFPAA    284
+                                                                       
+P28358           340 --------------------------------------------------    340
+
+Q5VPE3           285 AAAADRTSQSTWNAAAPLVTRELF    308
+                                             
+P28358           340 ------------------------    340
+
+
+#---------------------------------------
+#---------------------------------------

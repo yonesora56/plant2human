@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:17
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p52952.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_p52952_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_p52952_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P52952
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 324
+# Identity:      79/324 (24.4%)
+# Similarity:   114/324 (35.2%)
+# Gaps:         110/324 (34.0%)
+# Score: 137.5
+# 
+#
+#=======================================
+
+Q5VPE3            12 LASQGSLTSSTTTTSSPGA---------GSSSPWAAA--LNSIVGDVRRD     50
+                     ||:.|.|::....|.:|.:         ..:.|.|||  |..:..::.|.
+P52952            27 LAAAGELSARLEATLAPSSCMLAAFKPEAYAGPEAAAPGLPELRAELGRA     76
+
+Q5VPE3            51 QAAAHAAAAVGVGVGGEEMYQGRASTSPDSA----------AALSSASGK     90
+                     .:.|..|:|....    ..:..||.:.||.|          .||..|.  
+P52952            77 PSPAKCASAFPAA----PAFYPRAYSDPDPAKDPRAEKKELCALQKAV--    120
+
+Q5VPE3            91 RERELERSGSGVDDDDGAD--GAGGRKKLRLSKDQAAV--LEECFKTHST    136
+                        |||::     :.|.|:  .|..|:|.|:...||.|  ||..||....
+P52952           121 ---ELEKT-----EADNAERPRARRRRKPRVLFSQAQVYELERRFKQQRY    162
+
+Q5VPE3           137 LNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCERL    186
+                     |:..::..||:.|.|...||::||||||.:.|.::               
+P52952           163 LSAPERDQLASVLKLTSTQVKIWFQNRRYKCKRQR---------------    197
+
+Q5VPE3           187 ADENKRLEKELADLRALKAAPSPASASAMQPSSSAAATLTMCPSCRRVAT    236
+                       :::.||        |...|.|..                 |..||:|.
+P52952           198 --QDQTLE--------LVGLPPPPP-----------------PPARRIAV    220
+
+Q5VPE3           237 A------------GAPHQP-----------NHQQCHPKSNTTISSSSTAA    263
+                     .            .||:.|           |....:|.......|...:.
+P52952           221 PVLVRDGKPCLGDSAPYAPAYGVGLNPYGYNAYPAYPGYGGAACSPGYSC    270
+
+Q5VPE3           264 AAVAVAGGNVLPSHCQFFPAAAAA    287
+                     .|...||    ||..|  ||.|||
+P52952           271 TAAYPAG----PSPAQ--PATAAA    288
+
+
+#---------------------------------------
+#---------------------------------------

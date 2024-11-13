@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:17
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q92826.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_q92826_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_q92826_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q92826
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      42/155 (27.1%)
+# Similarity:    69/155 (44.5%)
+# Gaps:          27/155 (17.4%)
+# Score: 105.5
+# 
+#
+#=======================================
+
+Q5VPE3            28 PG-AGSSSPWAAALN-SIV------GDVRRDQ---AAAHAAAAVGVGVGG     66
+                     || .|:..|.|:.|: |:|      |:.|.|.   ..::.:.|:..|...
+Q92826           131 PGYPGTYQPMASYLDVSVVQTLGAPGEPRHDSLLPVDSYQSWALAGGWNS    180
+
+Q5VPE3            67 EEMYQGRAS-TSPDSAAALSSASGKRERELERSGSGVDDDDGADGAGGRK    115
+                     :...||..: ..|...||.:.:||:.           ..|..|...|.:|
+Q92826           181 QMCCQGEQNPPGPFWKAAFADSSGQH-----------PPDACAFRRGRKK    219
+
+Q5VPE3           116 KLRLSKDQAAVLEECFKTHS--TLNPKQKVALANRLGLRPRQVEVWFQNR    163
+                     ::..||.|...||..:..:.  |.:.::|::.|.  .|..||:.:|||||
+Q92826           220 RIPYSKGQLRELEREYAANKFITKDKRRKISAAT--SLSERQITIWFQNR    267
+
+Q5VPE3           164 RARTK    168
+                     |.:.|
+Q92826           268 RVKEK    272
+
+
+#---------------------------------------
+#---------------------------------------
