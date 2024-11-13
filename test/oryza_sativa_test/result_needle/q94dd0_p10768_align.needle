@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:26
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p10768.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_p10768_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_p10768_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: P10768
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 434
+# Identity:      55/434 (12.7%)
+# Similarity:    92/434 (21.2%)
+# Gaps:         239/434 (55.1%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+Q94DD0             1 MVALSKLVLITAVALLGWAYKVARPPPPPILGGPGGPPVSSPRVQLKDGR     50
+                                                                       
+P10768             0 --------------------------------------------------      0
+
+Q94DD0            51 HLAYREAGVGREIAKYKIIFSHGFASTK-ESDFPVSQELAEELG----IY     95
+                      :|.::....:.....:.:|.|...... :..|.|......|.|    :|
+P10768             1 -MALKQISSNKCFGGLQKVFEHDSVELNCKMKFAVYLPPKAETGKCPALY     49
+
+Q94DD0            96 LL---------YFDRAGYGDS-----------DANPK-------------    112
+                     .|         :..::||..|           |.:|:             
+P10768            50 WLSGLTCTEQNFISKSGYHQSASEHGLVVIAPDTSPRGCNIKGEDESWDF     99
+
+Q94DD0           113 ---RGLKSDATD-------------VEELADKLQLG-----EKFYVVGTS    141
+                        .|...|||:             .|||...:...     ::..:.|.|
+P10768           100 GTGAGFYVDATEDPWKTNYRMYSYVTEELPQLINANFPVDPQRMSIFGHS    149
+
+Q94DD0           142 MGGYVAWSCLNYIPYRLAGVALVVPAVNYWWPM--PASVSA-SAYRKLDV    188
+                     |||:.|..|....|.:...|:...|..|   |:  |....| |.|    :
+P10768           150 MGGHGALICALKNPGKYKSVSAFAPICN---PVLCPWGKKAFSGY----L    192
+
+Q94DD0           189 GDRRTFWIAHHMPWLFYAWFNQKWFRISPIVEGKPEAF------------    226
+                     |..::.|.|:....|..::...:...:  |.:||.:.|            
+P10768           193 GTDQSKWKAYDATHLVKSYPGSQLDIL--IDQGKDDQFLLDGQLLPDNFI    240
+
+Q94DD0           227 ---TEKDWEILAEIQRTGQLDRGRATKQGAYHSLCRDATIL---------    264
+                        |||...::..:|            :|..||....||.:         
+P10768           241 AACTEKKIPVVFRLQ------------EGYDHSYYFIATFITDHIRHHAK    278
+
+Q94DD0           265 -FGAWEFDPTAIENPFPNGDGVVSIWQGREDKIVRVEAQRYVAEKLPWVR    313
+                      ..|                                              
+P10768           279 YLNA----------------------------------------------    282
+
+Q94DD0           314 YHEHPEGGHLFMCADGLGDKIVRELLLGEEPRDL    347
+                                                       
+P10768           282 ----------------------------------    282
+
+
+#---------------------------------------
+#---------------------------------------

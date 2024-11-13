@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:23
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q92597.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_q92597_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_q92597_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q92597
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 553
+# Identity:      61/553 (11.0%)
+# Similarity:    90/553 (16.3%)
+# Gaps:         365/553 (66.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+Q94DD0             1 ------------------------------------MVALSKLVLITAVA     14
+                                                         :..|...|.:|   
+Q92597             1 MSREMQDVDLAEVKPLVEKGETITGLLQEFDVQEQDIETLHGSVHVT---     47
+
+Q94DD0            15 LLGWAYKVARPPPPPILGGP-GGPPVSSPRVQLKDGRHLAYREAGVGREI     63
+                                    :.|.| |..||.           |.|.:.|:..:.
+Q92597            48 ---------------LCGTPKGNRPVI-----------LTYHDIGMNHKT     71
+
+Q94DD0            64 AKYKIIFSHGFASTKESDFPVSQELAEELGIYLLYFDRAGYGDSDANPKR    113
+                     . |..:|::       .|.   ||:.:...:  .:.|..|..|..|:...
+Q92597            72 C-YNPLFNY-------EDM---QEITQHFAV--CHVDAPGQQDGAASFPA    108
+
+Q94DD0           114 GLKSDATDVEELADKL-----QLGEKFYV-VGTSMGGYVAWSCLNYIPYR    157
+                     |....:.|  :||:.|     |.|.|..: :||..|.|:........|..
+Q92597           109 GYMYPSMD--QLAEMLPGVLQQFGLKSIIGMGTGAGAYILTRFALNNPEM    156
+
+Q94DD0           158 LAGVALVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHMPWLFYAW    207
+                     :.|:.|:                                           
+Q92597           157 VEGLVLI-------------------------------------------    163
+
+Q94DD0           208 FNQKWFRISPIVEGKPEAFTEKDWEILAEIQRTGQLDRGRATKQGAYHSL    257
+                           .::|..||      ..||                          
+Q92597           164 ------NVNPCAEG------WMDW--------------------------    175
+
+Q94DD0           258 CRDATILFGAWEFDPTAIENPFPNGDGVVSIWQGREDKIVRVEAQRYVAE    307
+                        |......|       ....|  |.|||...|:|:....||...    
+Q92597           176 ---AASKISGW-------TQALP--DMVVSHLFGKEEMQSNVEVVH----    209
+
+Q94DD0           308 KLPWVRYHEH------PEGGHLFMCADGLGDKIVRELLLGEEPRDL----    347
+                          .|.:|      |...|||:.|             ....|||    
+Q92597           210 -----TYRQHIVNDMNPGNLHLFINA-------------YNSRRDLEIER    241
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q92597           242 PMPGTHTVTLQCPALLVVGDSSPAVDAVVECNSKLDPTKTTLLKMADCGG    291
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q92597           292 LPQISQPAKLAEAFKYFVQGMGYMPSASMTRLMRSRTASGSSVTSLDGTR    341
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q92597           342 SRSHTSEGTRSRSHTSEGTRSRSHTSEGAHLDITPNSGAAGNSAGPKSME    391
+
+Q94DD0           347 ---    347
+                        
+Q92597           392 VSC    394
+
+
+#---------------------------------------
+#---------------------------------------

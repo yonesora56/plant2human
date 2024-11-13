@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:25
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q5jur7.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_q5jur7_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_q5jur7_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q5JUR7
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 376
+# Identity:      58/376 (15.4%)
+# Similarity:    96/376 (25.5%)
+# Gaps:         178/376 (47.3%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+Q94DD0             1 MVALSKLVLITAVALLGWAYKVARPPPPPILGGPGGPPVSSPRVQLK--D     48
+                                                           :|...|:||  .
+Q5JUR7             1 --------------------------------------MSHTEVKLKIPF     12
+
+Q94DD0            49 GRHLAYREAGVGREIAKYKIIFSHGFASTKESDFPVSQELAEEL---GIY     95
+                     |..|......|..:...|.||.:||  ::.:.:.|....||..|   |.:
+Q5JUR7            13 GNKLLDAVCLVPNKSLTYGIILTHG--ASGDMNLPHLMSLASHLASHGFF     60
+
+Q94DD0            96 LLYFDRAGYGDSDANPKRGLKSDATDVEELADKLQLGEKFYVVGTSMGGY    145
+                     .|.|...|.                   .:..::    |.|.        
+Q5JUR7            61 CLRFTCKGL-------------------NIVHRI----KAYK--------     79
+
+Q94DD0           146 VAWSCLNYI----PYRLAGVALVVPAVNYWWPMPASVSASAYRKLDVGD-    190
+                        |.|||:    .|:||||.|...::.    ..|:.|...:.:.|.|| 
+Q5JUR7            80 ---SVLNYLKTSGEYKLAGVFLGGRSMG----SRAAASVMCHIEPDDGDD    122
+
+Q94DD0           191 --RRTFWIAH--HMPWLFYAWFNQKWFRI-SPI--VEGKPEAFTEKDWEI    233
+                       |....|::  |.|...:...::..||: .|:  |.|..:...||:  :
+Q5JUR7           123 FVRGLICISYPLHHPKQQHKLRDEDLFRLKEPVLFVSGSADEMCEKN--L    170
+
+Q94DD0           234 LAEIQRTGQLDRGRATKQGAYHSLC------------RDATILFGAWEFD    271
+                     |.::.:..|........:.|.||:.            .:..|||  |..:
+Q5JUR7           171 LEKVAQKMQAPHKIHWIEKANHSMAVKGRSTNDVFKEINTQILF--WIQE    218
+
+Q94DD0           272 PTAIENPFPNGDGVVSIWQGREDKIVRVEAQRYVAEKLPWVRYHEHPEGG    321
+                     .|.::....                                         
+Q5JUR7           219 ITEMDKKCH-----------------------------------------    227
+
+Q94DD0           322 HLFMCADGLGDKIVRELLLGEEPRDL    347
+                                               
+Q5JUR7           227 --------------------------    227
+
+
+#---------------------------------------
+#---------------------------------------

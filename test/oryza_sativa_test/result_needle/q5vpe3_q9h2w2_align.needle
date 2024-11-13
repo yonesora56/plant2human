@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:42
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q9h2w2.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_q9h2w2_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_q9h2w2_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q9H2W2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 334
+# Identity:      63/334 (18.9%)
+# Similarity:   102/334 (30.5%)
+# Gaps:         128/334 (38.3%)
+# Score: 86.5
+# 
+#
+#=======================================
+
+Q5VPE3             1 MMDLGLSLGLGLASQGSLTSSTTTTSSPGAGSS-----SPWAAAL-----     40
+                          ::.....|.|.:..::.....:|.||.:     ||.||.|     
+Q9H2W2             1 -----MATAESRALQFAEGAAFPAYRAPHAGGALLPPPSPAAALLPAPPA     45
+
+Q5VPE3            41 ----NSIVGDVRRDQA-AAHAAAAVGVGVGGEEMYQGRASTSPDSAAALS     85
+                         .:..|.:.||.. |....|::|             |.:|...||..
+Q9H2W2            46 GPGPATFAGFLGRDPGPAPPPPASLG-------------SPAPPKGAAAP     82
+
+Q5VPE3            86 SASGKRERELERSGSGVDDDDGADGAGGRKKLRLSKDQAAVLEECFK--T    133
+                     |||.:                       ||:...|.:|..:||..|:  .
+Q9H2W2            83 SASQR-----------------------RKRTSFSAEQLQLLELVFRRTR    109
+
+Q5VPE3           134 HSTLNPKQKVALANRLGLRPR-QVEVWFQNRRARTKLK-----QTEVDCE    177
+                     :..::.::::|   .|.|.|. :::||||||||:::.:     |.....|
+Q9H2W2           110 YPDIHLRERLA---ALTLLPESRIQVWFQNRRAKSRRQSGKSFQPLARPE    156
+
+Q5VPE3           178 YLKRWCERLADENKRLEKEL---ADLRALKAAPSPASASAMQPSSSAAAT    224
+                     .:...|.. ..|.|.|:.:|   .|:..|   |.|.........||:.. 
+Q9H2W2           157 IILNHCAP-GTETKCLKPQLPLEVDVNCL---PEPNGVGGGISDSSSQG-    201
+
+Q5VPE3           225 LTMCPSCRRVATAGAPHQPNHQQCHPKSNTTISSSSTAAAAVAVAGGNVL    274
+                                       .|.:.|.|.|....|...:....:..|.||. 
+Q9H2W2           202 ------------------QNFETCSPLSEDIGSKLDSWEEHIFSAFGNF-    232
+
+Q5VPE3           275 PSHCQFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                                                       
+Q9H2W2           232 ----------------------------------    232
+
+
+#---------------------------------------
+#---------------------------------------

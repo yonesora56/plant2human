@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:37
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/o43316.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_o43316_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_o43316_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: O43316
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 430
+# Identity:      66/430 (15.3%)
+# Similarity:   104/430 (24.2%)
+# Gaps:         202/430 (47.0%)
+# Score: 99.0
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+O43316             1 MHQDGISSMNQLGGLFVNGRPLPLDTRQQIVRLAVSGMRPCDISRILKVS     50
+
+Q5VPE3             1 ---------------------------------------------MMDLG      5
+                                                                  .....
+O43316            51 NGCVSKILGRYYRTGVLEPKGIGGSKPRLATPPVVARIAQLKGECPALFA    100
+
+Q5VPE3             6 LSLGLGLASQGSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAH     55
+                     ..:...|.::|..|...|           |..:::|.::..::.|     
+O43316           101 WEIQRQLCAEGLCTQDKT-----------PSVSSINRVLRALQED-----    134
+
+Q5VPE3            56 AAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGKRERELERSGSGVDDD    105
+                                    ||...|...|.|.|:.|       :....||.:..
+O43316           135 ---------------QGLPCTRLRSPAVLAPA-------VLTPHSGSETP    162
+
+Q5VPE3           106 DGA-DGAGGRKKLRLSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPR    154
+                     .|. .|.|.|.:...|..||..||:.|:.....:...:..||....|...
+O43316           163 RGTHPGTGHRNRTIFSPSQAEALEKEFQRGQYPDSVARGKLATATSLPED    212
+
+Q5VPE3           155 QVEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALK    204
+                     .|.|||.||||:.:.:      |.|| |..:|...::.|.........:.
+O43316           213 TVRVWFSNRRAKWRRQ------EKLK-WEMQLPGASQGLTVPRVAPGIIS    255
+
+Q5VPE3           205 AAPSPASASAMQPSSSAAATLTMCPSCRRVATAGAPHQPNHQQC----HP    250
+                     |..||.|.    |:::..|...:.|||.::..|.||     ::|    .|
+O43316           256 AQQSPGSV----PTAALPALEPLGPSCYQLCWATAP-----ERCLSDTPP    296
+
+Q5VPE3           251 KSNT-------TISSSSTAAAAVAVA---------------GGNVLPSHC    278
+                     |:..       :......|.:.|.||               .|...|:|.
+O43316           297 KACLKPCWDCGSFLLPVIAPSCVDVAWPCLDASLAHHLIGGAGKATPTHF    346
+
+Q5VPE3           279 QFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                     ..:|                          
+O43316           347 SHWP--------------------------    350
+
+
+#---------------------------------------
+#---------------------------------------

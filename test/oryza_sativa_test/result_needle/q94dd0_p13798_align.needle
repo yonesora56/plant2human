@@ -1,0 +1,105 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:25
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p13798.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_p13798_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_p13798_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: P13798
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 843
+# Identity:      70/843 ( 8.3%)
+# Similarity:   107/843 (12.7%)
+# Gaps:         607/843 (72.0%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P13798             1 MERQVLLSEPEEAAALYRGLSRQPALSAACLGPEVTTQYGGQYRTVHTEW     50
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P13798            51 TQRDLERMENIRFCRQYLVFHDGDSVVFAGPAGNSVETRGELLSRESPSG    100
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P13798           101 TMKAVLRKAGGTGPGEEKQFLEVWEKNRKLKSFNLSALEKHGPVYEDDCF    150
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P13798           151 GCLSWSHSETHLLYVAEKKRPKAESFFQTKALDVSASDDEIARLKKPDQA    200
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P13798           201 IKGDQFVFYEDWGENMVSKSIPVLCVLDVESGNISVLEGVPENVSPGQAF    250
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P13798           251 WAPGDAGVVFVGWWHEPFRLGIRFCTNRRSALYYVDLIGGKCELLSDDSL    300
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P13798           301 AVSSPRLSPDQCRIVYLQYPSLIPHHQCSQLCLYDWYTKVTSVVVDVVPR    350
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+P13798           351 QLGENFSGIYCSLLPLGCWSADSQRVVFDSAQRSRQDLFAVDTQVGTVTS    400
+
+Q94DD0             1 ------------------------------------------------MV      2
+                                                                     .|
+P13798           401 LTAGGSGGSWKLLTIDQDLMVAQFSTPSLPPTLKVGFLPSAGKEQSVLWV    450
+
+Q94DD0             3 ALSKLVLITAVALLGWAYKVARPPP------------PPILGGPGGPP--     38
+                     :|.:...|..:   .|..:|.:|||            ..||..||.||  
+P13798           451 SLEEAEPIPDI---HWGIRVLQPPPEQENVQYAGLDFEAILLQPGSPPDK    497
+
+Q94DD0            39 VSSPRVQLKDGRHLAYREAGVGREIAKYKIIFSHGFASTKESDFPVSQEL     88
+                     ...|.|.:..|.                    .|....|....||.   :
+P13798           498 TQVPMVVMPHGG--------------------PHSSFVTAWMLFPA---M    524
+
+Q94DD0            89 AEELGIYLL---YFDRAGYGDSD--ANPKRGLKSDATDVEELADKLQLGE    133
+                     ..::|..:|   |....|:|...  :.|......|..||:...:::...|
+P13798           525 LCKMGFAVLLVNYRGSTGFGQDSILSLPGNVGHQDVKDVQFAVEQVLQEE    574
+
+Q94DD0           134 KF-----YVVGTSMGGYVAWSCLNYIPYRLAGVALVVPAVNYWWPMPASV    178
+                     .|     .::|.|.||:::...:...|..........|.:|.        
+P13798           575 HFDASHVALMGGSHGGFISCHLIGQYPETYRACVARNPVINI--------    616
+
+Q94DD0           179 SASAYRKLDVGDRRTFWIAHHMPWLFYAWFNQKWFRISPIVE-GKPEAFT    227
+                      ||.....|:.|    |.                     :|| |.|  |:
+P13798           617 -ASMLGSTDIPD----WC---------------------VVEAGFP--FS    638
+
+Q94DD0           228 E---KDWEILAE-----------------IQRTGQLDRGRATKQGA--YH    255
+                     .   .|..:.||                 :...||.||....|||.  |.
+P13798           639 SDCLPDLSVWAEMLDKSPIRYIPQVKTPLLLMLGQEDRRVPFKQGMEYYR    688
+
+Q94DD0           256 SL-CRDATILFGAWEFDPTAIENPFPNGDGVVSIWQGREDKIVRVEAQRY    304
+                     :| .|:..:....:.....|:..                   |.||:..:
+P13798           689 ALKTRNVPVRLLLYPKSTHALSE-------------------VEVESDSF    719
+
+Q94DD0           305 VAEKLPWVRYHEHPEGGHLFMCADGLGDKIVRELLLGEEPRDL    347
+                     :...| |:|.|...                             
+P13798           720 MNAVL-WLRTHLGS-----------------------------    732
+
+
+#---------------------------------------
+#---------------------------------------

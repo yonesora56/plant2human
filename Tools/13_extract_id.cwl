@@ -19,7 +19,7 @@ inputs:
     default:
       class: File
       format: edam:format_3475
-      location: ../test/workflow_test/foldseek_rice_up_9606.tsv
+      location: ../test/oryza_sativa_test/foldseek_os_random_9606.tsv
   - id: column_number
     type: int
     doc: "column number"

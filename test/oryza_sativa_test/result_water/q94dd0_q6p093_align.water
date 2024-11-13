@@ -1,0 +1,41 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:02
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q6p093.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_q6p093_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_q6p093_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q6P093
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      16/43 (37.2%)
+# Similarity:    21/43 (48.8%)
+# Gaps:          12/43 (27.9%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+Q94DD0           307 EKLPW-VRYHEHP--EGGHLFMCADGLGDKIVR-ELLLGEEPR    345
+                     |.||| :|.::|.  |..|||        |.|. .:||.|:.|
+Q6P093           258 EALPWAMRRNQHMPLESRHLF--------KFVNWSILLPEKYR    292
+
+
+#---------------------------------------
+#---------------------------------------

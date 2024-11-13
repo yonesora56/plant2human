@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:42
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q15583.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_q15583_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_q15583_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q15583
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 435
+# Identity:      77/435 (17.7%)
+# Similarity:   124/435 (28.5%)
+# Gaps:         161/435 (37.0%)
+# Score: 78.5
+# 
+#
+#=======================================
+
+Q5VPE3             1 --MMDLGLSLGLGLASQGSLTSSTTTTSSPGAGSSS--------------     34
+                       :....:|.|:|         |...:.|.|.||.|              
+Q15583             1 MVLAQSRVSAGVG---------SPHCSGSGGGGSDSFPWPASHPGNPQCS     41
+
+Q5VPE3            35 ----------------------PWA--AALNSIVGD--------VRRDQA     52
+                                           ||:  |..::::|.        .|..|.
+Q15583            42 FSTAFLASPRLSRGTLAYLPPAPWSSLATPSALLGSSCAPPPPPARCPQP     91
+
+Q5VPE3            53 AAHAAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGKRERELE------     96
+                     .| .:..:|...|....::.....||...|   .....|.|.||      
+Q15583            92 RA-LSPELGTKAGPRRPHRWELPRSPSQGA---QGPAPRRRLLETMKGIV    137
+
+Q5VPE3            97 -RSGSGVDDDDGAD---------GAGGRKKL-RLSKDQAAVLEECFKTH-    134
+                      .|||..:|:|..|         |:|.|::. .|.|:...:|.:....| 
+Q15583           138 AASGSETEDEDSMDIPLDLSSSAGSGKRRRRGNLPKESVQILRDWLYEHR    187
+
+Q5VPE3           135 --STLNPKQKVALANRLGLRPRQVEVWFQNRRAR---TKLKQTEVDCEY-    178
+                       :..:.::|..|:.:..|...||..||.|.|.|   ..|::...|... 
+Q15583           188 YNAYPSEQEKALLSQQTHLSTLQVCNWFINARRRLLPDMLRKDGKDPNQF    237
+
+Q5VPE3           179 -LKRWCERLADENKRLEK-----------ELADLRALKAAPSPASASAMQ    216
+                      :.|...::: |...:|.           |.....:..|.|:|.....:.
+Q15583           238 TISRRGAKIS-ETSSVESVMGIKNFMPALEETPFHSCTAGPNPTLGRPLS    286
+
+Q5VPE3           217 PSSSAAATLTMCPS--CRRVATA------------GAPHQPNHQQCHPKS    252
+                     |..|:..::...||  |....||            |.....:.||...|:
+Q15583           287 PKPSSPGSVLARPSVICHTTVTALKDVPFSLCQSVGVGQNTDIQQIAAKN    336
+
+Q5VPE3           253 NTTISSSSTAAAAVAVAGGNVLPSH-CQFFPAAAAAADRTSQSTWNAAAP    301
+                     .|..|.              :.|.. |:..|:.     .|....:|...|
+Q15583           337 FTDTSL--------------MYPEDTCKSGPST-----NTQSGLFNTPPP    367
+
+Q5VPE3           302 LVTRELF----------------------------    308
+                      ...:|.                            
+Q15583           368 -TPPDLNQDFSGFQLLVDVALKRAAEMELQAKLTA    401
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:02
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q4j6c6.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_q4j6c6_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_q4j6c6_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q4J6C6
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 198
+# Identity:      38/198 (19.2%)
+# Similarity:    67/198 (33.8%)
+# Gaps:          75/198 (37.9%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+Q94DD0           141 SMGGYVAWSCLNYIPYRLAGVALVVPAVNYW-----------------WP    173
+                     |.||.:|.:..|..|..:..|.|..|.::..                 |.
+Q4J6C6           559 SAGGVLAGALCNSNPELVRAVTLEAPFLDVLNTMMDTTLPLTLEELEEWG    608
+
+Q94DD0           174 MPASVSASAYRKLDVGDRRTFWIAHHMPWL-----------FYAWFNQKW    212
+                     .|:|           .::...:|..:.|:.           ..|:.|.:.
+Q4J6C6           609 NPSS-----------DEKHKNYIKRYCPYQNIKPQHYPSIHITAYENDER    647
+
+Q94DD0           213 FRISPIVEGKPEAFTEKDWEILAEIQRTGQLDRGRATKQGAYHSLCRDAT    262
+                     ..:..||     ::|||..|.:||        ..:.|.:| |.:      
+Q4J6C6           648 VPLKGIV-----SYTEKLKEAIAE--------HAKDTGEG-YQT------    677
+
+Q94DD0           263 ILFGAWEFDPTAIENPFPNGDGVVSIWQGREDKIVRVEAQ-RYVAEKL    309
+                              |..|.:..|.|:.|:      ||...::.|| :::.|:|
+Q4J6C6           678 ---------PNIILDIQPGGNHVI------EDSHKKITAQIKFLYEEL    710
+
+
+#---------------------------------------
+#---------------------------------------

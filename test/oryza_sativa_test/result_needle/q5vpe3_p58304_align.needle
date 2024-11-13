@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:42
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p58304.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_p58304_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_p58304_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P58304
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 389
+# Identity:      69/389 (17.7%)
+# Similarity:   116/389 (29.8%)
+# Gaps:         109/389 (28.0%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+Q5VPE3             1 MMDLGLSLGLGLASQGSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRD     50
+                           ..|....:.....|.|...|:.|...:......:..|:| :.::
+P58304             1 ------MTGKAGEALSKPKSETVAKSTSGGAPARCTGFGIQEILG-LNKE     43
+
+Q5VPE3            51 QAAAHAAAAVG----------------VGVGGEEMY--------------     70
+                     ..::|..||:.                .||||..:.              
+P58304            44 PPSSHPRAALDGLAPGHLLAARSVLSPAGVGGMGLLGPGGLPGFYTQPTF     93
+
+Q5VPE3            71 --------------QGRASTSPDSAAALSSAS---GKRERELERSGSGVD    103
+                                   .||||...|::...||.|   ...:|::.:|     
+P58304            94 LEVLSDPQSVHLQPLGRASGPLDTSQTASSDSEDVSSSDRKMSKS-----    138
+
+Q5VPE3           104 DDDGADGAGGRKKLR----LSKDQAAVLEECFKTHSTLNPKQKVALANRL    149
+                        ..:....|||.|    .:..|...||:.|......:...:..||.:.
+P58304           139 ---ALNQTKKRKKRRHRTIFTSYQLEELEKAFNEAHYPDVYAREMLAMKT    185
+
+Q5VPE3           150 GLRPRQVEVWFQNRRARTKLKQ-----TEVDCEY-----LKRWCERLADE    189
+                     .|...:::||||||||:.:.::     :.|..||     :.|....|.:.
+P58304           186 ELPEDRIQVWFQNRRAKWRKREKCWGRSSVMAEYGLYGAMVRHSIPLPES    235
+
+Q5VPE3           190 NKRLEKELADLRALKAAPSPASASAMQPSSSAAATLTMCPSCRRVATAGA    239
+                     ..:..|:     .:..:.:|......:.|..|||.....|...|.|   .
+P58304           236 ILKSAKD-----GIMDSCAPWLLGMHKKSLEAAAESGRKPEGERQA---L    277
+
+Q5VPE3           240 PHQPNHQQCH--PKSNTTISSSSTAAAAVAVAGGNVLPSHCQFFPAAAAA    287
+                     |.....:|..  |.:...||.......::||..... ..|........:.
+P58304           278 PKLDKMEQDERGPDAQAAISQEELRENSIAVLRAKA-QEHSTKVLGTVSG    326
+
+Q5VPE3           288 ADRTSQSTWNAAAPLVTRELF------------------    308
+                     .|..::||....    ..|..                  
+P58304           327 PDSLARSTEKPE----EEEAMDEDRPAERLSPPQLEDMA    361
+
+
+#---------------------------------------
+#---------------------------------------

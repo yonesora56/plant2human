@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:04
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q9umr5.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_q9umr5_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_q9umr5_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q9UMR5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 258
+# Identity:      46/258 (17.8%)
+# Similarity:    81/258 (31.4%)
+# Gaps:         106/258 (41.1%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+Q94DD0            73 GFASTKESDFPVSQELAEELGIYLLYFDRAG-------------------    103
+                     ||   :|:..|:..:..:  |::|:.:.:.|                   
+Q9UMR5            89 GF---REAVVPIMAKAPQ--GVHLICYSQGGLVCRALLSVMDDHNVDSFI    133
+
+Q94DD0           104 ---------YGDSDANPKRGLKSDATDVEELADKLQLGEKFYVVGTSMGG    144
+                              |||:|.     ||                   ::..|||..
+Q9UMR5           134 SLSSPQMGQYGDTDY-----LK-------------------WLFPTSMRS    159
+
+Q94DD0           145 YVAWSCLNYIPYRLAGVALVVPAVNYWWPM---PASVSASAYRKLDVGDR    191
+                     .:...|  |.|:   |....:  .|||...   ...::||::..|..|:|
+Q9UMR5           160 NLYRIC--YSPW---GQEFSI--CNYWHDPHHDDLYLNASSFLALINGER    202
+
+Q94DD0           192 ----RTFW------IAHHM-----------PW--LFYAWFNQKWFRISPI    218
+                         .|.|      :.|.:           ||  .|:.:::..    ..:
+Q9UMR5           203 DHPNATVWRKNFLRVGHLVLIGGPDDGVITPWQSSFFGFYDAN----ETV    248
+
+Q94DD0           219 VEGKPEAFTEKDWEILAEIQRTGQLDRGRATKQGAYHSLCRDATILFGAW    268
+                     :|.:.:....:|...|..:...|.:.|            |..|.|...||
+Q9UMR5           249 LEMEEQLVYLRDSFGLKTLLARGAIVR------------CPMAGISHTAW    286
+
+Q94DD0           269 EFDPTAIE    276
+                     ..:.|..|
+Q9UMR5           287 HSNRTLYE    294
+
+
+#---------------------------------------
+#---------------------------------------

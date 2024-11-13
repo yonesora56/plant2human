@@ -1,0 +1,73 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:01
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q5w064.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_q5w064_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_q5w064_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q5W064
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 409
+# Identity:      72/409 (17.6%)
+# Similarity:   126/409 (30.8%)
+# Gaps:         165/409 (40.3%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+Q94DD0            36 GPPVSSPRVQLKDG-----RHLAYREAGVGREIAKYKIIF-SHGF---AS     76
+                     |.|.....:..:||     ..:.|......:.:|:..::: .||.   ||
+Q5W064            11 GYPDEEYDIVTEDGYILGLYRIPYWRTDNNKNLAQRVVVYLQHGLLTSAS     60
+
+Q94DD0            77 TKESDFPVSQELAEELGIYLLYFDRAGY----GDSDAN--PKRGLKSDAT    120
+                     :..|:.|     ...||..|.   .|||    |:|..|  .::.|..:.:
+Q5W064            61 SWISNLP-----NNSLGFILA---DAGYDVWMGNSRGNTWSRKHLYLETS    102
+
+Q94DD0           121 DVE-------ELAD-----------KLQLGEKFYVVGTSMG---GYVAWS    149
+                     ..|       |:|.           |....|:.:.||.|.|   |::.:|
+Q5W064           103 SKEFWAFSFDEMAKYDLPASIDFTVKQTRQEEIFYVGHSQGTTIGFITFS    152
+
+Q94DD0           150 CLNYIPYRLAGVALVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHH    199
+                     .::.|..|:.....:.|           |.::.|.|..: .|.|:     
+Q5W064           153 TISKIAERIKIFFALAP-----------VFSTKYLKSPL-IRMTY-----    185
+
+Q94DD0           200 MPWLFYAWFNQKWFRISPIVEGKPE-----AFTEKDWEILAEIQRTGQLD    244
+                                ||..|.....|..:     :|.:.....|..:|      
+Q5W064           186 -----------KWKSIVMAFSGNKDFLPKTSFKKFIGSKLCPLQ------    218
+
+Q94DD0           245 RGRATKQGAYHSLCRDATILFGAWEFDP------------------TAIE    276
+                             .:..:|  ..|||..:.:||                  |:::
+Q5W064           219 --------IFDKIC--LNILFMMFGYDPKNLNMSRLDVYFSHNPAGTSVQ    258
+
+Q94DD0           277 N------------------------------------PFPNGDGVVSIWQ    290
+                     |                                    ...|.:...:||.
+Q5W064           259 NMLHWSQLLNSTHLKAYDWGSPDLNLVHYNQTTSPLYNMTNMNVATAIWN    308
+
+Q94DD0           291 GRED--------KIVRVEAQRYVAEKLPWVRYHEHPEGGHLFMCADGLG-    331
+                     |:.|        .|:..|...::..|.  :.|:.|.:.  ||    ||. 
+Q5W064           309 GKSDLLADPEDVNILHSEITNHIYYKT--ISYYNHIDS--LF----GLDV    350
+
+Q94DD0           332 -DKIVRELL    339
+                      |::..|::
+Q5W064           351 YDQVYHEII    359
+
+
+#---------------------------------------
+#---------------------------------------

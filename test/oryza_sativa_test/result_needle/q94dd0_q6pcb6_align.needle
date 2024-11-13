@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:24
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q6pcb6.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_q6pcb6_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_q6pcb6_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q6PCB6
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 438
+# Identity:      73/438 (16.7%)
+# Similarity:   108/438 (24.7%)
+# Gaps:         200/438 (45.7%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q6PCB6             1 MPEPGPRMNGFSLGELCWLFCCPPCPSRIAAKLAFLPPEPTYTVLAPEQR     50
+
+Q94DD0             1 MVALSKLVLITAVALLGWAYKVARP-PPPPILGGPGGPPVSSPRVQLKDG     49
+                     ....|......|.|    |...|:| |..|..|...||...|  :.|.:.
+Q6PCB6            51 GAGASAPAPAQATA----AAAAAQPAPQQPEEGAGAGPGACS--LHLSER     94
+
+Q94DD0            50 RHLAYREAGVGREI--------------------------AKYKIIFSHG     73
+                     ....|.:    ||:                          ::|.::||||
+Q6PCB6            95 ADWQYSQ----RELDAVEVFFSRTARDNRLGCMFVRCAPSSRYTLLFSHG    140
+
+Q94DD0            74 FAST--KESDFPVSQELAEELGIYLLYFDRAGYGDSDANP-KRGLKSDAT    120
+                     .|..  :...|.:.  |...:...:..:|.:|||.|...| ::.|.:| .
+Q6PCB6           141 NAVDLGQMCSFYIG--LGSRINCNIFSYDYSGYGVSSGKPSEKNLYAD-I    187
+
+Q94DD0           121 DVEELADKLQLG---EKFYVVGTSMGGYVAWSCLNYIPYRLAGVALVVPA    167
+                     |....|.:.:.|   |...:.|.|:|                    .||.
+Q6PCB6           188 DAAWQALRTRYGVSPENIILYGQSIG--------------------TVPT    217
+
+Q94DD0           168 VNYWWPMPASVSASAYRKLDVGDRRTFWIAHHMPWLFYAWFNQKWFRISP    217
+                     |:.         ||.|....|       |.|                 ||
+Q6PCB6           218 VDL---------ASRYECAAV-------ILH-----------------SP    234
+
+Q94DD0           218 IVEGKPEAF--TEKDW--EILAEIQRTGQLDRGRATKQGAYHSLCRDATI    263
+                     ::.|...||  |.|.:  :....|.:..::........|.     .|..|
+Q6PCB6           235 LMSGLRVAFPDTRKTYCFDAFPSIDKISKVTSPVLVIHGT-----EDEVI    279
+
+Q94DD0           264 LF----GAWEFDPTAIENPFPNGDGVVSIWQGREDKIVRVEAQRYVAEKL    309
+                     .|    ..:|..|.|:|..:..|       .|..|    :|......|:|
+Q6PCB6           280 DFSHGLAMYERCPRAVEPLWVEG-------AGHND----IELYAQYLERL    318
+
+Q94DD0           310 PWVRYHEHPEGGHLFMCADGLGDKIVRELLLGEEPRDL    347
+                     .....||.|..                           
+Q6PCB6           319 KQFISHELPNS---------------------------    329
+
+
+#---------------------------------------
+#---------------------------------------

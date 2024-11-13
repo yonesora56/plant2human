@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:39
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p26367.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_p26367_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_p26367_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P26367
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 486
+# Identity:      64/486 (13.2%)
+# Similarity:   117/486 (24.1%)
+# Gaps:         242/486 (49.8%)
+# Score: 91.5
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P26367             1 MQNSHSGVNQLGGVFVNGRPLPDSTRQKIVELAHSGARPCDISRILQVSN     50
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P26367            51 GCVSKILGRYYETGSIRPRAIGGSKPRVATPEVVSKIAQYKRECPSIFAW    100
+
+Q5VPE3             1 -MMDLGLSLGLGLASQGSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVRR     49
+                      :.|       .|.|:|..|:           .:.|..:::|.::.::..
+P26367           101 EIRD-------RLLSEGVCTN-----------DNIPSVSSINRVLRNLAS    132
+
+Q5VPE3            50 DQAAAHAAAAVGVGVGGEEMYQ---------GRASTSP-----DSAAALS     85
+                     ::..          :|.:.||.         |...|.|     .|.....
+P26367           133 EKQQ----------MGADGMYDKLRMLNGQTGSWGTRPGWYPGTSVPGQP    172
+
+Q5VPE3            86 SASGKRERE------LERSGSGVDDDDGADGAGGRKKLR-----LSKDQA    124
+                     :..|.:::|      ...|.:|.|.|:.......::||:     .:::|.
+P26367           173 TQDGCQQQEGGGENTNSISSNGEDSDEAQMRLQLKRKLQRNRTSFTQEQI    222
+
+Q5VPE3           125 AVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEV    174
+                     ..||:.|:.....:...:..||.::.|...:::|||.||||:.:.:    
+P26367           223 EALEKEFERTHYPDVFARERLAAKIDLPEARIQVWFSNRRAKWRRE----    268
+
+Q5VPE3           175 DCEYLKRWCERLADENKRLEKELADL--------RALKAAPSPA------    210
+                              |:|.::.::.....:.:        ...:..|.|.      
+P26367           269 ---------EKLRNQRRQASNTPSHIPISSSFSTSVYQPIPQPTTPVSSF    309
+
+Q5VPE3           211 -----------------SASAMQPSSSAAATLTMCP---------SC---    231
+                                      ||....||.:.|..|.|.|         ||   
+P26367           310 TSGSMLGRTDTALTNTYSALPPMPSFTMANNLPMQPPVPSQTSSYSCMLP    359
+
+Q5VPE3           232 -------RRVATAGAPHQPNHQQCHP--KSNTTISSSSTAAAAVAVAGGN    272
+                            |...|...||...|....|  .|.||.:...:...:|.|....
+P26367           360 TSPSVNGRSYDTYTPPHMQTHMNSQPMGTSGTTSTGLISPGVSVPVQVPG    409
+
+Q5VPE3           273 VLPSHCQFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                     ..|...|::|...                       
+P26367           410 SEPDMSQYWPRLQ-----------------------    422
+
+
+#---------------------------------------
+#---------------------------------------

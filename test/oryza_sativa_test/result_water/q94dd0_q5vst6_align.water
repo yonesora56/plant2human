@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:02
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q5vst6.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_q5vst6_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_q5vst6_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q5VST6
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 247
+# Identity:      54/247 (21.9%)
+# Similarity:    79/247 (32.0%)
+# Gaps:         111/247 (44.9%)
+# Score: 93.0
+# 
+#
+#=======================================
+
+Q94DD0            64 AKYKIIFSHGFAST--KESDFPVSQELAEELGIYLLYFDRAGYGDSDANP    111
+                     |||.::||||.|..  :.|.|.:.  |...:...:..:|.:|||.|...|
+Q5VST6            90 AKYTLLFSHGNAVDLGQMSSFYIG--LGSRINCNIFSYDYSGYGASSGKP    137
+
+Q94DD0           112 KRGLKSDATDVEE--LADKLQLG---EKFYVVGTSMGGYVAWSCLNYIPY    156
+                     ..  |:...|:|.  ||.:.:.|   |...:.|.|:|             
+Q5VST6           138 TE--KNLYADIEAAWLALRTRYGIRPENVIIYGQSIG-------------    172
+
+Q94DD0           157 RLAGVALVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHMPWLFYA    206
+                            .||:|:.         |:.|....|       |.|        
+Q5VST6           173 -------TVPSVDL---------AARYESAAV-------ILH--------    191
+
+Q94DD0           207 WFNQKWFRISPIVEGKPEAFTEKDWEILAEIQRTGQLDRGRATKQGAYHS    256
+                              ||:..|...||.:                    ||:    :
+Q5VST6           192 ---------SPLTSGMRVAFPD--------------------TKK----T    208
+
+Q94DD0           257 LCRDATILFGAWEFDPTAIENPFPNGDGV------VSIWQGREDKIV    297
+                     .|.||                 |||.|.:      |.|..|.||:::
+Q5VST6           209 YCFDA-----------------FPNIDKISKITSPVLIIHGTEDEVI    238
+
+
+#---------------------------------------
+#---------------------------------------

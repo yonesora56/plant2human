@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:13
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q99801.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_q99801_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_q99801_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q99801
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 233
+# Identity:      59/233 (25.3%)
+# Similarity:    80/233 (34.3%)
+# Gaps:          74/233 (31.8%)
+# Score: 135.0
+# 
+#
+#=======================================
+
+Q5VPE3            29 GAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQ-------     71
+                     ||...:|.....:.::.|:.||.|...         ||....|       
+Q99801            16 GAAPPTPSKPLTSFLIQDILRDGAQRQ---------GGRTSSQRQRDPEP     56
+
+Q5VPE3            72 --------GRA---------STSPDSAAALSSASGKRERELERS-GSGVD    103
+                             ||:         ||.|  .||...|....|.|.||. ||.:.
+Q99801            57 EPEPEPEGGRSRAGAQNDQLSTGP--RAAPEEAETLAETEPERHLGSYLL    104
+
+Q5VPE3           104 DDDGADGA-----------GGRKKLRLSKDQAAVLEECFKTHSTLNPKQK    142
+                     |.:...||           ..|.:...|..|...||..|.....|:..::
+Q99801           105 DSENTSGALPRLPQTPKQPQKRSRAAFSHTQVIELERKFSHQKYLSAPER    154
+
+Q5VPE3           143 VALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKR    192
+                     ..||..|.|...||::||||||.:||.||                     
+Q99801           155 AHLAKNLKLTETQVKIWFQNRRYKTKRKQ---------------------    183
+
+Q5VPE3           193 LEKELADLRALKAAPSPASASAMQPSSSAAATL    225
+                     |..||.||....:.|      |::..:.:.|:|
+Q99801           184 LSSELGDLEKHSSLP------ALKEEAFSRASL    210
+
+
+#---------------------------------------
+#---------------------------------------

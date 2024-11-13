@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:40
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/o43364.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_o43364_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_o43364_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: O43364
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 459
+# Identity:      74/459 (16.1%)
+# Similarity:   113/459 (24.6%)
+# Gaps:         234/459 (51.0%)
+# Score: 97.0
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+O43364             1 MNYEFEREIGFINSQPSLAECLTSFPPVADTFQSSSIKTSTLSHSTLIPP     50
+
+Q5VPE3             1 -------MMDLGLSLGLGLASQGSLTSSTTTTSSPGAGS----SSPW---     36
+                            .::.|.....|...:...:.:.:..|...||:    ..||   
+O43364            51 PFEQTIPSLNPGSHPRHGAGGRPKPSPAGSRGSPVPAGALQPPEYPWMKE    100
+
+Q5VPE3            37 --AAALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQGRASTSPDSAAAL     84
+                       ||...:::      .|||.||.|              |:|.|   |.|
+O43364           101 KKAAKKTALL------PAAAAAATA--------------AATGP---ACL    127
+
+Q5VPE3            85 SSASGKRERELERSGSGVDDDDGADGAGG---RKKLRLSKDQAAVLEECF    131
+                     |.   |...|:            |||:||   |.:...:..|...||:.|
+O43364           128 SH---KESLEI------------ADGSGGGSRRLRTAYTNTQLLELEKEF    162
+
+Q5VPE3           132 KTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKR    181
+                     ..:..|...::|.:|..|.|..|||:|||||||.:.| :||:  |:    
+O43364           163 HFNKYLCRPRRVEIAALLDLTERQVKVWFQNRRMKHK-RQTQ--CK----    205
+
+Q5VPE3           182 WCERLADENKRLE---KELADLRALKAAPSPASASAMQPSSSAAATLTMC    228
+                            ||:..|   |.|.|  :.|........:..:.:.|.:..|   
+O43364           206 -------ENQNSEGKCKSLED--SEKVEEDEEEKTLFEQALSVSGAL---    243
+
+Q5VPE3           229 PSCRRVATAGAPHQPN--HQQCHPKSNTTISSSSTAAAAVAVAGGNVLPS    276
+                          :...|...|.|  .||..|..:...|.|                 
+O43364           244 -----LEREGYTFQQNALSQQQAPNGHNGDSQS-----------------    271
+
+Q5VPE3           277 HCQFFPAAAAAADRTSQSTWNAAAPLVTRELF------------------    308
+                         ||.:...::..:...:...:|.|...|.                  
+O43364           272 ----FPVSPLTSNEKNLKHFQHQSPTVPNCLSTMGQNCGAGLNNDSPEAL    317
+
+Q5VPE3           308 --------------------------------------------------    308
+                                                                       
+O43364           318 EVPSLQDFSVFSTDSCLQLSDAVSPSLPGSLDSPVDISADSLDFFTDTLT    367
+
+Q5VPE3           308 ---------    308
+                              
+O43364           368 TIDLQHLNY    376
+
+
+#---------------------------------------
+#---------------------------------------

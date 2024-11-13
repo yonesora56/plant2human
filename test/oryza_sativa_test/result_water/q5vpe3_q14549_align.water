@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:14
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q14549.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_q14549_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_q14549_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q14549
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 245
+# Identity:      55/245 (22.4%)
+# Similarity:    78/245 (31.8%)
+# Gaps:          88/245 (35.9%)
+# Score: 126.0
+# 
+#
+#=======================================
+
+Q5VPE3            12 LASQGSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVR---------RDQA     52
+                     ||...|.....|.|...|.|.:.|...||.:.:....         ::.|
+Q14549            73 LAPLASFAGRLTNTFCAGLGQAVPSMVALTTALPSFAEPPDAFYGPQELA    122
+
+Q5VPE3            53 AAHAAAAVGV--------------GVGGEEMYQGRAST------------     76
+                     ||.||||...              |:..:|:...|...            
+Q14549           123 AAAAAAAATAARNNPEPGGRRPEGGLEADELLPAREKVAEPPPPPPPHFS    172
+
+Q5VPE3            77 -------------SPDSAAALSSASGKRERELERSGSGVDDDD-------    106
+                                  |.|.....:||......|.|..|||.|.:|       
+Q14549           173 ETFPSLPAEGKVYSSDEEKLEASAGDPAGSEQEEEGSGGDSEDDGFLDSS    222
+
+Q5VPE3           107 -GADGA-----------------------------GG---RKKLRLSKDQ    123
+                      |..||                             ||   |::...:.:|
+Q14549           223 AGGPGALLGPKPKLKGSLGTGAEEGAPVTAGVTAPGGKSRRRRTAFTSEQ    272
+
+Q5VPE3           124 AAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTK    168
+                     ...||:.|.....|:..::..:|:.|.|...||::|||||||:.|
+Q14549           273 LLELEKEFHCKKYLSLTERSQIAHALKLSEVQVKIWFQNRRAKWK    317
+
+
+#---------------------------------------
+#---------------------------------------

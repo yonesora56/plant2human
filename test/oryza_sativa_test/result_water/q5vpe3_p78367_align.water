@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:14
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p78367.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_p78367_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_p78367_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P78367
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 264
+# Identity:      71/264 (26.9%)
+# Similarity:    99/264 (37.5%)
+# Gaps:          71/264 (26.9%)
+# Score: 157.0
+# 
+#
+#=======================================
+
+Q5VPE3            10 LGLASQGSLTSSTTTTSSPGAGSSSP--W--AAALNSIVGDVRRDQAAAH     55
+                     ||.|....|.|...|.::.|..:.||  |  .:||:......||   .|.
+P78367            63 LGGAEDSLLASPAGTRTAAGRTAESPEGWDSDSALSEENESRRR---CAD    109
+
+Q5VPE3            56 AAAAVGVGVGGEEMYQGRASTSPDSAAALS-----SASGKRERELERSGS    100
+                     |..|.|.|:.|..:..|:    |....|.|     .|:|:.:.|:..|.|
+P78367           110 ARGASGAGLAGGSLSLGQ----PVCELAASKDLEEEAAGRSDSEMSASVS    155
+
+Q5VPE3           101 G-----VDDD-------------DGADGAGG-------------------    113
+                     |     .:||             .||.|.||                   
+P78367           156 GDRSPRTEDDGVGPRGAHVSALCSGAGGGGGSGPAGVAEEEEEPAAPKPR    205
+
+Q5VPE3           114 --RKKLRLSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQ    161
+                       |.:...|..|...||..|.....|:..::..||..|.|...||::|||
+P78367           206 KKRSRAAFSHAQVFELERRFNHQRYLSGPERADLAASLKLTETQVKIWFQ    255
+
+Q5VPE3           162 NRRARTKLKQTEVDCEYLKRWCERLA-------DENKRLEKELADLRALK    204
+                     |||.:||.:|...|........:::|       |:.:.|..|:  ||   
+P78367           256 NRRYKTKRRQMAADLLASAPAAKKVAVKVLVRDDQRQYLPGEV--LR---    300
+
+Q5VPE3           205 AAPSPASASAMQPS    218
+                         |.|...:|||
+P78367           301 ----PPSLLPLQPS    310
+
+
+#---------------------------------------
+#---------------------------------------

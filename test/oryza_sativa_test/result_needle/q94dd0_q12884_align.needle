@@ -1,0 +1,113 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:24
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q12884.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_q12884_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_q12884_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q12884
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 916
+# Identity:      54/916 ( 5.9%)
+# Similarity:    99/916 (10.8%)
+# Gaps:         725/916 (79.1%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q12884             1 MKTWVKIVFGVATSAVLALLVMCIVLRPSRVHNSEENTMRALTLKDILNG     50
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q12884            51 TFSYKTFFPNWISGQEYLHQSADNNIVLYNIETGQSYTILSNRTMKSVNA    100
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q12884           101 SNYGLSPDRQFVYLESDYSKLWRYSYTATYYIYDLSNGEFVRGNELPRPI    150
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q12884           151 QYLCWSPVGSKLAYVYQNNIYLKQRPGDPPFQITFNGRENKIFNGIPDWV    200
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q12884           201 YEEEMLATKYALWWSPNGKFLAYAEFNDTDIPVIAYSYYGDEQYPRTINI    250
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q12884           251 PYPKAGAKNPVVRIFIIDTTYPAYVGPQEVPVPAMIASSDYYFSWLTWVT    300
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q12884           301 DERVCLQWLKRVQNVSVLSICDFREDWQTWDCPKTQEHIEESRTGWAGGF    350
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q12884           351 FVSTPVFSYDAISYYKIFSDKDGYKHIHYIKDTVENAIQITSGKWEAINI    400
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q12884           401 FRVTQDSLFYSSNEFEEYPGRRNIYRISIGSYPPSKKCVTCHLRKERCQY    450
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q12884           451 YTASFSDYAKYYALVCYGPGIPISTLHDGRTDQEIKILEENKELENALKN    500
+
+Q94DD0             1 ---------MVALSKLVLITAVALLGWAYKVARPPP-------PPILGGP     34
+                              .:.:.::.|        | ||:..||.       |.::...
+Q12884           501 IQLPKEEIKKLEVDEITL--------W-YKMILPPQFDRSKKYPLLIQVY    541
+
+Q94DD0            35 GGPPVSSPR------------------VQLKDGRHLAYREAGVGREIAKY     66
+                     |||...|.|                  :.|.|||..|::..         
+Q12884           542 GGPCSQSVRSVFAVNWISYLASKEGMVIALVDGRGTAFQGD---------    582
+
+Q94DD0            67 KIIFSHGFASTKESDFPVSQELAEELGIYLLYFDRAGYGDSDANPKRGLK    116
+                     |::::                :..:||:|                  .::
+Q12884           583 KLLYA----------------VYRKLGVY------------------EVE    598
+
+Q94DD0           117 SDATDVEELADKLQLGEKFYVV-GTSMGGYVA----------WSCLNYIP    155
+                     ...|.|.:..:...:.||...: |.|.||||:          :.|     
+Q12884           599 DQITAVRKFIEMGFIDEKRIAIWGWSYGGYVSSLALASGTGLFKC-----    643
+
+Q94DD0           156 YRLAGVALVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHMPWLFY    205
+                         |:| |.|..:  |...|||....:..|...|.              
+Q12884           644 ----GIA-VAPVSS--WEYYASVYTERFMGLPTKDD--------------    672
+
+Q94DD0           206 AWFNQKWFRISPIVEGKPEAFTEKDWEIL-------AEIQRTGQLDRGRA    248
+                        |.:.::.|.:: .:.|.|...|:.::       ...|.:.|:.:...
+Q12884           673 ---NLEHYKNSTVM-ARAEYFRNVDYLLIHGTADDNVHFQNSAQIAKALV    718
+
+Q94DD0           249 TKQGAYHSLCRDATILFGAWEFDPT-----------------AIENPFPN    281
+                     ..|..:.::          |..|..                 .::..|..
+Q12884           719 NAQVDFQAM----------WYSDQNHGLSGLSTNHLYTHMTHFLKQCFSL    758
+
+Q94DD0           282 GDGVVSIWQGREDKIVRVEAQRYVAEKLPWVRYHEHPEGGHLFMCADGLG    331
+                     .|                                                
+Q12884           759 SD------------------------------------------------    760
+
+Q94DD0           332 DKIVRELLLGEEPRDL    347
+                                     
+Q12884           760 ----------------    760
+
+
+#---------------------------------------
+#---------------------------------------

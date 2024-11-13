@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:01
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q9buj0.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_q9buj0_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_q9buj0_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q9BUJ0
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 236
+# Identity:      53/236 (22.5%)
+# Similarity:    94/236 (39.8%)
+# Gaps:          51/236 (21.6%)
+# Score: 72.5
+# 
+#
+#=======================================
+
+Q94DD0             1 MVALSKLVLITA-----VALLGWA------YKVARPPPPP----ILGGP-     34
+                     ::.|...|:.|:     |||||.:      ..|..|.||.    :.|.| 
+Q9BUJ0            18 LIPLGPTVVQTSMSRSQVALLGLSLLLMLLLYVGLPGPPEQTSCLWGDPN     67
+
+Q94DD0            35 -----GGPPVSSPRVQLKDGRHLAYREAGVGREIAKYKIIFSHGFASTKE     79
+                          |..|.:||         :.|||.....:..:.:::..||.|....
+Q9BUJ0            68 VTVLAGLTPGNSP---------IFYREVLPLNQAHRVEVVLLHGKAFNSH    108
+
+Q94DD0            80 S-DFPVSQELAEELGIYLLYFDRAGYGDS----DANPKRGLKSDATDVEE    124
+                     : :...:.:|..:.|...:..|..|:|:|    :|:.:.|   .|..:|.
+Q9BUJ0           109 TWEQLGTLQLLSQRGYRAVALDLPGFGNSAPSKEASTEAG---RAALLER    155
+
+Q94DD0           125 LADKLQLGEKFYVVGTSMGGYVAWSCLNYIPYRLAGVALVVP--AVNY--    170
+                     ....|:: :...:|..|:.|:.|...|....::|.|...:.|  ..||  
+Q9BUJ0           156 ALRDLEV-QNAVLVSPSLSGHYALPFLMRGHHQLHGFVPIAPTSTQNYTQ    204
+
+Q94DD0           171 --WWPM--PASVSASAYRKLD-VGDRRTFWIAHHMP    201
+                       :|.:  |..:   .|.:|| :..|.:.....|:|
+Q9BUJ0           205 EQFWAVKTPTLI---LYGELDHILARESLRQLRHLP    237
+
+
+#---------------------------------------
+#---------------------------------------

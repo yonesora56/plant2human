@@ -22,14 +22,6 @@ inputs:
       class: File
       format: edam:format_1929
       location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta
-  # - id: output_index_name
-  #   type: string
-  #   doc: "output index name"
-  #   default: uniprotkb_rice_all_240820
-  # - id: dbtype
-  #   type: string
-  #   doc: "database type"
-  #   default: "prot"
 
 arguments:
   - shellQuote: false

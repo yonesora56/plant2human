@@ -1,0 +1,105 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:32
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p27487.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/a0a0p0vam0_p27487_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/a0a0p0vam0_p27487_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: P27487
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 850
+# Identity:      77/850 ( 9.1%)
+# Similarity:   131/850 (15.4%)
+# Gaps:         587/850 (69.1%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+A0A0P0VAM0         0 --------------------------------------------------      0
+                                                                       
+P27487             1 MKTPWKVLLGLLGAAALVTIITVPVVLLNKGTDDATADSRKTYTLTDYLK     50
+
+A0A0P0VAM0         0 --------------------------------------------------      0
+                                                                       
+P27487            51 NTYRLKLYSLRWISDHEYLYKQENNILVFNAEYGNSSVFLENSTFDEFGH    100
+
+A0A0P0VAM0         1 ---------------------------------MVALSKLVLITAVAL--     15
+                                                      :..|:|..|||...:  
+P27487           101 SINDYSISPDGQFILLEYNYVKQWRHSYTASYDIYDLNKRQLITEERIPN    150
+
+A0A0P0VAM0        16 ----LGWA---YKVARPPPPPILGGPGGPPVSSPRVQLKDGRHL-AYREA     57
+                         :.|:   :|:|.              |.:..:.:|...:| :||..
+P27487           151 NTQWVTWSPVGHKLAY--------------VWNNDIYVKIEPNLPSYRIT    186
+
+A0A0P0VAM0        58 GVGREIAKY---------KIIFSH-------------GFASTKESDFPVS     85
+                     ..|:|...|         :.:||.             .:|...:::.|:.
+P27487           187 WTGKEDIIYNGITDWVYEEEVFSAYSALWWSPNGTFLAYAQFNDTEVPLI    236
+
+A0A0P0VAM0        86 QELAEELGIYLLYFD---------RAGYGDSDANPKRGLKSDATDVEELA    126
+                     :        |..|.|         |..|      ||.|..:...      
+P27487           237 E--------YSFYSDESLQYPKTVRVPY------PKAGAVNPTV------    266
+
+A0A0P0VAM0       127 DKLQLGEKFYVVGTSMGGYVAWSCLNYIPYRLAGVALVVPAVNYWWPMPA    176
+                            ||:||.|.                  .::.|..|.:.....||
+P27487           267 -------KFFVVNTD------------------SLSSVTNATSIQITAPA    291
+
+A0A0P0VAM0       177 SVSASAYRKLDVGDRRTFWIAHHM---PWLFYAWFNQKWFRISPIVEGKP    223
+                     |:.        :||       |::   .|......:.:|.|       :.
+P27487           292 SML--------IGD-------HYLCDVTWATQERISLQWLR-------RI    319
+
+A0A0P0VAM0       224 EAFTEKD----------WEILA-----EIQRTGQLDRGRATK--------    250
+                     :.::..|          |..|.     |:..||.:.|.|.::        
+P27487           320 QNYSVMDICDYDESSGRWNCLVARQHIEMSTTGWVGRFRPSEPHFTLDGN    369
+
+A0A0P0VAM0       251 --------QGAYHSLC------RDAT-ILFGAWEFDPTA---------IE    276
+                             :..|..:|      :|.| |..|.||.....         |.
+P27487           370 SFYKIISNEEGYRHICYFQIDKKDCTFITKGTWEVIGIEALTSDYLYYIS    419
+
+A0A0P0VAM0       277 NPF---PNGDGVVSIWQGREDKIVRV-------EAQRYVAEKLPWVRYHE    316
+                     |.:   |.|..:..|......|:..:       ..|.|........:|::
+P27487           420 NEYKGMPGGRNLYKIQLSDYTKVTCLSCELNPERCQYYSVSFSKEAKYYQ    469
+
+A0A0P0VAM0       317 ---HPEGGHLFMCADGLGDKIVRELLLGEEPRDL----------------    347
+                        ...|..|:.....:.||.:|.|   |:...|                
+P27487           470 LRCSGPGLPLYTLHSSVNDKGLRVL---EDNSALDKMLQNVQMPSKKLDF    516
+
+A0A0P0VAM0       347 --------------------------------------------------    347
+                                                                       
+P27487           517 IILNETKFWYQMILPPHFDKSKKYPLLLDVYAGPCSQKADTVFRLNWATY    566
+
+A0A0P0VAM0       347 --------------------------------------------------    347
+                                                                       
+P27487           567 LASTENIIVASFDGRGSGYQGDKIMHAINRRLGTFEVEDQIEAARQFSKM    616
+
+A0A0P0VAM0       347 --------------------------------------------------    347
+                                                                       
+P27487           617 GFVDNKRIAIWGWSYGGYVTSMVLGSGSGVFKCGIAVAPVSRWEYYDSVY    666
+
+A0A0P0VAM0       347 --------------------------------------------------    347
+                                                                       
+P27487           667 TERYMGLPTPEDNLDHYRNSTVMSRAENFKQVEYLLIHGTADDNVHFQQS    716
+
+A0A0P0VAM0       347 --------------------------------------------------    347
+                                                                       
+P27487           717 AQISKALVDVGVDFQAMWYTDEDHGIASSTAHQHIYTHMSHFIKQCFSLP    766
+
+
+#---------------------------------------
+#---------------------------------------

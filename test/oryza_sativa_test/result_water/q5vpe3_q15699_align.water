@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:19
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q15699.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_q15699_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_q15699_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q15699
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 286
+# Identity:      64/286 (22.4%)
+# Similarity:   117/286 (40.9%)
+# Gaps:          60/286 (21.0%)
+# Score: 104.5
+# 
+#
+#=======================================
+
+Q5VPE3            47 VRRDQAAAHAAAAVGVG---VGGEEMYQ--GRASTSPDSAAALSSASGKR     91
+                     ||.::.:....::|..|   |.|:.::.  .||..:.:| ..:|...|.:
+Q15699            63 VRLERTSPCQDSSVNYGITKVEGQPLHTELNRAMDNCNS-LRMSPVKGMQ    111
+
+Q5VPE3            92 ER-ELERSGSGVDDDDGADGAGGRKKLR----LSKDQAAVLEECF-KTH-    134
+                     |: ||:..|...|.:     ....||.|    .:..|...||:.| ||| 
+Q15699           112 EKGELDELGDKCDSN-----VSSSKKRRHRTTFTSLQLEELEKVFQKTHY    156
+
+Q5VPE3           135 STLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCE    184
+                     ..:..::::||  |..|...:|:||||||||:           :.||  |
+Q15699           157 PDVYVREQLAL--RTELTEARVQVWFQNRRAK-----------WRKR--E    191
+
+Q5VPE3           185 RLADENKRLEKELADLRALKAAPSPASASAMQ-----PSSSAAATLTMCP    229
+                     |.. :.::.:...|....:...|...|...:|     .::|..:.:|.|.
+Q15699           192 RYG-QIQQAKSHFAATYDISVLPRTDSYPQIQNNLWAGNASGGSVVTSCM    240
+
+Q5VPE3           230 SCRRVATAGAP--HQP----------NHQQCHPKSNTTISSSSTAAAAVA    267
+                     ..|..::...|  |.|          |||  :..|:..:::..|.:....
+Q15699           241 LPRDTSSCMTPYSHSPRTDSSYTGFSNHQ--NQFSHVPLNNFFTDSLLTG    288
+
+Q5VPE3           268 VAGGNVLPSHCQFFPAAAA-------AADRTSQSTW    296
+                     ...|:...:..:|...:::       |.:.|:..:|
+Q15699           289 ATNGHAFETKPEFERRSSSIAVLRMKAKEHTANISW    324
+
+
+#---------------------------------------
+#---------------------------------------

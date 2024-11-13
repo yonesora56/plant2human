@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:12
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p31270.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_p31270_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_p31270_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P31270
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 160
+# Identity:      44/160 (27.5%)
+# Similarity:    75/160 (46.9%)
+# Gaps:          31/160 (19.4%)
+# Score: 140.5
+# 
+#
+#=======================================
+
+Q5VPE3            13 ASQGSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGV     62
+                     |.:|...::.|:.::..|.:.:|..::.:|..|...|:.|||        
+P31270           165 AEKGPPAATATSAAAAAAATGAPATSSSDSGGGGGCRETAAA--------    206
+
+Q5VPE3            63 GVGGEEMYQGRASTSPDSAAALSSASGKRERELERSGSGVDDDDGADGAG    112
+                        .||..:.|   .|:|:::..|:||..|             |.|.|:.
+P31270           207 ---AEEKERRR---RPESSSSPESSSGHTE-------------DKAGGSS    237
+
+Q5VPE3           113 G----RKKLRLSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEV    158
+                     |    :|:...:|.|...||..|.....:|.::::.|:..|.|..|||::
+P31270           238 GQRTRKKRCPYTKYQIRELEREFFFSVYINKEKRLQLSRMLNLTDRQVKI    287
+
+Q5VPE3           159 WFQNRRARTK    168
+                     ||||||.:.|
+P31270           288 WFQNRRMKEK    297
+
+
+#---------------------------------------
+#---------------------------------------

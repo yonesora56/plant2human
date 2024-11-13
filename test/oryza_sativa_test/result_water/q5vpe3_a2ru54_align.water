@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:12
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/a2ru54.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_a2ru54_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_a2ru54_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: A2RU54
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 280
+# Identity:      63/280 (22.5%)
+# Similarity:    94/280 (33.6%)
+# Gaps:          77/280 (27.5%)
+# Score: 127.0
+# 
+#
+#=======================================
+
+Q5VPE3             9 GLGLASQGSLTSSTTTTSSPGAGSSSP-----WAAALNSIVGDVR-----     48
+                     |.|..:.|.::|.|..:...|..|.:|     |.|...|:.....     
+A2RU54             8 GKGCPAAGGVSSFTIQSILGGGPSEAPREPVGWPARKRSLSVSSEEEEPD     57
+
+Q5VPE3            49 ----------------RDQAAAH-----------AAAAVGVGVGGEEMYQ     71
+                                     ::|...|           ...:.|.|.||.|   
+A2RU54            58 DGWKAPACFCPDQHGPKEQGPKHHPPIPFPCLGTPKGSGGSGPGGLE---    104
+
+Q5VPE3            72 GRASTSPDSAAALSSASGKRERELERS----GSGVDDDDGADGAGG--RK    115
+                         .:|..:.:.|....::||.|...    ||....|.||:...|  :|
+A2RU54           105 ----RTPFLSPSHSDFKEEKERLLPAGSPSPGSERPRDGGAERQAGAAKK    150
+
+Q5VPE3           116 KLR--LSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNR    163
+                     |.|  .|:.|...||..|.....|:..::..||:.|.|...||:.|||||
+A2RU54           151 KTRTVFSRSQVYQLESTFDMKRYLSSSERACLASSLQLTETQVKTWFQNR    200
+
+Q5VPE3           164 RARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPSPASAS    213
+                     |               .:|..:|:          |:|.|...|.:.|...
+A2RU54           201 R---------------NKWKRQLS----------AELEAANMAHASAQTL    225
+
+Q5VPE3           214 AMQPSSSAAATLTMCPSCRRVATAGAPHQP    243
+                     ...|.....::|...|..|.:|.....:.|
+A2RU54           226 VSMPLVFRDSSLLRVPVPRSLAFPAPLYYP    255
+
+
+#---------------------------------------
+#---------------------------------------

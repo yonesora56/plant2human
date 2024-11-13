@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:27
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p54317.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_p54317_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_p54317_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: P54317
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 544
+# Identity:      74/544 (13.6%)
+# Similarity:   118/544 (21.7%)
+# Gaps:         272/544 (50.0%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+Q94DD0             1 ------------------MVALSKL-----------VLITAVALLGWA--     19
+                                       .|...:|           .|...|.||.|:  
+P54317             1 MLPPWTLGLLLLATVRGKEVCYGQLGCFSDEKPWAGTLQRPVKLLPWSPE     50
+
+Q94DD0            20 --------YKVARPPPPPILGGPGGPPVSSPRVQLKDGRHLAYREAGVGR     61
+                             |....|....::.|.....:.:...||.              
+P54317            51 DIDTRFLLYTNENPNNFQLITGTEPDTIEASNFQLD--------------     86
+
+Q94DD0            62 EIAKYKIIFSHGFASTKESDFP--VSQELAEELGIYLLYFD-----RAGY    104
+                       .|.:.|. |||....|..:|  :.:::.|...:..:..|     ||.|
+P54317            87 --RKTRFII-HGFLDKAEDSWPSDMCKKMFEVEKVNCICVDWRHGSRAMY    133
+
+Q94DD0           105 GDSDANPKRGLKSDATDVEELADKLQLG---EKFYVVGTSMGGYVAWSCL    151
+                     ..:..|.:......|..::.|:  .|||   |..:|:|.|:|.:.|....
+P54317           134 TQAVQNIRVVGAETAFLIQALS--TQLGYSLEDVHVIGHSLGAHTAAEAG    181
+
+Q94DD0           152 NYIPYRLAGVALVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHMP    201
+                     ..:..|:..:..:.||...:...|..|      :||..|.....:.|   
+P54317           182 RRLGGRVGRITGLDPAGPCFQDEPEEV------RLDPSDAVFVDVIH---    222
+
+Q94DD0           202 WLFYAWFNQKWFRISPIVEGKPEAFTEKDWEILAEIQRTGQLD---RGRA    248
+                                ...||||.......:          |:.|.||   .|..
+P54317           223 -----------TDSSPIVPSLGFGMS----------QKVGHLDFFPNGGK    251
+
+Q94DD0           249 TKQGAYHSLCRDATILFGAW---------------EFDPTAIENPFPNGD    283
+                     ...|...::....|.:.|.|               |:..:::.||    |
+P54317           252 EMPGCKKNVLSTITDIDGIWEGIGGFVSCNHLRSFEYYSSSVLNP----D    297
+
+Q94DD0           284 GVVSIWQGREDKIVRVEAQRYVAEKLPWVRYHEHPEGGHLFMC-ADG---    329
+                     |.:.                     .|...|.|..| ...|.| |:|   
+P54317           298 GFLG---------------------YPCASYDEFQE-SKCFPCPAEGCPK    325
+
+Q94DD0           330 ---LGDKIVRELLLGEEPRDL-----------------------------    347
+                        ..|:...:....|:...|                             
+P54317           326 MGHYADQFKGKTSAVEQTFFLNTGESGNFTSWRYKISVTLSGKEKVNGYI    375
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+P54317           376 RIALYGSNENSKQYEIFKGSLKPDASHTCAIDVDFNVGKIQKVKFLWNKR    425
+
+Q94DD0           347 --------------------------------------------    347
+                                                                 
+P54317           426 GINLSEPKLGASQITVQSGEDGTEYNFCSSDTVEENVLQSLYPC    469
+
+
+#---------------------------------------
+#---------------------------------------

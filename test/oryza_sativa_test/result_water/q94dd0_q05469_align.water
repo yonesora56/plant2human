@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:04
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q05469.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_q05469_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_q05469_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q05469
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 161
+# Identity:      43/161 (26.7%)
+# Similarity:    49/161 (30.4%)
+# Gaps:          76/161 (47.2%)
+# Score: 69.5
+# 
+#
+#=======================================
+
+Q94DD0            22 VARPPPPPILGGPGGPP------VSSPRVQLKDGRHLAYREAGVGREIAK     65
+                     ||:|.|     |||.||      .|:|..|.|.|   |.||.....|   
+Q05469           136 VAQPGP-----GPGEPPPAQQEAESTPAAQAKPG---AKREPSAPTE---    174
+
+Q94DD0            66 YKIIFSHGFASTKESDFPVSQELAEELGIYLLYFDRAGYGDSDANPKRGL    115
+                               ||       |||..|:             .|....|.:|.
+Q05469           175 ----------ST-------SQETPEQ-------------SDKQTTPVQGA    194
+
+Q94DD0           116 KSDATDVEELA--DKLQL-------------------GEKFYVVGTS---    141
+                     ||....:.||.  .|||.                   .|....||:|   
+Q05469           195 KSKQGSLTELGFLTKLQELSIQRSALEWKALSEWVTDSESESDVGSSSDT    244
+
+Q94DD0           142 -----MGGYVA    147
+                          |||.||
+Q05469           245 DSPATMGGMVA    255
+
+
+#---------------------------------------
+#---------------------------------------

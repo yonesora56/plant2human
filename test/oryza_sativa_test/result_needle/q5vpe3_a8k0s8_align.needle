@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:41
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/a8k0s8.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_a8k0s8_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_a8k0s8_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: A8K0S8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 498
+# Identity:      50/498 (10.0%)
+# Similarity:    83/498 (16.7%)
+# Gaps:         330/498 (66.3%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+A8K0S8             1 MARRYDELPHYPSIADGPAALAGFPEAVPAAPGPYGPHRPPQPLPPGLDS     50
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+A8K0S8            51 DGLKRDKDEIYGHPLFPLLALVFEKCELATCSPRDGAGAGLGTPRGGDVC    100
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+A8K0S8           101 SSDSFNEDNTAFAKQVRSERPFFSSNPELDNLMIQAIQVLRFHLLELEKG    150
+
+Q5VPE3             1 ------------------MMDLGLSLGLGLASQGSL------TSSTTTTS     26
+                                       ..|...|. |.|..|.::      .|.:....
+A8K0S8           151 KMPIDLVIEDRDGGCREDFEDYPASC-LSLPDQNNIWIRDHEDSGSVHLG    199
+
+Q5VPE3            27 SPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQGRAST     76
+                     :||     |.:..|.|..||...||         |||:            
+A8K0S8           200 TPG-----PSSGGLASQSGDNSSDQ---------GVGL------------    223
+
+Q5VPE3            77 SPDSAAALSSASGKRERELERSGSGVDDDDGADGAGGRK-----KLRLSK    121
+                       |::.|..|:.|:            |:|...:....:|     |:..:.
+A8K0S8           224 --DTSVASPSSGGE------------DEDLDQEPRRNKKRGIFPKVATNI    259
+
+Q5VPE3           122 DQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQ    171
+                     .:|.:.:..:  |...:.:||..|....||...||..||.|.|       
+A8K0S8           260 MRAWLFQHLW--HPYPSEEQKKQLVQDTGLTILQVNNWFINAR-------    300
+
+Q5VPE3           172 TEVDCEYLKRWCERLADENKRLEKELADLRALKAAPSPASAS--------    213
+                             :|..:.:.|::.|:.:        .||.||....        
+A8K0S8           301 --------RRMVQPMIDQSNRIGQ--------GAAFSPEGQPIGGYTETE    334
+
+Q5VPE3           214 ---AMQPSSSAAATLTMCPSCRRVATAGAPHQPNHQQCHPKSNTTISSSS    260
+                        |.:|.:|...:|.:......:                          
+A8K0S8           335 PHVAFRPPASVGMSLNLEGEWHYL--------------------------    358
+
+Q5VPE3           261 TAAAAVAVAGGNVLPSHCQFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                                                                     
+A8K0S8           358 ------------------------------------------------    358
+
+
+#---------------------------------------
+#---------------------------------------

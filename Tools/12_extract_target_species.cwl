@@ -33,7 +33,7 @@ inputs:
     default:
       class: File
       format: edam:format_3475
-      location: ../out/rice_up/foldseek_output_uniprot_up_all_evalue01.tsv
+      location: ../test/oryza_sativa_test/foldseek_output_swissprot_up_all_evalue01.tsv
   - id: target_species
     label: "target species"
     type: int
@@ -42,7 +42,7 @@ inputs:
     label: "output file name"
     format: edam:data_1050
     type: string
-    default: "foldseek_rice_up_9606.tsv"
+    default: "foldseek_os_random_9606.tsv"
 
 outputs:
   - id: output_extract_file

@@ -1,0 +1,41 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:06
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/a0a0p0w9m0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q9h0n5.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/a0a0p0w9m0_q9h0n5_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/a0a0p0w9m0_q9h0n5_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0W9M0
+# 2: Q9H0N5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       4/16 (25.0%)
+# Similarity:     8/16 (50.0%)
+# Gaps:           0/16 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+A0A0P0W9M0        26 NPPRVVVDNEACDEAT     41
+                     |..::.:.:..|.|.|
+Q9H0N5            98 NKVQITLTSHDCGELT    113
+
+
+#---------------------------------------
+#---------------------------------------

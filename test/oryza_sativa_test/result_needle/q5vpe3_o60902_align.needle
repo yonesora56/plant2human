@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:38
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/o60902.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_o60902_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_o60902_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: O60902
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 373
+# Identity:      70/373 (18.8%)
+# Similarity:   123/373 (33.0%)
+# Gaps:         107/373 (28.7%)
+# Score: 118.0
+# 
+#
+#=======================================
+
+Q5VPE3             1 MMDLGLSLGLGL-----ASQGSLTSSTTTTSSPGAGSSSPWAAALNSIVG     45
+                     |.:|...:....     ..:.::|......|.|..|:..|....      
+O60902             1 MEELTAFVSKSFDQKVKEKKEAITYREVLESGPLRGAKEPTGCT------     44
+
+Q5VPE3            46 DVRRDQAAAHAAAAVGVGVGG-----------------------------     66
+                     :..||..::.|..|.|.|.||                             
+O60902            45 EAGRDDRSSPAVRAAGGGGGGGGGGGGGGGGGGVGGGGAGGGAGGGRSPV     94
+
+Q5VPE3            67 EEMYQGRASTSPDSAAALSSASGKRERELERSGSGVDDDDGADGAGGRKK    116
+                     .|:..|.|..|.:..:...:......::.:....|::|:........|.:
+O60902            95 RELDMGAAERSREPGSPRLTEVSPELKDRKEDAKGMEDEGQTKIKQRRSR    144
+
+Q5VPE3           117 LRLSKDQAAVLEECF-KTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRA    165
+                     ...:.:|...||..| :||.. :...:..|:.||||...:|:||||||||
+O60902           145 TNFTLEQLNELERLFDETHYP-DAFMREELSQRLGLSEARVQVWFQNRRA    193
+
+Q5VPE3           166 RTKLKQTEVDCEYLKRWCERLADENKRLEKEL-----ADLRALKAAPSPA    210
+                     :                |.:   :..:|.|.:     :...|.:.||. .
+O60902           194 K----------------CRK---QENQLHKGVLIGAASQFEACRVAPY-V    223
+
+Q5VPE3           211 SASAM-----QPSSSAAATLTMCPSCRRVATAGAPHQPNHQQCHPKSN--    253
+                     :..|:     |.|......|:.....:....:...|..:|...|..::  
+O60902           224 NVGALRMPFQQDSHCNVTPLSFQVQAQLQLDSAVAHAHHHLHPHLAAHAP    273
+
+Q5VPE3           254 -------------TTISSSSTAAAAVAVAGGNVLPSHCQFFPAAAAAADR    290
+                                  .|:::.|.:||:|.               ||||||..
+O60902           274 YMMFPAPPFGLPLATLAADSASAASVV---------------AAAAAAKT    308
+
+Q5VPE3           291 TSQSTWNAAAPLVTRELF-----    308
+                     ||:::..|...|..::..     
+O60902           309 TSKNSSIADLRLKAKKHAAALGL    331
+
+
+#---------------------------------------
+#---------------------------------------

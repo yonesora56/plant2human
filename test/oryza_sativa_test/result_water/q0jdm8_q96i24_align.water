@@ -1,0 +1,69 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:06
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q0jdm8.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q96i24.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q0jdm8_q96i24_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q0jdm8_q96i24_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q0JDM8
+# 2: Q96I24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 395
+# Identity:      71/395 (18.0%)
+# Similarity:   119/395 (30.1%)
+# Gaps:         154/395 (39.0%)
+# Score: 74.0
+# 
+#
+#=======================================
+
+Q0JDM8             5 AAAASG---------GDAHDDEYAKLVRGMNPPRVVVDNEACDEATVIRV     45
+                     |:.:||         |.....|.||.:.|.     :||.  |........
+Q96I24           114 ASESSGIPERPCVLTGTPESIEQAKRLLGQ-----IVDR--CRNGPGFHN    156
+
+Q0JDM8            46 DSVSSHGTLLAVVQVIADLGLVIRKAYFSSDGSWFMDVFNVTDRDGNKVL     95
+                     | :.|:.|:..::...:.:||||                   .|.|..:.
+Q96I24           157 D-IDSNSTIQEILIPASKVGLVI-------------------GRGGETIK    186
+
+Q0JDM8            96 DDQTISYIQTTLEADDWYYPEVRNTVGIVPAEEYTVIELTGTDRPGLLSE    145
+                     ..|..:.::..:..|           |.:|         ||.|:|     
+Q96I24           187 QLQERTGVKMVMIQD-----------GPLP---------TGADKP-----    211
+
+Q0JDM8           146 VCAVLAGMRCAVRSAELWTHNTRVAAVVHVTDDGG------------SGG    183
+                            :|....:.::......|..::...|...            .||
+Q96I24           212 -------LRITGDAFKVQQAREMVLEIIREKDQADFRGVRGDFNSRMGGG    254
+
+Q0JDM8           184 AIE---DEARIADISTRLGNLLR---GQSGVR--------------AAAA    213
+                     :||   ....:..:..|.|.:::   ..:|||              |...
+Q96I24           255 SIEVSVPRFAVGIVIGRNGEMIKKIQNDAGVRIQFKPDDGISPERAAQVM    304
+
+Q0JDM8           214 AAPGGLTHKERRLHQMMFDDRDYDGGGGAASSSPRGR--------SPTPA    255
+                     ..|....|....:.:::...::.||.||.|::..|||        :|...
+Q96I24           305 GPPDRCQHAAHIISELILTAQERDGFGGLAAARGRGRGRGDWSVGAPGGV    354
+
+Q0JDM8           256 TEVSVTPCAERGYTAVVVRCRDRPKLLFDTVCTITDMGYVIHHGA---VS    302
+                     .|::        ||....:|                 |.||..|.   .|
+Q96I24           355 QEIT--------YTVPADKC-----------------GLVIGKGGENIKS    379
+
+Q0JDM8           303 SEPRGGAYQE---------------YYIRHVDGDPVRSEAERQRV    332
+                     ...:.||:.|               :.||   |.|.:.|..||.:
+Q96I24           380 INQQSGAHVELQRNPPPNSDPNLRRFTIR---GVPQQIEVARQLI    421
+
+
+#---------------------------------------
+#---------------------------------------

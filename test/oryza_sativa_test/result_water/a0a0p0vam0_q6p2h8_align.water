@@ -1,0 +1,45 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:10
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q6p2h8.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/a0a0p0vam0_q6p2h8_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/a0a0p0vam0_q6p2h8_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q6P2H8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      20/80 (25.0%)
+# Similarity:    29/80 (36.2%)
+# Gaps:          31/80 (38.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+A0A0P0VAM0       277 NPFPNG------DGVVSI--WQGREDK-IVRVEA---------QRYVAEK    308
+                     :|.|.|      ..||.:  |.|.:|| :.:..|         .||.|  
+Q6P2H8            23 SPSPGGKEAETRQPVVILLGWGGCKDKNLAKYSAIYHKRGCIVIRYTA--     70
+
+A0A0P0VAM0       309 LPWVRYHEHPEGGHLFMCADGLGDKIVREL    338
+                      ||          |:...::.||...:|.|
+Q6P2H8            71 -PW----------HMVFFSESLGIPSLRVL     89
+
+
+#---------------------------------------
+#---------------------------------------

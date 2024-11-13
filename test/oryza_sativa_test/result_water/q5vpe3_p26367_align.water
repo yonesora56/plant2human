@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:17
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p26367.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_p26367_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_p26367_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P26367
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 270
+# Identity:      52/270 (19.3%)
+# Similarity:    88/270 (32.6%)
+# Gaps:          70/270 (25.9%)
+# Score: 104.5
+# 
+#
+#=======================================
+
+Q5VPE3            70 YQGRASTSPDSAAALSSASGKRERELERSGSGVDDDDGADGAGGRKKLR-    118
+                     |.|.:.....:........|..|.....|.:|.|.|:.......::||: 
+P26367           163 YPGTSVPGQPTQDGCQQQEGGGENTNSISSNGEDSDEAQMRLQLKRKLQR    212
+
+Q5VPE3           119 ----LSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRR    164
+                         .:::|...||:.|:.....:...:..||.::.|...:::|||.|||
+P26367           213 NRTSFTQEQIEALEKEFERTHYPDVFARERLAAKIDLPEARIQVWFSNRR    262
+
+Q5VPE3           165 ARTKLKQTEVDCEYLKRWCERLADENKRLEKELADL--------RALKAA    206
+                     |:.:.:             |:|.::.::.....:.:        ...:..
+P26367           263 AKWRRE-------------EKLRNQRRQASNTPSHIPISSSFSTSVYQPI    299
+
+Q5VPE3           207 PSPA-----------------------SASAMQPSSSAAATLTMCP----    229
+                     |.|.                       ||....||.:.|..|.|.|    
+P26367           300 PQPTTPVSSFTSGSMLGRTDTALTNTYSALPPMPSFTMANNLPMQPPVPS    349
+
+Q5VPE3           230 -----SC----------RRVATAGAPHQPNHQQCHP--KSNTTISSSSTA    262
+                          ||          |...|...||...|....|  .|.||.:...:.
+P26367           350 QTSSYSCMLPTSPSVNGRSYDTYTPPHMQTHMNSQPMGTSGTTSTGLISP    399
+
+Q5VPE3           263 AAAVAVAGGNVLPSHCQFFP    282
+                     ..:|.|......|...|::|
+P26367           400 GVSVPVQVPGSEPDMSQYWP    419
+
+
+#---------------------------------------
+#---------------------------------------

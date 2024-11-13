@@ -1,0 +1,45 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:12
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q9y5x9.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/a0a0p0vam0_q9y5x9_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/a0a0p0vam0_q9y5x9_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q9Y5X9
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      19/89 (21.3%)
+# Similarity:    37/89 (41.6%)
+# Gaps:          19/89 (21.3%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+A0A0P0VAM0       115 LKSDATD--------VEELADKLQLGEKF-----YVVGTSMGGYVAWSCL    151
+                     |.:||.:        :..:.|.||..:.|     :::|.|:|.:||....
+Q9Y5X9           130 LYTDAVNNTRVVGHSIARMLDWLQEKDDFSLGNVHLIGYSLGAHVAGYAG    179
+
+A0A0P0VAM0       152 NYIPYRLAGVALVVPAVNYWWPMPASVSASAYRKLDVGD    190
+                     |::...:..:..:.||      .|....|..:::|...|
+Q9Y5X9           180 NFVKGTVGRITGLDPA------GPMFEGADIHKRLSPDD    212
+
+
+#---------------------------------------
+#---------------------------------------
