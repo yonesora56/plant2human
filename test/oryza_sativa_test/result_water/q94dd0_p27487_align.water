@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:03
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p27487.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_p27487_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_p27487_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: P27487
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 166
+# Identity:      32/166 (19.3%)
+# Similarity:    55/166 (33.1%)
+# Gaps:          66/166 (39.8%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+Q94DD0           154 IPYRLAGVALVVPAVNYWWPMPASVSA---------SAYRKLDVGDRRTF    194
+                     :||..||.  |.|.|.::.....|:|:         :|...:.:||    
+P27487           254 VPYPKAGA--VNPTVKFFVVNTDSLSSVTNATSIQITAPASMLIGD----    297
+
+Q94DD0           195 WIAHHM---PWLFYAWFNQKWFRISPIVEGKPEAFTEKD----------W    231
+                        |::   .|......:.:|.|       :.:.::..|          |
+P27487           298 ---HYLCDVTWATQERISLQWLR-------RIQNYSVMDICDYDESSGRW    337
+
+Q94DD0           232 EILA-----EIQRTGQLDRGRATK----------------QGAYHSLC--    258
+                     ..|.     |:..||.:.|.|.::                :..|..:|  
+P27487           338 NCLVARQHIEMSTTGWVGRFRPSEPHFTLDGNSFYKIISNEEGYRHICYF    387
+
+Q94DD0           259 ----RDAT-ILFGAWE    269
+                         :|.| |..|.||
+P27487           388 QIDKKDCTFITKGTWE    403
+
+
+#---------------------------------------
+#---------------------------------------

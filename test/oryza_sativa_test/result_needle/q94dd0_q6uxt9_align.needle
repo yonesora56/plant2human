@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:25
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q6uxt9.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_q6uxt9_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_q6uxt9_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q6UXT9
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 549
+# Identity:      83/549 (15.1%)
+# Similarity:   126/549 (23.0%)
+# Gaps:         283/549 (51.5%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+Q94DD0             1 ------MVALSKLVLITAVALLGWAYKVARPPPPPILGGPGGPPV-----     39
+                           .:||. |.::..:.|||           |.|.||.|..|     
+Q6UXT9             1 MPPWGAALALI-LAVLALLGLLG-----------PRLRGPWGRAVGERTL     38
+
+Q94DD0            40 --------------SSPRVQLKDGRH--------------------LAYR     55
+                                   ..|..|..|||.                    .|.|
+Q6UXT9            39 PGAQDRDDGEEADGGGPADQFSDGREPLPGGCSLVCKPSALAQCLLRALR     88
+
+Q94DD0            56 -----EAG---------------------VGREIAK-YKIIFSHGFAS--     76
+                          |||                     .|.|:|: |..:...|..:  
+Q6UXT9            89 RSEALEAGPRSWFSGPHLQTLCHFVLPVAPGPELAREYLQLADDGLVALD    138
+
+Q94DD0            77 ------------TKESDFP------------VSQE------LAEELGIYL     96
+                                 |.....|            :::.      ||.|.|.|.
+Q6UXT9           139 WVVGPCVRGRRITSAGGLPAVLLVIPNAWGRLTRNVLGLCLLALERGYYP    188
+
+Q94DD0            97 LYFDRAG-YGDSDANPKRGLKSDATDVEELADKLQL---GEKFYVVGTSM    142
+                     :.|.|.| :|....:|:.....|.:|::|....::.   ....:.|....
+Q6UXT9           189 VIFHRRGHHGCPLVSPRLQPFGDPSDLKEAVTYIRFRHPAAPLFAVSEGS    238
+
+Q94DD0           143 GGYVAWSCL------NYIPYRLAGVALVVPAVNYWWPMPASVSASAYRKL    186
+                     |..:..|.|      :|:    .|.|.:.|.:                  
+Q6UXT9           239 GSALLLSYLGECGSSSYV----TGAACISPVL------------------    266
+
+Q94DD0           187 DVGDRRTFWIAHHMPWLFYAWF--NQKWFRISPIVEGKPEAFTEKDWEIL    234
+                         |...|....:||.:...|  :|| ..:|.....            |
+Q6UXT9           267 ----RCREWFEAGLPWPYERGFLLHQK-IALSRYATA------------L    299
+
+Q94DD0           235 AEIQRTGQLDRGRATKQGAYHSLCRDATILFGAWEF-----DP--TAIEN    277
+                     .:...|.:|.|.|:.::......|...:... :|:.     ||  ...|.
+Q6UXT9           300 EDTVDTSRLFRSRSLREFEEALFCHTKSFPI-SWDTYWDRNDPLRDVDEA    348
+
+Q94DD0           278 PFP-----NGDGVVSIWQGREDKIVRVEAQRYVAEKLPWVRYHEHP----    318
+                     ..|     :.|..|.   |..|..:..|.            :|.:|    
+Q6UXT9           349 AVPVLCICSADDPVC---GPPDHTLTTEL------------FHSNPYFFL    383
+
+Q94DD0           319 ----EGGHLFMCADGLGDKIVRELLLGEEPRDL-----------------    347
+                         .|||   |.           .|.:||...                 
+Q6UXT9           384 LLSRHGGH---CG-----------FLRQEPLPAWSHEVILESFRALTEFF    419
+
+Q94DD0           347 -------------------------------------------------    347
+                                                                      
+Q6UXT9           420 RTEERIKGLSRHRASFLGGRRRGGALQRREVSSSSNLEEIFNWKRSYTR    468
+
+
+#---------------------------------------
+#---------------------------------------

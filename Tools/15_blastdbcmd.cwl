@@ -18,7 +18,7 @@ inputs:
     doc: "database file"
     default:
       class: File
-      location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta
+      location: ../test/oryza_sativa_test/index_query_species/uniprotkb_rice_all_240820.fasta
     secondaryFiles:
       - .pdb
       - .phd
@@ -36,7 +36,7 @@ inputs:
     type: File
     default:
       class: File
-      location: ../out/rice_up/uniprot_id_rice_up.txt
+      location: ../test/oryza_sativa_test/foldseek_result_query_species.txt
   - id: retrieve_result_file_name
     type: string
     default: "blastdbcmd_result_rice_up.fasta"

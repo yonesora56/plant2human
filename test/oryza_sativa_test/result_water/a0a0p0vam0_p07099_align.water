@@ -1,0 +1,69 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:08
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p07099.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/a0a0p0vam0_p07099_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/a0a0p0vam0_p07099_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: P07099
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 396
+# Identity:      73/396 (18.4%)
+# Similarity:   116/396 (29.3%)
+# Gaps:         192/396 (48.5%)
+# Score: 90.5
+# 
+#
+#=======================================
+
+A0A0P0VAM0        24 RPP-------PPPIL---GGPGG--------PPVSSPRVQLKDGRHLAYR     55
+                     :||       |.|:|   |.||.        |.::.|:            
+P07099           131 KPPQLPAGHTPKPLLMVHGWPGSFYEFYKIIPLLTDPK------------    168
+
+A0A0P0VAM0        56 EAGVGREIAKYKIIFSHGFASTKESDFPVSQELAEELGIYLLYFDRAGYG    105
+                                    :||.     ||..|.:.:...:         .|||
+P07099           169 ---------------NHGL-----SDEHVFEVICPSI---------PGYG    189
+
+A0A0P0VAM0       106 DSDANPKRGLKSDATDVEELADKLQLG-EKFYVVGTSMGGYVAWSCLNYI    154
+                     .|:|:.|:|..|.||........|:|| ::||:.|...|..:..:....:
+P07099           190 FSEASSKKGFNSVATARIFYKLMLRLGFQEFYIQGGDWGSLICTNMAQLV    239
+
+A0A0P0VAM0       155 PYRLAGVALVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHMPWLF    204
+                     |..:.|:.|.:..|         :|..:...|.:|.|             
+P07099           240 PSHVKGLHLNMALV---------LSNFSTLTLLLGQR-------------    267
+
+A0A0P0VAM0       205 YAWFNQKWFRISPIVEGKPEAFTEKDWEILAEIQRTGQLDRGRATKQGAY    254
+                                    .|:....||:|.|:|..:            |:..:
+P07099           268 ---------------FGRFLGLTERDVELLYPV------------KEKVF    290
+
+A0A0P0VAM0       255 HSLCRD--------------------------ATIL--FGAW---EF---    270
+                     :||.|:                          |.||  |..|   ||   
+P07099           291 YSLMRESGYMHIQCTKPDTVGSALNDSPVGLAAYILEKFSTWTNTEFRYL    340
+
+A0A0P0VAM0       271 DPTAIENPFPNGD---GVVSIWQGREDKIVRVEAQRYVAEKL--------    309
+                     :...:|..|...|   .|:..|...    ..:.:||:..|.|        
+P07099           341 EDGGLERKFSLDDLLTNVMLYWTTG----TIISSQRFYKENLGQGWMTQK    386
+
+A0A0P0VAM0       310 ------------------------PWVRYHEHPE---------GGH    322
+                                             .|||: ::|:         |||
+P07099           387 HERMKVYVPTGFSAFPFELLHTPEKWVRF-KYPKLISYSYMVRGGH    431
+
+
+#---------------------------------------
+#---------------------------------------

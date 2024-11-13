@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:40
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/o14627.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_o14627_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_o14627_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: O14627
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 388
+# Identity:      68/388 (17.5%)
+# Similarity:   107/388 (27.6%)
+# Gaps:         184/388 (47.4%)
+# Score: 94.5
+# 
+#
+#=======================================
+
+Q5VPE3             1 -------MMDLGLSLGLGLASQGSLTSSTTTTSSPGAGSSSP---WAAA-     39
+                            ..:.|:..|..::..|..|:.|..|.  |.||..|   :||| 
+O14627             1 MYGSCLLEKEAGMYPGTLMSPGGDGTAGTGGTG--GGGSPMPASNFAAAP     48
+
+Q5VPE3            40 ----------------------------------------LNSIVGDVRR     49
+                                                             .:|.:|.|..
+O14627            49 AFSHYMGYPHMPSMDPHWPSLGVWGSPYSPPREDWSVYPGPSSTMGTVPV     98
+
+Q5VPE3            50 DQAAAHAAA----------AVGVGVGGEEMYQGRASTS--PDSAAALSSA     87
+                     :...:..||          .||.|..|..: .|:|..|  |..|.|..::
+O14627            99 NDVTSSPAAFCSTDYSNLGPVGGGTSGSSL-PGQAGGSLVPTDAGAAKAS    147
+
+Q5VPE3            88 SGKRERE---------LERSGSGVDDDDGADGAGGRKKLRL--SKDQAAV    126
+                     |..|.|.         ::.:|.          ...::|.|:  :..|...
+O14627           148 SPSRSRHSPYAWMRKTVQVTGK----------TRTKEKYRVVYTDHQRLE    187
+
+Q5VPE3           127 LEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDC    176
+                     ||:.|..:..:..::|..||..|||..|||::|||||||:          
+O14627           188 LEKEFHCNRYITIQRKSELAVNLGLSERQVKIWFQNRRAK----------    227
+
+Q5VPE3           177 EYLKRWCERLADENKRLEKELADLRALKAAPSPASASAMQPSSSAAA---    223
+                                 |.|.::|:::...        .|..::|..|.:.:   
+O14627           228 ------------ERKMIKKKISQFE--------NSGGSVQSDSDSISPGE    257
+
+Q5VPE3           224 ---TLTMCPSCRRVATAGAPHQPNHQQCHPKSNTTISSSSTAAAAVAVAG    270
+                        |....||..|      ..||...|     ...:|.            
+O14627           258 LPNTFFTTPSAVR------GFQPIEIQ-----QVIVSE------------    284
+
+Q5VPE3           271 GNVLPSHCQFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                                                           
+O14627           284 --------------------------------------    284
+
+
+#---------------------------------------
+#---------------------------------------

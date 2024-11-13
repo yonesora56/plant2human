@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:20
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/o14770.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_o14770_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_o14770_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: O14770
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 281
+# Identity:      61/281 (21.7%)
+# Similarity:    93/281 (33.1%)
+# Gaps:          77/281 (27.4%)
+# Score: 103.0
+# 
+#
+#=======================================
+
+Q5VPE3            50 DQAAAHAAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGK-RERELERS     98
+                     |..:.|:|...|...|      |.||.|.|:    ||..|. .:..:...
+O14770           223 DATSTHSAGTPGPSSG------GHASQSGDN----SSEQGDGLDNSVASP    262
+
+Q5VPE3            99 GSGVDDDDGADGAGGRKKLRLSKDQAAVLEE-CFK--THSTLNPKQKVAL    145
+                     |:|.|||...|....:|:....|....::.. .|:  ||...:.:||..|
+O14770           263 GTGDDDDPDKDKKRQKKRGIFPKVATNIMRAWLFQHLTHPYPSEEQKKQL    312
+
+Q5VPE3           146 ANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKR---    192
+                     |...||...||..||.|.|               :|..:.:.|::.|   
+O14770           313 AQDTGLTILQVNNWFINAR---------------RRIVQPMIDQSNRAGF    347
+
+Q5VPE3           193 -LEKELADLRA-------------------------LKAAP-------SP    209
+                      |:..::...|                         |::.|       .|
+O14770           348 LLDPSVSQGAAYSPEGQPMGSFVLDGQQHMGIRPAGLQSMPGDYVSQGGP    397
+
+Q5VPE3           210 ASASAMQPSSSAAATLTMCPSCRRVATAGAPHQPNHQQ-----------C    248
+                     ...|..|||.: ...:|..|:..|.......:.|:|..           .
+O14770           398 MGMSMAQPSYT-PPQMTPHPTQLRHGPPMHSYLPSHPHHPAMMMHGGPPT    446
+
+Q5VPE3           249 HPKSNTTISSSSTAAAAVAVAGGNVLPSHCQ    279
+                     ||....:..|.:...:.....||.|:..|.|
+O14770           447 HPGMTMSAQSPTMLNSVDPNVGGQVMDIHAQ    477
+
+
+#---------------------------------------
+#---------------------------------------

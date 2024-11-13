@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:22
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q9nuj1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_q9nuj1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_q9nuj1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q9NUJ1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 399
+# Identity:      75/399 (18.8%)
+# Similarity:   125/399 (31.3%)
+# Gaps:         145/399 (36.3%)
+# Score: 87.0
+# 
+#
+#=======================================
+
+Q94DD0             1 MVALSKLVLITA-VALLGWAYKVARPPPPPILGGPGGP-----------P     38
+                      :|:::|..:.| |....|.:...          |.||           |
+Q9NUJ1             1 -MAVARLAAVAAWVPCRSWGWAAV----------PFGPHRGLSVLLARIP     39
+
+Q94DD0            39 VSSPR-------------VQLKDGRHLAYREAGVGREIAKYK-----IIF     70
+                     ..:||             :...|..:|||:         |.|     |||
+Q9NUJ1            40 QRAPRWLPACRQKTSLSFLNRPDLPNLAYK---------KLKGKSPGIIF     80
+
+Q94DD0            71 SHGFASTKESDFPVS-QELAEELGIYLLYFDRAGYGDSDANPKRGL----    115
+                     ..|:.|.......:: :|..:.||...:.||.:|.|.||.|.:...    
+Q9NUJ1            81 IPGYLSYMNGTKALAIEEFCKSLGHACIRFDYSGVGSSDGNSEESTLGKW    130
+
+Q94DD0           116 -KSDATDVEELADKLQLGEKFYVVGTSMGGYVAWSCLNYIPYRLAGVALV    164
+                      |...:.:::|||..|:     :||:|:||::........|.::  |||:
+Q9NUJ1           131 RKDVLSIIDDLADGPQI-----LVGSSLGGWLMLHAAIARPEKV--VALI    173
+
+Q94DD0           165 VPAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHMPWLFYAWFNQKWFR    214
+                     ..|.      .|....:.:.:|.                           
+Q9NUJ1           174 GVAT------AADTLVTKFNQLP---------------------------    190
+
+Q94DD0           215 ISPIVEGKPEAFTEKDWEILAEIQRTGQLD-RGRATKQGAYHSLCRDATI    263
+                         ||.|.|...:..|.:.::....|..: :....|:..:|.|..    
+Q9NUJ1           191 ----VELKKEVEMKGVWSMPSKYSEEGVYNVQYSFIKEAEHHCLLH----    232
+
+Q94DD0           264 LFGAWEFDPTAIENPFPNGDGVVSIWQGREDKIVRVEAQRYVAEKLPWV-    312
+                            .|..:..|       :.:..|.:|.||.......||:::... 
+Q9NUJ1           233 -------SPIPVNCP-------IRLLHGMKDDIVPWHTSMQVADRVLSTD    268
+
+Q94DD0           313 -----------RYHEHPEGGHLFMCADGLGDK---IVRELLLGEEPRDL    347
+                                |..|..:...|....|.|.||   ||.           
+Q9NUJ1           269 VDVILRKHSDHRMREKADIQLLVYTIDDLIDKLSTIVN-----------    306
+
+
+#---------------------------------------
+#---------------------------------------

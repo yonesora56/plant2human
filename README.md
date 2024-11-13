@@ -16,8 +16,6 @@ Please check the official website for details.
 
 Here, we will explain how to use the list of rice genes as an example.
 
-&nbsp;
-
 ### 1. Creation of a TSV file of gene and UniProt ID correspondences
 
 First, you will need the following gene list tsv file. (Please set the column name as "From")
@@ -36,7 +34,7 @@ Os01g0795250
 Os01g0859200
 ```
 
-The following [TSV file](./test/oryza_sativa_test/rice_random_gene_idmapping_all.tsv) is required to execute the workflow.
+The following [TSV file](./test/oryza_sativa_test/rice_random_gene_idmapping_all.tsv) is required to execute the following workflow. 
 
 ```tsv
 From	UniProt Accession
@@ -54,6 +52,5 @@ This [yaml file](./job/uniprot_idmapping_job_example_os.yml) is the parameter fi
 ```bash
 cwltool --debug --outdir ./test/oryza_sativa_test ./Tools/01_uniprot_idmapping.cwl ./job/uniprot_idmapping_job_example_os.yml
 ```
-
-
+In this execution, [mmcif files](./test/oryza_sativa_test/rice_random_gene_mmcif) are also retrieved.
 The actual execution results are output together with the [jupyter notebook](./test/oryza_sativa_test/rice_random_gene_uniprot_idmapping.ipynb).

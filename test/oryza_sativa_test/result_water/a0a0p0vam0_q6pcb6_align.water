@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:09
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q6pcb6.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/a0a0p0vam0_q6pcb6_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/a0a0p0vam0_q6pcb6_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q6PCB6
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 350
+# Identity:      69/350 (19.7%)
+# Similarity:   106/350 (30.3%)
+# Gaps:         155/350 (44.3%)
+# Score: 74.5
+# 
+#
+#=======================================
+
+A0A0P0VAM0        19 AYKVARP-PPPPILGGPGGPPVSSPRVQLKDGRHLAYREAGVGREI----     63
+                     |...|:| |..|..|...||...|  :.|.:.....|.:    ||:    
+Q6PCB6            65 AAAAAQPAPQQPEEGAGAGPGACS--LHLSERADWQYSQ----RELDAVE    108
+
+A0A0P0VAM0        64 ----------------------AKYKIIFSHGFAST--KESDFPVSQELA     89
+                                           ::|.::||||.|..  :...|.:.  |.
+Q6PCB6           109 VFFSRTARDNRLGCMFVRCAPSSRYTLLFSHGNAVDLGQMCSFYIG--LG    156
+
+A0A0P0VAM0        90 EELGIYLLYFDRAGYGDSDANP-KRGLKSDATDVEELADKLQLG---EKF    135
+                     ..:...:..:|.:|||.|...| ::.|.:| .|....|.:.:.|   |..
+Q6PCB6           157 SRINCNIFSYDYSGYGVSSGKPSEKNLYAD-IDAAWQALRTRYGVSPENI    205
+
+A0A0P0VAM0       136 YVVGTSMGGYVAWSCLNYIPYRLAGVALVVPAVNYWWPMPASVSASAYRK    185
+                     .:.|.|:|                    .||.|:.         ||.|..
+Q6PCB6           206 ILYGQSIG--------------------TVPTVDL---------ASRYEC    226
+
+A0A0P0VAM0       186 LDVGDRRTFWIAHHMPWLFYAWFNQKWFRISPIVEGKPEAFTEKDWEILA    235
+                     ..|       |.|                 ||::.|...||.:       
+Q6PCB6           227 AAV-------ILH-----------------SPLMSGLRVAFPD-------    245
+
+A0A0P0VAM0       236 EIQRTGQLDRGRATKQGAYHSLCRDATILFGAWEFDPTAIENPFPNGDGV    285
+                                  |::    :.|.||                 ||:.|.:
+Q6PCB6           246 -------------TRK----TYCFDA-----------------FPSIDKI    261
+
+A0A0P0VAM0       286 ------VSIWQGREDKIVRVEAQRYVAEKLP------WVRYHEHPEG-GH    322
+                           |.:..|.||:::.......:.|:.|      ||      || ||
+Q6PCB6           262 SKVTSPVLVIHGTEDEVIDFSHGLAMYERCPRAVEPLWV------EGAGH    305
+
+
+#---------------------------------------
+#---------------------------------------

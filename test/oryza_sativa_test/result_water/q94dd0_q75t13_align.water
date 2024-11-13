@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:04
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q75t13.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_q75t13_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_q75t13_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q75T13
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 348
+# Identity:      84/348 (24.1%)
+# Similarity:   122/348 (35.1%)
+# Gaps:         111/348 (31.9%)
+# Score: 72.0
+# 
+#
+#=======================================
+
+Q94DD0            29 PILGGPGGPPVSSPRVQLKDGRHLAYREAGVGREIAKYKIIFSHGFASTK     78
+                     |:|..||.   :....|::....:|.|:|        ..|.|.:.|    
+Q75T13            87 PVLFLPGN---AGSYKQVRSIGSIALRKA--------EDIDFKYHF----    121
+
+Q94DD0            79 ESDFPVSQELAEELGIYLLYFDRAGYGDSDANPKRGLKSDATDVEELAD-    127
+                       || .|....|||        .|.||.|       |:.....|.|... 
+Q75T13           122 --DF-FSVNFNEEL--------VALYGGS-------LQKQTKFVHECIKT    153
+
+Q94DD0           128 --KLQLGEKF-----YVVGTSMGGYVAWSCL---NY--------IPYRLA    159
+                       ||..|::|     .::|.||||.||.:.|   |:        |.....
+Q75T13           154 ILKLYKGQEFAPKSVAIIGHSMGGLVARALLTLKNFKHDLINLLITQATP    203
+
+Q94DD0           160 GVALVVP----------AVNYWWPMPA--------SVSASAYRKLDVGDR    191
+                     .||.|:|          .||.:|.:.|        || |..:|...|...
+Q75T13           204 HVAPVMPLDRFITDFYTTVNNYWILNARHINLTTLSV-AGGFRDYQVRSG    252
+
+Q94DD0           192 RTFW--IAHHMPWLFYAWFNQKWFRISPIVEGKPEAFTEKDWEILAEIQR    239
+                     .||.  ::||..            .:|.:....|:.:...|...:...::
+Q75T13           253 LTFLPKLSHHTS------------ALSVVSSAVPKTWVSTDHLSIVWCKQ    290
+
+Q94DD0           240 TGQLDRGRA--------TKQGAYHSLCRDATILFGAWEFDPTA--IENPF    279
+                     . ||...||        |||...:|. :..::|:..:...|:.  .|||.
+Q75T13           291 L-QLTTVRAFFDLIDADTKQITQNSK-KKLSVLYHHFIRHPSKHFEENPA    338
+
+Q94DD0           280 PNGDGV-VSIWQGREDKIVRVEAQRYVA----EKLPWVRYHEHPEGGH    322
+                     ...|.. .|:|     .:|:|....|||    ||:    |...|...|
+Q75T13           339 IISDLTGTSMW-----VLVKVSKWTYVAYNESEKI----YFTFPLENH    377
+
+
+#---------------------------------------
+#---------------------------------------

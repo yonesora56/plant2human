@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:16
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/a6njt0.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_a6njt0_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_a6njt0_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: A6NJT0
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 325
+# Identity:      73/325 (22.5%)
+# Similarity:   107/325 (32.9%)
+# Gaps:          89/325 (27.4%)
+# Score: 125.0
+# 
+#
+#=======================================
+
+Q5VPE3            51 QAAAH----AAAAVGV-----GVGGEEMYQGRASTSPDSAAALSSASGKR     91
+                     :.|.|    ||||..|     |:.|.......:..:|......:...|..
+A6NJT0            35 ELAGHQLQSAAAAASVPFSIDGLLGGSCAAAASVVNPTPLLPAACGVGGD     84
+
+Q5VPE3            92 ERELERSGSGVDDDDGADGAGGRKKLRLSKDQAAVLEECFKTHSTLNPKQ    141
+                     .:..:.|.||..|.:.......|.:...:..|...||:.|......:...
+A6NJT0            85 GQPFKLSDSGDPDKESPGCKRRRTRTNFTGWQLEELEKAFNESHYPDVFM    134
+
+Q5VPE3           142 KVALANRLGLRPRQVEVWFQNRRARTKLKQT-------------EVDC--    176
+                     :.|||.||.|...:|:||||||||:.:.|:.             ...|  
+A6NJT0           135 REALALRLDLVESRVQVWFQNRRAKWRKKENTKKGPGRPAHNSHPTTCSG    184
+
+Q5VPE3           177 ------EYLKRWCERLADENKRLEKELADLR----------ALKAAPS--    208
+                           |..::..|::..:.::.||:|...:          :|.:|||  
+A6NJT0           185 EPMDPEEIARKELEKMEKKKRKHEKKLLKSQGRHLHSPGGLSLHSAPSSD    234
+
+Q5VPE3           209 -----------------PASASAMQPSSSAAATL-----------TMCPS    230
+                                      ||:......:|.||.|.           |..|:
+A6NJT0           235 SDSGGGGLSPEPPEPPPPAAKGPGAHASGAAGTAPAPPGEPPAPGTCDPA    284
+
+Q5VPE3           231 CRRVATAGAPHQPNHQQCHPKSNTTISSSSTAAAAVAVAGGNVLPSHCQF    280
+                     ......:||..||  :...|......|....||.|....|...||....|
+A6NJT0           285 FYPSQRSGAGPQP--RPGRPADKDAASCGPGAAVAAVERGAAGLPKASPF    332
+
+Q5VPE3           281 F-----------------PAAAAAA    288
+                     .                 .||||||
+A6NJT0           333 SVESLLSDSPPRRKAASNAAAAAAA    357
+
+
+#---------------------------------------
+#---------------------------------------

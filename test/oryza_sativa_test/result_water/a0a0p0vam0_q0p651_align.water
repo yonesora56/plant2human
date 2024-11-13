@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:11
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q0p651.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/a0a0p0vam0_q0p651_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/a0a0p0vam0_q0p651_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q0P651
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 302
+# Identity:      61/302 (20.2%)
+# Similarity:    97/302 (32.1%)
+# Gaps:         110/302 (36.4%)
+# Score: 61.0
+# 
+#
+#=======================================
+
+A0A0P0VAM0        82 FPVSQELAEELGIYLLYFDRAGYGDSDANPKRGLKSDATDVEELADKLQL    131
+                     |.:...|..|....|.:.:|.|||                        .|
+Q0P651           168 FVMGGALVLESAALLHWLEREGYG------------------------PL    193
+
+A0A0P0VAM0       132 GEKFYVVGTSMGGYVAWSCLNYIPYRLAGVALVVPAVNYW-WPMPA----    176
+                     |    :.|.||||::|              :|   ||:.| .|||.    
+Q0P651           194 G----MTGISMGGHMA--------------SL---AVSNWPKPMPLIPCL    222
+
+A0A0P0VAM0       177 --SVSASAYRKLDVGDRRTFWIAHHMPWLFYAWFNQKWFRI---------    215
+                       |.::..:...|         :..|...|...|.....::         
+Q0P651           223 SWSTASGVFTTTD---------SFKMGQEFVKHFTSSADKLTNLNLVSRT    263
+
+A0A0P0VAM0       216 ------SPIVEGKP-EAFTEKDWEILAE-----IQRTGQLDRGRAT----    249
+                           :.:|..|| :........:.|.     :|.|.::.|...|    
+Q0P651           264 LNLDISNQVVSQKPADCHNSSKTSVSATSEGLLLQDTSKMKRFNQTLSTN    313
+
+A0A0P0VAM0       250 KQG-------AYHSL--------CRDATILFGAWEFDP-TAIEN-PFPNG    282
+                     |.|       :||.|        .|..:::|.....|. |.:.| ..|..
+Q0P651           314 KSGYTSRNPQSYHLLSKEQSRNSLRKESLIFMKGVMDECTHVANFSVPVD    363
+
+A0A0P0VAM0       283 DGVVSIWQGREDKIVRVEAQRYVAEKLPW--VRYHEHPEGGHL--FMCAD    328
+                     ..::.:.|.:||..:.....|.:.|..|.  :||   .||||:  ::...
+Q0P651           364 PSLIIVVQAKEDAYIPRTGVRSLQEIWPGCEIRY---LEGGHISAYLFKQ    410
+
+A0A0P0VAM0       329 GL    330
+                     ||
+Q0P651           411 GL    412
+
+
+#---------------------------------------
+#---------------------------------------

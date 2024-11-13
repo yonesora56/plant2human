@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:43
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/o14770.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_o14770_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_o14770_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: O14770
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 544
+# Identity:      69/544 (12.7%)
+# Similarity:   108/544 (19.9%)
+# Gaps:         303/544 (55.7%)
+# Score: 97.5
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+O14770             1 MAQRYDELPHYGGMDGVGVPASMYGDPHAPRPIPPVHHLNHGPPLHATQH     50
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+O14770            51 YGAHAPHPNVMPASMGSAVNDALKRDKDAIYGHPLFPLLALVFEKCELAT    100
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+O14770           101 CTPREPGVAGGDVCSSDSFNEDIAVFAKQVRAEKPLFSSNPELDNLMIQA    150
+
+Q5VPE3             1 -------------------------------MMDLGLSL----GLGLASQ     15
+                                                    .|.:.|.:    |...:..
+O14770           151 IQVLRFHLLELEKVHELCDNFCHRYISCLKGKMPIDLVIDERDGSSKSDH    200
+
+Q5VPE3            16 GSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVG     65
+                     ..|:.|:|..:.   .:.|.|..         ..|..:.|:|...|...|
+O14770           201 EELSGSSTNLAD---HNPSSWRD---------HDDATSTHSAGTPGPSSG    238
+
+Q5VPE3            66 GEEMYQGRASTSPDSAAALSSASGK-RERELERSGSGVDDDDGADGAGGR    114
+                           |.||.|.|:    ||..|. .:..:...|:|.|||...|....:
+O14770           239 ------GHASQSGDN----SSEQGDGLDNSVASPGTGDDDDPDKDKKRQK    278
+
+Q5VPE3           115 KKLRLSKDQAAVLEE-CFK--THSTLNPKQKVALANRLGLRPRQVEVWFQ    161
+                     |:....|....::.. .|:  ||...:.:||..||...||...||..||.
+O14770           279 KRGIFPKVATNIMRAWLFQHLTHPYPSEEQKKQLAQDTGLTILQVNNWFI    328
+
+Q5VPE3           162 NRRARTKLKQTEVDCEYLKRWCERLADENKR----LEKELADLRA-----    202
+                     |.|               :|..:.:.|::.|    |:..::...|     
+O14770           329 NAR---------------RRIVQPMIDQSNRAGFLLDPSVSQGAAYSPEG    363
+
+Q5VPE3           203 --------------------LKAAP-------SPASASAMQPSSSAAATL    225
+                                         |::.|       .|...|..|||.: ...:
+O14770           364 QPMGSFVLDGQQHMGIRPAGLQSMPGDYVSQGGPMGMSMAQPSYT-PPQM    412
+
+Q5VPE3           226 TMCPSCRRVATAGAPHQPNHQQ-----------CHPKSNTTISSSSTAAA    264
+                     |..|:..|.......:.|:|..           .||....:..|.:...:
+O14770           413 TPHPTQLRHGPPMHSYLPSHPHHPAMMMHGGPPTHPGMTMSAQSPTMLNS    462
+
+Q5VPE3           265 AVAVAGGNVLPSHCQFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                     .....||.|:..|.|                             
+O14770           463 VDPNVGGQVMDIHAQ-----------------------------    477
+
+
+#---------------------------------------
+#---------------------------------------

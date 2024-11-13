@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:23
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q9ulp0.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_q9ulp0_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_q9ulp0_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q9ULP0
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 668
+# Identity:      10/668 ( 1.5%)
+# Similarity:    12/668 ( 1.8%)
+# Gaps:         637/668 (95.4%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+Q94DD0             1 MVALSKLVLITAVALLGWAYKVARPPPPPILGGPGGPPVSSPRVQLKDGR     50
+                                                                       
+Q9ULP0             0 --------------------------------------------------      0
+
+Q94DD0            51 HLAYREAGVGREIAKYKIIFSHGFASTKESDFPVSQELAEELGIYLLYFD    100
+                                                                       
+Q9ULP0             0 --------------------------------------------------      0
+
+Q94DD0           101 RAGYGDSDANPKRGLKSDATDVEELADKLQLGEKFYVVGTSMGGYVAWSC    150
+                                                                       
+Q9ULP0             0 --------------------------------------------------      0
+
+Q94DD0           151 LNYIPYRLAGVALVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHM    200
+                                                                       
+Q9ULP0             0 --------------------------------------------------      0
+
+Q94DD0           201 PWLFYAWFNQKWFRISPIVEGKPEAFTEKDWEILAEIQRTGQLDRGRATK    250
+                                                                       
+Q9ULP0             0 --------------------------------------------------      0
+
+Q94DD0           251 QGAYHSLCRDATILFGAWEFDPTAIENPFPNGDGVVSIWQGREDKIVRVE    300
+                                                                       
+Q9ULP0             0 --------------------------------------------------      0
+
+Q94DD0           301 AQRYVAEKLPWVRYHEHPE---GGHLFMCADGLGDKIVRELLLGEEPRDL    347
+                                     .||   |.|......||...::|....|..|..|
+Q9ULP0             1 ----------------MPECWDGEHDIETPYGLLHVVIRGSPKGNRPAIL     34
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q9ULP0            35 TYHDVGLNHKLCFNTFFNFEDMQEITKHFVVCHVDAPGQQVGASQFPQGY     84
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q9ULP0            85 QFPSMEQLAAMLPSVVQHFGFKYVIGIGVGAGAYVLAKFALIFPDLVEGL    134
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q9ULP0           135 VLVNIDPNGKGWIDWAATKLSGLTSTLPDTVLSHLFSQEELVNNTELVQS    184
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q9ULP0           185 YRQQIGNVVNQANLQLFWNMYNSRRDLDINRPGTVPNAKTLRCPVMLVVG    234
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q9ULP0           235 DNAPAEDGVVECNSKLDPTTTTFLKMADSGGLPQVTQPGKLTEAFKYFLQ    284
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q9ULP0           285 GMGYIAYLKDRRLSGGAVPSASMTRLARSRTASLTSASSVDGSRPQACTH    334
+
+Q94DD0           347 ------------------    347
+                                       
+Q9ULP0           335 SESSEGLGQVNHTMEVSC    352
+
+
+#---------------------------------------
+#---------------------------------------

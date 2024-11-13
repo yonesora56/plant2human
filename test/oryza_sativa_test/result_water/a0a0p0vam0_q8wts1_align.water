@@ -1,0 +1,49 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:07
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q8wts1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/a0a0p0vam0_q8wts1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/a0a0p0vam0_q8wts1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q8WTS1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 130
+# Identity:      32/130 (24.6%)
+# Similarity:    54/130 (41.5%)
+# Gaps:          41/130 (31.5%)
+# Score: 77.5
+# 
+#
+#=======================================
+
+A0A0P0VAM0        65 KYKIIFSHGFASTKESDFPVSQELAEELGIYLL------------YFDRA    102
+                     |..::..|||..              .||::.|            .||..
+Q8WTS1            75 KTPLVLLHGFGG--------------GLGLWALNFGDLCTNRPVYAFDLL    110
+
+A0A0P0VAM0       103 GYGDSDANPKRGLKSDATDVE-ELADKLQ-----LG-EKFYVVGTSMGGY    145
+                     |:|.| :.|:  ..|||.:|| :..:.::     || :|..::|.::||:
+Q8WTS1           111 GFGRS-SRPR--FDSDAEEVENQFVESIEEWRCALGLDKMILLGHNLGGF    157
+
+A0A0P0VAM0       146 VAWSCLNYIPYRLAGVALVVPAVNYWWPMP    175
+                     :|.:.....|.|:..:.||.|     |..|
+Q8WTS1           158 LAAAYSLKYPSRVNHLILVEP-----WGFP    182
+
+
+#---------------------------------------
+#---------------------------------------

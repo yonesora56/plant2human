@@ -19,7 +19,7 @@ inputs:
     type: Directory
     default:
       class: Directory
-      location: ../out/rice_up/rice_up_mmcif/
+      location: ../test/oryza_sativa_test/rice_random_gene_mmcif/
 
   - id: FILE_MATCH_PATTERN
     label: "file match pattern"
@@ -98,7 +98,7 @@ inputs:
     doc: "output file name for extract target species python script."
     format: edam:data_1050
     type: string
-    default: "foldseek_rice_up_9606.tsv"
+    default: "foldseek_os_random_9606.tsv"
   
   - id: WF_COLUMN_NUMBER_QUERY_SPECIES
     label: "column number of query species"
@@ -185,7 +185,7 @@ inputs:
     default:
       class: File
       format: edam:format_3475
-      location: ../test/workflow_test/rice_up_idmapping.tsv
+      location: ../test/oryza_sativa_test/rice_random_gene_idmapping_all.tsv
 
   - id: QUERY_GENE_LIST_TSV
     label: "query gene list tsv (papermill)"
@@ -195,7 +195,7 @@ inputs:
     default:
       class: File
       format: edam:format_3475
-      location: ../test/workflow_test/HN5_genes_up_rice.tsv
+      location: ../test/oryza_sativa_test/oryza_sativa_random_gene_list.tsv
 
 # ----------OUTPUTS----------
 outputs:
@@ -340,7 +340,7 @@ outputs:
 
   - id: REPORT_NOTEBOOK
     label: "output notebook (papermill)"
-    doc: "output notebook using papermill."
+    doc: "output notebook using papermill. notebook name is `plant2human_report.ipynb`."
     type: File
     outputSource: papermill/report_notebook
 
@@ -399,13 +399,13 @@ steps:
       water (Local alignment): ../Tools/17_water.cwl
       "
     in:
-      PARAM_INPUT_FASTA_FILE_QUERY_SPECIES: SW_INPUT_FASTA_FILE_QUERY_SPECIES
-      PARAM_INPUT_FASTA_FILE_HIT_SPECIES: SW_INPUT_FASTA_FILE_HIT_SPECIES
-      PARAM_ENTRY_BATCH_QUERY_SPECIES: extract_query_species_column/output_file # workflow input
-      PARAM_ENTRY_BATCH_HIT_SPECIES: extract_hit_species_column/output_file # workflow input
-      PARAM_FOLDSEEK_EXTRACT_TSV: extract_target_species/output_extract_file # workflow input
-      PARAM_ALIGNMENT_QUERY_COL_NUM: WF_COLUMN_NUMBER_QUERY_SPECIES
-      PARAM_ALIGNMENT_TARGET_COL_NUM: WF_COLUMN_NUMBER_HIT_SPECIES
+      INPUT_FASTA_FILE_QUERY_SPECIES: SW_INPUT_FASTA_FILE_QUERY_SPECIES
+      INPUT_FASTA_FILE_HIT_SPECIES: SW_INPUT_FASTA_FILE_HIT_SPECIES
+      ENTRY_BATCH_QUERY_SPECIES: extract_query_species_column/output_file # workflow input
+      ENTRY_BATCH_HIT_SPECIES: extract_hit_species_column/output_file # workflow input
+      FOLDSEEK_EXTRACT_TSV: extract_target_species/output_extract_file # workflow input
+      ALIGNMENT_QUERY_COLUMN_NUMBER: WF_COLUMN_NUMBER_QUERY_SPECIES
+      ALIGNMENT_TARGET_COLUMN_NUMBER: WF_COLUMN_NUMBER_HIT_SPECIES
     out:
       - output_index_dir_query_species
       - output_index_file_query_species
@@ -455,7 +455,7 @@ s:author:
 
 
 s:codeRepository: https://github.com/yonesora56/plant2human
-s:dateCreated: "2024-11-08"
+s:dateCreated: "2024-11-13"
 s:license: https://spdx.org/licenses/MIT
 
 $namespaces:

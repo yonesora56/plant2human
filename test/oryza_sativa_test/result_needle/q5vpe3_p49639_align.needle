@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:42
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p49639.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_p49639_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_p49639_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P49639
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 430
+# Identity:      59/430 (13.7%)
+# Similarity:   100/430 (23.3%)
+# Gaps:         217/430 (50.5%)
+# Score: 85.5
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P49639             1 MDNARMNSFLEYPILSSGDSGTCSARAYPSDHRITTFQSCAVSANSCGGD     50
+
+Q5VPE3             1 ---MMDLGLSLG---------------LGLASQGSL-TSSTTTTSSPGAG     31
+                        ::..|:.:|               ....:.|:| .|.:.::..|..|
+P49639            51 DRFLVGRGVQIGSPHHHHHHHHRHPQPATYQTSGNLGVSYSHSSCGPSYG    100
+
+Q5VPE3            32 S---SSPWAA-ALNSIVGDVRRDQAAAHAAAAVGVGVGG--------EEM     69
+                     |   |:|::. |||.     ..|.:..:...|..|..|.        ...
+P49639           101 SQNFSAPYSPYALNQ-----EADVSGGYPQCAPAVYSGNLSSPMVQHHHH    145
+
+Q5VPE3            70 YQGRASTSPDSAAALSSASGKREREL------------------------     95
+                     :||.|..:..|...:..:.|:..:.|                        
+P49639           146 HQGYAGGAVGSPQYIHHSYGQEHQSLALATYNNSLSPLHASHQEACRSPA    195
+
+Q5VPE3            96 -ERSG----------------SGVDDDDGADGAGGRKKLRLSKDQAAVLE    128
+                      |.|.                :|...:.|..|.....:...:..|...||
+P49639           196 SETSSPAQTFDWMKVKRNPPKTGKVGEYGYLGQPNAVRTNFTTKQLTELE    245
+
+Q5VPE3           129 ECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEY    178
+                     :.|..:..|...::|.:|..|.|...||::||||||.:.|.::       
+P49639           246 KEFHFNKYLTRARRVEIAASLQLNETQVKIWFQNRRMKQKKRE-------    288
+
+Q5VPE3           179 LKRWCERLADENKRLEKELADLRALKAAPSPASASAMQPSSSAAATLTMC    228
+                      |.....::........|.|:..:.|::.||...|   |.||.:.|||..
+P49639           289 -KEGLLPISPATPPGNDEKAEESSEKSSSSPCVPS---PGSSTSDTLTTS    334
+
+Q5VPE3           229 PSCRRVATAGAPHQPNHQQCHPKSNTTISSSSTAAAAVAVAGGNVLPSHC    278
+                     .                                                 
+P49639           335 H-------------------------------------------------    335
+
+Q5VPE3           279 QFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                                                   
+P49639           335 ------------------------------    335
+
+
+#---------------------------------------
+#---------------------------------------

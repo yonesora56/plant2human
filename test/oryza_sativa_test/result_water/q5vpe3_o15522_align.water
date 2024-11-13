@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:16
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/o15522.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_o15522_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_o15522_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: O15522
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 231
+# Identity:      64/231 (27.7%)
+# Similarity:    83/231 (35.9%)
+# Gaps:          71/231 (30.7%)
+# Score: 119.5
+# 
+#
+#=======================================
+
+Q5VPE3            78 PDSAAA-LSSASG----KRERELERS-------GSGVDDDDGADGAGGRK    115
+                     ||..|| |.|..|    ..|..||.|       .|......|:| |..||
+O15522            37 PDPCAAWLDSERGHYPSSDESSLETSPPDSSQRPSARPASPGSD-AEKRK     85
+
+Q5VPE3           116 KLRL--SKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNR    163
+                     |.|:  ||.|...||..|:....|:..::..||:.|.|.|.||::||||.
+O15522            86 KRRVLFSKAQTLELERRFRQQRYLSAPEREQLASLLRLTPTQVKIWFQNH    135
+
+Q5VPE3           164 RARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPSPASAS    213
+                     |.:                                    ||.|.:|.:|.
+O15522           136 RYK------------------------------------LKRARAPGAAE    149
+
+Q5VPE3           214 AMQPSSSAAATLTMCPS-CRRVATAGAPHQP----NHQQCHPKSNTTISS    258
+                     :  |..:|:|.|...|. .|||..      |    :.|.|.......:  
+O15522           150 S--PDLAASAELHAAPGLLRRVVV------PVLVRDGQPCGGGGGGEV--    189
+
+Q5VPE3           259 SSTAAA----AVAVAGGNVLPSHCQFFPAAA    285
+                      .||||    ....|....||.:..|.|.:|
+O15522           190 -GTAAAQEKCGAPPAAACPLPGYPAFGPGSA    219
+
+
+#---------------------------------------
+#---------------------------------------

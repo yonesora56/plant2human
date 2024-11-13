@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:00
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q9nuj1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_q9nuj1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_q9nuj1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q9NUJ1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 235
+# Identity:      55/235 (23.4%)
+# Similarity:    85/235 (36.2%)
+# Gaps:          82/235 (34.9%)
+# Score: 97.5
+# 
+#
+#=======================================
+
+Q94DD0             2 VALSKLVLITA-VALLGWAYKVARPPPPPILGGPGGP-----------PV     39
+                     :|:::|..:.| |....|.:...          |.||           |.
+Q9NUJ1             1 MAVARLAAVAAWVPCRSWGWAAV----------PFGPHRGLSVLLARIPQ     40
+
+Q94DD0            40 SSPR-------------VQLKDGRHLAYREAGVGREIAKYK---IIFSHG     73
+                     .:||             :...|..:|||::       .|.|   |||..|
+Q9NUJ1            41 RAPRWLPACRQKTSLSFLNRPDLPNLAYKK-------LKGKSPGIIFIPG     83
+
+Q94DD0            74 FASTKESDFPVS-QELAEELGIYLLYFDRAGYGDSDANPKRGL-----KS    117
+                     :.|.......:: :|..:.||...:.||.:|.|.||.|.:...     |.
+Q9NUJ1            84 YLSYMNGTKALAIEEFCKSLGHACIRFDYSGVGSSDGNSEESTLGKWRKD    133
+
+Q94DD0           118 DATDVEELADKLQLGEKFYVVGTSMGGYVAWSCLNYIPYR------LAGV    161
+                     ..:.:::|||..|:     :||:|:||   |..|:....|      |.||
+Q9NUJ1           134 VLSIIDDLADGPQI-----LVGSSLGG---WLMLHAAIARPEKVVALIGV    175
+
+Q94DD0           162 A----LVVPAVNYW-------------WPMPASVS    179
+                     |    .:|...|..             |.||:..|
+Q9NUJ1           176 ATAADTLVTKFNQLPVELKKEVEMKGVWSMPSKYS    210
+
+
+#---------------------------------------
+#---------------------------------------

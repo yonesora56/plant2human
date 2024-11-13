@@ -1,0 +1,129 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:26
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q05469.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_q05469_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_q05469_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q05469
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1146
+# Identity:      84/1146 ( 7.3%)
+# Similarity:   132/1146 (11.5%)
+# Gaps:         869/1146 (75.8%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q05469             1 MEPGSKSVSRSDWQPEPHQRPITPLEPGPEKTPIAQPESKTLQGSNTQQK     50
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q05469            51 PASNQRPLTQQETPAQHDAESQKEPRAQQKSASQEEFLAPQKPAPQQSPY    100
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q05469           101 IQRVLLTQQEAASQQGPGLGKESITQQEPALRQRHVAQPGPGPGEPPPAQ    150
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q05469           151 QEAESTPAAQAKPGAKREPSAPTESTSQETPEQSDKQTTPVQGAKSKQGS    200
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q05469           201 LTELGFLTKLQELSIQRSALEWKALSEWVTDSESESDVGSSSDTDSPATM    250
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q05469           251 GGMVAQGVKLGFKGKSGYKVMSGYSGTSPHEKTSARNHRHYQDTASRLIH    300
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q05469           301 NMDLRTMTQSLVTLAEDNIAFFSSQGPGETAQRLSGVFAGVREQALGLEP    350
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q05469           351 ALGRLLGVAHLFDLDPETPANGYRSLVHTARCCLAHLLHKSRYVASNRRS    400
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q05469           401 IFFRTSHNLAELEAYLAALTQLRALVYYAQRLLVTNRPGVLFFEGDEGLT    450
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q05469           451 ADFLREYVTLHKGCFYGRCLGFQFTPAIRPFLQTISIGLVSFGEHYKRNE    500
+
+Q94DD0             1 -----------------------------------------------MVA      3
+                                                                    |..
+Q05469           501 TGLSVAASSLFTSGRFAIDPELRGAEFERITQNLDVHFWKAFWNITEMEV    550
+
+Q94DD0             4 LSKLVLITAVALLGWAYKVAR----PP------------------PPPIL     31
+                     ||.|..:.:..:     :|:|    ||                  ||...
+Q05469           551 LSSLANMASATV-----RVSRLLSLPPEAFEMPLTADPTLTVTISPPLAH    595
+
+Q94DD0            32 GGPGGPPVSSPRVQLKDG---------------RHLAY----REAGVGRE     62
+                     .|||...|......|::|               |.|..    ::|...|.
+Q05469           596 TGPGPVLVRLISYDLREGQDSEELSSLIKSNGQRSLELWPRPQQAPRSRS    645
+
+Q94DD0            63 IAKYKIIFSHG---FASTKESDFPVSQELAEELGIYLLYFDRAGYGDSDA    109
+                     :    |:..||   .|.|..|..|..:..|:|||..::..|   |..:..
+Q05469           646 L----IVHFHGGGFVAQTSRSHEPYLKSWAQELGAPIISID---YSLAPE    688
+
+Q94DD0           110 NP-KRGLK----SDATDVEELADKLQLGEKFYVVGTSMGGYVAWSCLNYI    154
+                     .| .|.|:    :....::..|.....||:..:.|.|.||.:.::    :
+Q05469           689 APFPRALEECFFAYCWAIKHCALLGSTGERICLAGDSAGGNLCFT----V    734
+
+Q94DD0           155 PYRLAGVALVVP---AVNYWWPMPASV---SASAYRKLDVGDRRTFWIAH    198
+                     ..|.|...:.||   ...|    ||::   :||..|.|.:.|        
+Q05469           735 ALRAAAYGVRVPDGIMAAY----PATMLQPAASPSRLLSLMD--------    772
+
+Q94DD0           199 HMPWLFYAWFNQKWFRISPIVEGKPEAFTEKDWEILAEIQRTGQLDRGRA    248
+                       |.|..:..::   .:|.....|.|..:..|.:.|              
+Q05469           773 --PLLPLSVLSK---CVSAYAGAKTEDHSNSDQKAL--------------    803
+
+Q94DD0           249 TKQGAYHSLCRDATILFGAWEFDPTAIENPFPNGDGVVSIWQGREDKIVR    298
+                        |....:.||..:|...:....::..|.|....|..|  |...:.|..
+Q05469           804 ---GMMGLVRRDTALLLRDFRLGASSWLNSFLELSGRKS--QKMSEPIAE    848
+
+Q94DD0           299 VEAQRYVAEKLPWVRYHEHPEGGHLFMCADGLGDKIVRELLLGEEPRDL-    347
+                      ..:|.|:|..     ...|:|        .||...::.|.|    ||| 
+Q05469           849 -PMRRSVSEAA-----LAQPQG--------PLGTDSLKNLTL----RDLS    880
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q05469           881 LRGNSETSSDTPEMSLSAETLSPSTPSDVNFLLPPEDAGEEAEAKNELSP    930
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q05469           931 MDRGLGVRAAFPEGFHPRRSSQGATQMPLYSSPIVKNPFMSPLLAPDSML    980
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q05469           981 KSLPPVHIVACALDPMLDDSVMLARRLRNLGQPVTLRVVEDLPHGFLTLA   1030
+
+Q94DD0           347 ----------------------------------------------    347
+                                                                   
+Q05469          1031 ALCRETRQAAELCVERIRLVLTPPAGAGPSGETGAAGVDGGCGGRH   1076
+
+
+#---------------------------------------
+#---------------------------------------

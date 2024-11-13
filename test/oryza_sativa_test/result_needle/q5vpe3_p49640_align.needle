@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:38
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p49640.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_p49640_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_p49640_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P49640
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 452
+# Identity:      84/452 (18.6%)
+# Similarity:   127/452 (28.1%)
+# Gaps:         189/452 (41.8%)
+# Score: 127.0
+# 
+#
+#=======================================
+
+Q5VPE3             1 -----------------------MMDLGLSLGLGL-------ASQGSLTS     20
+                                            :.:|..::|..|       ..:|.|:.
+P49640             1 MESRKDMVVFLDGGQLGTLVGKRVSNLSEAVGSPLPEPPEKMVPRGCLSP     50
+
+Q5VPE3            21 STTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVG-----     65
+                     .....::...|...|....::.:.|......|....|.|..:|.|     
+P49640            51 RAVPPATRERGGGGPEEEPVDGLAGSAAGPGAEPQVAGAAMLGPGPPAPS    100
+
+Q5VPE3            66 -----GEEMYQGRASTS---------------PDSA---AALSSASGKRE     92
+                          |    ||:.|:|               ||.|   |....:.|...
+P49640           101 VDSLSG----QGQPSSSDTESDFYEEIEVSCTPDCATGNAEYQHSKGSGS    146
+
+Q5VPE3            93 RELERS---GSGVDDDDGADGAGG--------------RKKLRLSKDQAA    125
+                     ..|..|   ||.....:|..|.||              |.:...:::|.|
+P49640           147 EALVGSPNGGSETPKSNGGSGGGGSQGTLACSASDQMRRYRTAFTREQIA    196
+
+Q5VPE3           126 VLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVD    175
+                     .||:.|...:.::..::..||..|.|....::|||||||.:.|.      
+P49640           197 RLEKEFYRENYVSRPRRCELAAALNLPETTIKVWFQNRRMKDKR------    240
+
+Q5VPE3           176 CEYLKRWCERLADENKRLEKELADLRALKAAPSPASASAMQPSSSAAATL    225
+                             :|||                ...|.||..:......|.||  
+P49640           241 --------QRLA----------------MTWPHPADPAFYTYMMSHAA--    264
+
+Q5VPE3           226 TMCPSCRRVATAGAPHQ-PNHQQCHPKSNTTISSSSTAAAAVAVAGGNVL    274
+                              |..|.|:. |:|......|...:.::|.|:||.:...|::.
+P49640           265 ---------AAGGLPYPFPSHLPLPYYSPVGLGAASAASAAASPFSGSLR    305
+
+Q5VPE3           275 PSH---------------CQF-----------------------------    280
+                     |..               |.|                             
+P49640           306 PLDTFRVLSQPYPRPELLCAFRHPPLYPGPAHGLGASAGGPCSCLACHSG    355
+
+Q5VPE3           281 -----FPAAAAAADRTSQST-----WNAAAPLVTRELF------------    308
+                          .|.||||:|.|..||     :...||.|..:..            
+P49640           356 PANGLAPRAAAASDFTCASTSRSDSFLTFAPSVLSKASSVALDQREEVPL    405
+
+Q5VPE3           308 --    308
+                       
+P49640           406 TR    407
+
+
+#---------------------------------------
+#---------------------------------------

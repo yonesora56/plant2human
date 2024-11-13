@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:19
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p28360.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_p28360_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_p28360_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P28360
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 320
+# Identity:      65/320 (20.3%)
+# Similarity:    93/320 (29.1%)
+# Gaps:         146/320 (45.6%)
+# Score: 102.5
+# 
+#
+#=======================================
+
+Q5VPE3             7 SLGLGLASQGSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHA     56
+                     ||.||:..:.|      ....|..|             |..:...|||..
+P28360             9 SLPLGVKVEDS------AFGKPAGG-------------GAGQAPSAAAAT     39
+
+Q5VPE3            57 AAAVGVGVGGEEMYQGRASTS--PDSAAALSS---ASGKRERELERSGSG    101
+                     |||:|   ..||..:.:.|.|  |.|..||.:   ..|.:|..|..|   
+P28360            40 AAAMG---ADEEGAKPKVSPSLLPFSVEALMADHRKPGAKESALAPS---     83
+
+Q5VPE3           102 VDDDDGADGAGGRKK-----------------------------LRLSKD    122
+                         :|...|||..:                             |:|.:|
+P28360            84 ----EGVQAAGGSAQPLGVPPGSLGAPDAPSSPRPLGHFSVGGLLKLPED    129
+
+Q5VPE3           122 --------------------------------------------------    122
+                                                                       
+P28360           130 ALVKAESPEKPERTPWMQSPRFSPPPARRLSPPACTLRKHKTNRKPRTPF    179
+
+Q5VPE3           123 ---QAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTKL    169
+                        |...||..|:....|:..::...::.|.|...||::|||||||:.  
+P28360           180 TTAQLLALERKFRQKQYLSIAERAEFSSSLSLTETQVKIWFQNRRAKA--    227
+
+Q5VPE3           170 KQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPSPASASAMQPSS    219
+                                          |||::  |:|..||.|..|     |.|.:
+P28360           228 ---------------------KRLQE--AELEKLKMAAKP-----MLPPA    249
+
+Q5VPE3           220 SAAATLTMCPSCRRVATAGA    239
+                     :...:..:.......|.|||
+P28360           250 AFGLSFPLGGPAAVAAAAGA    269
+
+
+#---------------------------------------
+#---------------------------------------

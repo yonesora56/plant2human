@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:14
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/o95096.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_o95096_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_o95096_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: O95096
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 307
+# Identity:      72/307 (23.5%)
+# Similarity:   105/307 (34.2%)
+# Gaps:         100/307 (32.6%)
+# Score: 140.0
+# 
+#
+#=======================================
+
+Q5VPE3            11 GLASQGSLTS-STTTTSSPGAGSS----SPWAAALNSIVGDVRRDQAAAH     55
+                     |...||:|.: .:....:|...||    :.|.|:...:       |.:.|
+O95096            46 GPLGQGALDAVQSLPLKNPFYDSSDNPYTRWLASTEGL-------QYSLH     88
+
+Q5VPE3            56 AAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGKRERELERSGSGVDDD    105
+                          |:..|...  |..:|.||:     .||....:.:.|..|.|.|  
+O95096            89 -----GLAAGAPP--QDSSSKSPE-----PSADESPDNDKETPGGGGD--    124
+
+Q5VPE3           106 DGADGAGGRKKLRL--SKDQAAVLEECFKTHSTLNPKQKVALANRLGLRP    153
+                          ||.::|.|:  ||.|...||..|:....|:..::..||:.:.|.|
+O95096           125 -----AGKKRKRRVLFSKAQTYELERRFRQQRYLSAPEREHLASLIRLTP    169
+
+Q5VPE3           154 RQVEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRAL    203
+                     .||::||||.|.:.|..:.|...|                         :
+O95096           170 TQVKIWFQNHRYKMKRARAEKGME-------------------------V    194
+
+Q5VPE3           204 KAAPSPASAS------------AMQPSSSAAATLTMCPSCRRVATAGAPH    241
+                     ...|||...:            |::....||||.          .||.|.
+O95096           195 TPLPSPRRVAVPVLVRDGKPCHALKAQDLAAATF----------QAGIPF    234
+
+Q5VPE3           242 QPNHQQC--HPKSNTTISSSSTAAAAVAVAGGNVLPSHCQFFPAAAAAAD    289
+                     .....|.  |.:.|...||:||             |.:....|...|   
+O95096           235 SAYSAQSLQHMQYNAQYSSAST-------------PQYPTAHPLVQA---    268
+
+Q5VPE3           290 RTSQSTW    296
+                       .|.||
+O95096           269 --QQWTW    273
+
+
+#---------------------------------------
+#---------------------------------------

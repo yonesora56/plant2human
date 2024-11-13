@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:36
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q8n693.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_q8n693_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_q8n693_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q8N693
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 438
+# Identity:      78/438 (17.8%)
+# Similarity:   110/438 (25.1%)
+# Gaps:         162/438 (37.0%)
+# Score: 76.5
+# 
+#
+#=======================================
+
+Q5VPE3             1 --------MMDLGL-SLGLG---------------LASQGSLTSSTTTTS     26
+                             ..|:|. ||.:|               |.::|. .....|.|
+Q8N693             1 MESLRGYTHSDIGYRSLAVGEDIEEVNDEKLTVTSLMARGG-EDEENTRS     49
+
+Q5VPE3            27 SPGAGSSSPWAAALNSI--VGDVRRDQAAAHAAAAVGVGVGGEEMYQGRA     74
+                     .|..|:.     |.|::  .|.|..|.....       |.||.|..|.:.
+Q8N693            50 KPEYGTE-----AENNVGTEGSVPSDDQDRE-------GGGGHEPEQQQE     87
+
+Q5VPE3            75 S---TSPD---SAAALSSASGKRERELERSGSGVDDDDGADGAGG-----    113
+                     .   |.|:   ....|.....::|...:.:..|....:|...|.|     
+Q8N693            88 EPPLTKPEQQQEEPPLLELKQEQEEPPQTTVEGPQPAEGPQTAEGPQPPE    137
+
+Q5VPE3           114 ---RKKLRLSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWF    160
+                        |::...::.|...||..|......:...:..||.||.|...:|:|||
+Q8N693           138 RKRRRRTAFTQFQLQELENFFDESQYPDVVARERLAARLNLTEDRVQVWF    187
+
+Q5VPE3           161 QNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPS--    208
+                     |||||:.|..|     ..|.......||....|:..|..  |..|||:  
+Q8N693           188 QNRRAKWKRNQ-----RVLMLRNTATADLAHPLDMFLGG--AYYAAPALD    230
+
+Q5VPE3           209 PASASAMQPSSSAAATLTMCPSCRRVATAGAPHQPNHQQCHPKSNTTISS    258
+                     ||....:.|.......|.:.|...|......|.:|......|.:.....|
+Q8N693           231 PALCVHLVPQLPRPPVLPVPPMPPRPPMVPMPPRPPIAPMPPMAPVPPGS    280
+
+Q5VPE3           259 SSTAAAAVAVAGGNVLPSHCQFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                         ..|....|..:.|  ...:|..|..      ..|...||:.|....
+Q8N693           281 ----RMAPVPPGPRMAP--VPPWPPMAPV------PPWPPMAPVPTGPPM    318
+
+Q5VPE3           308 --------------------------------------------------    308
+                                                                       
+Q8N693           319 APVPPGPPMARVPPGPPMARVPPGPPMAPLPPGPPMAPLPPGPPMAPLPP    368
+
+Q5VPE3           308 --------------------------------------    308
+                                                           
+Q8N693           369 GPPMAPLPPRSHVPHTGLAPVHITWAPVINSYYACPFF    406
+
+
+#---------------------------------------
+#---------------------------------------

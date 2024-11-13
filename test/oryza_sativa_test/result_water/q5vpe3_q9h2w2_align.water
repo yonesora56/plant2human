@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:19
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q9h2w2.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_q9h2w2_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_q9h2w2_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q9H2W2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 229
+# Identity:      55/229 (24.0%)
+# Similarity:    86/229 (37.6%)
+# Gaps:          70/229 (30.6%)
+# Score: 95.5
+# 
+#
+#=======================================
+
+Q5VPE3            27 SPGAGSS-----SPWAAAL---------NSIVGDVRRDQA-AAHAAAAVG     61
+                     :|.||.:     ||.||.|         .:..|.:.||.. |....|::|
+Q9H2W2            22 APHAGGALLPPPSPAAALLPAPPAGPGPATFAGFLGRDPGPAPPPPASLG     71
+
+Q5VPE3            62 VGVGGEEMYQGRASTSPDSAAALSSASGKRERELERSGSGVDDDDGADGA    111
+                                  |.:|...||..|||.:                     
+Q9H2W2            72 -------------SPAPPKGAAAPSASQR---------------------     87
+
+Q5VPE3           112 GGRKKLRLSKDQAAVLEECFK--THSTLNPKQKVALANRLGLRPR-QVEV    158
+                       ||:...|.:|..:||..|:  .:..::.::::|   .|.|.|. :::|
+Q9H2W2            88 --RKRTSFSAEQLQLLELVFRRTRYPDIHLRERLA---ALTLLPESRIQV    132
+
+Q5VPE3           159 WFQNRRARTKLK-----QTEVDCEYLKRWCERLADENKRLEKEL---ADL    200
+                     |||||||:::.:     |.....|.:...|.. ..|.|.|:.:|   .|:
+Q9H2W2           133 WFQNRRAKSRRQSGKSFQPLARPEIILNHCAP-GTETKCLKPQLPLEVDV    181
+
+Q5VPE3           201 RALKAAPSP-ASASAMQPSSSAAATLTMC    228
+                     ..|   |.| .....:..|||.......|
+Q9H2W2           182 NCL---PEPNGVGGGISDSSSQGQNFETC    207
+
+
+#---------------------------------------
+#---------------------------------------

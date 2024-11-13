@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:29
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q5vxi9.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/a0a0p0vam0_q5vxi9_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/a0a0p0vam0_q5vxi9_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q5VXI9
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 454
+# Identity:      81/454 (17.8%)
+# Similarity:   146/454 (32.2%)
+# Gaps:         163/454 (35.9%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+A0A0P0VAM0         1 MVALSKLVLITAVALLGWAYKVARPPPPPILGGPGGPPVS---SPRVQLK     47
+                        :..|:|.|...:.|            .|...|...:.   :|.|.:.
+Q5VXI9             1 ---MMWLLLTTTCLICG------------TLNAGGFLDLENEVNPEVWMN     35
+
+A0A0P0VAM0        48 DGRHLAYREAGVGREIAKYKIIFSHGFASTKESDFPVSQELAEELG----     93
+                     ....:.|.    |....:|::....|:. ...:..|..:..|...|    
+Q5VXI9            36 TSEIIIYN----GYPSEEYEVTTEDGYI-LLVNRIPYGRTHARSTGPRPV     80
+
+A0A0P0VAM0        94 IYL---LYFDRAGYGDSDANPKRG-LKSDA--------------------    119
+                     :|:   |:.|.|.:.::.||...| |.:||                    
+Q5VXI9            81 VYMQHALFADNAYWLENYANGSLGFLLADAGYDVWMGNSRGNTWSRRHKT    130
+
+A0A0P0VAM0       120 ---TD-------VEELADKLQL------------GEKFYVVGTSMG---G    144
+                        ||       .:|:| |..|            .||.|.:|.|:|   |
+Q5VXI9           131 LSETDEKFWAFSFDEMA-KYDLPGVIDFIVNKTGQEKLYFIGHSLGTTIG    179
+
+A0A0P0VAM0       145 YVAWSCLNYIPYRLAGVALVVPAVNYWWP---------MPASVSASAY--    183
+                     :||:|.:..:..|:.....:.|.:::.:|         :|.|:..:.:  
+Q5VXI9           180 FVAFSTMPELAQRIKMNFALGPTISFKYPTGIFTRFFLLPNSIIKAVFGT    229
+
+A0A0P0VAM0       184 RKLDVGDRRTFWIA------HHMPWLFYAWFNQKWFRISPIVEGKPEAFT    227
+                     :...:.|::| .||      :.:.||..:.|...|      .....:...
+Q5VXI9           230 KGFFLEDKKT-KIASTKICNNKILWLICSEFMSLW------AGSNKKNMN    272
+
+A0A0P0VAM0       228 EKDWEILAEIQRTGQLDRGRATKQGAYHSLCRDATILFGAWE--------    269
+                     :...::......||.........:..|||   |.   |.|::        
+Q5VXI9           273 QSRMDVYMSHAPTGSSVHNILHIKQLYHS---DE---FRAYDWGNDADNM    316
+
+A0A0P0VAM0       270 ----------FDPTAIENPFPNGDGVVSIWQGREDKIVRVEAQRYVAEKL    309
+                               :|.||::.|       .:||.|..|.:|   ..:.||..|
+Q5VXI9           317 KHYNQSHPPIYDLTAMKVP-------TAIWAGGHDVLV---TPQDVARIL    356
+
+A0A0P0VAM0       310 PWVRYHEH----PEGGHLFMCADGLGDKIVRELLLGEEPRDL--------    347
+                     |.::...:    |:..| |....||           :.|:.:        
+Q5VXI9           357 PQIKSLHYFKLLPDWNH-FDFVWGL-----------DAPQRMYSEIIALM    394
+
+A0A0P0VAM0       347 ----    347
+                         
+Q5VXI9           395 KAYS    398
+
+
+#---------------------------------------
+#---------------------------------------

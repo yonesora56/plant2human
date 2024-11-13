@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:32
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q9nv23.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/a0a0p0vam0_q9nv23_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/a0a0p0vam0_q9nv23_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q9NV23
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 560
+# Identity:      12/560 ( 2.1%)
+# Similarity:    23/560 ( 4.1%)
+# Gaps:         508/560 (90.7%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+A0A0P0VAM0         1 MVALSKLVLITAVALLGWAYKVARPPPPPILGGPGGPPVSSPRVQLKDGR     50
+                                                                       
+Q9NV23             0 --------------------------------------------------      0
+
+A0A0P0VAM0        51 HLAYREAGVGREIAKYKIIFSHGFASTKESDFPVSQELAEELGIYLLYFD    100
+                                                                       
+Q9NV23             0 --------------------------------------------------      0
+
+A0A0P0VAM0       101 RAGYGDSDANPKRGLKSDATDVEELADKLQLGEKFYVVGTSMGGYVAWSC    150
+                                                                       
+Q9NV23             0 --------------------------------------------------      0
+
+A0A0P0VAM0       151 LNYIPYRLAGVALVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHM    200
+                                                                       
+Q9NV23             0 --------------------------------------------------      0
+
+A0A0P0VAM0       201 PWLFYAWFNQKWFRISPIVEGKPEAFTEKDWEILAEIQRTGQLDRGRATK    250
+                                                                       
+Q9NV23             0 --------------------------------------------------      0
+
+A0A0P0VAM0       251 QGAYHSLCRDATILFGAWEFDPTAIENPFPNGDGVVSIWQGREDKIVRVE    300
+                                                          :.:|.:.|..|.|
+Q9NV23             1 -------------------------------------MERGDQPKRTRNE     13
+
+A0A0P0VAM0       301 AQRYVAEKLPWVRYHEHPEGGHLFMCADGLGDKIVRELLLGEEPRDL---    347
+                        .:...|     :::||.....:|...:|.........|::..||   
+Q9NV23            14 ---NIFNCL-----YKNPEATFKLICFPWMGGGSTHFAKWGQDTHDLLEV     55
+
+A0A0P0VAM0       347 --------------------------------------------------    347
+                                                                       
+Q9NV23            56 HSLRLPGRESRVEEPLENDISQLVDEVVCALQPVIQDKPFAFFGHSMGSY    105
+
+A0A0P0VAM0       347 --------------------------------------------------    347
+                                                                       
+Q9NV23           106 IAFRTALGLKENNQPEPLHLFLSSATPVHSKAWHRIPKDDELSEEQISHY    155
+
+A0A0P0VAM0       347 --------------------------------------------------    347
+                                                                       
+Q9NV23           156 LMEFGGTPKHFAEAKEFVKQCSPIIRADLNIVRSCTSNVPSKAVLSCDLT    205
+
+A0A0P0VAM0       347 --------------------------------------------------    347
+                                                                       
+Q9NV23           206 CFVGSEDIAKDMEAWKDVTSGNAKIYQLPGGHFYLLDPANEKLIKNYIIK    255
+
+A0A0P0VAM0       347 ----------    347
+                               
+Q9NV23           256 CLEVSSISNF    265
+
+
+#---------------------------------------
+#---------------------------------------

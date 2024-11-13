@@ -1,0 +1,109 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:43
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q7xvn5.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q8iwu9.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q7xvn5_q8iwu9_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q7xvn5_q8iwu9_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q7XVN5
+# 2: Q8IWU9
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 872
+# Identity:      22/872 ( 2.5%)
+# Similarity:    44/872 ( 5.0%)
+# Gaps:         784/872 (89.9%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+Q7XVN5             1 MALTAAAASGGDAHDDEYAKLVRGMNPPRVVVDNEACDEATVIRVDSVSS     50
+                                                                       
+Q8IWU9             0 --------------------------------------------------      0
+
+Q7XVN5            51 HGTLLAVVQVIADLGLVIRKAYFSSDGSWFMDVFNVTDRDGNKVLDDQTI    100
+                                                                       
+Q8IWU9             0 --------------------------------------------------      0
+
+Q7XVN5           101 SYIQTTLEADDWYYPEVRNTVGIVPAEEYTVIELTGTDRPGLLSEVCAVL    150
+                                                                       
+Q8IWU9             0 --------------------------------------------------      0
+
+Q7XVN5           151 AGMRCAVRSAELWTHNTRVAAVVHVTDDGGSGGAIEDEARIADISTRLGN    200
+                                                                       
+Q8IWU9             0 --------------------------------------------------      0
+
+Q7XVN5           201 LLRGQSGVRAAAAAAPGGLTHKERRLHQMMFDDRDYDGGGGAASSSPRGR    250
+                                                                       
+Q8IWU9             0 --------------------------------------------------      0
+
+Q7XVN5           251 SPTPATEVSVTPCAERGYTAVVVRCRDRPKLLFDTVCTITDMGYVIHHGA    300
+                                                                       
+Q8IWU9             0 --------------------------------------------------      0
+
+Q7XVN5           301 VSSEPRGGAYQEYYIRHVDGDPVRSEAERQRVVQCLEAAIERRTADGLAL    350
+                                                                       
+Q8IWU9             0 --------------------------------------------------      0
+
+Q7XVN5           351 EVRTGDRAGLLSDVTRIFRENGLTIRRAEISSERGEAVDTFYLSDPQGHP    400
+                                       .:..:.:..::..:.||.::|:   :.|:.|.
+Q8IWU9             1 ------------------MQPAMMMFSSKYWARRGFSLDS---AVPEEHQ     29
+
+Q7XVN5           401 VEAKTIDAIRAQIGEATLRVKHNPFADGDGAGGGGGGATDDVAGSTAFLF    450
+                     :           :|.:||...::...|..|..|.........:|.||.:|
+Q8IWU9            30 L-----------LGSSTLNKPNSGKNDDKGNKGSSKREAATESGKTAVVF     68
+
+Q7XVN5           451 ------GNLFKFYRPFQ--NFSLIKLYS----------------------    470
+                           |.|.|..|.||  ..:::.:.|                      
+Q8IWU9            69 SLKNEVGGLVKALRLFQEKRVNMVHIESRKSRRRSSEVEIFVDCECGKTE    118
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8IWU9           119 FNELIQLLKFQTTIVTLNPPENIWTEEEELEDVPWFPRKISELDKCSHRV    168
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8IWU9           169 LMYGSELDADHPGFKDNVYRQRRKYFVDVAMGYKYGQPIPRVEYTEEETK    218
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8IWU9           219 TWGVVFRELSKLYPTHACREYLKNFPLLTKYCGYREDNVPQLEDVSMFLK    268
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8IWU9           269 ERSGFTVRPVAGYLSPRDFLAGLAYRVFHCTQYIRHGSDPLYTPEPDTCH    318
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8IWU9           319 ELLGHVPLLADPKFAQFSQEIGLASLGASDEDVQKLATCYFFTIEFGLCK    368
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8IWU9           369 QEGQLRAYGAGLLSSIGELKHALSDKACVKAFDPKTTCLQECLITTFQEA    418
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8IWU9           419 YFVSESFEEAKEKMRDFAKSITRPFSVYFNPYTQSIEILKDTRSIENVVQ    468
+
+Q7XVN5           470 ----------------------    470
+                                           
+Q8IWU9           469 DLRSDLNTVCDALNKMNQYLGI    490
+
+
+#---------------------------------------
+#---------------------------------------

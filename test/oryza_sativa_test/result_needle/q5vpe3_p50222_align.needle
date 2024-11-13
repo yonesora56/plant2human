@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:38
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p50222.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_p50222_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_p50222_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P50222
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 416
+# Identity:      62/416 (14.9%)
+# Similarity:    98/416 (23.6%)
+# Gaps:         220/416 (52.9%)
+# Score: 125.5
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P50222             1 MEHPLFGCLRSPHATAQGLHPFSQSSLALHGRSDHMSYPELSTSSSSCII     50
+
+Q5VPE3             1 ---------------------------------------------MMDLG      5
+                                                                  .|...
+P50222            51 AGYPNEEGMFASQHHRGHHHHHHHHHHHHHQQQQHQALQTNWHLPQMSSP    100
+
+Q5VPE3             6 LSLGLGLASQGSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAH     55
+                     .|     |::.||.....:...|..|||.|...:.:|.:|    ......
+P50222           101 PS-----AARHSLCLQPDSGGPPELGSSPPVLCSNSSSLG----SSTPTG    141
+
+Q5VPE3            56 AAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGKRERELERSGSGVDDD    105
+                     ||.|.|        ..||.:.||  |.|...:.|||:.:...|..| :..
+P50222           142 AACAPG--------DYGRQALSP--AEAEKRSGGKRKSDSSDSQEG-NYK    180
+
+Q5VPE3           106 DGADGAGGRKKLRLSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQ    155
+                     ...:....:::...:|:|...||..|..|:.|...::..:|..|.|..||
+P50222           181 SEVNSKPRKERTAFTKEQIRELEAEFAHHNYLTRLRRYEIAVNLDLTERQ    230
+
+Q5VPE3           156 VEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKRL----------EK    195
+                     |:|||||||               .:|        ||:          ||
+P50222           231 VKVWFQNRR---------------MKW--------KRVKGGQQGAAAREK    257
+
+Q5VPE3           196 ELADLRALKAAPSPAS---ASAMQPSSSAAATLTMCPSCRRVATAGAPHQ    242
+                     ||.:::.....||..|   |:.:|.:..:.|                 ::
+P50222           258 ELVNVKKGTLLPSELSGIGAATLQQTGDSIA-----------------NE    290
+
+Q5VPE3           243 PNHQQCHPKSNTTISSSSTAAAAVAVAGGNVLPSHCQFFPAAAAAADRTS    292
+                     .:|...|...:..:                                    
+P50222           291 DSHDSDHSSEHAHL------------------------------------    304
+
+Q5VPE3           293 QSTWNAAAPLVTRELF    308
+                                     
+P50222           304 ----------------    304
+
+
+#---------------------------------------
+#---------------------------------------

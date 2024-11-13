@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:06
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q0jdm8.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q92945.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q0jdm8_q92945_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q0jdm8_q92945_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q0JDM8
+# 2: Q92945
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 313
+# Identity:      58/313 (18.5%)
+# Similarity:    93/313 (29.7%)
+# Gaps:          89/313 (28.4%)
+# Score: 64.5
+# 
+#
+#=======================================
+
+Q0JDM8           179 GGSGGAIEDEARIADISTRLGNLLRGQSGVRAAAAAAPGGLTHKERRLHQ    228
+                     ||:|||             .|....|..|........|||          
+Q92945            21 GGAGGA-------------GGGPPPGPPGAGDRGGGGPGG----------     47
+
+Q0JDM8           229 MMFDDRDYDGGG--GAASSSPRGRSPTPATEVSVTPCAERGYTAVVVRCR    276
+                           ...|||  |..|..|.|..|         ...:..:...|.|.|
+Q92945            48 ------GGPGGGSAGGPSQPPGGGGP---------GIRKDAFADAVQRAR     82
+
+Q0JDM8           277 D-RPKLLFDTVCTIT----DMGYVIHHGAVSSEPRGGAYQEYYIRHVDGD    321
+                     . ..|:..|...|:.    |.|:    |....:...|...|.......||
+Q92945            83 QIAAKIGGDAATTVNNSTPDFGF----GGQKRQLEDGDQPESKKLASQGD    128
+
+Q0JDM8           322 PVRSEAERQRVVQCLEAAIERRTADGLALEVRTGDRAGLL-----SDVTR    366
+                     .:.|:..............|.|..||:         .||:     ..:.:
+Q92945           129 SISSQLGPIHPPPRTSMTEEYRVPDGM---------VGLIIGRGGEQINK    169
+
+Q0JDM8           367 IFRENGLTIRRAEISSERGEAVDTFYLSDPQGHPVEA-------KTIDAI    409
+                     |.:::|.   :.:||.:.|            |.|..:       :::...
+Q92945           170 IQQDSGC---KVQISPDSG------------GLPERSVSLTGAPESVQKA    204
+
+Q0JDM8           410 RAQIGEATLRVKHNPFAD-GDGAGGGGGGATDDV---AGSTAFLFGNLFK    455
+                     :..:.:...|.:..|... .|.|.||..|...::   ||....:.|...:
+Q92945           205 KMMLDDIVSRGRGGPPGQFHDNANGGQNGTVQEIMIPAGKAGLVIGKGGE    254
+
+Q0JDM8           456 FYRPFQNFSLIKL    468
+                     ..:..|..:.:|:
+Q92945           255 TIKQLQERAGVKM    267
+
+
+#---------------------------------------
+#---------------------------------------

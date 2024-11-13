@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:29
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q86wa6.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/a0a0p0vam0_q86wa6_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/a0a0p0vam0_q86wa6_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q86WA6
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 375
+# Identity:      75/375 (20.0%)
+# Similarity:   127/375 (33.9%)
+# Gaps:         112/375 (29.9%)
+# Score: 76.0
+# 
+#
+#=======================================
+
+A0A0P0VAM0         1 MVALSKLVLITAVALLG--------WAYKVARPPPPPILGGPG---GPPV     39
+                                .||:||        ......:|.......||.   |..|
+Q86WA6             1 -----------MVAVLGGRGVLRLRLLLSALKPGIHVPRAGPAAAFGTSV     39
+
+A0A0P0VAM0        40 SSPRVQLKDGRHLAYREAGVGREIAKYKIIFSHGFASTKESDF-PVSQEL     88
+                     :|.:|.: :|..|.|::.|.|    .:.::...|...:.|:|| |..:.|
+Q86WA6            40 TSAKVAV-NGVQLHYQQTGEG----DHAVLLLPGMLGSGETDFGPQLKNL     84
+
+A0A0P0VAM0        89 AEELGIYLLYFDRAGYGDS---DAN-PKRGLKSDATDVEELADKLQLGEK    134
+                     .::| ..::.:|..|||.|   |.: |....:.||.|..:|...|:. :|
+Q86WA6            85 NKKL-FTVVAWDPRGYGHSRPPDRDFPADFFERDAKDAVDLMKALKF-KK    132
+
+A0A0P0VAM0       135 FYVVGTSMGGYVAWSCLNYIPYRLAGVALVVPAVNYWWPMPASVSASAYR    184
+                     ..::|.|.||..|.......|..:.  .:|:...|.:.....|:.....|
+Q86WA6           133 VSLLGWSDGGITALIAAAKYPSYIH--KMVIWGANAYVTDEDSMIYEGIR    180
+
+A0A0P0VAM0       185 KLDVGDRRTFWIAHHMP------WLFYAWFNQKWFRISPIVEGKPEAFTE    228
+                     .:.....||     ..|      :.::|...:||      |:|       
+Q86WA6           181 DVSKWSERT-----RKPLEALYGYDYFARTCEKW------VDG-------    212
+
+A0A0P0VAM0       229 KDWEILAEIQRTGQLDRGRATKQGAYHSLCRDATILFGAWEFDPTAIENP    278
+                             |::...|..|         ::||                 :.
+Q86WA6           213 --------IRQFKHLPDG---------NICR-----------------HL    228
+
+A0A0P0VAM0       279 FPNGDGVVSIWQGREDKIVRVEAQRYVAEKLPWVRYHEHPEGGHLFMCAD    328
+                     .|.......|..|.:|.:|    .|:.|:.:     |:|.:|..|.:..:
+Q86WA6           229 LPRVQCPALIVHGEKDPLV----PRFHADFI-----HKHVKGSRLHLMPE    269
+
+A0A0P0VAM0       329 GLGDKIVRELLLGEEPRDL------    347
+                     |   |....|...:|...|      
+Q86WA6           270 G---KHNLHLRFADEFNKLAEDFLQ    291
+
+
+#---------------------------------------
+#---------------------------------------

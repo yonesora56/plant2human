@@ -17,79 +17,79 @@ requirements:
 # ----------WORKFLOW INPUTS----------
 inputs:
   # makeblastdb inputs
-  - id: PARAM_INDEX_DIR_NAME_QUERY_SPECIES
+  - id: INDEX_DIR_NAME_QUERY_SPECIES
     type: string
     label: "index directory name"
     doc: "blast index directory name for blastdbcmd"
     format: edam:data_1049
     default: "index_query_species"
 
-  - id: PARAM_INDEX_DIR_NAME_HIT_SPECIES
+  - id: INDEX_DIR_NAME_HIT_SPECIES
     type: string
     label: "index directory name"
     doc: "blast index directory name for blastdbcmd"
     format: edam:data_1049
     default: "index_hit_species"
   
-  - id: PARAM_INPUT_FASTA_FILE_QUERY_SPECIES
+  - id: INPUT_FASTA_FILE_QUERY_SPECIES
     type: File
     label: "input fasta file"
-    doc: "input fasta file for makeblastdb. Retrieve files in advance."
+    doc: "input fasta file for makeblastdb. Retrieve files in advance from uniprot."
     format: edam:format_1929
     default:
       class: File
       format: edam:format_1929
-      location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta
+      location: ../test/oryza_sativa_test/uniprotkb_rice_all_240820.fasta
 
-  - id: PARAM_INPUT_FASTA_FILE_HIT_SPECIES
+  - id: INPUT_FASTA_FILE_HIT_SPECIES
     type: File
     label: "input fasta file"
-    doc: "input fasta file for makeblastdb. Retrieve files in advance."
+    doc: "input fasta file for makeblastdb. Retrieve files in advance from uniprot."
     format: edam:format_1929
     default:
       class: File
       format: edam:format_1929
-      location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_human_all_241107.fasta
+      location: ../test/oryza_sativa_test/uniprotkb_human_all_241107.fasta
 
   # blastdbcmd inputs
-  - id: PARAM_ENTRY_BATCH_QUERY_SPECIES
+  - id: ENTRY_BATCH_QUERY_SPECIES
     type: File
     label: "entry batch file"
     doc: "entry batch file for blastdbcmd"
     default:
       class: File
-      location: ../test/workflow_test/foldseek_result_query_species.txt
+      location: ../test/oryza_sativa_test/foldseek_result_query_species.txt
 
-  - id: PARAM_ENTRY_BATCH_HIT_SPECIES
+  - id: ENTRY_BATCH_HIT_SPECIES
     type: File
     label: "entry batch file"
     doc: "entry batch file for blastdbcmd"
     default:
       class: File
-      location: ../test/workflow_test/foldseek_result_hit_species.txt
+      location: ../test/oryza_sativa_test/foldseek_result_hit_species.txt
 
-  - id: PARAM_RETRIEVE_RESULT_FILE_NAME_QUERY_SPECIES
+  - id: BLASTDBCMD_RESULT_FILE_NAME_QUERY_SPECIES
     type: string
     label: "blastdbcmd result file name"
     doc: "blastdbcmd result file name."
     format: edam:data_1050
     default: "blastdbcmd_result_query_species.fasta"
 
-  - id: PARAM_LOGFILE_NAME_QUERY_SPECIES
+  - id: BLASTDBCMD_LOGFILE_NAME_QUERY_SPECIES
     type: string
     label: "logfile name"
     doc: "logfile name."
     format: edam:data_1050
     default: "blastdbcmd_result_query_species.log"
 
-  - id: PARAM_RETRIEVE_RESULT_FILE_NAME_HIT_SPECIES
+  - id: BLASTDBCMD_RESULT_FILE_NAME_HIT_SPECIES
     type: string
     label: "blastdbcmd result file name"
     doc: "blastdbcmd result file name."
     format: edam:data_1050
     default: "blastdbcmd_result_hit_species.fasta"
 
-  - id: PARAM_LOGFILE_NAME_HIT_SPECIES
+  - id: BLASTDBCMD_LOGFILE_NAME_HIT_SPECIES
     type: string
     label: "logfile name"
     doc: "logfile name."
@@ -97,22 +97,39 @@ inputs:
     default: "blastdbcmd_result_hit_species.log"
 
   # seqretsplit inputs
-  - id: PARAM_OUTPUT_SEQRETSPLIT_DIR_NAME_QUERY_SPECIES
+  - id: SEQRETSPLIT_OUTPUT_DIR_NAME_QUERY_SPECIES
     type: string
     label: "output directory name"
     doc: "output directory name for seqretsplit"
     format: edam:data_1049
     default: "split_fasta_query_species"
 
-  - id: PARAM_OUTPUT_SEQRETSPLIT_DIR_NAME_HIT_SPECIES
+  - id: SEQRETSPLIT_OUTPUT_DIR_NAME_HIT_SPECIES
     type: string
     label: "output directory name"
     doc: "output directory name for seqretsplit"
     format: edam:data_1049
     default: "split_fasta_hit_species"
-
+  
+  # needle and water inputs
   # foldseek extract tsv
-  - id: PARAM_FOLDSEEK_EXTRACT_TSV
+  - id: NEEDLE_SCRIPT
+    type: File
+    label: "needle shell script"
+    doc: "needle shell script"
+    default:
+      class: File
+      location: ../scripts/run_needle.sh
+
+  - id: WATER_SCRIPT
+    type: File
+    label: "water shell script"
+    doc: "water shell script"
+    default:
+      class: File
+      location: ../scripts/run_water.sh
+
+  - id: FOLDSEEK_EXTRACT_TSV
     type: File
     label: "foldseek extract tsv"
     doc: "foldseek extract tsv"
@@ -120,33 +137,32 @@ inputs:
     default:
       class: File
       format: edam:format_3475
-      location: ../test/workflow_test/foldseek_rice_up_9606.tsv
-  
-  # needle and water inputs
-  - id: PARAM_NEEDLE_RESULT_DIR_NAME
+      location: ../test/oryza_sativa_test/foldseek_os_random_9606.tsv
+
+  - id: NEEDLE_RESULT_DIR_NAME
     type: string
     label: "needle result directory name"
     doc: "needle result directory name"
     format: edam:data_1049
     default: "result_needle"
 
-  - id: PARAM_WATER_RESULT_DIR_NAME
+  - id: WATER_RESULT_DIR_NAME
     type: string
     label: "water result directory name"
     doc: "water result directory name"
     format: edam:data_1049
     default: "result_water"
 
-  - id: PARAM_ALIGNMENT_QUERY_COL_NUM
+  - id: ALIGNMENT_QUERY_COLUMN_NUMBER
     type: int
     label: "alignment query column number"
-    doc: "alignment column number (query species)"
+    doc: "alignment column number (query species) for needle and water. Extract columns describing UniProt ID pairs (query IDs) from the TSV file read with the FOLDSEEK_EXTRACT_TSV parameter"
     default: 1
 
-  - id: PARAM_ALIGNMENT_TARGET_COL_NUM
+  - id: ALIGNMENT_TARGET_COLUMN_NUMBER
     type: int
     label: "alignment target column number"
-    doc: "alignment column number (target species)"
+    doc: "alignment column number (target species) for needle and water. Extract columns describing UniProt ID pairs (hit IDs) from the TSV file read with the FOLDSEEK_EXTRACT_TSV parameter"
     default: 2
 
 
@@ -155,70 +171,86 @@ inputs:
 outputs:
   # makeblastdb outputs
   - id: output_index_dir_query_species
+    label: "blast index directory (query species)"
     type: Directory
     outputSource: makeblastdb_query_species/index_dir
 
   - id: output_index_file_query_species
+    label: "blast index file (query species)"
     type: File
     outputSource: makeblastdb_query_species/index_file
 
   - id: output_index_dir_hit_species
+    label: "blast index directory (hit species)"
     type: Directory
     outputSource: makeblastdb_hit_species/index_dir
 
   - id: output_index_file_hit_species
+    label: "blast index file (hit species)"
     type: File
     outputSource: makeblastdb_hit_species/index_file
 
   # blastdbcmd outputs
   - id: output_blastdbcmd_result_query_species
+    label: "blastdbcmd result (query species)"
     type: File
     outputSource: blastdbcmd_query_species/blastdbcmd_result
 
   - id: output_logfile_query_species
+    label: "logfile (query species)"
     type: File
     outputSource: blastdbcmd_query_species/logfile
 
   - id: output_blastdbcmd_result_hit_species
+    label: "blastdbcmd result (hit species)"
     type: File
     outputSource: blastdbcmd_hit_species/blastdbcmd_result
 
   - id: output_logfile_hit_species
+    label: "logfile (hit species)"
     type: File
     outputSource: blastdbcmd_hit_species/logfile
 
   # seqretsplit outputs
   - id: output_dir_query_species
+    label: "output directory (query species)"
     type: Directory
     outputSource: seqretsplit_query_species/output_dir
 
   - id: output_split_fasta_files_query_species
+    label: "split fasta files (query species)"
     type: File[]
     outputSource: seqretsplit_query_species/split_fasta_files
 
   - id: output_dir_hit_species
+    label: "output directory (hit species)"
     type: Directory
     outputSource: seqretsplit_hit_species/output_dir
 
   - id: output_split_fasta_files_hit_species
+    label: "split fasta files (hit species)"
     type: File[]
     outputSource: seqretsplit_hit_species/split_fasta_files
 
   # needle outputs
   - id: output_needle_result_dir
+    label: "needle result directory"
     type: Directory
     outputSource: global_alignment_using_needle/needle_result_dir
 
   - id: output_needle_result_file
+    label: "needle result file"
     type: File[]
     outputSource: global_alignment_using_needle/needle_result_file
 
   # water outputs
   - id: output_water_result_dir
+    label: "water result directory"
     type: Directory
     outputSource: local_alignment_using_water/water_result_dir
 
   - id: output_water_result_file
+    label: "water result file"
     type: File[]
     outputSource: local_alignment_using_water/water_result_file
 
@@ -227,8 +259,8 @@ steps:
   makeblastdb_query_species:
     run: ../Tools/14_makeblastdb.cwl
     in:
-      index_dir_name: PARAM_INDEX_DIR_NAME_QUERY_SPECIES
-      input_fasta_file: PARAM_INPUT_FASTA_FILE_QUERY_SPECIES
+      index_dir_name: INDEX_DIR_NAME_QUERY_SPECIES
+      input_fasta_file: INPUT_FASTA_FILE_QUERY_SPECIES
     out:
       - index_dir
       - index_file
@@ -236,8 +268,8 @@ steps:
   makeblastdb_hit_species:
     run: ../Tools/14_makeblastdb.cwl
     in:
-      index_dir_name: PARAM_INDEX_DIR_NAME_HIT_SPECIES
-      input_fasta_file: PARAM_INPUT_FASTA_FILE_HIT_SPECIES
+      index_dir_name: INDEX_DIR_NAME_HIT_SPECIES
+      input_fasta_file: INPUT_FASTA_FILE_HIT_SPECIES
     out:
       - index_dir
       - index_file
@@ -246,9 +278,9 @@ steps:
     run: ../Tools/15_blastdbcmd.cwl
     in:
       index_files: makeblastdb_query_species/index_file
-      entry_batch: PARAM_ENTRY_BATCH_QUERY_SPECIES
-      retrieve_result_file_name: PARAM_RETRIEVE_RESULT_FILE_NAME_QUERY_SPECIES
-      logfile_name: PARAM_LOGFILE_NAME_QUERY_SPECIES
+      entry_batch: ENTRY_BATCH_QUERY_SPECIES
+      retrieve_result_file_name: BLASTDBCMD_RESULT_FILE_NAME_QUERY_SPECIES
+      logfile_name: BLASTDBCMD_LOGFILE_NAME_QUERY_SPECIES
     out:
       - blastdbcmd_result
       - logfile
@@ -257,9 +289,9 @@ steps:
     run: ../Tools/15_blastdbcmd.cwl
     in:
       index_files: makeblastdb_hit_species/index_file
-      entry_batch: PARAM_ENTRY_BATCH_HIT_SPECIES
-      retrieve_result_file_name: PARAM_RETRIEVE_RESULT_FILE_NAME_HIT_SPECIES
-      logfile_name: PARAM_LOGFILE_NAME_HIT_SPECIES
+      entry_batch: ENTRY_BATCH_HIT_SPECIES
+      retrieve_result_file_name: BLASTDBCMD_RESULT_FILE_NAME_HIT_SPECIES
+      logfile_name: BLASTDBCMD_LOGFILE_NAME_HIT_SPECIES
     out:
       - blastdbcmd_result
       - logfile
@@ -268,7 +300,7 @@ steps:
     run: ../Tools/16_seqretsplit.cwl
     in:
       sequence: blastdbcmd_query_species/blastdbcmd_result
-      output_dir_name: PARAM_OUTPUT_SEQRETSPLIT_DIR_NAME_QUERY_SPECIES
+      output_dir_name: SEQRETSPLIT_OUTPUT_DIR_NAME_QUERY_SPECIES
     out:
       - output_dir
       - split_fasta_files
@@ -277,7 +309,7 @@ steps:
     run: ../Tools/16_seqretsplit.cwl
     in:
       sequence: blastdbcmd_hit_species/blastdbcmd_result
-      output_dir_name: PARAM_OUTPUT_SEQRETSPLIT_DIR_NAME_HIT_SPECIES
+      output_dir_name: SEQRETSPLIT_OUTPUT_DIR_NAME_HIT_SPECIES
     out:
       - output_dir
       - split_fasta_files
@@ -285,12 +317,13 @@ steps:
   global_alignment_using_needle:
     run: ../Tools/17_needle.cwl
     in:
-      foldseek_extract_tsv: PARAM_FOLDSEEK_EXTRACT_TSV
+      run_needle_script: NEEDLE_SCRIPT
+      foldseek_extract_tsv: FOLDSEEK_EXTRACT_TSV
       split_fasta_query_species_dir: seqretsplit_query_species/output_dir
       split_fasta_hit_species_dir: seqretsplit_hit_species/output_dir
-      result_needle_dir_name: PARAM_NEEDLE_RESULT_DIR_NAME
-      query_col_num: PARAM_ALIGNMENT_QUERY_COL_NUM
-      target_col_num: PARAM_ALIGNMENT_TARGET_COL_NUM
+      result_needle_dir_name: NEEDLE_RESULT_DIR_NAME
+      query_col_num: ALIGNMENT_QUERY_COLUMN_NUMBER
+      target_col_num: ALIGNMENT_TARGET_COLUMN_NUMBER
     out:
       - needle_result_dir
       - needle_result_file
@@ -298,12 +331,13 @@ steps:
   local_alignment_using_water:
     run: ../Tools/17_water.cwl
     in:
-      foldseek_extract_tsv: PARAM_FOLDSEEK_EXTRACT_TSV
+      run_water_script: WATER_SCRIPT
+      foldseek_extract_tsv: FOLDSEEK_EXTRACT_TSV
       split_fasta_query_species_dir: seqretsplit_query_species/output_dir
       split_fasta_hit_species_dir: seqretsplit_hit_species/output_dir
-      result_water_dir_name: PARAM_WATER_RESULT_DIR_NAME
-      query_col_num: PARAM_ALIGNMENT_QUERY_COL_NUM
-      target_col_num: PARAM_ALIGNMENT_TARGET_COL_NUM
+      result_water_dir_name: WATER_RESULT_DIR_NAME
+      query_col_num: ALIGNMENT_QUERY_COLUMN_NUMBER
+      target_col_num: ALIGNMENT_TARGET_COLUMN_NUMBER
     out:
       - water_result_dir
       - water_result_file

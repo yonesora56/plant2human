@@ -1,0 +1,165 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:42
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p39880.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_p39880_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_p39880_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P39880
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1554
+# Identity:      75/1554 ( 4.8%)
+# Similarity:   118/1554 ( 7.6%)
+# Gaps:        1295/1554 (83.3%)
+# Score: 76.5
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880             1 MLCVAGARLKRELDATATVLANRQDESEQSRKRLIEQSREFKKNTPEDLR     50
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880            51 KQVAPLLKSFQGEIDALSKRSKEAEAAFLNVYKRLIDVPDPVPALDLGQQ    100
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           101 LQLKVQRLHDIETENQKLRETLEEYNKEFAEVKNQEVTIKALKEKIREYE    150
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           151 QTLKNQAETIALEKEQKLQNDFAEKERKLQETQMSTTSKLEEAEHKVQSL    200
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           201 QTALEKTRTELFDLKTKYDEETTAKADEIEMIMTDLERANQRAEVAQREA    250
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           251 ETLREQLSSANHSLQLASQIQKAPDVEQAIEVLTRSSLEVELAAKEREIA    300
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           301 QLVEDVQRLQASLTKLRENSASQISQLEQQLSAKNSTLKQLEEKLKGQAD    350
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           351 YEEVKKELNILKSMEFAPSEGAGTQDAAKPLEVLLLEKNRSLQSENAALR    400
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           401 ISNSDLSGSARRKGKDQPESRRPGSLPAPPPSQLPRNPGEQASNTNGTHQ    450
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           451 FSPAGLSQDFFSSSLASPSLPLASTGKFALNSLLQRQLMQSFYSKAMQEA    500
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           501 GSTSMIFSTGPYSTNSISSQSPLQQSPDVNGMAPSPSQSESAGSVSEGEE    550
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           551 MDTAEIARQVKEQLIKHNIGQRIFGHYVLGLSQGSVSEILARPKPWNKLT    600
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           601 VRGKEPFHKMKQFLSDEQNILALRSIQGRQRENPGQSLNRLFQEVPKRRN    650
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           651 GSEGNITTRIRASETGSDEAIKSILEQAKRELQVQKTAEPAQPSSASGSG    700
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           701 NSDDAIRSILQQARREMEAQQAALDPALKQAPLSQSDITILTPKLLSTSP    750
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           751 MPTVSSYPPLAISLKKPSAAPEAGASALPNPPALKKEAQDAPGLDPQGAA    800
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           801 DCAQGVLRQVKNEVGRSGAWKDHWWSAVQPERRNAASSEEAKAEETGGGK    850
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           851 EKGSGGSGGGSQPRAERSQLQGPSSSEYWKEWPSAESPYSQSSELSLTGA    900
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           901 SRSETPQNSPLPSSPIVPMSKPTKPSVPPLTPEQYEVYMYQEVDTIELTR    950
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880           951 QVKEKLAKNGICQRIFGEKVLGLSQGSVSDMLSRPKPWSKLTQKGREPFI   1000
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880          1001 RMQLWLNGELGQGVLPVQGQQQGPVLHSVTSLQDPLQQGCVSSESTPKTS   1050
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P39880          1051 ASCSPAPESPMSSSESVKSLTELVQQPCPPIEASKDSKPPEPSDPPASDS   1100
+
+Q5VPE3             1 --------------------------------------MMDLGLS-----      7
+                                                           :.|..|.     
+P39880          1101 QPTTPLPLSGHSALSIQELVAMSPELDTYGITKRVKEVLTDNNLGQRLFG   1150
+
+Q5VPE3             8 ---LGLGLASQGSLTSSTTTTSSPGAGSSSP------WAAALNSI--VGD     46
+                        |||...|...|.:..............|      |....|::  :.|
+P39880          1151 ETILGLTQGSVSDLLARPKPWHKLSLKGREPFVRMQLWLNDPNNVEKLMD   1200
+
+Q5VPE3            47 VRRDQAAAHAAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGKRERELE     96
+                     ::|.:..|:              .:.|.|:..||            :..|
+P39880          1201 MKRMEKKAY--------------MKRRHSSVSDS------------QPCE   1224
+
+Q5VPE3            97 RSGSGVDDDDGADGAGGR--KKLR--LSKDQAAVLEECFKTHSTLNPKQK    142
+                     ....|.:...||......  ||.|  |:.::...|:..::.....:||..
+P39880          1225 PPSVGTEYSQGASPQPQHQLKKPRVVLAPEEKEALKRAYQQKPYPSPKTI   1274
+
+Q5VPE3           143 VALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKR    192
+                     ..||.:|.|:...|..||.|.|:|.:   .|:..|.::...:..|..:  
+P39880          1275 EDLATQLNLKTSTVINWFHNYRSRIR---RELFIEEIQAGSQGQAGAS--   1319
+
+Q5VPE3           193 LEKELADLRALKAAPS--------------PASASAMQPSSSAAATLTMC    228
+                        :....|:.:||||              |.||...:|.|...|.....
+P39880          1320 ---DSPSARSGRAAPSSEGDSCDGVEATEGPGSADTEEPKSQGEAEREEV   1366
+
+Q5VPE3           229 PSCRRVATAGAPHQPNHQQCHPKSNT------------------------    254
+                     |            :|..|...|.|.|                        
+P39880          1367 P------------RPAEQTEPPPSGTPGPDDARDDDHEGGPVEGPGPLPS   1404
+
+Q5VPE3           255 TISSSSTAAAAV---AVAGGNVLPSHCQFFPAAAAAADRTSQSTWNAA--    299
+                     ..|:::|||.|.   |.......|..   .|||.::|...|.|:.::|  
+P39880          1405 PASATATAAPAAPEDAATSAAAAPGE---GPAAPSSAPPPSNSSSSSAPR   1451
+
+Q5VPE3           300 APLVTRELF-----------------------------------------    308
+                     .|...:.||                                         
+P39880          1452 RPSSLQSLFGLPEAAGARDSRDNPLRKKKAANLNSIIHRLEKAASREEPI   1501
+
+Q5VPE3           308 ----    308
+                         
+P39880          1502 EWEF   1505
+
+
+#---------------------------------------
+#---------------------------------------

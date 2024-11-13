@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:18
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/o43364.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_o43364_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_o43364_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: O43364
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 172
+# Identity:      49/172 (28.5%)
+# Similarity:    74/172 (43.0%)
+# Gaps:          22/172 (12.8%)
+# Score: 121.5
+# 
+#
+#=======================================
+
+Q5VPE3            27 SPGAGSSSPW-AAALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQGRAS     75
+                     ||.....||. |.||........:::.||...|.:            .|:
+O43364            76 SPAGSRGSPVPAGALQPPEYPWMKEKKAAKKTALL------------PAA    113
+
+Q5VPE3            76 TSPDSAAALSSASGKRERELERSGSGVDDDDGADGAGGRKKLRLSKDQAA    125
+                     .:..:|||...|....:..||.:       ||:.|...|.:...:..|..
+O43364           114 AAAATAAATGPACLSHKESLEIA-------DGSGGGSRRLRTAYTNTQLL    156
+
+Q5VPE3           126 VLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEV-    174
+                     .||:.|..:..|...::|.:|..|.|..|||:|||||||.:.| :||:. 
+O43364           157 ELEKEFHFNKYLCRPRRVEIAALLDLTERQVKVWFQNRRMKHK-RQTQCK    205
+
+Q5VPE3           175 DCEYLKRWCERLADENKRLEKE    196
+                     :.:..:..|:.|.|..|..|.|
+O43364           206 ENQNSEGKCKSLEDSEKVEEDE    227
+
+
+#---------------------------------------
+#---------------------------------------

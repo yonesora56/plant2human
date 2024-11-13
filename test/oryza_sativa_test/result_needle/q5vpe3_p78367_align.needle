@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:37
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p78367.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_p78367_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_p78367_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P78367
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 433
+# Identity:      77/433 (17.8%)
+# Similarity:   106/433 (24.5%)
+# Gaps:         225/433 (52.0%)
+# Score: 150.5
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P78367             1 MAVRGANTLTSFSIQAILNKKEERGGLAAPEGRPAPGGTAASVAAAPAVC     50
+
+Q5VPE3             1 ------MMDLGLSLGLGLASQGSLTSSTTTTSSPGAGSSSP--W--AAAL     40
+                           ..|.|   .||.|....|.|...|.::.|..:.||  |  .:||
+P78367            51 CWRLFGERDAG---ALGGAEDSLLASPAGTRTAAGRTAESPEGWDSDSAL     97
+
+Q5VPE3            41 NSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQGRASTSPDSAAALS-----     85
+                     :......||   .|.|..|.|.|:.|..:..|:    |....|.|     
+P78367            98 SEENESRRR---CADARGASGAGLAGGSLSLGQ----PVCELAASKDLEE    140
+
+Q5VPE3            86 SASGKRERELERSGSG-----VDDD-------------DGADGAGG----    113
+                     .|:|:.:.|:..|.||     .:||             .||.|.||    
+P78367           141 EAAGRSDSEMSASVSGDRSPRTEDDGVGPRGAHVSALCSGAGGGGGSGPA    190
+
+Q5VPE3           114 -----------------RKKLRLSKDQAAVLEECFKTHSTLNPKQKVALA    146
+                                      |.:...|..|...||..|.....|:..::..||
+P78367           191 GVAEEEEEPAAPKPRKKRSRAAFSHAQVFELERRFNHQRYLSGPERADLA    240
+
+Q5VPE3           147 NRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCERLA-------DE    189
+                     ..|.|...||::||||||.:||.:|...|........:::|       |:
+P78367           241 ASLKLTETQVKIWFQNRRYKTKRRQMAADLLASAPAAKKVAVKVLVRDDQ    290
+
+Q5VPE3           190 NKRLEKELADLRALKAAPSPASASAMQP--------------SSSAAATL    225
+                     .:.|..|:  ||       |.|...:||              |:.|||..
+P78367           291 RQYLPGEV--LR-------PPSLLPLQPSYYYPYYCLPGWALSTCAAAAG    331
+
+Q5VPE3           226 TMCPSCRRVATAGAPHQPNHQQCHPKSNTTISSSSTAAAAVAVAGGNVLP    275
+                     |.                                                
+P78367           332 TQ------------------------------------------------    333
+
+Q5VPE3           276 SHCQFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                                                      
+P78367           333 ---------------------------------    333
+
+
+#---------------------------------------
+#---------------------------------------

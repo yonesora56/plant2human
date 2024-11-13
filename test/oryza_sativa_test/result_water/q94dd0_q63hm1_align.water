@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:04
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q63hm1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_q63hm1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_q63hm1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q63HM1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 263
+# Identity:      50/263 (19.0%)
+# Similarity:    86/263 (32.7%)
+# Gaps:          87/263 (33.1%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+Q94DD0            43 RVQLKDGRHLAYREAGVGREIAKY----------KIIFSHG----FASTK     78
+                     |...|...|:.|.: |.|.::..|          ..:|.||    ..|..
+Q63HM1            57 RATRKSLLHVPYGD-GEGEKVDIYFPDESSEALPFFLFFHGGYWQSGSKD    105
+
+Q94DD0            79 ESDFPVSQELAEELGIYLLYFDRAGYGDSDANPKRGLKSDATDVEELADK    128
+                     ||.|.|....|:.:.:.::.:..|..|..|....:..:|    |..:..:
+Q63HM1           106 ESAFMVHPLTAQGVAVVIVAYGIAPKGTLDHMVDQVTRS----VAFVQKR    151
+
+Q94DD0           129 LQLGEKFYVVGTSMGGYVA-------WSCLNYIP-----YRLAGVALVVP    166
+                     ....:..|:.|.|.|.::|       |:.....|     :.::||..:.|
+Q63HM1           152 YPSNKGIYLCGHSAGAHLAAMMLLADWTKHGVTPNLRGFFLVSGVFDLEP    201
+
+Q94DD0           167 AVNYWWPMPASVSASAYRKLDVGDRRT--FWIAHHMPWLFYAWFNQKWFR    214
+                     .|.      .|.:.:....|:...|.:  ..:|...|             
+Q63HM1           202 IVY------TSQNVALQLTLEDAQRNSPQLKVAQAQP-------------    232
+
+Q94DD0           215 ISP-----IVEGK---PEAFTEKDWEILAEIQRTGQLDRGRATKQGAYHS    256
+                     :.|     :|.|:   || |..:.||.                    |.:
+Q63HM1           233 VDPTCRVLVVVGQFDSPE-FHRQSWEF--------------------YQT    261
+
+Q94DD0           257 LCRDATILFGAWE    269
+                     ||:      |.|:
+Q63HM1           262 LCQ------GEWK    268
+
+
+#---------------------------------------
+#---------------------------------------

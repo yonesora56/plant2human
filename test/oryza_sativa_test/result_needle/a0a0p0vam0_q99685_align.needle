@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:29
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q99685.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/a0a0p0vam0_q99685_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/a0a0p0vam0_q99685_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q99685
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 401
+# Identity:      76/401 (19.0%)
+# Similarity:   119/401 (29.7%)
+# Gaps:         152/401 (37.9%)
+# Score: 79.0
+# 
+#
+#=======================================
+
+A0A0P0VAM0         1 MVALSKLVLITAVALLGWAYKVARPPPPPILGGPGGPPVSSPRVQL----     46
+                                                .|....|...|.|.|...|    
+Q99685             1 ---------------------------MPEESSPRRTPQSIPYQDLPHLV     23
+
+A0A0P0VAM0        47 -KDGRHL---AYREAGVGREIAKYKIIFSHGFASTKESDFPVSQELAEEL     92
+                      .||::|   .::..|..:.:    |..||| |......:   :|||..|
+Q99685            24 NADGQYLFCRYWKPTGTPKAL----IFVSHG-AGEHSGRY---EELARML     65
+
+A0A0P0VAM0        93 -GIYLLYF--DRAGYGDSDANPKRGLKSD----ATDVEELADKLQL---G    132
+                      |:.||.|  |..|:|.|:.  :|.:.||    ..||.:..|.:|.   |
+Q99685            66 MGLDLLVFAHDHVGHGQSEG--ERMVVSDFHVFVRDVLQHVDSMQKDYPG    113
+
+A0A0P0VAM0       133 EKFYVVGTSMGGYVAWSCLNYIPYRLAGVALVVPAVNYWWPMPASVSASA    182
+                     ...:::|.||||.:|.......|...||:.|                   
+Q99685           114 LPVFLLGHSMGGAIAILTAAERPGHFAGMVL-------------------    144
+
+A0A0P0VAM0       183 YRKLDVGDRRTFWIAHHMPWLFYAWFNQKWFRISPIVEGKPEAFT-----    227
+                                                     |||:|...||:.|     
+Q99685           145 --------------------------------ISPLVLANPESATTFKVL    162
+
+A0A0P0VAM0       228 -EKDWEILAEIQRTGQLDRG----RATKQGAYHS---LCR-DATILFGAW    268
+                      .|...::......|.:|..    ..|:...|:|   :|| ...:.||..
+Q99685           163 AAKVLNLVLPNLSLGPIDSSVLSRNKTEVDIYNSDPLICRAGLKVCFGIQ    212
+
+A0A0P0VAM0       269 EFDPTA-IENPFPNGDGVVSIWQGREDKIVRVEAQRYVAE---------K    308
+                     ..:..: :|...|.......:.||..|::...:....:.|         |
+Q99685           213 LLNAVSRVERALPKLTVPFLLLQGSADRLCDSKGAYLLMELAKSQDKTLK    262
+
+A0A0P0VAM0       309 LPWVRYH----EHPEGGHLFMCADGLGDKIVRELLLGEEPRDL-------    347
+                     :....||    |.||          :.:.:..|:.:....|..       
+Q99685           263 IYEGAYHVLHKELPE----------VTNSVFHEINMWVSQRTATAGTASP    302
+
+A0A0P0VAM0       347 -    347
+                      
+Q99685           303 P    303
+
+
+#---------------------------------------
+#---------------------------------------

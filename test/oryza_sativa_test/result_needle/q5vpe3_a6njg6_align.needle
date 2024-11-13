@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:42
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/a6njg6.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_a6njg6_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_a6njg6_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: A6NJG6
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 431
+# Identity:      58/431 (13.5%)
+# Similarity:   103/431 (23.9%)
+# Gaps:         239/431 (55.5%)
+# Score: 61.0
+# 
+#
+#=======================================
+
+Q5VPE3             1 ----------------------MMDLGLSLGLGLASQGSLTSSTTTTSSP     28
+                                           |..:                       |
+A6NJG6             1 MRNRMAPENPQPDPFINRNYSNMKVI-----------------------P     27
+
+Q5VPE3            29 GAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQGRASTSP     78
+                     ....:||....|:.:       :.:...:|...:.:.|       ::..|
+A6NJG6            28 PQDPASPSFTLLSKL-------ECSGTVSAYCSLNLPG-------STDPP     63
+
+Q5VPE3            79 DSAAALSSASGKRERELERSGSGVDDDDGADGAGGRKKLRLSKDQAAVLE    128
+                     .||:.:::.:..|.|..||:.                   .:..|...||
+A6NJG6            64 TSASRVAATTAIRRRHKERTS-------------------FTHQQYEELE     94
+
+Q5VPE3           129 ECFKTHSTLNP----KQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEV    174
+                     ..|.  .|:.|    ::|:||  ||.|....|:|||:|||.:.|.:|.: 
+A6NJG6            95 ALFS--QTMFPDRNLQEKLAL--RLDLPESTVKVWFRNRRFKLKKQQQQ-    139
+
+Q5VPE3           175 DCEYLKRWCERLADENKRLEKELADLRALKAAPSPASASAMQPSSSAAAT    224
+                              :.....|:.|..:.....:.:.:|||.:.|.:  .|...::
+A6NJG6           140 ---------QSAKQRNQILPSKKNVPTSPRTSPSPYAFSPV--ISDFYSS    178
+
+Q5VPE3           225 LTMCPSCRRVATAGAPHQPNHQQCHPKS---NTTISSSSTAAAAVAVAGG    271
+                     |              |.||    ..|.:   |:|.:.|||          
+A6NJG6           179 L--------------PSQP----LDPSNWAWNSTFTESST----------    200
+
+Q5VPE3           272 NVLPSHCQFFPAAAAAADRTSQST-WN---AAAPLVTRELF---------    308
+                                     :|...|.| |.   |:.|.:..:.:         
+A6NJG6           201 ----------------SDFQMQDTQWERLVASVPALYSDAYDIFQIIELY    234
+
+Q5VPE3           308 --------------------------------------------------    308
+                                                                       
+A6NJG6           235 NLPDENEISSSSFHCLYQYLSPTKYQVGGQGSSLSIFAGPAVGLSPAQTW    284
+
+Q5VPE3           308 -------------------------------    308
+                                                    
+A6NJG6           285 PNMTSQAFEAYSLTDSLEFQKTSNMVDLGFL    315
+
+
+#---------------------------------------
+#---------------------------------------

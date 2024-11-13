@@ -19,7 +19,7 @@ inputs:
     type: Directory
     default:
       class: Directory
-      location: ../out/rice_up/rice_up_mmcif/
+      location: ../test/oryza_sativa_test/rice_random_gene_mmcif/
 
   - id: FILE_MATCH_PATTERN
     label: "file match pattern"

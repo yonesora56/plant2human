@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:39
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/o15266.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_o15266_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_o15266_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: O15266
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 360
+# Identity:      71/360 (19.7%)
+# Similarity:   115/360 (31.9%)
+# Gaps:         120/360 (33.3%)
+# Score: 108.5
+# 
+#
+#=======================================
+
+Q5VPE3             1 -------------------------------------MMDLGLSLGLGLA     13
+                                                          :::.||:....|.
+O15266             1 MEELTAFVSKSFDQKSKDGNGGGGGGGGKKDSITYREVLESGLARSRELG     50
+
+Q5VPE3            14 SQGSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVG     63
+                          ||.::.......|...|.....:.:..|..:.:....|..|.|: 
+O15266            51 -----TSDSSLQDITEGGGHCPVHLFKDHVDNDKEKLKEFGTARVAEGI-     94
+
+Q5VPE3            64 VGGEEMYQGRASTSPDSAAALSSASGKRERELERSGSGVDDDDGADGAGG    113
+                           |:                 .|.:||..:|    :|:||......
+O15266            95 ------YE-----------------CKEKREDVKS----EDEDGQTKLKQ    117
+
+Q5VPE3           114 RK-KLRLSKDQAAVLEECF-KTHSTLNPKQKVALANRLGLRPRQVEVWFQ    161
+                     |: :...:.:|...||..| :||.. :...:..|:.||||...:|:||||
+O15266           118 RRSRTNFTLEQLNELERLFDETHYP-DAFMREELSQRLGLSEARVQVWFQ    166
+
+Q5VPE3           162 NRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPSPAS    211
+                     ||||:.:.::.::....:      |...|        .|.|.:.||....
+O15266           167 NRRAKCRKQENQMHKGVI------LGTAN--------HLDACRVAPYVNM    202
+
+Q5VPE3           212 ASAMQPSSSAAATLTMCPSCRRVATAGAPHQPNHQQCH--------PKSN    253
+                     .:...|.....|.|.:    ..||.| .||...|...|        |...
+O15266           203 GALRMPFQQVQAQLQL----EGVAHA-HPHLHPHLAAHAPYLMFPPPPFG    247
+
+Q5VPE3           254 TTISSSSTAAAAVAVAGGNVLPSHCQFFPAAAAAADRTSQSTWNAAAPLV    303
+                     ..|:|.:.:|:|.||               .||||...|:::..|...|.
+O15266           248 LPIASLAESASAAAV---------------VAAAAKSNSKNSSIADLRLK    282
+
+Q5VPE3           304 TRELF-----    308
+                     .|:..     
+O15266           283 ARKHAEALGL    292
+
+
+#---------------------------------------
+#---------------------------------------

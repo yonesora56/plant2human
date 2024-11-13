@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:19
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p23759.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_p23759_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_p23759_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P23759
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 348
+# Identity:      82/348 (23.6%)
+# Similarity:   113/348 (32.5%)
+# Gaps:         138/348 (39.7%)
+# Score: 109.0
+# 
+#
+#=======================================
+
+Q5VPE3            23 TTTSSPGA-GSSSPWAAALNSI---VGDVRRDQAAAHAAAAVGVGVGGEE     68
+                     |.:..||| |.|.|...|...:   :.:.:|:.....:..     :....
+P23759            93 TGSIRPGAIGGSKPRQVATPDVEKKIEEYKRENPGMFSWE-----IRDRL    137
+
+Q5VPE3            69 MYQGRASTSPDSAAALSSAS-------GKRERELERSGSGVDDDDG----    107
+                     :..|....|...:..:||.|       ||:|.|.|   :...:|||    
+P23759           138 LKDGHCDRSTVPSGLVSSISRVLRIKFGKKEEEDE---ADKKEDDGEKKA    184
+
+Q5VPE3           108 ---ADGAGGRKKLRLSK-------------------------DQAAVLEE    129
+                        .||..|.|..||.:                         :|...||:
+P23759           185 KHSIDGILGDKGNRLDEGSDVESEPDLPLKRKQRRSRTTFTAEQLEELEK    234
+
+Q5VPE3           130 CF-KTH-STLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCE    177
+                     .| :|| ..:..:::  ||.|..|...:|:|||.||||            
+P23759           235 AFERTHYPDIYTREE--LAQRTKLTEARVQVWFSNRRA------------    270
+
+Q5VPE3           178 YLKRWCERLADENKRLEKELADLRALKAAPSPASASAMQPSSSAAATLTM    227
+                        || .:.|..|     :||....|.....|.:                
+P23759           271 ---RW-RKQAGAN-----QLAAFNHLLPGGFPPT----------------    295
+
+Q5VPE3           228 CPSCRRVATAGAPHQPNHQQCHPKS---NTTISSSSTAAAAVAVAGGNVL    274
+                               |.|..|.:|.  |.|   .||||..          ||:.:
+P23759           296 ----------GMPTLPPYQL--PDSTYPTTTISQD----------GGSTV    323
+
+Q5VPE3           275 -------PS--HCQFFPAAAAAADRT------------SQSTWNAAAP    301
+                            ||  |.....|||||||.:            |.|..|.|||
+P23759           324 HRPQPLPPSTMHQGGLAAAAAAADTSSAYGARHSFSSYSDSFMNPAAP    371
+
+
+#---------------------------------------
+#---------------------------------------

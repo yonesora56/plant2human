@@ -1,0 +1,105 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:31
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p13798.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/a0a0p0vam0_p13798_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/a0a0p0vam0_p13798_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: P13798
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 843
+# Identity:      70/843 ( 8.3%)
+# Similarity:   107/843 (12.7%)
+# Gaps:         607/843 (72.0%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+A0A0P0VAM0         0 --------------------------------------------------      0
+                                                                       
+P13798             1 MERQVLLSEPEEAAALYRGLSRQPALSAACLGPEVTTQYGGQYRTVHTEW     50
+
+A0A0P0VAM0         0 --------------------------------------------------      0
+                                                                       
+P13798            51 TQRDLERMENIRFCRQYLVFHDGDSVVFAGPAGNSVETRGELLSRESPSG    100
+
+A0A0P0VAM0         0 --------------------------------------------------      0
+                                                                       
+P13798           101 TMKAVLRKAGGTGPGEEKQFLEVWEKNRKLKSFNLSALEKHGPVYEDDCF    150
+
+A0A0P0VAM0         0 --------------------------------------------------      0
+                                                                       
+P13798           151 GCLSWSHSETHLLYVAEKKRPKAESFFQTKALDVSASDDEIARLKKPDQA    200
+
+A0A0P0VAM0         0 --------------------------------------------------      0
+                                                                       
+P13798           201 IKGDQFVFYEDWGENMVSKSIPVLCVLDVESGNISVLEGVPENVSPGQAF    250
+
+A0A0P0VAM0         0 --------------------------------------------------      0
+                                                                       
+P13798           251 WAPGDAGVVFVGWWHEPFRLGIRFCTNRRSALYYVDLIGGKCELLSDDSL    300
+
+A0A0P0VAM0         0 --------------------------------------------------      0
+                                                                       
+P13798           301 AVSSPRLSPDQCRIVYLQYPSLIPHHQCSQLCLYDWYTKVTSVVVDVVPR    350
+
+A0A0P0VAM0         0 --------------------------------------------------      0
+                                                                       
+P13798           351 QLGENFSGIYCSLLPLGCWSADSQRVVFDSAQRSRQDLFAVDTQVGTVTS    400
+
+A0A0P0VAM0         1 ------------------------------------------------MV      2
+                                                                     .|
+P13798           401 LTAGGSGGSWKLLTIDQDLMVAQFSTPSLPPTLKVGFLPSAGKEQSVLWV    450
+
+A0A0P0VAM0         3 ALSKLVLITAVALLGWAYKVARPPP------------PPILGGPGGPP--     38
+                     :|.:...|..:   .|..:|.:|||            ..||..||.||  
+P13798           451 SLEEAEPIPDI---HWGIRVLQPPPEQENVQYAGLDFEAILLQPGSPPDK    497
+
+A0A0P0VAM0        39 VSSPRVQLKDGRHLAYREAGVGREIAKYKIIFSHGFASTKESDFPVSQEL     88
+                     ...|.|.:..|.                    .|....|....||.   :
+P13798           498 TQVPMVVMPHGG--------------------PHSSFVTAWMLFPA---M    524
+
+A0A0P0VAM0        89 AEELGIYLL---YFDRAGYGDSD--ANPKRGLKSDATDVEELADKLQLGE    133
+                     ..::|..:|   |....|:|...  :.|......|..||:...:::...|
+P13798           525 LCKMGFAVLLVNYRGSTGFGQDSILSLPGNVGHQDVKDVQFAVEQVLQEE    574
+
+A0A0P0VAM0       134 KF-----YVVGTSMGGYVAWSCLNYIPYRLAGVALVVPAVNYWWPMPASV    178
+                     .|     .::|.|.||:::...:...|..........|.:|.        
+P13798           575 HFDASHVALMGGSHGGFISCHLIGQYPETYRACVARNPVINI--------    616
+
+A0A0P0VAM0       179 SASAYRKLDVGDRRTFWIAHHMPWLFYAWFNQKWFRISPIVE-GKPEAFT    227
+                      ||.....|:.|    |.                     :|| |.|  |:
+P13798           617 -ASMLGSTDIPD----WC---------------------VVEAGFP--FS    638
+
+A0A0P0VAM0       228 E---KDWEILAE-----------------IQRTGQLDRGRATKQGA--YH    255
+                     .   .|..:.||                 :...||.||....|||.  |.
+P13798           639 SDCLPDLSVWAEMLDKSPIRYIPQVKTPLLLMLGQEDRRVPFKQGMEYYR    688
+
+A0A0P0VAM0       256 SL-CRDATILFGAWEFDPTAIENPFPNGDGVVSIWQGREDKIVRVEAQRY    304
+                     :| .|:..:....:.....|:..                   |.||:..:
+P13798           689 ALKTRNVPVRLLLYPKSTHALSE-------------------VEVESDSF    719
+
+A0A0P0VAM0       305 VAEKLPWVRYHEHPEGGHLFMCADGLGDKIVRELLLGEEPRDL    347
+                     :...| |:|.|...                             
+P13798           720 MNAVL-WLRTHLGS-----------------------------    732
+
+
+#---------------------------------------
+#---------------------------------------

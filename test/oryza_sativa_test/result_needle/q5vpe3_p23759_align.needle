@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:41
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p23759.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_p23759_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_p23759_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P23759
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 574
+# Identity:      87/574 (15.2%)
+# Similarity:   123/574 (21.4%)
+# Gaps:         335/574 (58.4%)
+# Score: 98.0
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+P23759             1 MAALPGTVPRMMRPAPGQNYPRTGFPLEVSTPLGQGRVNQLGGVFINGRP     50
+
+Q5VPE3             1 --------------------MMDLGLSLGLGLASQGSLTSSTTTTSSPGA     30
+                                         ::...|.:..|..|:.......|.:..|||
+P23759            51 LPNHIRHKIVEMAHHGIRPCVISRQLRVSHGCVSKILCRYQETGSIRPGA    100
+
+Q5VPE3            31 -GSSSPWAAALNSI---VGDVRRDQAAAHAAAAVGVGVGGEEMYQGRAST     76
+                      |.|.|...|...:   :.:.:|:.....:..     :....:..|....
+P23759           101 IGGSKPRQVATPDVEKKIEEYKRENPGMFSWE-----IRDRLLKDGHCDR    145
+
+Q5VPE3            77 SPDSAAALSSAS-------GKRERELERSGSGVDDDDG-------ADGAG    112
+                     |...:..:||.|       ||:|.|.|   :...:|||       .||..
+P23759           146 STVPSGLVSSISRVLRIKFGKKEEEDE---ADKKEDDGEKKAKHSIDGIL    192
+
+Q5VPE3           113 GRKKLRLSK-------------------------DQAAVLEECF-KTH-S    135
+                     |.|..||.:                         :|...||:.| :|| .
+P23759           193 GDKGNRLDEGSDVESEPDLPLKRKQRRSRTTFTAEQLEELEKAFERTHYP    242
+
+Q5VPE3           136 TLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCER    185
+                     .:..:::  ||.|..|...:|:|||.||||               || .:
+P23759           243 DIYTREE--LAQRTKLTEARVQVWFSNRRA---------------RW-RK    274
+
+Q5VPE3           186 LADENKRLEKELADLRALKAAPSPASASAMQPSSSAAATLTMCPSCRRVA    235
+                     .|..|     :||....|.....|.:                        
+P23759           275 QAGAN-----QLAAFNHLLPGGFPPT------------------------    295
+
+Q5VPE3           236 TAGAPHQPNHQQCHPKS---NTTISSSSTAAAAVAVAGGNVL-------P    275
+                       |.|..|.:|.  |.|   .||||..          ||:.:       |
+P23759           296 --GMPTLPPYQL--PDSTYPTTTISQD----------GGSTVHRPQPLPP    331
+
+Q5VPE3           276 S--HCQFFPAAAAAADRT------------SQSTWNAAAPL-----VTRE    306
+                     |  |.....|||||||.:            |.|..|.|||.     |:..
+P23759           332 STMHQGGLAAAAAAADTSSAYGARHSFSSYSDSFMNPAAPSNHMNPVSNG    381
+
+Q5VPE3           307 LF------------------------------------------------    308
+                     |.                                                
+P23759           382 LSPQVMSILGNPSAVPPQPQADFSISPLHGGLDSATSISASCSQRADSIK    431
+
+Q5VPE3           308 --------------------------------------------------    308
+                                                                       
+P23759           432 PGDSLPTSQAYCPPTYSTTGYSVDPVAGYQYGQYGQTAVDYLAKNVSLST    481
+
+Q5VPE3           308 ------------------------    308
+                                             
+P23759           482 QRRMKLGEHSAVLGLLPVETGQAY    505
+
+
+#---------------------------------------
+#---------------------------------------

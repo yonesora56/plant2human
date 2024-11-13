@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:32
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q5vuy0.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/a0a0p0vam0_q5vuy0_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/a0a0p0vam0_q5vuy0_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q5VUY0
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 487
+# Identity:      87/487 (17.9%)
+# Similarity:   126/487 (25.9%)
+# Gaps:         220/487 (45.2%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+A0A0P0VAM0         1 ---------------------------------------MVALSKLVLIT     11
+                                                            .|.|..|..|.
+Q5VUY0             1 MWDLALIFLAAACVFSLGVTLWVICSHFFTVHIPAAVGHPVKLRVLHCIF     50
+
+A0A0P0VAM0        12 AVALLGWA-----YKVARPPP--------PPILGGP---------GGPPV     39
+                     .: ||.|.     .::...|.        ||:...|         |..||
+Q5VUY0            51 QL-LLTWGMIFEKLRICSMPQFFCFMQDLPPLKYDPDVVVTDFRFGTIPV     99
+
+A0A0P0VAM0        40 S--SPRVQ---LKDGRHLAYREAGVGREIAKYKIIFSHGFAS--TKESD-     81
+                     .  .|:..   ||.|  :.|...| |..:...|.  .||..|  .|||| 
+Q5VUY0           100 KLYQPKASTCTLKPG--IVYYHGG-GGVMGSLKT--HHGICSRLCKESDS    144
+
+A0A0P0VAM0        82 --------------FPVSQELAEELGIYLLYFDRAGYGDSDANPKRGLKS    117
+                                   |||.   ..:..:..::|               |||
+Q5VUY0           145 VVLAVGYRKLPKHKFPVP---VRDCLVATIHF---------------LKS    176
+
+A0A0P0VAM0       118 -DATDVEELADKLQLGEKFYVVGTSMGGYVAWSCLNYIPYR---------    157
+                      ||..|:.        .:..|.|.|.||.:|......:..|         
+Q5VUY0           177 LDAYGVDP--------ARVVVCGDSFGGAIAAVVCQQLVDRPDLPRIRAQ    218
+
+A0A0P0VAM0       158 ------LAGVALVVPAVNYWWPMP----ASVSASAYRKLDVGD--RRTFW    195
+                           |..:.|..|:......:|    :.:....::.||...  :....
+Q5VUY0           219 ILIYAILQALDLQTPSFQQRKNIPLLTWSFICYFFFQNLDFSSSWQEVIM    268
+
+A0A0P0VAM0       196 IAHHMP---WLFYAWFNQKWFRISPIVEGKPEAFTEKDWEILAEIQRTGQ    242
+                     ...|:|   |..|    :||  :.|  |..||.|.|:.:          |
+Q5VUY0           269 KGAHLPAEVWEKY----RKW--LGP--ENIPERFKERGY----------Q    300
+
+A0A0P0VAM0       243 LDRGRATKQGAYHSLCRDATILFGAWEFDPTAIENPFPNGDGVVSIWQGR    292
+                     |.......:.||..:   :.:|        ..:.:|....|.:||  |..
+Q5VUY0           301 LKPHEPMNEAAYLEV---SVVL--------DVMCSPLIAEDDIVS--QLP    337
+
+A0A0P0VAM0       293 EDKIVRVEAQRYVAEKLPW----------VRYHEHPEGGH----------    322
+                     |..||..|........|.:          |.:|...:|.|          
+Q5VUY0           338 ETCIVSCEYDALRDNSLLYKKRLEDLGVPVTWHHMEDGFHGVLRTIDMSF    387
+
+A0A0P0VAM0       323 -LFMCA-----------DGLGDKIVRELLLGEEPRDL    347
+                      .|.|:           .||                 
+Q5VUY0           388 LHFPCSMRILSALVQFVKGL-----------------    407
+
+
+#---------------------------------------
+#---------------------------------------

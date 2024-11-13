@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:03
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q5jur7.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_q5jur7_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_q5jur7_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q5JUR7
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 236
+# Identity:      53/236 (22.5%)
+# Similarity:    87/236 (36.9%)
+# Gaps:          59/236 (25.0%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+Q94DD0            39 VSSPRVQLK--DGRHLAYREAGVGREIAKYKIIFSHGFASTKESDFPVSQ     86
+                     :|...|:||  .|..|......|..:...|.||.:||  ::.:.:.|...
+Q5JUR7             1 MSHTEVKLKIPFGNKLLDAVCLVPNKSLTYGIILTHG--ASGDMNLPHLM     48
+
+Q94DD0            87 ELAEEL---GIYLLYFDRAGYGDSDANPKRGLKSDATDVEELADKLQLGE    133
+                     .||..|   |.:.|.|...|.                   .:..::    
+Q5JUR7            49 SLASHLASHGFFCLRFTCKGL-------------------NIVHRI----     75
+
+Q94DD0           134 KFYVVGTSMGGYVAWSCLNYI----PYRLAGVALVVPAVNYWWPMPASVS    179
+                     |.|.           |.|||:    .|:||||.|...::.    ..|:.|
+Q5JUR7            76 KAYK-----------SVLNYLKTSGEYKLAGVFLGGRSMG----SRAAAS    110
+
+Q94DD0           180 ASAYRKLDVGD---RRTFWIAH--HMPWLFYAWFNQKWFRI-SPI--VEG    221
+                     ...:.:.|.||   |....|::  |.|...:...::..||: .|:  |.|
+Q5JUR7           111 VMCHIEPDDGDDFVRGLICISYPLHHPKQQHKLRDEDLFRLKEPVLFVSG    160
+
+Q94DD0           222 KPEAFTEKDWEILAEIQRTGQLDRGRATKQGAYHSL    257
+                     ..:...||:  :|.::.:..|........:.|.||:
+Q5JUR7           161 SADEMCEKN--LLEKVAQKMQAPHKIHWIEKANHSM    194
+
+
+#---------------------------------------
+#---------------------------------------

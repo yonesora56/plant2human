@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:35
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p35452.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_p35452_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_p35452_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P35452
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 405
+# Identity:      55/405 (13.6%)
+# Similarity:    88/405 (21.7%)
+# Gaps:         232/405 (57.3%)
+# Score: 115.0
+# 
+#
+#=======================================
+
+Q5VPE3             1 -----------------------------------MMDL-GLSLGLGLAS     14
+                                                        :..| .:|...|...
+P35452             1 MCERSLYRAGYVGSLLNLQSPDSFYFSNLRPNGGQLAALPPISYPRGALP     50
+
+Q5VPE3            15 QGSLTSSTTTTSSPGA----GSSSPWAAALNSI------VGDVRRDQAAA     54
+                     ..:..:|.......||    |.|.|:.|....:      ..|...:||..
+P35452            51 WAATPASCAPAQPAGATAFGGFSQPYLAGSGPLGLQPPTAKDGPEEQAKF    100
+
+Q5VPE3            55 HAAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGKRERELERSGSG---    101
+                     :|..|   ..|.||..:.|.|.:|:|:.|.:.|:.|..: .:.:|.|   
+P35452           101 YAPEA---AAGPEERGRTRPSFAPESSLAPAVAALKAAK-YDYAGVGRAT    146
+
+Q5VPE3           102 ----------------VDDDDG----------------------------    107
+                                     .||..|                            
+P35452           147 PGSTTLLQGAPCAPGFKDDTKGPLNLNMTVQAAGVASCLRPSLPDGLPWG    196
+
+Q5VPE3           108 -ADGAGGRKKLRLSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQV    156
+                      |.|...:|:...:|.|.|.||..|..:..:|.:::..|:|||.|..:||
+P35452           197 AAPGRARKKRKPYTKQQIAELENEFLVNEFINRQKRKELSNRLNLSDQQV    246
+
+Q5VPE3           157 EVWFQNRRARTK---LKQTEVDCEYLKRWCERLADENKRLEKELADLRAL    203
+                     ::||||||.:.|   |::..:...                          
+P35452           247 KIWFQNRRMKKKRVVLREQALALY--------------------------    270
+
+Q5VPE3           204 KAAPSPASASAMQPSSSAAATLTMCPSCRRVATAGAPHQPNHQQCHPKSN    253
+                                                                       
+P35452           270 --------------------------------------------------    270
+
+Q5VPE3           254 TTISSSSTAAAAVAVAGGNVLPSHCQFFPAAAAAADRTSQSTWNAAAPLV    303
+                                                                       
+P35452           270 --------------------------------------------------    270
+
+Q5VPE3           304 TRELF    308
+                          
+P35452           270 -----    270
+
+
+#---------------------------------------
+#---------------------------------------

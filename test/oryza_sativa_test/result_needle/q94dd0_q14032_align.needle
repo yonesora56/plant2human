@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:26
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q14032.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_q14032_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_q14032_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q14032
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 528
+# Identity:      73/528 (13.8%)
+# Similarity:   112/528 (21.2%)
+# Gaps:         291/528 (55.1%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q14032             1 MIQLTATPVSALVDEPVHIRATGLIPFQMVSFQASLEDENGDMFYSQAHY     50
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q14032            51 RANEFGEVDLNHASSLGGDYMGVHPMGLFWSLKPEKLLTRLLKRDVMNRP    100
+
+Q94DD0             1 ---MVALSKLVLITAVALLGWAYKVARPPPPPI-----LGGPGGPPVSSP     42
+                        .|.|..|.||.       ..|||..|...:     ...||     ..
+Q14032           101 FQVQVKLYDLELIV-------NNKVASAPKASLTLERWYVAPG-----VT    138
+
+Q94DD0            43 RVQLKDGRHLAYREA------------------GVGREIA-KYKIIFSHG     73
+                     |:::::||   .|.|                  |:|..:. :..::.|.|
+Q14032           139 RIKVREGR---LRGALFLPPGEGLFPGVIDLFGGLGGLLEFRASLLASRG    185
+
+Q94DD0            74 FASTKESDFPVSQELAEELGIYLLYFDRAGYGDSDANPKRGLKSDATDV-    122
+                     |||                 :.|.|.:   |.|....|      :.||: 
+Q14032           186 FAS-----------------LALAYHN---YEDLPRKP------EVTDLE    209
+
+Q94DD0           123 --EELADKLQLGEKFY-----VVGTSMGGYVAWSCLNYIPYRLAGVALVV    165
+                       ||.|:.|....|.:     ||....|..:..|...|:....|.|  ::
+Q14032           210 YFEEAANFLLRHPKVFGSGVGVVSVCQGVQIGLSMAIYLKQVTATV--LI    257
+
+Q94DD0           166 PAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHMPWLFYAWFNQKWFRI    215
+                     ...|:.:.:|.......::.|.           |...|           |
+Q14032           258 NGTNFPFGIPQVYHGQIHQPLP-----------HSAQL-----------I    285
+
+Q94DD0           216 SPIVEGKPEAFTEKDWEILAEIQRTGQLDRGRATKQGAYHSLCRDATILF    265
+                     |....|            |.|:.||.:     .|:.||       :..||
+Q14032           286 STNALG------------LLELYRTFE-----TTQVGA-------SQYLF    311
+
+Q94DD0           266 GAWEFDPTAIENPFPNGDGVVSIWQGREDKIVRVEAQRYVAEKLPWVRYH    315
+                                 |.....|......|..||.:..:|  :..:.:..::.|
+Q14032           312 ------------PIEEAQGQFLFIVGEGDKTINSKA--HAEQAIGQLKRH    347
+
+Q94DD0           316 --------EHPEGGHLFMCADGLGDKIVRELLLGEEPRDL----------    347
+                             .:|..|||.       :.....|.......||          
+Q14032           348 GKNNWTLLSYPGAGHLI-------EPPYSPLCCASTTHDLRLHWGGEVIP    390
+
+Q94DD0           347 ----------------------------    347
+                                                 
+Q14032           391 HAAAQEHAWKEIQRFLRKHLIPDVTSQL    418
+
+
+#---------------------------------------
+#---------------------------------------

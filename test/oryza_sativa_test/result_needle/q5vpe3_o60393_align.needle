@@ -1,0 +1,101 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:42
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/o60393.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_o60393_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_o60393_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: O60393
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 780
+# Identity:      77/780 ( 9.9%)
+# Similarity:   106/780 (13.6%)
+# Gaps:         561/780 (71.9%)
+# Score: 82.5
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+O60393             1 MALLLTLTSPDLEGTWDTRDKDGFKAQEGPPLAVPEFPVCGLYRIYGVCG     50
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+O60393            51 SFSSFFIIRCSLCALETLKSPQHDPLEIPEQSLKLIPLVSGKRELTRGQK    100
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+O60393           101 AGEKPLAAGPGEEELLRGSAPHAQDTQSEELPPSCTISGEKKPPAVSGEA    150
+
+Q5VPE3             1 -------------------------------MMDLGLSLG----------      9
+                                                    ..|..|.:|          
+O60393           151 TGADAGRLCPPPRSRAPHKDRTLARSRPQTQGEDCSLPVGEVKIGKRSYS    200
+
+Q5VPE3            10 -----------LGLASQGSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVR     48
+                                :|||          .||||||.:|:              
+O60393           201 PAPGKQKKPNAMGLA----------PTSSPGAPNSA--------------    226
+
+Q5VPE3            49 RDQAAAHAAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGKRERELERS     98
+                        .|.|.....|.|.|            |...|.|.|.       |.:|
+O60393           227 ---RATHNPVPCGSGRG------------PCHLANLLST-------LAQS    254
+
+Q5VPE3            99 GSGVDDDDGADGAGG--RKKLR--LSKDQAAVLEECFKTHSTLNPKQKVA    144
+                     ....|...|......  |||.|  ...||...||:.|:.....:..::..
+O60393           255 NQNRDHKQGPPEVTCQIRKKTRTLYRSDQLEELEKIFQEDHYPDSDKRRE    304
+
+Q5VPE3           145 LANRLGLRPRQVE--------------------------------VWFQN    162
+                     :|..:|:.|:::.                                |||||
+O60393           305 IAQTVGVTPQRIMVKGAGSLVAGWSGGGPTIETLELQSERSAVAWVWFQN    354
+
+Q5VPE3           163 RRARTKLKQTEVDCEYLKRWCERLADENKRLE----KELADLRALKAAPS    208
+                     |||               :|        :::|    ||..|   ..|||.
+O60393           355 RRA---------------KW--------RKMEKLNGKESKD---NPAAPG    378
+
+Q5VPE3           209 PASASAMQPSSSAAATLTMCPSCRRVATAGAPH-----QPNHQQCHPKSN    253
+                     |||:..    ||||..|...|.        .|.     |.:.....|:..
+O60393           379 PASSQC----SSAAEILPAVPM--------EPKPDPFPQESPLDTFPEPP    416
+
+Q5VPE3           254 TTISSSSTAAAAVAVAGGNVLPSHCQFFPAAAAAADRTSQSTWNAAAPLV    303
+                     ..::|..|.|......|...:.:...|.|.....||...     ...|:.
+O60393           417 MLLTSDQTLAPTQPSEGAQRVVTPPLFSPPPVRRADLPF-----PLGPVH    461
+
+Q5VPE3           304 TRELF---------------------------------------------    308
+                     |.:|.                                             
+O60393           462 TPQLMPLLMDVAGSDSSHKDGPCGSWGTSITLPPPCSYLEELEPQDYQQS    511
+
+Q5VPE3           308 --------------------------------------------------    308
+                                                                       
+O60393           512 NQPGPFQFSQAPQPPLFQSPQPKLPYLPTFPFSMPSSLTLPPPEDSLFMF    561
+
+Q5VPE3           308 --------------------------------------------------    308
+                                                                       
+O60393           562 PCGPSGGTSQGYCPGASSGQILMQPPAGNIGTASWSDPCLPELPFPGPFC    611
+
+Q5VPE3           308 --------------------------------------------------    308
+                                                                       
+O60393           612 PQALGHPPGGDGYFPDLFPTPCPQALGRQPSSALSWMPEGARPGTGPLLS    661
+
+Q5VPE3           308 ------------------------------    308
+                                                   
+O60393           662 KAKEEPPAASLDQPSALEEARGDDKNSHVP    691
+
+
+#---------------------------------------
+#---------------------------------------

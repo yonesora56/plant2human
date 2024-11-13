@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:43
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q7xvn5.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q15392.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q7xvn5_q15392_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q7xvn5_q15392_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q7XVN5
+# 2: Q15392
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 713
+# Identity:      69/713 ( 9.7%)
+# Similarity:   115/713 (16.1%)
+# Gaps:         440/713 (61.7%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+Q7XVN5             1 MALTAAAASGGDAHDDEYAKLVRGMNPPRVVVDNEACDEATVIRVDSVSS     50
+                                                                       
+Q15392             0 --------------------------------------------------      0
+
+Q7XVN5            51 HGTLLAVVQVIADLGLVIRKAYFSSDGSWFMDVFNVTDRDGNKVLDDQTI    100
+                                                                       
+Q15392             0 --------------------------------------------------      0
+
+Q7XVN5           101 SYIQTTLEADDWYYPEVRNTVGIVPAEEYTVIELTGTDRPGLLSEVCAVL    150
+                                                          ..|.:...|||:|
+Q15392             1 -------------------------------------MEPAVSLAVCALL     13
+
+Q7XVN5           151 AGMRCAVRSAEL------WT----------------HNTRVAAVVHVTDD    178
+                     ..:...::..|.      |.                :..|...|..:   
+Q15392            14 FLLWVRLKGLEFVLIHQRWVFVCLFLLPLSLIFDIYYYVRAWVVFKL---     60
+
+Q7XVN5           179 GGSGGAIEDEARIADISTRLGNLLRGQSGVRAAAAAAPGGLT-----HKE    223
+                       |......|.|:.||..::.. .:.|..........||.||     .|.
+Q15392            61 --SSAPRLHEQRVRDIQKQVRE-WKEQGSKTFMCTGRPGWLTVSLRVGKY    107
+
+Q7XVN5           224 RRLHQ----MMFDDRDYDGGGGAASSSPRGRSPTPATEVSVTPCAERGYT    269
+                     ::.|:    .:.|..:.|               |....|.|.|....|..
+Q15392           108 KKTHKNIMINLMDILEVD---------------TKKQIVRVEPLVTMGQV    142
+
+Q7XVN5           270 AVVVRCRDRPKLLFDTVCTITDMGYVIHHGAVSSEPRGGAYQE----YYI    315
+                     ..::........:...:..:|..|.::..|..||..:.|.:|.    |.:
+Q15392           143 TALLTSIGWTLPVLPELDDLTVGGLIMGTGIESSSHKYGLFQHICTAYEL    192
+
+Q7XVN5           316 RHVDGDPVR-SEAERQRVVQCLEAAIERRTADGLALEVRTGDRAGLLSDV    364
+                     ...||..|| :.:|...:.              .|:....|....|::..
+Q15392           193 VLADGSFVRCTPSENSDLF--------------YAVPWSCGTLGFLVAAE    228
+
+Q7XVN5           365 TRIFRENGLTIRRAEISSERGEAVDTFYLSDPQGHPVEAKTIDAIRAQIG    414
+                     .||.........|.|                    ||  :.::||.|:..
+Q15392           229 IRIIPAKKYVKLRFE--------------------PV--RGLEAICAKFT    256
+
+Q7XVN5           415 EATLRVKHNPFADG-----DGAGGGGGGATDDVAGSTAFLFGNLFK--FY    457
+                     ..:.| :.|.|.:|     |.|....|..||:...|.....||.:|  |:
+Q15392           257 HESQR-QENHFVEGLLYSLDEAVIMTGVMTDEAEPSKLNSIGNYYKPWFF    305
+
+Q7XVN5           458 RPFQNFSLIKLYS-------------------------------------    470
+                     :..:|:  :|...                                     
+Q15392           306 KHVENY--LKTNREGLEYIPLRHYYHRHTRSIFWELQDIIPFGNNPIFRY    353
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q15392           354 LFGWMVPPKISLLKLTQGETLRKLYEQHHVVQDMLVPMKCLQQALHTFQN    403
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q15392           404 DIHVYPIWLCPFILPSQPGLVHPKGNEAELYIDIGAYGEPRVKHFEARSC    453
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q15392           454 MRQLEKFVRSVHGFQMLYADCYMNREEFWEMFDGSLYHKLREKLGCQDAF    503
+
+Q7XVN5           470 -------------    470
+                                  
+Q15392           504 PEVYDKICKAARH    516
+
+
+#---------------------------------------
+#---------------------------------------

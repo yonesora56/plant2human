@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:18
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q15270.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_q15270_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_q15270_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q15270
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 295
+# Identity:      70/295 (23.7%)
+# Similarity:    99/295 (33.6%)
+# Gaps:          89/295 (30.2%)
+# Score: 150.0
+# 
+#
+#=======================================
+
+Q5VPE3             9 GLGLASQGS-LTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAA---     54
+                     |.||.::|| ...:..|.:||||                 ..|:|||   
+Q15270           217 GGGLGARGSGCQGAAETDASPGA-----------------TVDEAAAPGP    249
+
+Q5VPE3            55 HAAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGKRERELERSGSGVDD    104
+                     ...:.|..|..|.....|.|.|:|...|  ::|..||    :|:||    
+Q15270           250 RENSPVAQGPPGGAAAPGGAGTTPQGTA--TAAKPKR----KRTGS----    289
+
+Q5VPE3           105 DDGADGAGGRKKLRLSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPR    154
+                      |...|...|.:...:.:|...||..||....|:..:::.||..|.|...
+Q15270           290 -DSKSGKPRRARTAFTYEQLVALENKFKATRYLSVCERLNLALSLSLTET    338
+
+Q5VPE3           155 QVEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALK    204
+                     ||::||||||.:.|.:....|                            .
+Q15270           339 QVKIWFQNRRTKWKKQNPGAD----------------------------T    360
+
+Q5VPE3           205 AAPS----------------PASASAMQPSSSAAATLTMCPSCRRVATAG    238
+                     :||:                |...|.:.||....|.|.|           
+Q15270           361 SAPTGGGGGPGPGAGPGTGLPGGLSPLSPSPPMGAPLGM-----------    399
+
+Q5VPE3           239 APHQPNHQQCHPKSNTTISSSSTAAAAVAVAGGNVLPSHCQFFPA    283
+                       |.|.....|.......::.....::.||....||.|.....||
+Q15270           400 --HGPAGYPAHGPGGLVCAAQLPFLSSPAVLSPFVLGSQTYGAPA    442
+
+
+#---------------------------------------
+#---------------------------------------

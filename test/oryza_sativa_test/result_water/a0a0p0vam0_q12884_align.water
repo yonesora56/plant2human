@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:09
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q12884.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/a0a0p0vam0_q12884_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/a0a0p0vam0_q12884_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q12884
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 283
+# Identity:      49/283 (17.3%)
+# Similarity:    88/283 (31.1%)
+# Gaps:         117/283 (41.3%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+A0A0P0VAM0        18 WAYKVARPPP-------PPILGGPGGPPVSSPR-----------------     43
+                     | ||:..||.       |.::...|||...|.|                 
+Q12884           519 W-YKMILPPQFDRSKKYPLLIQVYGGPCSQSVRSVFAVNWISYLASKEGM    567
+
+A0A0P0VAM0        44 -VQLKDGRHLAYREAGVGREIAKYKIIFSHGFASTKESDFPVSQELAEEL     92
+                      :.|.|||..|::..         |::::                :..:|
+Q12884           568 VIALVDGRGTAFQGD---------KLLYA----------------VYRKL    592
+
+A0A0P0VAM0        93 GIYLLYFDRAGYGDSDANPKRGLKSDATDVEELADKLQLGEKFYVV-GTS    141
+                     |:|                  .::...|.|.:..:...:.||...: |.|
+Q12884           593 GVY------------------EVEDQITAVRKFIEMGFIDEKRIAIWGWS    624
+
+A0A0P0VAM0       142 MGGYVA----------WSCLNYIPYRLAGVALVVPAVNYWWPMPASVSAS    181
+                     .||||:          :.|         |:| |.|..:  |...|||...
+Q12884           625 YGGYVSSLALASGTGLFKC---------GIA-VAPVSS--WEYYASVYTE    662
+
+A0A0P0VAM0       182 AYRKLDVGDRRTFWIAHHMPWLFYAWFNQKWFRISPIVEGKPEAFTEKDW    231
+                     .:..|...|.                 |.:.::.|.:: .:.|.|...|:
+Q12884           663 RFMGLPTKDD-----------------NLEHYKNSTVM-ARAEYFRNVDY    694
+
+A0A0P0VAM0       232 EIL-------AEIQRTGQLDRGRATKQGAYHSL    257
+                     .::       ...|.:.|:.:.....|..:.::
+Q12884           695 LLIHGTADDNVHFQNSAQIAKALVNAQVDFQAM    727
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:26
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/o75884.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_o75884_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_o75884_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: O75884
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 377
+# Identity:      49/377 (13.0%)
+# Similarity:    83/377 (22.0%)
+# Gaps:         221/377 (58.6%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+Q94DD0             1 MVALSKLVLITAVALLGWAYKVARPPPPPILGGPGGPPVSSPRVQLKDGR     50
+                                          :|.|....|:.|.||..|::         
+O75884             1 ---------------------MASPSKAVIVPGNGGGDVTT---------     20
+
+Q94DD0            51 HLAYREAGVGREIAKYKIIFSHGF-ASTKESDFPVSQELAEELGIYLLYF     99
+                     |..|  ..|.:|:.|..     || ...|....|::   |.| .|:|.:.
+O75884            21 HGWY--GWVKKELEKIP-----GFQCLAKNMPDPIT---ARE-SIWLPFM     59
+
+Q94DD0           100 DRAGYGDSDANPKRGLKSDATDVEELADKLQLGEKFYVVGTSMGGYVAWS    149
+                     :                          .:|...||..::|.|.|...|  
+O75884            60 E--------------------------TELHCDEKTIIIGHSSGAIAA--     81
+
+Q94DD0           150 CLNYI-PYRLAGVALVVPAVNYWWPMPASVSASAYRKLDVGD--------    190
+                      :.|. .:|:..:.||                |||.. |:||        
+O75884            82 -MRYAETHRVYAIVLV----------------SAYTS-DLGDENERASGY    113
+
+Q94DD0           191 --RRTFW--IAHHMPWL---------FYAWFNQKWFRISPIVEGKPEAFT    227
+                       |...|  |..:.|::         |..|..|:  .::..:|.|...||
+O75884           114 FTRPWQWEKIKANCPYIVQFGSTDDPFLPWKEQQ--EVADRLETKLHKFT    161
+
+Q94DD0           228 E-------KDWEILAEIQRTGQLDRGRATKQGAYHSLCRDATILFGAWEF    270
+                     :       :..|::..::...::..                         
+O75884           162 DCGHFQNTEFHELITVVKSLLKVPA-------------------------    186
+
+Q94DD0           271 DPTAIENPFPNGDGVVSIWQGREDKIVRVEAQRYVAEKLPWVRYHEHPEG    320
+                                                                       
+O75884           186 --------------------------------------------------    186
+
+Q94DD0           321 GHLFMCADGLGDKIVRELLLGEEPRDL    347
+                                                
+O75884           186 ---------------------------    186
+
+
+#---------------------------------------
+#---------------------------------------

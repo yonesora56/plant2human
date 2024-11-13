@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:14
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/p28358.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_p28358_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_p28358_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P28358
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 179
+# Identity:      43/179 (24.0%)
+# Similarity:    68/179 (38.0%)
+# Gaps:          25/179 (14.0%)
+# Score: 104.5
+# 
+#
+#=======================================
+
+Q5VPE3            14 SQGSLTSSTTTTSSPGAGSS------SPWAAALNSIVGDVRRDQAAAHAA     57
+                     ||...|..|...::...|||      :|..||...:      ..|.....
+P28358           155 SQTYATGKTQEYNNSPEGSSTVMLQLNPRGAAKPQL------SAAQLQME    198
+
+Q5VPE3            58 AAVGVGVGGEEMYQGRASTSPDSAAAL------------SSASGKREREL     95
+                     ..:...|.|:|..:.....||::...|            ||...:.:...
+P28358           199 KKMNEPVSGQEPTKVSQVESPEAKGGLPEERSCLAEVSVSSPEVQEKESK    248
+
+Q5VPE3            96 ERSGSGVDDDDGADGAGGRKK-LRLSKDQAAVLEECFKTHSTLNPKQKVA    144
+                     |...|.....:......|||| ...:|.|...||:.|..:..|..::::.
+P28358           249 EEIKSDTPTSNWLTAKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLE    298
+
+Q5VPE3           145 LANRLGLRPRQVEVWFQNRRARTKLKQTE    173
+                     ::..:.|..|||::||||||.:.|....|
+P28358           299 ISKSVNLTDRQVKIWFQNRRMKLKKMSRE    327
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,125 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:43
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q7xvn5.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q8ndt2.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q7xvn5_q8ndt2_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q7xvn5_q8ndt2_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q7XVN5
+# 2: Q8NDT2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1063
+# Identity:      95/1063 ( 8.9%)
+# Similarity:   134/1063 (12.6%)
+# Gaps:         766/1063 (72.1%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+Q7XVN5             1 MALTAAAASGGDAHDDEYAKLVRGMNPPRVVVDNEACDEATVIRVDSVSS     50
+                                                                       
+Q8NDT2             0 --------------------------------------------------      0
+
+Q7XVN5            51 HGTLLAVVQVIADLGLVIRKAYFSSDGSWFMDVFNVTDRDGNKVLDDQTI    100
+                                                                       
+Q8NDT2             0 --------------------------------------------------      0
+
+Q7XVN5           101 SYIQTTLEADDWYYPEVRNTVGIV--PAEEYTVIELTGTDRPGLLSEVCA    148
+                       ::...|.|.  .|..|.:....  |.|.                |..|
+Q8NDT2             1 --MKRQSERDS--SPSGRGSSSSAKRPRER----------------EREA     30
+
+Q7XVN5           149 VLAGMRCAVRSAELWTHNTRVAAVVHVTDDGGSGGAIEDEARIADISTRL    198
+                     ...|.|.|.:::....|.....|.......|..||...|.....|.:.|.
+Q8NDT2            31 EAGGRRAAHKASGGAKHPVPARARDKPRGSGSGGGGHRDGRGTGDANHRA     80
+
+Q7XVN5           199 ---------------GNLLRGQSGV-----RA-----------AAAAAPG    217
+                                    |....|..|.     ||           |..|.||
+Q8NDT2            81 SSGRSSGSGAGGGGRGGKASGDPGASGMSPRASPLPPPPPPPGAEPACPG    130
+
+Q7XVN5           218 G-----------------------------------------LTH-----    221
+                     .                                         |:|     
+Q8NDT2           131 SSAAAPEYKTLLISSLSPALPAEHLEDRLFHQFKRFGEISLRLSHTPELG    180
+
+Q7XVN5           222 -------------KERRLH----QMMFDDRDYD-------GGGG----AA    243
+                                  :|.|.|    |::..||...       ||||    ::
+Q8NDT2           181 RVAYVNFRHPQDAREARQHALARQLLLYDRPLKVEPVYLRGGGGSSRRSS    230
+
+Q7XVN5           244 SSSPRGRSPTPATEVSVTPCAERGYTAVVVRCRDRPKLLFDTVCTITDMG    293
+                     |||....:|.|.......|                             :|
+Q8NDT2           231 SSSAAASTPPPGPPAPADP-----------------------------LG    251
+
+Q7XVN5           294 YVIHHGAVSSEPRGGAYQEYYIRHVDGDPVRSEAERQRVVQ-CLEAAIER    342
+                     |:..||       |..|::..:..|...|:|....|..... .|:||  .
+Q8NDT2           252 YLPLHG-------GYQYKQRSLSPVAAPPLREPRARHAAAAFALDAA--A    292
+
+Q7XVN5           343 RTADGLALEVRTGDRAGLLSD----------------------VTR-IFR    369
+                     ..|.||:.| |..|..||..|                      .|| :|.
+Q8NDT2           293 AAAVGLSRE-RALDYYGLYDDRGRPYGYPAVCEEDLMPEDDQRATRNLFI    341
+
+Q7XVN5           370 EN------GLTIRRAEISSERGEAVDTFYLSDP---QGHP---VEAKTID    407
+                     .|      .:.:|||   .|:...::...:..|   ||..   ::.:.:|
+Q8NDT2           342 GNLDHSVSEVELRRA---FEKYGIIEEVVIKRPARGQGGAYAFLKFQNLD    388
+
+Q7XVN5           408 -AIRAQIGEATLRVKHNPFADGDGAGG-------GGGGATDDVAGSTAFL    449
+                      |.||::..:...:..||...|.|...       ||.|....:|.     
+Q8NDT2           389 MAHRAKVAMSGRVIGRNPIKIGYGKANPTTRLWVGGLGPNTSLAA-----    433
+
+Q7XVN5           450 FGNLFKFYRPFQNFSLIKLYS-----------------------------    470
+                           ..|.|..|..|:...                             
+Q8NDT2           434 ------LAREFDRFGSIRTIDHVKGDSFAYIQYESLDAAQAACAKMRGFP    477
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8NDT2           478 LGGPDRRLRVDFAKAEETRYPQQYQPSPLPVHYELLTDGYTRHRNLDADL    527
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8NDT2           528 VRDRTPPHLLYSDRDRTFLEGDWTSPSKSSDRRNSLEGYSRSVRSRSGER    577
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8NDT2           578 WGADGDRGLPKPWEERRKRRSLSSDRGRTTHSPYEERSRTKGSGQQSERG    627
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8NDT2           628 SDRTPERSRKENHSSEGTKESSSNSLSNSRHGAEERGHHHHHHEAADSSH    677
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8NDT2           678 GKKARDSERNHRTTEAEPKPLEEPKHETKKLKNLSEYAQTLQLGWNGLLV    727
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8NDT2           728 LKNSCFPTSMHILEGDQGVISSLLKDHTSGSKLTQLKIAQRLRLDQPKLD    777
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8NDT2           778 EVTRRIKQGSPNGYAVLLATQATPSGLGTEGMPTVEPGLQRRLLRNLVSY    827
+
+Q7XVN5           470 --------------------------------------------------    470
+                                                                       
+Q8NDT2           828 LKQKQAAGVISLPVGGSKGRDGTGMLYAFPPCDFSQQYLQSALRTLGKLE    877
+
+Q7XVN5           470 -------------    470
+                                  
+Q8NDT2           878 EEHMVIVIVRDTA    890
+
+
+#---------------------------------------
+#---------------------------------------

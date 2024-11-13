@@ -1,0 +1,49 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:01
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q9ulp0.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_q9ulp0_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_q9ulp0_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q9ULP0
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 138
+# Identity:      30/138 (21.7%)
+# Similarity:    52/138 (37.7%)
+# Gaps:          39/138 (28.3%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+Q94DD0            35 GGPPVSSPRVQLKDGRHLAYREAGVGREIAKYKIIFSHGFASTKESDFPV     84
+                     |.|..:.|.:       |.|.:.|:     .:|:.|:..|      :|..
+Q9ULP0            24 GSPKGNRPAI-------LTYHDVGL-----NHKLCFNTFF------NFED     55
+
+Q94DD0            85 SQELAEELGIYLLYFDRAGYGDSDANPKRGLKSDATDVEELADKL-----    129
+                     .||:.:.  ..:.:.|..|.....:...:|.:..:  :|:||..|     
+Q9ULP0            56 MQEITKH--FVVCHVDAPGQQVGASQFPQGYQFPS--MEQLAAMLPSVVQ    101
+
+Q94DD0           130 QLGEKFYV-VGTSMGGYVAWSCLNYIPYRLAGVALVVP    166
+                     ..|.|:.: :|...|.||           ||..||:.|
+Q9ULP0           102 HFGFKYVIGIGVGAGAYV-----------LAKFALIFP    128
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,109 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:27
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q96jx3.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_q96jx3_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_q96jx3_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q96JX3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 858
+# Identity:      43/858 ( 5.0%)
+# Similarity:    68/858 ( 7.9%)
+# Gaps:         715/858 (83.3%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+Q94DD0             1 MVALSKLVLITAVALLGWAYKVARPPPPPILGGPGGPPVSSPRVQLKDGR     50
+                                                                       
+Q96JX3             0 --------------------------------------------------      0
+
+Q94DD0            51 HLAYREAGVGREIAKYKIIFSHGFASTKESDFPVSQELAEELGIYLLYFD    100
+                                                                       
+Q96JX3             0 --------------------------------------------------      0
+
+Q94DD0           101 RAGYGDSDANPKRGLKSDATDVEELADKLQLGEKFYVVGTSMGGYVAWSC    150
+                                                                       
+Q96JX3             0 --------------------------------------------------      0
+
+Q94DD0           151 LNYIPYRLAGVALVVPAVNYWWPMPASVSASAY-----RKLDVGDRRTFW    195
+                                                :|.:||     |::.........
+Q96JX3             1 ---------------------------MSLAAYCVICCRRIGTSTSPPKS     23
+
+Q94DD0           196 IAHHMPWLFYAWFNQKWFRISPIVEGKPEAFTEK---------DWEILAE    236
+                     ..|             |..|..|::     ||..         .:|:|| 
+Q96JX3            24 GTH-------------WRDIRNIIK-----FTGSLILGGSLFLTYEVLA-     54
+
+Q94DD0           237 IQRTGQLDRG--RATKQGAY---HSLCRDATILFG-AWE-----------    269
+                     :::...||..  ...|..:|   |::..|.....| ||:           
+Q96JX3            55 LKKAVTLDTQVVEREKMKSYIYVHTVSLDKGENHGIAWQARKELHKAVRK    104
+
+Q94DD0           270 ---FDPTAIENPFPN-------GDGVVSIW-----QGREDKIVRVEAQRY    304
+                        .....:.|||.:       .|...::|     ...:||..|:||.|.
+Q96JX3           105 VLATSAKILRNPFADPFSTVDIEDHECAVWLLLRKSKSDDKTTRLEAVRE    154
+
+Q94DD0           305 VAEKLPWVRYHEHPEGGHLFMCADGLGDKIVRELLLGEEPRDL-------    347
+                     ::|...|..|...       :.|.....|.:..|...|| .||       
+Q96JX3           155 MSETHHWHDYQYR-------IIAQACDPKTLIGLARSEE-SDLRFFLLPP    196
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q96JX3           197 PLPSLKEDSSTEEELRQLLASLPQTELDECIQYFTSLALSESSQSLAAQK    246
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q96JX3           247 GGLWCFGGNGLPYAESFGEVPSATVEMFCLEAIVKHSEISTHCDKIEANG    296
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q96JX3           297 GLQLLQRLYRLHKDCPKVQRNIMRVIGNMALNEHLHSSIVRSGWVSIMAE    346
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q96JX3           347 AMKSPHIMESSHAARILANLDRETVQEKYQDGVYVLHPQYRTSQPIKADV    396
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q96JX3           397 LFIHGLMGAAFKTWRQQDSEQAVIEKPMEDEDRYTTCWPKTWLAKDCPAL    446
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q96JX3           447 RIISVEYDTSLSDWRARCPMERKSIAFRSNELLRKLRAAGVGDRPVVWIS    496
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q96JX3           497 HSMGGLLVKKMLLEASTKPEMSTVINNTRGIIFYSVPHHGSRLAEYSVNI    546
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q96JX3           547 RYLLFPSLEVKELSKDSPALKTLQDDFLEFAKDKNFQVLNFVETLPTYIG    596
+
+Q94DD0           347 --------------------------------------------------    347
+                                                                       
+Q96JX3           597 SMIKLHVVPVESADLGIGDLIPVDVNHLNICKPKKKDAFLYQRTLQFIRE    646
+
+Q94DD0           347 --------    347
+                             
+Q96JX3           647 ALAKDLEN    654
+
+
+#---------------------------------------
+#---------------------------------------

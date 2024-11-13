@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:40
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p43699.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_p43699_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_p43699_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: P43699
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 446
+# Identity:      91/446 (20.4%)
+# Similarity:   123/446 (27.6%)
+# Gaps:         213/446 (47.8%)
+# Score: 131.5
+# 
+#
+#=======================================
+
+Q5VPE3             1 ----------------------------MMDLGLSLGLGLASQGSLTSST     22
+                                                 |...||...|....||.     
+P43699             1 MSMSPKHTTPFSVSDILSPLEESYKKVGMEGGGLGAPLAAYRQGQ-----     45
+
+Q5VPE3            23 TTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGV------GVGG     66
+                              ::.|.||.....||......||.|..|| ||      .|||
+P43699            46 ---------AAPPTAAMQQHAVGHHGAVTAAYHMTAA-GVPQLSHSAVGG     85
+
+Q5VPE3            67 ---------EEM--YQ----------GRASTSPDS-----AAALSSASGK     90
+                              .|:  ||          |....:||.     :..:..||| 
+P43699            86 YCNGNLGNMSELPPYQDTMRNSASGPGWYGANPDPRFPAISRFMGPASG-    134
+
+Q5VPE3            91 RERELERSGSGVDDDDGADGAGG---------------RKKLRLSKDQAA    125
+                         :..||.|        |.|.               |:|.|:...||.
+P43699           135 ----MNMSGMG--------GLGSLGDVSKNMAPLPSAPRRKRRVLFSQAQ    172
+
+Q5VPE3           126 V--LEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTE    173
+                     |  ||..||....|:..::..||:.:.|.|.||::||||.|.:.|     
+P43699           173 VYELERRFKQQKYLSAPEREHLASMIHLTPTQVKIWFQNHRYKMK-----    217
+
+Q5VPE3           174 VDCEYLKRWCERLADENKRLEKELADLRALKAAPSPASASAMQPSS--SA    221
+                                                   :.|...|:...:|..|  ..
+P43699           218 ------------------------------RQAKDKAAQQQLQQDSGGGG    237
+
+Q5VPE3           222 AATLTMCP--------SCRRVAT-----------AGAP------------    240
+                     ....|.||        |.||||.           ||||            
+P43699           238 GGGGTGCPQQQQAQQQSPRRVAVPVLVKDGKPCQAGAPAPGAASLQGHAQ    287
+
+Q5VPE3           241 HQPNHQQCHPKSNTTISSSSTAAAAVAV-AGGNVLPSHCQFFPAAAAAAD    289
+                     .|..||         ..::..||||::| :||..|.:|....|.:|.   
+P43699           288 QQAQHQ---------AQAAQAAAAAISVGSGGAGLGAHPGHQPGSAG---    325
+
+Q5VPE3           290 RTSQSTWNAAAPLVTRELF---------------------------    308
+                     ::.....:||:|...:...                           
+P43699           326 QSPDLAHHAASPAALQGQVSSLSHLNSSGSDYGTMSCSTLLYGRTW    371
+
+
+#---------------------------------------
+#---------------------------------------

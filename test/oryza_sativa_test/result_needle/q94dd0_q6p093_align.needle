@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:25
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q6p093.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_q6p093_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_q6p093_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q6P093
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 651
+# Identity:      34/651 ( 5.2%)
+# Similarity:    50/651 ( 7.7%)
+# Gaps:         554/651 (85.1%)
+# Score: 20.5
+# 
+#
+#=======================================
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q6P093             1 MGLKALCLGLLCVLFVSHFYTPMPDNIEESWKIMALDAIAKTCTFTAMCF     50
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q6P093            51 ENMRIMRYEEFISMIFRLDYTQPLSDEYITVTDTTFVDIPVRLYLPKRKS    100
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q6P093           101 ETRRRAVIYFHGGGFCFGSSKQRAFDFLNRWTANTLDAVVVGVDYRLAPQ    150
+
+Q94DD0             0 --------------------------------------------------      0
+                                                                       
+Q6P093           151 HHFPAQFEDGLAAVKFFLLEKILTKYGVDPTRICIAGDSSGGNLATAVTQ    200
+
+Q94DD0             1 -------------------------------------MVALSKLVLITAV     13
+                                                          .:.|::.|.|..|
+Q6P093           201 QVQNDAEIKHKIKMQVLLYPGLQITDSYLPSHRENEHGIVLTRDVAIKLV    250
+
+Q94DD0            14 AL-------LGWAYKVARPPP---------------------------PP     29
+                     :|       |.||.:..:..|                           .|
+Q6P093           251 SLYFTKDEALPWAMRRNQHMPLESRHLFKFVNWSILLPEKYRKDYVYTEP    300
+
+Q94DD0            30 ILGG-----PG-----GPPVSSPRVQLK-----------------DGRHL     52
+                     ||||     ||     ..|:.:...||:                 ||...
+Q6P093           301 ILGGLSYSLPGLTDSRALPLLANDSQLQNLPLTYILTCQHDLLRDDGLMY    350
+
+Q94DD0            53 AYREAGVGREIAKYKIIFS-HGFASTKESDFPVSQELAEELGI-----YL     96
+                     ..|...||.::....|... ||..|...|.|.:      .||:     |:
+Q6P093           351 VTRLRNVGVQVVHEHIEDGIHGALSFMTSPFYL------RLGLRIRDMYV    394
+
+Q94DD0            97 LYFDRAGYGDSDANPKRGLKSDATDVEELADKLQLGEKFYVVGTSMGGYV    146
+                     .:.|:..                                           
+Q6P093           395 SWLDKNL-------------------------------------------    401
+
+Q94DD0           147 AWSCLNYIPYRLAGVALVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWI    196
+                                                                       
+Q6P093           401 --------------------------------------------------    401
+
+Q94DD0           197 AHHMPWLFYAWFNQKWFRISPIVEGKPEAFTEKDWEILAEIQRTGQLDRG    246
+                                                                       
+Q6P093           401 --------------------------------------------------    401
+
+Q94DD0           247 RATKQGAYHSLCRDATILFGAWEFDPTAIENPFPNGDGVVSIWQGREDKI    296
+                                                                       
+Q6P093           401 --------------------------------------------------    401
+
+Q94DD0           297 VRVEAQRYVAEKLPWVRYHEHPEGGHLFMCADGLGDKIVRELLLGEEPRD    346
+                                                                       
+Q6P093           401 --------------------------------------------------    401
+
+Q94DD0           347 L    347
+                      
+Q6P093           401 -    401
+
+
+#---------------------------------------
+#---------------------------------------

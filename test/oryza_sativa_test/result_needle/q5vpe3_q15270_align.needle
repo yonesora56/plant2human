@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:41
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q15270.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q5vpe3_q15270_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q5vpe3_q15270_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q15270
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 536
+# Identity:      72/536 (13.4%)
+# Similarity:   103/536 (19.2%)
+# Gaps:         316/536 (59.0%)
+# Score: 133.5
+# 
+#
+#=======================================
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+Q15270             1 MSASGPEAPGDIPALPPPPQPGSGPAPPAPAAAAQEAMDGRAELPAFPRA     50
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+Q15270            51 GAPPLAASDTVPAAPEGAGAARPAAPLRPTSFSVLDILDPNKFNSRRRRC    100
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+Q15270           101 VLLGPVAPAACAPCASAPCAPAPAASGRPPRAEELERRALAGAGGVGAAG    150
+
+Q5VPE3             0 --------------------------------------------------      0
+                                                                       
+Q15270           151 AEPPNAGDPFKAGEAETNDTNGYSSGGGGHSPSADSGDEVPDDEDDDEDE    200
+
+Q5VPE3             1 --------MMDLGLSLGLGLASQGS-LTSSTTTTSSPGAGSSSPWAAALN     41
+                             ..:.....|.||.::|| ...:..|.:||||           
+Q15270           201 APETEAARGAEEARGGGGGLGARGSGCQGAAETDASPGA-----------    239
+
+Q5VPE3            42 SIVGDVRRDQAAA---HAAAAVGVGVGGEEMYQGRASTSPDSAAALSSAS     88
+                           ..|:|||   ...:.|..|..|.....|.|.|:|...|  ::|.
+Q15270           240 ------TVDEAAAPGPRENSPVAQGPPGGAAAPGGAGTTPQGTA--TAAK    281
+
+Q5VPE3            89 GKRERELERSGSGVDDDDGADGAGGRKKLRLSKDQAAVLEECFKTHSTLN    138
+                     .||    :|:||     |...|...|.:...:.:|...||..||....|:
+Q15270           282 PKR----KRTGS-----DSKSGKPRRARTAFTYEQLVALENKFKATRYLS    322
+
+Q5VPE3           139 PKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCERLAD    188
+                     ..:::.||..|.|...||::||||||.:.|.:....|             
+Q15270           323 VCERLNLALSLSLTETQVKIWFQNRRTKWKKQNPGAD-------------    359
+
+Q5VPE3           189 ENKRLEKELADLRALKAAPS----------------PASASAMQPSSSAA    222
+                                    .:||:                |...|.:.||....
+Q15270           360 ---------------TSAPTGGGGGPGPGAGPGTGLPGGLSPLSPSPPMG    394
+
+Q5VPE3           223 ATLTMCPSCRRVATAGAPHQPNHQQCHPKSNTTISSSSTAAAAVAVAGGN    272
+                     |.|.|             |.|.....|.......::.....::.||....
+Q15270           395 APLGM-------------HGPAGYPAHGPGGLVCAAQLPFLSSPAVLSPF    431
+
+Q5VPE3           273 VLPSHCQFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                     ||.|  |.:.|.|..|...                 
+Q15270           432 VLGS--QTYGAPAFYAPHL-----------------    448
+
+
+#---------------------------------------
+#---------------------------------------

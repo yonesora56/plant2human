@@ -20,11 +20,24 @@ target_col="$6"
 mkdir -p "$output_dir"
 
 tail -n +2 "$input_tsv" | while IFS=$'\t' read -r line; do
-    query_uniprot_accession=$(echo "$line" | cut -d $'\t' -f "$query_col")
-    target_uniprot_accession=$(echo "$line" | cut -d $'\t' -f "$target_col")
-    # convert to upper case (e.g. a0a0n7kmn4 -> A0A0N7KMN4)
-    query_fasta_file="$query_fasta_dir/$(echo "$query_uniprot_accession" | tr '[:lower:]' '[:upper:]').fasta"
-    target_fasta_file="$target_fasta_dir/$(echo "$target_uniprot_accession" | tr '[:lower:]' '[:upper:]').fasta"
+    # get the query and target uniprot accessions and convert to lower case
+    query_uniprot_accession=$(echo "$line" | cut -d $'\t' -f "$query_col" | tr '[:upper:]' '[:lower:]')
+    target_uniprot_accession=$(echo "$line" | cut -d $'\t' -f "$target_col" | tr '[:upper:]' '[:lower:]')
+
+    # construct FASTA file paths
+    query_fasta_file="$query_fasta_dir/${query_uniprot_accession}.fasta"
+    target_fasta_file="$target_fasta_dir/${target_uniprot_accession}.fasta"
+
+    # check if the FASTA files exist
+    if [[ ! -f "$query_fasta_file" ]]; then
+        echo "FASTA file not found for query: $query_fasta_file, skipping..."
+        continue
+    fi
+
+    if [[ ! -f "$target_fasta_file" ]]; then
+        echo "FASTA file not found for target: $target_fasta_file, skipping..."
+        continue
+    fi
 
     # create output file path
     output_file="$output_dir/${query_uniprot_accession}_${target_uniprot_accession}_align.needle"
@@ -49,6 +62,6 @@ tail -n +2 "$input_tsv" | while IFS=$'\t' read -r line; do
             -verbose
         echo "Processed: $query_uniprot_accession vs $target_uniprot_accession"
     else
-        echo "FASTA file not found for: $query_uniprot_accession or $target_uniprot_accession"
+        echo "FASTA file not found for: $query_uniprot_accession ($query_fasta_file) or $target_uniprot_accession ($target_fasta_file)"
     fi
 done

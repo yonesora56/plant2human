@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:29
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/a0a0p0vam0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/q9bv23.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/a0a0p0vam0_q9bv23_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/a0a0p0vam0_q9bv23_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A0A0P0VAM0
+# 2: Q9BV23
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 421
+# Identity:      74/421 (17.6%)
+# Similarity:   130/421 (30.9%)
+# Gaps:         158/421 (37.5%)
+# Score: 84.0
+# 
+#
+#=======================================
+
+A0A0P0VAM0         1 -------------------MVALSKLVLITAVALLG---WAYKVARPPPP     28
+                                        ::|.....|:...||:.   |.::       
+Q9BV23             1 MDLDVVNMFVIAGGTLAIPILAFVASFLLWPSALIRIYYWYWR-------     43
+
+A0A0P0VAM0        29 PILGGPGGPPVSSPRVQLKDGRHLAYR--EAGVGREIAKYKIIFSHGFAS     76
+                     ..||           :|::...|..|:  .:..||...|..|:..|||::
+Q9BV23            44 RTLG-----------MQVRYVHHEDYQFCYSFRGRPGHKPSILMLHGFSA     82
+
+A0A0P0VAM0        77 TKESDFPVSQELAEELGIYLLYFDRAGYGDSDANPKRGLKSD--ATDVEE    124
+                     .|:....|.:.|.:.|  :|:..|..|:..:..:....|..|  ...:.:
+Q9BV23            83 HKDMWLSVVKFLPKNL--HLVCVDMPGHEGTTRSSLDDLSIDGQVKRIHQ    130
+
+A0A0P0VAM0       125 LADKLQLGEK-FYVVGTSMGGYVAWSCLNYIPYRLAGVALVVPAVNYWWP    173
+                     ..:.|:|.:| |::|||||||.||.....|.|..::.:.||.||      
+Q9BV23           131 FVECLKLNKKPFHLVGTSMGGQVAGVYAAYYPSDVSSLCLVCPA------    174
+
+A0A0P0VAM0       174 MPASVSASAYRKLDVGDRRTFWIAHHMPWLFYAWFNQKWFRIS-------    216
+                                                 .|.|:..||...|:.       
+Q9BV23           175 ----------------------------GLQYSTDNQFVQRLKELQGSAA    196
+
+A0A0P0VAM0       217 ----PIVEGKPEAFTEK-------DWEILAEIQRTGQLDRGRATKQGAYH    255
+                         |::...||..:|.       .:::..:|.: |.:| .|......|.
+Q9BV23           197 VEKIPLIPSTPEEMSEMLQLCSYVRFKVPQQILQ-GLVD-VRIPHNNFYR    244
+
+A0A0P0VAM0       256 SLCRDATILFGAWEFD--------PTAIENPFPNGDGVVSIWQGREDKIV    297
+                     .|..:.......:...        ||.|            || |::|:::
+Q9BV23           245 KLFLEIVSEKSRYSLHQNMDKIKVPTQI------------IW-GKQDQVL    281
+
+A0A0P0VAM0       298 RVEAQRYVAEKLPWVRYHEHPEGGHLFMCADGLGDKIVRELLLGEEPRDL    347
+                     .|.....:|:.:...:.......||               .::.|.||..
+Q9BV23           282 DVSGADMLAKSIANCQVELLENCGH---------------SVVMERPRKT    316
+
+A0A0P0VAM0       347 ---------------------    347
+                                          
+Q9BV23           317 AKLIIDFLASVHNTDNNKKLD    337
+
+
+#---------------------------------------
+#---------------------------------------

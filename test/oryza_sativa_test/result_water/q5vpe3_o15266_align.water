@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:16
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/o15266.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_o15266_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_o15266_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: O15266
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 227
+# Identity:      59/227 (26.0%)
+# Similarity:    91/227 (40.1%)
+# Gaps:          49/227 (21.6%)
+# Score: 121.5
+# 
+#
+#=======================================
+
+Q5VPE3            90 KRERELERSGSGVDDDDGADGAGGRK-KLRLSKDQAAVLEECF-KTHSTL    137
+                     |.:||..:|    :|:||......|: :...:.:|...||..| :||.. 
+O15266            98 KEKREDVKS----EDEDGQTKLKQRRSRTNFTLEQLNELERLFDETHYP-    142
+
+Q5VPE3           138 NPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCERLA    187
+                     :...:..|:.||||...:|:||||||||:.:.::.::....:      |.
+O15266           143 DAFMREELSQRLGLSEARVQVWFQNRRAKCRKQENQMHKGVI------LG    186
+
+Q5VPE3           188 DENKRLEKELADLRALKAAPSPASASAMQPSSSAAATLTMCPSCRRVATA    237
+                     ..|        .|.|.:.||.....:...|.....|.|.:    ..||.|
+O15266           187 TAN--------HLDACRVAPYVNMGALRMPFQQVQAQLQL----EGVAHA    224
+
+Q5VPE3           238 GAPHQPNHQQCH--------PKSNTTISSSSTAAAAVAVAGGNVLPSHCQ    279
+                      .||...|...|        |.....|:|.:.:|:|.||           
+O15266           225 -HPHLHPHLAAHAPYLMFPPPPFGLPIASLAESASAAAV-----------    262
+
+Q5VPE3           280 FFPAAAAAADRTSQSTWNAAAPLVTRE    306
+                         .||||...|:::..|...|..|:
+O15266           263 ----VAAAAKSNSKNSSIADLRLKARK    285
+
+
+#---------------------------------------
+#---------------------------------------

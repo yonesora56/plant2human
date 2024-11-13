@@ -1,0 +1,69 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:58:59
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q8ius5.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q94dd0_q8ius5_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q94dd0_q8ius5_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: Q8IUS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 373
+# Identity:      88/373 (23.6%)
+# Similarity:   137/373 (36.7%)
+# Gaps:         118/373 (31.6%)
+# Score: 128.5
+# 
+#
+#=======================================
+
+Q94DD0            23 ARPPPPPILGGPG-GPPVSSPRVQLKD-GRHLAYREAGVGREIAKYKIIF     70
+                     ||..||..|..|. |   :...|::|| |....|..||   |..|..::.
+Q8IUS5            55 AREHPPACLSDPSLG---THCYVRIKDSGLRFHYVAAG---ERGKPLMLL     98
+
+Q94DD0            71 SHGFASTKESDFPVSQELAEELGIYLLYFDRAGYGDSDANP--KRGLKSD    118
+                     .|||.....|.....:|...|..:..|  |..|||::|| |  ::..|.|
+Q8IUS5            99 LHGFPEFWYSWRYQLREFKSEYRVVAL--DLRGYGETDA-PIHRQNYKLD    145
+
+Q94DD0           119 A--TDVEELADKLQLGEKFYVVGTSMGGYVAWSCLNYIPYRLAGVALVVP    166
+                     .  ||::::.|.|.. .|..::|...||.:||  |..|.|....:.|:| 
+Q8IUS5           146 CLITDIKDILDSLGY-SKCVLIGHDWGGMIAW--LIAICYPEMVMKLIV-    191
+
+Q94DD0           167 AVNYWWP---------MPASVSASAYRKLDVGDRRTFWIAHHMPWLFYAW    207
+                      :|:..|         .||.:..|:|                     |.:
+Q8IUS5           192 -INFPHPNVFTEYILRHPAQLLKSSY---------------------YYF    219
+
+Q94DD0           208 FNQKWFRISPIVEGKPE-AFTEKDWEILAEIQRTGQLDRGRATKQGAYHS    256
+                     |...||         || .|:..|:::|..:..:.....||   :|    
+Q8IUS5           220 FQIPWF---------PEFMFSINDFKVLKHLFTSHSTGIGR---KG----    253
+
+Q94DD0           257 LCRDATILFGAWEF---DPTAIENPFPNGDGVVS---------------I    288
+                      |:..|....|:.:   .|.|:..|..:...:.|               :
+Q8IUS5           254 -CQLTTEDLEAYIYVFSQPGALSGPINHYRNIFSCLPLKHHMVTTPTLLL    302
+
+Q94DD0           289 WQGREDKIVRVE--------AQRY-----VAEKLPWVRYHEHPEGGHLFM    325
+                     | |..|..:.||        .:.|     ::|...|:: .:.|:      
+Q8IUS5           303 W-GENDAFMEVEMAEVTKIYVKNYFRLTILSEASHWLQ-QDQPD------    344
+
+Q94DD0           326 CADGLGDKIVRELL---LGEEPR    345
+                             ||.:|:   |.||.|
+Q8IUS5           345 --------IVNKLIWTFLKEETR    359
+
+
+#---------------------------------------
+#---------------------------------------

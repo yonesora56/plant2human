@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed 13 Nov 2024 01:59:16
+# Commandline: water
+#    -asequence /var/lib/cwl/stg19d99002-590c-461b-a128-655bbfab1f21/split_fasta_query_species/q5vpe3.fasta
+#    -bsequence /var/lib/cwl/stg231241ad-367d-4d54-b917-7a8471042184/split_fasta_hit_species/q8ix15.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/q5vpe3_q8ix15_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/q5vpe3_q8ix15_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q5VPE3
+# 2: Q8IX15
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 272
+# Identity:      56/272 (20.6%)
+# Similarity:    81/272 (29.8%)
+# Gaps:          85/272 (31.2%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+Q5VPE3            14 SQGSLTSSTTTTSSP------GAGSSSPWAAALNSIVGDVRRDQAA--AH     55
+                     |..|:|.|:::|||.      ||.::|.....|..:...|...:.|  .|
+Q8IX15           277 SASSVTPSSSSTSSSFQVLANGATAASKPLQPLGCVPQSVSPSEQALPPH    326
+
+Q5VPE3            56 AAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGKRERELERSGSGVDDD    105
+                     ...|...|:        |.::.|.........|...:|:           
+Q8IX15           327 LEPAWPQGL--------RHNSVPGRVGPTEYLSPDMQRQ-----------    357
+
+Q5VPE3           106 DGADGAGGRKKLRLSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQ    155
+                             ||..|.:|:|.|:|:..|........:....|....||...:
+Q8IX15           358 --------RKTKRKTKEQLAILKSFFLQCQWARREDYQKLEQITGLPRPE    399
+
+Q5VPE3           156 VEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKA    205
+                     :..||.:.|...|..|.        :|..    :|              |
+Q8IX15           400 IIQWFGDTRYALKHGQL--------KWFR----DN--------------A    423
+
+Q5VPE3           206 APSPASASAMQPSSSAAATLTMCPSCR----RVATAGAPHQP--------    243
+                     .|.       .||....|..|..||.|    |..|...|..|        
+Q8IX15           424 VPG-------APSFQDPAIPTPPPSTRSLNERAETPPLPIPPPPPDIQPL    466
+
+Q5VPE3           244 -----NHQQCHPKSNTTISSSS    260
+                          .|||........:|.:|
+Q8IX15           467 ERYWAAHQQLRETDIPQLSQAS    488
+
+
+#---------------------------------------
+#---------------------------------------

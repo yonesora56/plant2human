@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Wed 13 Nov 2024 01:59:22
+# Commandline: needle
+#    -asequence /var/lib/cwl/stgb8814e0a-0a54-4727-bac4-2520806293ee/split_fasta_query_species/q94dd0.fasta
+#    -bsequence /var/lib/cwl/stgf439d932-869d-4652-a7a8-7a0e2a955c92/split_fasta_hit_species/p07098.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/q94dd0_p07098_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/q94dd0_p07098_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Q94DD0
+# 2: P07098
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 460
+# Identity:      92/460 (20.0%)
+# Similarity:   150/460 (32.6%)
+# Gaps:         175/460 (38.0%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+Q94DD0             1 ---MVALSKL--VLITAVALLGWAYKVARPPPPPILGGPGGPPVSSPRVQ     45
+                        ::.::.|  ||.|...|.|..:             ||.|.|:....|
+P07098             1 MWLLLTMASLISVLGTTHGLFGKLH-------------PGSPEVTMNISQ     37
+
+Q94DD0            46 L---------------KDG-----RHLAYREAGVGREIAKYKIIFSHGF-     74
+                     :               :||     ..:.|.:...|....:..:...||. 
+P07098            38 MITYWGYPNEEYEVVTEDGYILEVNRIPYGKKNSGNTGQRPVVFLQHGLL     87
+
+Q94DD0            75 --ASTKESDFPVSQELAEELGIYLLYFDRAGY----GDSDAN--PKRGLK    116
+                       |:...|:.| :..||..|.       .|||    |:|..|  .:|.|.
+P07098            88 ASATNWISNLP-NNSLAFILA-------DAGYDVWLGNSRGNTWARRNLY    129
+
+Q94DD0           117 SDATDVE-------ELADKLQL-----------GEK-FYVVGTSMG---G    144
+                     .....||       |:| |..|           |:| .:.||.|.|   |
+P07098           130 YSPDSVEFWAFSFDEMA-KYDLPATIDFIVKKTGQKQLHYVGHSQGTTIG    178
+
+Q94DD0           145 YVAWSCLNYIP------YRLAGVALV---VPAVNYWWPMPASVSASAYRK    185
+                     ::|:|....:.      |.||.||.|   ...:|....:|.|:.     |
+P07098           179 FIAFSTNPSLAKRIKTFYALAPVATVKYTKSLINKLRFVPQSLF-----K    223
+
+Q94DD0           186 LDVGDRRTFWIAHHMPWLFYA---------------------WFNQKWFR    214
+                     ...||:  .:..|:....|.|                     .|:.|.|.
+P07098           224 FIFGDK--IFYPHNFFDQFLATEVCSREMLNLLCSNALFIICGFDSKNFN    271
+
+Q94DD0           215 IS-----------------------PIVEGKPEAFTEKDWEILAEIQRTG    241
+                     .|                       .:..||.:|:   ||.  :.:|...
+P07098           272 TSRLDVYLSHNPAGTSVQNMFHWTQAVKSGKFQAY---DWG--SPVQNRM    316
+
+Q94DD0           242 QLDRGRATKQGAYHSLCRDATILFGAWEFDPTAIENPFPNGDGVVSIWQG    291
+                     ..|:    .|..|:::               ||:..|       :::|.|
+P07098           317 HYDQ----SQPPYYNV---------------TAMNVP-------IAVWNG    340
+
+Q94DD0           292 REDKIVRVEAQRYVAEKLPWVRYH-EHPEGGHL-FMCADGLGDKIVREL-    338
+                     .:|.:...:....:..|||.:.|| |.|...|| |:.|.....::..:: 
+P07098           341 GKDLLADPQDVGLLLPKLPNLIYHKEIPFYNHLDFIWAMDAPQEVYNDIV    390
+
+Q94DD0           339 -LLGEEPRDL    347
+                      ::.|:.:  
+P07098           391 SMISEDKK--    398
+
+
+#---------------------------------------
+#---------------------------------------
