@@ -1,18 +1,19 @@
 # plant2human workflow
 
 This analysis workflow is centered on [foldseek](https://github.com/steineggerlab/foldseek), which enables fast structural similarity searches, and supports the discovery of understudied genes by comparing plants, which are distantly related species, with human, for which there is a wealth of information.
+Based on the list of genes you are interested in, you can easily create a scatter plot of **“structural similarity vs. sequence similarity”** by retrieving structural data from the AlphaFold protein structure database.
 
 &nbsp;
 
 ## Analysis environment
 
-You can create an analysis environment using the [Dev Containers](./.devcontainer/devcontainer.json) of VScode extension.
+You can create an analysis environment using the [Dev Containers](./.devcontainer/devcontainer.json), which is one of VScode extensions.
 Please check the official website for details.
 - [VScode Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers)
 
 &nbsp;
 
-## Example (Oryza sativa vs Homo sapiens)
+## Example 1 ( *Oryza sativa* vs *Homo sapiens*)
 
 Here, we will explain how to use the list of rice genes as an example.
 
@@ -54,3 +55,7 @@ cwltool --debug --outdir ./test/oryza_sativa_test ./Tools/01_uniprot_idmapping.c
 ```
 In this execution, [mmcif files](./test/oryza_sativa_test/rice_random_gene_mmcif) are also retrieved.
 The actual execution results are output together with the [jupyter notebook](./test/oryza_sativa_test/rice_random_gene_uniprot_idmapping.ipynb).
+
+&nbsp;
+
+### 2. 
