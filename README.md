@@ -17,7 +17,7 @@ Please check the official website for details.
 
 Here, we will explain how to use the list of rice genes as an example.
 
-### 1. Creation of a TSV file of gene and UniProt ID correspondences
+### **1. Creation of a TSV file of gene and UniProt ID correspondences**
 
 First, you will need the following gene list tsv file. (Please set the column name as "From")
 
@@ -58,4 +58,76 @@ The actual execution results are output together with the [jupyter notebook](./t
 
 &nbsp;
 
-### 2. 
+### **2. Creating and preparing indexes**
+
+I'm sorry, but the [main workflow](./Workflow/plant2human_v1.0.1.cwl) does not currently include the creation of an index (both for foldseek index and BLAST index).
+Please perform the following processes in advance.
+
+### 2-1. Creating a foldseek index
+
+In this workflow, the target of the structural similarity search is specified as the AlphaFold database in order to perform comparisons across a wider range of species.
+Index creation using the `foldseek databases` command is possible with [CWL Command Line Tool file](./Tools/02_foldseek_database.cwl).
+
+Please select the database you want to use from `Alphafold/UniProt`, `Alphafold/UniProt50-minimal`, `Alphafold/UniProt50`, `Alphafold/Proteome`, `Alphafold/Swiss-Prot`.
+You can check the details of this database using the following command.
+
+```bash
+docker run --rm quay.io/biocontainers/foldseek:9.427df8a--pl5321hb365157_1 foldseek databases --help
+```
+
+For example, if you want to specify AlphaFold/Swiss-Prot as the index, you can do so with the following command,
+
+```bash
+# using docker container
+docker run -u $(id -u):$(id -g) --rm -v $(pwd):/home -e HOME=/home --workdir /home quay.io/biocontainers/foldseek:9.427df8a--pl5321hb365157_1 foldseek databases Alphafold/Swiss-Prot swissprot tmp --threads 8
+
+# making directory
+mkdir ./index/index_swissprot
+
+# moving index file
+mv swissprot* ./index/index_swissprot/
+```
+Note: We have written a [CWL file describing above process](./Tools/02_foldseek_database.cwl), but we have confirmed that an error occurs and are in the process of correcting it.
+
+&nbsp;
+
+### 2-2. Downloading a BLAST index file
+
+An index FASTA file must be downloaded to obtain the amino acid sequence using the `blastdbcmd` command from the UniProt database.
+In this case, since it is a rice and human comparison, it can be downloaded as follows.
+
+```bash
+# Oryza sativa (all uniprot entries)
+curl -o uniprotkb_39947_all.fasta.gz "https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=fasta&query=%28organism_id%3A39947%29"
+
+gzip -d uniprotkb_39947_all.fasta.gz
+
+# Homo sapiens (all uniprot entries)
+curl -o uniprotkb_9606_all.fasta.gz "https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=fasta&query=%28organism_id%3A9606%29"
+
+gzip -d uniprotkb_9606_all.fasta.gz
+```
+
+&nbsp;
+
+### 3. Execution of the [main workflow](./Workflow/plant2human_v1.0.1.cwl)
+
+In this process, we perform a structural similarity search using `foldseek easy-search`, and then perform a pairwise alignment of the amino acid sequences of the hit pairs using `needle` and `water`.
+Finally, we create a scatter plot based on this information and output a [jupyter notebook](./test/oryza_sativa_test/plant2human_report.ipynb) as a report.
+Examples of commands are as follows.
+
+```bash
+cwltool --debug --outdir ./test/oryza_sativa_test ./Workflow/plant2human_v1.0.1.cwl ./job/plant2human_job_example_os.yml
+```
+
+&nbsp;
+
+For example, you can visualize the results of structural similarity and global alignment, as shown below.
+
+![image](./image/rice_test_scatter_plot.png)
+
+&nbsp;
+
+The following scatter diagram can also be obtained from the test results of [Zey mays random 100 genes](./test/zea_mays_test).
+
+![image](./image/zey_mays_scatter_plot.png)
