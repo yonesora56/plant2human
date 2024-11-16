@@ -57,11 +57,11 @@ OUTPUT_FILE_NAME_HIT_SPECIES: "foldseek_result_hit_species.txt"  # default value
 SW_INPUT_FASTA_FILE_QUERY_SPECIES:  # default value of type 'File'.
     class: File
     format: http://edamontology.org/format_1929
-    location: ../test/oryza_sativa_test/uniprotkb_rice_all_240820.fasta
+    location: ../test/oryza_sativa_test/uniprotkb_39947_all.fasta
 W_INPUT_FASTA_FILE_HIT_SPECIES:  # default value of type 'File'.
     class: File
     format: http://edamontology.org/format_1929
-    location: ../test/oryza_sativa_test/uniprotkb_human_all_241107.fasta
+    location: ../test/oryza_sativa_test/uniprotkb_9606_all.fasta
 
 
 ROUTE_DATASET: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"  # default value of type 'string'.

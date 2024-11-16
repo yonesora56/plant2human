@@ -1,0 +1,79 @@
+INPUT_DIRECTORY:  # default value of type 'Directory'.
+    class: Directory
+    location: ../test/zea_mays_test/zea_mays_random_gene_mmcif/
+FILE_MATCH_PATTERN: "*.cif"  # default value of type 'string'.
+
+
+# foldseek inputs
+FOLDSEEK_INDEX:  # default value of type 'File'.
+    class: File
+    location: ../index/index_swissprot/swissprot
+    secondaryFiles:
+      - class: File
+        location: ../index/index_swissprot/swissprot_ca
+      - class: File
+        location: ../index/index_swissprot/swissprot_ca.dbtype
+      - class: File
+        location: ../index/index_swissprot/swissprot_ca.index
+      - class: File
+        location: ../index/index_swissprot/swissprot_h
+      - class: File
+        location: ../index/index_swissprot/swissprot_h.dbtype
+      - class: File
+        location: ../index/index_swissprot/swissprot_h.index
+      - class: File
+        location: ../index/index_swissprot/swissprot_mapping
+      - class: File
+        location: ../index/index_swissprot/swissprot_ss
+      - class: File
+        location: ../index/index_swissprot/swissprot_ss.dbtype
+      - class: File
+        location: ../index/index_swissprot/swissprot_ss.index
+      - class: File
+        location: ../index/index_swissprot/swissprot_taxonomy
+      - class: File
+        location: ../index/index_swissprot/swissprot.dbtype
+      - class: File
+        location: ../index/index_swissprot/swissprot.index
+      - class: File
+        location: ../index/index_swissprot/swissprot.lookup
+      - class: File
+        location: ../index/index_swissprot/swissprot.version
+
+OUTPUT_FILE_NAME1: "foldseek_output_swissprot_zm_random_evalue01.tsv"  # default value of type 'string'.
+EVALUE: 0.1  # default value of type 'double'.
+THREADS: 16  # default value of type 'int'.
+SPLIT_MEMORY_LIMIT: "120G"  # default value of type 'string'.
+TAXONOMY_ID_LIST: "9606,10090,3702,39947"  # default value of type 'string'.
+
+# filtering
+OUTPUT_FILE_NAME2: "foldseek_zm_random_9606.tsv"  # default value of type 'string'.
+WF_COLUMN_NUMBER_QUERY_SPECIES: 1  # default value of type 'int'.
+OUTPUT_FILE_NAME_QUERY_SPECIES: "foldseek_result_query_species.txt"  # default value of type 'string'.
+WF_COLUMN_NUMBER_HIT_SPECIES: 2  # default value of type 'int'.
+OUTPUT_FILE_NAME_HIT_SPECIES: "foldseek_result_hit_species.txt"  # default value of type 'string'.
+
+
+SW_INPUT_FASTA_FILE_QUERY_SPECIES:  # default value of type 'File'.
+    class: File
+    format: http://edamontology.org/format_1929
+    location: ../test/zea_mays_test/uniprotkb_4577_all.fasta
+SW_INPUT_FASTA_FILE_HIT_SPECIES:  # default value of type 'File'.
+    class: File
+    format: http://edamontology.org/format_1929
+    location: ../test/zea_mays_test/uniprotkb_9606_all.fasta
+
+
+ROUTE_DATASET: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"  # default value of type 'string'.
+OUTPUT_FILE_NAME3: "foldseek_hit_species_togoid_convert.tsv"  # default value of type 'string'.
+
+OUT_NOTEBOOK_NAME: "plant2human_report.ipynb"  # default value of type 'string'.
+QUERY_IDMAPPING_TSV:  # default value of type 'File'.
+    class: File
+    format: http://edamontology.org/format_3475
+    location: ../test/zea_mays_test/zea_mays_random_gene_idmapping_all.tsv
+
+QUERY_GENE_LIST_TSV:  # default value of type 'File'.
+    class: File
+    format: http://edamontology.org/format_3475
+    location: ../test/zea_mays_test/zea_mays_random_gene_list.tsv
