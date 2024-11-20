@@ -3,7 +3,7 @@ cwlVersion: v1.2
 class: Workflow
 label: "plant2human workflow"
 doc: |
-  Novel gene discovery workflow by comparing plant species and human based on structural similarity search.
+  "Novel gene discovery workflow by comparing plant species and human based on structural similarity search."
 
 requirements:
   - class: WorkReuse
@@ -14,8 +14,8 @@ requirements:
 inputs:
   # foldseek easy-search sub-workflow inputs
   - id: INPUT_DIRECTORY
-    label: "input cif file directory"
-    doc: "query protein structure cif file directory for foldseek easy-search input."
+    label: "input structure file directory"
+    doc: "query protein structure file (default: mmCIF) directory for foldseek easy-search input."
     type: Directory
     default:
       class: Directory
@@ -23,7 +23,7 @@ inputs:
 
   - id: FILE_MATCH_PATTERN
     label: "file match pattern"
-    doc: "file match pattern for listing input cif files."
+    doc: "file match pattern for listing input files. default: *.cif"
     type: string
     default: "*.cif"
   
@@ -32,7 +32,7 @@ inputs:
     doc: |
       foldseek index file for foldseek easy-search input.
       This index file can be retrieved by executing the `foldseek databases` command.
-      example: `foldseek databases Alphafold/Swiss-Prot index_swissprot/swissprot tmp --threads 16`
+      example: `foldseek databases Alphafold/Swiss-Prot index_swissprot/swissprot tmp --threads 8`
     type: File
     default:
       class: File
@@ -56,14 +56,14 @@ inputs:
 
   - id: OUTPUT_FILE_NAME1
     label: "output file name (foldseek easy-search)"
-    doc: "output file name for foldseek easy-search result."
+    doc: "output file name for foldseek easy-search result. Currently, this workflow only supports TSV file output."
     format: edam:data_1050
     type: string
     default: "foldseek_output_swissprot_up_all_evalue01.tsv"
 
   - id: EVALUE
     label: "e-value (foldseek easy-search)"
-    doc: "e-value threshold for foldseek easy-search. default: 0.1"
+    doc: "e-value threshold for foldseek easy-search. workflowdefault: 0.1"
     type: double
     default: 0.1
 
@@ -77,7 +77,7 @@ inputs:
     label: "split memory limit (foldseek easy-search)"
     doc: "split memory limit for foldseek easy-search. default: 120G"
     type: string
-    default: "120G"
+    default: "60G"
 
   # - id: PARAM_INPUT_FORMAT
   #   type: int
@@ -95,33 +95,33 @@ inputs:
   
   - id: OUTPUT_FILE_NAME2
     label: "output file name (extract target species)"
-    doc: "output file name for extract target species python script."
+    doc: "output file name for extract target species (default: human) python script."
     format: edam:data_1050
     type: string
     default: "foldseek_os_random_9606.tsv"
   
   - id: WF_COLUMN_NUMBER_QUERY_SPECIES
     label: "column number of query species"
-    doc: "column number of query species. default: 1"
+    doc: "column number of query species. default: 1 (UniProt ID list)"
     type: int
     default: 1
   
   - id: OUTPUT_FILE_NAME_QUERY_SPECIES
     label: "output file name (extract query species column)"
-    doc: "output file name for extract query species column python script."
+    doc: "output file name for extract query species column python script. default: foldseek_result_query_species.txt"
     format: edam:data_1050
     type: string
     default: "foldseek_result_query_species.txt"
 
   - id: WF_COLUMN_NUMBER_HIT_SPECIES
     label: "column number of hit species"
-    doc: "column number of hit species. default: 2"
+    doc: "column number of hit species. default: 2 (UniProt ID list)"
     type: int
     default: 2
   
   - id: OUTPUT_FILE_NAME_HIT_SPECIES
     label: "output file name (extract hit species column)"
-    doc: "output file name for extract hit species column python script."
+    doc: "output file name for extract hit species column python script. default: foldseek_result_hit_species.txt"
     format: edam:data_1050
     type: string
     default: "foldseek_result_hit_species.txt"
@@ -130,7 +130,7 @@ inputs:
   - id: SW_INPUT_FASTA_FILE_QUERY_SPECIES
     type: File
     label: "input fasta file (for blastdbcmd)"
-    doc: "input fasta file for blastdbcmd. Retrieve files in advance."
+    doc: "input fasta file for blastdbcmd. Retrieve files in advance. default: rice UniProt FASTA file"
     format: edam:format_1929
     default:
       class: File
@@ -140,7 +140,7 @@ inputs:
   - id: SW_INPUT_FASTA_FILE_HIT_SPECIES
     type: File
     label: "input fasta file (for blastdbcmd)"
-    doc: "input fasta file for blastdbcmd. Retrieve files in advance."
+    doc: "input fasta file for blastdbcmd. Retrieve files in advance. default: human UniProt FASTA file"
     format: edam:format_1929
     default:
       class: File
@@ -158,13 +158,13 @@ inputs:
   # togoid convert process
   - id: ROUTE_DATASET
     label: "route dataset (togoid convert)"
-    doc: "route dataset for togoid convert. default: uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
+    doc: "route dataset for togoid convert. This operation selects the UniProt ID of the target species (human) for which cross-references exist (final destination is HGNC gene symbol). default: uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
     type: string
     default: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
 
   - id: OUTPUT_FILE_NAME3
     label: "output file name (togoid convert)"
-    doc: "output file name for togoid convert python script."
+    doc: "output file name for togoid convert python script. default: foldseek_hit_species_togoid_convert.tsv"
     format: edam:data_1050
     type: string
     default: "foldseek_hit_species_togoid_convert.tsv"
@@ -172,14 +172,14 @@ inputs:
   # papermill process
   - id: OUT_NOTEBOOK_NAME
     label: "output notebook name (papermill)"
-    doc: "output notebook name for papermill."
+    doc: "output notebook name for papermill.  After the analysis workflow is output, it can be freely customized such as changing the parameter values. default: plant2human_report.ipynb"
     format: edam:data_1050
     type: string
     default: "plant2human_report.ipynb"
 
   - id: QUERY_IDMAPPING_TSV
     label: "query idmapping tsv (papermill)"
-    doc: "query idmapping tsv file. Retrieve files in advance."
+    doc: "query idmapping tsv file. Retrieve files in advance. default: rice UniProt ID mapping file"
     type: File
     format: edam:format_3475
     default:
@@ -189,7 +189,7 @@ inputs:
 
   - id: QUERY_GENE_LIST_TSV
     label: "query gene list tsv (papermill)"
-    doc: "query gene list tsv file. Retrieve files in advance."
+    doc: "query gene list tsv file. Retrieve files in advance. default: rice random gene list"
     type: File
     format: edam:format_3475
     default:
@@ -287,7 +287,7 @@ outputs:
 
   - id: FASTA_FILES1
     label: "split fasta files (seqretsplit query species)"
-    doc: "split fasta files for seqretsplit query species."
+    doc: "split fasta files using seqretsplit for pairwise sequence alignment."
     type: File[]
     format: edam:format_1929
     outputSource: sub_workflow_retrieve_sequence_query_species/output_split_fasta_files_query_species
@@ -300,7 +300,7 @@ outputs:
 
   - id: FASTA_FILES2
     label: "split fasta files (seqretsplit hit species)"
-    doc: "split fasta files for seqretsplit hit species."
+    doc: "split fasta files using seqretsplit for pairwise sequence alignment."
     type: File[]
     format: edam:format_1929
     outputSource: sub_workflow_retrieve_sequence_query_species/output_split_fasta_files_hit_species
@@ -308,26 +308,26 @@ outputs:
   # sub-workflow retrieve sequence outputs (needle)
   - id: DIR3
     label: "needle result directory"
-    doc: "needle result directory."
+    doc: "needle (global alignment) result directory."
     type: Directory
     outputSource: sub_workflow_retrieve_sequence_query_species/output_needle_result_dir
 
   - id: NEEDLE_RESULT_FILE
     label: "needle result file (.needle)"
-    doc: "needle result files. suffix is .needle."
+    doc: "needle (global alignment) result files. suffix is .needle."
     type: File[]
     outputSource: sub_workflow_retrieve_sequence_query_species/output_needle_result_file
 
   # sub-workflow retrieve sequence outputs (water)
   - id: DIR4
     label: "water result directory"
-    doc: "water result directory."
+    doc: "water (local alignment) result directory."
     type: Directory
     outputSource: sub_workflow_retrieve_sequence_query_species/output_water_result_dir
 
   - id: WATER_RESULT_FILE
     label: "water result file (.water)"
-    doc: "water result files. suffix is .water."
+    doc: "water (local alignment) result files. suffix is .water."
     type: File[]
     outputSource: sub_workflow_retrieve_sequence_query_species/output_water_result_file
 
@@ -348,6 +348,8 @@ outputs:
 # ----------STEPS----------
 steps:
   sub_workflow_foldseek_easy_search:
+    label: "foldseek easy-search sub-workflow process"
+    doc: "Execute foldseek easy-search using foldseek using BioContainers docker image. This workflow supports only TSV file output. execute: ./10_foldseek_easy_search_wf.cwl"
     run: ./10_foldseek_easy_search_wf.cwl
     in:
       INPUT_DIRECTORY: INPUT_DIRECTORY
@@ -362,6 +364,8 @@ steps:
       - tsvfile
 
   extract_target_species:
+    label: "extract target species (human) process"
+    doc: "Extract target species (human) from foldseek easy-search result. execute: ../Tools/12_extract_target_species.cwl"
     run: ../Tools/12_extract_target_species.cwl
     in:
       input_file: sub_workflow_foldseek_easy_search/tsvfile # workflow input
@@ -370,6 +374,8 @@ steps:
       - output_extract_file
   
   extract_query_species_column:
+    label: "extract query species column process"
+    doc: "Extract query species column (UniProt ID list) from foldseek easy-search result. execute: ../Tools/13_extract_id.cwl"
     run: ../Tools/13_extract_id.cwl
     in:
       tsvfile: extract_target_species/output_extract_file # workflow input
@@ -379,6 +385,8 @@ steps:
       - output_file
 
   extract_hit_species_column:
+    label: "extract hit species column process"
+    doc: "Extract hit species column (UniProt ID list) from foldseek easy-search result. execute: ../Tools/13_extract_id.cwl"
     run: ../Tools/13_extract_id.cwl
     in:
       tsvfile: extract_target_species/output_extract_file # workflow input
@@ -388,16 +396,18 @@ steps:
       - output_file
 
   sub_workflow_retrieve_sequence_query_species:
-    run: ./11_retrieve_sequence_wf.cwl
+    label: "retrieve sequence sub-workflow process using EMBOSS package"
     doc: |
       "
-      retrieve sequence from blastdbcmd result
-      makeblastdb: ../Tools/14_makeblastdb.cwl
+      In this process, pairwise alignment (needle and water) is performed on the pairs that were found in the structural similarity search to obtain information on sequence similarity (identity and similarity).
+      execute: ./11_retrieve_sequence_wf.cwl 
+      retrieve sequence from blastdbcmd result: makeblastdb: ../Tools/14_makeblastdb.cwl
       blastdbcmd: ../Tools/15_blastdbcmd.cwl
-      seqretsplit: ../Tools/16_seqretsplit.cwl
+      split fasta files for seqretsplit: ../Tools/16_seqretsplit.cwl
       needle (Global alignment): ../Tools/17_needle.cwl
       water (Local alignment): ../Tools/17_water.cwl
       "
+    run: ./11_retrieve_sequence_wf.cwl
     in:
       INPUT_FASTA_FILE_QUERY_SPECIES: SW_INPUT_FASTA_FILE_QUERY_SPECIES
       INPUT_FASTA_FILE_HIT_SPECIES: SW_INPUT_FASTA_FILE_HIT_SPECIES
@@ -425,6 +435,8 @@ steps:
       - output_water_result_file
   
   togoid_convert:
+    label: "togoid convert process"
+    doc: "retrieve UniProt ID to HGNC gene symbol. execute: ../Tools/18_togoid_convert.cwl"
     run: ../Tools/18_togoid_convert.cwl
     in:
       id_convert_file: extract_hit_species_column/output_file # workflow input
@@ -434,6 +446,8 @@ steps:
       - output_file
 
   papermill:
+    label: "papermill process"
+    doc: "output notebook using papermill. This process allows you to create a scatter plot of structural similarity vs. sequence similarity. execute: ../Tools/19_papermill.cwl"
     run: ../Tools/19_papermill.cwl
     in:
       report_notebook_name: OUT_NOTEBOOK_NAME

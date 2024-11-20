@@ -1,25 +1,44 @@
-# plant2human workflow
+# plant2human workflow ~ structural similarity vs. sequence similarity ~
 
-This analysis workflow is centered on [foldseek](https://github.com/steineggerlab/foldseek), which enables fast structural similarity searches, and supports the discovery of understudied genes by comparing plants, which are distantly related species, with human, for which there is a wealth of information.
-Based on the list of genes you are interested in, you can easily create a scatter plot of **“structural similarity vs. sequence similarity”** by retrieving structural data from the AlphaFold protein structure database.
+[![cwltool](https://img.shields.io/badge/cwltool-3.1.20241112140730-success)](https://github.com/common-workflow-language/cwltool/releases/tag/3.1.20241112140730)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![Version](https://img.shields.io/badge/version-1.0.1-brightgreen)](https://github.com/yonesora56/plant2human/releases/tag/v1.0.1)
+![Status](https://img.shields.io/badge/status-development-yellow)
+
+
+This analysis workflow is centered on [foldseek](https://github.com/steineggerlab/foldseek), which enables fast structural similarity searches and supports the discovery of understudied genes by comparing plants, which are distantly related species, with humans, for which there is a wealth of information.
+Based on the list of genes you are interested in, you can easily create a scatter plot of **“structural similarity vs. sequence similarity”** by retrieving structural data from the [AlphaFold protein structure database](https://alphafold.ebi.ac.uk/).
 
 &nbsp;
 
-## Analysis environment
+## Implementation Background
 
-You can create an analysis environment using the [Dev Containers](./.devcontainer/devcontainer.json), which is one of VScode extensions.
+In recent years, with the [AlphaFold protein structure database](https://alphafold.ebi.ac.uk/), it has become easier to obtain protein structure prediction data and perform structural similarity searches even for plant species such as rice. Against this background, searching for hits with **“low sequence similarity and high structural similarity”** for the gene groups being focused on has become possible. This approach may allow us to discover proteins that are conserved in distantly related species and to consider the characteristics of these proteins based on the wealth of knowledge we have about humans.
+
+&nbsp;
+
+## Analysis Environment
+
+### **1. Using Dev Containers**
+
+Using the [Dev Containers](./.devcontainer/devcontainer.json), you can create an analysis environment using a VScode extension.
 Please check the official website for details.
-- [VScode Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers)
+- [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
+- [Development Containers](https://containers.dev/)
+
+### **2. Executing with cwltool**
+
+This analysis workflow is tested using [cwltool](https://github.com/common-workflow-language/cwltool) version 3.1.20241112140730.
 
 &nbsp;
 
 ## Example 1 ( *Oryza sativa* vs *Homo sapiens*)
 
-Here, we will explain how to use the list of rice genes as an example.
+Here, we will explain how to use the list of 10 rice genes as an example.
 
 ### **1. Creation of a TSV file of gene and UniProt ID correspondences**
 
-First, you will need the following gene list tsv file. (Please set the column name as "From")
+First, you need the following [gene list tsv file](./test/oryza_sativa_test/oryza_sativa_random_gene_list.tsv). (Please set the column name as "From")
 
 ```tsv
 From
@@ -48,27 +67,27 @@ Os12g0159500	B9GBZ8
 ...
 ```
 To do this, you need to follow the CWL workflow command below.
-This [yaml file](./job/uniprot_idmapping_job_example_os.yml) is the parameter file for the workflow for example.
+This [yaml file](./job/uniprot_idmapping_job_example_os.yml) is the parameter file for the workflow, for example.
 
 ```bash
 cwltool --debug --outdir ./test/oryza_sativa_test ./Tools/01_uniprot_idmapping.cwl ./job/uniprot_idmapping_job_example_os.yml
 ```
 In this execution, [mmcif files](./test/oryza_sativa_test/rice_random_gene_mmcif) are also retrieved.
-The actual execution results are output together with the [jupyter notebook](./test/oryza_sativa_test/rice_random_gene_uniprot_idmapping.ipynb).
+The execution results are output with the [jupyter notebook](./test/oryza_sativa_test/rice_random_gene_uniprot_idmapping.ipynb).
 
 &nbsp;
 
-### **2. Creating and preparing indexes**
+### **2. Creating and Preparing Indexes**
 
 I'm sorry, but the [main workflow](./Workflow/plant2human_v1.0.1.cwl) does not currently include the creation of an index (both for foldseek index and BLAST index).
 Please perform the following processes in advance.
 
-### 2-1. Creating a foldseek index
+#### 2-1. Creating a Foldseek Index
 
-In this workflow, the target of the structural similarity search is specified as the AlphaFold database in order to perform comparisons across a wider range of species.
-Index creation using the `foldseek databases` command is possible with [CWL Command Line Tool file](./Tools/02_foldseek_database.cwl).
+In this workflow, the target of the structural similarity search is specified as the AlphaFold database to perform comparisons across a broader range of species.
+Index creation using the `foldseek databases` command is through the following command.
 
-Please select the database you want to use from `Alphafold/UniProt`, `Alphafold/UniProt50-minimal`, `Alphafold/UniProt50`, `Alphafold/Proteome`, `Alphafold/Swiss-Prot`.
+Please select the database you want to use from `Alphafold/UniProt,` `Alphafold/UniProt50-minimal`, `Alphafold/UniProt50`, `Alphafold/Proteome,` `Alphafold/Swiss-Prot.`
 You can check the details of this database using the following command.
 
 ```bash
@@ -87,14 +106,14 @@ mkdir ./index/index_swissprot
 # moving index file
 mv swissprot* ./index/index_swissprot/
 ```
-Note: We have written a [CWL file describing above process](./Tools/02_foldseek_database.cwl), but we have confirmed that an error occurs and are in the process of correcting it.
+**Note:** We have written a [CWL file describing the above process](./Tools/02_foldseek_database.cwl), but we have confirmed an error and are correcting it.
 
 &nbsp;
 
-### 2-2. Downloading a BLAST index file
+#### 2-2. Downloading a BLAST Index File
 
 An index FASTA file must be downloaded to obtain the amino acid sequence using the `blastdbcmd` command from the UniProt database.
-In this case, since it is a rice and human comparison, it can be downloaded as follows.
+Since it is a rice and human comparison, it can be downloaded as follows.
 
 ```bash
 # Oryza sativa (all uniprot entries)
@@ -110,24 +129,25 @@ gzip -d uniprotkb_9606_all.fasta.gz
 
 &nbsp;
 
-### 3. Execution of the [main workflow](./Workflow/plant2human_v1.0.1.cwl)
+### 3. Execution of the [Main Workflow](./Workflow/plant2human_v1.0.1.cwl)
 
-In this process, we perform a structural similarity search using `foldseek easy-search`, and then perform a pairwise alignment of the amino acid sequences of the hit pairs using `needle` and `water`.
-Finally, we create a scatter plot based on this information and output a [jupyter notebook](./test/oryza_sativa_test/plant2human_report.ipynb) as a report.
+In this process, we perform a structural similarity search using the `foldseek easy-search` command and then perform a pairwise alignment of the amino acid sequences of the hit pairs using the `needle` and `water` commands.
+Finally, based on this information, we create a scatter plot and output a [jupyter notebook](./test/oryza_sativa_test/plant2human_report.ipynb) as a report.
 Examples of commands are as follows.
 
 ```bash
-cwltool --debug --outdir ./test/oryza_sativa_test ./Workflow/plant2human_v1.0.1.cwl ./job/plant2human_job_example_os.yml
+cwltool --debug --outdir ./test/oryza_sativa_test ./Workflow/plant2human.cwl ./job/plant2human_job_example_os.yml
 ```
 
 &nbsp;
 
 For example, you can visualize the results of structural similarity and global alignment, as shown below.
+In this case, the x-axis represents the global alignment similarity match (%), and the y-axis represents the LDDT score (an indicator of structural alignment).
 
 ![image](./image/rice_test_scatter_plot.png)
 
 &nbsp;
 
-The following scatter diagram can also be obtained from the test results of [Zey mays random 100 genes](./test/zea_mays_test).
+The following scatter diagram can also be obtained from the test results of [Zey Mays random 100 genes vs. Homo sapiens](./test/zea_mays_test).
 
 ![image](./image/zey_mays_scatter_plot.png)
