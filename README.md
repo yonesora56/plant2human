@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.1-brightgreen)](https://github.com/yonesora56/plant2human/releases/tag/v1.0.1)
 ![Status](https://img.shields.io/badge/status-development-yellow)
+[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=open&color=blue&logo=docker)](https://github.com/yonesora56/plant2human/tree/main/.devcontainer)
 
 
 This analysis workflow is centered on [foldseek](https://github.com/steineggerlab/foldseek), which enables fast structural similarity searches and supports the discovery of understudied genes by comparing plants, which are distantly related species, with humans, for which there is a wealth of information.
