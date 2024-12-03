@@ -1,4 +1,4 @@
-# plant2human workflow ~ structural similarity vs. sequence similarity ~
+# plant2human workflow
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/yonesora56/plant2human/main)
 ![Status](https://img.shields.io/badge/status-development-yellow)
@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.1-brightgreen)](https://github.com/yonesora56/plant2human/releases/tag/v1.0.1)
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=python3.11&color=blue&logo=docker)](https://github.com/yonesora56/plant2human/tree/main/.devcontainer)
-
+[![X (@yonesora56)](https://img.shields.io/badge/yonesora56-black?style=flat&logo=x&logoColor=white)](https://twitter.com/yonesora56)
 
 
 This analysis workflow is centered on [foldseek](https://github.com/steineggerlab/foldseek), which enables fast structural similarity searches and supports the discovery of understudied genes by comparing plants, which are distantly related species, with humans, for which there is a wealth of information.
@@ -22,9 +22,9 @@ In recent years, with the [AlphaFold protein structure database](https://alphafo
 
 ## Analysis Environment
 
-### **1. Using Dev Containers**
+### **1. Using Dev Containers (Docker and VScode extension)**
 
-Using the [Dev Containers](./.devcontainer/devcontainer.json), you can create an analysis environment using a VScode extension.
+You can create an analysis environment using [Dev Containers](./.devcontainer/devcontainer.json), a VScode extension.
 Please check the official website for details.
 - [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
 - [Development Containers](https://containers.dev/)
@@ -154,3 +154,9 @@ In this case, the x-axis represents the global alignment similarity match (%), a
 The following scatter diagram can also be obtained from the test results of [Zey Mays random 100 genes vs. Homo sapiens](./test/zea_mays_test).
 
 ![image](./image/zey_mays_scatter_plot.png)
+
+&nbsp;
+
+## Citation
+
+[![DOI](https://img.shields.io/badge/DOI-10.48546%2FWORKFLOWHUB.WORKFLOW.1206.3-blue)](https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.1206.3)
