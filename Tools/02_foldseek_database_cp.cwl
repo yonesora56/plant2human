@@ -1,5 +1,5 @@
 #!/usr/bin/env cwl-runner
-# Generated from: foldseek databases Alphafold/Swiss-Prot index_swissprot tmp --threads 16
+# Generated from: foldseek databases CATH50 cath50 tmp --threads 16
 class: CommandLineTool
 cwlVersion: v1.2
 
@@ -19,6 +19,9 @@ inputs:
   - id: index_name
     type: string
     default: "swissprot"
+  - id: tmp_dir
+    type: string
+    default: "tmp"
   - id: threads
     type: int
     default: 16
@@ -27,7 +30,7 @@ arguments:
   - shellQuote: false
     valueFrom: |
       mkdir -p $(inputs.index_dir_name)
-      foldseek databases $(inputs.database) $(inputs.index_dir_name)/$(inputs.index_name) $(runtime.tmpdir) --threads $(inputs.threads)
+      foldseek databases $(inputs.database) $(inputs.index_dir_name)/$(runtime.tmpdir) $(inputs.tmp_dir) --threads $(inputs.threads)
 
 outputs:
   - id: all-for-debugging
