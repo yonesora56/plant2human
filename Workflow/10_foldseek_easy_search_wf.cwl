@@ -124,7 +124,7 @@ steps:
   foldseek_easy_search:
     run: ../Tools/11_foldseek_easy_search.cwl
     in:
-      mmcif_files: list_files/files # workflow input
+      files: list_files/files # workflow input
       index: FOLDSEEK_INDEX
       output_file_name: OUTPUT_FILE_NAME1
       e_value: EVALUE

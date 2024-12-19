@@ -37,7 +37,7 @@ inputs:
     default:
       class: File
       format: edam:format_3475
-      location: ../Data/Data_HN5_genelist_rice_2402/HN5_genes_up_rice.tsv
+      location: ../test/oryza_sativa_test/oryza_sativa_random_gene_list.tsv
 
 
   - id: uniprot_api_query_db
@@ -136,6 +136,10 @@ outputs:
     doc: "id mapping all file"
     outputBinding:
       glob: "$(inputs.id_mapping_all_file_name)"
+
+# hints:
+#   - class: DockerRequirement
+#     dockerPull: quay.io/lifebitai/papermill:latest
 
 $namespaces:
   s: https://schema.org/

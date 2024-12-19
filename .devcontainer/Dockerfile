@@ -42,7 +42,8 @@ RUN pip install \
     PyYAML==6.0.1 \ 
     requests==2.31.0 \ 
     #python-dotenv==1.0.1 \
-    polars==1.12.0 \
+    #polars version update 2024-12-19
+    polars==1.17.1 \
     cwltool==3.1.20241112140730 \
     cwltest==2.5.20240906231108 \
     cwl_runner==1.0 \

@@ -1,8 +1,9 @@
 #!/usr/bin/env cwl-runner
 cwlVersion: v1.2
 class: Workflow
-label: "foldseek easy-search sub-workflow"
+label: "retrieve sequence and perform pairwise alignment (sub-workflow process)"
 doc: |
+  Perform pairwise alignment of protein sequences for pairs identified by structural similarity search.
   retrieve sequence from blastdbcmd result
   makeblastdb: ../Tools/14_makeblastdb.cwl
   blastdbcmd: ../Tools/15_blastdbcmd.cwl

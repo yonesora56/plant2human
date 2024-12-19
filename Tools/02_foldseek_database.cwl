@@ -26,7 +26,7 @@ inputs:
 arguments:
   - shellQuote: false
     valueFrom: |
-      mkdir -p $(inputs.index_dir_name)
+      mkdir -p $(inputs.index_dir_name) && \
       foldseek databases $(inputs.database) $(inputs.index_dir_name)/$(inputs.index_name) $(runtime.tmpdir) --threads $(inputs.threads)
 
 outputs:
