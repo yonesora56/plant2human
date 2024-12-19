@@ -2,9 +2,8 @@
 # Generated from: foldseek easy-search ../Data/rice_up_mmCIFfile/*.cif ../index/index_uniprot/uniprot ../out/foldseek_output_uniprot_up_all_evalue01.tsv ../tmp -e 0.1 --format-mode 4 --format-output query,target,evalue,prob,gapopen,pident,fident,nident,qstart,qend,qlen,tstart,tend,tlen,alnlen,qcov,tcov,lddt,qtmscore,ttmscore,alntmscore,rmsd,taxid,taxname,taxlineage,qaln,taln,mismatch,lddtfull --threads 10 --split-memory-limit 60G
 class: CommandLineTool
 cwlVersion: v1.2
-label: "Foldseek easy-search"
-doc: |
-  Foldseek easy-search process
+label: "foldseek easy-search"
+doc: "Foldseek easy-search command process. Performs structural similarity search of structure files (e.g., CIF format) obtained from 01_uniprot_id_mapping.cwl against the index."
 
 
 baseCommand: [foldseek, easy-search]
@@ -28,8 +27,9 @@ arguments:
   - --taxon-list
   - $(inputs.taxonomy_id_list)
 inputs:
-  - id: mmcif_files
-    label: "mmCIF files"
+  - id: files
+    label: "protein structure files"
+    doc: "protein structure files. e.g. ../Data/rice_up_mmCIFfile/*.cif"
     type: File[]
   
   - id: index
