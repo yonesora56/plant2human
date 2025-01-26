@@ -8,7 +8,7 @@ doc: "Foldseek easy-search command process. Performs structural similarity searc
 
 baseCommand: [foldseek, easy-search]
 arguments:
-  - $(inputs.mmcif_files)
+  - $(inputs.files)
   - $(inputs.index)
   - $(inputs.output_file_name)
   - $(runtime.tmpdir)
