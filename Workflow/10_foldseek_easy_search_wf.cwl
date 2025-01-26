@@ -63,6 +63,12 @@ inputs:
     type: double
     default: 0.1
 
+  - id: ALIGNMENT_TYPE
+    label: "alignment type"
+    doc: "alignment type for foldseek easy-search"
+    type: int
+    default: 2
+
   - id: FORMAT_MODE
     label: "format mode"
     doc: "format mode for foldseek easy-search"
@@ -128,6 +134,7 @@ steps:
       index: FOLDSEEK_INDEX
       output_file_name: OUTPUT_FILE_NAME1
       e_value: EVALUE
+      alignment_type: ALIGNMENT_TYPE
       format_mode: FORMAT_MODE
       format_output: FORMAT_OUTPUT
       threads: THREADS

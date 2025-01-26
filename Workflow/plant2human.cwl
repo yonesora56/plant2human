@@ -67,6 +67,12 @@ inputs:
     type: double
     default: 0.1
 
+  - id: ALIGNMENT_TYPE
+    label: "alignment type (foldseek easy-search)"
+    doc: "alignment type for foldseek easy-search"
+    type: int
+    default: 2
+
   - id: THREADS
     label: "threads (foldseek easy-search)"
     doc: "threads for foldseek easy-search. default: 16"
@@ -357,6 +363,7 @@ steps:
       FOLDSEEK_INDEX: FOLDSEEK_INDEX
       OUTPUT_FILE_NAME1: OUTPUT_FILE_NAME1
       EVALUE: EVALUE
+      ALIGNMENT_TYPE: ALIGNMENT_TYPE
       THREADS: THREADS
       SPLIT_MEMORY_LIMIT: SPLIT_MEMORY_LIMIT
       TAXONOMY_ID_LIST: TAXONOMY_ID_LIST

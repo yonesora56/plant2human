@@ -44,8 +44,8 @@ RUN pip install \
     #python-dotenv==1.0.1 \
     #polars version update 2024-12-19
     polars==1.17.1 \
-    cwltool==3.1.20241112140730 \
-    cwltest==2.5.20240906231108 \
+    cwltool==3.1.20250110105449 \
+    cwltest==2.5.20241122133319 \
     cwl_runner==1.0 \
     argparse==1.4.0 \
     #duckdb==1.0.0 \

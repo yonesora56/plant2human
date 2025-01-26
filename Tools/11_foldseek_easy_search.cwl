@@ -2,7 +2,7 @@
 # Generated from: foldseek easy-search ../Data/rice_up_mmCIFfile/*.cif ../index/index_uniprot/uniprot ../out/foldseek_output_uniprot_up_all_evalue01.tsv ../tmp -e 0.1 --format-mode 4 --format-output query,target,evalue,prob,gapopen,pident,fident,nident,qstart,qend,qlen,tstart,tend,tlen,alnlen,qcov,tcov,lddt,qtmscore,ttmscore,alntmscore,rmsd,taxid,taxname,taxlineage,qaln,taln,mismatch,lddtfull --threads 10 --split-memory-limit 60G
 class: CommandLineTool
 cwlVersion: v1.2
-label: "foldseek easy-search"
+label: "foldseek easy-search (3Di+AA mode)"
 doc: "Foldseek easy-search command process. Performs structural similarity search of structure files (e.g., CIF format) obtained from 01_uniprot_id_mapping.cwl against the index."
 
 
@@ -14,6 +14,8 @@ arguments:
   - $(runtime.tmpdir)
   - -e
   - $(inputs.e_value)
+  - --alignment-type
+  - $(inputs.alignment_type)
   - --format-mode
   - $(inputs.format_mode)
   - --format-output
@@ -71,6 +73,17 @@ inputs:
       E-value threshold for search results
     type: double
     default: 0.1
+
+  - id: alignment_type
+    label: "Alignment type (3Di+AA mode)"
+    doc: |
+      see `foldseek easy-search --help`
+      How to compute the alignment:
+      0: 3di alignment
+      1: TM alignment
+      2: 3Di+AA
+    type: int
+    default: 2
 
   - id: format_mode
     label: "Format mode"
@@ -136,7 +149,7 @@ outputs:
 
 hints:
   - class: DockerRequirement
-    dockerPull: quay.io/biocontainers/foldseek:9.427df8a--pl5321hb365157_1
+    dockerPull: quay.io/biocontainers/foldseek:10.941cd33--h5021889_1
 
 $namespaces:
   s: https://schema.org/
