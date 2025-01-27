@@ -149,7 +149,7 @@ outputs:
 
 hints:
   - class: DockerRequirement
-    dockerPull: quay.io/biocontainers/foldseek:10.941cd33--h5021889_1
+    dockerPull: quay.io/biocontainers/foldseek:9.427df8a--pl5321h5021889_2
 
 $namespaces:
   s: https://schema.org/
