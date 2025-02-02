@@ -28,32 +28,29 @@ RUN apt-get update && apt-get -y upgrade && apt-get install -y --no-install-reco
 RUN pip install \
     --upgrade pip \ 
     jupyter==1.0.0 \ 
-    ipykernel==6.29.4 \
-    pandas==2.2.0 \
+    ipykernel==6.29.5 \
+    pandas==2.2.3 \
     pyarrow==15.0.0 \
     upsetplot==0.9.0 \
     numpy==1.26.3 \
     matplotlib==3.8.2 \ 
     scipy==1.12.0 \
     statsmodels==0.14.1 \
+    argparse==1.4.0 \
     seaborn==0.13.2 \
     urllib3==2.1.0 \ 
     retry==0.9.2 \ 
     PyYAML==6.0.1 \ 
     requests==2.31.0 \ 
-    #python-dotenv==1.0.1 \
+    cwl_runner==1.0 \
     #polars version update 2024-12-19
     polars==1.17.1 \
+    ibis-framework==9.5.0 \
     cwltool==3.1.20250110105449 \
     cwltest==2.5.20241122133319 \
-    cwl_runner==1.0 \
-    argparse==1.4.0 \
-    #duckdb==1.0.0 \
-    unipressed==1.3.0 \
+    unipressed==1.4.0 \
     papermill==2.6.0 \
-    goatools==1.4.12 \
-    pipx==1.6.0 \
-    biopython==1.84
+    pipx==1.7.1
 
 RUN pipx install benten==2021.1.5
 
@@ -66,21 +63,4 @@ ARG zatsu_ver=v1.1.1
 RUN curl -fLSs https://github.com/tom-tan/zatsu-cwl-generator/releases/download/${zatsu_ver}/zatsu-cwl-generator-${zatsu_ver}-linux-x86_64.tar.xz | \
     tar Jxvf - && \
     mv zatsu-cwl-generator /usr/local/bin
-
-#install fasta36
-# ARG fasta36_ver="fasta-36.3.8i"
-# RUN curl -fLSs -o ${fasta36_ver}.tar.gz https://fasta.bioch.virginia.edu/wrpearson/fasta/fasta36/${fasta36_ver}.tar.gz && \
-#     tar zxvf ${fasta36_ver}.tar.gz && \
-#     cd ${fasta36_ver}/src && \
-#     make -f ../make/Makefile.linux64_sse2 all && \
-#     mv ../bin/* /usr/local/bin && \
-#     cd /usr/local/bin && \
-#     ln -s fasta36 fasta && \
-#     cd / && \
-#     rm -rf ${fasta36_ver} ${fasta36_ver}.tar.gz
-
-#install foldseek (Linux arm64) 2024-08-04 download from mmseqs.com
-# RUN curl -fLSs https://mmseqs.com/foldseek/foldseek-linux-arm64.tar.gz | \
-#     tar zxvf - -C /usr/local && \
-#     ln -s /usr/local/foldseek/bin/* /usr/local/bin/
 
