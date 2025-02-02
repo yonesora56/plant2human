@@ -2,7 +2,8 @@
 # Generated from: seqretsplit -sequence blastdbcmd_result_query_species.fasta -sformat1 fasta -sprotein1 -osdirectory2 split_fasta_query_species -auto
 class: CommandLineTool
 cwlVersion: v1.2
-# baseCommand: [seqretsplit]
+label: "seqretsplit command for split fasta file"
+doc: "seqretsplit command for split fasta file which is created by 15_blastdbcmd.cwl. Before executing, make sure the blastdbcmd result file is already created by 15_blastdbcmd.cwl"
 
 requirements:
   ShellCommandRequirement: {}
@@ -10,7 +11,8 @@ requirements:
 inputs:
   - id: sequence
     type: File
-    doc: "sequence file"
+    label: "sequence file"
+    doc: "sequence file (default: ../test/workflow_test/blastdbcmd_result_query_species.fasta)"
     format: edam:format_1929
     default:
       class: File
@@ -22,7 +24,8 @@ inputs:
   #   default: "fasta"
   - id: output_dir_name
     type: string
-    doc: "output directory name"
+    label: "output directory name"
+    doc: "output directory name (default: split_fasta_query_species)"
     default: "split_fasta_query_species"
 
 arguments:
@@ -34,10 +37,14 @@ arguments:
 outputs:
   - id: output_dir
     type: Directory
+    label: "output directory"
+    doc: "output directory"
     outputBinding:
       glob: "$(inputs.output_dir_name)"
   - id: split_fasta_files
     type: File[]
+    label: "split fasta files"
+    doc: "split fasta files"
     outputBinding:
       glob: "$(inputs.output_dir_name)/*.fasta"
 

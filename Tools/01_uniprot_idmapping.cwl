@@ -2,8 +2,7 @@
 class: CommandLineTool
 cwlVersion: v1.2
 label: "uniprot id mapping process"
-doc: |
-  jupyter notebook for UniProt id mapping.
+doc: "jupyter notebook for UniProt id mapping process. Using python package: unipressed, polars, requests, json, pathlib, typing"
 
 requirements:
   ShellCommandRequirement: {}

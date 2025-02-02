@@ -41,4 +41,4 @@ outputs:
 
 hints:
   - class: DockerRequirement
-    dockerPull: quay.io/biocontainers/foldseek:9.427df8a--pl5321hb365157_1
+    dockerPull: quay.io/biocontainers/foldseek:9.427df8a--pl5321h5021889_2

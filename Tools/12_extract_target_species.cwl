@@ -3,9 +3,7 @@
 class: CommandLineTool
 cwlVersion: v1.2
 label: "extract target species"
-doc: |
-  extract target species from foldseek easy-search result using python script
-  python script: ../scripts/extract_target_species.py
+doc: "extract target species (in this workflow, human is used as target species) from foldseek easy-search result using python script: ../scripts/extract_target_species.py"
 
 baseCommand: [python3]
 arguments:
@@ -20,6 +18,7 @@ arguments:
 inputs:
   - id: extract_target_species_py
     label: "extract target species python script"
+    doc: "extract target species python script"
     type: File
     format: edam:format_3996
     default:
@@ -28,6 +27,7 @@ inputs:
       location: ../scripts/extract_target_species.py
   - id: input_file
     label: "foldseek easy-search result"
+    doc: "foldseek easy-search result"
     type: File
     format: edam:format_3475
     default:
@@ -36,16 +36,20 @@ inputs:
       location: ../test/oryza_sativa_test/foldseek_output_swissprot_up_all_evalue01.tsv
   - id: target_species
     label: "target species"
+    doc: "target species"
     type: int
     default: 9606
   - id: output_file_name
     label: "output file name"
+    doc: "output file name"
     format: edam:data_1050
     type: string
     default: "foldseek_os_random_9606.tsv"
 
 outputs:
   - id: output_extract_file
+    label: "output extract file"
+    doc: "output extract file"
     type: File
     format: edam:format_3475
     outputBinding:

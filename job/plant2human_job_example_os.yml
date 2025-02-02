@@ -42,6 +42,7 @@ FOLDSEEK_INDEX:  # default value of type 'File'.
 
 OUTPUT_FILE_NAME1: "foldseek_output_swissprot_os_random_evalue01.tsv"  # default value of type 'string'.
 EVALUE: 0.1  # default value of type 'double'.
+ALIGNMENT_TYPE: 2  # default value of type 'int'.
 THREADS: 16  # default value of type 'int'.
 SPLIT_MEMORY_LIMIT: "120G"  # default value of type 'string'.
 TAXONOMY_ID_LIST: "9606,10090,3702,4577,4529"  # default value of type 'string'.

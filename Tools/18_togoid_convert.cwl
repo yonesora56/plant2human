@@ -2,10 +2,21 @@
 # Generated from: bash ./scripts/togoid_convert.sh ./test/workflow_test/foldseek_result_hit_species.txt uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol foldseek_hit_species_togoid_convert.tsv
 class: CommandLineTool
 cwlVersion: v1.2
-label: "togoid convert"
+label: "ID conversion using TOGO ID API"
 doc: |
-  togoid convert using TOGO ID API
-  see article: doi:10.1093/bioinformatics/btac491
+  "
+  ID conversion using TOGO ID API. 
+  Process for selecting hits in UniProt entries of target species (human in this workflow) hit by Foldseek for which cross-referencing to HGNC is maintained.
+  This process can be combined to make it easier to interpret the results of Foldseek.
+
+  [TogoID Article]
+  doi:10.1093/bioinformatics/btac491
+  [New TogoID Article]
+  doi:10.1186/s13326-024-00322-1
+
+  [TogoID Web Application] (2025/02/02 checked)
+  https://togoid.dbcls.jp/
+  "
 
 
 baseCommand: [bash]

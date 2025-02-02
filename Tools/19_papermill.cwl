@@ -3,8 +3,7 @@
 class: CommandLineTool
 cwlVersion: v1.2
 label: "papermill execution"
-doc: |
-  papermill execution for plant2human notebook report
+doc: "papermill execution for plant2human notebook report. This notebook includes a scatterplot of structural similarity vs. sequence similarity, etc. It can be customized according to the user's needs."
   
 
 requirements:
@@ -13,17 +12,23 @@ requirements:
 inputs:
   - id: foldseek_result_parse_notebook
     type: File
+    label: "jupyter notebook for parse workflow results so far"
+    doc: "jupyter notebook for parse workflow results so far (default: ../notebooks/foldseek_result_parse.ipynb)"
     default:
       class: File
       location: ../notebooks/foldseek_result_parse.ipynb
 
   - id: report_notebook_name
     type: string
+    label: "output notebook name"
+    doc: "output notebook name (default: plant2human_report.ipynb)"
     default: "plant2human_report.ipynb"
 
   - id: foldseek_result_tsv
     type: File
     format: edam:format_3475
+    label: "foldseek result tsv file"
+    doc: "foldseek result tsv file. Before executing, please make sure that you have already completed the execution with “12_extract_target_species.cwl”. (default: ../test/workflow_test/foldseek_rice_up_9606.tsv)"
     default:
       class: File
       format: edam:format_3475
@@ -32,6 +37,8 @@ inputs:
   - id: query_uniprot_idmapping_tsv
     type: File
     format: edam:format_3475
+    label: "query uniprot idmapping tsv file"
+    doc: "query uniprot idmapping tsv file. Before executing, please make sure that you have already completed the uniprot idmapping process. (default: ../test/workflow_test/rice_up_idmapping.tsv)"
     default:
       class: File
       format: edam:format_3475
@@ -39,12 +46,16 @@ inputs:
 
   - id: water_result_dir
     type: Directory
+    label: "water result directory"
+    doc: "water result directory. Before executing, please make sure that you have already completed the water process. (default: ../test/workflow_test/result_water/)"
     default:
       class: Directory
       location: ../test/workflow_test/result_water/
     
   - id: needle_result_dir
     type: Directory
+    label: "needle result directory"
+    doc: "needle result directory. Before executing, please make sure that you have already completed the needle process. (default: ../test/workflow_test/result_needle/)"
     default:
       class: Directory
       location: ../test/workflow_test/result_needle/
@@ -52,6 +63,8 @@ inputs:
   - id: query_gene_list_tsv
     type: File
     format: edam:format_3475
+    label: "query gene list tsv file"
+    doc: "query gene list tsv file. Before executing, please make sure that you have already completed the execution with “12_extract_target_species.cwl”. (default: ../test/workflow_test/HN5_genes_up_rice.tsv)"
     default:
       class: File
       format: edam:format_3475
@@ -60,6 +73,8 @@ inputs:
   - id: togoid_convert_tsv
     type: File
     format: edam:format_3475
+    label: "togoid convert tsv file"
+    doc: "togoid convert tsv file. Before executing, please make sure that you have already completed the execution with “18_togoid_convert.cwl”. (default: ../test/workflow_test/foldseek_hit_species_togoid_convert.tsv)"
     default:
       class: File
       format: edam:format_3475
@@ -80,6 +95,8 @@ arguments:
 outputs:
   - id: report_notebook
     type: File
+    label: "output notebook"
+    doc: "output notebook (default: plant2human_report.ipynb). Users can customize the notebook according to their needs."
     outputBinding:
       glob: "$(inputs.report_notebook_name)"
 

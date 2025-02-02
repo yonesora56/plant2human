@@ -3,6 +3,7 @@
 class: CommandLineTool
 cwlVersion: v1.2
 label: "makeblastdb command for blastdbcmd execution"
+doc: "makeblastdb command for blastdbcmd execution. Before executing, make sure all FASTA files (query species and target species) to be indexed are ready"
 
 requirements:
   ShellCommandRequirement: {}
@@ -12,12 +13,14 @@ requirements:
 inputs:
   - id: index_dir_name
     type: string
-    doc: "index directory name"
+    label: "index directory name"
+    doc: "index directory name (default: index_uniprot_rice)"
     default: index_uniprot_rice
   - id: input_fasta_file
     type: File
     format: edam:format_1929
-    doc: "input fasta file"
+    label: "input fasta file"
+    doc: "input fasta file (default: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta)"
     default:
       class: File
       format: edam:format_1929
@@ -33,10 +36,14 @@ arguments:
 outputs:
   - id: index_dir
     type: Directory
+    label: "index directory"
+    doc: "index directory"
     outputBinding:
       glob: "$(inputs.index_dir_name)"
   - id: index_file
     type: File
+    label: "index files"
+    doc: "index files"
     outputBinding:
       glob: "$(inputs.index_dir_name)/$(inputs.input_fasta_file.basename)"
     secondaryFiles:

@@ -4,9 +4,7 @@
 cwlVersion: v1.2
 class: CommandLineTool
 label: "extract result"
-doc:  |
-  extract result from tsv file based on taxonomy id (9606)
-  awk -> sort -> uniq -> redirect to uniprot_id.txt
+doc: "extract result from tsv file based on taxonomy id (9606) process: awk -> sort -> uniq -> redirect to uniprot_id.txt"
 
 requirements:
   ShellCommandRequirement: {}
@@ -14,6 +12,7 @@ requirements:
 inputs:
   - id: tsvfile
     label: "input tsv file"
+    doc: "input tsv file. This workflow assumes that the target species entries have already been extracted, i.e., the file 12_extract_target_species.cwl has been processed."
     type: File
     format: edam:format_3475
     default:
@@ -22,11 +21,13 @@ inputs:
       location: ../test/oryza_sativa_test/foldseek_os_random_9606.tsv
   - id: column_number
     type: int
-    doc: "column number"
+    label: "column number"
+    doc: "Column number with the UniProt ID of the species (in this workflow, query species or target species) to be extracted"
     default: 1
   - id: output_file_name
     type: string
-    doc: "output file (text file)"
+    label: "output file name"
+    doc: "output file name (text file)"
     default: "uniprot_id.txt"
 
 arguments:
@@ -40,6 +41,8 @@ arguments:
 outputs:
   - id: output_file
     type: File
+    label: "output text file"
+    doc: "output text file for using blastdbcmd process."
     format: edam:format_3475
     outputBinding:
       glob: "$(inputs.output_file_name)"
