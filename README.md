@@ -2,7 +2,7 @@
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/yonesora56/plant2human/main)
 ![Status](https://img.shields.io/badge/status-development-yellow)
-[![cwltool](https://img.shields.io/badge/cwltool-3.1.20241112140730-success)](https://github.com/common-workflow-language/cwltool/releases/tag/3.1.20241112140730)
+[![cwltool](https://img.shields.io/badge/cwltool-3.1.20250110105449-success)](https://github.com/common-workflow-language/cwltool/releases/tag/3.1.20250110105449)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.1-brightgreen)](https://github.com/yonesora56/plant2human/releases/tag/v1.0.1)
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=python3.11&color=blue&logo=docker)](https://github.com/yonesora56/plant2human/tree/main/.devcontainer)
@@ -11,6 +11,14 @@
 
 This analysis workflow is centered on [foldseek](https://github.com/steineggerlab/foldseek), which enables fast structural similarity searches and supports the discovery of understudied genes by comparing plants, which are distantly related species, with humans, for which there is a wealth of information.
 Based on the list of genes you are interested in, you can easily create a scatter plot of **“structural similarity vs. sequence similarity”** by retrieving structural data from the [AlphaFold protein structure database](https://alphafold.ebi.ac.uk/).
+
+&nbsp;
+
+&nbsp;
+
+## report
+
+- 2025-02-02: fix foldseek easy-search process
 
 &nbsp;
 
@@ -24,14 +32,21 @@ In recent years, with the [AlphaFold protein structure database](https://alphafo
 
 ### **1. Using Dev Containers (Docker and VScode extension)**
 
-You can create an analysis environment using [Dev Containers](./.devcontainer/devcontainer.json), a VScode extension.
-Please check the official website for details.
+Most processes, such as Foldseek, use container (BioContainers), but some involve processing with jupyter notebook, which requires the preparation of some python libraries (e.g., polars.).
+If you want to experiment with a simple workflow, you can create an analysis environment easily using [Dev Containers](./.devcontainer/devcontainer.json) system, a VScode extension.
+Using this environment, the version of the python library is probably the one used during development, so errors are unlikely to occur (see [Dockerfile](./.devcontainer/Dockerfile) for the package version).
+
+Please check the official website for Dev Container details.
 - [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
 - [Development Containers](https://containers.dev/)
 
+&nbsp;
+
 ### **2. Executing with cwltool**
 
-This analysis workflow is tested using [cwltool](https://github.com/common-workflow-language/cwltool) version 3.1.20241112140730.
+This analysis workflow is tested using [cwltool](https://github.com/common-workflow-language/cwltool) version 3.1.20250110105449.
+
+&nbsp;
 
 &nbsp;
 
@@ -80,9 +95,11 @@ The execution results are output with the [jupyter notebook](./test/oryza_sativa
 
 &nbsp;
 
+&nbsp;
+
 ### **2. Creating and Preparing Indexes**
 
-I'm sorry, but the [main workflow](./Workflow/plant2human_v1.0.1.cwl) does not currently include the creation of an index (both for foldseek index and BLAST index).
+I'm sorry, but the [main workflow](./Workflow/plant2human_v1.0.1.cwl) does not currently include the creation of an index process (both for foldseek index and BLAST index).
 Please perform the following processes in advance.
 
 #### 2-1. Creating a Foldseek Index
@@ -94,14 +111,14 @@ Please select the database you want to use from `Alphafold/UniProt,` `Alphafold/
 You can check the details of this database using the following command.
 
 ```bash
-docker run --rm quay.io/biocontainers/foldseek:9.427df8a--pl5321hb365157_1 foldseek databases --help
+docker run --rm quay.io/biocontainers/foldseek:9.427df8a--pl5321h5021889_2 foldseek databases --help
 ```
 
 For example, if you want to specify AlphaFold/Swiss-Prot as the index, you can do so with the following command,
 
 ```bash
 # using docker container
-docker run -u $(id -u):$(id -g) --rm -v $(pwd):/home -e HOME=/home --workdir /home quay.io/biocontainers/foldseek:9.427df8a--pl5321hb365157_1 foldseek databases Alphafold/Swiss-Prot swissprot tmp --threads 8
+docker run -u $(id -u):$(id -g) --rm -v $(pwd):/home -e HOME=/home --workdir /home quay.io/biocontainers/foldseek:9.427df8a--pl5321h5021889_2 foldseek databases Alphafold/Swiss-Prot swissprot tmp --threads 8
 
 # making directory
 mkdir ./index/index_swissprot
@@ -132,7 +149,7 @@ gzip -d uniprotkb_9606_all.fasta.gz
 
 &nbsp;
 
-### 3. Execution of the [Main Workflow](./Workflow/plant2human_v1.0.1.cwl)
+### 3. Execution of the [Main Workflow](./Workflow/plant2human.cwl)
 
 In this process, we perform a structural similarity search using the `foldseek easy-search` command and then perform a pairwise alignment of the amino acid sequences of the hit pairs using the `needle` and `water` commands.
 Finally, based on this information, we create a scatter plot and output a [jupyter notebook](./test/oryza_sativa_test/plant2human_report.ipynb) as a report.
@@ -156,7 +173,3 @@ The following scatter diagram can also be obtained from the test results of [Zey
 ![image](./image/zey_mays_scatter_plot.png)
 
 &nbsp;
-
-## Citation
-
-[![DOI](https://img.shields.io/badge/DOI-10.48546%2FWORKFLOWHUB.WORKFLOW.1206.3-blue)](https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.1206.3)
