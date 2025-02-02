@@ -1,9 +1,13 @@
 #!/usr/bin/env cwl-runner
 cwlVersion: v1.2
 class: Workflow
-label: "plant2human workflow"
+label: "plant2human main workflow"
 doc: |
-  "Novel gene discovery workflow by comparing plant species and human based on structural similarity search."
+  "
+  plant2human main workflow: compare structural similarity and sequence similarity
+  Compare distantly related species, such as plants and humans, using measures of structural similarity and sequence similarity.
+  This workflow will contribute to the discovery of protein-coding genes with features that are “sequence dissimilar but structurally similar”.
+  "
 
 requirements:
   - class: WorkReuse
@@ -14,7 +18,7 @@ requirements:
 inputs:
   # foldseek easy-search sub-workflow inputs
   - id: INPUT_DIRECTORY
-    label: "input structure file directory"
+    label: "input protein structure file directory"
     doc: "query protein structure file (default: mmCIF) directory for foldseek easy-search input."
     type: Directory
     default:
@@ -28,11 +32,13 @@ inputs:
     default: "*.cif"
   
   - id: FOLDSEEK_INDEX
-    label: "foldseek index file"
+    label: "foldseek index files"
     doc: |
-      foldseek index file for foldseek easy-search input.
-      This index file can be retrieved by executing the `foldseek databases` command.
+      "foldseek index files for foldseek easy-search input. default: ../index/index_swissprot/swissprot
+      Note: At this time (2025/02/02), the process of acquiring and indexing index files for execution has not been incorporated into the workflow.
+      Therefore, we would like you to execute the following commands in advance.
       example: `foldseek databases Alphafold/Swiss-Prot index_swissprot/swissprot tmp --threads 8`
+      "
     type: File
     default:
       class: File
@@ -69,7 +75,7 @@ inputs:
 
   - id: ALIGNMENT_TYPE
     label: "alignment type (foldseek easy-search)"
-    doc: "alignment type for foldseek easy-search"
+    doc: "alignment type for foldseek easy-search. default: 2 (3Di + AA: local alignment) for detailed information, see foldseek GitHub repository."
     type: int
     default: 2
 
@@ -83,21 +89,13 @@ inputs:
     label: "split memory limit (foldseek easy-search)"
     doc: "split memory limit for foldseek easy-search. default: 120G"
     type: string
-    default: "60G"
-
-  # - id: PARAM_INPUT_FORMAT
-  #   type: int
-  #   default: 2
+    default: "120G"
 
   - id: TAXONOMY_ID_LIST
     label: "taxonomy id list (foldseek easy-search)"
     doc: "taxonomy id list. separated by comma. Be sure to set “9606”. default: 9606 (human), 10090 (mouse), 3702 (Arabidopsis), 4577 (Zea mays), 4529 (Oryza rufipogon)"
     type: string
     default: "9606,10090,3702,4577,4529"
-  
-  # - id: PARAM_HIT_TAXONOMY_ID
-  #   type: int
-  #   default: 9606
   
   - id: OUTPUT_FILE_NAME2
     label: "output file name (extract target species)"
@@ -135,56 +133,48 @@ inputs:
   # sub-workflow retrieve sequence inputs
   - id: SW_INPUT_FASTA_FILE_QUERY_SPECIES
     type: File
-    label: "input fasta file (for blastdbcmd)"
+    label: "input fasta file (blastdbcmd process)"
     doc: "input fasta file for blastdbcmd. Retrieve files in advance. default: rice UniProt FASTA file"
     format: edam:format_1929
     default:
       class: File
       format: edam:format_1929
-      location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_rice_all_240820.fasta
+      location: ../test/oryza_sativa_test/uniprotkb_39947_all.fasta
 
   - id: SW_INPUT_FASTA_FILE_HIT_SPECIES
     type: File
-    label: "input fasta file (for blastdbcmd)"
+    label: "input fasta file (blastdbcmd process)"
     doc: "input fasta file for blastdbcmd. Retrieve files in advance. default: human UniProt FASTA file"
     format: edam:format_1929
     default:
       class: File
       format: edam:format_1929
-      location: ../Data/Data_uniprot/FASTA_for_index/uniprotkb_human_all_241107.fasta
-
-  # - id: SW_ALIGNMENT_QUERY_COL_NUM
-  #   type: int
-  #   default: 1
-
-  # - id: SW_PARAM_ALIGNMENT_TARGET_COL_NUM
-  #   type: int
-  #   default: 2
+      location: ../test/oryza_sativa_test/uniprotkb_9606_all.fasta
   
   # togoid convert process
   - id: ROUTE_DATASET
-    label: "route dataset (togoid convert)"
-    doc: "route dataset for togoid convert. This operation selects the UniProt ID of the target species (human) for which cross-references exist (final destination is HGNC gene symbol). default: uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
+    label: "route dataset (ID conversion using togoID)"
+    doc: "route dataset for ID conversion. This operation selects the UniProt ID of the target species (human) for which cross-references exist (final destination is HGNC gene symbol). default: uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
     type: string
     default: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
 
   - id: OUTPUT_FILE_NAME3
-    label: "output file name (togoid convert)"
-    doc: "output file name for togoid convert python script. default: foldseek_hit_species_togoid_convert.tsv"
+    label: "output file name (ID conversion using togoID)"
+    doc: "output file name for ID conversion. default: foldseek_hit_species_togoid_convert.tsv"
     format: edam:data_1050
     type: string
     default: "foldseek_hit_species_togoid_convert.tsv"
 
   # papermill process
   - id: OUT_NOTEBOOK_NAME
-    label: "output notebook name (papermill)"
+    label: "output notebook name (papermill process)"
     doc: "output notebook name for papermill.  After the analysis workflow is output, it can be freely customized such as changing the parameter values. default: plant2human_report.ipynb"
     format: edam:data_1050
     type: string
     default: "plant2human_report.ipynb"
 
   - id: QUERY_IDMAPPING_TSV
-    label: "query idmapping tsv (papermill)"
+    label: "query idmapping tsv (papermill process)"
     doc: "query idmapping tsv file. Retrieve files in advance. default: rice UniProt ID mapping file"
     type: File
     format: edam:format_3475
@@ -194,7 +184,7 @@ inputs:
       location: ../test/oryza_sativa_test/rice_random_gene_idmapping_all.tsv
 
   - id: QUERY_GENE_LIST_TSV
-    label: "query gene list tsv (papermill)"
+    label: "query gene list tsv (papermill process)"
     doc: "query gene list tsv file. Retrieve files in advance. default: rice random gene list"
     type: File
     format: edam:format_3475
@@ -207,7 +197,7 @@ inputs:
 outputs:
 
   - id: TSVFILE1
-    label: "output file (foldseek easy-search)"
+    label: "output file (foldseek easy-search result)"
     doc: "output file for foldseek easy-search all hit result."
     type: File
     format: edam:format_3475
@@ -355,7 +345,10 @@ outputs:
 steps:
   sub_workflow_foldseek_easy_search:
     label: "foldseek easy-search sub-workflow process"
-    doc: "Execute foldseek easy-search using foldseek using BioContainers docker image. This workflow supports only TSV file output. execute: ./10_foldseek_easy_search_wf.cwl"
+    doc: |
+      "Execute foldseek easy-search using foldseek using BioContainers docker image. This workflow supports only TSV file output.
+      Step 1: listing files
+      Step 2: foldseek easy-search process"
     run: ./10_foldseek_easy_search_wf.cwl
     in:
       INPUT_DIRECTORY: INPUT_DIRECTORY
@@ -405,15 +398,14 @@ steps:
   sub_workflow_retrieve_sequence_query_species:
     label: "retrieve sequence sub-workflow process using EMBOSS package"
     doc: |
-      "
-      In this process, pairwise alignment (needle and water) is performed on the pairs that were found in the structural similarity search to obtain information on sequence similarity (identity and similarity).
-      execute: ./11_retrieve_sequence_wf.cwl 
-      retrieve sequence from blastdbcmd result: makeblastdb: ../Tools/14_makeblastdb.cwl
-      blastdbcmd: ../Tools/15_blastdbcmd.cwl
-      split fasta files for seqretsplit: ../Tools/16_seqretsplit.cwl
-      needle (Global alignment): ../Tools/17_needle.cwl
-      water (Local alignment): ../Tools/17_water.cwl
-      "
+      "Perform pairwise alignment of protein sequences for pairs identified by structural similarity search.
+      Step 1: retrieve sequence from blastdbcmd result
+      Step 2: makeblastdb: ../Tools/14_makeblastdb.cwl
+      Step 3: blastdbcmd: ../Tools/15_blastdbcmd.cwl
+      Step 4: seqretsplit: ../Tools/16_seqretsplit.cwl
+      Step 5: needle (Global alignment): ../Tools/17_needle.cwl
+      Step 6: water (Local alignment): ../Tools/17_water.cwl"
+
     run: ./11_retrieve_sequence_wf.cwl
     in:
       INPUT_FASTA_FILE_QUERY_SPECIES: SW_INPUT_FASTA_FILE_QUERY_SPECIES
@@ -443,7 +435,7 @@ steps:
   
   togoid_convert:
     label: "togoid convert process"
-    doc: "retrieve UniProt ID to HGNC gene symbol. execute: ../Tools/18_togoid_convert.cwl"
+    doc: "retrieve UniProt ID to HGNC gene symbol using togoID python script. execute: ../Tools/18_togoid_convert.cwl"
     run: ../Tools/18_togoid_convert.cwl
     in:
       id_convert_file: extract_hit_species_column/output_file # workflow input
@@ -477,6 +469,7 @@ s:author:
 
 s:codeRepository: https://github.com/yonesora56/plant2human
 s:dateCreated: "2024-11-13"
+s:dateModified: "2025-02-02"
 s:license: https://spdx.org/licenses/MIT
 
 $namespaces:

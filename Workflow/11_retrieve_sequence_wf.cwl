@@ -3,16 +3,16 @@ cwlVersion: v1.2
 class: Workflow
 label: "retrieve sequence and perform pairwise alignment (sub-workflow process)"
 doc: |
-  Perform pairwise alignment of protein sequences for pairs identified by structural similarity search.
-  retrieve sequence from blastdbcmd result
-  makeblastdb: ../Tools/14_makeblastdb.cwl
-  blastdbcmd: ../Tools/15_blastdbcmd.cwl
-  seqretsplit: ../Tools/16_seqretsplit.cwl
-  needle (Global alignment): ../Tools/17_needle.cwl
-  water (Local alignment): ../Tools/17_water.cwl
+  "Perform pairwise alignment of protein sequences for pairs identified by structural similarity search.
+  Step 1: retrieve sequence from blastdbcmd result
+  Step 2: makeblastdb: ../Tools/14_makeblastdb.cwl
+  Step 3: blastdbcmd: ../Tools/15_blastdbcmd.cwl
+  Step 4: seqretsplit: ../Tools/16_seqretsplit.cwl
+  Step 5: needle (Global alignment): ../Tools/17_needle.cwl
+  Step 6: water (Local alignment): ../Tools/17_water.cwl"
 
 requirements:
-  WorkReuse:
+  - class: WorkReuse
     enableReuse: true
 
 # ----------WORKFLOW INPUTS----------
@@ -20,42 +20,42 @@ inputs:
   # makeblastdb inputs
   - id: INDEX_DIR_NAME_QUERY_SPECIES
     type: string
-    label: "index directory name"
+    label: "index directory name (makeblastdb)"
     doc: "blast index directory name for blastdbcmd"
     format: edam:data_1049
     default: "index_query_species"
 
   - id: INDEX_DIR_NAME_HIT_SPECIES
     type: string
-    label: "index directory name"
+    label: "index directory name (makeblastdb)"
     doc: "blast index directory name for blastdbcmd"
     format: edam:data_1049
     default: "index_hit_species"
   
   - id: INPUT_FASTA_FILE_QUERY_SPECIES
     type: File
-    label: "input fasta file"
+    label: "input fasta file (makeblastdb)"
     doc: "input fasta file for makeblastdb. Retrieve files in advance from uniprot."
     format: edam:format_1929
     default:
       class: File
       format: edam:format_1929
-      location: ../test/oryza_sativa_test/uniprotkb_rice_all_240820.fasta
+      location: ../test/oryza_sativa_test/uniprotkb_39947_all.fasta
 
   - id: INPUT_FASTA_FILE_HIT_SPECIES
     type: File
-    label: "input fasta file"
+    label: "input fasta file (makeblastdb)"
     doc: "input fasta file for makeblastdb. Retrieve files in advance from uniprot."
     format: edam:format_1929
     default:
       class: File
       format: edam:format_1929
-      location: ../test/oryza_sativa_test/uniprotkb_human_all_241107.fasta
+      location: ../test/oryza_sativa_test/uniprotkb_9606_all.fasta
 
   # blastdbcmd inputs
   - id: ENTRY_BATCH_QUERY_SPECIES
     type: File
-    label: "entry batch file"
+    label: "entry batch file (blastdbcmd)"
     doc: "entry batch file for blastdbcmd"
     default:
       class: File
@@ -63,7 +63,7 @@ inputs:
 
   - id: ENTRY_BATCH_HIT_SPECIES
     type: File
-    label: "entry batch file"
+    label: "entry batch file (blastdbcmd)"
     doc: "entry batch file for blastdbcmd"
     default:
       class: File
@@ -71,28 +71,28 @@ inputs:
 
   - id: BLASTDBCMD_RESULT_FILE_NAME_QUERY_SPECIES
     type: string
-    label: "blastdbcmd result file name"
+    label: "blastdbcmd result file name (blastdbcmd)"
     doc: "blastdbcmd result file name."
     format: edam:data_1050
     default: "blastdbcmd_result_query_species.fasta"
 
   - id: BLASTDBCMD_LOGFILE_NAME_QUERY_SPECIES
     type: string
-    label: "logfile name"
+    label: "logfile name (blastdbcmd)"
     doc: "logfile name."
     format: edam:data_1050
     default: "blastdbcmd_result_query_species.log"
 
   - id: BLASTDBCMD_RESULT_FILE_NAME_HIT_SPECIES
     type: string
-    label: "blastdbcmd result file name"
+    label: "blastdbcmd result file name (blastdbcmd)"
     doc: "blastdbcmd result file name."
     format: edam:data_1050
     default: "blastdbcmd_result_hit_species.fasta"
 
   - id: BLASTDBCMD_LOGFILE_NAME_HIT_SPECIES
     type: string
-    label: "logfile name"
+    label: "logfile name (blastdbcmd)"
     doc: "logfile name."
     format: edam:data_1050
     default: "blastdbcmd_result_hit_species.log"
@@ -100,14 +100,14 @@ inputs:
   # seqretsplit inputs
   - id: SEQRETSPLIT_OUTPUT_DIR_NAME_QUERY_SPECIES
     type: string
-    label: "output directory name"
+    label: "output directory name (seqretsplit)"
     doc: "output directory name for seqretsplit"
     format: edam:data_1049
     default: "split_fasta_query_species"
 
   - id: SEQRETSPLIT_OUTPUT_DIR_NAME_HIT_SPECIES
     type: string
-    label: "output directory name"
+    label: "output directory name (seqretsplit)"
     doc: "output directory name for seqretsplit"
     format: edam:data_1049
     default: "split_fasta_hit_species"
@@ -116,7 +116,7 @@ inputs:
   # foldseek extract tsv
   - id: NEEDLE_SCRIPT
     type: File
-    label: "needle shell script"
+    label: "needle shell script (needle)"
     doc: "needle shell script"
     default:
       class: File
@@ -124,7 +124,7 @@ inputs:
 
   - id: WATER_SCRIPT
     type: File
-    label: "water shell script"
+    label: "water shell script (water)"
     doc: "water shell script"
     default:
       class: File
@@ -132,7 +132,7 @@ inputs:
 
   - id: FOLDSEEK_EXTRACT_TSV
     type: File
-    label: "foldseek extract tsv"
+    label: "foldseek extract tsv (foldseek easy-search)"
     doc: "foldseek extract tsv"
     format: edam:format_3475
     default:
@@ -142,27 +142,27 @@ inputs:
 
   - id: NEEDLE_RESULT_DIR_NAME
     type: string
-    label: "needle result directory name"
+    label: "needle result directory name (needle)"
     doc: "needle result directory name"
     format: edam:data_1049
     default: "result_needle"
 
   - id: WATER_RESULT_DIR_NAME
     type: string
-    label: "water result directory name"
+    label: "water result directory name (water)"
     doc: "water result directory name"
     format: edam:data_1049
     default: "result_water"
 
   - id: ALIGNMENT_QUERY_COLUMN_NUMBER
     type: int
-    label: "alignment query column number"
+    label: "alignment query column number (needle and water)"
     doc: "alignment column number (query species) for needle and water. Extract columns describing UniProt ID pairs (query IDs) from the TSV file read with the FOLDSEEK_EXTRACT_TSV parameter"
     default: 1
 
   - id: ALIGNMENT_TARGET_COLUMN_NUMBER
     type: int
-    label: "alignment target column number"
+    label: "alignment target column number (needle and water)"
     doc: "alignment column number (target species) for needle and water. Extract columns describing UniProt ID pairs (hit IDs) from the TSV file read with the FOLDSEEK_EXTRACT_TSV parameter"
     default: 2
 

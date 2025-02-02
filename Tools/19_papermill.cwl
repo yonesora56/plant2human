@@ -32,7 +32,7 @@ inputs:
     default:
       class: File
       format: edam:format_3475
-      location: ../test/workflow_test/foldseek_rice_up_9606.tsv
+      location: ../test/oryza_sativa_test/foldseek_os_random_9606.tsv
 
   - id: query_uniprot_idmapping_tsv
     type: File
@@ -42,7 +42,7 @@ inputs:
     default:
       class: File
       format: edam:format_3475
-      location: ../test/workflow_test/rice_up_idmapping.tsv
+      location: ../test/oryza_sativa_test/rice_up_idmapping.tsv
 
   - id: water_result_dir
     type: Directory
@@ -50,7 +50,7 @@ inputs:
     doc: "water result directory. Before executing, please make sure that you have already completed the water process. (default: ../test/workflow_test/result_water/)"
     default:
       class: Directory
-      location: ../test/workflow_test/result_water/
+      location: ../test/oryza_sativa_test/result_water/
     
   - id: needle_result_dir
     type: Directory
@@ -58,7 +58,7 @@ inputs:
     doc: "needle result directory. Before executing, please make sure that you have already completed the needle process. (default: ../test/workflow_test/result_needle/)"
     default:
       class: Directory
-      location: ../test/workflow_test/result_needle/
+      location: ../test/oryza_sativa_test/result_needle/
 
   - id: query_gene_list_tsv
     type: File
@@ -68,7 +68,7 @@ inputs:
     default:
       class: File
       format: edam:format_3475
-      location: ../test/workflow_test/HN5_genes_up_rice.tsv
+      location: ../test/oryza_sativa_test/HN5_genes_up_rice.tsv
 
   - id: togoid_convert_tsv
     type: File
@@ -78,7 +78,7 @@ inputs:
     default:
       class: File
       format: edam:format_3475
-      location: ../test/workflow_test/foldseek_hit_species_togoid_convert.tsv
+      location: ../test/oryza_sativa_test/foldseek_hit_species_togoid_convert.tsv
 
 arguments:
   - shellQuote: false

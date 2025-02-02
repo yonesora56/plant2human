@@ -3,8 +3,9 @@ cwlVersion: v1.2
 class: Workflow
 label: "foldseek easy-search workflow"
 doc: |
-  foldseek easy-search workflow
-  listing files and foldseek easy-search process
+  "foldseek easy-search sub-workflow for plant2human workflow
+  Step 1: listing files
+  Step 2: foldseek easy-search process"
 
 requirements:
   - class: WorkReuse
