@@ -114,19 +114,19 @@ You can check the details of this database using the following command.
 docker run --rm quay.io/biocontainers/foldseek:9.427df8a--pl5321h5021889_2 foldseek databases --help
 ```
 
-For example, if you want to specify AlphaFold/Swiss-Prot as the index, you can do so with the following command,
+For example, if you want to specify AlphaFold/Swiss-Prot as the index, you can do so with the following CWL file;
 
 ```bash
-# using docker container
-docker run -u $(id -u):$(id -g) --rm -v $(pwd):/home -e HOME=/home --workdir /home quay.io/biocontainers/foldseek:9.427df8a--pl5321h5021889_2 foldseek databases Alphafold/Swiss-Prot swissprot tmp --threads 8
-
-# making directory
-mkdir ./index/index_swissprot
-
-# moving index file
-mv swissprot* ./index/index_swissprot/
+cwltool --debug --outdir ./index/ ./Tools/02_foldseek_database.cwl \
+--database Alphafold/Swiss-Prot \
+--index_dir_name index_swissprot \
+--index_name swissprot \
+--threads 16
 ```
-**Note:** We have written a [CWL file describing the above process](./Tools/02_foldseek_database.cwl), but we have confirmed an error and are correcting it.
+**Note:** Currently, this index creation process is not incorporated into the main analysis workflow (plant2human workflow). 
+This is because the process requires network access, and maybe to be able to respond immediately if there are any changes to the tool requirements.
+
+&nbsp;
 
 &nbsp;
 
