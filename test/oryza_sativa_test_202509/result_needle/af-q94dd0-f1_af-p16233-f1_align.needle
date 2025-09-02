@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Tue  2 Sep 2025 06:44:21
+# Commandline: needle
+#    -asequence /var/lib/cwl/stga8ce8115-189f-4ce7-8747-065c94087c00/split_fasta_query_species/af-q94dd0-f1.fasta
+#    -bsequence /var/lib/cwl/stga4170e1d-19a2-428d-826d-862343876bd1/split_fasta_hit_species/af-p16233-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q94dd0-f1_af-p16233-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q94dd0-f1_af-p16233-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q94DD0-F1
+# 2: AF-P16233-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 654
+# Identity:      52/654 ( 8.0%)
+# Similarity:    79/654 (12.1%)
+# Gaps:         496/654 (75.8%)
+# Score: 19.5
+# 
+#
+#=======================================
+
+AF-Q94DD0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P16233-F1       1 MLPLWTLSLLLGAVAGKEVCYERLGCFSDDSPWSGITERPLHILPWSPKD     50
+
+AF-Q94DD0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P16233-F1      51 VNTRFLLYTNENPNNFQEVAADSSSISGSNFKTNRKTRFIIHGFIDKGEE    100
+
+AF-Q94DD0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P16233-F1     101 NWLANVCKNLFKVESVNCICVDWKGGSRTGYTQASQNIRIVGAEVAYFVE    150
+
+AF-Q94DD0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P16233-F1     151 FLQSAFGYSPSNVHVIGHSLGAHAAGEAGRRTNGTIGRITGLDPAEPCFQ    200
+
+AF-Q94DD0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P16233-F1     201 GTPELVRLDPSDAKFVDVIHTDGAPIVPNLGFGMSQVVGHLDFFPNGGVE    250
+
+AF-Q94DD0-F1       1 MVALSKLVLITAVALLGWAYKVARPPPPPILGGPGGPPVSSPRVQLKDGR     50
+                     |....|.:|...|.:                                ||.
+AF-P16233-F1     251 MPGCKKNILSQIVDI--------------------------------DGI    268
+
+AF-Q94DD0-F1      51 HLAYREAGVGREIAKYK-----IIFSHGFAS---------TKESDFPVSQ     86
+                     ....|:......:..||     |:...|||.         |....||...
+AF-P16233-F1     269 WEGTRDFAACNHLRSYKYYTDSIVNPDGFAGFPCASYNVFTANKCFPCPS    318
+
+AF-Q94DD0-F1      87 ELAEELGIYLLYFDRAGYGDSDANPKRGLKSDATDVEELADKLQLGEKFY    136
+                     ....::|.|           :|..|  |..:|            :|:|||
+AF-P16233-F1     319 GGCPQMGHY-----------ADRYP--GKTND------------VGQKFY    343
+
+AF-Q94DD0-F1     137 -------------------VVGTSMGGYVAWSCL----NYIPYRLAGVAL    163
+                                        :.|..:.|::..|..    |...|.:....|
+AF-P16233-F1     344 LDTGDASNFARWRYKVSVTLSGKKVTGHILVSLFGNKGNSKQYEIFKGTL    393
+
+AF-Q94DD0-F1     164 VVPAVNYWWPMPASVSASAY-RKLDVGDRRTFWIAHHMPWLFYAWFNQKW    212
+                               .|.|..::.: ..:||||         :..:.:.|:|.. 
+AF-P16233-F1     394 ----------KPDSTHSNEFDSDVDVGD---------LQMVKFIWYNNV-    423
+
+AF-Q94DD0-F1     213 FRISP----------IVE---GK------PEAFTEKDWEILAEIQRTGQL    243
+                       |:|          |||   ||      ||...|   |:|..:...   
+AF-P16233-F1     424 --INPTLPRVGASKIIVETNVGKQFNFCSPETVRE---EVLLTLTPC---    465
+
+AF-Q94DD0-F1     244 DRGRATKQGAYHSLCRDATILFGAWEFDPTAIENPFPNGDGVVSIWQGRE    293
+                                                                       
+AF-P16233-F1     465 --------------------------------------------------    465
+
+AF-Q94DD0-F1     294 DKIVRVEAQRYVAEKLPWVRYHEHPEGGHLFMCADGLGDKIVRELLLGEE    343
+                                                                       
+AF-P16233-F1     465 --------------------------------------------------    465
+
+AF-Q94DD0-F1     344 PRDL    347
+                         
+AF-P16233-F1     465 ----    465
+
+
+#---------------------------------------
+#---------------------------------------

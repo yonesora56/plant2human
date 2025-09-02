@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:44:49
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q94dd0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-q96iu4-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q94dd0-f1_af-q96iu4-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q94dd0-f1_af-q96iu4-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q94DD0-F1
+# 2: AF-Q96IU4-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 215
+# Identity:      53/215 (24.7%)
+# Similarity:    78/215 (36.3%)
+# Gaps:          45/215 (20.9%)
+# Score: 79.0
+# 
+#
+#=======================================
+
+AF-Q94DD0-F1      49 GRHLAYREAGVGREIAKYKIIFSHG--FASTKESDFPVSQELAEELGIYL     96
+                     |:.|.:|||..|...|::.::..||  |:|....:......|| :.|...
+AF-Q96IU4-F1      16 GQALFFREALPGSGQARFSVLLLHGIRFSSETWQNLGTLHRLA-QAGYRA     64
+
+AF-Q94DD0-F1      97 LYFDRAGYGDSD---ANPKRGLKSDATDVEELADKLQLGEKFYVVGTSMG    143
+                     :..|..|.|.|.   |....|..:..:.:..:.|.|:||.. .|:..|:.
+AF-Q96IU4-F1      65 VAIDLPGLGHSKEAAAPAPIGELAPGSFLAAVVDALELGPP-VVISPSLS    113
+
+AF-Q94DD0-F1     144 GYVAWSCLNYIPYRLAGVALVVP-------AVNYWWPMPASVSASA---Y    183
+                     |..:...|.....:|.|...|.|       |.||     |||...|   |
+AF-Q96IU4-F1     114 GMYSLPFLTAPGSQLPGFVPVAPICTDKINAANY-----ASVKTPALIVY    158
+
+AF-Q94DD0-F1     184 RKLDVGDRRTFWIAHHMPWLFYAWFNQKWFRIS----PIVEGKPEAFTEK    229
+                     ...|...:.:|.....:|       |.:...:.    |....|||     
+AF-Q96IU4-F1     159 GDQDPMGQTSFEHLKQLP-------NHRVLIMKGAGHPCYLDKPE-----    196
+
+AF-Q94DD0-F1     230 DWEILAEIQRTGQLD    244
+                     :|       .||.||
+AF-Q96IU4-F1     197 EW-------HTGLLD    204
+
+
+#---------------------------------------
+#---------------------------------------

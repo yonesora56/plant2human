@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Tue  2 Sep 2025 06:44:41
+# Commandline: needle
+#    -asequence /var/lib/cwl/stga8ce8115-189f-4ce7-8747-065c94087c00/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stga4170e1d-19a2-428d-826d-862343876bd1/split_fasta_hit_species/af-o43365-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q5vpe3-f1_af-o43365-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q5vpe3-f1_af-o43365-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-O43365-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 514
+# Identity:      74/514 (14.4%)
+# Similarity:   111/514 (21.6%)
+# Gaps:         277/514 (53.9%)
+# Score: 87.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O43365-F1       1 MQKATYYDSSAIYGGYPYQAANGFAYNANQQPYPASAALGADGEYHRPAC     50
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O43365-F1      51 SLQSPSSAGGHPKAHELSEACLRTLSAPPSQPPSLGEPPLHPPPPQAAPP    100
+
+AF-Q5VPE3-F1       1 ------------MMDLGLSLGLGLASQGSLTSSTTTTSSPGAGSSSPWAA     38
+                                                     :.|..:.|...|:||...
+AF-O43365-F1     101 APQPPQPAPQPP--------------------APTPAAPPPPSSASPPQN    130
+
+AF-Q5VPE3-F1      39 ALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQGRASTSPDSAAAL----     84
+                     |.|        :...|:||             :.....||..|..:    
+AF-O43365-F1     131 ASN--------NPTPANAA-------------KSPLLNSPTVAKQIFPWM    159
+
+AF-Q5VPE3-F1      85 --SSASGKRERELERSGSGVDDDDGADGAGGRKKLRLSKDQAAV--LEEC    130
+                       |..:.|::.....||.....|....|....|:.|.:...|.:  ||:.
+AF-O43365-F1     160 KESRQNTKQKTSSSSSGESCAGDKSPPGQASSKRARTAYTSAQLVELEKE    209
+
+AF-Q5VPE3-F1     131 FKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLK    180
+                     |..:..|...::|.:||.|.|..||:::||||||.:.|..|         
+AF-O43365-F1     210 FHFNRYLCRPRRVEMANLLNLTERQIKIWFQNRRMKYKKDQ---------    250
+
+AF-Q5VPE3-F1     181 RWCERLADENKRLEKE------------------LADLRAL-------KA    205
+                             :.|.:...                  |..:.:|       ..
+AF-O43365-F1     251 --------KGKGMLTSSGGQSPSRSPVPPGAGGYLNSMHSLVNSVPYEPQ    292
+
+AF-Q5VPE3-F1     206 APSPASASAM----QPSSSAAATLTMC----PSCRRVATAGA--------    239
+                     :|.|.|....    .|.:|..|:|..|    |..:|...|||        
+AF-O43365-F1     293 SPPPFSKPPQGTYGLPPASYPASLPSCAPPPPPQKRYTAAGAGAGGTPDY    342
+
+AF-Q5VPE3-F1     240 -PHQPNHQQCHPKSNTTISSSSTAAAAVAVAGGNVLP-----------SH    277
+                      ||....|     .|.:..:.....:.|.|.|..|.|           :|
+AF-O43365-F1     343 DPHAHGLQ-----GNGSYGTPHIQGSPVFVGGSYVEPMSNSGPALFGLTH    387
+
+AF-Q5VPE3-F1     278 CQFFPAAAAAADRTSQSTWNAAAPLVTRELF-------------------    308
+                        .|.||:.|     ..:..|.||.:....                   
+AF-O43365-F1     388 ---LPHAASGA-----MDYGGAGPLGSGHHHGPGPGEPHPTYTDLTGHHP    429
+
+AF-Q5VPE3-F1     308 --------------    308
+                                   
+AF-O43365-F1     430 SQGRIQEAPKLTHL    443
+
+
+#---------------------------------------
+#---------------------------------------

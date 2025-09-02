@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:10
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-p20719-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-p20719-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-p20719-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-P20719-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 250
+# Identity:      52/250 (20.8%)
+# Similarity:    87/250 (34.8%)
+# Gaps:          67/250 (26.8%)
+# Score: 135.0
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1       5 GLSLGLGLASQGSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAA     54
+                     |:.|.:|.:..|...|.....|...:.|::|.....:.........|...
+AF-P20719-F1      51 GMDLSVGRSGSGHFGSGERARSYAASASAAPAEPRYSQPATSTHSPQPDP    100
+
+AF-Q5VPE3-F1      55 HAAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGK-RERELERSGSGVD    103
+                     ...:||....|.:..:.|:.|.|..|.|:..:.|.. ..||...:.||.:
+AF-P20719-F1     101 LPCSAVAPSPGSDSHHGGKNSLSNSSGASADAGSTHISSREGVGTASGAE    150
+
+AF-Q5VPE3-F1     104 DDDGA--------------------------------DGAGG----RKKL    117
+                     :|..|                                |..||    |.:.
+AF-P20719-F1     151 EDAPASSEQASAQSEPSPAPPAQPQIYPWMRKLHISHDNIGGPEGKRART    200
+
+AF-Q5VPE3-F1     118 RLSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRART    167
+                     ..::.|...||:.|..:..|..::::.:|:.|.|..||:::||||||.:.
+AF-P20719-F1     201 AYTRYQTLELEKEFHFNRYLTRRRRIEIAHALCLSERQIKIWFQNRRMKW    250
+
+AF-Q5VPE3-F1     168 KLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPSPASASAMQP    217
+                     |                   .:||           ||:....|:..|.:|
+AF-P20719-F1     251 K-------------------KDNK-----------LKSMSMAAAGGAFRP    270
+
+
+#---------------------------------------
+#---------------------------------------

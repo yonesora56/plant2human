@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Tue  2 Sep 2025 06:44:36
+# Commandline: needle
+#    -asequence /var/lib/cwl/stga8ce8115-189f-4ce7-8747-065c94087c00/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stga4170e1d-19a2-428d-826d-862343876bd1/split_fasta_hit_species/af-p31275-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q5vpe3-f1_af-p31275-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q5vpe3-f1_af-p31275-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-P31275-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 432
+# Identity:      55/432 (12.7%)
+# Similarity:    76/432 (17.6%)
+# Gaps:         274/432 (63.4%)
+# Score: 96.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P31275-F1       1 MGEHNLLNPGFVGPLVNIHTGDTFYFPNFRASGAQLPGLPSLSYPRRDNV     50
+
+AF-Q5VPE3-F1       1 -----------------------------------------------MMD      3
+                                                                    ...
+AF-P31275-F1      51 CSLSWPSAEPCNGYPQPYLGSPVSLNPPFGRTCELARVEDGKGYYREPCA    100
+
+AF-Q5VPE3-F1       4 LGLSLGLGLASQGSLTSSTTTTSSPGAGSSSPWAAAL------NSIVGDV     47
+                     .|...||....:|         ..||||   |.||.|      ...:| .
+AF-P31275-F1     101 EGGGGGLKREERG---------RDPGAG---PGAALLPLEPSGPPALG-F    137
+
+AF-Q5VPE3-F1      48 RRDQAAAHAAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGKRERELER     97
+                     :.|.||.......|.|.|.........|...||:::|.:...|       
+AF-P31275-F1     138 KYDYAAGGGGGDGGGGAGPPHDPPSCQSLESDSSSSLLNEGNK-------    180
+
+AF-Q5VPE3-F1      98 SGSGVDDDD------------GADGA-------GGRKKLR-LSKDQAAVL    127
+                      |:|..|..            .|.||       ..|||.: .||.|.|.|
+AF-P31275-F1     181 -GAGAGDPGSLVSPLNPGGGLSASGAPWYPINSRSRKKRKPYSKLQLAEL    229
+
+AF-Q5VPE3-F1     128 EECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTK-LKQTEVDC    176
+                     |..|..:..:..:::..|::||.|..:||::||||||.:.| |...|...
+AF-P31275-F1     230 EGEFLVNEFITRQRRRELSDRLNLSDQQVKIWFQNRRMKKKRLLLREQAL    279
+
+AF-Q5VPE3-F1     177 EYLKRWCERLADENKRLEKELADLRALKAAPSPASASAMQPSSSAAATLT    226
+                     .:.                                               
+AF-P31275-F1     280 SFF-----------------------------------------------    282
+
+AF-Q5VPE3-F1     227 MCPSCRRVATAGAPHQPNHQQCHPKSNTTISSSSTAAAAVAVAGGNVLPS    276
+                                                                       
+AF-P31275-F1     282 --------------------------------------------------    282
+
+AF-Q5VPE3-F1     277 HCQFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                                                     
+AF-P31275-F1     282 --------------------------------    282
+
+
+#---------------------------------------
+#---------------------------------------

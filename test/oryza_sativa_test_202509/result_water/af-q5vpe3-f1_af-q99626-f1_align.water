@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:16
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-q99626-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-q99626-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-q99626-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-Q99626-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 320
+# Identity:      70/320 (21.9%)
+# Similarity:   106/320 (33.1%)
+# Gaps:          97/320 (30.3%)
+# Score: 123.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1       9 GLGLASQGSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRD------QA     52
+                     |..:|:..:..::..:..|||..    |.||..:   .:|.|      ..
+AF-Q99626-F1      42 GYHVAAAAAAAANLDSAQSPGPS----WPAAYGA---PLREDWNGYAPGG     84
+
+AF-Q5VPE3-F1      53 AAHAAAAVGVGVGGEEMYQGRASTSP--------------DSAAALSSAS     88
+                     ||.||.||..|:.|.........:||              ..|||.|.||
+AF-Q99626-F1      85 AAAAANAVAHGLNGGSPAAAMGYSSPADYHPHHHPHHHPHHPAAAPSCAS    134
+
+AF-Q5VPE3-F1      89 GKRE---------------RELERSGSGVD-----DDDGADGAGGRKKLR    118
+                     |..:               .:|...|...:     ........|.:.|.|
+AF-Q99626-F1     135 GLLQTLNPGPPGPAATAAAEQLSPGGQRRNLCEWMRKPAQQSLGSQVKTR    184
+
+AF-Q5VPE3-F1     119 LSKDQAAV---------LEECFKTHSTLNPKQKVALANRLGLRPRQVEVW    159
+                      :||:..|         ||:.|.....:..::|..||..|||..|||::|
+AF-Q99626-F1     185 -TKDKYRVVYTDHQRLELEKEFHYSRYITIRRKAELAATLGLSERQVKIW    233
+
+AF-Q5VPE3-F1     160 FQNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPSP    209
+                     ||||||    |:.:::              .|:|:::..........|.|
+AF-Q99626-F1     234 FQNRRA----KERKIN--------------KKKLQQQQQQQPPQPPPPPP    265
+
+AF-Q5VPE3-F1     210 ASASAMQPSSSAAATLTMCPSCRRVATAGAPHQPNHQQCHPKSNTTISSS    259
+                           ||.......|...|                :...|.|:...|..
+AF-Q99626-F1     266 ------QPPQPQPGPLRSVP----------------EPLSPVSSLQASVP    293
+
+AF-Q5VPE3-F1     260 STAAAAVAVAGGNVLPSHCQ    279
+                     .:....:...||.:.|:..|
+AF-Q99626-F1     294 GSVPGVLGPTGGVLNPTVTQ    313
+
+
+#---------------------------------------
+#---------------------------------------

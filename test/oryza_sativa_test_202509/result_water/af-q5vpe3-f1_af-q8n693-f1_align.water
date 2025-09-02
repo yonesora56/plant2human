@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:07
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-q8n693-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-q8n693-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-q8n693-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-Q8N693-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 238
+# Identity:      60/238 (25.2%)
+# Similarity:    84/238 (35.3%)
+# Gaps:          37/238 (15.5%)
+# Score: 94.0
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1      24 TTSSPGAGSSSPWAAALNSI--VGDVRRDQAAAHAAAAVGVGVGGEEMYQ     71
+                     |.|.|..|:.     |.|::  .|.|..|.....       |.||.|..|
+AF-Q8N693-F1      47 TRSKPEYGTE-----AENNVGTEGSVPSDDQDRE-------GGGGHEPEQ     84
+
+AF-Q5VPE3-F1      72 GRAS---TSPD---SAAALSSASGKRERELERSGSGVDDDDGADGAGG--    113
+                     .:..   |.|:   ....|.....::|...:.:..|....:|...|.|  
+AF-Q8N693-F1      85 QQEEPPLTKPEQQQEEPPLLELKQEQEEPPQTTVEGPQPAEGPQTAEGPQ    134
+
+AF-Q5VPE3-F1     114 ------RKKLRLSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVE    157
+                           |::...::.|...||..|......:...:..||.||.|...:|:
+AF-Q8N693-F1     135 PPERKRRRRTAFTQFQLQELENFFDESQYPDVVARERLAARLNLTEDRVQ    184
+
+AF-Q5VPE3-F1     158 VWFQNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAP    207
+                     ||||||||:.|..|     ..|.......||....|:..|..  |..|||
+AF-Q8N693-F1     185 VWFQNRRAKWKRNQ-----RVLMLRNTATADLAHPLDMFLGG--AYYAAP    227
+
+AF-Q5VPE3-F1     208 S--PASASAMQPSSSAAATLTMCPSCRRVATAGAPHQP    243
+                     :  ||....:.|.......|.:.|...|......|.:|
+AF-Q8N693-F1     228 ALDPALCVHLVPQLPRPPVLPVPPMPPRPPMVPMPPRP    265
+
+
+#---------------------------------------
+#---------------------------------------

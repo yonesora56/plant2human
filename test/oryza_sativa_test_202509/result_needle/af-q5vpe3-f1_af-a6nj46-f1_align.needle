@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Tue  2 Sep 2025 06:44:38
+# Commandline: needle
+#    -asequence /var/lib/cwl/stga8ce8115-189f-4ce7-8747-065c94087c00/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stga4170e1d-19a2-428d-826d-862343876bd1/split_fasta_hit_species/af-a6nj46-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q5vpe3-f1_af-a6nj46-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q5vpe3-f1_af-a6nj46-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-A6NJ46-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 390
+# Identity:      66/390 (16.9%)
+# Similarity:    90/390 (23.1%)
+# Gaps:         207/390 (53.1%)
+# Score: 86.0
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1       1 MMDLGLSLGLGLAS---------------QGSLTSSTTTTSSPGAGS---     32
+                      |:..|. |..|.:               |.|:.:|....|.||.|.   
+AF-A6NJ46-F1       1 -MESNLQ-GTFLLNNTPLAQFPEMKAPVCQYSVQNSFYKLSPPGLGPQLA     48
+
+AF-Q5VPE3-F1      33 -----------SSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVGG---EE     68
+                                |.|.||..||::      ....|.|     |.||   :.
+AF-A6NJ46-F1      49 AGTPHGITDILSRPVAAPNNSLL------SGYPHVA-----GFGGLSSQG     87
+
+AF-Q5VPE3-F1      69 MYQGRASTSPDSAAALSSASGKRERELERSGSGVDDDDGADGAGGRK---    115
+                     :|.     || .....|.|..:.........:    |.|.|..|||:   
+AF-A6NJ46-F1      88 VYY-----SP-QVGNFSKAGNEYPTRTRNCWA----DTGQDWRGGRQCSN    127
+
+AF-Q5VPE3-F1     116 ---------------KLRLSKDQAAVLEECFKTHSTLNPKQKVALANRLG    150
+                                    :...:..|...||:.|:....|...::..||..||
+AF-A6NJ46-F1     128 TPDPLSDSIHKKKHTRPTFTGHQIFALEKTFEQTKYLAGPERARLAYSLG    177
+
+AF-Q5VPE3-F1     151 LRPRQVEVWFQNRRARTKLKQT--------------------------EV    174
+                     :...||:|||||||.:.:.|..                          ..
+AF-A6NJ46-F1     178 MTESQVKVWFQNRRTKWRKKSALEPSSSTPRAPGGAGAGAGGDRAPSENE    227
+
+AF-Q5VPE3-F1     175 DCEYLKRWCERLADENKRLEKELAD------LRALKAAPSPASASAMQPS    218
+                     |.||           ||.|:.:..|      ||..:||.|..|..|... 
+AF-A6NJ46-F1     228 DDEY-----------NKPLDPDSDDEKIRLLLRKHRAAFSVLSLGAHSV-    265
+
+AF-Q5VPE3-F1     219 SSAAATLTMCPSCRRVATAGAPHQPNHQQCHPKSNTTISSSSTAAAAVAV    268
+                                                                       
+AF-A6NJ46-F1     265 --------------------------------------------------    265
+
+AF-Q5VPE3-F1     269 AGGNVLPSHCQFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                                                             
+AF-A6NJ46-F1     265 ----------------------------------------    265
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:44:50
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q94dd0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-p10619-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q94dd0-f1_af-p10619-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q94dd0-f1_af-p10619-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q94DD0-F1
+# 2: AF-P10619-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 254
+# Identity:      51/254 (20.1%)
+# Similarity:    87/254 (34.3%)
+# Gaps:          80/254 (31.5%)
+# Score: 72.0
+# 
+#
+#=======================================
+
+AF-Q94DD0-F1      18 WAYKVARPP--PPPILGGPGGPPVSS---------PRVQLKDGRHLAYRE     56
+                     |..:..:.|  .|.:|...|||..||         |.:...||..|.|. 
+AF-P10619-F1      65 WFVESQKDPENSPVVLWLNGGPGCSSLDGLLTEHGPFLVQPDGVTLEYN-    113
+
+AF-Q94DD0-F1      57 AGVGREIAKYKIIFSHGFASTKESDFPVSQELAEELGIYLLYFDR-AGYG    105
+                                               |.|..|...    :||.:. ||.|
+AF-P10619-F1     114 --------------------------PYSWNLIAN----VLYLESPAGVG    133
+
+AF-Q94DD0-F1     106 DSDANPKRGLKSDA----TDVEELADKLQL-----GEKFYVVGTSMGGYV    146
+                     .|.::.|....:|.    ::.|.|.|..:|     ..|.::.|.|..|. 
+AF-P10619-F1     134 FSYSDDKFYATNDTEVAQSNFEALQDFFRLFPEYKNNKLFLTGESYAGI-    182
+
+AF-Q94DD0-F1     147 AWSCLNYIPYRLAGVALVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWI    196
+                           ||| .||.:.:..|::|             .:.|.||:..:.:.
+AF-P10619-F1     183 ------YIP-TLAVLVMQDPSMN-------------LQGLAVGNGLSSYE    212
+
+AF-Q94DD0-F1     197 AHHMPWLFYAWF-----NQKWFRISP--IVEGKPEAFTEKDWEILAEIQR    239
+                     .:....:::|::     |:.|..:..  ..:.|...:..||.|.:..:|.
+AF-P10619-F1     213 QNDNSLVYFAYYHGLLGNRLWSSLQTHCCSQNKCNFYDNKDLECVTNLQE    262
+
+AF-Q94DD0-F1     240 TGQL    243
+                     ..::
+AF-P10619-F1     263 VARI    266
+
+
+#---------------------------------------
+#---------------------------------------

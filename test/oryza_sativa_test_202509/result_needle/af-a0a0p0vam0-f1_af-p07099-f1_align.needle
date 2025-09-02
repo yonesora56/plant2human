@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Tue  2 Sep 2025 06:44:28
+# Commandline: needle
+#    -asequence /var/lib/cwl/stga8ce8115-189f-4ce7-8747-065c94087c00/split_fasta_query_species/af-a0a0p0vam0-f1.fasta
+#    -bsequence /var/lib/cwl/stga4170e1d-19a2-428d-826d-862343876bd1/split_fasta_hit_species/af-p07099-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vam0-f1_af-p07099-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vam0-f1_af-p07099-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VAM0-F1
+# 2: AF-P07099-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 565
+# Identity:      80/565 (14.2%)
+# Similarity:   128/565 (22.7%)
+# Gaps:         328/565 (58.1%)
+# Score: 71.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VAM0      0 --------------------------------------------------      0
+                                                                       
+AF-P07099-F1       1 MWLEILLTSVLGFAIYWFISRDKEETLPLEDGWWGPGTRSAAREDDSIRP     50
+
+AF-A0A0P0VAM0      0 --------------------------------------------------      0
+                                                                       
+AF-P07099-F1      51 FKVETSDEEIHDLHQRIDKFRFTPPLEDSCFHYGFNSNYLKKVISYWRNE    100
+
+AF-A0A0P0VAM0      1 ------MVALSKLV-LITAVALLGWAYKVARPP-------PPPIL---GG     33
+                           :..|::.. ..|.:..|...:...:||       |.|:|   |.
+AF-P07099-F1     101 FDWKKQVEILNRYPHFKTKIEGLDIHFIHVKPPQLPAGHTPKPLLMVHGW    150
+
+AF-A0A0P0VAM0     34 PGG--------PPVSSPRVQLKDGRHLAYREAGVGREIAKYKIIFSHGFA     75
+                     ||.        |.::.|:                           :||. 
+AF-P07099-F1     151 PGSFYEFYKIIPLLTDPK---------------------------NHGL-    172
+
+AF-A0A0P0VAM0     76 STKESDFPVSQELAEELGIYLLYFDRAGYGDSDANPKRGLKSDATDVEEL    125
+                         ||..|.:.:...:         .|||.|:|:.|:|..|.||.....
+AF-P07099-F1     173 ----SDEHVFEVICPSI---------PGYGFSEASSKKGFNSVATARIFY    209
+
+AF-A0A0P0VAM0    126 ADKLQLG-EKFYVVGTSMGGYVAWSCLNYIPYRLAGVALVVPAVNYWWPM    174
+                     ...|:|| ::||:.|...|..:..:....:|..:.|:.|.:..|      
+AF-P07099-F1     210 KLMLRLGFQEFYIQGGDWGSLICTNMAQLVPSHVKGLHLNMALV------    253
+
+AF-A0A0P0VAM0    175 PASVSASAYRKLDVGDRRTFWIAHHMPWLFYAWFNQKWFRISPIVEGKPE    224
+                        :|..:...|.:|.|                            .|:..
+AF-P07099-F1     254 ---LSNFSTLTLLLGQR----------------------------FGRFL    272
+
+AF-A0A0P0VAM0    225 AFTEKDWEILAEIQRTGQLDRGRATKQGAYHSLCRD--------------    260
+                     ..||:|.|:|..:            |:..::||.|:              
+AF-P07099-F1     273 GLTERDVELLYPV------------KEKVFYSLMRESGYMHIQCTKPDTV    310
+
+AF-A0A0P0VAM0    261 ------------ATIL--FGAW---EF---DPTAIENPFPNGD---GVVS    287
+                                 |.||  |..|   ||   :...:|..|...|   .|:.
+AF-P07099-F1     311 GSALNDSPVGLAAYILEKFSTWTNTEFRYLEDGGLERKFSLDDLLTNVML    360
+
+AF-A0A0P0VAM0    288 IWQGREDKIVRVEAQRYVAEKL----------------------------    309
+                     .|...    ..:.:||:..|.|                            
+AF-P07099-F1     361 YWTTG----TIISSQRFYKENLGQGWMTQKHERMKVYVPTGFSAFPFELL    406
+
+AF-A0A0P0VAM0    310 ----PWVRYHEHPE---------GGHLFMCADGLGDKIVRELLLGEEPRD    346
+                         .|||: ::|:         |||               ....|||..
+AF-P07099-F1     407 HTPEKWVRF-KYPKLISYSYMVRGGH---------------FAAFEEPEL    440
+
+AF-A0A0P0VAM0    347 L--------------    347
+                     |              
+AF-P07099-F1     441 LAQDIRKFLSVLERQ    455
+
+
+#---------------------------------------
+#---------------------------------------

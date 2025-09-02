@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:13
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-o14627-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-o14627-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-o14627-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-O14627-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 168
+# Identity:      47/168 (28.0%)
+# Similarity:    70/168 (41.7%)
+# Gaps:          48/168 (28.6%)
+# Score: 113.0
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1      25 TSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQGRA     74
+                     ||||.|..|:.:     |.:|             .||.|..|..: .|:|
+AF-O14627-F1     102 TSSPAAFCSTDY-----SNLG-------------PVGGGTSGSSL-PGQA    132
+
+AF-Q5VPE3-F1      75 STS--PDSAAALSSASGKRERE---------LERSGSGVDDDDGADGAGG    113
+                     ..|  |..|.|..::|..|.|.         ::.:|.          ...
+AF-O14627-F1     133 GGSLVPTDAGAAKASSPSRSRHSPYAWMRKTVQVTGK----------TRT    172
+
+AF-Q5VPE3-F1     114 RKKLRL--SKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQ    161
+                     ::|.|:  :..|...||:.|..:..:..::|..||..|||..|||::|||
+AF-O14627-F1     173 KEKYRVVYTDHQRLELEKEFHCNRYITIQRKSELAVNLGLSERQVKIWFQ    222
+
+AF-Q5VPE3-F1     162 NRRA------RTKLKQTE    173
+                     ||||      :.|:.|.|
+AF-O14627-F1     223 NRRAKERKMIKKKISQFE    240
+
+
+#---------------------------------------
+#---------------------------------------

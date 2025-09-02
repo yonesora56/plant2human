@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:44:53
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q94dd0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-p16233-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q94dd0-f1_af-p16233-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q94dd0-f1_af-p16233-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q94DD0-F1
+# 2: AF-P16233-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 296
+# Identity:      53/296 (17.9%)
+# Similarity:    85/296 (28.7%)
+# Gaps:         124/296 (41.9%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+AF-Q94DD0-F1      72 HGFASTKESDF--PVSQELAEELGIYLLYFD-----RAGYGDSDANPKRG    114
+                     |||....|.::  .|.:.|.:...:..:..|     |.||..:..|    
+AF-P16233-F1      92 HGFIDKGEENWLANVCKNLFKVESVNCICVDWKGGSRTGYTQASQN----    137
+
+AF-Q94DD0-F1     115 LKSDATDVEELADKLQLG-----EKFYVVGTSMGGYVAWSC---LNYIPY    156
+                     ::....:|....:.||..     ...:|:|.|:|.:.|...   .|....
+AF-P16233-F1     138 IRIVGAEVAYFVEFLQSAFGYSPSNVHVIGHSLGAHAAGEAGRRTNGTIG    187
+
+AF-Q94DD0-F1     157 RLAGVALVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHMPWLFYA    206
+                     |:.|:.   ||...:...|..|      :||..|.:...:.|        
+AF-P16233-F1     188 RITGLD---PAEPCFQGTPELV------RLDPSDAKFVDVIH--------    220
+
+AF-Q94DD0-F1     207 WFNQKWFRISPIVEGKPEAFTEKDWEILAEI-----QRTGQLDRGRATKQ    251
+                                 .:|.|         |:..:     |..|.||.      
+AF-P16233-F1     221 ------------TDGAP---------IVPNLGFGMSQVVGHLDF------    243
+
+AF-Q94DD0-F1     252 GAYHSLCRDATILFGAWEFDPTAIENPFPNG------------------D    283
+                                                ||||                  |
+AF-P16233-F1     244 ---------------------------FPNGGVEMPGCKKNILSQIVDID    266
+
+AF-Q94DD0-F1     284 GVVSIWQGREDKIV--RVEAQRYVAEKLPWVRYHEHPEGGHLFMCA    327
+                     |   ||:|..|...  .:.:.:|..:.:      .:|:|...|.||
+AF-P16233-F1     267 G---IWEGTRDFAACNHLRSYKYYTDSI------VNPDGFAGFPCA    303
+
+
+#---------------------------------------
+#---------------------------------------

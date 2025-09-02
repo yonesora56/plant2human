@@ -1,0 +1,69 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:11
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-p49640-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-p49640-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-p49640-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-P49640-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 379
+# Identity:      78/379 (20.6%)
+# Similarity:   116/379 (30.6%)
+# Gaps:         140/379 (36.9%)
+# Score: 139.0
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1      12 LASQGSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVG     61
+                     :..:|.|:......::...|...|....::.:.|......|....|.|..
+AF-P49640-F1      42 MVPRGCLSPRAVPPATRERGGGGPEEEPVDGLAGSAAGPGAEPQVAGAAM     91
+
+AF-Q5VPE3-F1      62 VGVG----------GEEMYQGRASTS---------------PDSA---AA     83
+                     :|.|          |    ||:.|:|               ||.|   |.
+AF-P49640-F1      92 LGPGPPAPSVDSLSG----QGQPSSSDTESDFYEEIEVSCTPDCATGNAE    137
+
+AF-Q5VPE3-F1      84 LSSASGKRERELERS---GSGVDDDDGADGAGG--------------RKK    116
+                     ...:.|.....|..|   ||.....:|..|.||              |.:
+AF-P49640-F1     138 YQHSKGSGSEALVGSPNGGSETPKSNGGSGGGGSQGTLACSASDQMRRYR    187
+
+AF-Q5VPE3-F1     117 LRLSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRAR    166
+                     ...:::|.|.||:.|...:.::..::..||..|.|....::|||||||.:
+AF-P49640-F1     188 TAFTREQIARLEKEFYRENYVSRPRRCELAAALNLPETTIKVWFQNRRMK    237
+
+AF-Q5VPE3-F1     167 TKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPSPASASAMQ    216
+                     .|.              :|||                ...|.||..:...
+AF-P49640-F1     238 DKR--------------QRLA----------------MTWPHPADPAFYT    257
+
+AF-Q5VPE3-F1     217 PSSSAAATLTMCPSCRRVATAGAPHQ-PNHQQCHPKSNTTISSSSTAAAA    265
+                     ...|.||           |..|.|:. |:|......|...:.::|.|:||
+AF-P49640-F1     258 YMMSHAA-----------AAGGLPYPFPSHLPLPYYSPVGLGAASAASAA    296
+
+AF-Q5VPE3-F1     266 VAVAGGNVLPSH---------------CQF--------------------    280
+                     .:...|::.|..               |.|                    
+AF-P49640-F1     297 ASPFSGSLRPLDTFRVLSQPYPRPELLCAFRHPPLYPGPAHGLGASAGGP    346
+
+AF-Q5VPE3-F1     281 --------------FPAAAAAADRTSQST    295
+                                   .|.||||:|.|..||
+AF-P49640-F1     347 CSCLACHSGPANGLAPRAAAASDFTCAST    375
+
+
+#---------------------------------------
+#---------------------------------------

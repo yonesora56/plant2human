@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:44:56
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q01lc6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-q92945-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q01lc6-f1_af-q92945-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q01lc6-f1_af-q92945-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q01LC6-F1
+# 2: AF-Q92945-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 313
+# Identity:      58/313 (18.5%)
+# Similarity:    93/313 (29.7%)
+# Gaps:          89/313 (28.4%)
+# Score: 64.5
+# 
+#
+#=======================================
+
+AF-Q01LC6-F1     179 GGSGGAIEDEARIADISTRLGNLLRGQSGVRAAAAAAPGGLTHKERRLHQ    228
+                     ||:|||             .|....|..|........|||          
+AF-Q92945-F1      21 GGAGGA-------------GGGPPPGPPGAGDRGGGGPGG----------     47
+
+AF-Q01LC6-F1     229 MMFDDRDYDGGG--GAASSSPRGRSPTPATEVSVTPCAERGYTAVVVRCR    276
+                           ...|||  |..|..|.|..|         ...:..:...|.|.|
+AF-Q92945-F1      48 ------GGPGGGSAGGPSQPPGGGGP---------GIRKDAFADAVQRAR     82
+
+AF-Q01LC6-F1     277 D-RPKLLFDTVCTIT----DMGYVIHHGAVSSEPRGGAYQEYYIRHVDGD    321
+                     . ..|:..|...|:.    |.|:    |....:...|...|.......||
+AF-Q92945-F1      83 QIAAKIGGDAATTVNNSTPDFGF----GGQKRQLEDGDQPESKKLASQGD    128
+
+AF-Q01LC6-F1     322 PVRSEAERQRVVQCLEAAIERRTADGLALEVRTGDRAGLL-----SDVTR    366
+                     .:.|:..............|.|..||:         .||:     ..:.:
+AF-Q92945-F1     129 SISSQLGPIHPPPRTSMTEEYRVPDGM---------VGLIIGRGGEQINK    169
+
+AF-Q01LC6-F1     367 IFRENGLTIRRAEISSERGEAVDTFYLSDPQGHPVEA-------KTIDAI    409
+                     |.:::|.   :.:||.:.|            |.|..:       :::...
+AF-Q92945-F1     170 IQQDSGC---KVQISPDSG------------GLPERSVSLTGAPESVQKA    204
+
+AF-Q01LC6-F1     410 RAQIGEATLRVKHNPFAD-GDGAGGGGGGATDDV---AGSTAFLFGNLFK    455
+                     :..:.:...|.:..|... .|.|.||..|...::   ||....:.|...:
+AF-Q92945-F1     205 KMMLDDIVSRGRGGPPGQFHDNANGGQNGTVQEIMIPAGKAGLVIGKGGE    254
+
+AF-Q01LC6-F1     456 FYRPFQNFSLIKL    468
+                     ..:..|..:.:|:
+AF-Q92945-F1     255 TIKQLQERAGVKM    267
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:44:57
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q01lc6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-o95758-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q01lc6-f1_af-o95758-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q01lc6-f1_af-o95758-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q01LC6-F1
+# 2: AF-O95758-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 171
+# Identity:      34/171 (19.9%)
+# Similarity:    64/171 (37.4%)
+# Gaps:          38/171 (22.2%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+AF-Q01LC6-F1       7 AASGGDAHDDEYAKLVRGMNPP-RVVVDNEACDEATVIRVDSVSSHGTLL     55
+                     |.|||.:::   ..::.|.:|. |::::|             :....||.
+AF-O95758-F1     163 ALSGGPSNE---GTVLPGQSPVLRIIIEN-------------LFYPVTLE    196
+
+AF-Q01LC6-F1      56 AVVQVIADLGLVIRKAYFSSDGSW-----FMDVFNVTDRDGNKVLDDQTI    100
+                     .:.|:.:..|.|::...|:.:..:     :.|..|.  ......||.|.|
+AF-O95758-F1     197 VLHQIFSKFGTVLKIITFTKNNQFQALLQYADPVNA--HYAKMALDGQNI    244
+
+AF-Q01LC6-F1     101 SYIQTTLEADDWYYPEVRNTVGIVPAEEYTVIEL-TGTDR----------    139
+                     .....||..|......:........:.::|.::| ||..:          
+AF-O95758-F1     245 YNACCTLRIDFSKLTSLNVKYNNDKSRDFTRLDLPTGDGQPSLEPPMAAA    294
+
+AF-Q01LC6-F1     140 ---PGLLSEVCAVLAGMRCAV    157
+                        ||::|...|..||...|:
+AF-O95758-F1     295 FGAPGIISSPYAGAAGFAPAI    315
+
+
+#---------------------------------------
+#---------------------------------------

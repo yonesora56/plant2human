@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:07
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-q9uiw0-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-q9uiw0-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-q9uiw0-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-Q9UIW0-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 270
+# Identity:      62/270 (23.0%)
+# Similarity:    94/270 (34.8%)
+# Gaps:          88/270 (32.6%)
+# Score: 139.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1      45 GDVRRDQAAAHAAAAVGVG------VGGEEMYQGRASTSPDSAAALSSAS     88
+                     |...||:..|..|.:.|.|      .|..::.......||...|..|::|
+AF-Q9UIW0-F1       4 GGAERDRGPARRAESGGGGGRCGDRSGAGDLRADGGGHSPTEVAGTSASS     53
+
+AF-Q5VPE3-F1      89 GKRERELERSGSGVDDDDGADGAG--------------------------    112
+                     ....||   ||:   |.||..|.|                          
+AF-Q9UIW0-F1      54 PAGSRE---SGA---DSDGQPGPGEADHCRRILVRDAKGTIREIVLPKGL     97
+
+AF-Q5VPE3-F1     113 -----GRKKLRLSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVE    157
+                          .|.:...:.:|...||..|:....:..:::..||.:|.|...||:
+AF-Q9UIW0-F1      98 DLDRPKRTRTSFTAEQLYRLEMEFQRCQYVVGRERTELARQLNLSETQVK    147
+
+AF-Q5VPE3-F1     158 VWFQNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELAD--------    199
+                     |||||||.:.|                  .|:::.|||..:.        
+AF-Q9UIW0-F1     148 VWFQNRRTKQK------------------KDQSRDLEKRASSSASEAFAT    179
+
+AF-Q5VPE3-F1     200 ---LRALK-----AAPSPASASAMQPSSSAAATLTMCPSCRRVATAGAPH    241
+                        ||.|:     :.|...|..|:.||      |...|:..|..:.|.|.
+AF-Q9UIW0-F1     180 SNILRLLEQGRLLSVPRAPSLLALTPS------LPGLPASHRGTSLGDPR    223
+
+AF-Q5VPE3-F1     242 QPNHQQCHPKSNTTISSSST    261
+                     ..:     |:.|...|:|::
+AF-Q9UIW0-F1     224 NSS-----PRLNPLSSASAS    238
+
+
+#---------------------------------------
+#---------------------------------------

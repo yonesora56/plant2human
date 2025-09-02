@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:02
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-a0a0p0vam0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-p27487-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0vam0-f1_af-p27487-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0vam0-f1_af-p27487-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VAM0-F1
+# 2: AF-P27487-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 166
+# Identity:      32/166 (19.3%)
+# Similarity:    55/166 (33.1%)
+# Gaps:          66/166 (39.8%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+AF-A0A0P0VAM0    154 IPYRLAGVALVVPAVNYWWPMPASVSA---------SAYRKLDVGDRRTF    194
+                     :||..||.  |.|.|.::.....|:|:         :|...:.:||    
+AF-P27487-F1     254 VPYPKAGA--VNPTVKFFVVNTDSLSSVTNATSIQITAPASMLIGD----    297
+
+AF-A0A0P0VAM0    195 WIAHHM---PWLFYAWFNQKWFRISPIVEGKPEAFTEKD----------W    231
+                        |::   .|......:.:|.|       :.:.::..|          |
+AF-P27487-F1     298 ---HYLCDVTWATQERISLQWLR-------RIQNYSVMDICDYDESSGRW    337
+
+AF-A0A0P0VAM0    232 EILA-----EIQRTGQLDRGRATK----------------QGAYHSLC--    258
+                     ..|.     |:..||.:.|.|.::                :..|..:|  
+AF-P27487-F1     338 NCLVARQHIEMSTTGWVGRFRPSEPHFTLDGNSFYKIISNEEGYRHICYF    387
+
+AF-A0A0P0VAM0    259 ----RDAT-ILFGAWE    269
+                         :|.| |..|.||
+AF-P27487-F1     388 QIDKKDCTFITKGTWE    403
+
+
+#---------------------------------------
+#---------------------------------------

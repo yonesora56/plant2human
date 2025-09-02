@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Tue  2 Sep 2025 06:44:34
+# Commandline: needle
+#    -asequence /var/lib/cwl/stga8ce8115-189f-4ce7-8747-065c94087c00/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stga4170e1d-19a2-428d-826d-862343876bd1/split_fasta_hit_species/af-o15499-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q5vpe3-f1_af-o15499-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q5vpe3-f1_af-o15499-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-O15499-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 341
+# Identity:      52/341 (15.2%)
+# Similarity:    81/341 (23.8%)
+# Gaps:         169/341 (49.6%)
+# Score: 102.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1       1 ----------------------------MMDLGLSLGLGLASQGSLTSST     22
+                                                 :.:..|........|.:...|.
+AF-O15499-F1       1 MAAAAGGAASRRGAGRPCPFSIEHILSSLPERSLPARAACPPQPAGRQSP     50
+
+AF-Q5VPE3-F1      23 TTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQG     72
+                     .....|||..::|.|..  ...|    .:||.........|:|....:..
+AF-O15499-F1      51 AKPEEPGAPEAAPCACC--CCCG----PRAAPCGPPEAAAGLGARLAWPL     94
+
+AF-Q5VPE3-F1      73 RASTSPDSAAALSSASGKRERELERSGSGVDDDDGADGAGGRKKLR----    118
+                     |  ..|....:|.:.:|         |||.  ..||.|.|.:::.|    
+AF-O15499-F1      95 R--LGPAVPLSLGAPAG---------GSGA--LPGAVGPGSQRRTRRHRT    131
+
+AF-Q5VPE3-F1     119 -LSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRART    167
+                      .|::|...||..|..:...:...:..||.|:.||..:|||||:||||:.
+AF-O15499-F1     132 IFSEEQLQALEALFVQNQYPDVSTRERLAGRIRLREERVEVWFKNRRAKW    181
+
+AF-Q5VPE3-F1     168 KLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPSPASASAMQP    217
+                     :         :.||     |..:.||      |..:|.:|..:.      
+AF-O15499-F1     182 R---------HQKR-----ASASARL------LPGVKKSPKGSC------    205
+
+AF-Q5VPE3-F1     218 SSSAAATLTMCPSCRRVATAGAPHQPNHQQCHPKSNTTISSSSTAAAAVA    267
+                                                                       
+AF-O15499-F1     205 --------------------------------------------------    205
+
+AF-Q5VPE3-F1     268 VAGGNVLPSHCQFFPAAAAAADRTSQSTWNAAAPLVTRELF    308
+                                                              
+AF-O15499-F1     205 -----------------------------------------    205
+
+
+#---------------------------------------
+#---------------------------------------

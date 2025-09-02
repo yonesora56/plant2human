@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Tue  2 Sep 2025 06:44:31
+# Commandline: needle
+#    -asequence /var/lib/cwl/stga8ce8115-189f-4ce7-8747-065c94087c00/split_fasta_query_species/af-a0a0p0vam0-f1.fasta
+#    -bsequence /var/lib/cwl/stga4170e1d-19a2-428d-826d-862343876bd1/split_fasta_hit_species/af-q14032-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vam0-f1_af-q14032-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vam0-f1_af-q14032-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VAM0-F1
+# 2: AF-Q14032-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 528
+# Identity:      73/528 (13.8%)
+# Similarity:   112/528 (21.2%)
+# Gaps:         291/528 (55.1%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VAM0      0 --------------------------------------------------      0
+                                                                       
+AF-Q14032-F1       1 MIQLTATPVSALVDEPVHIRATGLIPFQMVSFQASLEDENGDMFYSQAHY     50
+
+AF-A0A0P0VAM0      0 --------------------------------------------------      0
+                                                                       
+AF-Q14032-F1      51 RANEFGEVDLNHASSLGGDYMGVHPMGLFWSLKPEKLLTRLLKRDVMNRP    100
+
+AF-A0A0P0VAM0      1 ---MVALSKLVLITAVALLGWAYKVARPPPPPI-----LGGPGGPPVSSP     42
+                        .|.|..|.||.       ..|||..|...:     ...||     ..
+AF-Q14032-F1     101 FQVQVKLYDLELIV-------NNKVASAPKASLTLERWYVAPG-----VT    138
+
+AF-A0A0P0VAM0     43 RVQLKDGRHLAYREA------------------GVGREIA-KYKIIFSHG     73
+                     |:::::||   .|.|                  |:|..:. :..::.|.|
+AF-Q14032-F1     139 RIKVREGR---LRGALFLPPGEGLFPGVIDLFGGLGGLLEFRASLLASRG    185
+
+AF-A0A0P0VAM0     74 FASTKESDFPVSQELAEELGIYLLYFDRAGYGDSDANPKRGLKSDATDV-    122
+                     |||                 :.|.|.:   |.|....|      :.||: 
+AF-Q14032-F1     186 FAS-----------------LALAYHN---YEDLPRKP------EVTDLE    209
+
+AF-A0A0P0VAM0    123 --EELADKLQLGEKFY-----VVGTSMGGYVAWSCLNYIPYRLAGVALVV    165
+                       ||.|:.|....|.:     ||....|..:..|...|:....|.|  ::
+AF-Q14032-F1     210 YFEEAANFLLRHPKVFGSGVGVVSVCQGVQIGLSMAIYLKQVTATV--LI    257
+
+AF-A0A0P0VAM0    166 PAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHMPWLFYAWFNQKWFRI    215
+                     ...|:.:.:|.......::.|.           |...|           |
+AF-Q14032-F1     258 NGTNFPFGIPQVYHGQIHQPLP-----------HSAQL-----------I    285
+
+AF-A0A0P0VAM0    216 SPIVEGKPEAFTEKDWEILAEIQRTGQLDRGRATKQGAYHSLCRDATILF    265
+                     |....|            |.|:.||.:     .|:.||       :..||
+AF-Q14032-F1     286 STNALG------------LLELYRTFE-----TTQVGA-------SQYLF    311
+
+AF-A0A0P0VAM0    266 GAWEFDPTAIENPFPNGDGVVSIWQGREDKIVRVEAQRYVAEKLPWVRYH    315
+                                 |.....|......|..||.:..:|  :..:.:..::.|
+AF-Q14032-F1     312 ------------PIEEAQGQFLFIVGEGDKTINSKA--HAEQAIGQLKRH    347
+
+AF-A0A0P0VAM0    316 --------EHPEGGHLFMCADGLGDKIVRELLLGEEPRDL----------    347
+                             .:|..|||.       :.....|.......||          
+AF-Q14032-F1     348 GKNNWTLLSYPGAGHLI-------EPPYSPLCCASTTHDLRLHWGGEVIP    390
+
+AF-A0A0P0VAM0    347 ----------------------------    347
+                                                 
+AF-Q14032-F1     391 HAAAQEHAWKEIQRFLRKHLIPDVTSQL    418
+
+
+#---------------------------------------
+#---------------------------------------

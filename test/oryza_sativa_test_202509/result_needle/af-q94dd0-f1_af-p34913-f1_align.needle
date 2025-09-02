@@ -1,0 +1,89 @@
+########################################
+# Program: needle
+# Rundate: Tue  2 Sep 2025 06:44:15
+# Commandline: needle
+#    -asequence /var/lib/cwl/stga8ce8115-189f-4ce7-8747-065c94087c00/split_fasta_query_species/af-q94dd0-f1.fasta
+#    -bsequence /var/lib/cwl/stga4170e1d-19a2-428d-826d-862343876bd1/split_fasta_hit_species/af-p34913-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q94dd0-f1_af-p34913-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q94dd0-f1_af-p34913-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q94DD0-F1
+# 2: AF-P34913-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 619
+# Identity:      85/619 (13.7%)
+# Similarity:   131/619 (21.2%)
+# Gaps:         336/619 (54.3%)
+# Score: 116.0
+# 
+#
+#=======================================
+
+AF-Q94DD0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P34913-F1       1 MTLRAAVFDLDGVLALPAVFGVLGRTEEALALPRGLLNDAFQKGGPEGAT     50
+
+AF-Q94DD0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P34913-F1      51 TRLMKGEITLSQWIPLMEENCRKCSETAKVCLPKNFSIKEIFDKAISARK    100
+
+AF-Q94DD0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P34913-F1     101 INRPMLQAALMLRKKGFTTAILTNTWLDDRAERDGLAQLMCELKMHFDFL    150
+
+AF-Q94DD0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P34913-F1     151 IESCQVGMVKPEPQIYKFLLDTLKASPSEVVFLDDIGANLKPARDLGMVT    200
+
+AF-Q94DD0-F1       1 ------MVALSKLVLITAVALLGWAYKVARPPPPPILGGPG----GPPVS     40
+                           ..||.:|..:|.:.||.      .|.|.|....|.    |....
+AF-P34913-F1     201 ILVQDTDTALKELEKVTGIQLLN------TPAPLPTSCNPSDMSHGYVTV    244
+
+AF-Q94DD0-F1      41 SPRVQLKDGRHLAYREAGVGREIAKYKIIFSHGFASTKES---DFPVSQE     87
+                     .|||:|.      :.|.|.|..:.     ..|||..:..|   ..|.   
+AF-P34913-F1     245 KPRVRLH------FVELGSGPAVC-----LCHGFPESWYSWRYQIPA---    280
+
+AF-Q94DD0-F1      88 LAEELGIYLLYFDRAGYGDSDANPKRGLKSDATDVEE------------L    125
+                     || :.|..:|..|..|||:|.|.|         ::||            .
+AF-P34913-F1     281 LA-QAGYRVLAMDMKGYGESSAPP---------EIEEYCMEVLCKEMVTF    320
+
+AF-Q94DD0-F1     126 ADKLQLGEKFYVVGTSMGGYVAWSCLNYIPYRLAGVA-LVVPAVNYWWPM    174
+                     .|||.|.:..: :|...||.:.|....:.|.|:..|| |..|.:      
+AF-P34913-F1     321 LDKLGLSQAVF-IGHDWGGMLVWYMALFYPERVRAVASLNTPFI------    363
+
+AF-Q94DD0-F1     175 PASVSASAYRKLDVGDRRTFWIAHHMPWLFYAWFNQKWFRISPIVEGKPE    224
+                     ||:.:.|....:...           |...|    |.:|:...:.|.:.|
+AF-P34913-F1     364 PANPNMSPLESIKAN-----------PVFDY----QLYFQEPGVAEAELE    398
+
+AF-Q94DD0-F1     225 AFTEKDWEILAEIQRTGQLDRGRATKQGAYH-------SLCRDAT---IL    264
+                     ....:.::.|........|...:..:.|...       ||.|..|   |.
+AF-P34913-F1     399 QNLSRTFKSLFRASDESVLSMHKVCEAGGLFVNSPEEPSLSRMVTEEEIQ    448
+
+AF-Q94DD0-F1     265 FGAWEFDPTAIENPFPNGDGVVSIWQ------GREDKIVRVEAQRYVAEK    308
+                     |...:|..:....|......:...|:      ||:   :.:.|....|||
+AF-P34913-F1     449 FYVQQFKKSGFRGPLNWYRNMERNWKWACKSLGRK---ILIPALMVTAEK    495
+
+AF-Q94DD0-F1     309 ----LPWVRYH-----EHPEGGHLFMC---------------------AD    328
+                         :|.:..|     .|.:.||:..|                     :|
+AF-P34913-F1     496 DFVLVPQMSQHMEDWIPHLKRGHIEDCGHWTQMDKPTEVNQILIKWLDSD    545
+
+AF-Q94DD0-F1     329 GLGDKIVRELLLGEEPRDL    347
+                     .....:|.::         
+AF-P34913-F1     546 ARNPPVVSKM---------    555
+
+
+#---------------------------------------
+#---------------------------------------

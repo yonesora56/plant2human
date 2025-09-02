@@ -1,0 +1,101 @@
+########################################
+# Program: needle
+# Rundate: Tue  2 Sep 2025 06:44:30
+# Commandline: needle
+#    -asequence /var/lib/cwl/stga8ce8115-189f-4ce7-8747-065c94087c00/split_fasta_query_species/af-a0a0p0vam0-f1.fasta
+#    -bsequence /var/lib/cwl/stga4170e1d-19a2-428d-826d-862343876bd1/split_fasta_hit_species/af-p48147-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vam0-f1_af-p48147-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vam0-f1_af-p48147-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VAM0-F1
+# 2: AF-P48147-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 777
+# Identity:      71/777 ( 9.1%)
+# Similarity:   128/777 (16.5%)
+# Gaps:         497/777 (64.0%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VAM0      0 --------------------------------------------------      0
+                                                                       
+AF-P48147-F1       1 MLSLQYPDVYRDETAVQDYHGHKICDPYAWLEDPDSEQTKAFVEAQNKIT     50
+
+AF-A0A0P0VAM0      0 --------------------------------------------------      0
+                                                                       
+AF-P48147-F1      51 VPFLEQCPIRGLYKERMTELYDYPKYSCHFKKGKRYFYFYNTGLQNQRVL    100
+
+AF-A0A0P0VAM0      1 ----------MVALSKLVLIT--AVALLGWAYKVARPPPPPILGGPGGPP     38
+                               .|.|...:|..  .|||.|:|:.                 
+AF-P48147-F1     101 YVQDSLEGEARVFLDPNILSDDGTVALRGYAFS-----------------    133
+
+AF-A0A0P0VAM0     39 VSSPRVQLKDGRHLAYREAGVGREIAKYKIIFSHGFASTKESDFPVSQEL     88
+                             :||.:.||..:..|.:....|.:...|     ..:.|   ::
+AF-P48147-F1     134 --------EDGEYFAYGLSASGSDWVTIKFMKVDG-----AKELP---DV    167
+
+AF-A0A0P0VAM0     89 AEELGIYLLYFDRAGYG-DSDANPKRGLKSDATDVE-ELADKLQLGEKFY    136
+                     .|.:....:.:...|.| ..::.|::..|||.|:.. .|..||.    ::
+AF-P48147-F1     168 LERVKFSCMAWTHDGKGMFYNSYPQQDGKSDGTETSTNLHQKLY----YH    213
+
+AF-A0A0P0VAM0    137 VVGTS----------------MGG--------YV-------------AWS    149
+                     |:||.                |||        ||             .|.
+AF-P48147-F1     214 VLGTDQSEDILCAEFPDEPKWMGGAELSDDGRYVLLSIREGCDPVNRLWY    263
+
+AF-A0A0P0VAM0    150 CLNYIPYRLAGVALVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHH    199
+                     |  .:....:|:|.::.    |..:..:.........:.|...||.....
+AF-P48147-F1     264 C--DLQQESSGIAGILK----WVKLIDNFEGEYDYVTNEGTVFTFKTNRQ    307
+
+AF-A0A0P0VAM0    200 MPWLFYAWFNQKWFRISPIVEGKPEAFTEKDWEILAEIQRTGQLDRGRAT    249
+                     .|       |   :|:..|....||   |..|::|........|: ..|.
+AF-P48147-F1     308 SP-------N---YRVINIDFRDPE---ESKWKVLVPEHEKDVLE-WIAC    343
+
+AF-A0A0P0VAM0    250 KQGAYHSLC--RDATILFGAWEFDPTAIENPFPNGDGVVSIWQG-REDKI    296
+                     .:..:..||  .|...:....:....|:...||...|.:..:.| ::|..
+AF-P48147-F1     344 VRSNFLVLCYLHDVKNILQLHDLTTGALLKTFPLDVGSIVGYSGQKKDTE    393
+
+AF-A0A0P0VAM0    297 VRVEAQRYVAEKLPWVRYHEHPEGGHLFMCADGLGDKIVRELLL-GEEPR    345
+                     :..:...:::   |.:.|       |..:..:.|..::.||:.: |.:..
+AF-P48147-F1     394 IFYQFTSFLS---PGIIY-------HCDLTKEELEPRVFREVTVKGIDAS    433
+
+AF-A0A0P0VAM0    346 DL------------------------------------------------    347
+                     |.                                                
+AF-P48147-F1     434 DYQTVQIFYPSKDGTKIPMFIVHKKGIKLDGSHPAFLYGYGGFNISITPN    483
+
+AF-A0A0P0VAM0    347 --------------------------------------------------    347
+                                                                       
+AF-P48147-F1     484 YSVSRLIFVRHMGGILAVANIRGGGEYGETWHKGGILANKQNCFDDFQCA    533
+
+AF-A0A0P0VAM0    347 --------------------------------------------------    347
+                                                                       
+AF-P48147-F1     534 AEYLIKEGYTSPKRLTINGGSNGGLLVAACANQRPDLFGCVIAQVGVMDM    583
+
+AF-A0A0P0VAM0    347 --------------------------------------------------    347
+                                                                       
+AF-P48147-F1     584 LKFHKYTIGHAWTTDYGCSDSKQHFEWLVKYSPLHNVKLPEADDIQYPSM    633
+
+AF-A0A0P0VAM0    347 --------------------------------------------------    347
+                                                                       
+AF-P48147-F1     634 LLLTADHDDRVVPLHSLKFIATLQYIVGRSRKQSNPLLIHVDTKAGHGAG    683
+
+AF-A0A0P0VAM0    347 ---------------------------    347
+                                                
+AF-P48147-F1     684 KPTAKVIEEVSDMFAFIARCLNVDWIP    710
+
+
+#---------------------------------------
+#---------------------------------------

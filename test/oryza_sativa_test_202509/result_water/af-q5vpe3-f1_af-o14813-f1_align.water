@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:16
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-o14813-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-o14813-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-o14813-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-O14813-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 246
+# Identity:      58/246 (23.6%)
+# Similarity:    89/246 (36.2%)
+# Gaps:          68/246 (27.6%)
+# Score: 115.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1      11 GLASQ-GSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAA     59
+                     |..|| |....|....:.|.||...|...:.|..:|.:|..|.|.::|..
+AF-O14813-F1      25 GACSQPGGFQYSPLRPAFPAAGPPCPALGSSNCALGALRDHQPAPYSAVP     74
+
+AF-Q5VPE3-F1      60 VGVGVGGEEMYQGRASTSPDSAAALSSASGKRERELERSGSGVDDDDGAD    109
+                               |:           .....||..|:..:|            
+AF-O14813-F1      75 ----------YK-----------FFPEPSGLHEKRKQR------------     91
+
+AF-Q5VPE3-F1     110 GAGGRKKLRLSKDQAAVLEECF-KTH-STLNPKQKVALANRLGLRPRQVE    157
+                         |.:...:..|...||..| :|| ..:..::::||  ::.|...:|:
+AF-O14813-F1      92 ----RIRTTFTSAQLKELERVFAETHYPDIYTREELAL--KIDLTEARVQ    135
+
+AF-Q5VPE3-F1     158 VWFQNRRARTKLKQTEVDCEYLKRWCERLADE------------NKRLEK    195
+                     ||||||||:.: ||            ||.|..            ..|...
+AF-O14813-F1     136 VWFQNRRAKFR-KQ------------ERAASAKGAAGAAGAKKGEARCSS    172
+
+AF-Q5VPE3-F1     196 ELADLRALKAAPSP-ASASAMQPSSSAAATLTMCPSCRRVATAGAP    240
+                     |..|.:....:|:| ::||...|.:...|:..:.||...||....|
+AF-O14813-F1     173 EDDDSKESTCSPTPDSTASLPPPPAPGLASPRLSPSPLPVALGSGP    218
+
+
+#---------------------------------------
+#---------------------------------------

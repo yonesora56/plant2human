@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:44:47
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q94dd0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-q9h6b9-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q94dd0-f1_af-q9h6b9-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q94dd0-f1_af-q9h6b9-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q94DD0-F1
+# 2: AF-Q9H6B9-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 350
+# Identity:      82/350 (23.4%)
+# Similarity:   126/350 (36.0%)
+# Gaps:         117/350 (33.4%)
+# Score: 101.0
+# 
+#
+#=======================================
+
+AF-Q94DD0-F1      29 PILGGPGGPPVSSPRVQLKDGRHLAYREAGVGREIAKYKIIFSHGFASTK     78
+                     |.||..|...:.|      .|..|.|..||.|....   ::|.|||   .
+AF-Q9H6B9-F1      70 PSLGEHGFLNLKS------SGLRLHYVSAGRGNGPL---MLFLHGF---P    107
+
+AF-Q94DD0-F1      79 ESDFPVSQELAE-ELGIYLLYFDRAGYGDSDANPKRGLKSDATDVE----    123
+                     |:.|....:|.| :...:::..|..|||.||| |:        ||:    
+AF-Q9H6B9-F1     108 ENWFSWRYQLREFQSRFHVVAVDLRGYGPSDA-PR--------DVDCYTI    148
+
+AF-Q94DD0-F1     124 -----ELADK-LQLG-EKFYVVGTSMGGYVAWSCLNYIPYRLAGVALVVP    166
+                          ::.|. |.|| .|..:|....|..:||....|.|..:..:.:|..
+AF-Q9H6B9-F1     149 DLLLVDIKDVILGLGYSKCILVAHDWGALLAWHFSIYYPSLVERMVVVSG    198
+
+AF-Q94DD0-F1     167 AVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHM-----PWLFYAWFNQK    211
+                     |     ||      |.|:...:.....|:.:|:|     |||        
+AF-Q9H6B9-F1     199 A-----PM------SVYQDYSLHHISQFFRSHYMFLFQLPWL--------    229
+
+AF-Q94DD0-F1     212 WFRISPIVEGKPE-AFTEKDWEILAEI---QRTG-------QLDR-----    245
+                                || ..:..|::||...   ::||       :|:.     
+AF-Q9H6B9-F1     230 -----------PEKLLSMSDFQILKTTLTHRKTGIPCLTPSELEAFLYNF    268
+
+AF-Q94DD0-F1     246 ----GRATKQGAYHSLCRDATILFGAWEFDPTAIENPFPNGDGVVSIWQG    291
+                         |.......|.:|.|:       :..:|..:..|      .:.:| |
+AF-Q9H6B9-F1     269 SQPGGLTGPLNYYRNLFRN-------FPLEPQELTTP------TLLLW-G    304
+
+AF-Q94DD0-F1     292 REDKIVR---VEA--QRYV-----AEKLP----WVRYHEHPEGGHLFMCA    327
+                     .:|..:.   |||  .|:|     |..||    |:. ..:|:..|.:|.|
+AF-Q9H6B9-F1     305 EKDTYLELGLVEAIGSRFVPGRLEAHILPGIGHWIP-QSNPQEMHQYMWA    353
+
+
+#---------------------------------------
+#---------------------------------------

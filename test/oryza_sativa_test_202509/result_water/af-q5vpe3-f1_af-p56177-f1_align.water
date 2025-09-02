@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:09
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-p56177-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-p56177-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-p56177-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-P56177-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 278
+# Identity:      59/278 (21.2%)
+# Similarity:   102/278 (36.7%)
+# Gaps:          85/278 (30.6%)
+# Score: 123.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1      26 SSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQGRAS     75
+                     |.|....||  |::.:..:|....:..::||::..   :...:.|.|.||
+AF-P56177-F1      51 SQPDGAYSS--ASSFSRPLGYPYVNSVSSHASSPY---ISSVQSYPGSAS     95
+
+AF-Q5VPE3-F1      76 TSPDSAAALSSASGKRERELERSGSGVDDDDGADGA-----GGRKKLR--    118
+                     .:              :..||..|:..:.....:|.     |..||:|  
+AF-P56177-F1      96 LA--------------QSRLEDPGADSEKSTVVEGGEVRFNGKGKKIRKP    131
+
+AF-Q5VPE3-F1     119 ---LSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRA    165
+                        .|..|...|...|:....|...::..||..|||...||::||||:|:
+AF-P56177-F1     132 RTIYSSLQLQALNRRFQQTQYLALPERAELAASLGLTQTQVKIWFQNKRS    181
+
+AF-Q5VPE3-F1     166 RTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPSPASASAM    215
+                     :.                       |:|.|:              ..:|:
+AF-P56177-F1     182 KF-----------------------KKLMKQ--------------GGAAL    194
+
+AF-Q5VPE3-F1     216 QPSSSAAATLTMCPSCRRVATAGAPHQPNHQQCHPKSNTTISSSSTAAAA    265
+                     :.|:.|..         |..:||:|..|  ...:|.|::...|...|   
+AF-P56177-F1     195 EGSALANG---------RALSAGSPPVP--PGWNPNSSSGKGSGGNA---    230
+
+AF-Q5VPE3-F1     266 VAVAGGNVLPSHCQFFPAAAAAADRTSQ    293
+                          |:.:||:..::|:|...|.:..|
+AF-P56177-F1     231 -----GSYIPSYTSWYPSAHQEAMQQPQ    253
+
+
+#---------------------------------------
+#---------------------------------------

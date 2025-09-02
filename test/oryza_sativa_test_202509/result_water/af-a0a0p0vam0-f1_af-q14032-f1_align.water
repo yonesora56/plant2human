@@ -1,0 +1,45 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:04
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-a0a0p0vam0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-q14032-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0vam0-f1_af-q14032-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0vam0-f1_af-q14032-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VAM0-F1
+# 2: AF-Q14032-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      21/66 (31.8%)
+# Similarity:    32/66 (48.5%)
+# Gaps:           9/66 (13.6%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VAM0    234 LAEIQRTGQLDRGRATKQGAYHS---LCRDATILFGAWEFDPTA---IEN    277
+                     |.|.:.:....||.|:...|||:   |.|...:....: |:..|   :.:
+AF-Q14032-F1     173 LLEFRASLLASRGFASLALAYHNYEDLPRKPEVTDLEY-FEEAANFLLRH    221
+
+AF-A0A0P0VAM0    278 P--FPNGDGVVSIWQG    291
+                     |  |.:|.||||:.||
+AF-Q14032-F1     222 PKVFGSGVGVVSVCQG    237
+
+
+#---------------------------------------
+#---------------------------------------

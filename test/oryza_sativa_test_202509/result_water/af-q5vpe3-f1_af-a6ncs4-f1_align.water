@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:07
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-a6ncs4-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-a6ncs4-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-a6ncs4-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-A6NCS4-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 271
+# Identity:      64/271 (23.6%)
+# Similarity:    98/271 (36.2%)
+# Gaps:          74/271 (27.3%)
+# Score: 133.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1      26 SSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQGRAS     75
+                     |.|..|   |..|.|......:...|...:||:.:|   ||..:.:....
+AF-A6NCS4-F1      70 SEPPGG---PCEAVLEMDAERMGEPQPGLNAASPLG---GGTRVPERGVG    113
+
+AF-Q5VPE3-F1      76 TSPDSAAALSSASGKRERELERSGSGVDDDDGADGAGGRKKLRL--SKDQ    123
+                     .|.||.     ..|:.|:...|.               |:|.|:  |:.|
+AF-A6NCS4-F1     114 NSGDSV-----RGGRSEQPKARQ---------------RRKPRVLFSQAQ    143
+
+AF-Q5VPE3-F1     124 AAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTE    173
+                     ...||..||....|:..::..||:.|.|...||::||||||.:.|.::  
+AF-A6NCS4-F1     144 VLALERRFKQQRYLSAPEREHLASALQLTSTQVKIWFQNRRYKCKRQR--    191
+
+AF-Q5VPE3-F1     174 VDCEYLKRWCERLADENKRLEKELADLRALKAA-------------PSPA    210
+                                    ::|.||.....|...:.|             |.|.
+AF-A6NCS4-F1     192 ---------------QDKSLELAGHPLTPRRVAVPVLVRDGKPCLGPGPG    226
+
+AF-Q5VPE3-F1     211 SASAMQPSSSAAATLTMCPSCRRVATAGAPHQPNHQQCH------PKSNT    254
+                     :.:...|.|:|.:..    ||.. ..:|||:...:..|:      |..:|
+AF-A6NCS4-F1     227 APAFPSPYSAAVSPY----SCYG-GYSGAPYGAGYGTCYAGAPSGPAPHT    271
+
+AF-Q5VPE3-F1     255 TISSSSTAAAAVAVAGGNVLP    275
+                     .:     |:|.....|.|..|
+AF-A6NCS4-F1     272 PL-----ASAGFGHGGQNATP    287
+
+
+#---------------------------------------
+#---------------------------------------

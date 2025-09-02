@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Tue  2 Sep 2025 06:44:26
+# Commandline: needle
+#    -asequence /var/lib/cwl/stga8ce8115-189f-4ce7-8747-065c94087c00/split_fasta_query_species/af-a0a0p0vam0-f1.fasta
+#    -bsequence /var/lib/cwl/stga4170e1d-19a2-428d-826d-862343876bd1/split_fasta_hit_species/af-p07098-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vam0-f1_af-p07098-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vam0-f1_af-p07098-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VAM0-F1
+# 2: AF-P07098-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 460
+# Identity:      92/460 (20.0%)
+# Similarity:   150/460 (32.6%)
+# Gaps:         175/460 (38.0%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+AF-A0A0P0VAM0      1 ---MVALSKL--VLITAVALLGWAYKVARPPPPPILGGPGGPPVSSPRVQ     45
+                        ::.::.|  ||.|...|.|..:             ||.|.|:....|
+AF-P07098-F1       1 MWLLLTMASLISVLGTTHGLFGKLH-------------PGSPEVTMNISQ     37
+
+AF-A0A0P0VAM0     46 L---------------KDG-----RHLAYREAGVGREIAKYKIIFSHGF-     74
+                     :               :||     ..:.|.:...|....:..:...||. 
+AF-P07098-F1      38 MITYWGYPNEEYEVVTEDGYILEVNRIPYGKKNSGNTGQRPVVFLQHGLL     87
+
+AF-A0A0P0VAM0     75 --ASTKESDFPVSQELAEELGIYLLYFDRAGY----GDSDAN--PKRGLK    116
+                       |:...|:.| :..||..|.       .|||    |:|..|  .:|.|.
+AF-P07098-F1      88 ASATNWISNLP-NNSLAFILA-------DAGYDVWLGNSRGNTWARRNLY    129
+
+AF-A0A0P0VAM0    117 SDATDVE-------ELADKLQL-----------GEK-FYVVGTSMG---G    144
+                     .....||       |:| |..|           |:| .:.||.|.|   |
+AF-P07098-F1     130 YSPDSVEFWAFSFDEMA-KYDLPATIDFIVKKTGQKQLHYVGHSQGTTIG    178
+
+AF-A0A0P0VAM0    145 YVAWSCLNYIP------YRLAGVALV---VPAVNYWWPMPASVSASAYRK    185
+                     ::|:|....:.      |.||.||.|   ...:|....:|.|:.     |
+AF-P07098-F1     179 FIAFSTNPSLAKRIKTFYALAPVATVKYTKSLINKLRFVPQSLF-----K    223
+
+AF-A0A0P0VAM0    186 LDVGDRRTFWIAHHMPWLFYA---------------------WFNQKWFR    214
+                     ...||:  .:..|:....|.|                     .|:.|.|.
+AF-P07098-F1     224 FIFGDK--IFYPHNFFDQFLATEVCSREMLNLLCSNALFIICGFDSKNFN    271
+
+AF-A0A0P0VAM0    215 IS-----------------------PIVEGKPEAFTEKDWEILAEIQRTG    241
+                     .|                       .:..||.:|:   ||.  :.:|...
+AF-P07098-F1     272 TSRLDVYLSHNPAGTSVQNMFHWTQAVKSGKFQAY---DWG--SPVQNRM    316
+
+AF-A0A0P0VAM0    242 QLDRGRATKQGAYHSLCRDATILFGAWEFDPTAIENPFPNGDGVVSIWQG    291
+                     ..|:    .|..|:::               ||:..|       :::|.|
+AF-P07098-F1     317 HYDQ----SQPPYYNV---------------TAMNVP-------IAVWNG    340
+
+AF-A0A0P0VAM0    292 REDKIVRVEAQRYVAEKLPWVRYH-EHPEGGHL-FMCADGLGDKIVREL-    338
+                     .:|.:...:....:..|||.:.|| |.|...|| |:.|.....::..:: 
+AF-P07098-F1     341 GKDLLADPQDVGLLLPKLPNLIYHKEIPFYNHLDFIWAMDAPQEVYNDIV    390
+
+AF-A0A0P0VAM0    339 -LLGEEPRDL    347
+                      ::.|:.:  
+AF-P07098-F1     391 SMISEDKK--    398
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,49 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:44:53
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q94dd0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-o75884-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q94dd0-f1_af-o75884-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q94dd0-f1_af-o75884-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q94DD0-F1
+# 2: AF-O75884-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      28/123 (22.8%)
+# Similarity:    44/123 (35.8%)
+# Gaps:          44/123 (35.8%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+AF-Q94DD0-F1     128 KLQLGEKFYVVGTSMGGYVAWSCLNYI-PYRLAGVALVVPAVNYWWPMPA    176
+                     :|...||..::|.|.|...|   :.|. .:|:..:.||            
+AF-O75884-F1      62 ELHCDEKTIIIGHSSGAIAA---MRYAETHRVYAIVLV------------     96
+
+AF-Q94DD0-F1     177 SVSASAYRKLDVGD----------RRTFW--IAHHMPWL---------FY    205
+                         |||.. |:||          |...|  |..:.|::         |.
+AF-O75884-F1      97 ----SAYTS-DLGDENERASGYFTRPWQWEKIKANCPYIVQFGSTDDPFL    141
+
+AF-Q94DD0-F1     206 AWFNQKWFRISPIVEGKPEAFTE    228
+                     .|..|:  .::..:|.|...||:
+AF-O75884-F1     142 PWKEQQ--EVADRLETKLHKFTD    162
+
+
+#---------------------------------------
+#---------------------------------------

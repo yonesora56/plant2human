@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Tue  2 Sep 2025 06:44:31
+# Commandline: needle
+#    -asequence /var/lib/cwl/stga8ce8115-189f-4ce7-8747-065c94087c00/split_fasta_query_species/af-a0a0p0vam0-f1.fasta
+#    -bsequence /var/lib/cwl/stga4170e1d-19a2-428d-826d-862343876bd1/split_fasta_hit_species/af-q96dg6-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vam0-f1_af-q96dg6-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vam0-f1_af-q96dg6-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VAM0-F1
+# 2: AF-Q96DG6-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 510
+# Identity:      22/510 ( 4.3%)
+# Similarity:    36/510 ( 7.1%)
+# Gaps:         428/510 (83.9%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+AF-A0A0P0VAM0      1 MVALSKLVLITAVALLGWAYKVARPPPPPILGGPGGPPVSSPRVQLKDGR     50
+                                                                       
+AF-Q96DG6-F1       0 --------------------------------------------------      0
+
+AF-A0A0P0VAM0     51 HLAYREAGVGREIAKYKIIFSHGFASTKESDFPVSQELAEELGIYLLYFD    100
+                                                                       
+AF-Q96DG6-F1       0 --------------------------------------------------      0
+
+AF-A0A0P0VAM0    101 RAGYGDSDANPKRGLKSDATDVEELADKLQLGEKFYVVGTSMGGYVAWSC    150
+                                                                       
+AF-Q96DG6-F1       0 --------------------------------------------------      0
+
+AF-A0A0P0VAM0    151 LNYIPYRLAGVALVVPAVNYWWPMPASVSASAYRKLDVGDRRTFWIAHHM    200
+                                                                       
+AF-Q96DG6-F1       0 --------------------------------------------------      0
+
+AF-A0A0P0VAM0    201 PWLFYAWFNQKWFRISPIVEGKPEAFTEKDWEILAEIQRTGQLDRGRATK    250
+                                                      :|........|.|...:
+AF-Q96DG6-F1       1 ---------------------------------MANEAYPCPCDIGHRLE     17
+
+AF-A0A0P0VAM0    251 QGAYHSLCRDATILFGAWEFDPTAIENPFPNGDGVVSI-----WQGREDK    295
+                        |..|.|:..:    ........::|...|..|:.|     ||     
+AF-Q96DG6-F1      18 ---YGGLGREVQV----EHIKAYVTKSPVDAGKAVIVIQDIFGWQ-----     55
+
+AF-A0A0P0VAM0    296 IVRVEAQRYVAEKLPWVRYHEHPEGGHLFMCADGLGDKIVRELLLGEEPR    345
+                        :...||:|:.:....|                 ..||.:..:|:||.
+AF-Q96DG6-F1      56 ---LPNTRYIADMISGNGY-----------------TTIVPDFFVGQEPW     85
+
+AF-A0A0P0VAM0    346 DL------------------------------------------------    347
+                     |.                                                
+AF-Q96DG6-F1      86 DPSGDWSIFPEWLKTRNAQKIDREISAILKYLKQQCHAQKIGIVGFCWGG    135
+
+AF-A0A0P0VAM0    347 --------------------------------------------------    347
+                                                                       
+AF-Q96DG6-F1     136 TAVHHLMMKYSEFRAGVSVYGIVKDSEDIYNLKNPTLFIFAENDVVIPLK    185
+
+AF-A0A0P0VAM0    347 --------------------------------------------------    347
+                                                                       
+AF-Q96DG6-F1     186 DVSLLTQKLKEHCKVEYQIKTFSGQTHGFVHRKREDCSPADKPYIDEARR    235
+
+AF-A0A0P0VAM0    347 ----------    347
+                               
+AF-Q96DG6-F1     236 NLIEWLNKYM    245
+
+
+#---------------------------------------
+#---------------------------------------

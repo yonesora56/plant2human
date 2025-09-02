@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:44:50
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q94dd0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-q7z5m8-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q94dd0-f1_af-q7z5m8-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q94dd0-f1_af-q7z5m8-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q94DD0-F1
+# 2: AF-Q7Z5M8-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 251
+# Identity:      62/251 (24.7%)
+# Similarity:   103/251 (41.0%)
+# Gaps:          28/251 (11.2%)
+# Score: 103.5
+# 
+#
+#=======================================
+
+AF-Q94DD0-F1      39 VSSPRVQLKDGRHLAYREAGV--GREIAKYKIIFSHGFASTKESDFPVS-     85
+                     |.|.|.:...|:...:.||.:  |..|    |::.||.|..:.:...:. 
+AF-Q7Z5M8-F1     115 VPSCRGEDAKGKDCCWYEAALRDGNPI----IVYLHGSAEHRAASHRLKL    160
+
+AF-Q94DD0-F1      86 QELAEELGIYLLYFDRAGYGDSDANP-KRGLKSDATDVEELADKLQLG-E    133
+                     .::..:.|.::|..|..|:|||...| :.||.:||..|.|.. |.:.| .
+AF-Q7Z5M8-F1     161 VKVLSDGGFHVLSVDYRGFGDSTGKPTEEGLTTDAICVYEWT-KARSGIT    209
+
+AF-Q94DD0-F1     134 KFYVVGTSMGGYVAWSCLNYIPYR---LAGVALVVPAVNYWWPMPASVS-    179
+                     ...:.|.|:|..||.:....:..:   :..:.|..|..|.|   .||:: 
+AF-Q7Z5M8-F1     210 PVCLWGHSLGTGVATNAAKVLEEKGCPVDAIVLEAPFTNMW---VASINY    256
+
+AF-Q94DD0-F1     180 --ASAYRKLDVGDRRTFWIAHHMPWLFYAWFNQKWFRISP--IVEGK---    222
+                       ...||.:. |..||...|.....:.:.......|..||  |:.|:   
+AF-Q7Z5M8-F1     257 PLLKIYRNIP-GFLRTLMDALRKDKIIFPNDENVKFLSSPLLILHGEDDR    305
+
+AF-Q94DD0-F1     223 --PEAFTEKDWEILAEIQRTGQLDRGRATKQGAYHS-LCRDATILFGAWE    269
+                       |..:.:|.:||.....|..:..:......|..|: ||:..|:|....:
+AF-Q7Z5M8-F1     306 TVPLEYGKKLYEIARNAYRNKERVKMVIFPPGFQHNLLCKSPTLLITVRD    355
+
+AF-Q94DD0-F1     270 F    270
+                     |
+AF-Q7Z5M8-F1     356 F    356
+
+
+#---------------------------------------
+#---------------------------------------

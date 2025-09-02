@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:12
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-q9h4s2-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-q9h4s2-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-q9h4s2-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-Q9H4S2-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 151
+# Identity:      40/151 (26.5%)
+# Similarity:    62/151 (41.1%)
+# Gaps:          37/151 (24.5%)
+# Score: 100.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1      26 SSPGAGSS---SPWAAALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMYQG     72
+                     |.|..||.   :|.....:::...|....|||.||||         :|| 
+AF-Q9H4S2-F1      82 SFPPFGSQYCHAPLGRQHSAVSPGVAHGPAAAAAAAA---------LYQ-    121
+
+AF-Q5VPE3-F1      73 RASTS---PDSAAALSSASGKRERELERSGSGVDDDDGADGAGGRKKLR-    118
+                        ||   ||                .|....:..|..::.....|::| 
+AF-Q9H4S2-F1     122 ---TSYPLPD----------------PRQFHCISVDSSSNQLPSSKRMRT    152
+
+AF-Q5VPE3-F1     119 -LSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRART    167
+                      .:..|...||..|.::..|:..:::.:|..|.|..:||::||||||.:.
+AF-Q9H4S2-F1     153 AFTSTQLLELEREFASNMYLSRLRRIEIATYLNLSEKQVKIWFQNRRVKH    202
+
+AF-Q5VPE3-F1     168 K    168
+                     |
+AF-Q9H4S2-F1     203 K    203
+
+
+#---------------------------------------
+#---------------------------------------

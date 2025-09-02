@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:05
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-a0a0p0vam0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-p54315-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0vam0-f1_af-p54315-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0vam0-f1_af-p54315-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VAM0-F1
+# 2: AF-P54315-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 229
+# Identity:      40/229 (17.5%)
+# Similarity:    61/229 (26.6%)
+# Gaps:         107/229 (46.7%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+AF-A0A0P0VAM0    134 KFYVVGTSMGGYVAWSCLNYIP--YRLAGVALVVPAVNYWWPMPASVSAS    181
+                     |.:::|.|:|.:||....:..|  .|:.|:.          |:.||..::
+AF-P54315-F1     164 KVHLIGHSLGAHVAGEAGSKTPGLSRITGLD----------PVEASFEST    203
+
+AF-A0A0P0VAM0    182 AYR-KLDVGDRRTFWIAH--HMPWLFYAWFNQKWFRISPIVEGKPEAFTE    228
+                     ... :||..|.....:.|  ..|.:.:..|...                 
+AF-P54315-F1     204 PEEVRLDPSDADFVDVIHTDAAPLIPFLGFGTN-----------------    236
+
+AF-A0A0P0VAM0    229 KDWEILAEIQRTGQLDRGRATKQGAYHSLCRDATILFGAWEFDPTAIENP    278
+                              |:.|.||.                                 
+AF-P54315-F1     237 ---------QQMGHLDF---------------------------------    244
+
+AF-A0A0P0VAM0    279 FPNG------------------DGVVSIWQGREDKIV--RVEAQRYVAEK    308
+                     ||||                  ||   ||.|..|.:.  .:.:.:|..|.
+AF-P54315-F1     245 FPNGGESMPGCKKNALSQIVDLDG---IWAGTRDFVACNHLRSYKYYLES    291
+
+AF-A0A0P0VAM0    309 L---------PWVRYHEHPEGGHLFMCAD    328
+                     :         |...|... |....|.|.|
+AF-P54315-F1     292 ILNPDGFAAYPCTSYKSF-ESDKCFPCPD    319
+
+
+#---------------------------------------
+#---------------------------------------

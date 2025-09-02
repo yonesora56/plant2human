@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Tue  2 Sep 2025 06:44:34
+# Commandline: needle
+#    -asequence /var/lib/cwl/stga8ce8115-189f-4ce7-8747-065c94087c00/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stga4170e1d-19a2-428d-826d-862343876bd1/split_fasta_hit_species/af-p31276-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q5vpe3-f1_af-p31276-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q5vpe3-f1_af-p31276-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-P31276-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 458
+# Identity:      42/458 ( 9.2%)
+# Similarity:    76/458 (16.6%)
+# Gaps:         278/458 (60.7%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P31276-F1       1 MTTSLLLHPRWPESLMYVYEDSAAESGIGGGGGGGGGGTGGAGGGCSGAS     50
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P31276-F1      51 PGKAPSMDGLGSSCPASHCRDLLPHPVLGRPPAPLGAPQGAVYTDIPAPE    100
+
+AF-Q5VPE3-F1       1 -----------MMDLGLSLGLGLASQGS-----LTSSTTTTSSPGA---G     31
+                                ......:||.|....||     |:.:......|.|   |
+AF-P31276-F1     101 AARQCAPPPAPPTSSSATLGYGYPFGGSYYGCRLSHNVNLQQKPCAYHPG    150
+
+AF-Q5VPE3-F1      32 SSSPWAAALNSIVGDVRRDQAAAHA----------------AAAVGVGVG     65
+                     ...|..:  .::.||....:|...|                ..:|..|:.
+AF-P31276-F1     151 DKYPEPS--GALPGDDLSSRAKEFAFYPSFASSYQAMPGYLDVSVVPGIS    198
+
+AF-Q5VPE3-F1      66 GE-----------EMYQGRASTSPDSAAALSSASGKRERELERSG----S    100
+                     |.           |.||..|.::...:....|....:...|.:|.    .
+AF-P31276-F1     199 GHPEPRHDALIPVEGYQHWALSNGWDSQVYCSKEQSQSAHLWKSPFPDVV    248
+
+AF-Q5VPE3-F1     101 GVDDDDGADGAGGRKKLRLSKDQAAVLEECFKTHSTLNPKQKVALANRLG    150
+                     .:..:..:...|.:|::..:|.|...||:.:.....:..:::..::....
+AF-P31276-F1     249 PLQPEVSSYRRGRKKRVPYTKVQLKELEKEYAASKFITKEKRRRISATTN    298
+
+AF-Q5VPE3-F1     151 LRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKRLEKELADL    200
+                     |..|||.:||||||.:.|...::....:|...                  
+AF-P31276-F1     299 LSERQVTIWFQNRRVKEKKVVSKSKAPHLHST------------------    330
+
+AF-Q5VPE3-F1     201 RALKAAPSPASASAMQPSSSAAATLTMCPSCRRVATAGAPHQPNHQQCHP    250
+                                                                       
+AF-P31276-F1     330 --------------------------------------------------    330
+
+AF-Q5VPE3-F1     251 KSNTTISSSSTAAAAVAVAGGNVLPSHCQFFPAAAAAADRTSQSTWNAAA    300
+                                                                       
+AF-P31276-F1     330 --------------------------------------------------    330
+
+AF-Q5VPE3-F1     301 PLVTRELF    308
+                             
+AF-P31276-F1     330 --------    330
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:16
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-o60393-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-o60393-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-o60393-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-O60393-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 321
+# Identity:      71/321 (22.1%)
+# Similarity:    98/321 (30.5%)
+# Gaps:         121/321 (37.7%)
+# Score: 97.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1      10 LGLASQGSLTSSTTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAA     59
+                     :|||          .||||||.:|:                 .|.|....
+AF-O60393-F1     212 MGLA----------PTSSPGAPNSA-----------------RATHNPVP    234
+
+AF-Q5VPE3-F1      60 VGVGVGGEEMYQGRASTSPDSAAALSSASGKRERELERSGSGVDDDDGAD    109
+                     .|.|.|            |...|.|.|.       |.:|....|...|..
+AF-O60393-F1     235 CGSGRG------------PCHLANLLST-------LAQSNQNRDHKQGPP    265
+
+AF-Q5VPE3-F1     110 GAGG--RKKLR--LSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQ    155
+                     ....  |||.|  ...||...||:.|:.....:..::..:|..:|:.|::
+AF-O60393-F1     266 EVTCQIRKKTRTLYRSDQLEELEKIFQEDHYPDSDKRREIAQTVGVTPQR    315
+
+AF-Q5VPE3-F1     156 VE--------------------------------VWFQNRRARTKLKQTE    173
+                     :.                                ||||||||        
+AF-O60393-F1     316 IMVKGAGSLVAGWSGGGPTIETLELQSERSAVAWVWFQNRRA--------    357
+
+AF-Q5VPE3-F1     174 VDCEYLKRWCERLADENKRLE----KELADLRALKAAPSPASASAMQPSS    219
+                            :|        :::|    ||..|   ..|||.|||:..    |
+AF-O60393-F1     358 -------KW--------RKMEKLNGKESKD---NPAAPGPASSQC----S    385
+
+AF-Q5VPE3-F1     220 SAAATLTMCPSCRRVATAGAPH-QPNHQQCHPKSNTTISSSSTAAAAVAV    268
+                     |||..|...|    :.....|. |.:.....|:....::|..|.|.....
+AF-O60393-F1     386 SAAEILPAVP----MEPKPDPFPQESPLDTFPEPPMLLTSDQTLAPTQPS    431
+
+AF-Q5VPE3-F1     269 AGGNVLPSHCQFFPAAAAAAD    289
+                     .|...:.:...|.|.....||
+AF-O60393-F1     432 EGAQRVVTPPLFSPPPVRRAD    452
+
+
+#---------------------------------------
+#---------------------------------------

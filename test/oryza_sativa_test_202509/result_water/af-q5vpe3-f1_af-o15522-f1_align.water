@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:11
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-o15522-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-o15522-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-o15522-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-O15522-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 231
+# Identity:      64/231 (27.7%)
+# Similarity:    83/231 (35.9%)
+# Gaps:          71/231 (30.7%)
+# Score: 119.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1      78 PDSAAA-LSSASG----KRERELERS-------GSGVDDDDGADGAGGRK    115
+                     ||..|| |.|..|    ..|..||.|       .|......|:| |..||
+AF-O15522-F1      37 PDPCAAWLDSERGHYPSSDESSLETSPPDSSQRPSARPASPGSD-AEKRK     85
+
+AF-Q5VPE3-F1     116 KLRL--SKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNR    163
+                     |.|:  ||.|...||..|:....|:..::..||:.|.|.|.||::||||.
+AF-O15522-F1      86 KRRVLFSKAQTLELERRFRQQRYLSAPEREQLASLLRLTPTQVKIWFQNH    135
+
+AF-Q5VPE3-F1     164 RARTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPSPASAS    213
+                     |.:                                    ||.|.:|.:|.
+AF-O15522-F1     136 RYK------------------------------------LKRARAPGAAE    149
+
+AF-Q5VPE3-F1     214 AMQPSSSAAATLTMCPS-CRRVATAGAPHQP----NHQQCHPKSNTTISS    258
+                     :  |..:|:|.|...|. .|||..      |    :.|.|.......:  
+AF-O15522-F1     150 S--PDLAASAELHAAPGLLRRVVV------PVLVRDGQPCGGGGGGEV--    189
+
+AF-Q5VPE3-F1     259 SSTAAA----AVAVAGGNVLPSHCQFFPAAA    285
+                      .||||    ....|....||.:..|.|.:|
+AF-O15522-F1     190 -GTAAAQEKCGAPPAAACPLPGYPAFGPGSA    219
+
+
+#---------------------------------------
+#---------------------------------------

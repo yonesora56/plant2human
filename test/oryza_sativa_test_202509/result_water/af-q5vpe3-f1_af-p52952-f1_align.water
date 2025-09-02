@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:12
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-p52952-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-p52952-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-p52952-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-P52952-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 324
+# Identity:      79/324 (24.4%)
+# Similarity:   114/324 (35.2%)
+# Gaps:         110/324 (34.0%)
+# Score: 137.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1      12 LASQGSLTSSTTTTSSPGA---------GSSSPWAAA--LNSIVGDVRRD     50
+                     ||:.|.|::....|.:|.:         ..:.|.|||  |..:..::.|.
+AF-P52952-F1      27 LAAAGELSARLEATLAPSSCMLAAFKPEAYAGPEAAAPGLPELRAELGRA     76
+
+AF-Q5VPE3-F1      51 QAAAHAAAAVGVGVGGEEMYQGRASTSPDSA----------AALSSASGK     90
+                     .:.|..|:|....    ..:..||.:.||.|          .||..|.  
+AF-P52952-F1      77 PSPAKCASAFPAA----PAFYPRAYSDPDPAKDPRAEKKELCALQKAV--    120
+
+AF-Q5VPE3-F1      91 RERELERSGSGVDDDDGAD--GAGGRKKLRLSKDQAAV--LEECFKTHST    136
+                        |||::     :.|.|:  .|..|:|.|:...||.|  ||..||....
+AF-P52952-F1     121 ---ELEKT-----EADNAERPRARRRRKPRVLFSQAQVYELERRFKQQRY    162
+
+AF-Q5VPE3-F1     137 LNPKQKVALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCERL    186
+                     |:..::..||:.|.|...||::||||||.:.|.::               
+AF-P52952-F1     163 LSAPERDQLASVLKLTSTQVKIWFQNRRYKCKRQR---------------    197
+
+AF-Q5VPE3-F1     187 ADENKRLEKELADLRALKAAPSPASASAMQPSSSAAATLTMCPSCRRVAT    236
+                       :::.||        |...|.|..                 |..||:|.
+AF-P52952-F1     198 --QDQTLE--------LVGLPPPPP-----------------PPARRIAV    220
+
+AF-Q5VPE3-F1     237 A------------GAPHQP-----------NHQQCHPKSNTTISSSSTAA    263
+                     .            .||:.|           |....:|.......|...:.
+AF-P52952-F1     221 PVLVRDGKPCLGDSAPYAPAYGVGLNPYGYNAYPAYPGYGGAACSPGYSC    270
+
+AF-Q5VPE3-F1     264 AAVAVAGGNVLPSHCQFFPAAAAA    287
+                     .|...||    ||..|  ||.|||
+AF-P52952-F1     271 TAAYPAG----PSPAQ--PATAAA    288
+
+
+#---------------------------------------
+#---------------------------------------

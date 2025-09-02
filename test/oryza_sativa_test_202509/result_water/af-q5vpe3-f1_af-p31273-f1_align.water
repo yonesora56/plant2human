@@ -1,0 +1,45 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:07
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-p31273-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-p31273-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-p31273-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-P31273-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      33/89 (37.1%)
+# Similarity:    51/89 (57.3%)
+# Gaps:           4/89 ( 4.5%)
+# Score: 108.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1     111 AGGRKKLR--LSKDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEV    158
+                     |.||:..|  .|:.|...||:.|..:..|..|:::.:::.|||..|||::
+AF-P31273-F1     146 APGRRSGRQTYSRYQTLELEKEFLFNPYLTRKRRIEVSHALGLTERQVKI    195
+
+AF-Q5VPE3-F1     159 WFQNRRARTKLKQTEVDCEYLKRWCERLADE-NKRLEKE    196
+                     ||||||.:.| |:...|.....|..|::.:| |:..|||
+AF-P31273-F1     196 WFQNRRMKWK-KENNKDKLPGARDEEKVEEEGNEEEEKE    233
+
+
+#---------------------------------------
+#---------------------------------------

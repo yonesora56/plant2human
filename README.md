@@ -8,17 +8,19 @@
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=python3.11&color=blue&logo=docker)](https://github.com/yonesora56/plant2human/tree/main/.devcontainer)
 [![X (@sorayone56)](https://img.shields.io/badge/X-sorayone56-black?style=flat&logo=x&logoColor=white)](https://x.com/sorayone56)
 
+## Introduction
 
 This analysis workflow is centered on [foldseek](https://github.com/steineggerlab/foldseek), which enables fast structural similarity searches and supports the discovery of understudied genes by comparing plants, which are distantly related species, with humans, for which there is a wealth of information.
 Based on the list of genes you are interested in, you can easily create a scatter plot of **“structural similarity vs. sequence similarity”** by retrieving structural data from the [AlphaFold protein structure database](https://alphafold.ebi.ac.uk/).
 
 &nbsp;
 
+## Report
+
+- 2025-02-02: fix `foldseek easy-search` command process
+- 2025-09-02: update `makeblstadb` command process
+
 &nbsp;
-
-## report
-
-- 2025-02-02: fix foldseek easy-search process
 
 &nbsp;
 
@@ -28,11 +30,13 @@ In recent years, with the [AlphaFold protein structure database](https://alphafo
 
 &nbsp;
 
+&nbsp;
+
 ## Analysis Environment
 
 ### **1. Using Dev Containers (Docker and VScode extension)**
 
-Most processes, such as Foldseek, use container (BioContainers), but some involve processing with jupyter notebook, which requires the preparation of some python libraries (e.g., polars.).
+Most processes, such as Foldseek, use container ([BioContainers](https://quay.io/organization/biocontainers)), but some involve processing with jupyter notebook, which requires the preparation of some python libraries (e.g., polars.).
 If you want to experiment with a simple workflow, you can create an analysis environment easily using [Dev Containers](./.devcontainer/devcontainer.json) system, a VScode extension.
 Using this environment, the version of the python library is probably the one used during development, so errors are unlikely to occur (see [Dockerfile](./.devcontainer/Dockerfile) for the package version).
 
@@ -50,9 +54,13 @@ This analysis workflow is tested using [cwltool](https://github.com/common-workf
 
 &nbsp;
 
+&nbsp;
+
 ## Example 1 ( *Oryza sativa* vs *Homo sapiens*)
 
 Here, we will explain how to use the list of 10 rice genes as an example.
+
+&nbsp;
 
 ### **1. Creation of a TSV file of gene and UniProt ID correspondences**
 
@@ -102,12 +110,26 @@ The execution results are output with the [jupyter notebook](./test/oryza_sativa
 I'm sorry, but the [main workflow](./Workflow/plant2human_v1.0.1.cwl) does not currently include the creation of an index process (both for foldseek index and BLAST index).
 Please perform the following processes in advance.
 
-#### 2-1. Creating a Foldseek Index
+&nbsp;
+
+#### 2-1. Creating a Foldseek Index for structural alignment
 
 In this workflow, the target of the structural similarity search is specified as the AlphaFold database to perform comparisons across a broader range of species.
 Index creation using the `foldseek databases` command is through the following command.
 
 Please select the database you want to use from `Alphafold/UniProt,` `Alphafold/UniProt50-minimal`, `Alphafold/UniProt50`, `Alphafold/Proteome,` `Alphafold/Swiss-Prot.`
+
+```python
+# Supported databases in this workflow
+Alphafold/UniProt
+Alphafold/UniProt50-minimal
+Alphafold/UniProt50
+Alphafold/Proteome
+Alphafold/Swiss-Prot
+```
+
+&nbsp;
+
 You can check the details of this database using the following command.
 
 ```bash
@@ -117,35 +139,46 @@ docker run --rm quay.io/biocontainers/foldseek:9.427df8a--pl5321h5021889_2 folds
 For example, if you want to specify AlphaFold/Swiss-Prot as the index, you can do so with the following CWL file;
 
 ```bash
+# execute creation of foldseek index using "foldseek databases"
 cwltool --debug --outdir ./index/ ./Tools/02_foldseek_database.cwl \
 --database Alphafold/Swiss-Prot \
 --index_dir_name index_swissprot \
 --index_name swissprot \
 --threads 16
 ```
-**Note:** Currently, this index creation process is not incorporated into the main analysis workflow (plant2human workflow). 
+**Note:**: urrently, this index creation process is not incorporated into the main analysis workflow (plant2human workflow). 
 This is because the process requires network access, and maybe to be able to respond immediately if there are any changes to the tool requirements.
 
 &nbsp;
 
 &nbsp;
 
-#### 2-2. Downloading a BLAST Index File
+#### 2-2. Creating a BLAST Index for sequence alignment
 
-An index FASTA file must be downloaded to obtain the amino acid sequence using the `blastdbcmd` command from the UniProt database.
-Since it is a rice and human comparison, it can be downloaded as follows.
+An index FASTA file must be downloaded to obtain the amino acid sequence using the `blastdbcmd` command from the AlphaFold Protein Structure Database. This workflow uses the version of the protein sequence that was used for structure prediction.
+
+Download URL: https://ftp.ebi.ac.uk/pub/databases/alphafold/sequences.fasta
+
+**Note:**: This FASTA file is extremely large (**92GB**), so it's probably best to delete it after creating the index.
 
 ```bash
-# Oryza sativa (all uniprot entries)
-curl -o uniprotkb_39947_all.fasta.gz "https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=fasta&query=%28organism_id%3A39947%29"
-
-gzip -d uniprotkb_39947_all.fasta.gz
-
-# Homo sapiens (all uniprot entries)
-curl -o uniprotkb_9606_all.fasta.gz "https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=fasta&query=%28organism_id%3A9606%29"
-
-gzip -d uniprotkb_9606_all.fasta.gz
+# Preparation for BLAST index
+cd ./index
+curl -O https://ftp.ebi.ac.uk/pub/databases/alphafold/sequences.fasta
+mv sequences.fasta afdb_all_sequneces.fasta
+pigz -p 8 afdb_all_sequneces.fasta > afdb_all_sequneces.fasta.gz
 ```
+
+&nbsp;
+
+```bash
+# execute creation of BLAST index using "makeblastdb"
+cwltool --debug --outdir ./index/ ./Tools/14_makeblastdb_v2.cwl
+```
+
+**Note:**: It is estimated to take 2 hours for creating index.
+
+&nbsp;
 
 &nbsp;
 

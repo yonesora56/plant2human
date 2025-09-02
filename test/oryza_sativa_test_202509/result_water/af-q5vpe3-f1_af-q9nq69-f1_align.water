@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Tue  2 Sep 2025 06:45:12
+# Commandline: water
+#    -asequence /var/lib/cwl/stgee18c1c0-638c-4ad9-a0b0-752841abc23d/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9702b1dd-2790-4e52-9756-39419c0acc0c/split_fasta_hit_species/af-q9nq69-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5vpe3-f1_af-q9nq69-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5vpe3-f1_af-q9nq69-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-Q9NQ69-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 246
+# Identity:      58/246 (23.6%)
+# Similarity:    96/246 (39.0%)
+# Gaps:          58/246 (23.6%)
+# Score: 120.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1      21 STTTTSSPGAGSSSPWAAALNSIVGDVRRDQAAAHAAAAVGVGVGGEEMY     70
+                     |.|..::...|.:.|:   .|. .|.|::.:.....:.|:||.:      
+AF-Q9NQ69-F1     200 SYTELAAKSGGLALPY---FNG-TGTVQKGRPRKRKSPALGVDI------    239
+
+AF-Q5VPE3-F1      71 QGRASTSPDSAAALSSASGKRERE---LERSGSGVDDDDGADGAGGRKKL    117
+                                  ::..||..|.|   |:|      |......:...|::
+AF-Q9NQ69-F1     240 -------------VNYNSGCNENEADHLDR------DQQPYPPSQKTKRM    270
+
+AF-Q5VPE3-F1     118 RLS--KDQAAVLEECFKTHSTLNPKQKVALANRLGLRPRQVEVWFQNRRA    165
+                     |.|  ..|...::..|..:...:.|....||.:.||..|.::|||||.||
+AF-Q9NQ69-F1     271 RTSFKHHQLRTMKSYFAINHNPDAKDLKQLAQKTGLTKRVLQVWFQNARA    320
+
+AF-Q5VPE3-F1     166 ---RTKLKQTEVDCEYLKRWCERLADENKRLEKELADLRALKAAPSPASA    212
+                        |..|:|                 ||..::|  ||..:|.|.|| |.:
+AF-Q9NQ69-F1     321 KFRRNLLRQ-----------------ENGGVDK--ADGTSLPAPPS-ADS    350
+
+AF-Q5VPE3-F1     213 SAMQPSSSAAATLTMCPSCRRVATAGAPHQPNHQQCHPKSNTTISS    258
+                     .|:.|..:|.....:......|.|:...:..:|:...| |.||:::
+AF-Q9NQ69-F1     351 GALTPPGTATTLTDLTNPTITVVTSVTSNMDSHESGSP-SQTTLTN    395
+
+
+#---------------------------------------
+#---------------------------------------

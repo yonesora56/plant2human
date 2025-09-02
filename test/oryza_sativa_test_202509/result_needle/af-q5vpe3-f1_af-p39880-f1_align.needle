@@ -1,0 +1,165 @@
+########################################
+# Program: needle
+# Rundate: Tue  2 Sep 2025 06:44:44
+# Commandline: needle
+#    -asequence /var/lib/cwl/stga8ce8115-189f-4ce7-8747-065c94087c00/split_fasta_query_species/af-q5vpe3-f1.fasta
+#    -bsequence /var/lib/cwl/stga4170e1d-19a2-428d-826d-862343876bd1/split_fasta_hit_species/af-p39880-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q5vpe3-f1_af-p39880-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q5vpe3-f1_af-p39880-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5VPE3-F1
+# 2: AF-P39880-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1554
+# Identity:      75/1554 ( 4.8%)
+# Similarity:   118/1554 ( 7.6%)
+# Gaps:        1295/1554 (83.3%)
+# Score: 76.5
+# 
+#
+#=======================================
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1       1 MLCVAGARLKRELDATATVLANRQDESEQSRKRLIEQSREFKKNTPEDLR     50
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1      51 KQVAPLLKSFQGEIDALSKRSKEAEAAFLNVYKRLIDVPDPVPALDLGQQ    100
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     101 LQLKVQRLHDIETENQKLRETLEEYNKEFAEVKNQEVTIKALKEKIREYE    150
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     151 QTLKNQAETIALEKEQKLQNDFAEKERKLQETQMSTTSKLEEAEHKVQSL    200
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     201 QTALEKTRTELFDLKTKYDEETTAKADEIEMIMTDLERANQRAEVAQREA    250
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     251 ETLREQLSSANHSLQLASQIQKAPDVEQAIEVLTRSSLEVELAAKEREIA    300
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     301 QLVEDVQRLQASLTKLRENSASQISQLEQQLSAKNSTLKQLEEKLKGQAD    350
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     351 YEEVKKELNILKSMEFAPSEGAGTQDAAKPLEVLLLEKNRSLQSENAALR    400
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     401 ISNSDLSGSARRKGKDQPESRRPGSLPAPPPSQLPRNPGEQASNTNGTHQ    450
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     451 FSPAGLSQDFFSSSLASPSLPLASTGKFALNSLLQRQLMQSFYSKAMQEA    500
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     501 GSTSMIFSTGPYSTNSISSQSPLQQSPDVNGMAPSPSQSESAGSVSEGEE    550
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     551 MDTAEIARQVKEQLIKHNIGQRIFGHYVLGLSQGSVSEILARPKPWNKLT    600
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     601 VRGKEPFHKMKQFLSDEQNILALRSIQGRQRENPGQSLNRLFQEVPKRRN    650
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     651 GSEGNITTRIRASETGSDEAIKSILEQAKRELQVQKTAEPAQPSSASGSG    700
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     701 NSDDAIRSILQQARREMEAQQAALDPALKQAPLSQSDITILTPKLLSTSP    750
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     751 MPTVSSYPPLAISLKKPSAAPEAGASALPNPPALKKEAQDAPGLDPQGAA    800
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     801 DCAQGVLRQVKNEVGRSGAWKDHWWSAVQPERRNAASSEEAKAEETGGGK    850
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     851 EKGSGGSGGGSQPRAERSQLQGPSSSEYWKEWPSAESPYSQSSELSLTGA    900
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     901 SRSETPQNSPLPSSPIVPMSKPTKPSVPPLTPEQYEVYMYQEVDTIELTR    950
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1     951 QVKEKLAKNGICQRIFGEKVLGLSQGSVSDMLSRPKPWSKLTQKGREPFI   1000
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1    1001 RMQLWLNGELGQGVLPVQGQQQGPVLHSVTSLQDPLQQGCVSSESTPKTS   1050
+
+AF-Q5VPE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P39880-F1    1051 ASCSPAPESPMSSSESVKSLTELVQQPCPPIEASKDSKPPEPSDPPASDS   1100
+
+AF-Q5VPE3-F1       1 --------------------------------------MMDLGLS-----      7
+                                                           :.|..|.     
+AF-P39880-F1    1101 QPTTPLPLSGHSALSIQELVAMSPELDTYGITKRVKEVLTDNNLGQRLFG   1150
+
+AF-Q5VPE3-F1       8 ---LGLGLASQGSLTSSTTTTSSPGAGSSSP------WAAALNSI--VGD     46
+                        |||...|...|.:..............|      |....|::  :.|
+AF-P39880-F1    1151 ETILGLTQGSVSDLLARPKPWHKLSLKGREPFVRMQLWLNDPNNVEKLMD   1200
+
+AF-Q5VPE3-F1      47 VRRDQAAAHAAAAVGVGVGGEEMYQGRASTSPDSAAALSSASGKRERELE     96
+                     ::|.:..|:              .:.|.|:..||            :..|
+AF-P39880-F1    1201 MKRMEKKAY--------------MKRRHSSVSDS------------QPCE   1224
+
+AF-Q5VPE3-F1      97 RSGSGVDDDDGADGAGGR--KKLR--LSKDQAAVLEECFKTHSTLNPKQK    142
+                     ....|.:...||......  ||.|  |:.::...|:..::.....:||..
+AF-P39880-F1    1225 PPSVGTEYSQGASPQPQHQLKKPRVVLAPEEKEALKRAYQQKPYPSPKTI   1274
+
+AF-Q5VPE3-F1     143 VALANRLGLRPRQVEVWFQNRRARTKLKQTEVDCEYLKRWCERLADENKR    192
+                     ..||.:|.|:...|..||.|.|:|.:   .|:..|.::...:..|..:  
+AF-P39880-F1    1275 EDLATQLNLKTSTVINWFHNYRSRIR---RELFIEEIQAGSQGQAGAS--   1319
+
+AF-Q5VPE3-F1     193 LEKELADLRALKAAPS--------------PASASAMQPSSSAAATLTMC    228
+                        :....|:.:||||              |.||...:|.|...|.....
+AF-P39880-F1    1320 ---DSPSARSGRAAPSSEGDSCDGVEATEGPGSADTEEPKSQGEAEREEV   1366
+
+AF-Q5VPE3-F1     229 PSCRRVATAGAPHQPNHQQCHPKSNT------------------------    254
+                     |            :|..|...|.|.|                        
+AF-P39880-F1    1367 P------------RPAEQTEPPPSGTPGPDDARDDDHEGGPVEGPGPLPS   1404
+
+AF-Q5VPE3-F1     255 TISSSSTAAAAV---AVAGGNVLPSHCQFFPAAAAAADRTSQSTWNAA--    299
+                     ..|:::|||.|.   |.......|..   .|||.::|...|.|:.::|  
+AF-P39880-F1    1405 PASATATAAPAAPEDAATSAAAAPGE---GPAAPSSAPPPSNSSSSSAPR   1451
+
+AF-Q5VPE3-F1     300 APLVTRELF-----------------------------------------    308
+                     .|...:.||                                         
+AF-P39880-F1    1452 RPSSLQSLFGLPEAAGARDSRDNPLRKKKAANLNSIIHRLEKAASREEPI   1501
+
+AF-Q5VPE3-F1     308 ----    308
+                         
+AF-P39880-F1    1502 EWEF   1505
+
+
+#---------------------------------------
+#---------------------------------------
