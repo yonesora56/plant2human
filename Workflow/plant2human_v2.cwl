@@ -13,6 +13,8 @@ requirements:
   - class: WorkReuse
     enableReuse: true
   - class: SubworkflowFeatureRequirement
+  - class: NetworkAccess
+    networkAccess: true
 
 # ----------WORKFLOW INPUTS----------
 inputs:
@@ -97,6 +99,7 @@ inputs:
     type: string
     default: "9606,10090,3702,4577,4529"
   
+  # 12_extract_target_species_v2.cwl
   - id: OUTPUT_FILE_NAME2
     label: "output file name (extract target species)"
     doc: "output file name for extract target species (default: human) python script."
@@ -104,6 +107,7 @@ inputs:
     type: string
     default: "foldseek_os_random_9606.tsv"
   
+  # 13_extract_id.cwl
   - id: WF_COLUMN_NUMBER_QUERY_SPECIES
     label: "column number of query species"
     doc: "column number of query species. default: 1 (UniProt ID list)"
@@ -130,27 +134,8 @@ inputs:
     type: string
     default: "foldseek_result_hit_species.txt"
 
-  # sub-workflow retrieve sequence inputs
-  - id: SW_INPUT_FASTA_FILE_QUERY_SPECIES
-    type: File
-    label: "input fasta file (blastdbcmd process)"
-    doc: "input fasta file for blastdbcmd. Retrieve files in advance. default: rice UniProt FASTA file"
-    format: edam:format_1929
-    default:
-      class: File
-      format: edam:format_1929
-      location: ../test/oryza_sativa_test/uniprotkb_39947_all.fasta
+  # 11_retrieve_sequence_wf_v2.cwl
 
-  - id: SW_INPUT_FASTA_FILE_HIT_SPECIES
-    type: File
-    label: "input fasta file (blastdbcmd process)"
-    doc: "input fasta file for blastdbcmd. Retrieve files in advance. default: human UniProt FASTA file"
-    format: edam:format_1929
-    default:
-      class: File
-      format: edam:format_1929
-      location: ../test/oryza_sativa_test/uniprotkb_9606_all.fasta
-  
   # togoid convert process
   - id: ROUTE_DATASET
     label: "route dataset (ID conversion using togoID)"
@@ -222,31 +207,6 @@ outputs:
     type: File
     outputSource: extract_hit_species_column/output_file
   
-  # sub-workflow retrieve sequence outputs (makeblastdb)
-  - id: INDEX_DIR1
-    label: "index directory (query species)"
-    doc: "index directory for query species."
-    type: Directory
-    outputSource: sub_workflow_retrieve_sequence_query_species/output_index_dir_query_species
-
-  - id: INDEX_FILES1
-    label: "index files (query species)"
-    doc: "index files for query species."
-    type: File
-    outputSource: sub_workflow_retrieve_sequence_query_species/output_index_file_query_species
-
-  - id: INDEX_DIR2
-    label: "index directory (hit species)"
-    doc: "index directory for hit species."
-    type: Directory
-    outputSource: sub_workflow_retrieve_sequence_query_species/output_index_dir_hit_species
-
-  - id: INDEX_FILES2
-    label: "index files (hit species)"
-    doc: "index files for hit species."
-    type: File
-    outputSource: sub_workflow_retrieve_sequence_query_species/output_index_file_hit_species
-
   # sub-workflow retrieve sequence outputs (blastdbcmd)
   - id: BLASTDBCMD_RESULT1
     label: "blastdbcmd result (query species)"
@@ -357,8 +317,11 @@ steps:
       OUTPUT_FILE_NAME1: OUTPUT_FILE_NAME1
       EVALUE: EVALUE
       ALIGNMENT_TYPE: ALIGNMENT_TYPE
+      # FORMAT_MODE: default
+      # FORMAT_OUTPUT: default
       THREADS: THREADS
       SPLIT_MEMORY_LIMIT: SPLIT_MEMORY_LIMIT
+      # PARAM_INPUT_FORMAT: default
       TAXONOMY_ID_LIST: TAXONOMY_ID_LIST
     out:
       - tsvfile
@@ -366,9 +329,11 @@ steps:
   extract_target_species:
     label: "extract target species (human) process"
     doc: "Extract target species (human) from foldseek easy-search result. execute: ../Tools/12_extract_target_species.cwl"
-    run: ../Tools/12_extract_target_species.cwl
+    run: ../Tools/12_extract_target_species_v2.cwl
     in:
+      # extract_target_species_py: default
       input_file: sub_workflow_foldseek_easy_search/tsvfile # workflow input
+      # target_species: default (9606)
       output_file_name: OUTPUT_FILE_NAME2
     out:
       - output_extract_file
@@ -406,13 +371,20 @@ steps:
       Step 5: needle (Global alignment): ../Tools/17_needle.cwl
       Step 6: water (Local alignment): ../Tools/17_water.cwl"
 
-    run: ./11_retrieve_sequence_wf.cwl
+    run: ./11_retrieve_sequence_wf_v2.cwl
     in:
-      INPUT_FASTA_FILE_QUERY_SPECIES: SW_INPUT_FASTA_FILE_QUERY_SPECIES
-      INPUT_FASTA_FILE_HIT_SPECIES: SW_INPUT_FASTA_FILE_HIT_SPECIES
+      # BLAST_INDEX_FILES: default
       ENTRY_BATCH_QUERY_SPECIES: extract_query_species_column/output_file # workflow input
       ENTRY_BATCH_HIT_SPECIES: extract_hit_species_column/output_file # workflow input
+      # BLASTDBCMD_RESULT_FILE_NAME_QUERY_SPECIES: default
+      # BLASTDBCMD_LOGFILE_NAME_QUERY_SPECIES: default
+      # BLASTDBCMD_RESULT_FILE_NAME_HIT_SPECIES: default
+      # BLASTDBCMD_LOGFILE_NAME_HIT_SPECIES: default
+      # SEQRETSPLIT_OUTPUT_DIR_NAME_QUERY_SPECIES: default
+      # SEQRETSPLIT_OUTPUT_DIR_NAME_HIT_SPECIES: default
       FOLDSEEK_EXTRACT_TSV: extract_target_species/output_extract_file # workflow input
+      # NEEDLE_RESULT_DIR_NAME: default
+      # WATER_RESULT_DIR_NAME: default
       ALIGNMENT_QUERY_COLUMN_NUMBER: WF_COLUMN_NUMBER_QUERY_SPECIES
       ALIGNMENT_TARGET_COLUMN_NUMBER: WF_COLUMN_NUMBER_HIT_SPECIES
     out:
@@ -436,8 +408,9 @@ steps:
   togoid_convert:
     label: "togoid convert process"
     doc: "retrieve UniProt ID to HGNC gene symbol using togoID python script. execute: ../Tools/18_togoid_convert.cwl"
-    run: ../Tools/18_togoid_convert.cwl
+    run: ../Tools/18_togoid_convert_v2.cwl
     in:
+      # togoid_convert_script: default
       id_convert_file: extract_hit_species_column/output_file # workflow input
       route_dataset: ROUTE_DATASET
       output_file_name: OUTPUT_FILE_NAME3
@@ -449,6 +422,7 @@ steps:
     doc: "output notebook using papermill. This process allows you to create a scatter plot of structural similarity vs. sequence similarity. execute: ../Tools/19_papermill.cwl"
     run: ../Tools/19_papermill.cwl
     in:
+      # foldseek_result_parse_notebook: default
       report_notebook_name: OUT_NOTEBOOK_NAME
       foldseek_result_tsv: extract_target_species/output_extract_file # workflow input
       query_uniprot_idmapping_tsv: QUERY_IDMAPPING_TSV
@@ -469,7 +443,7 @@ s:author:
 
 s:codeRepository: https://github.com/yonesora56/plant2human
 s:dateCreated: "2024-11-13"
-s:dateModified: "2025-02-02"
+s:dateModified: "2025-09-02"
 s:license: https://spdx.org/licenses/MIT
 
 $namespaces:

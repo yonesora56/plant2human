@@ -32,9 +32,9 @@ inputs:
     label: "id convert file"
     doc: "target id file. default: UniProt ID list."
     type: File
-    # default:
-    #   class: File
-    #   location: ../test/workflow_test/foldseek_result_hit_species.txt
+    default:
+      class: File
+      location: ../test/oryza_sativa_test_202509/foldseek_result_hit_species.txt
   - id: route_dataset
     label: "route dataset"
     doc: "route dataset for togoid convert."
