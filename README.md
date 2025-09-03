@@ -237,7 +237,7 @@ The hit pairs in the upper-right plot indicate higher sequence similarity and st
 
 &nbsp;
 
-In this case, the x-axis represents the global alignment similarity match (%), and the y-axis represents the average lDDT score (an indicator of structural alignment).
+In this case, the x-axis represents the local alignment similarity match (%), and the y-axis represents the average lDDT score (an indicator of structural alignment).
 
 ![image](./image/rice_test_100genes_local_scatterplot.png)
 
