@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:36
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p57059-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-p57059-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-p57059-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-P57059-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 285
+# Identity:      68/285 (23.9%)
+# Similarity:   127/285 (44.6%)
+# Gaps:          47/285 (16.5%)
+# Score: 231.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      73 EIRYVIAQGTYGTV--YRGTYDGQDVAVKLLDWGEDGFATEAETAALRTS    120
+                     :|...:.:|.:..|  .|.......||:|::|      .|..:::.|...
+AF-P57059-F1      28 DIERTLGKGNFAVVKLARHRVTKTQVAIKIID------KTRLDSSNLEKI     71
+
+AF-Q6AUE3-F1     121 FKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACC    170
+                     :: ||.:...|:||::.|.... |.|.|:                   ..
+AF-P57059-F1      72 YR-EVQLMKLLNHPHIIKLYQV-METKDM-------------------LY    100
+
+AF-Q6AUE3-F1     171 VVVEYLAGGTLKQYLI------KNSRRKLAYKVVVQLALDLARGLSYLHS    214
+                     :|.|:...|.:..||.      :|..||..::::        ..:.|.|.
+AF-P57059-F1     101 IVTEFAKNGEMFDYLTSNGHLSENEARKKFWQIL--------SAVEYCHD    142
+
+AF-Q6AUE3-F1     215 RKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQNPKDMTGATGTLGYMA    264
+                     ..|||||:||||:|||...::|:||||.... .::.:.::...|:..|.|
+AF-P57059-F1     143 HHIVHRDLKTENLLLDGNMDIKLADFGFGNF-YKSGEPLSTWCGSPPYAA    191
+
+AF-Q6AUE3-F1     265 PEVLDGKPY-NRKCDVYSFGICLWEIYCCDMPYPDLSFADVSSAVVHQNL    313
+                     |||.:||.| ..:.|::|.|:.|:.:.|..:|:...:...:...|:....
+AF-P57059-F1     192 PEVFEGKEYEGPQLDIWSLGVVLYVLVCGSLPFDGPNLPTLRQRVLEGRF    241
+
+AF-Q6AUE3-F1     314 RPDVPRCCPSAFANIMRKCWDANPDKRPDMDEVVQ    348
+                     |  :|........:::|:....:|.:|..:.::.|
+AF-P57059-F1     242 R--IPFFMSQDCESLIRRMLVVDPARRITIAQIRQ    274
+
+
+#---------------------------------------
+#---------------------------------------

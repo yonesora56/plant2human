@@ -1,0 +1,121 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:25
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p19021-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vcb7-f1_af-p19021-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vcb7-f1_af-p19021-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-P19021-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1004
+# Identity:      52/1004 ( 5.2%)
+# Similarity:    83/1004 ( 8.3%)
+# Gaps:         857/1004 (85.4%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-P19021-F1       1 MAGRVPSLLVLLVFPSSCLAFRSPLSVFKRFKETTRPFSNECLGTTRPVV     50
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-P19021-F1      51 PIDSSDFALDIRMPGVTPKQSDTYFCMSMRIPVDEEAFVIDFKPRASMDT    100
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-P19021-F1     101 VHHMLLFGCNMPSSTGSYWFCDEGTCTDKANILYAWARNAPPTRLPKGVG    150
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-P19021-F1     151 FRVGGETGSKYFVLQVHYGDISAFRDNNKDCSGVSLHLTRLPQPLIAGMY    200
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-P19021-F1     201 LMMSVDTVIPAGEKVVNSDISCHYKNYPMHVFAYRVHTHHLGKVVSGYRV    250
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-P19021-F1     251 RNGQWTLIGRQSPQLPQAFYPVGHPVDVSFGDLLAARCVFTGEGRTEATH    300
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-P19021-F1     301 IGGTSSDEMCNLYIMYYMEAKHAVSFMTCTQNVAPDMFRTIPPEANIPIP    350
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-P19021-F1     351 VKSDMVMMHEHHKETEYKDKIPLLQQPKREEEEVLDQGDFYSLLSKLLGE    400
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-P19021-F1     401 REDVVHVHKYNPTEKAESESDLVAEIANVVQKKDLGRSDAREGAEHERGN    450
+
+AF-A0A0P0VCB7      1 --------------------VQSVAWSRQSP-------EVLLSGSFDKSV     23
+                                         .:|..:|.|.|       |...:|.|....
+AF-P19021-F1     451 AILVRDRIHKFHRLVSTLRPPESRVFSLQQPPPGEGTWEPEHTGDFHMEE    500
+
+AF-A0A0P0VCB7     24 AMNDMKDGGQSCNKWS----VEADVESLAWDPHNE-------------HS     56
+                     |::           |.    :...|..:|.||.|.             :|
+AF-P19021-F1     501 ALD-----------WPGVYLLPGQVSGVALDPKNNLVIFHRGDHVWDGNS    539
+
+AF-A0A0P0VCB7     57 F----------MVSLENGMVQAFDKRTASSNSNSGRPTFTLHAHEKAVSS     96
+                     |          :..:|...:...|...|:...:||:..|.|         
+AF-P19021-F1     540 FDSKFVYQQIGLGPIEEDTILVIDPNNAAVLQSSGKNLFYL---------    580
+
+AF-A0A0P0VCB7     97 ISFSPSTPNFLATGSTDKMVKLW--DLS---------NN-----------    124
+                            |:.|   |.||....|  |::         ||           
+AF-P19021-F1     581 -------PHGL---SIDKDGNYWVTDVALHQVFKLDPNNKEGPVLILGRS    620
+
+AF-A0A0P0VCB7    125 -----------QPSCIASLNPKLGAIF---------SVSFSNDSPFLL--    152
+                                ||:.:| ::|..|||:         .|.||....|:.  
+AF-P19021-F1     621 MQPGSDQNHFCQPTDVA-VDPGTGAIYVSDGYCNSRIVQFSPSGKFITQW    669
+
+AF-A0A0P0VCB7    153 ---ASGGS---------------------------KGKLKVWNTLTEPAV    172
+                        :||.|                           .|:::.:.|.|:..|
+AF-P19021-F1     670 GEESSGSSPLPGQFTVPHSLALVPLLGQLCVADRENGRIQCFKTDTKEFV    719
+
+AF-A0A0P0VCB7    173 A----NKFGK----------------------------------------    178
+                     .    :.||:                                        
+AF-P19021-F1     720 REIKHSSFGRNVFAISYIPGLLFAVNGKPHFGDQEPVQGFVMNFSNGEII    769
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-P19021-F1     770 DIFKPVRKHFDMPHDIVASEDGTVYIGDAHTNTVWKFTLTEKLEHRSVKK    819
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-P19021-F1     820 AGIEVQEIKEAEAVVETKMENKPTSSELQKMQEKQKLIKEPGSGVPVVLI    869
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-P19021-F1     870 TTLLVIPVVVLLAIAIFIRWKKSRAFGDSEHKLETSSGRVLGRFRGKGSG    919
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-P19021-F1     920 GLNLGNFFASRKGYSRKGFDRLSTEGSDQEKEDDGSESEEEYSAPLPALA    969
+
+AF-A0A0P0VCB7    178 ----    178
+                         
+AF-P19021-F1     970 PSSS    973
+
+
+#---------------------------------------
+#---------------------------------------

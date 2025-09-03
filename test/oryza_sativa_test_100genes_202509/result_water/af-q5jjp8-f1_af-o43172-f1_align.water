@@ -1,0 +1,81 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:26
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q5jjp8-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o43172-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5jjp8-f1_af-o43172-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5jjp8-f1_af-o43172-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5JJP8-F1
+# 2: AF-O43172-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 506
+# Identity:     107/506 (21.1%)
+# Similarity:   169/506 (33.4%)
+# Gaps:         138/506 (27.3%)
+# Score: 191.5
+# 
+#
+#=======================================
+
+AF-Q5JJP8-F1      40 EGGSDADEDADDGEENGNMEVDAAADEEEEEVDEVAQAKAAAKALAKGAV     89
+                     |.|....:....|.|.||:.:.:....|.||.....||:..|:.      
+AF-O43172-F1      47 ESGILGKDGLKAGIEAGNINITSGEVFEIEEHISERQAEVLAEF------     90
+
+AF-Q5JJP8-F1      90 DDVADELKELNMDNYDEE--------EEGLEIFSSGQGD--------LYY    123
+                      :.....:::|:...|.|        .|.:.:|..|..:        |..
+AF-O43172-F1      91 -ERRKRARQINVSTDDSEVKACLRALGEPITLFGEGPAERRERLRNILSV    139
+
+AF-Q5JJP8-F1     124 ASNDLDPYLKNNDEDDDDEEIEDMTIKPTDLMVVCAYNEDDVNSLQV---    170
+                     ...|.   ||...:||:..:......:.|       :..:..|||:|   
+AF-O43172-F1     140 VGTDA---LKKTKKDDEKSKKSKEEYQQT-------WYHEGPNSLKVARL    179
+
+AF-Q5JJP8-F1     171 -----------NLLEETEDGDLNMFVHHEVPLA-----------------    192
+                                ..|||..       :|.|:|..                 
+AF-O43172-F1     180 WIANYSLPRAMKRLEEAR-------LHKEIPETTRTSQMQELHKSLRSLN    222
+
+AF-Q5JJP8-F1     193 --------DFPLCTAWMDFNLKGGDKGNFVAVGTMDPAIEIWDLDIVDEV    234
+                             |.|:.......|.|      .:|........::|.   |.:.
+AF-O43172-F1     223 NFCSQIGDDRPISYCHFSPNSK------MLATACWSGLCKLWS---VPDC    263
+
+AF-Q5JJP8-F1     235 QPHMVLGGHSKKKKKVKGKKAKKYKKGSHRSSVLGLAWNKEVRNVLASAS    284
+                     .....|.||:.....:.          .|..|.:.|. .|:|.  |||.:
+AF-O43172-F1     264 NLLHTLRGHNTNVGAIV----------FHPKSTVSLD-PKDVN--LASCA    300
+
+AF-Q5JJP8-F1     285 ADKTVKIWDVSVGKCAVTLEHHDDKVQSVAWSRQSPEVLLSGSFDKSVAM    334
+                     ||.:||:|.:...:....:|.|..:|..|.| ..|...|.:..:|:|..:
+AF-O43172-F1     301 ADGSVKLWSLDSDEPVADIEGHTVRVARVMW-HPSGRFLGTTCYDRSWRL    349
+
+AF-Q5JJP8-F1     335 NDMKDGGQSCNKWSVEADVESLAWDPHNEHSFMVSLE-------NGMVQA    377
+                                 |.:||..|.|..:.|:...:.::..       .|.:.|
+AF-O43172-F1     350 ------------WDLEAQEEILHQEGHSMGVYDIAFHQDGSLAGTGGLDA    387
+
+AF-Q5JJP8-F1     378 F----DKRTASSNSNSGRPTFTLHAHEKAVSSISFSPSTPNFLATGSTDK    423
+                     |    |.||       ||....|..|.|.:..|:|||:..: :||||.|.
+AF-O43172-F1     388 FGRVWDLRT-------GRCIMFLEGHLKEIYGINFSPNGYH-IATGSGDN    429
+
+AF-Q5JJP8-F1     424 MVKLWDLSNNQPSCIASLNPKLGAIFSVSFSNDSPFLLASGGSKGKLKVW    473
+                     ..|:|||  .|..|:.::......:..|.|.......|.:|......|:|
+AF-O43172-F1     430 TCKVWDL--RQRRCVYTIPAHQNLVTGVKFEPIHGNFLLTGAYDNTAKIW    477
+
+AF-Q5JJP8-F1     474 NTLTEP    479
+                        |.|
+AF-O43172-F1     478 ---THP    480
+
+
+#---------------------------------------
+#---------------------------------------

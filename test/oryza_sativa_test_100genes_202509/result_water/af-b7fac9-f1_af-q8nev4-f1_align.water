@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:07
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8nev4-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q8nev4-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q8nev4-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q8NEV4-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 308
+# Identity:      81/308 (26.3%)
+# Similarity:   132/308 (42.9%)
+# Gaps:          75/308 (24.4%)
+# Score: 200.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     603 LITNNF---------QSIIGKGGFGTVYHGI-LENNDEVAVKVL-----V    637
+                     :|.:||         ...||||.:|.|:..: .:|..:.|||:|     :
+AF-Q8NEV4-F1       9 IIFDNFPDPSDTWEITETIGKGTYGKVFKVLNKKNGQKAAVKILDPIHDI     58
+
+AF-B7FAC9-F1     638 ETSIAESKDFLPEVQTLSKVHHKNLVALVG-YCQNKKC----LALVYDFM    682
+                     :..|....:.|   :.||  .|.|:|...| |.:..|.    |.||.:..
+AF-Q8NEV4-F1      59 DEEIEAEYNIL---KALS--DHPNVVRFYGIYFKKDKVNGDKLWLVLELC    103
+
+AF-B7FAC9-F1     683 PRGNLQQLLRGGYDSLNWEERL------HIALDAAQGLEYLHESCTPSIV    726
+                     ..|::..|::|   .|...||:      :|..:|..||::||.:.|   :
+AF-Q8NEV4-F1     104 SGGSVTDLVKG---FLKRGERMSEPLIAYILHEALMGLQHLHNNKT---I    147
+
+AF-B7FAC9-F1     727 HRDVKTPNILLDKNLVAKISDFGLSRAFNAAHTHISTVAAGTLGYLDPEY    776
+                     |||||..||||......|:.|||:|....:.. |....:.||..::.||.
+AF-Q8NEV4-F1     148 HRDVKGNNILLTTEGGVKLVDFGVSAQLTSTR-HRRNTSVGTPFWMAPEV    196
+
+AF-B7FAC9-F1     777 HATFQ-----LTVKTDVYSFGIVLLEIVTGQPP---------VFMDPQTV    812
+                     .|..|     ...:.|.:|.||..:|:..|.||         :|..|:  
+AF-Q8NEV4-F1     197 IACEQQLDTTYDARCDTWSLGITAIELGDGDPPLADLHPMRALFKIPR--    244
+
+AF-B7FAC9-F1     813 HLPNWVRQ-KIANGSVHDVVDKKLLDQYDATHLQTVIDLAMNCLENASID    861
+                     :.|..:|| ::.:...:|.:.|.|...|:                    .
+AF-Q8NEV4-F1     245 NPPPKLRQPELWSAEFNDFISKCLTKDYE--------------------K    274
+
+AF-B7FAC9-F1     862 RPSMTEVV    869
+                     ||:::|::
+AF-Q8NEV4-F1     275 RPTVSELL    282
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:26
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p54753-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-p54753-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-p54753-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-P54753-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 300
+# Identity:      86/300 (28.7%)
+# Similarity:   140/300 (46.7%)
+# Gaps:          43/300 (14.3%)
+# Score: 310.5
+# 
+#
+#=======================================
+
+AF-Q75J49-F1      66 EIDLAKLEIRYVIAQGTYGTVYRGTYDGQD-----VAVKLLDWGEDGFAT    110
+                     |||::.::|..||..|.:|.|.||......     ||:|.|..|    .|
+AF-P54753-F1     627 EIDVSCVKIEEVIGAGEFGEVCRGRLKQPGRREVFVAIKTLKVG----YT    672
+
+AF-Q75J49-F1     111 EAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGA    160
+                     |.:    |..|..|.::..:..|||:.:..|         :.|.      
+AF-P54753-F1     673 ERQ----RRDFLSEASIMGQFDHPNIIRLEG---------VVTK------    703
+
+AF-Q75J49-F1     161 RTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQLALDLARGLS    210
+                          :|...::.|::....|..:|..|..:....::|..|. .:|.|:.
+AF-P54753-F1     704 -----SRPVMILTEFMENCALDSFLRLNDGQFTVIQLVGMLR-GIAAGMK    747
+
+AF-Q75J49-F1     211 YLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQNPKDMTGATGTL    260
+                     ||.....||||:...|:|:::....|::|||::|....:|.|.| .|.:|
+AF-P54753-F1     748 YLSEMNYVHRDLAARNILVNSNLVCKVSDFGLSRFLEDDPSDPT-YTSSL    796
+
+AF-Q75J49-F1     261 G------YMAPEVLDGKPYNRKCDVYSFGICLWEIYCC-DMPYPDLSFAD    303
+                     |      :.|||.:..:.:....||:|:||.:||:... :.||.|:|..|
+AF-P54753-F1     797 GGKIPIRWTAPEAIAYRKFTSASDVWSYGIVMWEVMSYGERPYWDMSNQD    846
+
+AF-Q75J49-F1     304 VSSAVVHQNLRPDVPRCCPSAFANIMRKCWDANPDKRPDMDEVVQLLEAL    353
+                     |.:| |.|:.|...|..||:|...:|..||..:.:.||...::|..|:.|
+AF-P54753-F1     847 VINA-VEQDYRLPPPMDCPTALHQLMLDCWVRDRNLRPKFSQIVNTLDKL    895
+
+
+#---------------------------------------
+#---------------------------------------

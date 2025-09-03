@@ -1,0 +1,53 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:49
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6k822-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p61604-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6k822-f1_af-p61604-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6k822-f1_af-p61604-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6K822-F1
+# 2: AF-P61604-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 196
+# Identity:      34/196 (17.3%)
+# Similarity:    52/196 (26.5%)
+# Gaps:          95/196 (48.5%)
+# Score: 129.0
+# 
+#
+#=======================================
+
+AF-Q6K822-F1       1 MAPVQFSAAGVGAVAFATKGMASRDALRLPPPAAVRVLRQAPRPSRGLVV     50
+                                                                       
+AF-P61604-F1       0 --------------------------------------------------      0
+
+AF-Q6K822-F1      51 RAAAASVAPKVGSQVVYSKYAGTEVELNDSNHLILKEDDIIGILETDDAK    100
+                                                                :.....:
+AF-P61604-F1       1 -------------------------------------------MAGQAFR      7
+
+AF-Q6K822-F1     101 DMKPLSDRVLIKVAEAEDKTPGGLLLTETTKEKPSIGTVVAVGPGPLDEE    150
+                     ...||.||||::.:.||..|.||::|.|.::.|....||||||.|...:.
+AF-P61604-F1       8 KFLPLFDRVLVERSAAETVTKGGIMLPEKSQGKVLQATVVAVGSGSKGKG     57
+
+AF-Q6K822-F1     151 GKRIPLSVSAGSTVLYSKYAGSEFKGSDGTSYIVLRVSDLMAVLS-    195
+                     |:..|:||..|..||..:|.|::.. .|...|.:.|..|::.... 
+AF-P61604-F1      58 GEIQPVSVKVGDKVLLPEYGGTKVV-LDDKDYFLFRDGDILGKYVD    102
+
+
+#---------------------------------------
+#---------------------------------------

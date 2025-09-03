@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:13
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0x9t2-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9byg3-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0x9t2-f1_af-q9byg3-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0x9t2-f1_af-q9byg3-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0X9T2-F1
+# 2: AF-Q9BYG3-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 284
+# Identity:      65/284 (22.9%)
+# Similarity:   104/284 (36.6%)
+# Gaps:          99/284 (34.9%)
+# Score: 119.0
+# 
+#
+#=======================================
+
+AF-A0A0P0X9T2     30 EEDAEAARE--RALKRLDGLGKR-----GVCYLSRVPPNMNPSHVRQMLS     72
+                     :||.|..:|  :..||:....|:     ||.|:..:|..::.:.:....|
+AF-Q9BYG3-F1      17 QEDVEFQKEVAQVRKRITQRKKQEQLTPGVVYVRHLPNLLDETQIFSYFS     66
+
+AF-A0A0P0X9T2     73 KYGEVQRIYLVPEGQGHRKHTNVRAKAYTEGWIEFSKKSVAKRVANLLN-    121
+                     ::|.|.|..|     ...|.|. .:|.|  .::||..:.|||.||..:| 
+AF-Q9BYG3-F1      67 QFGTVTRFRL-----SRSKRTG-NSKGY--AFVEFESEDVAKIVAETMNN    108
+
+AF-A0A0P0X9T2    122 ---GEQI-------GGKKRSPFYYDIWNIKY-------LKKFKWDDLVGE    154
+                        ||::       ..|.....:.| |||.:       :|::        
+AF-Q9BYG3-F1     109 YLFGERLLECHFMPPEKVHKELFKD-WNIPFKQPSYPSVKRY--------    149
+
+AF-A0A0P0X9T2    155 IAEKTHIREQKLNLEIAAAKKQR-----------DH-----YLSNVEK-S    187
+                       .:.....|||.:|....||:|           |:     .|...|. |
+AF-Q9BYG3-F1     150 --NRNRTLTQKLRMEERFKKKERLLRKKLAKKGIDYDFPSLILQKTESIS    197
+
+AF-A0A0P0X9T2    188 RTLKHI----QERRKKKQKTEGA-------------------EFNEVREE    214
+                     :|.:..    |..||||:|..|.                   .|.|.|:.
+AF-Q9BYG3-F1     198 KTNRQTSTKGQVLRKKKKKVSGTLDTPEKTVDSQGPTPVCTPTFLERRKS    247
+
+AF-A0A0P0X9T2    215 KIA--------------RPIP-QKKPVEETDAKT    233
+                     ::|              :||. .|:.::||...|
+AF-Q9BYG3-F1     248 QVAELNDDDKDDEIVFKQPISCVKEEIQETQTPT    281
+
+
+#---------------------------------------
+#---------------------------------------

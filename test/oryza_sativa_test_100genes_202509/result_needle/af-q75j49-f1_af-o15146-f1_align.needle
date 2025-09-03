@@ -1,0 +1,113 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:14
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o15146-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q75j49-f1_af-o15146-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q75j49-f1_af-o15146-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-O15146-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 922
+# Identity:     106/922 (11.5%)
+# Similarity:   174/922 (18.9%)
+# Gaps:         596/922 (64.6%)
+# Score: 277.5
+# 
+#
+#=======================================
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15146-F1       1 MRELVNIPLVHILTLVAFSGTEKLPKAPVITTPLETVDALVEEVATFMCA     50
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15146-F1      51 VESYPQPEISWTRNKILIKLFDTRYSIRENGQLLTILSVEDSDDGIYCCT    100
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15146-F1     101 ANNGVGGAVESCGALQVKMKPKITRPPINVKIIEGLKAVLPCTTMGNPKP    150
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15146-F1     151 SVSWIKGDSPLRENSRIAVLESGSLRIHNVQKEDAGQYRCVAKNSLGTAY    200
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15146-F1     201 SKVVKLEVEVFARILRAPESHNVTFGSFVTLHCTATGIPVPTITWIENGN    250
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15146-F1     251 AVSSGSIQESVKDRVIDSRLQLFITKPGLYTCIATNKHGEKFSTAKAAAT    300
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15146-F1     301 ISIAEWSKPQKDNKGYCAQYRGEVCNAVLAKDALVFLNTSYADPEEAQEL    350
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15146-F1     351 LVHTAWNELKVVSPVCRPAAEALLCNHIFQECSPGVVPTPIPICREYCLA    400
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15146-F1     401 VKELFCAKEWLVMEEKTHRGLYRSEMHLLSVPECSKLPSMHWDPTACARL    450
+
+AF-Q75J49-F1       1 ---------------MASS--TSDIPEGREKLKRSGSLG-----------     22
+                                    |.||  :.|||........|.|:.           
+AF-O15146-F1     451 PHLDYNKENLKTFPPMTSSKPSVDIPNLPSSSSSSFSVSPTYSMTVIISI    500
+
+AF-Q75J49-F1      23 -SSDTAYV---------------------RADKIDLTSL--DIQLEKQLT     48
+                      ||...:|                     .:..:.||:|  ::.|::...
+AF-O15146-F1     501 MSSFAIFVLLTITTLYCCRRRKQWKNKKRESAAVTLTTLPSELLLDRLHP    550
+
+AF-Q75J49-F1      49 KTWGKANLKAHGPKEDWEIDLAKLE-----IRYV--IAQGTYGTVYRGTY     91
+                     ....:.......||      |..||     |.||  |.:|.:|.|::...
+AF-O15146-F1     551 NPMYQRMPLLLNPK------LLSLEYPRNNIEYVRDIGEGAFGRVFQARA    594
+
+AF-Q75J49-F1      92 DG-------QDVAVKLLDWGEDGFATEAETAALRTSFKQEVAVWHKLSHP    134
+                     .|       ..||||:|        .|..:|.::..|::|.|:..:..:|
+AF-O15146-F1     595 PGLLPYEPFTMVAVKML--------KEEASADMQADFQREAALMAEFDNP    636
+
+AF-Q75J49-F1     135 NVTKFVG-ASMGTTDLKIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQ    183
+                     |:.|.:| .::|                     :..|::.||:|.|.|.:
+AF-O15146-F1     637 NIVKLLGVCAVG---------------------KPMCLLFEYMAYGDLNE    665
+
+AF-Q75J49-F1     184 YL--------IKNSRRKLAYKVVVQ--------------LALDLARGLSY    211
+                     :|        ...|...|:.:..|.              :|..:|.|::|
+AF-O15146-F1     666 FLRSMSPHTVCSLSHSDLSMRAQVSSPGPPPLSCAEQLCIARQVAAGMAY    715
+
+AF-Q75J49-F1     212 LHSRKIVHRDVKTENMLLDTQRNLKIADFGVAR--VEAQNPKDMTGATGT    259
+                     |..||.||||:.|.|.|:.....:||||||::|  ..|...|........
+AF-O15146-F1     716 LSERKFVHRDLATRNCLVGENMVVKIADFGLSRNIYSADYYKANENDAIP    765
+
+AF-Q75J49-F1     260 LGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDM-PYPDLSFADVSSAV    308
+                     :.:|.||.:....|..:.||:::|:.||||:...: ||..::..:|...|
+AF-O15146-F1     766 IRWMPPESIFYNRYTTESDVWAYGVVLWEIFSYGLQPYYGMAHEEVIYYV    815
+
+AF-Q75J49-F1     309 VHQNLRPDVPRCCPSAFANIMRKCWDANPDKRPDMDEVVQLLEAL-DTSK    357
+                     ...|:. ..|..||....|:||.||...|..||....:.::||.: :.::
+AF-O15146-F1     816 RDGNIL-SCPENCPVELYNLMRLCWSKLPADRPSFTSIHRILERMCERAE    864
+
+AF-Q75J49-F1     358 GGGMIPDGQSSGCLCFTKARGP    379
+                     |...:                 
+AF-O15146-F1     865 GTVSV-----------------    869
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,105 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:40
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0wv91-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q9bt22-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0wv91-f1_af-q9bt22-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0wv91-f1_af-q9bt22-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0WV91-F1
+# 2: AF-Q9BT22-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 819
+# Identity:      48/819 ( 5.9%)
+# Similarity:    65/819 ( 7.9%)
+# Gaps:         679/819 (82.9%)
+# Score: 15.5
+# 
+#
+#=======================================
+
+AF-A0A0P0WV91      0 --------------------------------------------------      0
+                                                                       
+AF-Q9BT22-F1       1 MAASCLVLLALCLLLPLLLLGGWKRWRRGRAARHVVAVVLGDVGRSPRMQ     50
+
+AF-A0A0P0WV91      0 --------------------------------------------------      0
+                                                                       
+AF-Q9BT22-F1      51 YHALSLAMHGFSVTLLGFCNSKPHDELLQNNRIQIVGLTELQSLAVGPRV    100
+
+AF-A0A0P0WV91      0 --------------------------------------------------      0
+                                                                       
+AF-Q9BT22-F1     101 FQYGVKVVLQAMYLLWKLMWREPGAYIFLQNPPGLPSIAVCWFVGCLCGS    150
+
+AF-A0A0P0WV91      0 --------------------------------------------------      0
+                                                                       
+AF-Q9BT22-F1     151 KLVIDWHNYGYSIMGLVHGPNHPLVLLAKWYEKFFGRLSHLNLCVTNAMR    200
+
+AF-A0A0P0WV91      0 --------------------------------------------------      0
+                                                                       
+AF-Q9BT22-F1     201 EDLADNWHIRAVTVYDKPASFFKETPLDLQHRLFMKLGSMHSPFRARSEP    250
+
+AF-A0A0P0WV91      1 ---------------------------------MATPTDAAAHVLVVPYP     17
+                                                      .:...|....:|:....
+AF-Q9BT22-F1     251 EDPVTERSAFTERDAGSGLVTRLRERPALLVSSTSWTEDEDFSILLAALE    300
+
+AF-A0A0P0WV91     18 AL------GHLIRILDLV------------RLLASRGLRLTVVVTP----     45
+                     ..      ||.:..|..|            ||:..:..:...|.||    
+AF-Q9BT22-F1     301 KFEQLTLDGHNLPSLVCVITGKGPLREYYSRLIHQKHFQHIQVCTPWLEA    350
+
+AF-A0A0P0WV91     46 ATAPLLAAAHPGGVVSALTLPCPSHHAVPAGLEVPKGPPGAAPRLLPTRV     95
+                     ...|||..:...||..         |...:||:            ||.:|
+AF-Q9BT22-F1     351 EDYPLLLGSADLGVCL---------HTSSSGLD------------LPMKV    379
+
+AF-A0A0P0WV91     96 VAFAGLRGPLGSWARARAGTPDRVVAVLSDFLCGWTQLLAAELGVPHVVF    145
+                     |...|...|              |.||  :|.|....:...|.|   :||
+AF-Q9BT22-F1     380 VDMFGCCLP--------------VCAV--NFKCLHELVKHEENG---LVF    410
+
+AF-A0A0P0WV91    146 SPSGVYGTAMLHSLFRVMPRPADEND--------------DESPVRFV--    179
+                     ..|... .|.|..||...|.||.:.:              |||.|:.|  
+AF-Q9BT22-F1     411 EDSEEL-AAQLQMLFSNFPDPAGKLNQFRKNLRESQQLRWDESWVQTVLP    459
+
+AF-A0A0P0WV91    180 ---DIPGSPAYPRRQLTRAYRTYKKGDEIDKGFKSNFLWNLESSSLVSNT    226
+                        |.                                             
+AF-Q9BT22-F1     460 LVMDT---------------------------------------------    464
+
+AF-A0A0P0WV91    227 FRQLEGRYLESPLADLGFRRVRAIGPLAPEADDDASGNRGGETAVADGRV    276
+                                                                       
+AF-Q9BT22-F1     464 --------------------------------------------------    464
+
+AF-A0A0P0WV91    277 GPLRVAGPVRRPLRRVRQLREHVAAAAASRGGAGGRAGAYRRGVRLGRRR    326
+                                                                       
+AF-Q9BT22-F1     464 --------------------------------------------------    464
+
+AF-A0A0P0WV91    327 TGAAFVWAAGSHTALPEGFEERAAAGGRGTVIRGWAPQLSALRHRAVGWF    376
+                                                                       
+AF-Q9BT22-F1     464 --------------------------------------------------    464
+
+AF-A0A0P0WV91    377 VTHCGWNSILEAVAAGVAMLTWPMVADQFVNARLLVDELRTAVPVSWGGV    426
+                                                                       
+AF-Q9BT22-F1     464 --------------------------------------------------    464
+
+AF-A0A0P0WV91    427 AAPPTADEVARVLEATVLMAEDGGEASDSEWSHVGARVEELAVEAAAATR    476
+                                                                       
+AF-Q9BT22-F1     464 --------------------------------------------------    464
+
+AF-A0A0P0WV91    477 EGGSSWVEVDELARELRGL    495
+                                        
+AF-Q9BT22-F1     464 -------------------    464
+
+
+#---------------------------------------
+#---------------------------------------

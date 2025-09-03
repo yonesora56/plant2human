@@ -1,0 +1,89 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:47
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0y3r8-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q6iq26-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0y3r8-f1_af-q6iq26-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0y3r8-f1_af-q6iq26-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0Y3R8-F1
+# 2: AF-Q6IQ26-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 638
+# Identity:     126/638 (19.7%)
+# Similarity:   197/638 (30.9%)
+# Gaps:         261/638 (40.9%)
+# Score: 68.0
+# 
+#
+#=======================================
+
+AF-A0A0P0Y3R8     37 NLNSGDVVCQL----VSSTVGDPDNGNRGMLGQEACVHINSELHPTPYEA     82
+                     ||:..:...:|    .|..|.|..|||..          .|.||      
+AF-Q6IQ26-F1     425 NLHCSESASKLKRLRASELVSDKRNGNIA----------GSPLH------    458
+
+AF-A0A0P0Y3R8     83 STFSFEFIWD----------MKKQGVPGAVI-----------VKNYCDE-    110
+                        |:|.:.:          :|:.||....:           :|..||| 
+AF-Q6IQ26-F1     459 ---SYELLKENETIARLQALVKRTGVSLEKLEVREDPSSNKDLKVQCDEE    505
+
+AF-A0A0P0Y3R8    111 ------------EFFVNTITLDIVPGYGTIVF----TAESWVYPDEIYDH    144
+                                 |.|.|..| .:...|...|.    ..|||....|...:
+AF-Q6IQ26-F1     506 ELRIYQLNIQIREVFANRFT-QMFADYEVFVIQPSQDKESWFTNREQMQN    554
+
+AF-A0A0P0Y3R8    145 LPRV-FFSNQ--PYLP-------NQMPAPLVPYREEELRNLRGDDNPGPY    184
+                     ..:. |.|:|  ||||       .||.|..:    :.......||:..|.
+AF-Q6IQ26-F1     555 FDKASFLSDQPEPYLPFLSRFLETQMFASFI----DNKIMCHDDDDKDPV    600
+
+AF-A0A0P0Y3R8    185 KDHDRVY--RYDVYNDLGEPDSGNPR-PVLGGS--------DE-------    216
+                     .   ||:  |.|....|      |.| |.|..|        ||       
+AF-Q6IQ26-F1     601 L---RVFDSRVDKIRLL------NVRTPTLRTSMYQKCTTVDEAEKAIEL    641
+
+AF-A0A0P0Y3R8    217 ----------HPYPRRCRTGRRRTNTDP------DSESRNVGFPLTNHF-    249
+                               ||:....:.|:.:  .:|      .|:..:.| |.:|.: 
+AF-Q6IQ26-F1     642 RLAKIDHTAIHPHLLDMKIGQGK--YEPGFFPKLQSDVLSTG-PASNKWT    688
+
+AF-A0A0P0Y3R8    250 --YVPRDEVFNDRKKAYFDTNNLKLYIMQKYATFLLHADQQTPFEFDSFA    297
+                       ..|......||:|.:  |.:|:           |..||:..:      
+AF-Q6IQ26-F1     689 KRNAPAQWRRKDRQKQH--TEHLR-----------LDNDQREKY------    719
+
+AF-A0A0P0Y3R8    298 DVLSLYDEGSINLPGWLNTFLQPLLGIIPFKLLQQVLTPDSEFILKFPMP    347
+                      :......||        |..||.|..:                    .|
+AF-Q6IQ26-F1     720 -IQEARTMGS--------TIRQPKLSNL--------------------SP    740
+
+AF-A0A0P0Y3R8    348 AVIREDKTAWQTDEEFAREMLAGTNPVVIRRLGETEFPPKSKLDTSKYHN    397
+                     :||.:  |.|:..|...:|....|..:::.::|      :..::..    
+AF-Q6IQ26-F1     741 SVIAQ--TNWKFVEGLLKECRNKTKRMLVEKMG------REAVELG----    778
+
+AF-A0A0P0Y3R8    398 QNSRITAAHVEK-------CLEVE-----GLTVEQVLADGRLFILDHHDH    435
+                      :..:....||:       |..:|     ||.|:|    |:..:..|..|
+AF-Q6IQ26-F1     779 -HGEVNITGVEENTLIASLCDLLERIWSHGLQVKQ----GKSALWSHLLH    823
+
+AF-A0A0P0Y3R8    436 FMPYLLDANHQPDTFVYATRTLLFHRNDGTLQPAAIELSLPR--FEAGST    483
+                     :..     |.|        |.|    ..|:|..:.|.|...|  .:|.|.
+AF-Q6IQ26-F1     824 YQD-----NRQ--------RKL----TSGSLSTSGILLDSERRKSDASSL    856
+
+AF-A0A0P0Y3R8    484 L-------------ISSVGEVYTPASDGVEGHIWQLAKAYVTVNDYSWHQ    520
+                     :             |.::||:.|....         |:|:|.::      
+AF-Q6IQ26-F1     857 MPPLRISLIQDMRHIQNIGEIKTDVGK---------ARAWVRLS------    891
+
+AF-A0A0P0Y3R8    521 LVSHWLNTHAVMEPFAIATH-RQLSVAHPIHKLLHPHY    557
+                                ||...::.| :||...|.:.|.|:..|
+AF-Q6IQ26-F1     892 -----------MEKKLLSRHLKQLLSDHELTKKLYKRY    918
+
+
+#---------------------------------------
+#---------------------------------------

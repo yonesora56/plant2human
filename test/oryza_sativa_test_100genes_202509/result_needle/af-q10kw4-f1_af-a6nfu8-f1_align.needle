@@ -1,0 +1,61 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:56
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10kw4-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-a6nfu8-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10kw4-f1_af-a6nfu8-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10kw4-f1_af-a6nfu8-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10KW4-F1
+# 2: AF-A6NFU8-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:      48/253 (19.0%)
+# Similarity:    84/253 (33.2%)
+# Gaps:          88/253 (34.8%)
+# Score: 100.0
+# 
+#
+#=======================================
+
+AF-Q10KW4-F1       1 MGSEGPSGVTVHVTGFKKFHGVAENPTEKIVRNLESFMEKRGLPK--GLT     48
+                                                          |:.|.|.:  .|.
+AF-A6NFU8-F1       1 -------------------------------------MKPRTLVELSKLG     13
+
+AF-Q10KW4-F1      49 LGSCTVLETAGQGGLGPLYEVFESAIVDKE-----YGL-NDQGQVILLHF     92
+                     ||:.||::          ....|..:..:|     .|: .|....:::|.
+AF-A6NFU8-F1      14 LGNETVVQ----------LRTLELPVDYREAKRRVTGIWEDHQPQLVVHV     53
+
+AF-Q10KW4-F1      93 GVNSGTTRFALENQAINEATFRCPDELGWKPQRAPIVSSDGSISNLRKTT    142
+                     |:::......||....|:. :|..|...:.|:..  |...|| .::.::.
+AF-A6NFU8-F1      54 GMDTAAKAIILEQSGKNQG-YRDADIRSFWPEGG--VCLPGS-PDVLESG     99
+
+AF-Q10KW4-F1     143 VPVNEVNKSLQQMGFDVAPSDDAGRFVCNYVYYQSLRFAEQRGIKSLFVH    192
+                     |.:..|.|.:...|.||..|.||||:||:|.||.||...  :|..:| :|
+AF-A6NFU8-F1     100 VCMKAVCKRVAVEGVDVIFSRDAGRYVCDYTYYLSLHHG--KGCAAL-IH    146
+
+AF-Q10KW4-F1     193 FPLFTTISEEVQMNFVATLLEVLASQNYAQ--------------------    222
+                     .|   .:|..:..:.:...|.|:..:...:                    
+AF-A6NFU8-F1     147 VP---PLSRGLPASLLGRALRVIIQEMLEEVGKPKHRAQFEENSTMVLPA    193
+
+AF-Q10KW4-F1     222 ---    222
+                        
+AF-A6NFU8-F1     194 KGN    196
+
+
+#---------------------------------------
+#---------------------------------------

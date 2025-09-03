@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:07
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p06493-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-p06493-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-p06493-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-P06493-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 281
+# Identity:      71/281 (25.3%)
+# Similarity:   128/281 (45.6%)
+# Gaps:          45/281 (16.0%)
+# Score: 193.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     612 IGKGGFGTVYHGILENNDEVAV--KVLVETSIAESKDFLP-----EVQTL    654
+                     ||:|.:|.||.|..:...:|..  |:.:|:    .::.:|     |:..|
+AF-P06493-F1      10 IGEGTYGVVYKGRHKTTGQVVAMKKIRLES----EEEGVPSTAIREISLL     55
+
+AF-B7FAC9-F1     655 SKVHHKNLVALVGYCQNKKCLALVYDFMP---RGNLQQLLRGGY-DSLNW    700
+                     .::.|.|:|:|.........|.|:::|:.   :..|..:..|.| ||...
+AF-P06493-F1      56 KELRHPNIVSLQDVLMQDSRLYLIFEFLSMDLKKYLDSIPPGQYMDSSLV    105
+
+AF-B7FAC9-F1     701 EERLHIALDAAQGLEYLHESCTPSIVHRDVKTPNILLDKNLVAKISDFGL    750
+                     :..|:..|   ||:.:.|   :..::|||:|..|:|:|.....|::||||
+AF-P06493-F1     106 KSYLYQIL---QGIVFCH---SRRVLHRDLKPQNLLIDDKGTIKLADFGL    149
+
+AF-B7FAC9-F1     751 SRAFN---AAHTHISTVAAGTLGYLDPE-YHATFQLTVKTDVYSFGIVLL    796
+                     :|||.   ..:||    ...||.|..|| ...:.:.:...|::|.|.:..
+AF-P06493-F1     150 ARAFGIPIRVYTH----EVVTLWYRSPEVLLGSARYSTPVDIWSIGTIFA    195
+
+AF-B7FAC9-F1     797 EIVTGQPPVFMDPQTVHLPNWVRQKIANGSVHDVV--DKKLLDQYD----    840
+                     |:.|.:|....|.:...|....|   |.|:.::.|  :.:.|..|.    
+AF-P06493-F1     196 ELATKKPLFHGDSEIDQLFRIFR---ALGTPNNEVWPEVESLQDYKNTFP    242
+
+AF-B7FAC9-F1     841 -------ATHLQTVIDLAMNCLENASIDRPS    864
+                            |:|::.:.:..::.|....|..|:
+AF-P06493-F1     243 KWKPGSLASHVKNLDENGLDLLSKMLIYDPA    273
+
+
+#---------------------------------------
+#---------------------------------------

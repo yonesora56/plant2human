@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:10
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q6nsj2-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-q6nsj2-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-q6nsj2-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-Q6NSJ2-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 225
+# Identity:      45/225 (20.0%)
+# Similarity:    84/225 (37.3%)
+# Gaps:          56/225 (24.9%)
+# Score: 79.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1      46 QNLQRLYNSTRAAKHFQRSIVRG-VEGFIAVSTKQMEIVKKLAEDCC---     91
+                     :.|||.....|.....:.:::|| :.|....:.::.|.:::|.|...   
+AF-Q6NSJ2-F1     120 KELQRQRKELRIEMEVEVALLRGELAGERVAARREEEQLRELLEQQAASE    169
+
+AF-Q10NK5-F1      92 ------------RYGNDNQNFGFILARASVEFGNSHSQMEKERENLLKFL    129
+                                 |...:......:..|.....|...||.|.:||.||   
+AF-Q6NSJ2-F1     170 QRGRQQREQEQRRLSQERDRLEGLRQRLRKAQGQLDSQPEDQRERLL---    216
+
+AF-Q10NK5-F1     130 GEQVFEPLREMIMSAPLEDARLLTYRYQRIRQDME-SQIADVMRKQLKSK    178
+                       |..:.:||.:..|            ||..:|:| .|:....|::.:.:
+AF-Q6NSJ2-F1     217 --QGVQEMREQLDVA------------QRAYEDLEFQQLERESRQEEEDR    252
+
+AF-Q10NK5-F1     179 ESSGNADNSVKLQHAESKLSE------------LRTTLSALGREATAAM-    215
+                     :|.|......|:|..::.:::            |...|.:||.:..|.. 
+AF-Q6NSJ2-F1     253 DSPGPQVPDPKVQELQASMAQHRRGALQHRIRVLEEQLKSLGEQMAAESR    302
+
+AF-Q10NK5-F1     216 -------EAVEVQQQQVTFDRLLAM    233
+                            ||::...|:.:  |||.:
+AF-Q6NSJ2-F1     303 GLSRKKEEALQALSQERS--RLLEL    325
+
+
+#---------------------------------------
+#---------------------------------------

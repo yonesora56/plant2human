@@ -1,0 +1,97 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:11
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p54764-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-p54764-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-p54764-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-P54764-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 705
+# Identity:     154/705 (21.8%)
+# Similarity:   255/705 (36.2%)
+# Gaps:         227/705 (32.2%)
+# Score: 329.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     420 CSPREY-IWNGLT-------------------CTYP-----NGGQNPRIV    444
+                     |.|..| :|.|.|                   ||.|     |...|....
+AF-P54764-F1     293 CPPHSYSVWEGATSCTCDRGFFRADNDAASMPCTRPPSAPLNLISNVNET    342
+
+AF-B7FAC9-F1     445 EINLSGSGLQ---GELEISF------------------------------    461
+                     .:||..|..|   |..:||:                              
+AF-P54764-F1     343 SVNLEWSSPQNTGGRQDISYNVVCKKCGAGDPSKCRPCGSGVHYTPQQNG    392
+
+AF-B7FAC9-F1     462 MKMSSLKKLD-LSHNNLTGTI------------PDYQVNSLTVIDLSNNQ    498
+                     :|.:.:...| |:|.|.|..|            ||..| |:||   :.||
+AF-P54764-F1     393 LKTTKVSITDLLAHTNYTFEIWAVNGVSKYNPNPDQSV-SVTV---TTNQ    438
+
+AF-B7FAC9-F1     499 LNGSIPDSI-------LQRYKAGLLELR----------------------    519
+                        :.|.||       :.||...|..|.                      
+AF-P54764-F1     439 ---AAPSSIALVQAKEVTRYSVALAWLEPDRPNGVILEYEVKYYEKDQNE    485
+
+AF-B7FAC9-F1     520 --------------LEG-NPICS-------KVRASY--------------    533
+                                   ::| ||:.|       :..|.|              
+AF-P54764-F1     486 RSYRIVRTAARNTDIKGLNPLTSYVFHVRARTAAGYGDFSEPLEVTTNTV    535
+
+AF-B7FAC9-F1     534 ----CGNKKNTRTRILLISVLVPVTSLLVVLFIFWRLCWKGKSRKSEEED    579
+                         .|:..|:...::.:|..|.:..:|:..|:..|.  :.|..|:::| 
+AF-P54764-F1     536 PSRIIGDGANSTVLLVSVSGSVVLVVILIAAFVISRR--RSKYSKAKQE-    582
+
+AF-B7FAC9-F1     580 YDMYEEETPLHIDIRR----FTYAELKLITNNF-----------QSIIGK    614
+                        .:||..|:..:|.    |||.:.......|           :.:||.
+AF-P54764-F1     583 ---ADEEKHLNQGVRTYVDPFTYEDPNQAVREFAKEIDASCIKIEKVIGV    629
+
+AF-B7FAC9-F1     615 GGFGTVYHGILENNDEVAVKVLVETSIA-----ESKDFLPEVQTLSKVHH    659
+                     |.||.|..|.|:...:..:.|.::|..|     :.:|||.|...:.:..|
+AF-P54764-F1     630 GEFGEVCSGRLKVPGKREICVAIKTLKAGYTDKQRRDFLSEASIMGQFDH    679
+
+AF-B7FAC9-F1     660 KNLVALVGYCQNKKCLALVYDFMPRGNLQQLLRGGYDSLNWEERLHIALD    709
+                     .|::.|.|.....|.:.::.::|..|:|...||.........:.:.:...
+AF-P54764-F1     680 PNIIHLEGVVTKCKPVMIITEYMENGSLDAFLRKNDGRFTVIQLVGMLRG    729
+
+AF-B7FAC9-F1     710 AAQGLEYLHESCTPSIVHRDVKTPNILLDKNLVAKISDFGLSRAFNAAHT    759
+                     ...|::||.:.   |.||||:...|||::.|||.|:||||:||.......
+AF-P54764-F1     730 IGSGMKYLSDM---SYVHRDLAARNILVNSNLVCKVSDFGMSRVLEDDPE    776
+
+AF-B7FAC9-F1     760 HISTVAAG--TLGYLDPEYHATFQLTVKTDVYSFGIVLLEIVT-GQPPVF    806
+                     ...|...|  .:.:..||..|..:.|..:||:|:|||:.|::: |:.|. 
+AF-P54764-F1     777 AAYTTRGGKIPIRWTAPEAIAYRKFTSASDVWSYGIVMWEVMSYGERPY-    825
+
+AF-B7FAC9-F1     807 MDPQTVHLPNWVRQKIANGSVHDVVDK--KLLDQYD---ATHLQTVIDLA    851
+                               |   .::|..|...:::  :|....|   |.|     .|.
+AF-P54764-F1     826 ----------W---DMSNQDVIKAIEEGYRLPPPMDCPIALH-----QLM    857
+
+AF-B7FAC9-F1     852 MNCLENASIDRPSMTEVVSVLKVCL--PISSERQSATSTPRKKNVMDAEI    899
+                     ::|.:....|||...::|::|...:  |.|.:|....|:.....::|...
+AF-P54764-F1     858 LDCWQKERSDRPKFGQIVNMLDKLIRNPNSLKRTGTESSRPNTALLDPSS    907
+
+AF-B7FAC9-F1     900 PRQFQLMIS------GASTTSYEGSSFQSGYTG---------------GV    928
+                     | :|..::|      ......|:.:...:|||.               |:
+AF-P54764-F1     908 P-EFSAVVSVGDWLQAIKMDRYKDNFTAAGYTTLEAVVHVNQEDLARIGI    956
+
+AF-B7FAC9-F1     929 SEISH    933
+                     :.|:|
+AF-P54764-F1     957 TAITH    961
+
+
+#---------------------------------------
+#---------------------------------------

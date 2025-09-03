@@ -1,0 +1,113 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:36
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0j381-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q96ct2-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0j381-f1_af-q96ct2-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0j381-f1_af-q96ct2-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0J381-F1
+# 2: AF-Q96CT2-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 950
+# Identity:      87/950 ( 9.2%)
+# Similarity:   129/950 (13.6%)
+# Gaps:         693/950 (72.9%)
+# Score: 163.0
+# 
+#
+#=======================================
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96CT2-F1       1 MSRHHSRFERDYRVGWDRREWSVNGTHGTTSICSVTSGAGGGTASSLSVR     50
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96CT2-F1      51 PGLLPLPVVPSRLPTPATAPAPCTTGSSEAITSLVASSASAVTTKAPGIS    100
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96CT2-F1     101 KGDSQSQGLATSIRWGQTPINQSTPWDTDEPPSKQMRESDNPGTGPWVTT    150
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96CT2-F1     151 VAAGNQPTLIAHSYGVAQPPTFSPAVNVQAPVIGVTPSLPPHVGPQLPLM    200
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96CT2-F1     201 PGHYSLPQPPSQPLSSVVVNMPAQALYASPQPLAVSTLPGVGQVARPGPT    250
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96CT2-F1     251 AVGNGHMAGPLLPPPPPAQPSATLPSGAPATNGPPTTDSAHGLQMLRTIG    300
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96CT2-F1     301 VGKYEFTDPGHPREMLKELNQQRRAKAFTDLKIVVEGREFEVHQNVLASC    350
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96CT2-F1     351 SLYFKDLIQRSVQDSGQGGREKLELVLSNLQADVLELLLEFVYTGSLVID    400
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96CT2-F1     401 SANAKTLLEAASKFQFHTFCKVCVSFLEKQLTASNCLGVLAMAEAMQCSE    450
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96CT2-F1     451 LYHMAKAFALQIFPEVAAQEEILSISKDDFIAYVSNDSLNTKAEELVYET    500
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96CT2-F1     501 VIKWIKKDPATRTQYAAELLAVVRLPFIHPSYLLNVVDNEELIKSSEACR    550
+
+AF-Q0J381-F1       1 -----------MPMAAGTWVKLEQKGDGPGARS------SHAITLVGGTA     33
+                                :|.|       .|:...|..|.      :..|.||||..
+AF-Q96CT2-F1     551 DLVNEAKRYHMLPHA-------RQEMQTPRTRPRLSAGVAEVIVLVGGRQ    593
+
+AF-Q0J381-F1      34 YAFGGEFTPRVPVDNAMYAFDLKSQCWSALDASGDVP-PPRVGVTMASVG     82
+                     ..   ..|.|..|  |:..::.::..|..|   ..:| ..|...::.|.|
+AF-Q96CT2-F1     594 MV---GMTQRSLV--AVTCWNPQNNKWYPL---ASLPFYDREFFSVVSAG    635
+
+AF-Q0J381-F1      83 ATVYMFGGRDQEHKELNELYSFDTATNRWTLLSSGAGDGPPHRSYHSMVA    132
+                     ..:|:.||. :....|.:::.:.:..:.|.|:|...   .|...::|:|.
+AF-Q96CT2-F1     636 DNIYLSGGM-ESGVTLADVWCYMSLLDNWNLVSRMT---VPRCRHNSLVY    681
+
+AF-Q0J381-F1     133 DAAGGGKVYVFGGCGDAGRLNDLWAYDVAAGRWEAL-PSPGEACKPRGGP    181
+                     |    ||:|..||.|.||.::.:..||....:|||: |.|    |.....
+AF-Q96CT2-F1     682 D----GKIYTLGGLGVAGNVDHVERYDTITNQWEAVAPLP----KAVHSA    723
+
+AF-Q0J381-F1     182 GLAVAGGKVWVVYGF--SGEELDDVHCYDPGTGAWSTVE-----------    218
+                     ...|.|||::|..|.  :|.....:..|.|.|..||.:|           
+AF-Q96CT2-F1     724 AATVCGGKIYVFGGVNEAGRAAGVLQSYVPQTNTWSFIESPMIDNKYAPA    773
+
+AF-Q0J381-F1     219 -TTGG-----GG-------------GGDKPSPR----SVFCAAGIGKHVV    245
+                      |..|     ||             |..|..|.    ..||:|      |
+AF-Q96CT2-F1     774 VTLNGFVFILGGAYARATTIYDPEKGNIKAGPNMNHSRQFCSA------V    817
+
+AF-Q0J381-F1     246 VFGGEVDPSDLGHLGAGKFSAEAFAL------DTETGAWARLDDAGEHHP    289
+                     |..|::      :...|..|:|..||      :..|..|..|    .|.|
+AF-Q96CT2-F1     818 VLDGKI------YATGGIVSSEGPALGNMEAYEPTTNTWTLL----PHMP    857
+
+AF-Q0J381-F1     290 GP--RGWCA-----FSAGEVDGRRGLLVYGGNSPTNDRLGDIYFFTPPLA    332
+                     .|  |..|.     ..:|                                
+AF-Q96CT2-F1     858 CPVFRHGCVVIKKYIQSG--------------------------------    875
+
+
+#---------------------------------------
+#---------------------------------------

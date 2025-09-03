@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:07
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q9c098-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q75j49-f1_af-q9c098-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q75j49-f1_af-q9c098-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-Q9C098-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 708
+# Identity:      95/708 (13.4%)
+# Similarity:   166/708 (23.4%)
+# Gaps:         389/708 (54.9%)
+# Score: 206.0
+# 
+#
+#=======================================
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q9C098-F1       1 MGKEPLTLKSIQVAVEELYPNKARALTLAQHSRAPSPRLRSRLFSKALKG     50
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q9C098-F1      51 DHRCGETETPKSCSEVAGCKAAMRHQGKIPEELSLDDRARTQKKWGRGKW    100
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q9C098-F1     101 EPEPSSKPPREATLEERHARGEKHLGVEIEKTSGEIIRCEKCKRERELQQ    150
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q9C098-F1     151 SLERERLSLGTSELDMGKGPMYDVEKLVRTRSCRRSPEANPASGEEGWKG    200
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q9C098-F1     201 DSHRSSPRNPTQELRRPSKSMDKKEDRGPEDQESHAQGAAKAKKDLVEVL    250
+
+AF-Q75J49-F1       1 ------------------------------------MASSTSDIPEGREK     14
+                                                         :..:..:..|..::
+AF-Q9C098-F1     251 PVTEEGLREVKKDTRPMSRSKHGGWLLREHQAGFEKLRRTRGEEKEAEKE    300
+
+AF-Q75J49-F1      15 LKRSGSLGSSDTAYVRADKIDLTSLDIQLEKQLTKTWGKANLKAHGPK--     62
+                     .|...|.|...|  :|.|:      ..:|||: .||..:.| |...|.  
+AF-Q9C098-F1     301 KKPCMSGGRRMT--LRDDQ------PAKLEKE-PKTRPEEN-KPERPSGR    340
+
+AF-Q75J49-F1      63 --EDWEIDLAKLEIRY----VIAQGTYGTV----YRGTYDGQDVAVKLLD    102
+                       ....|..|.:|..|    ||..|.:..|    :|.|  .|..|:|::|
+AF-Q9C098-F1     341 KPRPMGIIAANVEKHYETGRVIGDGNFAVVKECRHRET--RQAYAMKIID    388
+
+AF-Q75J49-F1     103 WGEDGFATEAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIP    152
+                             ::...........|:.:...|||||:.|.  ..:..||::| 
+AF-Q9C098-F1     389 --------KSRLKGKEDMVDSEILIIQSLSHPNIVKL--HEVYETDMEI-    427
+
+AF-Q75J49-F1     153 TNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQLA    202
+                                      .:::||:.||.|...:|::.  |........:.
+AF-Q9C098-F1     428 -----------------YLILEYVQGGDLFDAIIESV--KFPEPDAALMI    458
+
+AF-Q75J49-F1     203 LDLARGLSYLHSRKIVHRDVKTENMLLDTQRN------LKIADFGVARVE    246
+                     :||.:.|.::|.:.|||||:|.||:|:  |||      ||:||||:|:  
+AF-Q9C098-F1     459 MDLCKALVHMHDKSIVHRDLKPENLLV--QRNEDKSTTLKLADFGLAK--    504
+
+AF-Q75J49-F1     247 AQNPKDMTGATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMPY    296
+                      ...:.:....||..|:|||:|..|.|..:.|:::.|:.|:.:.|...|:
+AF-Q9C098-F1     505 -HVVRPIFTVCGTPTYVAPEILSEKGYGLEVDMWAAGVILYILLCGFPPF    553
+
+AF-Q75J49-F1     297 --PDLSFADVSSAVV--HQNLRPDVPRCCPSAFANIMRKCWDANPDKRPD    342
+                       |:....::.:.:.  |....|........|..:::.:....:|.||..
+AF-Q9C098-F1     554 RSPERDQDELFNIIQLGHFEFLPPYWDNISDAAKDLVSRLLVVDPKKRYT    603
+
+AF-Q75J49-F1     343 MDEVVQLLEALDTSKGGGMIPDGQSSGCLCFTKARGP-------------    379
+                     ..:|:|             .|..:::|.....|.:..             
+AF-Q9C098-F1     604 AHQVLQ-------------HPWIETAGKTNTVKRQKQVSPSSEGHFRSQH    640
+
+AF-Q75J49-F1     379 --------    379
+                             
+AF-Q9C098-F1     641 KRVVEQVS    648
+
+
+#---------------------------------------
+#---------------------------------------

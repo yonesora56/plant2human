@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:24
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q13976-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6aue3-f1_af-q13976-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6aue3-f1_af-q13976-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-Q13976-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 725
+# Identity:     104/725 (14.3%)
+# Similarity:   170/725 (23.4%)
+# Gaps:         400/725 (55.2%)
+# Score: 165.0
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13976-F1       1 MSELEEDFAKILMLKEERIKELEKRLSEKEEEIQELKRKLHKCQSVLPVP     50
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13976-F1      51 STHIGPRTTRAQGISAEPQTYRSFHDLRQAFRKFTKSERSKDLIKEAILD    100
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13976-F1     101 NDFMKNLELSQIQEIVDCMYPVEYGKDSCIIKEGDVGSLVYVMEDGKVEV    150
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13976-F1     151 TKEGVKLCTMGPGKVFGELAILYNCTRTATVKTLVNVKLWAIDRQCFQTI    200
+
+AF-Q6AUE3-F1       1 ----------------------------MASSTSDI-----PEGREKLKR     17
+                                                 :.|..:|:     .|..|.:.|
+AF-Q13976-F1     201 MMRTGLIKHTEYMEFLKSVPTFQSLPEEILSKLADVLEETHYENGEYIIR    250
+
+AF-Q6AUE3-F1      18 SGSLGSSDTAY-VRADKIDLTSLDIQLEKQL-TKTWGKANLKAHGPKEDW     65
+                     .|:.|  ||.: :....:::|..|...|..: .:|.||.         ||
+AF-Q13976-F1     251 QGARG--DTFFIISKGTVNVTREDSPSEDPVFLRTLGKG---------DW    289
+
+AF-Q6AUE3-F1      66 --EIDLAKLEIR--YVIAQG--TYGTVYRGTYDGQDVAVKLLDWGEDGFA    109
+                       |..|...::|  .|||..  |...:.|.::       |.|..|.|..:
+AF-Q13976-F1     290 FGEKALQGEDVRTANVIAAEAVTCLVIDRDSF-------KHLIGGLDDVS    332
+
+AF-Q6AUE3-F1     110 TEA-ETAALRTSFKQEVAVWH--KLSHPNVTKFVG-ASMGTTDL-KIPTN    154
+                     .:| |.|..:..::.|.|.:.  |||..|:...:| ...|..:| ::.:.
+AF-Q13976-F1     333 NKAYEDAEAKAKYEAEAAFFANLKLSDFNIIDTLGVGGFGRVELVQLKSE    382
+
+AF-Q6AUE3-F1     155 NSNAGA-------------------------------------RTNLPAR    167
+                     .|...|                                     ||...::
+AF-Q13976-F1     383 ESKTFAMKILKKRHIVDTRQQEHIRSEKQIMQGAHSDFIVRLYRTFKDSK    432
+
+AF-Q6AUE3-F1     168 ACCVVVEYLAGGTLKQYL-----IKNSRRKLAYKVVVQLALDLARGLSYL    212
+                     ...:::|...||.|...|     .::|..:.....||:       ..:||
+AF-Q13976-F1     433 YLYMLMEACLGGELWTILRDRGSFEDSTTRFYTACVVE-------AFAYL    475
+
+AF-Q6AUE3-F1     213 HSRKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQNPKDMTGATGTLGY    262
+                     ||:.|::||:|.||::||.:...|:.|||.|:......|..| ..||..|
+AF-Q13976-F1     476 HSKGIIYRDLKPENLILDHRGYAKLVDFGFAKKIGFGKKTWT-FCGTPEY    524
+
+AF-Q6AUE3-F1     263 MAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMPY--PD--------LSFA    302
+                     :|||::..|.::...|.:|.||.::|:.....|:  ||        |...
+AF-Q13976-F1     525 VAPEIILNKGHDISADYWSLGILMYELLTGSPPFSGPDPMKTYNIILRGI    574
+
+AF-Q6AUE3-F1     303 DVSSAVVHQNLRPDVPRCCPSAFANIMRKCWDANPDKRPDMDEVVQLLEA    352
+                     |:.          :.|:......||:::|....||.:|            
+AF-Q13976-F1     575 DMI----------EFPKKIAKNAANLIKKLCRDNPSER------------    602
+
+AF-Q6AUE3-F1     353 LDTSKGG-----------GMIPDGQSSGCLCFTKARGP------------    379
+                     |...|.|           |...:|...|.|.      |            
+AF-Q13976-F1     603 LGNLKNGVKDIQKHKWFEGFNWEGLRKGTLT------PPIIPSVASPTDT    646
+
+AF-Q6AUE3-F1     379 -------------------------    379
+                                              
+AF-Q13976-F1     647 SNFDSFPEDNDEPPPDDNSGWDIDF    671
+
+
+#---------------------------------------
+#---------------------------------------

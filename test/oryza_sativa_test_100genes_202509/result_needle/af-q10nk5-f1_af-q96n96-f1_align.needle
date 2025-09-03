@@ -1,0 +1,101 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:43
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q96n96-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10nk5-f1_af-q96n96-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10nk5-f1_af-q96n96-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-Q96N96-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 758
+# Identity:      69/758 ( 9.1%)
+# Similarity:   132/758 (17.4%)
+# Gaps:         470/758 (62.0%)
+# Score: 73.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96N96-F1       1 MTSASPEDQNAPVGCPKGARRRRPISVIGGVSLYGTNQTEELDNLLTQPA     50
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96N96-F1      51 SRPPMPAHQVPPYKAVSARFRPFTFSQSTPIGLDRVGRRRQMRASNVSSD    100
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96N96-F1     101 GGTEPSALVDDNGSEEDFSYEDLCQASPRYLQPGGEQLAINELISDGNVV    150
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96N96-F1     151 CAEALWDHVTMDDQELGFKAGDVIQVLEASNKDWWWGRSEDKEAWFPASF    200
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96N96-F1     201 VRLRVNQEELSENSSSTPSEEQDEEASQSRHRHCENKQQMRTNVIREIMD    250
+
+AF-Q10NK5-F1       1 -------------------------------------------------M      1
+                                                                      :
+AF-Q96N96-F1     251 TERVYIKHLRDICEGYIRQCRKHTGMFTVAQLATIFGNIEDIYKFQRKFL    300
+
+AF-Q10NK5-F1       2 ETLRKQASKLREHVAK------QQQAVRKQFSARYNQDP-SLVDEAELEC     44
+                     :.|.||.:|...|:::      |.|.....:|...|..| :.::.|.|..
+AF-Q96N96-F1     301 KDLEKQYNKEEPHLSEIGSCFLQNQEGFAIYSEYCNNHPGACLELANLMK    350
+
+AF-Q10NK5-F1      45 HQNLQRLYNSTRAAKHFQRSIVRGVEGFIAVSTKQM--------EIVKKL     86
+                     ....:..:.:.|.   .|:.|...::||:....:::        |::|..
+AF-Q96N96-F1     351 QGKYRHFFEACRL---LQQMIDIAIDGFLLTPVQKICKYPLQLAELLKYT    397
+
+AF-Q10NK5-F1      87 AEDCCRYGNDNQNFGFILARASVEFGNSHSQMEKERENLLKFL-------    129
+                     .::...|.|         .:|:.|...:.:.:..||:..|:.:       
+AF-Q96N96-F1     398 TQEHGDYSN---------IKAAYEAMKNVACLINERKRKLESIDKIARWQ    438
+
+AF-Q10NK5-F1     130 -------GEQVFEPLREMIMSAPLE----------------DARLLTYRY    156
+                            |..:.:...|:|.|..|.                |.:|::.:.
+AF-Q96N96-F1     439 VSIVGWEGLDILDRSSELIHSGELTKITKQGKSQQRTFFLFDHQLVSCKK    488
+
+AF-Q10NK5-F1     157 QRIRQDM----------ESQIADVMRKQLKSKESSGNADNSVKL------    190
+                     ..:|:||          |.::.|:  ...:.|:.:.:..|:.||      
+AF-Q96N96-F1     489 DLLRRDMLYYKGRLDMDEMELVDL--GDGRDKDCNLSVKNAFKLVSRTTD    536
+
+AF-Q10NK5-F1     191 ---QHAESKLSELRTTLSALGREATAAMEAVEVQQQQVTFDRLLAMVDAE    237
+                        .....|..:....|.|...|.....|..|:..:.....:.|||::|:
+AF-Q96N96-F1     537 EVYLFCAKKQEDKARWLQACADERRRVQEDKEMGMEISENQKKLAMLNAQ    586
+
+AF-Q10NK5-F1     238 RAYHQNAADILNKLHDEMVQAKHHDEPENHYDETSSDPKTAATHE-HSRS    286
+                     :|.|..:                     ..|:.....|.....|. |.| 
+AF-Q96N96-F1     587 KAGHGKS---------------------KGYNRCPVAPPHQGLHPIHQR-    614
+
+AF-Q10NK5-F1     287 TSEDHIFTNTSEPTRTETSEPTRTETSEPTRNGQEVHYVGEVIHPFDAQA    336
+                         ||...||.|.:....      .:||.|......:....:.||..  
+AF-Q96N96-F1     615 ----HITMPTSVPQQQVFG------LAEPKRKSSLFWHTFNRLTPFRK--    652
+
+AF-Q10NK5-F1     337 DGELSISVGDYVVVRQVAPNGWSEGECKGKAGWFPSAYVEQRDKAPASKV    386
+                                                                       
+AF-Q96N96-F1     652 --------------------------------------------------    652
+
+AF-Q10NK5-F1     387 IEPGLLTT    394
+                             
+AF-Q96N96-F1     652 --------    652
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:01
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p46109-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-p46109-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-p46109-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-P46109-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 220
+# Identity:      45/220 (20.5%)
+# Similarity:    81/220 (36.8%)
+# Gaps:          61/220 (27.7%)
+# Score: 92.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1     190 LQHAESKLSELRTTLSALGREATAAMEAVEVQQQQVTFDR--LLAMVDAE    237
+                     |..||..|..:||.....|.:|           :.:.|.:  :|.:::..
+AF-P46109-F1     118 LPTAEDNLEYVRTLYDFPGNDA-----------EDLPFKKGEILVIIEKP    156
+
+AF-Q10NK5-F1     238 RAYHQNAADILNKLH-------DEMVQAKHHDEPENHYDETSSDPKTAAT    280
+                     .....:|.:...::.       :::|::..|.:..|....:...|:.|..
+AF-P46109-F1     157 EEQWWSARNKDGRVGMIPVPYVEKLVRSSPHGKHGNRNSNSYGIPEPAHA    206
+
+AF-Q10NK5-F1     281 HEHSRSTSEDHIFTNTSEPTRTETSEPTRTETSEP-TRNGQEVHYVGEVI    329
+                     :...::|:          |....:..|....|..| |:||          
+AF-P46109-F1     207 YAQPQTTT----------PLPAVSGSPGAAITPLPSTQNG----------    236
+
+AF-Q10NK5-F1     330 HPFDAQA----------DGELSISVGDYVVVRQVAPNGWSEGECKGKAGW    369
+                      |..|:|          ...|::.|||.|.|.::..||..|||..|:.|.
+AF-P46109-F1     237 -PVFAKAIQKRVPCAYDKTALALEVGDIVKVTRMNINGQWEGEVNGRKGL    285
+
+AF-Q10NK5-F1     370 FPSAYVEQRDKAPASKVIEP    389
+                     ||..:|         |:.:|
+AF-P46109-F1     286 FPFTHV---------KIFDP    296
+
+
+#---------------------------------------
+#---------------------------------------

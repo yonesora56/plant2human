@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:16
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q8h3e5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8n239-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q8h3e5-f1_af-q8n239-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q8h3e5-f1_af-q8n239-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q8H3E5-F1
+# 2: AF-Q8N239-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 250
+# Identity:      63/250 (25.2%)
+# Similarity:    92/250 (36.8%)
+# Gaps:          71/250 (28.4%)
+# Score: 120.5
+# 
+#
+#=======================================
+
+AF-Q8H3E5-F1     221 HIGQLLT-------DGKRTDITFEVDGEVFPAHKVVLAARSPVFRAQLFG    263
+                     |.|.|||       :|...|:|.|.:|..||||:.:||..|..|||....
+AF-Q8N239-F1      11 HGGALLTGYQALRAEGFLCDVTLETEGSEFPAHRSLLACSSDYFRALFKS     60
+
+AF-Q8H3E5-F1     264 PMKDKNMKRITIEDMEASVFKALLHFMY--W-----DELPD---------    297
+                     ..::...:.|.:....|:..:.||.|:|  |     |.:.|         
+AF-Q8N239-F1      61 HTQESRARVIHLHVPSAAGLQRLLDFIYTAWLSLSMDTVEDTLEAASYLQ    110
+
+AF-Q8H3E5-F1     298 IEELTGL------------NTTWVSTLMAQ----HLLAAADRYALERLKL    331
+                     :.|..||            |..:.:.:.|:    |.|.||:|..:..|:.
+AF-Q8N239-F1     111 VTEALGLCGRYLERQLAPENCCFAANVAARFGLAHTLDAAERCIVSHLQE    160
+
+AF-Q8H3E5-F1     332 LCE--------LKL----------CEDVAINTVANTLALA----------    353
+                     |..        |:|          ..|||....|..|.||          
+AF-Q8N239-F1     161 LLARGAGPAGLLELNPTSLRAVLGAPDVARVPEARLLGLALAWLRQEPTT    210
+
+AF-Q8H3E5-F1     354 -EQHHCYQLKTVCLRFVALPEN-LKAVMQTDGFDYLQQSCPSLLTELLEY    401
+                      ...||.:| ...:||..:|.: |:.|....|. .|......|:.:.|.|
+AF-Q8N239-F1     211 ERLAHCTEL-LERVRFGLVPADVLRRVYSGSGL-VLPARVKGLIIQALNY    258
+
+
+#---------------------------------------
+#---------------------------------------

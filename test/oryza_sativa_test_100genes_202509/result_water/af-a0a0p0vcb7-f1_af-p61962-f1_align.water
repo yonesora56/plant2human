@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:33
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p61962-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0vcb7-f1_af-p61962-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0vcb7-f1_af-p61962-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-P61962-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 204
+# Identity:      44/204 (21.6%)
+# Similarity:    70/204 (34.3%)
+# Gaps:          51/204 (25.0%)
+# Score: 80.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7      1 VQSVAWSRQSPEVLLSGSFD--------------KSVAMNDMKDGGQSCN     36
+                     ||.|....:|.|.:...:||              |.|..:.:...|....
+AF-P61962-F1      47 VQLVGLDEESSEFICRNTFDHPYPTTKLMWIPDTKGVYPDLLATSGDYLR     96
+
+AF-A0A0P0VCB7     37 KWSVE-------------------ADVESLAW---DPH-------NEHSF     57
+                     .|.|.                   |.:.|..|   ||:       :....
+AF-P61962-F1      97 VWRVGETETRLECLLNNNKNSDFCAPLTSFDWNEVDPYLLGTSSIDTTCT    146
+
+AF-A0A0P0VCB7     58 MVSLENGMVQAFDKRTASSNSNSGRPTFTLHAHEKAVSSISFSPS--TPN    105
+                     :..||.|.|      ....|..||.....|.||:|.|..|:||.:  ..:
+AF-P61962-F1     147 IWGLETGQV------LGRVNLVSGHVKTQLIAHDKEVYDIAFSRAGGGRD    190
+
+AF-A0A0P0VCB7    106 FLATGSTDKMVKLWDLSNNQPSCIASLNPKLGAIFSVSFSNDSPFLLASG    155
+                     ..|:...|..|:::||.:.:.|.|...:|:...:..:.::...|..||:.
+AF-P61962-F1     191 MFASVGADGSVRMFDLRHLEHSTIIYEDPQHHPLLRLCWNKQDPNYLATM    240
+
+AF-A0A0P0VCB7    156 GSKG    159
+                     ...|
+AF-P61962-F1     241 AMDG    244
+
+
+#---------------------------------------
+#---------------------------------------

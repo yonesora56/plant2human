@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:21
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0iu14-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q14677-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0iu14-f1_af-q14677-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0iu14-f1_af-q14677-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0IU14-F1
+# 2: AF-Q14677-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 710
+# Identity:     133/710 (18.7%)
+# Similarity:   214/710 (30.1%)
+# Gaps:         207/710 (29.2%)
+# Score: 72.5
+# 
+#
+#=======================================
+
+AF-Q0IU14-F1       1 ------------MATAVAC--------AERATSDMLIGPDWAVNIELCDI     30
+                                 .||.|..        ...||:|...||...:..|:...
+AF-Q14677-F1       1 MLNMWKVRELVDKATNVVMNYSEIESKVREATNDDPWGPSGQLMGEIAKA     50
+
+AF-Q0IU14-F1      31 INMDPGQAKDTLKLLKKRL---GNKNSKVQILTLYVLETLSKNCGDVVYQ     77
+                     ..|.. |..:.:.:|..|:   ..||.:....:|.:|..|.:|..:.|..
+AF-Q14677-F1      51 TFMYE-QFPELMNMLWSRMLKDNKKNWRRVYKSLLLLAYLIRNGSERVVT     99
+
+AF-Q0IU14-F1      78 QIIER--DILS----EMVKIVKKKPDLNVREKILSLIDTWQVAFGGASGR    121
+                     ...|.  |:.|    ..|....|...:|:|:|:..|::     |.....|
+AF-Q14677-F1     100 SAREHIYDLRSLENYHFVDEHGKDQGINIRQKVKELVE-----FAQDDDR    144
+
+AF-Q0IU14-F1     122 YPQYH--AAYQELRNAGVDFPPREENTVPLFTPPQTQPLRQPHLYPPPGQ    169
+                     ..:..  |...:.:..||     ..::|..|        |....|.|..:
+AF-Q14677-F1     145 LREERKKAKKNKDKYVGV-----SSDSVGGF--------RYSERYDPEPK    181
+
+AF-Q0IU14-F1     170 SYEDAAIQASLQSSAPSAPALSLSEIQSARGIVDVLDEMLNALDHRHPEG    219
+                     |..|.....: :|:.|.:.  .|.|:....|  ..:|:.::....:..|.
+AF-Q14677-F1     182 SKWDEEWDKN-KSAFPFSD--KLGELSDKIG--STIDDTISKFRRKDRED    226
+
+AF-Q0IU14-F1     220 VREEVIVDLVGQCRSYQGRVMDLVSNTGDESLLFQALGLNDELQRVLQRH    269
+                     ..|. ..|...:.::.:||     |..|:         ..||.:.|..:|
+AF-Q14677-F1     227 SPER-CSDSDEEKKARRGR-----SPKGE---------FKDEEETVTTKH    261
+
+AF-Q0IU14-F1     270 DDIAKGVPPGSGPAPAAAN----VNRGTAPPRPTGVSFSPLLNVHHEDDE    315
+                     ..|.:.....:......||    ::.|.| ...||...||..|......:
+AF-Q14677-F1     262 IHITQATETTTTRHKRTANPSKTIDLGAA-AHYTGDKASPDQNASTHTPQ    310
+
+AF-Q0IU14-F1     316 PEDEFSVLSRRSAR------DGT--------------------AAQGNLP    339
+                     ...:.||.|.:|:.      |||                    ||.|:.|
+AF-Q14677-F1     311 SSVKTSVPSSKSSGDLVDLFDGTSQSTGGSADLFGGFADFGSAAASGSFP    360
+
+AF-Q0IU14-F1     340 S---APKSERPYPSPLLPPPPSSKRPVFTEASSVDYLSGDSYKTEKVSDD    386
+                     |   |......:          .....|.:|.|....|         |.:
+AF-Q14677-F1     361 SQVTATSGNGDF----------GDWSAFNQAPSGPVAS---------SGE    391
+
+AF-Q0IU14-F1     387 FINPTAPANIPAPSHSKTETNPPPSYDSRSE-----SVSDDFINPTAAPS    431
+                     |....:...:...|.|::...|||:..:.|:     ..|...:..:.:.:
+AF-Q14677-F1     392 FFGSASQPAVELVSGSQSALGPPPAASNSSDLFDLMGSSQATMTSSQSMN    441
+
+AF-Q0IU14-F1     432 FSMPSR-------PMSESNR------------------PAVN--------    448
+                     |||.|.       |||.|..                  |:||        
+AF-Q14677-F1     442 FSMMSTNTVGLGLPMSRSQNTDMVQKSVSKTLPSTWSDPSVNISLDNLLP    491
+
+AF-Q0IU14-F1     449 -RQESLPDDDFIN----------PTAIPGFSSSSNANKYGDSGEDLPKAP    487
+                      .|.|.|....:|          |..:  .:.|..|.........||..|
+AF-Q14677-F1     492 GMQPSKPQQPSLNTMIQQQNMQQPMNV--MTQSFGAVNLSSPSNMLPVRP    539
+
+AF-Q0IU14-F1     488 -WEAQAPGSLP--PPPARYGQRQQYFEQQHGL-PSGNNGAGYNGL--VSQ    531
+                      ..|...|.:|  .|....|..        |: |.||.......:  ::.
+AF-Q14677-F1     540 QTNALIGGPMPMSMPNVMTGTM--------GMAPLGNTPMMNQSMMGMNM    581
+
+AF-Q0IU14-F1     532 TEGLSLNQRNTENERGSSVPT---ASRQTKPEDSLFKDLVDFAKNKPSSP    578
+                     ..|:|..........|..:|.   .|...:|:...|.:..:|:|      
+AF-Q14677-F1     582 NIGMSAAGMGLTGTMGMGMPNIAMTSGTVQPKQDAFANFANFSK------    625
+
+AF-Q0IU14-F1     579 SKPANSRRTR    588
+                               
+AF-Q14677-F1     625 ----------    625
+
+
+#---------------------------------------
+#---------------------------------------

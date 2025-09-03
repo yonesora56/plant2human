@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:29
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6k7h2-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9y6k8-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6k7h2-f1_af-q9y6k8-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6k7h2-f1_af-q9y6k8-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6K7H2-F1
+# 2: AF-Q9Y6K8-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:      83/213 (39.0%)
+# Similarity:   125/213 (58.7%)
+# Gaps:          17/213 ( 8.0%)
+# Score: 385.0
+# 
+#
+#=======================================
+
+AF-Q6K7H2-F1       2 GSVVDAPTVVAGQEEVTDNMLGD----------KKVTVVFVLGGPGSGKG     41
+                     |.::|..:....|.:...|:.|:          :|..::|::||||||||
+AF-Q9Y6K8-F1     341 GEIIDTGSDYEDQGDDQLNVFGEDTMGGFMEDLRKCKIIFIIGGPGSGKG    390
+
+AF-Q6K7H2-F1      42 TQCANIVEHFGFIHLSAGDLLRAEIKSGSENGTMIENMIKEGKIVPSEVT     91
+                     |||..:||.:||.|||.|:|||.|:.|.||...:|.::::.|.:|||.:.
+AF-Q9Y6K8-F1     391 TQCEKLVEKYGFTHLSTGELLREELASESERSKLIRDIMERGDLVPSGIV    440
+
+AF-Q6K7H2-F1      92 IKLLQEAMIKSGNDK--FLIDGFPRNEENRAAFENVTKI-TPAFVLFFDC    138
+                     ::||:|||:.|..|.  |||||:||..:....|..  :| .|..|:..||
+AF-Q9Y6K8-F1     441 LELLKEAMVASLGDTRGFLIDGYPREVKQGEEFGR--RIGDPQLVICMDC    488
+
+AF-Q6K7H2-F1     139 SEEEMERRLLGRNQGR--VDDNIETIRKRFKVFVESSLPVIEYYNAKDKV    186
+                     |.:.|..|||.|::..  |||..:||.||.:.:..:|:|||.||..|.::
+AF-Q9Y6K8-F1     489 SADTMTNRLLQRSRSSLPVDDTTKTIAKRLEAYYRASIPVIAYYETKTQL    538
+
+AF-Q6K7H2-F1     187 KKIDAAKPIPEVF    199
+                     .||:|.....:||
+AF-Q9Y6K8-F1     539 HKINAEGTPEDVF    551
+
+
+#---------------------------------------
+#---------------------------------------

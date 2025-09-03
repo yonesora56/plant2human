@@ -1,0 +1,201 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:32
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q7xi89-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q92545-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q7xi89-f1_af-q92545-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q7xi89-f1_af-q92545-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7XI89-F1
+# 2: AF-Q92545-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2019
+# Identity:     144/2019 ( 7.1%)
+# Similarity:   240/2019 (11.9%)
+# Gaps:        1497/2019 (74.1%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+AF-Q7XI89-F1       1 -----------------------------MESGQPNSAAA----------     11
+                                                  ..||.|.||||          
+AF-Q92545-F1       1 MGKRAGGGATGATTAAVSTSAGAGLEPAAARSGGPRSAAAGLLGALHLVM     50
+
+AF-Q7XI89-F1      12 --------ADK---TQNSSVPPVEGVAGGG-----TSYGWVDGGLQASSL     45
+                             |:|   .|:.|:..|.....||     |:.|......::.||
+AF-Q92545-F1      51 TLVVAAARAEKEAFVQSESIIEVLRFDDGGLLQTETTLGLSSYQQKSISL    100
+
+AF-Q7XI89-F1      46 GNGAIDPTKIHSADL----------------LHVWSMPSTANVSQQEAPR     79
+                     ..|...|.:.....|                ||..|...|..:....|..
+AF-Q92545-F1     101 YRGNCRPIRFEPPMLDFHEQPVGMPKMEKVYLHNPSSEETITLVSISATT    150
+
+AF-Q7XI89-F1      80 PLEHVNLLAAR----NERESFQIALRPKVSWATSGIAGSVQVQCTDLCSS    125
+                     ...|.:....|    ....||.:....:|       .|:|:.......|:
+AF-Q92545-F1     151 SHFHASFFQNRKILPGGNTSFDVVFLARV-------VGNVENTLFINTSN    193
+
+AF-Q7XI89-F1     126 AG--DRLVVGQSV-TLRRVVPMLGVPDALVPI-----------DPLNSQI    161
+                     .|  ...|.|..| ...|:.|.||   |.||:           :|.:..:
+AF-Q92545-F1     194 HGVFTYQVFGVGVPNPYRLRPFLG---ARVPVNSSFSPIINIHNPHSEPL    240
+
+AF-Q7XI89-F1     162 NLLPGETSAIWVSLNVPCGQQPGL--------YEGEIFISAVRAEAESRG    203
+                     .::...:|...:.|.:|.|||.|.        ||.:   ..:||...|| 
+AF-Q92545-F1     241 QVVEMYSSGGDLHLELPTGQQGGTRKLWEIPPYETK---GVMRASFSSR-    286
+
+AF-Q7XI89-F1     204 ESLTKSERYQLYKELR-NCIDITE-------------PRDYSSSEEMVQR    239
+                         :::.:..:..:: |..|.||             |..|||:|.:   
+AF-Q92545-F1     287 ----EADNHTAFIRIKTNASDSTEFIILPVEVEVTTAPGIYSSTEML---    329
+
+AF-Q7XI89-F1     240 LTSASTTLRRMLALPSFQDCQENNGLGDMMDEDIMNNVAVRLKLSLTVWD    289
+                                                                      |
+AF-Q92545-F1     330 -------------------------------------------------D    330
+
+AF-Q7XI89-F1     290 FTLPLTPSLPAVFGISETVIEDRFCLEHGTKG----------WYDALDHH    329
+                     |....|..||.|..:        ..|..|||.          ..||:..|
+AF-Q92545-F1     331 FGTLRTQDLPKVLNL--------HLLNSGTKDVPITSVRPTPQNDAITVH    372
+
+AF-Q7XI89-F1     330 FRWLLQYRISPFFCRWGDSMRILAYTCPWPADHPKAKEYYS--------D    371
+                     |:        |...:..:|......:..:.|...|....:|        :
+AF-Q92545-F1     373 FK--------PITLKASESKYTKVASISFDASKAKKPSQFSGKITVKAKE    414
+
+AF-Q7XI89-F1     372 PRLAAYAVPYAPILSSTDAAKNSLRREVEILKSEAHW--SKSYFYLWDEP    419
+                     ...:...:||                :.|:|.....:  :.:.|::.|.|
+AF-Q92545-F1     415 KSYSKLEIPY----------------QAEVLDGYLGFDHAATLFHIRDSP    448
+
+AF-Q7XI89-F1     420 LNMEQYDVICSISNELRSYASDVRILTTYYCGPSGSELAPSTFEAFVKVP    469
+                     .:..:..:..:.:........||              |.|...:...||.
+AF-Q92545-F1     449 ADPVERPIYLTNTFSFAILIHDV--------------LLPEEAKTMFKVH    484
+
+AF-Q7XI89-F1     470 NVLRP-----------HTQIFCTSEWVLGTREDLVKDIVAE---------    499
+                     |..:|           .|.:|..|...:....:::....|.         
+AF-Q92545-F1     485 NFSKPVLILPNESGYIFTLLFMPSTSSMHIDNNILLITNASKFHLPVRVY    534
+
+AF-Q7XI89-F1     500 --------LRPDLGEEWWTYVCMGPSDPQ----------------PNWHL    525
+                             |.|.:.|.:..:..:..::..                .:||:
+AF-Q92545-F1     535 TGFLDYFVLPPKIEERFIDFGVLSATEASNILFAIINSNPIELAIKSWHI    584
+
+AF-Q7XI89-F1     526 ---GM--------RGTQHRAV----------------------MWRVWKE    542
+                        |:        ||.:...:                      .:.|::.
+AF-Q92545-F1     585 IGDGLSIELVAVERGNRTTIISSLPEFEKSSLSDQSSVTLASGYFAVFRV    634
+
+AF-Q7XI89-F1     543 GGTGFLYWG--------TNCYEKAMIPSAEI-------CFRRG--LPPGD    575
+                     ..|.....|        |..||...||...:       ||.:.  |||. 
+AF-Q92545-F1     635 KLTAKKLEGIHDGAIQITTDYEILTIPVKAVIAVGSLTCFPKHVVLPPS-    683
+
+AF-Q7XI89-F1     576 GVLFYPGEVFSSSHEPVAS----TRLERILSGMQDIEYLKLYSSRYGREE    621
+                         :||::...|...:.|    .::::|.|..:|:.:  .|....|.:|
+AF-Q92545-F1     684 ----FPGKIVHQSLNIMNSFSQKVKIQQIRSLSEDVRF--YYKRLRGNKE    727
+
+AF-Q7XI89-F1     622 GLALLEKT---GVYLGPDRYALDHGPIDVMRGEVYRTCRS----------    658
+                     .|...:|:   .:|..|.....||             |..          
+AF-Q92545-F1     728 DLEPGKKSKIANIYFDPGLQCGDH-------------CYVGLPFLSKSEP    764
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1     765 KVQPGVAMQEDMWDADWDLHQSLFKGWTGIKENSGHRLSAIFEVNTDLQK    814
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1     815 NIISKITAELSWPSILSSPRHLKFPLTNTNCSSEEEITLENPADVPVYVQ    864
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1     865 FIPLALYSNPSVFVDKLVSRFNLSKVAKIDLRTLEFQVFRNSAHPLQSST    914
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1     915 GFMEGLSRHLILNLILKPGEKKSVKVKFTPVHNRTVSSLIIVRNNLTVMD    964
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1     965 AVMVQGQGTTENLRVAGKLPGPGSSLRFKITEALLKDCTDSLKLREPNFT   1014
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1015 LKRTFKVENTGQLQIHIETIEISGYSCEGYGFKVVNCQEFTLSANASRDI   1064
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1065 IILFTPDFTASRVIRELKFITTSGSEFVFILNASLPYHMLATCAEALPRP   1114
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1115 NWELALYIIISGIMSALFLLVIGTAYLEAQGIWEPFRRRLSFEASNPPFD   1164
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1165 VGRPFDLRRIVGISSEGNLNTLSCDPGHSRGFCGAGGSSSRPSAGSHKQC   1214
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1215 GPSVHPHSSHSNRNSADVENVRAKNSSSTSSRTSAQAASSQSANKTSPLV   1264
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1265 LDSNTVTQGHTAGRKSKGAKQSQHGSQHHAHSPLEQHPQPPLPPPVPQPQ   1314
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1315 EPQPERLSPAPLAHPSHPERASSARHSSEDSDITSLIEAMDKDFDHHDSP   1364
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1365 ALEVFTEQPPSPLPKSKGKGKPLQRKVKPPKKQEEKEKKGKGKPQEDELK   1414
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1415 DSLADDDSSSTTTETSNPDTEPLLKEDTEKQKGKQAMPEKHESEMSQVKQ   1464
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1465 KSKKLLNIKKEIPTDVKPSSLELPYTPPLESKQRRNLPSKIPLPTAMTSG   1514
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1515 SKSRNAQKTKGTSKLVDNRPPALAKFLPNSQELGNTSSSEGEKDSPPPEW   1564
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1565 DSVPVHKPGSSTDSLYKLSLQTLNADIFLKQRQTSPTPASPSPPAAPCPF   1614
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1615 VARGSYSSIVNSSSSSDPKIKQPNGSKHKLTKAASLPGKNGNPTFAAVTA   1664
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1665 GYDKSPGGNGFAKVSSNKTGFSSSLGISHAPVDSDGSDSSGLWSPVSNPS   1714
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1715 SPDFTPLNSFSAFGNSFNLTGEVFSKLGLSRSCNQASQRSWNEFNSGPSY   1764
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1765 LWESPATDPSPSWPASSGSPTHTATSVLGNTSGLWSTTPFSSSIWSSNLS   1814
+
+AF-Q7XI89-F1     658 --------------------------------------------------    658
+                                                                       
+AF-Q92545-F1    1815 SALPFTTPANTLASIGLMGTENSPAPHAPSTSSPADDLGQTYNPWRIWSP   1864
+
+AF-Q7XI89-F1     658 -------------------    658
+                                        
+AF-Q92545-F1    1865 TIGRRSSDPWSNSHFPHEN   1883
+
+
+#---------------------------------------
+#---------------------------------------

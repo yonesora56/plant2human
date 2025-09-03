@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:21
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6yzi0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q5srh9-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6yzi0-f1_af-q5srh9-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6yzi0-f1_af-q5srh9-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6YZI0-F1
+# 2: AF-Q5SRH9-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 279
+# Identity:      56/279 (20.1%)
+# Similarity:    95/279 (34.1%)
+# Gaps:          75/279 (26.9%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+AF-Q6YZI0-F1      28 AKQQLDGKDTLRYANILRSRNKFAEALQLYNNVLEK-------------D     64
+                     |....|.:|.|...|:::......:..:..::|.:.             .
+AF-Q5SRH9-F1      69 AMMTFDPQDILLAGNMMKEAQMLCQRHRRKSSVTDSFSSLVNRPTLGQFT    118
+
+AF-Q6YZI0-F1      65 EANVEALIGKGIC-LQAQSLPMQAIECFNEAVR----IDPGNACALTYC-    108
+                     |..:.|.:....| ||..:|..........|||    .||.:||:   | 
+AF-Q5SRH9-F1     119 EEEIHAEVCYAECLLQRAALTFLQGSSHGGAVRPRALHDPSHACS---CP    165
+
+AF-Q6YZI0-F1     109 --------------GMI---------------YKDEGHLVEAAEAYQKAR    129
+                                   .|:               ||:...||:::: |.|..
+AF-Q5SRH9-F1     166 PGPGRQHLFLLQDENMVSFIKGGIKVRNSYQTYKELDSLVQSSQ-YCKGE    214
+
+AF-Q6YZI0-F1     130 NADPSYKPAAEF----LAIVLTDLGTS-LKL------AGNTEEGIQKYCE    168
+                     | .|.::...:.    ..:.|:.|.|. |:|      :||.:.|:.:..|
+AF-Q5SRH9-F1     215 N-HPHFEGGVKLGVGAFNLTLSMLPTRILRLLEFVGFSGNKDYGLLQLEE    263
+
+AF-Q6YZI0-F1     169 ALEVDSHYAPAYYNLGVVYSEMMQFDLA---LTCYEKAALERPLYAEAYC    215
+                     .....|..:.....|.:.|...:.|.|.   :...|...|.:| |...|.
+AF-Q5SRH9-F1     264 GASGHSFRSVLCVMLLLCYHTFLTFVLGTGNVNIEEAEKLLKP-YLNRYP    312
+
+AF-Q6YZI0-F1     216 N-------MGVIYKNRGELEAAIACYERC    237
+                     .       .|.|...:|.::|||..:|.|
+AF-Q5SRH9-F1     313 KGAIFLFFAGRIEVIKGNIDAAIRRFEEC    341
+
+
+#---------------------------------------
+#---------------------------------------

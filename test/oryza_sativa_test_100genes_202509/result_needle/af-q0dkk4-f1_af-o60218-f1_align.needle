@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:30
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0dkk4-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o60218-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0dkk4-f1_af-o60218-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0dkk4-f1_af-o60218-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0DKK4-F1
+# 2: AF-O60218-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 558
+# Identity:      52/558 ( 9.3%)
+# Similarity:    82/558 (14.7%)
+# Gaps:         388/558 (69.5%)
+# Score: 14.0
+# 
+#
+#=======================================
+
+AF-Q0DKK4-F1       1 MAPPTARSLLASHAAVRAAASARRGRLAGDHHPPQVAALRRGDWVKLICG     50
+                                                                       
+AF-O60218-F1       0 --------------------------------------------------      0
+
+AF-Q0DKK4-F1      51 ASFEDAADVRNLSLVYTLAGVDCIDCAADASVVGAVNEGIDVAASIVPAV    100
+                                                                       
+AF-O60218-F1       0 --------------------------------------------------      0
+
+AF-Q0DKK4-F1     101 QRPWVMVSVNDDCRDLHFRKAEFDPEDCPPDCSKPCEKVCPADAILLERV    150
+                                                                       
+AF-O60218-F1       0 --------------------------------------------------      0
+
+AF-Q0DKK4-F1     151 MIEEEHSQSDPSCGKLEGGVITERCYGCGRCLSVCPYDRIRAMSYVRDPA    200
+                                                                       
+AF-O60218-F1       0 --------------------------------------------------      0
+
+AF-Q0DKK4-F1     201 MTAELLKRNDVDAIEIHT------TGKGTDMFNTLW-SNLGESINNVKLI    243
+                              ....:|:.|      .|.||      | |.||:....|| :
+AF-O60218-F1       1 ---------MATFVELSTKAKMPIVGLGT------WKSPLGKVKEAVK-V     34
+
+AF-Q0DKK4-F1     244 AVSLPDVGDSTVNLMNAIYTTMQSHLQGYNLWQLDGRPMSGDIGRGATRE    293
+                     |:      |:....::..|.....|                ::|.....:
+AF-O60218-F1      35 AI------DAGYRHIDCAYVYQNEH----------------EVGEAIQEK     62
+
+AF-Q0DKK4-F1     294 TVSFAV---HLSSMSNRPPGFYQ--LAGGTNSYTIESLKKAGL-------    331
+                     ....||   .|..:|...|.|::  |.......|::.||.:.|       
+AF-O60218-F1      63 IQEKAVKREDLFIVSKLWPTFFERPLVRKAFEKTLKDLKLSYLDVYLIHW    112
+
+AF-Q0DKK4-F1     332 ---FQS--TTFP----GAATSG---VTDCQQA--------FIGGIAYGGY    361
+                        |:|  ..||    |.|..|   ..|..:|        .:..:....:
+AF-O60218-F1     113 PQGFKSGDDLFPKDDKGNAIGGKATFLDAWEAMEELVDEGLVKALGVSNF    162
+
+AF-Q0DKK4-F1     362 ARKIVGRVLRKIPAQFGHA--RIEDHPDYLLEALQEALSLVGPVKGY---    406
+                     :...:.::|.|...::...  ::|.|| ||   .||.|......||.   
+AF-O60218-F1     163 SHFQIEKLLNKPGLKYKPVTNQVECHP-YL---TQEKLIQYCHSKGITVT    208
+
+AF-Q0DKK4-F1     407 --------------PTLPSL------------------------------    412
+                                   |..|||                              
+AF-O60218-F1     209 AYSPLGSPDRPWAKPEDPSLLEDPKIKEIAAKHKKTAAQVLIRFHIQRNV    258
+
+AF-Q0DKK4-F1     412 --------------------------------------------------    412
+                                                                       
+AF-O60218-F1     259 IVIPKSVTPARIVENIQVFDFKLSDEEMATILSFNRNWRACNVLQSSHLE    308
+
+AF-Q0DKK4-F1     412 --------    412
+                             
+AF-O60218-F1     309 DYPFNAEY    316
+
+
+#---------------------------------------
+#---------------------------------------

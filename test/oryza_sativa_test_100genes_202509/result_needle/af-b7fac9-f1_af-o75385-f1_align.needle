@@ -1,0 +1,173 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:37
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o75385-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-b7fac9-f1_af-o75385-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-b7fac9-f1_af-o75385-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-O75385-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1676
+# Identity:      87/1676 ( 5.2%)
+# Similarity:   158/1676 ( 9.4%)
+# Gaps:        1365/1676 (81.4%)
+# Score: 189.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1       1 MLKQKDLMVISYSCSAGTKLTWILSLLLILVAATQVHGVSPPGFLNVDCG     50
+                                                                       
+AF-O75385-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1      51 LTNRSTYNDTDTTLTYVSDREFVESGKSYDIMAQYMADATNEQEKTLRSF    100
+                                                                       
+AF-O75385-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     101 PDGQRNCYTLPTNSSKKYLIRATFTYGNYDGLNSSEKGSLFIFGLHIGVN    150
+                                                                       
+AF-O75385-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     151 FWTTVNLTKWDPSSTVWKEVITVAPDKSVSVCLINMGSGTPFISTLDLRP    200
+                                                                       
+AF-O75385-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     201 LQDTMYPFVNASTSVSYFSRIRFGSVDEYITRFPTDQYDRFWEGWVFTMH    250
+                                                                       
+AF-O75385-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     251 TFPWVNKSSNGKVAELPNIDTFGLPPAILGSASTINGNFSWLNISVSASN    300
+                                                                       
+AF-O75385-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     301 SLATDLELLPVFHFVELGNNGSKRIFDIYNVDEPQALFSNFSPPSFLSSM    350
+                                                                       
+AF-O75385-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     351 FHNWFLRKGRRAYFQLRKTPDSQLPPLINAYEVYSRVQVENFTTASSDVD    400
+                                                                       
+AF-O75385-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     401 SMKTIKEKYMVIKNWNGDPCSPREYIWNGLTCTYPNGGQNPRIVEINLSG    450
+                                                                       
+AF-O75385-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     451 SGLQGELEISFMKMSSLKKLDLSHNNLTGTIPDYQVNSLTVIDLSNNQLN    500
+                                                                       
+AF-O75385-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     501 GSIPDSILQRYKAGLLELRLEGNPICSKVRASYCGNKKNTRTRILLISVL    550
+                                                                       
+AF-O75385-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     551 VPVTSLLVVLFIFWRLCWKGKSRKSEEEDYDMYEEETPLHID--------    592
+                                                             ::        
+AF-O75385-F1       1 ----------------------------------------MEPGRGGTET     10
+
+AF-B7FAC9-F1     593 IRRFTYAELKLITNNFQSIIGKGGFGTVYHG-ILENND-EVAVKVLVETS    640
+                     :.:|.::.        :.:||.|.|..|:.| ..|.:| |||||.:.:.:
+AF-O75385-F1      11 VGKFEFSR--------KDLIGHGAFAVVFKGRHREKHDLEVAVKCINKKN     52
+
+AF-B7FAC9-F1     641 IAESKDFL-PEVQTLSKVHHKNLVALVGYCQNKKCLALVYDFMPRGNLQQ    689
+                     :|:|:..| .|::.|.::.|:|:|||..:.:....:.||.::...|:|..
+AF-O75385-F1      53 LAKSQTLLGKEIKILKELKHENIVALYDFQEMANSVYLVMEYCNGGDLAD    102
+
+AF-B7FAC9-F1     690 LLRGGYDSLNWEERLHIALDAAQG-LEYLHESCTPSIVHRDVKTPNILLD    738
+                     .|. ...:|: |:.:.:.|....| :..||   :..|:|||:|..||||.
+AF-O75385-F1     103 YLH-AMRTLS-EDTIRLFLQQIAGAMRLLH---SKGIIHRDLKPQNILLS    147
+
+AF-B7FAC9-F1     739 ---------KNLVAKISDFGLSRAFNAAHTHISTVAAGTLGYLDPEYHAT    779
+                              .::..||:|||.:|...:  ..::....|:..|:.||...:
+AF-O75385-F1     148 NPAGRRANPNSIRVKIADFGFARYLQS--NMMAATLCGSPMYMAPEVIMS    195
+
+AF-B7FAC9-F1     780 FQLTVKTDVYSFGIVLLEIVTGQPPV-FMDPQTVHLPNWVRQKIANGSVH    828
+                     .....|.|::|.|.::.:.:||:.|. ...||                  
+AF-O75385-F1     196 QHYDGKADLWSIGTIVYQCLTGKAPFQASSPQ------------------    227
+
+AF-B7FAC9-F1     829 DVVDKKLLDQYDATHLQTV--------IDLAMNCLENASIDR--------    862
+                        |.:|..:.:.|.:.|:        ..|.:..|:....||        
+AF-O75385-F1     228 ---DLRLFYEKNKTLVPTIPRETSAPLRQLLLALLQRNHKDRMDFDEFFH    274
+
+AF-B7FAC9-F1     863 -------PSMTEVVSVLKVCLPISSERQSATSTPRKKNVMDAEIPRQFQL    905
+                            ||:.:...|.....|.|....|::|:..........:....||
+AF-O75385-F1     275 HPFLDASPSVRKSPPVPVPSYPSSGSGSSSSSSSTSHLASPPSLGEMQQL    324
+
+AF-B7FAC9-F1     906 MISGASTTSYEGSSFQSGYTGGVSEISHISGR------------------    937
+                     ..:.||.....|....|..:||..:.|..:..                  
+AF-O75385-F1     325 QKTLASPADTAGFLHSSRDSGGSKDSSCDTDDFVMVPAQFPGDLVAEAPS    374
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-O75385-F1     375 AKPPPDSLMCSGSSLVASAGLESHGRTPSPSPPCSSSPSPSGRAGPFSSS    424
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-O75385-F1     425 RCGASVPIPVPTQVQNYQRIERNLQSPTQFQTPRSSAIRRSGSTSPLGFA    474
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-O75385-F1     475 RASPSPPAHAEHGGVLARKMSLGGGRPYTPSPQVGTIPERPGWSGTPSPQ    524
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-O75385-F1     525 GAEMRGGRSPRPGSSAPEHSPRTSGLGCRLHSAPNLSDLHVVRPKLPKPP    574
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-O75385-F1     575 TDPLGAVFSPPQASPPQPSHGLQSCRNLRGSPKLPDFLQRNPLPPILGSP    624
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-O75385-F1     625 TKAVPSFDFPKTPSSQNLLALLARQGVVMTPPRNRTLPDLSEVGPFHGQP    674
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-O75385-F1     675 LGPGLRPGEDPKGPFGRSFSTSRLTDLLLKAAFGTQAPDPGSTESLQEKP    724
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-O75385-F1     725 MEIAPSAGFGGSLHPGARAGGTSSPSPVVFTVGSPPSGSTPPQGPRTRMF    774
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-O75385-F1     775 SAGPTGSASSSARHLVPGPCSEAPAPELPAPGHGCSFADPITANLEGAVT    824
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-O75385-F1     825 FEAPDLPEETLMEQEHTEILRGLRFTLLFVQHVLEIAALKGSASEAAGGP    874
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-O75385-F1     875 EYQLQESVVADQISLLSREWGFAEQLVLYLKVAELLSSGLQSAIDQIRAG    924
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-O75385-F1     925 KLCLSSTVKQVVRRLNELYKASVVSCQGLSLRLQRFFLDKQRLLDRIHSI    974
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-O75385-F1     975 TAERLIFSHAVQMVQSAALDEMFQHREGCVPRYHKALLLLEGLQHMLSDQ   1024
+
+AF-B7FAC9-F1     937 --------------------------    937
+                                               
+AF-O75385-F1    1025 ADIENVTKCKLCIERRLSALLTGICA   1050
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:39
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q09019-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0vcb7-f1_af-q09019-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0vcb7-f1_af-q09019-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-Q09019-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 232
+# Identity:      43/232 (18.5%)
+# Similarity:    66/232 (28.4%)
+# Gaps:          95/232 (40.9%)
+# Score: 66.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7     37 KWSV-EADVESLAWDPHNEHSFMVS-------------LENGMVQAF---     69
+                     ||:| |..:...|:.|...|...||             |..|:::::   
+AF-Q09019-F1     279 KWAVGEGPLNEFAFSPDGRHLACVSQDGCLRVFHFDSMLLRGLMKSYFGG    328
+
+AF-A0A0P0VCB7     70 ------------------DKRTASSNSNSGRPTFTLHAHEKAVSSISFSP    101
+                                       |......:...||.....|.|:..|::::|.|
+AF-Q09019-F1     329 LLCVCWSPDGRYVVTGGEDDLVTVWSFTEGRVVARGHGHKSWVNAVAFDP    378
+
+AF-A0A0P0VCB7    102 ST------------------------PNFLATGST---------------    112
+                     .|                        |....|||.               
+AF-Q09019-F1     379 YTTRAEEAATAAGADGERSGEEEEEEPEAAGTGSAGGAPLSPLPKAGSIT    428
+
+AF-A0A0P0VCB7    113 --------DKMVKLWDLSNNQPSCIASLNPKLGAIFSVSFSNDSPFLLAS    154
+                             |....||||:.:    :...:|.|....::..:..:....||
+AF-Q09019-F1     429 YRFGSAGQDTQFCLWDLTED----VLYPHPPLARTRTLPGTPGTTPPAAS    474
+
+AF-A0A0P0VCB7    155 ---GGSKG------KLKVWNTLTEPAVANKFG    177
+                        ||..|      .|...|:|..||...|.|
+AF-Q09019-F1     475 SSRGGEPGPGPLPRSLSRSNSLPHPAGGGKAG    506
+
+
+#---------------------------------------
+#---------------------------------------

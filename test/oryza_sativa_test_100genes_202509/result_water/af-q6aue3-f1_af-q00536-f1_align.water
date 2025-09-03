@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:38
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q00536-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-q00536-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-q00536-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-Q00536-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 310
+# Identity:      88/310 (28.4%)
+# Similarity:   130/310 (41.9%)
+# Gaps:          88/310 (28.4%)
+# Score: 230.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1       4 STSDI------------PEG-REKLKRSGSLGSSDTAYVRADKIDLTSLD     40
+                     ||.||            ||| .|||..:..:                   
+AF-Q00536-F1     110 STEDINKRLSLPADIRLPEGYLEKLTLNSPI-------------------    140
+
+AF-Q6AUE3-F1      41 IQLEKQLTKTWGKANLKAHGPKEDWEIDLAKLEIRYV----IAQGTYGTV     86
+                       .:|.|::...:.:|.        ||...||| .|:    :.:|||.||
+AF-Q00536-F1     141 --FDKPLSRRLRRVSLS--------EIGFGKLE-TYIKLDKLGEGTYATV    179
+
+AF-Q6AUE3-F1      87 YRGTYDGQDVAVKLLDWGEDGFATEAETAALRTSFKQEVAVWHKLSHPNV    136
+                     |:|.....|..|.|.:     ...|.|..|..|:.: ||::...|.|.|:
+AF-Q00536-F1     180 YKGKSKLTDNLVALKE-----IRLEHEEGAPCTAIR-EVSLLKDLKHANI    223
+
+AF-Q6AUE3-F1     137 TKFVGASMGTTDLKIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQYL-    185
+                     .        |....|.|..|            ..:|.||| ...||||| 
+AF-Q00536-F1     224 V--------TLHDIIHTEKS------------LTLVFEYL-DKDLKQYLD    252
+
+AF-Q6AUE3-F1     186 ----IKNSRRKLAYKVVVQLAL-DLARGLSYLHSRKIVHRDVKTENMLLD    230
+                         |.|...       |:|.| .|.|||:|.|.:|::|||:|.:|:|::
+AF-Q00536-F1     253 DCGNIINMHN-------VKLFLFQLLRGLAYCHRQKVLHRDLKPQNLLIN    295
+
+AF-Q6AUE3-F1     231 TQRNLKIADFGVARVEAQNPKDMTGATGTLGYMAPEVLDGK-PYNRKCDV    279
+                     .:..||:||||:||.::...|..:....||.|..|::|.|. .|:.:.|:
+AF-Q00536-F1     296 ERGELKLADFGLARAKSIPTKTYSNEVVTLWYRPPDILLGSTDYSTQIDM    345
+
+AF-Q6AUE3-F1     280 YSFGICLWEI    289
+                     :..|...:|:
+AF-Q00536-F1     346 WGVGCIFYEM    355
+
+
+#---------------------------------------
+#---------------------------------------

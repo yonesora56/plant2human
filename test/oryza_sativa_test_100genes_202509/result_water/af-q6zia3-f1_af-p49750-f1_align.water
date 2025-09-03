@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:12
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6zia3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p49750-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6zia3-f1_af-p49750-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6zia3-f1_af-p49750-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6ZIA3-F1
+# 2: AF-P49750-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 349
+# Identity:      71/349 (20.3%)
+# Similarity:   108/349 (30.9%)
+# Gaps:         130/349 (37.2%)
+# Score: 76.5
+# 
+#
+#=======================================
+
+AF-Q6ZIA3-F1      46 PAAVNGFAPPPPPSAAAAAE-------------EGSKQPFVIGVSGGTAS     82
+                     ||......|||.|......|             |...:..|:.:.|...|
+AF-P49750-F1    1796 PAPSLSHQPPPAPRVEKKPESKNVDDILKPPGRESRPERIVVIMRGLPGS   1845
+
+AF-Q6ZIA3-F1      83 GKTTVCDMIIQQLHDHRV--------VLVNQDSFYRGLTEEESD------    118
+                     |||.|..:|    .|..|        ||...|.|...:.:||.|      
+AF-P49750-F1    1846 GKTHVAKLI----RDKEVEFGGPAPRVLSLDDYFITEVEKEEKDPDSGKK   1891
+
+AF-Q6ZIA3-F1     119 ---RVQDYNF--DHPDAFDTEQLLECMGQLKSGLSVNIPIYDFKNHR-RC    162
+                        :|.:|.:  :..:.:.|.........|..|....| |.|..|.| |.
+AF-P49750-F1    1892 VKKKVMEYEYEAEMEETYRTSMFKTFKKTLDDGFFPFI-ILDAINDRVRH   1940
+
+AF-Q6ZIA3-F1     163 SESF---RKVNASDVIILE--------GILVFHDQRVRDL----------    191
+                     .:.|   .|....:|.:.|        |....|.::::::          
+AF-P49750-F1    1941 FDQFWSAAKTKGFEVYLAEMSADNQTCGKRNIHGRKLKEINKMADHWETA   1990
+
+AF-Q6ZIA3-F1     192 ------MDMKIFV-----------DTDADIRLARRIRRDTVE--------    216
+                           :|::..:           |.||:|...:..::|..|        
+AF-P49750-F1    1991 PRHMMRLDIRSLLQDAAIEEVEMEDFDANIEEQKEEKKDAEEEESELGYI   2040
+
+AF-Q6ZIA3-F1     217 -------------------------RGRD---VISVLEQYGRFVKPAFDD    238
+                                              |.||   :.|.:|.|.:..    ||
+AF-P49750-F1    2041 PKSKWEMDTSEAKLDKLDGLRTGTKRKRDWEAIASRMEDYLQLP----DD   2086
+
+AF-Q6ZIA3-F1     239 FVL----PSKK---YADVIIPRGGDNHVAIDLIVQHIRTKLGQHDLCKI    280
+                     :..    |.||   :||:...:..|...||..:|       ||.|..||
+AF-P49750-F1    2087 YDTRASEPGKKRVRWADLEEKKDADRKRAIGFVV-------GQTDWEKI   2128
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:34
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q5jjp8-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8wwq0-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5jjp8-f1_af-q8wwq0-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5jjp8-f1_af-q8wwq0-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5JJP8-F1
+# 2: AF-Q8WWQ0-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 277
+# Identity:      69/277 (24.9%)
+# Similarity:   108/277 (39.0%)
+# Gaps:          64/277 (23.1%)
+# Score: 168.5
+# 
+#
+#=======================================
+
+AF-Q5JJP8-F1     243 HSKKKKKVKGKKAKKYKKGSHRSSVLGLAWNKEVRNVLASASADKTVKIW    292
+                     |.|..|::.|          |.|||..:.:::..|.:. :.|.|..||||
+AF-Q8WWQ0-F1     172 HMKMHKRILG----------HLSSVYCVTFDRTGRRIF-TGSDDCLVKIW    210
+
+AF-Q5JJP8-F1     293 DVSVGKCAVTLEHHDDKVQSVAWSRQSPEVLLSGSFDKSVAMNDMKDGGQ    342
+                     ....|:...||..|..::..:|.:.:: .::.:||.||.:.:..::    
+AF-Q8WWQ0-F1     211 ATDDGRLLATLRGHAAEISDMAVNYEN-TMIAAGSCDKMIRVWCLR----    255
+
+AF-Q5JJP8-F1     343 SCNKWSV----EADVESLAWDPHNEHSFMVSLENGMVQAFDKRTASSNSN    388
+                     :|...:|    .|.:.||.:.|         |.:|     .||..||...
+AF-Q8WWQ0-F1     256 TCAPLAVLQGHSASITSLQFSP---------LCSG-----SKRYLSSTGA    291
+
+AF-Q5JJP8-F1     389 SG----------------RPTFTLHAHEKAVSSISFSPSTPN-FLATGST    421
+                     .|                ||..........|..|..|.|... |||||||
+AF-Q8WWQ0-F1     292 DGTICFWLWDAGTLKINPRPAKFTERPRPGVQMICSSFSAGGMFLATGST    341
+
+AF-Q5JJP8-F1     422 DKMVKLWDLSNNQPSCIASLNPKLGAIFSVSFSNDSPFLLASGGSKGKLK    471
+                     |.:::::...:.||..|:.|......:.|:.|||.|. ...||...|..:
+AF-Q8WWQ0-F1     342 DHIIRVYFFGSGQPEKISELEFHTDKVDSIQFSNTSN-RFVSGSRDGTAR    390
+
+AF-Q5JJP8-F1     472 VW------------NTLTEPAVANKFG    486
+                     :|            :..|.||..|..|
+AF-Q8WWQ0-F1     391 IWQFKRREWKSILLDMATRPAGQNLQG    417
+
+
+#---------------------------------------
+#---------------------------------------

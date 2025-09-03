@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:45
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q32mk0-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-q32mk0-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-q32mk0-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-Q32MK0-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 283
+# Identity:      69/283 (24.4%)
+# Similarity:   118/283 (41.7%)
+# Gaps:          62/283 (21.9%)
+# Score: 193.0
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      77 VIAQGTYGTVYRGT--YDGQDVAVKLLDWGEDGFATEAETAALRTSFKQE    124
+                     |:..|.:|.|:|.|  ..|..:|.|::         :.::|..|...|.|
+AF-Q32MK0-F1     520 VLGGGRFGQVHRCTEKSTGLPLAAKII---------KVKSAKDREDVKNE    560
+
+AF-Q6AUE3-F1     125 VAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCVVVE    174
+                     :.:.::|||.|:.:...|...                    ..:|.:|:|
+AF-Q32MK0-F1     561 INIMNQLSHVNLIQLYDAFES--------------------KHSCTLVME    590
+
+AF-Q6AUE3-F1     175 YLAGGTLKQYLIKNSRRKLAYKVVVQLALDLARGLSYLHSRKIVHRDVKT    224
+                     |:.||.|.. .|.:.:..|....||.....:..|:.|||...|:|.|:|.
+AF-Q32MK0-F1     591 YVDGGELFD-RITDEKYHLTELDVVLFTRQICEGVHYLHQHYILHLDLKP    639
+
+AF-Q6AUE3-F1     225 ENMLL--DTQRNLKIADFGVARVEAQNPKDMTGAT-GTLGYMAPEVLDGK    271
+                     ||:|.  .|...:||.|||:||  ...|::..... ||..::||||::.:
+AF-Q32MK0-F1     640 ENILCVNQTGHQIKIIDFGLAR--RYKPREKLKVNFGTPEFLAPEVVNYE    687
+
+AF-Q6AUE3-F1     272 PYNRKCDVYSFGICLWEIYCCDMPYPDLSFADVSSAVVHQNLRPDVPRCC    321
+                     ..:...|::|.|:..:.:.....|:...:.|:..:.:|:          |
+AF-Q32MK0-F1     688 FVSFPTDMWSVGVITYMLLSGLSPFLGETDAETMNFIVN----------C    727
+
+AF-Q6AUE3-F1     322 PSAFANIMRKCWDANPDKRPDMDEVVQLLEALD    354
+                               .||.:.|....:.|     ||.|
+AF-Q32MK0-F1     728 ----------SWDFDADTFEGLSE-----EAKD    745
+
+
+#---------------------------------------
+#---------------------------------------

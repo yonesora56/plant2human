@@ -12,7 +12,7 @@ inputs:
     type: Directory
     default:
       class: Directory
-      location: ../test/oryza_sativa_test/rice_random_gene_mmcif/
+      location: ../test/oryza_sativa_test_202509/rice_random_gene_mmcif/
   - id: glob_pattern
     label: "File pattern"
     type: string

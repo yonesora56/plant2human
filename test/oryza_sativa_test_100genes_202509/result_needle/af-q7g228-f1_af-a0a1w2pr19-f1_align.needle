@@ -1,0 +1,61 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:46
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q7g228-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-a0a1w2pr19-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q7g228-f1_af-a0a1w2pr19-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q7g228-f1_af-a0a1w2pr19-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7G228-F1
+# 2: AF-A0A1W2PR19-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 269
+# Identity:      33/269 (12.3%)
+# Similarity:    57/269 (21.2%)
+# Gaps:         153/269 (56.9%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+AF-Q7G228-F1       1 MSSSSTSGSAEPAAAVRVLGSWTSPFVMRVVVALKLKGVE-EYELLQETR     49
+                                  .|:.:.....|.....|.:..|...:: .::.:...:
+AF-A0A1W2PR19      1 -------------MALELYMDLLSAPCRAVYIFSKKHDIQFNFQFVDLLK     37
+
+AF-Q7G228-F1      50 G-KKSELLLRSNPVHKKIPVLLHHGKPLAESLIIVEYIDEVWPASDGAPA     98
+                     | ..|:..:..||: :|:|.|......|:||..|:.|:...:    .||:
+AF-A0A1W2PR19     38 GHHHSKGYIDINPL-RKLPSLKDGKFILSESAAILYYLCRKY----SAPS     82
+
+AF-Q7G228-F1      99 -ILPRDPYCRA-VERFWA-QYIDDKFPRGTRVLRGTVAGEEPWLK--CPP    143
+                      ..|.||:.|| |:.|.| |:...:.|....|          |||  .|.
+AF-A0A1W2PR19     83 HWCPPDPHARARVDEFVAWQHTAFQLPMKKIV----------WLKLLIPK    122
+
+AF-Q7G228-F1     144 L-------------------------------------------------    144
+                     :                                                 
+AF-A0A1W2PR19    123 ITGEEVSAEKMEHAVEEVKNSLQLFEEYFLQDKMFITGNQISLADLVAVV    172
+
+AF-Q7G228-F1     144 --------------------------------------------------    144
+                                                                       
+AF-A0A1W2PR19    173 EMMQPMAANYNVFLNSSKLAEWRMQVELNIGSGLFREAHDRLMQLADWDF    222
+
+AF-Q7G228-F1     144 -------------------    144
+                                        
+AF-A0A1W2PR19    223 STLDSMVKENISELLKKSR    241
+
+
+#---------------------------------------
+#---------------------------------------

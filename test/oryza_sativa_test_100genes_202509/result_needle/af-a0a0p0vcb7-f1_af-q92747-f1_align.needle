@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:24
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q92747-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vcb7-f1_af-q92747-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vcb7-f1_af-q92747-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-Q92747-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 375
+# Identity:      47/375 (12.5%)
+# Similarity:    87/375 (23.2%)
+# Gaps:         202/375 (53.9%)
+# Score: 64.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q92747-F1       1 MSLHQFLLEPITCHAWNRDRTQIALSPNNHEVHIYKKNGSQWVKAHELKE     50
+
+AF-A0A0P0VCB7      1 ----VQSVAWSRQSPEVLLSGSFDKSVAMNDMKDG-------------GQ     33
+                         :..:.|:.:|..::..|: |::..:...|||             ..
+AF-Q92747-F1      51 HNGHITGIDWAPKSDRIVTCGA-DRNAYVWSQKDGVWKPTLVILRINRAA     99
+
+AF-A0A0P0VCB7     34 SCNKWS-----------------------------------VEADVESLA     48
+                     :..|||                                   :.:.|.||.
+AF-Q92747-F1     100 TFVKWSPLENKFAVGSGARLISVCYFESENDWWVSKHIKKPIRSTVLSLD    149
+
+AF-A0A0P0VCB7     49 WDPHN------EHSFMVSLENGMVQAFDKRTASSNSNSGRPTFTLHAHEK     92
+                     |.|:|      ...|...:.:..::..|::.||:...|..|...|.:...
+AF-Q92747-F1     150 WHPNNVLLAAGSCDFKCRVFSAYIKEVDEKPASTPWGSKMPFGQLMSEFG    199
+
+AF-A0A0P0VCB7     93 A------VSSISFSPSTPNFLATGSTDKMVKLWDLSNNQPSCIASLNPKL    136
+                     .      |..:|||.|... ||..|.|..|.:.|.|.:..  :::|..:.
+AF-Q92747-F1     200 GSGTGGWVHGVSFSASGSR-LAWVSHDSTVSVADASKSVQ--VSTLKTEF    246
+
+AF-A0A0P0VCB7    137 GAIFSVSFSNDSPFLLASG----------GSKGKLKVWNTLTEP------    170
+                     ..:.||||.:::. ::|:|          ..:|.|...:.|..|      
+AF-Q92747-F1     247 LPLLSVSFVSENS-VVAAGHDCCPMLFNYDDRGCLTFVSKLDIPKQSIQR    295
+
+AF-A0A0P0VCB7    171 --AVANKFGK----------------------------------------    178
+                       :...:|..                                        
+AF-Q92747-F1     296 NMSAMERFRNMDKRATTEDRNTALETLHQNSITQVSIYEVDKQDCRKFCT    345
+
+AF-A0A0P0VCB7    178 -------------------------    178
+                                              
+AF-Q92747-F1     346 TGIDGAMTIWDFKTLESSIQGLRIM    370
+
+
+#---------------------------------------
+#---------------------------------------

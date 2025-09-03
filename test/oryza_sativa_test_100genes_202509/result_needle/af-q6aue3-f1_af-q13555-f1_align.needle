@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:21
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q13555-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6aue3-f1_af-q13555-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6aue3-f1_af-q13555-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-Q13555-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 679
+# Identity:      76/679 (11.2%)
+# Similarity:   135/679 (19.9%)
+# Gaps:         421/679 (62.0%)
+# Score: 194.0
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1       1 MASSTSDIPEGREKLKRSGSLGSSDTAYVRADKIDLTSLDIQLEKQLTKT     50
+                                                                       
+AF-Q13555-F1       0 --------------------------------------------------      0
+
+AF-Q6AUE3-F1      51 WGKANLKAHGPKEDWEIDLAKLEIRYVIAQGTYGTVYRGTYD--------     92
+                                                  ..|..|..|.|.|        
+AF-Q13555-F1       1 -----------------------------MATTATCTRFTDDYQLFEELG     21
+
+AF-Q6AUE3-F1      93 ---------------GQDVAVKLLDWGEDGFATEAETAALRTSFKQEVAV    127
+                                    .|:.|.|:::       |:..:|......::|..:
+AF-Q13555-F1      22 KGAFSVVRRCVKKTSTQEYAAKIIN-------TKKLSARDHQKLEREARI     64
+
+AF-Q6AUE3-F1     128 WHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCVVVEYLA    177
+                     ...|.|||:            :::..:.|..|..        .:|.:.:.
+AF-Q13555-F1      65 CRLLKHPNI------------VRLHDSISEEGFH--------YLVFDLVT     94
+
+AF-Q6AUE3-F1     178 GGTL------KQYLIKNSRRKLAYKVVVQLALDLARGLSYLHSRKIVHRD    221
+                     ||.|      ::|..:.......::::        ..::::|...|||||
+AF-Q13555-F1      95 GGELFEDIVAREYYSEADASHCIHQIL--------ESVNHIHQHDIVHRD    136
+
+AF-Q6AUE3-F1     222 VKTENMLLDTQ---RNLKIADFGVARVEAQNPKD-MTGATGTLGYMAPEV    267
+                     :|.||:||.::   ..:|:||||:| :|.|..:. ..|..||.||::|||
+AF-Q13555-F1     137 LKPENLLLASKCKGAAVKLADFGLA-IEVQGEQQAWFGFAGTPGYLSPEV    185
+
+AF-Q6AUE3-F1     268 LDGKPYNRKCDVYSFGICLWEIYCCDMPYPDLSFADVSSAVVHQNLR---    314
+                     |...||.:..|:::.|:.|   |...:.||  .|.|.....::|.::   
+AF-Q13555-F1     186 LRKDPYGKPVDIWACGVIL---YILLVGYP--PFWDEDQHKLYQQIKAGA    230
+
+AF-Q6AUE3-F1     315 -----PDVPRCCPSAFANIMRKCWDANPDKRPDMDEVVQLLEALDTSKGG    359
+                          |:.....|.| .|::.:....||.||...|:.::.......|...
+AF-Q13555-F1     231 YDFPSPEWDTVTPEA-KNLINQMLTINPAKRITADQALKHPWVCQRSTVA    279
+
+AF-Q6AUE3-F1     360 GMIPDGQSSGCLCFTKARGP------------------------------    379
+                     .|:...::..||....||..                              
+AF-Q13555-F1     280 SMMHRQETVECLRKFNARRKLKGAILTTMLVSRNFSAAKSLLNKKSDGGV    329
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-Q13555-F1     330 KKRKSSSSVHLMPQSNNKNSLVSPAQEPAPLQTAMEPQTTVVHNATDGIK    379
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-Q13555-F1     380 GSTESCNTTTEDEDLKGRVPEGRSSRDRTAPSAGMQPQPSLCSSAMRKQE    429
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-Q13555-F1     430 IIKITEQLIEAINNGDFEAYTKICDPGLTSFEPEALGNLVEGMDFHKFYF    479
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-Q13555-F1     480 ENLLSKNSKPIHTTILNPHVHVIGEDAACIAYIRLTQYIDGQGRPRTSQS    529
+
+AF-Q6AUE3-F1     379 -----------------------------    379
+                                                  
+AF-Q13555-F1     530 EETRVWHRRDGKWLNVHYHCSGAPAAPLQ    558
+
+
+#---------------------------------------
+#---------------------------------------

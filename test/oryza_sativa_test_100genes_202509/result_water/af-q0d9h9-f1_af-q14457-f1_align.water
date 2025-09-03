@@ -1,0 +1,49 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:20
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0d9h9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q14457-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0d9h9-f1_af-q14457-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0d9h9-f1_af-q14457-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0D9H9-F1
+# 2: AF-Q14457-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 143
+# Identity:      35/143 (24.5%)
+# Similarity:    53/143 (37.1%)
+# Gaps:          40/143 (28.0%)
+# Score: 65.5
+# 
+#
+#=======================================
+
+AF-Q0D9H9-F1      50 DWEDLQQELARVWSLSAALATARERKALLAARLQSALEARKASVQQDNEL     99
+                     |.|.||.||..       ||...||   |...|:...:.||.       :
+AF-Q14457-F1     176 DSEQLQMELKE-------LALEEER---LIQELEDVEKNRKI-------V    208
+
+AF-Q0D9H9-F1     100 AEIRERVQARADFMWDLKMHTKKMTEDVDDRREELRIKIRTLSTTSNTLS    149
+                     ||..|:|||.|:         :...|:...:||....|            
+AF-Q14457-F1     209 AENLEKVQAEAE---------RLDQEEAQYQREYSEFK------------    237
+
+AF-Q0D9H9-F1     150 TARNKLKEADKLLSGENGLHVRLKTVERMLRTRQQYMTAQVAH    192
+                       |.:|:..|:|.|.||.:......::::.:|.....|..:.|
+AF-Q14457-F1     238 --RQQLELDDELKSVENQMRYAQTQLDKLKKTNVFNATFHIWH    278
+
+
+#---------------------------------------
+#---------------------------------------

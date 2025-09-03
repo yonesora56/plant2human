@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:44
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0e2d5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8ww62-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0e2d5-f1_af-q8ww62-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0e2d5-f1_af-q8ww62-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0E2D5-F1
+# 2: AF-Q8WW62-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 240
+# Identity:      48/240 (20.0%)
+# Similarity:    82/240 (34.2%)
+# Gaps:          76/240 (31.7%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+AF-Q0E2D5-F1     153 FRQGD----VVALPAGVAHWFYNDGDASVVAIYVYDINNSANQLEPRQKE    198
+                     ||..|    .:.:|.|....|:.....:....:.|:              
+AF-Q8WW62-F1      36 FRGADRYDFAIMIPPGGTECFWQFAHQTGYFYFSYE--------------     71
+
+AF-Q0E2D5-F1     199 FLLAGNNNRVQQVYGSSIEQHSSQNIFN--GFGTELLSEALG----INTV    242
+                              ||:..|.|.::|.:....|  ||   |:..:.|    ||..
+AF-Q8WW62-F1      72 ---------VQRTVGMSHDRHVAATAHNPQGF---LIDTSQGVRGQINFS    109
+
+AF-Q0E2D5-F1     243 AAKR------LQSQNDQRGEI-VHVKNGLQLLKPTLTQQQEQAQAQYQEV    285
+                     ..:.      |.:|::..|.: |::..|:....|....:|:         
+AF-Q8WW62-F1     110 TQETGFYQLCLSNQHNHFGSVQVYLNFGVFYEGPETDHKQK---------    150
+
+AF-Q0E2D5-F1     286 QYSEQQQTSSRWNGLEENFCTIKARVNIENPSRADSYNPRAGRISSVNSQ    335
+                        |::|.:...:.:|:.  |.|.:.||.:..|  .||       ....:
+AF-Q8WW62-F1     151 ---ERKQLNDTLDAIEDG--TQKVQNNIFHMWR--YYN-------FARMR    186
+
+AF-Q0E2D5-F1     336 KFPILNLIQMSATRVNLYQNAILSPFWNVNAHSLVYMIQG    375
+                     |.....|||.:...||          |...|.|||.::.|
+AF-Q8WW62-F1     187 KMADFFLIQSNYNYVN----------WWSTAQSLVIILSG    216
+
+
+#---------------------------------------
+#---------------------------------------

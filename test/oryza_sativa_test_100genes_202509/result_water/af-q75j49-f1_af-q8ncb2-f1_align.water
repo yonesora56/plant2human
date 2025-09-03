@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:40
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8ncb2-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-q8ncb2-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-q8ncb2-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-Q8NCB2-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:      58/253 (22.9%)
+# Similarity:   106/253 (41.9%)
+# Gaps:          65/253 (25.7%)
+# Score: 151.5
+# 
+#
+#=======================================
+
+AF-Q75J49-F1     117 LRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPA    166
+                     :|.:.|.|:.:...:.|||:.:.|...                    :..
+AF-Q8NCB2-F1      63 VRKAAKNEIGILKMVKHPNILQLVDVF--------------------VTR     92
+
+AF-Q75J49-F1     167 RACCVVVEYLAGGTLKQYLIKN---SRRKLAYKVVVQLALDLARGLSYLH    213
+                     :...:.:|...|..:..:::..   |.|..:.  ||:..|:   .::|||
+AF-Q8NCB2-F1      93 KEYFIFLELATGREVFDWILDQGYYSERDTSN--VVRQVLE---AVAYLH    137
+
+AF-Q75J49-F1     214 SRKIVHRDVKTENML-LDTQRNLK--IADFGVARVEAQNPKDMTGATGTL    260
+                     |.|||||::|.||:: .:..:|.|  |:||.:|::|....|:   ..||.
+AF-Q8NCB2-F1     138 SLKIVHRNLKLENLVYYNRLKNSKIVISDFHLAKLENGLIKE---PCGTP    184
+
+AF-Q75J49-F1     261 GYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMP-YPDLSFADVSSAVV    309
+                     .|:||||:..:.|.|..|.::.|:.::.:...:.| |.::...|..:   
+AF-Q8NCB2-F1     185 EYLAPEVVGRQRYGRPVDCWAIGVIMYILLSGNPPFYEEVEEDDYEN---    231
+
+AF-Q75J49-F1     310 HQNLRPDVPRCCPSAFANIMRKC-----------WDANPDKRPDMDEVVQ    348
+                     |..              |:.||.           ||.......|:  |.:
+AF-Q8NCB2-F1     232 HDK--------------NLFRKILAGDYEFDSPYWDDISQAAKDL--VTR    265
+
+AF-Q75J49-F1     349 LLE    351
+                     |:|
+AF-Q8NCB2-F1     266 LME    268
+
+
+#---------------------------------------
+#---------------------------------------

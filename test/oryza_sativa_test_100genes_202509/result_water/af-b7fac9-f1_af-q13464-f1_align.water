@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:08
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q13464-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q13464-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q13464-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q13464-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 229
+# Identity:      61/229 (26.6%)
+# Similarity:   105/229 (45.9%)
+# Gaps:          35/229 (15.3%)
+# Score: 184.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     600 ELKLITNNFQ--SIIGKGGFGTVYHGILENNDEV-AVKVLVETSIAESKD    646
+                     :|::...:::  .:||:|.||.|.....::..:| |:|:|.:..:.:..|
+AF-Q13464-F1      68 DLRMKAEDYEVVKVIGRGAFGEVQLVRHKSTRKVYAMKLLSKFEMIKRSD    117
+
+AF-B7FAC9-F1     647 ---FLPEVQTLSKVHHKNLVALVGYCQNKKCLALVYDFMPRGNLQQLLRG    693
+                        |..|...::..:...:|.|....|:.:.|.:|.::||.|:|..|: .
+AF-Q13464-F1     118 SAFFWEERDIMAFANSPWVVQLFYAFQDDRYLYMVMEYMPGGDLVNLM-S    166
+
+AF-B7FAC9-F1     694 GYDSLNWEERLH-----IALDAAQGLEYLHESCTPSIVHRDVKTPNILLD    738
+                     .||......|.:     :||||...:.:         :|||||..|:|||
+AF-Q13464-F1     167 NYDVPEKWARFYTAEVVLALDAIHSMGF---------IHRDVKPDNMLLD    207
+
+AF-B7FAC9-F1     739 KNLVAKISDFGLSRAFNAAHTHISTVAAGTLGYLDPE---------YHAT    779
+                     |:...|::|||.....|.........|.||..|:.||         |:..
+AF-Q13464-F1     208 KSGHLKLADFGTCMKMNKEGMVRCDTAVGTPDYISPEVLKSQGGDGYYGR    257
+
+AF-B7FAC9-F1     780 FQLTVKTDVYSFGIVLLEIVTGQPPVFMD    808
+                          :.|.:|.|:.|.|::.|..|.:.|
+AF-Q13464-F1     258 -----ECDWWSVGVFLYEMLVGDTPFYAD    281
+
+
+#---------------------------------------
+#---------------------------------------

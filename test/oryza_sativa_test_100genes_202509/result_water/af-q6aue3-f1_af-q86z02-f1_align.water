@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:51
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q86z02-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-q86z02-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-q86z02-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-Q86Z02-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 246
+# Identity:      60/246 (24.4%)
+# Similarity:   100/246 (40.7%)
+# Gaps:          52/246 (21.1%)
+# Score: 139.0
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      73 EIRYVIAQGTYGTVYRGTYDGQDVAVKLLDWGEDGFATEAETAALRTSFK    122
+                     |:...:.:||:|.|.:             .|              :.|.|
+AF-Q86Z02-F1     191 EVLEFLGRGTFGQVAK-------------CW--------------KRSTK    213
+
+AF-Q6AUE3-F1     123 QEVAVWHKLSHPNVTKFVGASMGTTDLKIPT--NNSNAGARTNLPARAC-    169
+                     :.||:....:||:.     |..|..::.|.:  ::.||.....:.:..| 
+AF-Q86Z02-F1     214 EIVAIKILKNHPSY-----ARQGQIEVSILSRLSSENADEYNFVRSYECF    258
+
+AF-Q6AUE3-F1     170 ------CVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQLALDLARGLSYLH    213
+                           |:|.|.|. ..|..:|.:|....|..|.:..:...:|..|..|.
+AF-Q86Z02-F1     259 QHKNHTCLVFEMLE-QNLYDFLKQNKFSPLPLKYIRPILQQVATALMKLK    307
+
+AF-Q6AUE3-F1     214 SRKIVHRDVKTEN-MLLDTQR---NLKIADFGVARVEAQNPKDMTGAT--    257
+                     |..::|.|:|.|| ||:|..|   .:|:.|||    .|.:......:|  
+AF-Q86Z02-F1     308 SLGLIHADLKPENIMLVDPVRQPYRVKVIDFG----SASHVSKAVCSTYL    353
+
+AF-Q6AUE3-F1     258 GTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMPYPDLSFAD    303
+                     .:..|.|||::.|.|:....|::|.|..:.|::.....||..|..|
+AF-Q86Z02-F1     354 QSRYYRAPEIILGLPFCEAIDMWSLGCVIAELFLGWPLYPGASEYD    399
+
+
+#---------------------------------------
+#---------------------------------------

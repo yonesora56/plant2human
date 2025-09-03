@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:23
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p53350-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q75j49-f1_af-p53350-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q75j49-f1_af-p53350-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-P53350-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 727
+# Identity:      80/727 (11.0%)
+# Similarity:   134/727 (18.4%)
+# Gaps:         472/727 (64.9%)
+# Score: 178.0
+# 
+#
+#=======================================
+
+AF-Q75J49-F1       1 MASSTSDIPEGREKLKRSGSLGSSDTAYVRADKIDLTSLDIQLEKQLTKT     50
+                                                                       
+AF-P53350-F1       0 --------------------------------------------------      0
+
+AF-Q75J49-F1      51 WGKANLKAHGPKEDWEIDLAKLEIRYVIAQGTYGTVYRGTYD--------     92
+                                               :.|..|.|.:.|...|        
+AF-P53350-F1       1 --------------------------MSAAVTAGKLARAPADPGKAGVPG     24
+
+AF-Q75J49-F1      93 ------------GQDVAVKLLD------------WGEDGFA-----TEAE    113
+                                 .:::...|:|            .|:.|||     ::|:
+AF-P53350-F1      25 VAAPGAPAAAPPAKEIPEVLVDPRSRRRYVRGRFLGKGGFAKCFEISDAD     74
+
+AF-Q75J49-F1     114 TAAL----------------RTSFKQEVAVWHKLSHPNVTKFVGASMGTT    147
+                     |..:                |.....|:::...|:|.:|..|.| .....
+AF-P53350-F1      75 TKEVFAGKIVPKSLLLKPHQREKMSMEISIHRSLAHQHVVGFHG-FFEDN    123
+
+AF-Q75J49-F1     148 DLKIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYKV    197
+                     |...                   ||:|.....:|   |..:.|||...:.
+AF-P53350-F1     124 DFVF-------------------VVLELCRRRSL---LELHKRRKALTEP    151
+
+AF-Q75J49-F1     198 VVQLAL-DLARGLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVA-RV    245
+                     ..:..| .:..|..|||..:::|||:|..|:.|:....:||.|||:| :|
+AF-P53350-F1     152 EARYYLRQIVLGCQYLHRNRVIHRDLKLGNLFLNEDLEVKIGDFGLATKV    201
+
+AF-Q75J49-F1     246 EAQNPKDMTGATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMP    295
+                     |....:..| ..||..|:|||||..|.::.:.||:|.|..::.:.....|
+AF-P53350-F1     202 EYDGERKKT-LCGTPNYIAPEVLSKKGHSFEVDVWSIGCIMYTLLVGKPP    250
+
+AF-Q75J49-F1     296 YPDLSFADVSSAVVHQNLR-----PDVPRCCPSAFANIMRKCWDANPDKR    340
+                     :.       :|.:....||     ..:|:......|::::|....:|..|
+AF-P53350-F1     251 FE-------TSCLKETYLRIKKNEYSIPKHINPVAASLIQKMLQTDPTAR    293
+
+AF-Q75J49-F1     341 PDMDEVVQLLEALDTSKGGGMIPDGQSSGCLCFTKARGP-----------    379
+                     |.::|::.     |.....|.||            ||.|           
+AF-P53350-F1     294 PTINELLN-----DEFFTSGYIP------------ARLPITCLTIPPRFS    326
+
+AF-Q75J49-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P53350-F1     327 IAPSSLDPSNRKPLTVLNKGLENPLPERPREKEEPVVRETGEVVDCHLSD    376
+
+AF-Q75J49-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P53350-F1     377 MLQQLHSVNASKPSERGLVRQEEAEDPACIPIFWVSKWVDYSDKYGLGYQ    426
+
+AF-Q75J49-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P53350-F1     427 LCDNSVGVLFNDSTRLILYNDGDSLQYIERDGTESYLTVSSHPNSLMKKI    476
+
+AF-Q75J49-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P53350-F1     477 TLLKYFRNYMSEHLLKAGANITPREGDELARLPYLRTWFRTRSAIILHLS    526
+
+AF-Q75J49-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P53350-F1     527 NGSVQINFFQDHTKLILCPLMAAVTYIDEKRDFRTYRLSLLEEYGCCKEL    576
+
+AF-Q75J49-F1     379 ---------------------------    379
+                                                
+AF-P53350-F1     577 ASRLRYARTMVDKLLSSRSASNRLKAS    603
+
+
+#---------------------------------------
+#---------------------------------------

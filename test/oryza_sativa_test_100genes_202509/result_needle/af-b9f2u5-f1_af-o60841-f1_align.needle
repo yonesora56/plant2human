@@ -1,0 +1,153 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:10
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-b9f2u5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o60841-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-b9f2u5-f1_af-o60841-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-b9f2u5-f1_af-o60841-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B9F2U5-F1
+# 2: AF-O60841-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1417
+# Identity:     136/1417 ( 9.6%)
+# Similarity:   244/1417 (17.2%)
+# Gaps:         934/1417 (65.9%)
+# Score: 156.0
+# 
+#
+#=======================================
+
+AF-B9F2U5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60841-F1       1 MGKKQKNKSEDSTKDDIDLDALAAEIEGAGAAKEQEPQKSKGKKKKEKKK     50
+
+AF-B9F2U5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60841-F1      51 QDFDEDDILKELEELSLEAQGIKADRETVAVKPTENNEEEFTSKDKKKKG    100
+
+AF-B9F2U5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60841-F1     101 QKGKKQSFDDNDSEELEDKDSKSKKTAKPKVEMYSGSDDDDDFNKLPKKA    150
+
+AF-B9F2U5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60841-F1     151 KGKAQKSNKKWDGSEEDEDNSKKIKERSRINSSGESGDESDEFLQSRKGQ    200
+
+AF-B9F2U5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60841-F1     201 KKNQKNKPGPNIESGNEDDDASFKIKTVAQKKAEKKERERKKRDEEKAKL    250
+
+AF-B9F2U5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60841-F1     251 RKLKEKEELETGKKDQSKQKESQRKFEEETVKSKVTVDTGVIPASEEKAE    300
+
+AF-B9F2U5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60841-F1     301 TPTAAEDDNEGDKKKKDKKKKKGEKEEKEKEKKKGPSKATVKAMQEALAK    350
+
+AF-B9F2U5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60841-F1     351 LKEEEERQKREEEERIKRLEELEAKRKEEERLEQEKRERKKQKEKERKER    400
+
+AF-B9F2U5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60841-F1     401 LKKEGKLLTKSQREARARAEATLKLLQAQGVEVPSKDSLPKKRPIYEDKK    450
+
+AF-B9F2U5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60841-F1     451 RKKIPQQLESKEVSESMELCAAVEVMEQGVPEKEETPPPVEPEEEEDTED    500
+
+AF-B9F2U5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60841-F1     501 AGLDDWEAMASDEETEKVEGNKVHIEVKENPEEEEEEEEEEEEDEESEEE    550
+
+AF-B9F2U5-F1       1 ----------------------------------MATATASRLAVPAPRT     16
+                                                       ...::.|.......||
+AF-O60841-F1     551 EEEEGESEGSEGDEEDEKVSDEKDSGKTLDKKPSKEMSSDSEYDSDDDRT    600
+
+AF-B9F2U5-F1      17 SPQAPGRRRPAAPLPSAPPRPRALSAAPRGRVVCPAAPASSPASTTDAGQ     66
+                     ..:                  ||...|.|                     
+AF-O60841-F1     601 KEE------------------RAYDKAKR---------------------    611
+
+AF-B9F2U5-F1      67 DRLQKVPVSNIRNFS----------IIAHIDHGKSTLADKLL-------E     99
+                      |::|..:.:.:|.:          ::.|:|.||:.:.|||.       |
+AF-O60841-F1     612 -RIEKRRLEHSKNVNTEKLRAPIICVLGHVDTGKTKILDKLRHTHVQDGE    660
+
+AF-B9F2U5-F1     100 LTGTVQK--------REMKQQ--FLDNMDLERER--GITIKLQAARMRYI    137
+                     ..|..|:        ..:.:|  .:.|.|.|..|  |:.|          
+AF-O60841-F1     661 AGGITQQIGATNVPLEAINEQTKMIKNFDRENVRIPGMLI----------    700
+
+AF-B9F2U5-F1     138 MNDEPYCLNLIDTPGHVDFSYEVSRSLAACEGALLVVDASQGVEAQTLAN    187
+                               ||||||..||...:|..:.|:.|:||||...|:|.||:.:
+AF-O60841-F1     701 ----------IDTPGHESFSNLRNRGSSLCDIAILVVDIMHGLEPQTIES    740
+
+AF-B9F2U5-F1     188 VYLALENDLEIIPVLNKID-------LPGAE------------PDRVAQE    218
+                     :.|........|..|||||       .|.::            .|...:.
+AF-O60841-F1     741 INLLKSKKCPFIVALNKIDRLYDWKKSPDSDVAATLKKQKKNTKDEFEER    790
+
+AF-B9F2U5-F1     219 IEEII------GMDCS------------NAIRCSAKEGIG-------ITE    243
+                     .:.||      |::.:            :.:..||..|.|       :.|
+AF-O60841-F1     791 AKAIIVEFAQQGLNAALFYENKDPRTFVSLVPTSAHTGDGMGSLIYLLVE    840
+
+AF-B9F2U5-F1     244 ILDAIVTKIPPPQNTAISPLRALIFDSYYDPYRGVIVYFRVVDGSIKKGD    293
+                     :...:::|    :......|||.:.:....|..|..:...:::|.:|:||
+AF-O60841-F1     841 LTQTMLSK----RLAHCEELRAQVMEVKALPGMGTTIDVILINGRLKEGD    886
+
+AF-B9F2U5-F1     294 KICFMASGKEYVADEIGVLSP---NQMQVSELYAGEVGYLSASIRSVADA    340
+                     .|.........|....|:|.|   .:::|...|...        :.|..|
+AF-O60841-F1     887 TIIVPGVEGPIVTQIRGLLLPPPMKELRVKNQYEKH--------KEVEAA    928
+
+AF-B9F2U5-F1     341 RVGDTITHSSKRAECALP---GYSQATPMVFCGLFPIDADQ-FEELREAL    386
+                     :....:....::....||   .|.:..       .|:..|: ..||::.|
+AF-O60841-F1     929 QGVKILGKDLEKTLAGLPLLVAYKEDE-------IPVLKDELIHELKQTL    971
+
+AF-B9F2U5-F1     387 EKLQLND----------AALKAVTRF------------------------    402
+                     ..::|.:          .:|:|:..|                        
+AF-O60841-F1     972 NAIKLEEKGVYVQASTLGSLEALLEFLKTSEVPYAGINIGPVHKKDVMKA   1021
+
+AF-B9F2U5-F1     403 --SMQFEPESSSAMGFGFRCGFLGLLHMEIVQERLEREYNLNLIITAPSV    450
+                       .::.:|:.:..:.|..|          |.::..|...:|.:.|.:..:
+AF-O60841-F1    1022 SVMLEHDPQYAVILAFDVR----------IERDAQEMADSLGVRIFSAEI   1061
+
+AF-B9F2U5-F1     451 VYHVNLADGETVECSNPSLLPEPGKRRSIEEPYV-----KIDMLTPKEYI    495
+                     :||  |.|..|      ....:..|::..|..::     ||.:|  .:||
+AF-O60841-F1    1062 IYH--LFDAFT------KYRQDYKKQKQEEFKHIAVFPCKIKIL--PQYI   1101
+
+AF-B9F2U5-F1     496 ---------GPIMELGQERRGEFKEMNFITENRASVVYELPLAEMVGDFF    536
+                              |..:|.||.::|                  .|:.....:|.
+AF-O60841-F1    1102 FNSRDPIVMGVTVEAGQVKQG------------------TPMCVPSKNFV   1133
+
+AF-B9F2U5-F1     537 DQLKSRSKGYASMEYSLIGYRESNLVKLDIQINGDPV-------------    573
+                     |             ..::...|.|..::|:...|..|             
+AF-O60841-F1    1134 D-------------IGIVTSIEINHKQVDVAKKGQEVCVKIEPIPGESPK   1170
+
+AF-B9F2U5-F1     574 ------EALSTIVHRDKAYSVGRALTQKLKELIPRQMFRVPIQACIGAK-    616
+                           ||...:|.:     :.|.....||:....:|.:...|..:..| 
+AF-O60841-F1    1171 MFGRHFEATDILVSK-----ISRQSIDALKDWFRDEMQKSDWQLIVELKK   1215
+
+AF-B9F2U5-F1     617 ---VIASEALSAIRKDVLSKCYGGDISRKKKLLKKQAEGKKRMKAIGRVD    663
+                        :|                                             
+AF-O60841-F1    1216 VFEII---------------------------------------------   1220
+
+AF-B9F2U5-F1     664 VPQEAFMAVLKLEKEVL    680
+                                      
+AF-O60841-F1    1220 -----------------   1220
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,157 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:45
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q9y4k4-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-b7fac9-f1_af-q9y4k4-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-b7fac9-f1_af-q9y4k4-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q9Y4K4-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1467
+# Identity:      97/1467 ( 6.6%)
+# Similarity:   160/1467 (10.9%)
+# Gaps:        1151/1467 (78.5%)
+# Score: 153.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1       1 MLKQKDLMVISYSCSAGTKLTWILSLLLILVAATQVHGVSPPGFLNVDCG     50
+                                                                       
+AF-Q9Y4K4-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1      51 LTNRSTYNDTDTTLTYVSDREFVESGKSYDIMAQYMADATNEQEKTLRSF    100
+                                                                       
+AF-Q9Y4K4-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     101 PDGQRNCYTLPTNSSKKYLIRATFTYGNYDGLNSSEKGSLFIFGLHIGVN    150
+                                                                       
+AF-Q9Y4K4-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     151 FWTTVNLTKWDPSSTVWKEVITVAPDKSVSVCLINMGSGTPFISTLDLRP    200
+                                                                       
+AF-Q9Y4K4-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     201 LQDTMYPFVNASTSVSYFSRIRFGSVDEYITRFPTDQYDRFWEGWVFTMH    250
+                                                                       
+AF-Q9Y4K4-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     251 TFPWVNKSSNGKVAELPNIDTFGLPPAILGSASTINGNFSWLNISVSASN    300
+                                                                       
+AF-Q9Y4K4-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     301 SLATDLELLPVFHFVELGNNGSKRIFDIYNVDEPQALFSNFSPPSFLSSM    350
+                                                                       
+AF-Q9Y4K4-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     351 FHNWFLRKGRRAYFQLRKTPDSQLPPLINAYEVYSRVQVENFTTASSDVD    400
+                                                                       
+AF-Q9Y4K4-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     401 SMKTIKEKYMVIKNWNGDPCSPREYIWNGLTCTYPNGGQNPRIVEINLSG    450
+                                                                       
+AF-Q9Y4K4-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     451 SGLQGELEISFMKMSSLKKLDLSHNNLTGTIPDYQVNSLTVIDLSNNQLN    500
+                                                                       
+AF-Q9Y4K4-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     501 GSIPDSILQRYKAGLLELRLEGNPICSKVRASYCGNKKNTRTRILLISVL    550
+                                                                       
+AF-Q9Y4K4-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     551 VPVTSLLVVLFIFWRLCWKGKSRKSEEEDYDMYEEETPLH--IDI-RRFT    597
+                                                       .|.||.  .|| ||..
+AF-Q9Y4K4-F1       1 ----------------------------------MEAPLRPAADILRRNP     16
+
+AF-B7FAC9-F1     598 YAELKLITNNFQSIIGKGGFGTVYHGILENNDEV-AVKVLVETSIAESKD    646
+                     ..:.:|:..     :|.|.:|.||.....:..|: |||::   .:....|
+AF-Q9Y4K4-F1      17 QQDYELVQR-----VGSGTYGDVYKARNVHTGELAAVKII---KLEPGDD     58
+
+AF-B7FAC9-F1     647 F---LPEVQTLSKVHHKNLVALVGYCQNKKCLALVYDFMPRGNLQQL--L    691
+                     |   ..|:..:.:..|.|:||..|...:::.|.:..::...|:||.:  :
+AF-Q9Y4K4-F1      59 FSLIQQEIFMVKECKHCNIVAYFGSYLSREKLWICMEYCGGGSLQDIYHV    108
+
+AF-B7FAC9-F1     692 RGGYDSLNWEERLHIALDAAQGLEYLHESCTPSIVHRDVKTPNILLDKNL    741
+                     .|....|   :..::..:..|||.|||   |...:|||:|..||||..:.
+AF-Q9Y4K4-F1     109 TGPLSEL---QIAYVCRETLQGLAYLH---TKGKMHRDIKGANILLTDHG    152
+
+AF-B7FAC9-F1     742 VAKISDFGLSRAFNAAHTHISTVA-----AGTLGYLDPEYHAT------F    780
+                     ..|::|||::....|      |:|     .||..::.||..|.      .
+AF-Q9Y4K4-F1     153 DVKLADFGVAAKITA------TIAKRKSFIGTPYWMAPEVAAVEKNGGYN    196
+
+AF-B7FAC9-F1     781 QLTVKTDVYSFGIVLLEIVTGQPPV----------------FMDPQTVHL    814
+                     ||   .|:::.||..:|:...|||:                |..|:....
+AF-Q9Y4K4-F1     197 QL---CDIWAVGITAIELGELQPPMFDLHPMRALFLMSKSNFQPPKLKDK    243
+
+AF-B7FAC9-F1     815 PNWVRQKIANGSVHDVVDKKLLDQYDATHLQTVIDLAMNCLENASIDRPS    864
+                     ..|      :.:.|:.|...|      |........|...|.:..:.:|.
+AF-Q9Y4K4-F1     244 TKW------SSTFHNFVKIAL------TKNPKKRPTAERLLTHTFVAQPG    281
+
+AF-B7FAC9-F1     865 MTEVVSVL---KVCLP-----------------------ISSERQSATS-    887
+                     ::..::|.   ||..|                       |.|..::|.: 
+AF-Q9Y4K4-F1     282 LSRALAVELLDKVNNPDNHAHYTEADDDDFEPHAIIRHTIRSTNRNARAE    331
+
+AF-B7FAC9-F1     888 --------------TPRKKNV---------MDAEIPRQFQLMISGAST--    912
+                                   .|.:|..         .|.....|:...:.||:|  
+AF-Q9Y4K4-F1     332 RTASEINFDKLQFEPPLRKETEARDEMGLSSDPNFMLQWNPFVDGANTGK    381
+
+AF-B7FAC9-F1     913 -----------------TSYEGSSFQSGYTGGVSEISHISGR--------    937
+                                      :||...:|..  ....|.|.|....        
+AF-Q9Y4K4-F1     382 STSKRAIPPPLPPKPRISSYPEDNFPD--EEKASTIKHCPDSESRAPQIL    429
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-Q9Y4K4-F1     430 RRQSSPSCGPVAETSSIGNGDGISKLMSENTEGSAQAPQLPRKKDKRDFP    479
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-Q9Y4K4-F1     480 KPAINGLPPTPKVLMGACFSKVFDGCPLKINCATSWIHPDTKDQYIIFGT    529
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-Q9Y4K4-F1     530 EDGIYTLNLNELHEATMEQLFPRKCTWLYVINNTLMSLSVGKTFQLYSHN    579
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-Q9Y4K4-F1     580 LIALFEHAKKPGLAAHIQTHRFPDRILPRKFALTTKIPDTKGCHKCCIVR    629
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-Q9Y4K4-F1     630 NPYTGHKYLCGALQSGIVLLQWYEPMQKFMLIKHFDFPLPSPLNVFEMLV    679
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-Q9Y4K4-F1     680 IPEQEYPMVCVAISKGTESNQVVQFETINLNSASSWFTEIGAGSQQLDSI    729
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-Q9Y4K4-F1     730 HVTQLERDTVLVCLDKFVKIVNLQGKLKSSKKLASELSFDFRIESVVCLQ    779
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-Q9Y4K4-F1     780 DSVLAFWKHGMQGKSFKSDEVTQEISDETRVFRLLGSDRVVVLESRPTEN    829
+
+AF-B7FAC9-F1     937 -----------------    937
+                                      
+AF-Q9Y4K4-F1     830 PTAHSNLYILAGHENSY    846
+
+
+#---------------------------------------
+#---------------------------------------

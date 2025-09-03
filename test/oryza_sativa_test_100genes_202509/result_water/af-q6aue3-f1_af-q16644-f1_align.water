@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:51
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q16644-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-q16644-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-q16644-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-Q16644-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 265
+# Identity:      65/265 (24.5%)
+# Similarity:   116/265 (43.8%)
+# Gaps:          52/265 (19.6%)
+# Score: 207.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      52 GKANLKAHGPKEDWEIDLAKLEIRYVIAQGTYGTV----YRGTYDGQDVA     97
+                     |:...|.:...:|:::.      :.|:..|..|.|    :|.|  ||..|
+AF-Q16644-F1      30 GRREPKKYAVTDDYQLS------KQVLGLGVNGKVLECFHRRT--GQKCA     71
+
+AF-Q6AUE3-F1      98 VKLLDWGEDGFATEAETAALRTSFKQEV-AVWHKLSHPNVTKFVGASMGT    146
+                     :|||        .::..|      :||| ..|.....|::...:..    
+AF-Q16644-F1      72 LKLL--------YDSPKA------RQEVDHHWQASGGPHIVCILDV----    103
+
+AF-Q6AUE3-F1     147 TDLKIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYK    196
+                           ..|.:.|.|..|      :::|.:.||.|...:.:...:....:
+AF-Q16644-F1     104 ------YENMHHGKRCLL------IIMECMEGGELFSRIQERGDQAFTER    141
+
+AF-Q6AUE3-F1     197 VVVQLALDLARGLSYLHSRKIVHRDVKTENMLLDTQRN---LKIADFGVA    243
+                     ...::..|:...:.:|||..|.|||||.||:|..::..   ||:.|||.|
+AF-Q16644-F1     142 EAAEIMRDIGTAIQFLHSHNIAHRDVKPENLLYTSKEKDAVLKLTDFGFA    191
+
+AF-Q6AUE3-F1     244 RVEAQNPKDMTGATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCD    293
+                     :...||.  :.....|..|:|||||..:.|::.||::|.|:.::.:.|..
+AF-Q16644-F1     192 KETTQNA--LQTPCYTPYYVAPEVLGPEKYDKSCDMWSLGVIMYILLCGF    239
+
+AF-Q6AUE3-F1     294 MPYPDLSFADVSSAV    308
+                     .|:    :::...|:
+AF-Q16644-F1     240 PPF----YSNTGQAI    250
+
+
+#---------------------------------------
+#---------------------------------------

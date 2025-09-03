@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:59
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q16584-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q16584-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q16584-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q16584-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 315
+# Identity:      89/315 (28.3%)
+# Similarity:   137/315 (43.5%)
+# Gaps:          59/315 (18.7%)
+# Score: 260.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     597 TYAELKLITNNFQSIIGKGGFGTVYHGILENNDEVAVKVLVE------TS    640
+                     ::.||:|     :.:||.||||.||.|.. ..:.||||...:      :.
+AF-Q16584-F1     113 SFQELRL-----EEVIGIGGFGKVYRGSW-RGELVAVKAARQDPDEDISV    156
+
+AF-B7FAC9-F1     641 IAESKDFLPEVQTLSKVHHKNLVALVGYCQNKKCLALVYDFMPRGNLQQL    690
+                     .|||  ...|.:..:.:.|.|::||...|..:..|.||.::...|.|.:.
+AF-Q16584-F1     157 TAES--VRQEARLFAMLAHPNIIALKAVCLEEPNLCLVMEYAAGGPLSRA    204
+
+AF-B7FAC9-F1     691 LRG----GYDSLNWEERLHIALDAAQGLEYLHESCTPSIVHRDVKTPNIL    736
+                     |.|    .:..:||      |:..|:|:.|||......::|||:|:.|||
+AF-Q16584-F1     205 LAGRRVPPHVLVNW------AVQIARGMHYLHCEALVPVIHRDLKSNNIL    248
+
+AF-B7FAC9-F1     737 L----------DKNLVAKISDFGLSRAFNAAHTHISTVAAGTLGYLDPEY    776
+                     |          .|.|  ||:||||:|.:   |......||||..::.||.
+AF-Q16584-F1     249 LLQPIESDDMEHKTL--KITDFGLAREW---HKTTQMSAAGTYAWMAPEV    293
+
+AF-B7FAC9-F1     777 HATFQLTVKTDVYSFGIVLLEIVTGQPPV-FMDPQTVHLPNWVRQKIANG    825
+                     ......:..:||:|||::|.|::||:.|. .:|...|             
+AF-Q16584-F1     294 IKASTFSKGSDVWSFGVLLWELLTGEVPYRGIDCLAV-------------    330
+
+AF-B7FAC9-F1     826 SVHDVVDKKLLDQYDATHLQTVIDLAMNCLENASIDRPSMTEVVSVLKVC    875
+                      .:.|...||.....:|..:....|..:|.......||....::..|:  
+AF-Q16584-F1     331 -AYGVAVNKLTLPIPSTCPEPFAQLMADCWAQDPHRRPDFASILQQLE--    377
+
+AF-B7FAC9-F1     876 LPISSERQSATSTPR    890
+                        :.|.|.....||
+AF-Q16584-F1     378 ---ALEAQVLREMPR    389
+
+
+#---------------------------------------
+#---------------------------------------

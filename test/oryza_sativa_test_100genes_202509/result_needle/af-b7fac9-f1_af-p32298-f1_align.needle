@@ -1,0 +1,125 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:42
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p32298-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-b7fac9-f1_af-p32298-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-b7fac9-f1_af-p32298-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-P32298-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1100
+# Identity:     127/1100 (11.5%)
+# Similarity:   200/1100 (18.2%)
+# Gaps:         685/1100 (62.3%)
+# Score: 166.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1       1 MLKQKDLMVISYSCSAGTKLTWILSLLLILVAATQVHGVSPPGFLNVDCG     50
+                                                                       
+AF-P32298-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1      51 LTNRSTYNDTDTTLTYVSDREFVESGKSYDIMAQYMADATNEQEKTLRSF    100
+                                                                       
+AF-P32298-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     101 PDGQRNCYTLPTNSSKKYLIRATFTYGNYDGLNSSEKGSLFIFGLHIGVN    150
+                                                                       
+AF-P32298-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     151 FWTTVNLTKWDPSSTVWKEVITVAPDKSVSVCLINMGSGTPFISTLDLRP    200
+                                                                       
+AF-P32298-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     201 LQDTMYPFVNASTSVSYFSRIRFGSVDEYITRFPTDQYDRFWEGWVFTMH    250
+                                                                       
+AF-P32298-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     251 TFPWVNKSSNGKVAELPNIDTFGLPPAILGSASTINGNFSWLNISVSASN    300
+                                                                       
+AF-P32298-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     301 SLATDLELLPVFHFVELGNNGSKRIFDIYNVDEPQALFSNFSPPSFLSSM    350
+                                                                       
+AF-P32298-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1     351 FHNWFLRKGRRAYFQLRKTPDSQLPPLINAYEVYSRVQVENFTTASSDVD    400
+                                                         :::||....|    
+AF-P32298-F1       1 ------------------------------------MELENIVANS----     10
+
+AF-B7FAC9-F1     401 SMKTIKEKYMVIKNWNG--DPCSPREYIWNGLTCTYPNGGQNPRIVEINL    448
+                              :::|...|  ...|.|...|..:....|....:.....|..
+AF-P32298-F1      11 ---------LLLKARQGGYGKKSGRSKKWKEILTLPPVSQCSELRHSIEK     51
+
+AF-B7FAC9-F1     449 SGSGLQGELEIS---FMKMSSLKKLDLSHNNLTGTIPDYQVN--------    487
+                     ..|.|..:..|.   |.:....|.....|......:.:|:|.        
+AF-P32298-F1      52 DYSSLCDKQPIGRRLFRQFCDTKPTLKRHIEFLDAVAEYEVADDEDRSDC    101
+
+AF-B7FAC9-F1     488 SLTVID-LSNNQLNG---SIPDSILQRYKAGLLELRLEGNPI------CS    527
+                     .|:::| ..|::|..   .||..::...:.||    .|.||.      |:
+AF-P32298-F1     102 GLSILDRFFNDKLAAPLPEIPPDVVTECRLGL----KEENPSKKAFEECT    147
+
+AF-B7FAC9-F1     528 KVRASYCGNKKNTRTRILLISVLVPVTSLLVVLFIFWRLCWKGKSRKSEE    577
+                     :|..:|.                                  :|       
+AF-P32298-F1     148 RVAHNYL----------------------------------RG-------    156
+
+AF-B7FAC9-F1     578 EDYDMYEEETPLHIDIRRFTYAELKLITNN---FQSIIGKGGFGTVYH-G    623
+                     |.::.|:|.: ......::.:.|.:.:|.|   ...::||||||.|.. .
+AF-P32298-F1     157 EPFEEYQESS-YFSQFLQWKWLERQPVTKNTFRHYRVLGKGGFGEVCACQ    205
+
+AF-B7FAC9-F1     624 ILENNDEVAVKVLVETSIAESKD---FLPEVQTLSKVHHKNLVALVGYCQ    670
+                     :.......|.|.|.:..|.:.|.   .|.|.:.|.||..:.:|:|....:
+AF-P32298-F1     206 VRATGKMYACKKLQKKRIKKRKGEAMALNEKRILEKVQSRFVVSLAYAYE    255
+
+AF-B7FAC9-F1     671 NKKCLALVYDFMPRGNLQ----QLLRGGYDSLNWEER-LHIALDAAQGLE    715
+                     .|..|.||...|..|:|:    .|...|:|    |:| :..|.:...|||
+AF-P32298-F1     256 TKDALCLVLTIMNGGDLKFHIYNLGNPGFD----EQRAVFYAAELCCGLE    301
+
+AF-B7FAC9-F1     716 YLHESCTPSIVHRDVKTPNILLDKNLVAKISDFGLSRAFNAAHTHISTVA    765
+                     .|...   .||:||:|..|||||.....:|||.||:............| 
+AF-P32298-F1     302 DLQRE---RIVYRDLKPENILLDDRGHIRISDLGLATEIPEGQRVRGRV-    347
+
+AF-B7FAC9-F1     766 AGTLGYLDPEYHATFQLTVKTDVYSFGIVLLEIVTGQPPVFMDPQTVHLP    815
+                      ||:||:.||.....:.|...|.:..|.::.|::.|..|.....:.|   
+AF-P32298-F1     348 -GTVGYMAPEVVNNEKYTFSPDWWGLGCLIYEMIQGHSPFKKYKEKV---    393
+
+AF-B7FAC9-F1     816 NW--VRQKIANGSVHDVVDKKLLDQYDATHLQTVIDLAMNCLENASIDRP    863
+                     .|  |.|:|.|.:          ::|.               |..|.|..
+AF-P32298-F1     394 KWEEVDQRIKNDT----------EEYS---------------EKFSEDAK    418
+
+AF-B7FAC9-F1     864 SMTEVVSVLKVCLPISSERQSATSTPRKKNVMDAEIPRQFQLMISGASTT    913
+                     |         :|      |...|..|.|:            |...|    
+AF-P32298-F1     419 S---------IC------RMLLTKNPSKR------------LGCRG----    437
+
+AF-B7FAC9-F1     914 SYEGSSFQSGYTGGVSE---ISHISGR-----------------------    937
+                       ||::       ||.:   ...|:.|                       
+AF-P32298-F1     438 --EGAA-------GVKQHPVFKDINFRRLEANMLEPPFCPDPHAVYCKDV    478
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-P32298-F1     479 LDIEQFSVVKGIYLDTADEDFYARFATGCVSIPWQNEMIESGCFKDINKS    528
+
+AF-B7FAC9-F1     937 --------------------------------------------------    937
+                                                                       
+AF-P32298-F1     529 ESEEALPLDLDKNIHTPVSRPNRGFFYRLFRRGGCLTMVPSEKEVEPKQC    578
+
+
+#---------------------------------------
+#---------------------------------------

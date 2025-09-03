@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:52
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o43187-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-o43187-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-o43187-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-O43187-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 329
+# Identity:      75/329 (22.8%)
+# Similarity:   120/329 (36.5%)
+# Gaps:          91/329 (27.7%)
+# Score: 168.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      78 IAQGTYGTVYRGTYDGQDVAVKLLDWGEDGFATEAETA-----ALRTSFK    122
+                     |:|||:..||||...|:....|.|          .|||     ::...|:
+AF-O43187-F1     216 ISQGTFADVYRGHRHGKPFVFKKL----------RETACSSPGSIERFFQ    255
+
+AF-Q6AUE3-F1     123 QEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCV-    171
+                     .|:.:..:..||||                           ||....|. 
+AF-O43187-F1     256 AELQICLRCCHPNV---------------------------LPVLGFCAA    278
+
+AF-Q6AUE3-F1     172 ------VVEYLAGGTLKQYLI-KNSRRKLAYKVVVQLALDLARGLSYLHS    214
+                           :..|:|.|:|:..|. :.....|.:...|.:...|...:.|||.
+AF-O43187-F1     279 RQFHSFIYPYMANGSLQDRLQGQGGSDPLPWPQRVSICSGLLCAVEYLHG    328
+
+AF-Q6AUE3-F1     215 RKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQNPKDMTGATGT-----    259
+                     .:|:|.:||:.|:|||.....|:| ..:|.:...|.:.......|     
+AF-O43187-F1     329 LEIIHSNVKSSNVLLDQNLTPKLA-HPMAHLCPVNKRSKYTMMKTHLLRT    377
+
+AF-Q6AUE3-F1     260 -LGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMPYPDLSFADVSSAV    308
+                      ..|:..:.:......::.|::|.||.|.|: ...:|..|   .:.|...
+AF-O43187-F1     378 SAAYLPEDFIRVGQLTKRVDIFSCGIVLAEV-LTGIPAMD---NNRSPVY    423
+
+AF-Q6AUE3-F1     309 VHQNLRPDVPRCCPS------AFANIMRKCWDANPDKRPDMDEVVQ-LLE    351
+                     :...|..|:|....|      ...|:|.|             |:.| .||
+AF-O43187-F1     424 LKDLLLSDIPSSTASLCSRKTGVENVMAK-------------EICQKYLE    460
+
+AF-Q6AUE3-F1     352 ALDTSKGGGMIPDG-----QSSGCLCFTK    375
+                          ||.|.:|:.     .::.|||..:
+AF-O43187-F1     461 -----KGAGRLPEDCAEALATAACLCLRR    484
+
+
+#---------------------------------------
+#---------------------------------------

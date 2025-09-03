@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:12
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o96013-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q75j49-f1_af-o96013-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q75j49-f1_af-o96013-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-O96013-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 670
+# Identity:      90/670 (13.4%)
+# Similarity:   157/670 (23.4%)
+# Gaps:         370/670 (55.2%)
+# Score: 178.0
+# 
+#
+#=======================================
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O96013-F1       1 MFGKRKKRVEISAPSNFEHRVHTGFDQHEQKFTGLPRQWQSLIEESARRP     50
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O96013-F1      51 KPLVDPACITSIQPGAPKTIVRGSKGAKDGALTLLLDEFENMSVTRSNSL    100
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O96013-F1     101 RRDSPPPPARARQENGMPEEPATTARGGPGKAGSRGRFAGHSEAGGGSGD    150
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O96013-F1     151 RRRAGPEKRPKSSREGSGGPQESSRDKRPLSGPDVGTPQPAGLASGAKLA    200
+
+AF-Q75J49-F1       1 ----------------------------------------MASSTSDIPE     10
+                                                             .:||:|..|.
+AF-O96013-F1     201 AGRPFNTYPRADTDHPSRGAQGEPHDVAPNGPSAGGLAIPQSSSSSSRPP    250
+
+AF-Q75J49-F1      11 GREKLKRS-GSLGSSDTAYVRADKIDLTSLDIQLEKQLTKTWGKANLKAH     59
+                     .|.:...| |.||..             :.:.||..........|.....
+AF-O96013-F1     251 TRARGAPSPGVLGPH-------------ASEPQLAPPACTPAAPAVPGPP    287
+
+AF-Q75J49-F1      60 GPKE--------DWEIDLAKLEI--------RYV-----IAQGTYGTVYR     88
+                     ||:.        ..|...|.|::        .|:     |.:|:.|.|..
+AF-O96013-F1     288 GPRSPQREPQRVSHEQFRAALQLVVDPGDPRSYLDNFIKIGEGSTGIVCI    337
+
+AF-Q75J49-F1      89 GTY--DGQDVAVKLLDWGEDGFATEAETAALRTSFKQ-----EVAVWHKL    131
+                     .|.  .|:.||||.:|              ||...::     ||.:....
+AF-O96013-F1     338 ATVRSSGKLVAVKKMD--------------LRKQQRRELLFNEVVIMRDY    373
+
+AF-Q75J49-F1     132 SHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCVVVEYLAGGTL    181
+                     .|.||.:...:.:...:|                    .||:|:|.||.|
+AF-O96013-F1     374 QHENVVEMYNSYLVGDEL--------------------WVVMEFLEGGAL    403
+
+AF-Q75J49-F1     182 KQYLIKNSRRKLAYKVVVQLALDLARGLSYLHSRKIVHRDVKTENMLLDT    231
+                     ...:   :..::..:.:..:.|.:.:.||.||::.::|||:|::::||..
+AF-O96013-F1     404 TDIV---THTRMNEEQIAAVCLAVLQALSVLHAQGVIHRDIKSDSILLTH    450
+
+AF-Q75J49-F1     232 QRNLKIADFG-VARVEAQNPKDMTGATGTLGYMAPEVLDGKPYNRKCDVY    280
+                     ...:|::||| .|:|..:.|: .....||..:||||::...||..:.|::
+AF-O96013-F1     451 DGRVKLSDFGFCAQVSKEVPR-RKSLVGTPYWMAPELISRLPYGPEVDIW    499
+
+AF-Q75J49-F1     281 SFGICLWEIYCCDMPY---PDLSFADVSSAVVHQNLRP---DVPRCCPSA    324
+                     |.||.:.|:...:.||   |.|.    :..::..||.|   ::.:..|| 
+AF-O96013-F1     500 SLGIMVIEMVDGEPPYFNEPPLK----AMKMIRDNLPPRLKNLHKVSPS-    544
+
+AF-Q75J49-F1     325 FANIMRKCWDANPDKRPDMDE---------------VVQLLEALDTSKGG    359
+                     ....:.:....:|.:|....|               :|.|:....|.   
+AF-O96013-F1     545 LKGFLDRLLVRDPAQRATAAELLKHPFLAKAGPPASIVPLMRQNRTR---    591
+
+AF-Q75J49-F1     360 GMIPDGQSSGCLCFTKARGP    379
+                                         
+AF-O96013-F1     591 --------------------    591
+
+
+#---------------------------------------
+#---------------------------------------

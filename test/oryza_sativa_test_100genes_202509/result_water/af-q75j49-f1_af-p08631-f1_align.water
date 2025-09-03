@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:23
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p08631-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-p08631-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-p08631-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-P08631-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 300
+# Identity:      85/300 (28.3%)
+# Similarity:   137/300 (45.7%)
+# Gaps:          39/300 (13.0%)
+# Score: 312.0
+# 
+#
+#=======================================
+
+AF-Q75J49-F1      62 KEDWEIDLAKLEIRYVIAQGTYGTVYRGTYDGQ-DVAVKLLDWGEDGFAT    110
+                     |:.|||....|::...:..|.:|.|:..||:.. .||||.:..|  ..:.
+AF-P08631-F1     252 KDAWEIPRESLKLEKKLGAGQFGEVWMATYNKHTKVAVKTMKPG--SMSV    299
+
+AF-Q75J49-F1     111 EAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGA    160
+                     ||        |..|..|...|.|..:.|     :.....|.|        
+AF-P08631-F1     300 EA--------FLAEANVMKTLQHDKLVK-----LHAVVTKEP--------    328
+
+AF-Q75J49-F1     161 RTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQLALDLARGLS    210
+                             ..::.|::|.|:|..:|..:...|.....::..:..:|.|::
+AF-P08631-F1     329 --------IYIITEFMAKGSLLDFLKSDEGSKQPLPKLIDFSAQIAEGMA    370
+
+AF-Q75J49-F1     211 YLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQNPKDMT---GAT    257
+                     ::..|..:|||::..|:|:......||||||:|||...|  :.|   ||.
+AF-P08631-F1     371 FIEQRNYIHRDLRAANILVSASLVCKIADFGLARVIEDN--EYTAREGAK    418
+
+AF-Q75J49-F1     258 GTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCD-MPYPDLSFADVSS    306
+                     ..:.:.|||.::...:..|.||:||||.|.||.... :|||.:|..:|..
+AF-P08631-F1     419 FPIKWTAPEAINFGSFTIKSDVWSFGILLMEIVTYGRIPYPGMSNPEVIR    468
+
+AF-Q75J49-F1     307 AVVHQNLRPDVPRCCPSAFANIMRKCWDANPDKRPDMDEVVQLLEALDTS    356
+                     | :.:..|...|..||....|||.:||...|::||..:.:..:|:...|:
+AF-P08631-F1     469 A-LERGYRMPRPENCPEELYNIMMRCWKNRPEERPTFEYIQSVLDDFYTA    517
+
+
+#---------------------------------------
+#---------------------------------------

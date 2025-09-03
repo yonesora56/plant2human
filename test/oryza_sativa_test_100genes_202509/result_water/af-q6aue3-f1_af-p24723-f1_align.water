@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:42
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p24723-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-p24723-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-p24723-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-P24723-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 331
+# Identity:      79/331 (23.9%)
+# Similarity:   130/331 (39.3%)
+# Gaps:          92/331 (27.8%)
+# Score: 200.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      48 TKTWGKANLKAHGPKEDWE-----------IDLAKLEIRYVIAQGTYGTV     86
+                     :|...::.|:..|.:...|           :.:...|...|:.:|::|.|
+AF-P24723-F1     320 SKLVSRSTLRRQGKESSKEGNGIGVNSSNRLGIDNFEFIRVLGKGSFGKV    369
+
+AF-Q6AUE3-F1      87 Y--RGTYDGQDVAVKLLD-----WGEDGFATEAETAALRTSFKQEVAVWH    129
+                     .  |....|...|||:|.     ..:|...|..|...|..:         
+AF-P24723-F1     370 MLARVKETGDLYAVKVLKKDVILQDDDVECTMTEKRILSLA---------    410
+
+AF-Q6AUE3-F1     130 KLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACC--------V    171
+                      .:||.:|:..                            ||        .
+AF-P24723-F1     411 -RNHPFLTQLF----------------------------CCFQTPDRLFF    431
+
+AF-Q6AUE3-F1     172 VVEYLAGGTLKQYLIKNSR----RKLAYKVVVQLALDLARGLSYLHSRKI    217
+                     |:|::.||.|..::.|:.|    |...|      |.::...|.:||.:.|
+AF-P24723-F1     432 VMEFVNGGDLMFHIQKSRRFDEARARFY------AAEIISALMFLHDKGI    475
+
+AF-Q6AUE3-F1     218 VHRDVKTENMLLDTQRNLKIADFGVARVEAQNPKDMTGAT--GTLGYMAP    265
+                     ::||:|.:|:|||.:.:.|:||||:.:....|  .:|.||  ||..|:||
+AF-P24723-F1     476 IYRDLKLDNVLLDHEGHCKLADFGMCKEGICN--GVTTATFCGTPDYIAP    523
+
+AF-Q6AUE3-F1     266 EVLDGKPYNRKCDVYSFGICLWEIYCCDMPY-----PDLSFADVSSAVVH    310
+                     |:|....|....|.::.|:.|:|:.|...|:     .||..|.::..||:
+AF-P24723-F1     524 EILQEMLYGPAVDWWAMGVLLYEMLCGHAPFEAENEDDLFEAILNDEVVY    573
+
+AF-Q6AUE3-F1     311 QN-LRPDVPRCCPSAFANIMRKCWDANPDKR    340
+                     .. |..|.        ..|::.....||..|
+AF-P24723-F1     574 PTWLHEDA--------TGILKSFMTKNPTMR    596
+
+
+#---------------------------------------
+#---------------------------------------

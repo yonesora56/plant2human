@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:01
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6zxk6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8n1v2-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6zxk6-f1_af-q8n1v2-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6zxk6-f1_af-q8n1v2-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6ZXK6-F1
+# 2: AF-Q8N1V2-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 235
+# Identity:      54/235 (23.0%)
+# Similarity:    70/235 (29.8%)
+# Gaps:          92/235 (39.1%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+AF-Q6ZXK6-F1      92 DQEH----------------KELNELYSFDTATNRWTLLSSGAGDGPPHR    125
+                     ||||                ||.|.|.......:...:..||        
+AF-Q8N1V2-F1      35 DQEHMIYPLGCTVLIQAINTKEQNFLQGHGNNVSCLAISRSG--------     76
+
+AF-Q6ZXK6-F1     126 SYHSMVADAAGGGKVYVFGGCGDAGRLNDLWAY---------DVAAGRWE    166
+                            :....|:|...|...|.    .||.|         .:..|:.|
+AF-Q8N1V2-F1      77 -------EYIASGQVTFMGFKADI----ILWDYKNRELLARLSLHKGKIE    115
+
+AF-Q6ZXK6-F1     167 ALP-SPGEA-CKPRGGP--GLAVAGGKVWVVYGFSGEELDDVHCYDPGTG    212
+                     ||. ||.:. ....|||  |..|    ||.:      ...|..|..|..|
+AF-Q8N1V2-F1     116 ALAFSPNDLYLVSLGGPDDGSVV----VWSI------AKRDAICGSPAAG    155
+
+AF-Q6ZXK6-F1     213 -----AWSTVET--------TGGGG-----GGDKPSPRSVF---CAAGIG    241
+                          |.:.:.:        |.|.|     ..|.|: |.::   |..|..
+AF-Q8N1V2-F1     156 LNVGNATNVIFSRCRDEMFMTAGNGTIRVWELDLPN-RKIWPTECQTGQL    204
+
+AF-Q6ZXK6-F1     242 KHVVVFGGEVDPSDLGHLGAGKFSAEAFALDTETG    276
+                     |.:|:..| ||..|           ..|.|.|.||
+AF-Q8N1V2-F1     205 KRIVMSIG-VDDDD-----------SFFYLGTTTG    227
+
+
+#---------------------------------------
+#---------------------------------------

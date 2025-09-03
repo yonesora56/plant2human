@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:18
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q8h3e5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9p2g3-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q8h3e5-f1_af-q9p2g3-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q8h3e5-f1_af-q9p2g3-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q8H3E5-F1
+# 2: AF-Q9P2G3-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 305
+# Identity:      60/305 (19.7%)
+# Similarity:   100/305 (32.8%)
+# Gaps:         123/305 (40.3%)
+# Score: 81.0
+# 
+#
+#=======================================
+
+AF-Q8H3E5-F1     233 DITFEVDGEVFPAHKVVLAARSPVFRAQLF----------------GPMK    266
+                     |:|....|:.|..||.|||:.|..||: ||                |..|
+AF-Q9P2G3-F1      34 DVTLTAQGQQFHCHKAVLASCSQYFRS-LFSSHPPLGGGVGGQDGLGAPK     82
+
+AF-Q8H3E5-F1     267 DKN------------------------------------MKRITIEDMEA    280
+                     |:.                                    :..:.::...:
+AF-Q9P2G3-F1      83 DQQQPPQQQPSQQQQPPPQEEPGTPSSSPDDKLLTSPRAINNLVLQGCSS    132
+
+AF-Q8H3E5-F1     281 SVFKALLHFMYWD----ELPDIEELTG----LNTTWVSTLMAQHL-----    317
+                     ...:.:|.::|..    .|..:||:..    |:...|:.|..|.|     
+AF-Q9P2G3-F1     133 IGLRLVLEYLYTANVTLSLDTVEEVLSVSKILHIPQVTKLCVQFLNDQIS    182
+
+AF-Q8H3E5-F1     318 ---------LAAADRYALERLKLLCELKLCEDVAINTVANTLALAE----    354
+                              :||.  :.||..|.|....|.|||.:.......||.:    
+AF-Q9P2G3-F1     183 VQNYKQVCKIAAL--HGLEETKKLANKYLVEDVLLLNFEEMRALLDSLPP    230
+
+AF-Q8H3E5-F1     355 ----QHHCYQLKTVC------------------LRFVALP-----ENLKA    377
+                         :...:|:..:.                  |||..:|     |.:::
+AF-Q9P2G3-F1     231 PVESELALFQMSVLWLEHDRETRMQYAPDLMKRLRFALIPAPELVERVQS    280
+
+AF-Q8H3E5-F1     378 V--MQTDGFDYLQQSCPSLLTELLEY-VAKVGEH---SVSPCLYSNE---    418
+                     |  |:||      ..|..||.:.:.| :....:|   |::..:.||:   
+AF-Q9P2G3-F1     281 VDFMRTD------PVCQKLLLDAMNYHLMPFRQHCRQSLASRIRSNKKML    324
+
+AF-Q8H3E5-F1     419 VLDGG    423
+                     :|.||
+AF-Q9P2G3-F1     325 LLVGG    329
+
+
+#---------------------------------------
+#---------------------------------------

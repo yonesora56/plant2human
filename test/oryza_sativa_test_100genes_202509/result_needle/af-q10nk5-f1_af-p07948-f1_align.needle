@@ -1,0 +1,101 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:41
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p07948-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10nk5-f1_af-p07948-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10nk5-f1_af-p07948-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-P07948-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 781
+# Identity:      34/781 ( 4.4%)
+# Similarity:    56/781 ( 7.2%)
+# Gaps:         656/781 (84.0%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       1 METLRKQASKLREHVAKQQQAVRKQFSARYNQDPSLVDEAELECHQNLQR     50
+                                                                       
+AF-P07948-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1      51 LYNSTRAAKHFQRSIVRGVEGFIAVSTKQMEIVKKLAEDCCRYGNDNQNF    100
+                                                                       
+AF-P07948-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     101 GFILARASVEFGNSHSQMEKERENLLKFLGEQVFEPLREMIMSAPLEDAR    150
+                                                                       
+AF-P07948-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     151 LLTYRYQRIRQDMESQIADVMRKQLKSKESSGNADNSVKLQHAESKLSEL    200
+                                                                       
+AF-P07948-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     201 RTTLSALGREATAAMEAVEVQQQQVTFDRLLAMVDAERAYHQNAADILNK    250
+                                                                       
+AF-P07948-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     251 LHDEM--VQAKHHDEPENHYDETSSDPKTAATHEHSRSTSEDHIFTNTSE    298
+                         |  :::|..|.    ..:...|.||.......|:     |:..  :
+AF-P07948-F1       1 ----MGCIKSKGKDS----LSDDGVDLKTQPVRNTERT-----IYVR--D     35
+
+AF-Q10NK5-F1     299 PTRTETSEPT---------RTETSEPTRNGQEVHYVGEVIHPFDAQADGE    339
+                     ||..:...|.         |.:|.:|...|..|    ..::|:|.....:
+AF-P07948-F1      36 PTSNKQQRPVPESQLLPGQRFQTKDPEEQGDIV----VALYPYDGIHPDD     81
+
+AF-Q10NK5-F1     340 LSISVGDYVVVRQVAPNGW-SEGECKGKAGWFPSAYVEQRD---------    379
+                     ||...|:.:.|.:.....| ::.....|.|:.||.||.:.:         
+AF-P07948-F1      82 LSFKKGEKMKVLEEHGEWWKAKSLLTKKEGFIPSNYVAKLNTLETEEWFF    131
+
+AF-Q10NK5-F1     380 KAPASKVIEPGLLTT-----------------------------------    394
+                     |....|..|..||..                                   
+AF-P07948-F1     132 KDITRKDAERQLLAPGNSAGAFLIRESETLKGSFSLSVRDFDPVHGDVIK    181
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P07948-F1     182 HYKIRSLDNGGYYISPRITFPCISDMIKHYQKQADGLCRRLEKACISPKP    231
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P07948-F1     232 QKPWDKDAWEIPRESIKLVKRLGAGQFGEVWMGYYNNSTKVAVKTLKPGT    281
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P07948-F1     282 MSVQAFLEEANLMKTLQHDKLVRLYAVVTREEPIYIITEYMAKGSLLDFL    331
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P07948-F1     332 KSDEGGKVLLPKLIDFSAQIAEGMAYIERKNYIHRDLRAANVLVSESLMC    381
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P07948-F1     382 KIADFGLARVIEDNEYTAREGAKFPIKWTAPEAINFGCFTIKSDVWSFGI    431
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P07948-F1     432 LLYEIVTYGKIPYPGRTNADVMTALSQGYRMPRVENCPDELYDIMKMCWK    481
+
+AF-Q10NK5-F1     394 -------------------------------    394
+                                                    
+AF-P07948-F1     482 EKAEERPTFDYLQSVLDDFYTATEGQYQQQP    512
+
+
+#---------------------------------------
+#---------------------------------------

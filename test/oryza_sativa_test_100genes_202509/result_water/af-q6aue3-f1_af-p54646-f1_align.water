@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:34
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p54646-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-p54646-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-p54646-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-P54646-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 302
+# Identity:      73/302 (24.2%)
+# Similarity:   130/302 (43.0%)
+# Gaps:          54/302 (17.9%)
+# Score: 257.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      58 AHGPKEDWEIDLAKLEIRYVIAQGTYGTVYRGTYD--GQDVAVKLLDWGE    105
+                     |...|.|..:.:....:...:..||:|.|..|.:.  |..||||:|:   
+AF-P54646-F1       2 AEKQKHDGRVKIGHYVLGDTLGVGTFGKVKIGEHQLTGHKVAVKILN---     48
+
+AF-Q6AUE3-F1     106 DGFATEAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNN    155
+                        ..:..:..:....|:|:.......||::.|........||.      
+AF-P54646-F1      49 ---RQKIRSLDVVGKIKREIQNLKLFRHPHIIKLYQVISTPTDF------     89
+
+AF-Q6AUE3-F1     156 SNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSR------RKLAYKVVV    199
+                                   .:|:||::||.|..|:.|:.|      |:|..::: 
+AF-P54646-F1      90 --------------FMVMEYVSGGELFDYICKHGRVEEMEARRLFQQIL-    124
+
+AF-Q6AUE3-F1     200 QLALDLARGLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQN    249
+                            ..:.|.|...:||||:|.||:|||...|.||||||::.:.:..
+AF-P54646-F1     125 -------SAVDYCHRHMVVHRDLKPENVLLDAHMNAKIADFGLSNMMSDG    167
+
+AF-Q6AUE3-F1     250 PKDMTGATGTLGYMAPEVLDGKPY-NRKCDVYSFGICLWEIYCCDMPYPD    298
+                      :.:..:.|:..|.||||:.|:.| ..:.|::|.|:.|:.:.|..:|:.|
+AF-P54646-F1     168 -EFLRTSCGSPNYAAPEVISGRLYAGPEVDIWSCGVILYALLCGTLPFDD    216
+
+AF-Q6AUE3-F1     299 ----LSFADVSSAVVHQNLRPDVPRCCPSAFANIMRKCWDANPDKRPDMD    344
+                         ..|..:...|.:      :|.....:.|.::......:|.||..:.
+AF-P54646-F1     217 EHVPTLFKKIRGGVFY------IPEYLNRSVATLLMHMLQVDPLKRATIK    260
+
+AF-Q6AUE3-F1     345 EV    346
+                     ::
+AF-P54646-F1     261 DI    262
+
+
+#---------------------------------------
+#---------------------------------------

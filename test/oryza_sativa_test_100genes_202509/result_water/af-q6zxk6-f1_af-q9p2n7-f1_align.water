@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:54
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6zxk6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9p2n7-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6zxk6-f1_af-q9p2n7-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6zxk6-f1_af-q9p2n7-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6ZXK6-F1
+# 2: AF-Q9P2N7-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 249
+# Identity:      60/249 (24.1%)
+# Similarity:   104/249 (41.8%)
+# Gaps:          48/249 (19.3%)
+# Score: 165.0
+# 
+#
+#=======================================
+
+AF-Q6ZXK6-F1      14 KGDGPGARS--SHAITLVGGTAYAFGGEFTPRVPVDNAMYAFDLKSQCWS     61
+                     :.|....||  :|.:||        ||....::.|...:..:|.|:..|.
+AF-Q9P2N7-F1     329 QSDRTAIRSDTTHLVTL--------GGVLRQQLVVSKELRMYDEKAHEWK    370
+
+AF-Q6ZXK6-F1      62 ALDASGDVPPPRVGVTMASVGATVYMFGGR---DQEHK-ELNELYSFDTA    107
+                     :| |..|.|..:.|:  |.:|..:|:.||:   |.:.| .::.::.||..
+AF-Q9P2N7-F1     371 SL-APMDAPRYQHGI--AVIGNFLYVVGGQSNYDTKGKTAVDTVFRFDPR    417
+
+AF-Q6ZXK6-F1     108 TNRWTLLSSGAGDGPPHRSYHSMVADAAGGGKVYVFGGCGDAGRLNDLWA    157
+                     .|:|..::|    ....|::..:   :|..|.:|..||...||.|..:..
+AF-Q9P2N7-F1     418 YNKWMQVAS----LNEKRTFFHL---SALKGYLYAVGGRNAAGELPTVEC    460
+
+AF-Q6ZXK6-F1     158 YDVAAGRWEALPSPGEACKPRGGPGLAVAGGKVWVVYGFSGEELD-DVHC    206
+                     |:.....|..:....|   |..|....|.||.:::..|.:.:... ::.|
+AF-Q9P2N7-F1     461 YNPRTNEWTYVAKMSE---PHYGHAGTVYGGVMYISGGITHDTFQKELMC    507
+
+AF-Q6ZXK6-F1     207 YDPGTGAW------STVETTGGGGGGDKPSPRSVFCAAGIGKHVVVFGG    249
+                     :||.|..|      :||              |.:.|...:|:.:.|.||
+AF-Q9P2N7-F1     508 FDPDTDKWIQKAPMTTV--------------RGLHCMCTVGERLYVIGG    542
+
+
+#---------------------------------------
+#---------------------------------------

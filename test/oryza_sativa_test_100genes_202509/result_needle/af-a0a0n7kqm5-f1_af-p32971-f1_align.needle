@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:42
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0n7kqm5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p32971-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0n7kqm5-f1_af-p32971-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0n7kqm5-f1_af-p32971-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0N7KQM5-F1
+# 2: AF-P32971-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 343
+# Identity:      37/343 (10.8%)
+# Similarity:    63/343 (18.4%)
+# Gaps:         221/343 (64.4%)
+# Score: 17.5
+# 
+#
+#=======================================
+
+AF-A0A0N7KQM5      1 ----------------------------------------MALLVLVAVL     10
+                                                             :....|...|
+AF-P32971-F1       1 MDPGLQQALNGMAPPGDTAMHVPAGSVASHLGTTSRSYFYLTTATLALCL     50
+
+AF-A0A0N7KQM5     11 VFEAAVRADGQTGFLSIDCGLEADDSYPDDLTGITYVPDGHYTDAGE-NH     59
+                     ||..|      |..:.:   ::..||.|:.       ||......|. :.
+AF-P32971-F1      51 VFTVA------TIMVLV---VQRTDSIPNS-------PDNVPLKGGNCSE     84
+
+AF-A0A0N7KQM5     60 KVTTV-----YRNAW---------------WGPDRTLYTVR--------S     81
+                     .:..:     ::.:|               |..|..|:.||        .
+AF-P32971-F1      85 DLLCILKRAPFKKSWAYLQVAKHLNKTKLSWNKDGILHGVRYQDGNLVIQ    134
+
+AF-A0A0N7KQM5     82 FPSAEGQRNCYSL----------PN---DVRSKYLV--------------    104
+                     ||      ..|.:          ||   |::.:.|:              
+AF-P32971-F1     135 FP------GLYFIICQLQFLVQCPNNSVDLKLELLINKHIKKQALVTVCE    178
+
+AF-A0A0N7KQM5    105 ---RLKFLYGNYDGLDSSSLKFNLTLGV-----KHWDT--------VSID    138
+                        :.|.:|.|........|:.|.|:.|     ::.||        :||.
+AF-P32971-F1     179 SGMQTKHVYQNLSQFLLDYLQVNTTISVNVDTFQYIDTSTFPLENVLSIF    228
+
+AF-A0A0N7KQM5    139 TTDGNDGYNVHEAVFVAWASWAPVCLINIGQGTPFMSMVELRPLGILPYP    188
+                     ....:|                                            
+AF-P32971-F1     229 LYSNSD--------------------------------------------    234
+
+AF-A0A0N7KQM5    189 AVMGNVSLSLYVRSNVGSSPDDDKLVRYICSEFPWILYILQLS    231
+                                                                
+AF-P32971-F1     234 -------------------------------------------    234
+
+
+#---------------------------------------
+#---------------------------------------

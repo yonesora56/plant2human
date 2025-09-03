@@ -1,0 +1,89 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:01
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q7xsq8-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p22680-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q7xsq8-f1_af-p22680-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q7xsq8-f1_af-p22680-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7XSQ8-F1
+# 2: AF-P22680-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 641
+# Identity:     111/641 (17.3%)
+# Similarity:   192/641 (30.0%)
+# Gaps:         233/641 (36.3%)
+# Score: 87.0
+# 
+#
+#=======================================
+
+AF-Q7XSQ8-F1       1 --MEAGTWAVVVAAVAAYMAWFWRMSRGLSGPRVWPVV------------     36
+                       ..:..|.:.:||...                :|.::            
+AF-P22680-F1       1 MMTTSLIWGIAIAACCC----------------LWLILGIRRRQTGEPPL     34
+
+AF-Q7XSQ8-F1      37 --GSLPGL---VRHAEDMHEWIAANLRRTRGTYQTCIFAVPGLARRGGLV     81
+                       |.:|.|   ::...:..|::.|| :|..|...||       ...|..|
+AF-P22680-F1      35 ENGLIPYLGCALQFGANPLEFLRAN-QRKHGHVFTC-------KLMGKYV     76
+
+AF-Q7XSQ8-F1      82 TVTCDPRNLEHVL---------KSRFDNYPKGPFWHGVFGDLLGDGIFNS    122
+                     ....:|.:...||         |..|....|. |.|.....:.|:...|.
+AF-P22680-F1      77 HFITNPLSYHKVLCHGKYFDWKKFHFATSAKA-FGHRSIDPMDGNTTENI    125
+
+AF-Q7XSQ8-F1     123 DGETWVAQRKTAALEFTTRTLRTAMSR--------------WVSRSIHSR    158
+                     : :|::...:..||...|.::...:.|              ||:..::|.
+AF-P22680-F1     126 N-DTFIKTLQGHALNSLTESMMENLQRIMRPPVSSNSKTAAWVTEGMYSF    174
+
+AF-Q7XSQ8-F1     159 LLPILSDAAAAGGGGGGATVDLQDLLLRLT--------FDNICGLAFGKD    200
+                     ...::.:|       |..|:..:||..|.|        .||.  ..|.|.
+AF-P22680-F1     175 CYRVMFEA-------GYLTIFGRDLTRRDTQKAHILNNLDNF--KQFDKV    215
+
+AF-Q7XSQ8-F1     201 PETLARGLPENDFASAFDRATEATLNRFIFPECVWRFKKWMGLGMETTLA    250
+                     ...|..|||.:.|.:|.:...:                          ||
+AF-P22680-F1     216 FPALVAGLPIHMFRTAHNAREK--------------------------LA    239
+
+AF-Q7XSQ8-F1     251 RSVQHVD----RYLSAVIKARKLELAAGNGKGDASSATPHDDLLSRFMRK    296
+                     .|::|.:    ..:|.:|..|..                .:|.||     
+AF-P22680-F1     240 ESLRHENLQKRESISELISLRMF----------------LNDTLS-----    268
+
+AF-Q7XSQ8-F1     297 GTYSDESLQHVALNFILAGRDTSSVALSWFFWLVSTHPAVERKIVRELCT    346
+                      |:.|.......|..:.|.:..:..|..|..:.:..:|...:....|:..
+AF-P22680-F1     269 -TFDDLEKAKTHLVVLWASQANTIPATFWSLFQMIRNPEAMKAATEEVKR    317
+
+AF-Q7XSQ8-F1     347 VLAASRGADDPALWLAAP--LNFEELDQLVYLKAALSETLRLYPS-----    389
+                     .|   ..|.........|  |:..||:.|..|.:.:.|:|||..:     
+AF-P22680-F1     318 TL---ENAGQKVSLEGNPICLSQAELNDLPVLDSIIKESLRLSSASLNIR    364
+
+AF-Q7XSQ8-F1     390 ---------VPEDSKHVVADDVLPDGTFVPAGSSVTYSIYSAGRMKTVWG    430
+                              :.:.|.::..||::   ...|....:...||          
+AF-P22680-F1     365 TAKEDFTLHLEDGSYNIRKDDII---ALYPQLMHLDPEIY----------    401
+
+AF-Q7XSQ8-F1     431 DDCLEFRPERWLSADG---TKFEPHD---SFRFVAFNAGPRICLGK----    470
+                     .|.|.|:.:|:|..:|   |.|..:.   .:.::.|.:|..||.|:    
+AF-P22680-F1     402 PDPLTFKYDRYLDENGKTKTTFYCNGLKLKYYYMPFGSGATICPGRLFAI    451
+
+AF-Q7XSQ8-F1     471 ---------DLAYLQMRNIAGSVLL------RHRLAVAPG-HRVEQKMSL    504
+                              .|:|.::..|.|....      |..|.:.|. :.:|.|.. 
+AF-P22680-F1     452 HEIKQFLILMLSYFELELIEGQAKCPPLDQSRAGLGILPPLNDIEFKYK-    500
+
+AF-Q7XSQ8-F1     505 TLFMKHGLRMEVRPRDLAPIVDELRGAGEYAAAARATAACA    545
+                        .||.                                  
+AF-P22680-F1     501 ---FKHL----------------------------------    504
+
+
+#---------------------------------------
+#---------------------------------------

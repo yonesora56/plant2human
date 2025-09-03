@@ -1,0 +1,49 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:15
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q8h3e5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q96m94-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q8h3e5-f1_af-q96m94-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q8h3e5-f1_af-q96m94-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q8H3E5-F1
+# 2: AF-Q96M94-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      35/145 (24.1%)
+# Similarity:    65/145 (44.8%)
+# Gaps:          29/145 (20.0%)
+# Score: 125.0
+# 
+#
+#=======================================
+
+AF-Q8H3E5-F1     216 SNMSQHIGQLLTDGKRTDITFEVDGEVFPAHKVVLAARSPVFRAQLFGPM    265
+                     :::|.....|..:|...|:|..::...|.|||.:||.:|..||......|
+AF-Q96M94-F1      15 TSVSAGFRALYEEGLLLDVTLVIEDHQFQAHKALLATQSDYFRIMFTADM     64
+
+AF-Q8H3E5-F1     266 KDKNMKRITIEDMEASVFKALLHFMYWDELPDIEELTGLNTTWVSTLMAQ    315
+                     ::::..:|.::.:.|:.|..:|.|||:..:    ||: :||.        
+AF-Q96M94-F1      65 RERDQDKIHLKGLTATGFSHVLQFMYYGTI----ELS-MNTV--------    101
+
+AF-Q8H3E5-F1     316 HLLAAADRYA--LERLKLLCE--------------LKLCEDVAIN    344
+                     |.:..|..|.  :|.:|..|.              ::|.:|..:|
+AF-Q96M94-F1     102 HEILQAAMYVQLIEVVKFCCSFLLAKICLENCAEIMRLLDDFGVN    146
+
+
+#---------------------------------------
+#---------------------------------------

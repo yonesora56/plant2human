@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:30
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q13216-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0vcb7-f1_af-q13216-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0vcb7-f1_af-q13216-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-Q13216-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 199
+# Identity:      47/199 (23.6%)
+# Similarity:    83/199 (41.7%)
+# Gaps:          35/199 (17.6%)
+# Score: 145.0
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7      1 VQSVAWSRQSPEVLLSGSFDKSVAMNDMKDGGQSCNKWSVE----ADVES     46
+                     |::|.|......:..|.||||::.:            |...    |||.:
+AF-Q13216-F1     102 VETVQWYPHDTGMFTSSSFDKTLKV------------WDTNTLQTADVFN    139
+
+AF-A0A0P0VCB7     47 LAWDPHNEHSFMVSLENGMVQAFDK--RTASSNSNSGRPTFTLHAHEKAV     94
+                     .....::.|...||.::.:|....:  :....:..||..:..|..|.:.:
+AF-Q13216-F1     140 FEETVYSHHMSPVSTKHCLVAVGTRGPKVQLCDLKSGSCSHILQGHRQEI    189
+
+AF-A0A0P0VCB7     95 SSISFSPSTPNFLATGSTDKMVKLWDLSNNQPSCIASL---NPKL-----    136
+                     .::|:||.....|||.|.|..|||||: .....|:.:|   |.|.     
+AF-Q13216-F1     190 LAVSWSPRYDYILATASADSRVKLWDV-RRASGCLITLDQHNGKKSQAVE    238
+
+AF-A0A0P0VCB7    137 -------GAIFSVSFSNDSPFLLASGGSKGKLKVWNTLTEPAVANKFGK    178
+                            |.:..:.|::|...|| :.|:..::::||:.........:||
+AF-Q13216-F1     239 SANTAHNGKVNGLCFTSDGLHLL-TVGTDNRMRLWNSSNGENTLVNYGK    286
+
+
+#---------------------------------------
+#---------------------------------------

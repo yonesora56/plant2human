@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:02
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0j381-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8wvz9-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0j381-f1_af-q8wvz9-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0j381-f1_af-q8wvz9-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0J381-F1
+# 2: AF-Q8WVZ9-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 270
+# Identity:      52/270 (19.3%)
+# Similarity:    88/270 (32.6%)
+# Gaps:          82/270 (30.4%)
+# Score: 108.5
+# 
+#
+#=======================================
+
+AF-Q0J381-F1       8 WVKLEQKGDGPGAR----------------------------SSHAITLV     29
+                     |::...|..||.|.                            ..:.:.::
+AF-Q8WVZ9-F1     246 WLEAAAKERGPSAAEVFKCVRWMHFTEEDQDYLEGLLTKPIVKKYCLDVI    295
+
+AF-Q0J381-F1      30 GGTAYAFGGE--FTPRVPVDNAMYAFDLKSQCWSALDASGDVPPPRVGVT     77
+                     .|......|:  :...|||.|:    ...|...::|.::.:.||.|:|: 
+AF-Q8WVZ9-F1     296 EGALQMRYGDLLYKSLVPVPNS----SSSSSSSNSLVSAAENPPQRLGM-    340
+
+AF-Q0J381-F1      78 MASVGATVYMFGGRDQEHKELNELYSFDTAT---------NRWTLLSSGA    118
+                        ....:.:|.|..::.....:.||.|..|         :..|:.||..
+AF-Q8WVZ9-F1     341 ---CAKEMVIFFGHPRDPFLCYDPYSGDIYTMPSPLTSFAHTKTVTSSAV    387
+
+AF-Q0J381-F1     119 GDGPPHRSYHSMVADAAGGGKVYVFGGCGDAGRLNDLWAYDVAAGRWEAL    168
+                     ...|.|..|.:                   |....|||.|..|...|:.|
+AF-Q8WVZ9-F1     388 CVSPDHDIYLA-------------------AQPRKDLWVYKPAQNSWQQL    418
+
+AF-Q0J381-F1     169 PSPGEACKPRGGPGLAVAGGKVWVVYG---FSGEELDDVHCYDPGTGAWS    215
+                        .:....|.|..:|...|.::::.|   .:|.:|.:|.||......|:
+AF-Q8WVZ9-F1     419 ---ADRLLCREGMDVAYLNGYIYILGGRDPITGVKLKEVECYSVQRNQWA    465
+
+AF-Q0J381-F1     216 TVETTGGGGGGDKPSPRSVF    235
+                     .|          .|.|.|.:
+AF-Q8WVZ9-F1     466 LV----------APVPHSFY    475
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,105 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:43
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p12931-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10nk5-f1_af-p12931-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10nk5-f1_af-p12931-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-P12931-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 807
+# Identity:      31/807 ( 3.8%)
+# Similarity:    58/807 ( 7.2%)
+# Gaps:         684/807 (84.8%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       1 METLRKQASKLREHVAKQQQAVRKQFSARYNQDPSLVDEAELECHQNLQR     50
+                                                                       
+AF-P12931-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1      51 LYNSTRAAKHFQRSIVRGVEGFIAVSTKQMEIVKKLAEDCCRYGNDNQNF    100
+                                                                       
+AF-P12931-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     101 GFILARASVEFGNSHSQMEKERENLLKFLGEQVFEPLREMIMSAPLEDAR    150
+                                                                       
+AF-P12931-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     151 LLTYRYQRIRQDMESQIADVMRKQLKSKESSGNADNSVKLQHAESKLSEL    200
+                                                                       
+AF-P12931-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     201 RTTLSALGREATAAMEAVEVQQQQVTFDRLLAMVDAERAYHQNAADILNK    250
+                                                                       
+AF-P12931-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     251 LHDEMVQAKHHDEPENHYDETSSDPKTAATHEHSRSTSED-H-----IFT    294
+                                      .....|.||.|:....|...:|: |     .|.
+AF-P12931-F1       1 -----------------MGSNKSKPKDASQRRRSLEPAENVHGAGGGAFP     33
+
+AF-Q10NK5-F1     295 NTSEPTRTETSE----------PTRTE------------TSEPTRNGQEV    322
+                     .:..|::..:::          |...|            .:.|.|.|.  
+AF-P12931-F1      34 ASQTPSKPASADGHRGPSAAFAPAAAEPKLFGGFNSSDTVTSPQRAGP--     81
+
+AF-Q10NK5-F1     323 HYVGEV-----IHPFDAQADGELSISVGDYV-VVRQVAPNGW-SEGECKG    365
+                      ..|.|     ::.::::.:.:||...|:.: :|.....:.| :.....|
+AF-P12931-F1      82 -LAGGVTTFVALYDYESRTETDLSFKKGERLQIVNNTEGDWWLAHSLSTG    130
+
+AF-Q10NK5-F1     366 KAGWFPSAYVEQRDKAPASKVIEPGLLTT---------------------    394
+                     :.|:.||.||...|...|.:... |.:|.                     
+AF-P12931-F1     131 QTGYIPSNYVAPSDSIQAEEWYF-GKITRRESERLLLNAENPRGTFLVRE    179
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P12931-F1     180 SETTKGAYCLSVSDFDNAKGLNVKHYKIRKLDSGGFYITSRTQFNSLQQL    229
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P12931-F1     230 VAYYSKHADGLCHRLTTVCPTSKPQTQGLAKDAWEIPRESLRLEVKLGQG    279
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P12931-F1     280 CFGEVWMGTWNGTTRVAIKTLKPGTMSPEAFLQEAQVMKKLRHEKLVQLY    329
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P12931-F1     330 AVVSEEPIYIVTEYMSKGSLLDFLKGETGKYLRLPQLVDMAAQIASGMAY    379
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P12931-F1     380 VERMNYVHRDLRAANILVGENLVCKVADFGLARLIEDNEYTARQGAKFPI    429
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P12931-F1     430 KWTAPEAALYGRFTIKSDVWSFGILLTELTTKGRVPYPGMVNREVLDQVE    479
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P12931-F1     480 RGYRMPCPPECPESLHDLMCQCWRKEPEERPTFEYLQAFLEDYFTSTEPQ    529
+
+AF-Q10NK5-F1     394 -------    394
+                            
+AF-P12931-F1     530 YQPGENL    536
+
+
+#---------------------------------------
+#---------------------------------------

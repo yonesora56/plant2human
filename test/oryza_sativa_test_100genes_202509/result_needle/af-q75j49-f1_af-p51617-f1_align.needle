@@ -1,0 +1,101 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:22
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p51617-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q75j49-f1_af-p51617-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q75j49-f1_af-p51617-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-P51617-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 780
+# Identity:      95/780 (12.2%)
+# Similarity:   144/780 (18.5%)
+# Gaps:         469/780 (60.1%)
+# Score: 203.0
+# 
+#
+#=======================================
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P51617-F1       1 MAGGPGPGEPAAPGAQHFLYEVPPWVMCRFYKVMDALEPADWCQFAALIV     50
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P51617-F1      51 RDQTELRLCERSGQRTASVLWPWINRNARVADLVHILTHLQLLRARDIIT    100
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P51617-F1     101 AWHPPAPLPSPGTTAPRPSSIPAPAEAEAWSPRKLPSSASTFLSPAFPGS    150
+
+AF-Q75J49-F1       1 ------------------------MASSTSDIPEGREKLKRSGSLGSSDT     26
+                                             ..|||...||....|           
+AF-P51617-F1     151 QTHSGPELGLVPSPASLWPPPPSPAPSSTKPGPESSVSL-----------    189
+
+AF-Q75J49-F1      27 AYVRADKIDLTSLDIQLEKQLTKTWGKANLK--AHGPKEDWEIDLAKLEI     74
+                                   :|..:.....|....:.  .|...|:.:        
+AF-P51617-F1     190 --------------LQGARPFPFCWPLCEISRGTHNFSEELK--------    217
+
+AF-Q75J49-F1      75 RYVIAQGTYGTVYRGTYDGQDVAVKLLDWGEDGFATEAETAALRTSFKQE    124
+                        |.:|.:|.|||........|||.|....|     .|..|::.||..|
+AF-P51617-F1     218 ---IGEGGFGCVYRAVMRNTVYAVKRLKENAD-----LEWTAVKQSFLTE    259
+
+AF-Q75J49-F1     125 VAVWHKLSHPNVTKFVG--ASMGTTDLKIPTNNSNAGARTNLPARACCVV    172
+                     |....:..|||:..|.|  |..|                      ..|:|
+AF-P51617-F1     260 VEQLSRFRHPNIVDFAGYCAQNG----------------------FYCLV    287
+
+AF-Q75J49-F1     173 VEYLAGGTLKQYLIKNSRR--KLAYKVVVQLALDLARGLSYLH--SRKIV    218
+                     ..:|..|:|:..|...::.  .|::...:.:.|..||.:.:||  |..::
+AF-P51617-F1     288 YGFLPNGSLEDRLHCQTQACPPLSWPQRLDILLGTARAIQFLHQDSPSLI    337
+
+AF-Q75J49-F1     219 HRDVKTENMLLDTQRNLKIADFGVARV-----EAQNPKDMTGAT----GT    259
+                     |.|:|:.|:|||.:...|:.|||:||.     .:.:...|...|    ||
+AF-P51617-F1     338 HGDIKSSNVLLDERLTPKLGDFGLARFSRFAGSSPSQSSMVARTQTVRGT    387
+
+AF-Q75J49-F1     260 LGYMAPEVLDGKPYNRKCDVYSFGICLWEI---------------YCCDM    294
+                     |.|:..|.:.........|.:|||:.:.|.               |..|:
+AF-P51617-F1     388 LAYLPEEYIKTGRLAVDTDTFSFGVVVLETLAGQRAVKTHGARTKYLKDL    437
+
+AF-Q75J49-F1     295 PYPDLSFADV----SSAVVHQNLRPDV-----------------PRCCPS    323
+                     ...:...|.|    :.:.:...|..|.                 |..||.
+AF-P51617-F1     438 VEEEAEEAGVALRSTQSTLQAGLAADAWAAPIAMQIYKKHLDPRPGPCPP    487
+
+AF-Q75J49-F1     324 ----AFANIMRKCWDANPDKRPDMDEVVQLLEALDTSKGGGMIPDGQSSG    369
+                         ....:...|......:||.|.:|.:.||.|.....|  :| |.|..
+AF-P51617-F1     488 ELGLGLGQLACCCLHRRAKRRPPMTQVYERLEKLQAVVAG--VP-GHSEA    534
+
+AF-Q75J49-F1     370 CLCFTKARGP----------------------------------------    379
+                     ..|...:  |                                        
+AF-P51617-F1     535 ASCIPPS--PQENSYVSSTGRAHSGAAPWQPLAAPSGASAQAAEQLQRGP    582
+
+AF-Q75J49-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P51617-F1     583 NQPVESDESLGGLSAALRSWHLTPSCPLDPAPLREAGCPQGDTAGESSWG    632
+
+AF-Q75J49-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P51617-F1     633 SGPGSRPTAVEGLALGSSASSSSEPPQIIINPARQKMVQKLALYEDGALD    682
+
+AF-Q75J49-F1     379 ------------------------------    379
+                                                   
+AF-P51617-F1     683 SLQLLSSSSLPGLGLEQDRQGPEESDEFQS    712
+
+
+#---------------------------------------
+#---------------------------------------

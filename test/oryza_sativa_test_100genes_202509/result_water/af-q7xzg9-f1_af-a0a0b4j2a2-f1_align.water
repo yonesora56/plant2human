@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:23
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q7xzg9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-a0a0b4j2a2-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q7xzg9-f1_af-a0a0b4j2a2-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q7xzg9-f1_af-a0a0b4j2a2-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7XZG9-F1
+# 2: AF-A0A0B4J2A2-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 170
+# Identity:      91/170 (53.5%)
+# Similarity:   114/170 (67.1%)
+# Gaps:          11/170 ( 6.5%)
+# Score: 443.5
+# 
+#
+#=======================================
+
+AF-Q7XZG9-F1      36 NPVVFFDVTIGSIPAGRIKMELFADIVPKTAENFRQFCTGEHRKSGLPQG     85
+                     |.|||||:|:...|.|||.::||||.:||||||||...|||       :|
+AF-A0A0B4J2A2      3 NSVVFFDITVDGKPLGRISIKLFADKIPKTAENFRALSTGE-------KG     45
+
+AF-Q7XZG9-F1      86 --YKGCQFHRVIKDFMIQGGDYMKGDGTGCTSIYGTKFDDENFIAKHTGP    133
+                       |||..|||:|..||.||||:.:.:|||..||||.||||||.|.||||.
+AF-A0A0B4J2A2     46 FRYKGSCFHRIIPGFMCQGGDFTRPNGTGDKSIYGEKFDDENLIRKHTGS     95
+
+AF-Q7XZG9-F1     134 GLLSMANSGVNSNGSQFFITCAKCEWLDNKHVVFGRVLGDGMLAVRKIEN    183
+                     |:|||||:|.|:|||||||..||.||||.|||.||:| .:.:..|..:|:
+AF-A0A0B4J2A2     96 GILSMANAGPNTNGSQFFICTAKTEWLDGKHVAFGKV-KERVNIVEAMEH    144
+
+AF-Q7XZG9-F1     184 VATGPNNRPKLACVISECGE    203
+                     ... .|::......|::||:
+AF-A0A0B4J2A2    145 FGY-RNSKTSKKITIADCGQ    163
+
+
+#---------------------------------------
+#---------------------------------------

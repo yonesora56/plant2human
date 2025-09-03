@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:33
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o60508-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0vcb7-f1_af-o60508-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0vcb7-f1_af-o60508-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-O60508-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 210
+# Identity:      44/210 (21.0%)
+# Similarity:    75/210 (35.7%)
+# Gaps:          74/210 (35.2%)
+# Score: 95.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7     15 LSGSFDKSVAMNDMKDGG----------QSCNKWSVEADVESLAWDPHNE     54
+                     ||.::|:.:.:.|.:.|.          ..|.|::.:.|.::|       
+AF-O60508-F1     348 LSAAYDRYLKLWDTETGQCISRFTNRKVPYCVKFNPDEDKQNL-------    390
+
+AF-A0A0P0VCB7     55 HSFMVSLENGMVQAFDKRTASSNSNSGRPTFTLHAHEKAVSSISFSPSTP    104
+                       |:..:.       ||:....:..||........|..||::|.|.....
+AF-O60508-F1     391 --FVAGMS-------DKKIVQWDIRSGEIVQEYDRHLGAVNTIVFVDENR    431
+
+AF-A0A0P0VCB7    105 NFLATGSTDKMVKLWDLS-------------NNQPSCIASLNPK------    135
+                     .|::| |.||.:::|:..             ::.|:...|.|.|      
+AF-O60508-F1     432 RFVST-SDDKSLRVWEWDIPVDFKYIAEPSMHSMPAVTLSPNGKWLACQS    480
+
+AF-A0A0P0VCB7    136 -------LGA----------IF----------SVSFSNDSPFLLASGGSK    158
+                            .||          ||          .|.||.|..::: ||...
+AF-O60508-F1     481 MDNQILIFGAQNRFRLNKKKIFKGHMVAGYACQVDFSPDMSYVI-SGDGN    529
+
+AF-A0A0P0VCB7    159 GKLKVWNTLT    168
+                     |||.:|:..|
+AF-O60508-F1     530 GKLNIWDWKT    539
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:41
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0xrx9-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p24903-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0xrx9-f1_af-p24903-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0xrx9-f1_af-p24903-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0XRX9-F1
+# 2: AF-P24903-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 541
+# Identity:     132/541 (24.4%)
+# Similarity:   214/541 (39.6%)
+# Gaps:          84/541 (15.5%)
+# Score: 317.5
+# 
+#
+#=======================================
+
+AF-A0A0P0XRX9      1 MASFLPWLPWLLAALLSVYLLDLLAHSRRLLPPGPRPLPLIGSLHLLGDQ     50
+                     |.|....:..||.||:.: ||.|.:..:..||||||||.::|:|.||..|
+AF-P24903-F1       1 MDSISTAILLLLLALVCL-LLTLSSRDKGKLPPGPRPLSILGNLLLLCSQ     49
+
+AF-A0A0P0XRX9     51 PH-RSLAGLAKMYGPLMSLRLGAVTTVVVSSPDVAREFLQRHNAAFASRS     99
+                     .. .||..|:|.||.:.::.||....||:|.....:|.|......|:.| 
+AF-P24903-F1      50 DMLTSLTKLSKEYGSMYTVHLGPRRVVVLSGYQAVKEALVDQGEEFSGR-     98
+
+AF-A0A0P0XRX9    100 VPDATGDHAT-------NSVAWLPNSPRWRALRRIMAAELFAPHRLDALR    142
+                          ||:..       |.:|: .:..||:.||:.         .:..||
+AF-P24903-F1      99 -----GDYPAFFNFTKGNGIAF-SSGDRWKVLRQF---------SIQILR    133
+
+AF-A0A0P0XRX9    143 R--LRREKVQELVDH-----VARLAEREGGAAAVDVGRVAFATSLNLLSS    185
+                     .  :.:..::|.:..     :|.|.:.||  ...|...|...:..|::.|
+AF-P24903-F1     134 NFGMGKRSIEERILEEGSFLLAELRKTEG--EPFDPTFVLSRSVSNIICS    181
+
+AF-A0A0P0XRX9    186 TIFSRNLTSLDDHGESMEFKEVVVEIMEAGGCP--NVSDFFPAIAAAD-L    232
+                     .:|.... ..||. ..:....::.:..:....|  .:.|.||::  .| :
+AF-P24903-F1     182 VLFGSRF-DYDDE-RLLTIIRLINDNFQIMSSPWGELYDIFPSL--LDWV    227
+
+AF-A0A0P0XRX9    233 QGWRRRMAGLFARLHRVFDAVVEERLSERDAGEARKGDFLDVLLDVAARD    282
+                     .|..:|:...|..|..:....|.:..:..|....|  ||:...|...|.:
+AF-P24903-F1     228 PGPHQRIFQNFKCLRDLIAHSVHDHQASLDPRSPR--DFIQCFLTKMAEE    275
+
+AF-A0A0P0XRX9    283 NDS--AGLDRDTLRSLFTDLFAAGSDTSPSIVEWAIAELMRNPLWFLHQC    330
+                     .:.  :....|||.....:|...|:.|..:.:..|...||:.|. ...:.
+AF-P24903-F1     276 KEDPLSHFHMDTLLMTTHNLLFGGTKTVSTTLHHAFLALMKYPK-VQARV    324
+
+AF-A0A0P0XRX9    331 CDELSQVIGSGTNIEESDIGQLPYLQAVVKETFRLHPPVPLLLPRQAETT    380
+                     .:|:..|:|........|...:||..||:.|..|....:|:.||.:....
+AF-P24903-F1     325 QEEIDLVVGRARLPALKDRAAMPYTDAVIHEVQRFADIIPMNLPHRVTRD    374
+
+AF-A0A0P0XRX9    381 TNIAGYTIPKGARVFVNVWAIGRHKDTWSQPEKFMPERFFERNIDFRGVH    430
+                     |...|:.||||..|...:..:......:..|::|.||.|.:.|..|:...
+AF-P24903-F1     375 TAFRGFLIPKGTDVITLLNTVHYDPSQFLTPQEFNPEHFLDANQSFKKSP    424
+
+AF-A0A0P0XRX9    431 FELIPFGAGRRICPRMPLANRMVHLVLGSLLNQFK---WNLPVDIERNGI    477
+                      ..:||.||||:|....||...:.|.|.::|..|.   ...|.||:    
+AF-P24903-F1     425 -AFMPFSAGRRLCLGESLARMELFLYLTAILQSFSLQPLGAPEDID----    469
+
+AF-A0A0P0XRX9    478 DMSEKFGLTLVKAIPLCALVTPISVESGDH-----------    507
+                                        :||:|...|:.           
+AF-P24903-F1     470 -------------------LTPLSSGLGNLPRPFQLCLRPR    491
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:13
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q8h3e5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o95198-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q8h3e5-f1_af-o95198-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q8h3e5-f1_af-o95198-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q8H3E5-F1
+# 2: AF-O95198-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 260
+# Identity:      62/260 (23.8%)
+# Similarity:   103/260 (39.6%)
+# Gaps:          62/260 (23.8%)
+# Score: 148.0
+# 
+#
+#=======================================
+
+AF-Q8H3E5-F1     186 KDDCLLVNCTVGVVQSHTEGPKIYTIPVPPSNMSQHIGQLLTDGKRTDIT    235
+                     |||....:|.|.|...|.:  |.:.:          :.:|.:.....|:|
+AF-O95198-F1      22 KDDNTEKHCPVTVNPWHMK--KAFKV----------MNELRSQNLLCDVT     59
+
+AF-Q8H3E5-F1     236 FEVDGEVFPAHKVVLAARSPVFRAQLFGPMKDKNMKRITIEDMEASVFKA    285
+                     ...:.....||:|||||.||.|.|...|.|.:...||:.|::::....:.
+AF-O95198-F1      60 IVAEDMEISAHRVVLAACSPYFHAMFTGEMSESRAKRVRIKEVDGWTLRM    109
+
+AF-Q8H3E5-F1     286 LLHFMYWDELPDIEELTGLNTTWVSTLMAQHLLAAADRYALERLKLLCEL    335
+                     |:.::|..|:...||            ..|.||.||....|:.:|..|  
+AF-O95198-F1     110 LIDYVYTAEIQVTEE------------NVQVLLPAAGLLQLQDVKKTC--    145
+
+AF-Q8H3E5-F1     336 KLCE--DVAINTVANTL---ALAEQHHCYQLKTVCLRFVALPENLKAVMQ    380
+                       ||  :..::.| |.|   |.|:.|.|..|......:.  .::...|:.
+AF-O95198-F1     146 --CEFLESQLHPV-NCLGIRAFADMHACTDLLNKANTYA--EQHFADVVL    190
+
+AF-Q8H3E5-F1     381 TDGFDYL--QQSCPSLLTELL------------------------EYVAK    404
+                     ::.|..|  :|.|..:.::.|                        |::|:
+AF-O95198-F1     191 SEEFLNLGIEQVCSLISSDKLTISSEEKVFEAVIAWVNHDKDVRQEFMAR    240
+
+AF-Q8H3E5-F1     405 VGEHSVSPCL    414
+                     :.||...|.|
+AF-O95198-F1     241 LMEHVRLPLL    250
+
+
+#---------------------------------------
+#---------------------------------------

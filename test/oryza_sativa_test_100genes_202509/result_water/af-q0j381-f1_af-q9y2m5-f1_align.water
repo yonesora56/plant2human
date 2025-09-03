@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:59
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0j381-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9y2m5-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0j381-f1_af-q9y2m5-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0j381-f1_af-q9y2m5-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0J381-F1
+# 2: AF-Q9Y2M5-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 212
+# Identity:      58/212 (27.4%)
+# Similarity:    87/212 (41.0%)
+# Gaps:          24/212 (11.3%)
+# Score: 183.0
+# 
+#
+#=======================================
+
+AF-Q0J381-F1      21 RSSHAITLVGGTAYAFGGEFTPRVPVDNAMYAFDLKSQCWSALDASGDVP     70
+                     |:|..:.::||..||.||:  ..|...|.:..:|.|...|:.:   ..:.
+AF-Q9Y2M5-F1     403 RTSVGVAVLGGFLYAVGGQ--DGVSCLNIVERYDPKENKWTRV---ASMS    447
+
+AF-Q0J381-F1      71 PPRVGVTMASVGATVYMFGGRDQEHKELNELYSFDTATNRWTLLSSGAGD    120
+                     ..|:||.:|.:|..:|..||.|.. ..||.:..::...|||..::     
+AF-Q9Y2M5-F1     448 TRRLGVAVAVLGGFLYAVGGSDGT-SPLNTVERYNPQENRWHTIA-----    491
+
+AF-Q0J381-F1     121 GPPHRSYHSMVADAAGGGKVYVFGGCGDAGRLNDLWAYDVAAGRWEALPS    170
+                       |..:....:..|.....:|..||..|...|:....|:....:|    |
+AF-Q9Y2M5-F1     492 --PMGTRRKHLGCAVYQDMIYAVGGRDDTTELSSAERYNPRTNQW----S    535
+
+AF-Q0J381-F1     171 PGEA-CKPRGGPGLAVAGGKVWVVYGFSGEE-LDDVHCYDPGTGAW----    214
+                     |..| ...|.|.||||..|::..|.||.|.. |..:..:||....|    
+AF-Q9Y2M5-F1     536 PVVAMTSRRSGVGLAVVNGQLMAVGGFDGTTYLKTIEVFDPDANTWRLYG    585
+
+AF-Q0J381-F1     215 -STVETTGGGGG    225
+                      ......|||.|
+AF-Q9Y2M5-F1     586 GMNYRRLGGGVG    597
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,109 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:53
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0x9t2-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p49756-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0x9t2-f1_af-p49756-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0x9t2-f1_af-p49756-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0X9T2-F1
+# 2: AF-P49756-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 860
+# Identity:      57/860 ( 6.6%)
+# Similarity:    94/860 (10.9%)
+# Gaps:         628/860 (73.0%)
+# Score: 86.0
+# 
+#
+#=======================================
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P49756-F1       1 MSFPPHLNRPPMGIPALPPGIPPPQFPGFPPPVPPGTPMIPVPMSIMAPA     50
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P49756-F1      51 PTVLVPTVSMVGKHLGARKDHPGLKAKENDENCGPTTTVFVGNISEKASD    100
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P49756-F1     101 MLIRQLLAKCGLVLSWKRVQGASGKLQAFGFCEYKEPESTLRALRLLHDL    150
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P49756-F1     151 QIGEKKLLVKVDAKTKAQLDEWKAKKKASNGNARPETVTNDDEEALDEET    200
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P49756-F1     201 KRRDQMIKGAIEVLIREYSSELNAPSQESDSHPRKKKKEKKEDIFRRFPV    250
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P49756-F1     251 APLIPYPLITKEDINAIEMEEDKRDLISREISKFRDTHKKLEEEKGKKEK    300
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P49756-F1     301 ERQEIEKERRERERERERERERREREREREREREREKEKERERERERDRD    350
+
+AF-A0A0P0X9T2      1 ------------------------------MAGSSESDYYSEEEEELGWE     20
+                                                   .:.|.|.....|.|.|...|
+AF-P49756-F1     351 RDRTKERDRDRDRERDRDRDRERSSDRNKDRSRSREKSRDRERERERERE    400
+
+AF-A0A0P0X9T2     21 EDGLGSEGEEEDAEAARERALKRLDGLGKRGVCYLSRVPPNMNPSHVRQM     70
+                     .:.......|.:.|..|||..:|.....|:    ..|.....:....|::
+AF-P49756-F1     401 REREREREREREREREREREREREREKDKK----RDREEDEEDAYERRKL    446
+
+AF-A0A0P0X9T2     71 LSKYGEVQRIYLVPEGQGHRKHTNVRAKAYTEGWIEFSKKS---------    111
+                     ..|..|.:..|     |...|:..:|.:..|.   |:.|::         
+AF-P49756-F1     447 ERKLREKEAAY-----QERLKNWEIRERKKTR---EYEKEAEREEERRRE    488
+
+AF-A0A0P0X9T2    112 ---VAKRVANLLNGEQIGGKKRSPFYYDIWNIKYLKKFKWDDLVGEIAEK    158
+                        .|||:...|  |.....:..|.||.  .....|:.:..:...|..|:
+AF-P49756-F1     489 MAKEAKRLKEFL--EDYDDDRDDPKYYR--GSALQKRLRDREKEMEADER    534
+
+AF-A0A0P0X9T2    159 THIREQKLNLEIAAAKKQRDHYLSNVEKSRTLKHIQERRKKKQKTEGAEF    208
+                     ...||::...||........|...:.|..| ::...|||::.|..:..|.
+AF-P49756-F1     535 DRKREKEELEEIRQRLLAEGHPDPDAELQR-MEQEAERRRQPQIKQEPES    583
+
+AF-A0A0P0X9T2    209 NEVREEKIARPIPQKKPVEETDAKTKPKLPKDILAGVFGGP---------    249
+                     .|..|||..:...:::|:||.:...:....|..|..:...|         
+AF-P49756-F1     584 EEEEEEKQEKEEKREEPMEEEEEPEQKPCLKPTLRPISSAPSVSSASGNA    633
+
+AF-A0A0P0X9T2    249 --------------------------------------------------    249
+                                                                       
+AF-P49756-F1     634 TPNTPGDESPCGIIIPHENSPDQQQPEEHRPKIGLSLKLGASNSPGQPNS    683
+
+AF-A0A0P0X9T2    249 --------------------------------------------------    249
+                                                                       
+AF-P49756-F1     684 VKRKKLPVDSVFNKFEDEDSDDVPRKRKLVPLDYGEDDKNATKGTVNTEE    733
+
+AF-A0A0P0X9T2    249 --------------------------------------------------    249
+                                                                       
+AF-P49756-F1     734 KRKHIKSLIEKIPTAKPELFAYPLDWSIVDSILMERRIRPWINKKIIEYI    783
+
+AF-A0A0P0X9T2    249 --------------------------------------------------    249
+                                                                       
+AF-P49756-F1     784 GEEEATLVDFVCSKVMAHSSPQSILDDVAMVLDEEAEVFIVKMWRLLIYE    833
+
+AF-A0A0P0X9T2    249 ----------    249
+                               
+AF-P49756-F1     834 TEAKKIGLVK    843
+
+
+#---------------------------------------
+#---------------------------------------

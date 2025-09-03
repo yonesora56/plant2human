@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:12
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q8h3e5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9nxs3-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q8h3e5-f1_af-q9nxs3-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q8h3e5-f1_af-q9nxs3-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q8H3E5-F1
+# 2: AF-Q9NXS3-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 229
+# Identity:      53/229 (23.1%)
+# Similarity:    91/229 (39.7%)
+# Gaps:          49/229 (21.4%)
+# Score: 136.0
+# 
+#
+#=======================================
+
+AF-Q8H3E5-F1     183 DYLKDDCLLVNCTVGVVQSHTEGPKIYTIPVPPSNMSQHIGQLLTDGKRT    232
+                     |:.....:|.|.|    ..|:|            .:.|.:..|....:..
+AF-Q9NXS3-F1       2 DHTSPTYMLANLT----HLHSE------------QLLQGLNLLRQHHELC     35
+
+AF-Q8H3E5-F1     233 DITFEVDGEVFPAHKVVLAARSPVFRAQLFGPMKDKNMKRITIEDMEASV    282
+                     ||...|......|||||||:.||.|:|...|.:.:|....:..:.::.:.
+AF-Q9NXS3-F1      36 DIILRVGDVKIHAHKVVLASVSPYFKAMFTGNLSEKENSEVEFQCIDETA     85
+
+AF-Q8H3E5-F1     283 FKALLHFMYWDELPDIEELTGLNTTWVSTLMAQHLLAAADRYALERLKLL    332
+                     .:|::.:.|          ||  |.::|....:.||.||:   |.::||:
+AF-Q9NXS3-F1      86 LQAIVEYAY----------TG--TVFISQDTVESLLPAAN---LLQIKLV    120
+
+AF-Q8H3E5-F1     333 CELKLC-----EDVAINTVANTLALAEQHHCYQLKTVCLRFVALPENLKA    377
+                       ||.|     ..:...........||.:.|..|.....:::.  :|.:|
+AF-Q9NXS3-F1     121 --LKECCAFLESQLDPGNCIGISRFAETYGCRDLYLAATKYIC--QNFEA    166
+
+AF-Q8H3E5-F1     378 VMQTDGF---------DYLQQSCPSLLTE    397
+                     |.||:.|         :.:...|.::.||
+AF-Q9NXS3-F1     167 VCQTEEFFELTHADLDEIVSNDCLNVATE    195
+
+
+#---------------------------------------
+#---------------------------------------

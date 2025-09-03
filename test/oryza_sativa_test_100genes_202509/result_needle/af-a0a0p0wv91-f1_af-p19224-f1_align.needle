@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:38
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0wv91-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p19224-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0wv91-f1_af-p19224-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0wv91-f1_af-p19224-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0WV91-F1
+# 2: AF-P19224-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 662
+# Identity:     111/662 (16.8%)
+# Similarity:   174/662 (26.3%)
+# Gaps:         297/662 (44.9%)
+# Score: 111.0
+# 
+#
+#=======================================
+
+AF-A0A0P0WV91      1 -----------------------------MATPTDAAAHVLVVPYPALGH     21
+                                                  :..|.|.:            |
+AF-P19224-F1       1 MACLLRSFQRISAGVFFLALWGMVVGDKLLVVPQDGS------------H     38
+
+AF-A0A0P0WV91     22 LIRILDLVRLLASRGLRLTVVVTPATAPLLAAAHPGGVVSALTLPCP---     68
+                     .:.:.|:|.:|:.||..:.|||......|..:.:    .:....|.|   
+AF-P19224-F1      39 WLSMKDIVEVLSDRGHEIVVVVPEVNLLLKESKY----YTRKIYPVPYDQ     84
+
+AF-A0A0P0WV91     69 ------------SHHAVPAGLEVPKGPPGAAPRLLPTRVVAFAGL-----    101
+                                 :|.|..:.|        .||:......:...||     
+AF-P19224-F1      85 EELKNRYQSFGNNHFAERSFL--------TAPQTEYRNNMIVIGLYFINC    126
+
+AF-A0A0P0WV91    102 ------RGPLGSWARARAGTPDRVVAVLSD--FLCGWTQLLAAELGVPHV    143
+                           |..|..:..::..      |:.:|  ..||  .:||..||:|.|
+AF-P19224-F1     127 QSLLQDRDTLNFFKESKFD------ALFTDPALPCG--VILAEYLGLPSV    168
+
+AF-A0A0P0WV91    144 VFSPSGVYGTAMLHSLFRVMPRPADENDDESPVRFVDIPGSPAYPRRQLT    193
+                     .              |||..|...:.....||.....||           
+AF-P19224-F1     169 Y--------------LFRGFPCSLEHTFSRSPDPVSYIP-----------    193
+
+AF-A0A0P0WV91    194 RAYRTYKK-GDEIDKGFK-SNFLWNLESSSLVSNTFRQLEG---------    232
+                        |.|.| .|.:....: :|||.||....|....|.:.|.         
+AF-P19224-F1     194 ---RCYTKFSDHMTFSQRVANFLVNLLEPYLFYCLFSKYEELASAVLKRD    240
+
+AF-A0A0P0WV91    233 ---------------RY---LESP---LADLGFRRVRAIGPLAPEADDDA    261
+                                    ||   ||.|   :.::.|     ||.:..:...|.
+AF-P19224-F1     241 VDIITLYQKVSVWLLRYDFVLEYPRPVMPNMVF-----IGGINCKKRKDL    285
+
+AF-A0A0P0WV91    262 SG------NRGGETAVADGRVGPLRVAGPVRRPLRRVRQLREHVAAAAAS    305
+                     |.      |..||..:....:|.:            |.::.|..|.|.|.
+AF-P19224-F1     286 SQEFEAYINASGEHGIVVFSLGSM------------VSEIPEKKAMAIAD    323
+
+AF-A0A0P0WV91    306 RGGAGGRAGAYRRGVRLGR-------RRTGAAFVWAAGSHTALPEGFEER    348
+                                    .||:       |.||.                  |
+AF-P19224-F1     324 ---------------ALGKIPQTVLWRYTGT------------------R    340
+
+AF-A0A0P0WV91    349 AAAGGRGTVIRGWAPQLSALRHRAVGWFVTHCGWNSILEAVAAGVAMLTW    398
+                     .:.....|::..|.||...|.|.....|:||.|.:.:.|::..||.|:..
+AF-P19224-F1     341 PSNLANNTILVKWLPQNDLLGHPMTRAFITHAGSHGVYESICNGVPMVMM    390
+
+AF-A0A0P0WV91    399 PMVADQFVNARLLVDELRTAVPVSWGGV---AAPPTADEVARVLEATVLM    445
+                     |:..||..||:.:  |.:.|      ||   ....|::::...|:|.:  
+AF-P19224-F1     391 PLFGDQMDNAKRM--ETKGA------GVTLNVLEMTSEDLENALKAVI--    430
+
+AF-A0A0P0WV91    446 AEDGGEASDSEWSHVGARVEELAVEAAAATREGGSSWVEVDELARELRGL    495
+                            :|..:.....|:..|..:......:....||   |.....:|.
+AF-P19224-F1     431 -------NDKSYKENIMRLSSLHKDRPVEPLDLAVFWV---EFVMRHKGA    470
+
+AF-A0A0P0WV91    495 --------------------------------------------------    495
+                                                                       
+AF-P19224-F1     471 PHLRPAAHDLTWYQYHSLDVIGFLLAVVLTVAFITFKCCAYGYRKCLGKK    520
+
+AF-A0A0P0WV91    495 ------------    495
+                                 
+AF-P19224-F1     521 GRVKKAHKSKTH    532
+
+
+#---------------------------------------
+#---------------------------------------

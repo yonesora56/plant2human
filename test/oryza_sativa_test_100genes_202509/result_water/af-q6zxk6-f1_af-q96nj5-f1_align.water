@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:56
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6zxk6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q96nj5-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6zxk6-f1_af-q96nj5-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6zxk6-f1_af-q96nj5-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6ZXK6-F1
+# 2: AF-Q96NJ5-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 255
+# Identity:      58/255 (22.7%)
+# Similarity:    93/255 (36.5%)
+# Gaps:          81/255 (31.8%)
+# Score: 130.0
+# 
+#
+#=======================================
+
+AF-Q6ZXK6-F1       4 AAGTWVKLEQKGDGPGARSSHAITLVGGTAYAFGGEF---TPRVPVDNAM     50
+                     |...|.:|...   |..||.|.:.::|...:..|||.   :.|.......
+AF-Q96NJ5-F1     322 AIANWSELAPM---PVGRSHHCVAVMGDFLFVAGGEVEHASGRTCAVRTA    368
+
+AF-Q6ZXK6-F1      51 YAFDLKSQCWSALDASGDVPPP---RVGVTMASVGATVYMFGGRDQEHKE     97
+                     ..:|.:|..|:      ::.|.   |....:.::...:|..|||::..:.
+AF-Q96NJ5-F1     369 CRYDPRSNSWA------EIAPMKNCREHFVLGAMEEYLYAVGGRNELRQV    412
+
+AF-Q6ZXK6-F1      98 LNELYSFDTATNRWTL-------LSSGAG---DG----------------    121
+                     |..:..:....|:||.       ||..||   ||                
+AF-Q96NJ5-F1     413 LPTVERYCPKKNKWTFVQSFDRSLSCHAGYVADGLLWISGGVTNTAQYQN    462
+
+AF-Q6ZXK6-F1     122 -----PPH-------------RSYHSMVADAAGGGKVYVFGGCGDAGRLN    153
+                          .|:             |.||||   ||...|:||.|| .|....|
+AF-Q96NJ5-F1     463 RLMVYEPNQNKWISRSPMLQRRVYHSM---AAVQRKLYVLGG-NDLDYNN    508
+
+AF-Q6ZXK6-F1     154 D------LWAYDVAAGRW-----EALPSPGEACKPRGGPGLAVAGGKVWV    192
+                     |      :.:|::...:|     ..|....|:       |:||..|::::
+AF-Q96NJ5-F1     509 DRILVRHIDSYNIDTDQWTRCNFNLLTGQNES-------GVAVHNGRIYL    551
+
+AF-Q6ZXK6-F1     193 VYGFS    197
+                     |.|:|
+AF-Q96NJ5-F1     552 VGGYS    556
+
+
+#---------------------------------------
+#---------------------------------------

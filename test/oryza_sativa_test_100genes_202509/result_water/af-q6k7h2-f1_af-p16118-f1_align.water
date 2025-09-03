@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:32
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6k7h2-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p16118-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6k7h2-f1_af-p16118-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6k7h2-f1_af-p16118-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6K7H2-F1
+# 2: AF-P16118-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 181
+# Identity:      30/181 (16.6%)
+# Similarity:    63/181 (34.8%)
+# Gaps:          41/181 (22.7%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+AF-Q6K7H2-F1      28 TVVFVLGGPGSGKGTQCANIVEHFGFIH-----LSAGDLLRAEIKSGSEN     72
+                     |:|.::|.|..||......:..:..:|.     .:.|...|..:...:..
+AF-P16118-F1      43 TMVIMVGLPARGKTYISTKLTRYLNWIGTPTKVFNLGQYRREAVSYKNYE     92
+
+AF-Q6K7H2-F1      73 GTMIENMIKEGKIVPSEVTIKLLQE------------AMIKSGND----K    106
+                     ..:.:||  |...:..:..:..|::            |:..:.|.    :
+AF-P16118-F1      93 FFLPDNM--EALQIRKQCALAALKDVHNYLSHEEGHVAVFDATNTTRERR    140
+
+AF-Q6K7H2-F1     107 FLIDGFPRNEENRAAF------------ENVTKITPAFVLFFDCSEEEME    144
+                     .||..|.:....:..|            ||:.::......:.||..|::.
+AF-P16118-F1     141 SLILQFAKEHGYKVFFIESICNDPGIIAENIRQVKLGSPDYIDCDREKVL    190
+
+AF-Q6K7H2-F1     145 RRLLGR------NQGRVDDNIETIRKRFKVF    169
+                     ...|.|      |...:|:.:::.....|:|
+AF-P16118-F1     191 EDFLKRIECYEVNYQPLDEELDSHLSYIKIF    221
+
+
+#---------------------------------------
+#---------------------------------------

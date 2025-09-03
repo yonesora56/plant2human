@@ -1,0 +1,137 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:59
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p42684-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6aue3-f1_af-p42684-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6aue3-f1_af-p42684-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-P42684-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1227
+# Identity:      99/1227 ( 8.1%)
+# Similarity:   160/1227 (13.0%)
+# Gaps:         893/1227 (72.8%)
+# Score: 315.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P42684-F1       1 MGQQVGRVGEAPGLQQPQPRGIRGSSAARPSGRRRDPAGRTTETGFNIFT     50
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P42684-F1      51 QHDHFASCVEDGFEGDKTGGSSPEALHRPYGCDVEPQALNEAIRWSSKEN    100
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P42684-F1     101 LLGATESDPNLFVALYDFVASGDNTLSITKGEKLRVLGYNQNGEWSEVRS    150
+
+AF-Q6AUE3-F1       1 -------------------------------------------------M      1
+                                                                      .
+AF-P42684-F1     151 KNGQGWVPSNYITPVNSLEKHSWYHGPVSRSAAEYLLSSLINGSFLVRES    200
+
+AF-Q6AUE3-F1       2 ASSTSDIP-----EGREKLKRSGSLGSSDTAYVRADKIDLTSLDIQLEKQ     46
+                     .||...:.     |||....|..:. :....||.|:....|..::.....
+AF-P42684-F1     201 ESSPGQLSISLRYEGRVYHYRINTT-ADGKVYVTAESRFSTLAELVHHHS    249
+
+AF-Q6AUE3-F1      47 LTKTWGKANLKAHGPK-------------EDWEIDLAKLEIRYVIAQGTY     83
+                     .........|....||             :.||::...:.:::.:..|.|
+AF-P42684-F1     250 TVADGLVTTLHYPAPKCNKPTVYGVSPIHDKWEMERTDITMKHKLGGGQY    299
+
+AF-Q6AUE3-F1      84 GTVYRGTYDGQDVAVKLLDWGEDGFATEAETAALRTSFKQEVAVWHKLSH    133
+                     |.||.|.:....:.|.:....||....|        .|.:|.||..::.|
+AF-P42684-F1     300 GEVYVGVWKKYSLTVAVKTLKEDTMEVE--------EFLKEAAVMKEIKH    341
+
+AF-Q6AUE3-F1     134 PNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQ    183
+                     ||:.:.    :|...|:.|                ..:|.||:..|.|..
+AF-P42684-F1     342 PNLVQL----LGVCTLEPP----------------FYIVTEYMPYGNLLD    371
+
+AF-Q6AUE3-F1     184 YLIKNSRRKLAYKVVVQLALDLARGLSYLHSRKIVHRDVKTENMLLDTQR    233
+                     ||.:.:|.::...|::.:|..::..:.||..:..:|||:...|.|:....
+AF-P42684-F1     372 YLRECNREEVTAVVLLYMATQISSAMEYLEKKNFIHRDLAARNCLVGENH    421
+
+AF-Q6AUE3-F1     234 NLKIADFGVARVEAQNPKDMTGATGT--------LGYMAPEVLDGKPYNR    275
+                     .:|:||||::|:       |||.|.|        :.:.|||.|....::.
+AF-P42684-F1     422 VVKVADFGLSRL-------MTGDTYTAHAGAKFPIKWTAPESLAYNTFSI    464
+
+AF-Q6AUE3-F1     276 KCDVYSFGICLWEIYCCDM-PYPDLSFADVSSAVVHQNLRPDVPRCCPSA    324
+                     |.||::||:.||||....| |||.:..:.|.. ::.:..|.:.|..||..
+AF-P42684-F1     465 KSDVWAFGVLLWEIATYGMSPYPGIDLSQVYD-LLEKGYRMEQPEGCPPK    513
+
+AF-Q6AUE3-F1     325 FANIMRKCWDANPDKRPDMDEVVQLLEALDTSKGGGMIPDGQSSGCLCFT    374
+                     ...:||.||..:|..||...|..|..|.        |..|...|..:...
+AF-P42684-F1     514 VYELMRACWKWSPADRPSFAETHQAFET--------MFHDSSISEEVAEE    555
+
+AF-Q6AUE3-F1     375 KARGP---------------------------------------------    379
+                     ..|..                                             
+AF-P42684-F1     556 LGRAASSSSVVPYLPRLPILPSKTRTLKKQVENKENIEGAQDATENSASS    605
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P42684-F1     606 LAPGFIRGAQASSGSPALPRKQRDKSPSSLLEDAKETCFTRDRKGGFFSS    655
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P42684-F1     656 FMKKRNAPTPPKRSSSFREMENQPHKKYELTGNFSSVASLQHADGFSFTP    705
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P42684-F1     706 AQQEANLVPPKCYGGSFAQRNLCNDDGGGGGGSGTAGGGWSGITGFFTPR    755
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P42684-F1     756 LIKKTLGLRAGKPTASDDTSKPFPRSNSTSSMSSGLPEQDRMAMTLPRNC    805
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P42684-F1     806 QRSKLQLERTVSTSSQPEENVDRANDMLPKKSEESAAPSRERPKAKLLPR    855
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P42684-F1     856 GATALPLRTPSGDLAITEKDPPGVGVAGVAAAPKGKEKNGGARLGMAGVP    905
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P42684-F1     906 EDGEQPGWPSPAKAAPVLPTTHNHKVPVLISPTLKHTPADVQLIGTDSQG    955
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P42684-F1     956 NKFKLLSEHQVTSSGDKDRPRRVKPKCAPPPPPVMRLLQHPSICSDPTEE   1005
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P42684-F1    1006 PTALTAGQSTSETQEGGKKAALGAVPISGKAGRPVMPPPQVPLPTSSISP   1055
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P42684-F1    1056 AKMANGTAGTKVALRKTKQAAEKISADKISKEALLECADLLSSALTEPVP   1105
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P42684-F1    1106 NSQLVDTGHQLLDYCSGYVDCIPQTRNKFAFREAVSKLELSLQELQVSSA   1155
+
+AF-Q6AUE3-F1     379 ---------------------------    379
+                                                
+AF-P42684-F1    1156 AAGVPGTNPVLNNLLSCVQEISDVVQR   1182
+
+
+#---------------------------------------
+#---------------------------------------

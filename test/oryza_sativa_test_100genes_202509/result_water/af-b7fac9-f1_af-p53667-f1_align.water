@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:55
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p53667-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-p53667-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-p53667-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-P53667-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 327
+# Identity:      78/327 (23.9%)
+# Similarity:   134/327 (41.0%)
+# Gaps:          64/327 (19.6%)
+# Score: 225.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     611 IIGKGGFG---TVYHGILENNDEVAVKVLVETSIAESKDFLPEVQTLSKV    657
+                     ::|||.||   .|.|  .|..:.:.:|.|:.......:.||.||:.:..:
+AF-P53667-F1     344 VLGKGCFGQAIKVTH--RETGEVMVMKELIRFDEETQRTFLKEVKVMRCL    391
+
+AF-B7FAC9-F1     658 HHKNLVALVGYCQNKKCLALVYDFMPRGNLQQLLRGGYDSLNWEERLHIA    707
+                     .|.|::..:|.....|.|..:.:::..|.|:.:::.......|.:|:..|
+AF-P53667-F1     392 EHPNVLKFIGVLYKDKRLNFITEYIKGGTLRGIIKSMDSQYPWSQRVSFA    441
+
+AF-B7FAC9-F1     708 LDAAQGLEYLHESCTPSIVHRDVKTPNILLDKNLVAKISDFGLSRAFNAA    757
+                     .|.|.|:.|||   :.:|:|||:.:.|.|:.:|....::||||:|.....
+AF-P53667-F1     442 KDIASGMAYLH---SMNIIHRDLNSHNCLVRENKNVVVADFGLARLMVDE    488
+
+AF-B7FAC9-F1     758 HTHISTV-------------AAGTLGYLDPEYHATFQLTVKTDVYSFGIV    794
+                     .|....:             ..|...::.||.........|.||:|||||
+AF-P53667-F1     489 KTQPEGLRSLKKPDRKKRYTVVGNPYWMAPEMINGRSYDEKVDVFSFGIV    538
+
+AF-B7FAC9-F1     795 LLEIVTGQPPVFMDPQTVHLPNWVRQKIANGSVHDVVD-----KKLLDQY    839
+                     |.||: |:  |..||.  :||.             .:|     :..||:|
+AF-P53667-F1     539 LCEII-GR--VNADPD--YLPR-------------TMDFGLNVRGFLDRY    570
+
+AF-B7FAC9-F1     840 DATHL-QTVIDLAMNCLENASIDRPSMTEVVSVLKVC-------LPISSE    881
+                     ...:. .:...:.:.|.:.....|||..::...|:..       ||:..:
+AF-P53667-F1     571 CPPNCPPSFFPITVRCCDLDPEKRPSFVKLEHWLETLRMHLAGHLPLGPQ    620
+
+AF-B7FAC9-F1     882 ------------RQSATSTPRKKNVMD    896
+                                 |:..:..|....|.|
+AF-P53667-F1     621 LEQLDRGFWETYRRGESGLPAHPEVPD    647
+
+
+#---------------------------------------
+#---------------------------------------

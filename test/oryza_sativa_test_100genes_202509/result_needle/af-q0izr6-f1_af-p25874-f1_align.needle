@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:56
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0izr6-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p25874-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0izr6-f1_af-p25874-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0izr6-f1_af-p25874-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0IZR6-F1
+# 2: AF-P25874-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 351
+# Identity:      50/351 (14.2%)
+# Similarity:    77/351 (21.9%)
+# Gaps:         213/351 (60.7%)
+# Score: 105.5
+# 
+#
+#=======================================
+
+AF-Q0IZR6-F1       1 MPEMGARGGEAGAARVANGGGGGGTG-------GMRLFSPEYYALCTGGG     43
+                                         .||.|.       |::|||          .
+AF-P25874-F1       1 --------------------MGGLTASDVHPTLGVQLFS----------A     20
+
+AF-Q0IZR6-F1      44 MLAAGATHLAITPLDVLKVNMQV-------NPMKYNSIFSGLNILVKEEG     86
+                     .:||....:...|||..||.:||       :.::|..:...:..:||.||
+AF-P25874-F1      21 GIAACLADVITFPLDTAKVRLQVQGECPTSSVIRYKGVLGTITAVVKTEG     70
+
+AF-Q0IZR6-F1      87 ASSLWRGWAGKFFGYGFQ-----GGCKFGLYEYFKKKYSDVLVDRNKSTI    131
+                     ...|:.|...     |.|     ...:.|||:..::     .:...|.| 
+AF-P25874-F1      71 RMKLYSGLPA-----GLQRQISSASLRIGLYDTVQE-----FLTAGKET-    109
+
+AF-Q0IZR6-F1     132 YFISSASAQIIA-----DVALC---PFESVKVRVQTQ-------PMFAKG    166
+                       ..|..::|:|     .||:.   |.|.||||:|.|       |.:. |
+AF-P25874-F1     110 --APSLGSKILAGLTTGGVAVFIGQPTEVVKVRLQAQSHLHGIKPRYT-G    156
+
+AF-Q0IZR6-F1     167 LIDGFPRVYATEGLSG----------------------------------    182
+                     ..:.:..:..||||:|                                  
+AF-P25874-F1     157 TYNAYRIIATTEGLTGLWKGTTPNLMRSVIINCTELVTYDLMKEAFVKNN    206
+
+AF-Q0IZR6-F1     182 --------------------------------------------------    182
+                                                                       
+AF-P25874-F1     207 ILADDVPCHLVSALIAGFCATAMSSPVDVVKTRFINSPPGQYKSVPNCAM    256
+
+AF-Q0IZR6-F1     182 --------------------------------------------------    182
+                                                                       
+AF-P25874-F1     257 KVFTNEGPTAFFKGLVPSFLRLGSWNVIMFVCFEQLKRELSKSRQTMDCA    306
+
+AF-Q0IZR6-F1     182 -    182
+                      
+AF-P25874-F1     307 T    307
+
+
+#---------------------------------------
+#---------------------------------------

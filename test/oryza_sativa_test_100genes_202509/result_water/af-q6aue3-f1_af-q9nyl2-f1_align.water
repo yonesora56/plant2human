@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:20
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9nyl2-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-q9nyl2-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-q9nyl2-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-Q9NYL2-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 291
+# Identity:      90/291 (30.9%)
+# Similarity:   144/291 (49.5%)
+# Gaps:          51/291 (17.5%)
+# Score: 402.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      81 GTYGTVYRGTYDGQD--VAVKLLDWGEDGFATEAETAALRTSFKQEVAVW    128
+                     |::|:|||..:..||  ||||.|                 ...::|..:.
+AF-Q9NYL2-F1      25 GSFGSVYRAKWISQDKEVAVKKL-----------------LKIEKEAEIL     57
+
+AF-Q6AUE3-F1     129 HKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCVVVEYLAG    178
+                     ..|||.|:.:|.|..:.      |.|..              :|.||.:.
+AF-Q9NYL2-F1      58 SVLSHRNIIQFYGVILE------PPNYG--------------IVTEYASL     87
+
+AF-Q6AUE3-F1     179 GTLKQYLIKNSRRKLAYKVVVQLALDLARGLSYLHSR---KIVHRDVKTE    225
+                     |:|..|:..|...::....::..|.|:|:|:.|||..   |::|||:|:.
+AF-Q9NYL2-F1      88 GSLYDYINSNRSEEMDMDHIMTWATDVAKGMHYLHMEAPVKVIHRDLKSR    137
+
+AF-Q6AUE3-F1     226 NMLLDTQRNLKIADFGVARVEAQNPKDMTGATGTLGYMAPEVLDGKPYNR    275
+                     |:::.....|||.|||.:|.  .|........||..:|||||:...|.:.
+AF-Q9NYL2-F1     138 NVVIAADGVLKICDFGASRF--HNHTTHMSLVGTFPWMAPEVIQSLPVSE    185
+
+AF-Q6AUE3-F1     276 KCDVYSFGICLWEIYCCDMPYPDLSFADVSSAVVHQNLRPDVPRCCPSAF    325
+                     .||.||:|:.|||:...::|:..|....|:..||.:|.|..:|..||.:|
+AF-Q9NYL2-F1     186 TCDTYSYGVVLWEMLTREVPFKGLEGLQVAWLVVEKNERLTIPSSCPRSF    235
+
+AF-Q6AUE3-F1     326 ANIMRKCWDANPDKRPDMDEVVQLLEAL--DTSKGGGMIPD    364
+                     |.::.:||:|:..|||...:::.:||::  |||     :||
+AF-Q9NYL2-F1     236 AELLHQCWEADAKKRPSFKQIISILESMSNDTS-----LPD    271
+
+
+#---------------------------------------
+#---------------------------------------

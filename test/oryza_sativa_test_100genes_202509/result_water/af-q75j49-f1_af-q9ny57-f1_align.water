@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:43
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9ny57-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-q9ny57-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-q9ny57-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-Q9NY57-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 309
+# Identity:      73/309 (23.6%)
+# Similarity:   117/309 (37.9%)
+# Gaps:          70/309 (22.7%)
+# Score: 188.5
+# 
+#
+#=======================================
+
+AF-Q75J49-F1      58 AHGP---KEDWEIDLAKLEIRYVIAQGTYGTV-----------YRGTYDG     93
+                     :|.|   .|:.|::....:|...|.:|::|.|           |...|..
+AF-Q9NY57-F1       6 SHKPPVFDENEEVNFDHFQILRAIGKGSFGKVCIVQKRDTKKMYAMKYMN     55
+
+AF-Q75J49-F1      94 QDVAVKLLDWGEDGFATEAETAALRTSFKQEVAVWHKLSHPNVTKFVGAS    143
+                     :...:              |...:|..|: |:.:...|.||.:.....:.
+AF-Q9NY57-F1      56 KQKCI--------------ERDEVRNVFR-ELQIMQGLEHPFLVNLWYSF     90
+
+AF-Q75J49-F1     144 MGTTDLKIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKL    193
+                     ....|:                    .:||:.|.||.|:.:|.:|..  .
+AF-Q9NY57-F1      91 QDEEDM--------------------FMVVDLLLGGDLRYHLQQNVH--F    118
+
+AF-Q75J49-F1     194 AYKVVVQLALDLARGLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVA    243
+                     ....|.....:||..|.||....|:|||:|.:|:|||...::.|.||.:|
+AF-Q9NY57-F1     119 TEGTVKLYICELALALEYLQRYHIIHRDIKPDNILLDEHGHVHITDFNIA    168
+
+AF-Q75J49-F1     244 RVEAQNPKDMTGATGTLGYMAPEVLD-----GKPYNRKCDVYSFGICLWE    288
+                     .| .:..:..:...||..||||||..     |..|:...|.:|.||..:|
+AF-Q9NY57-F1     169 TV-VKGAERASSMAGTKPYMAPEVFQVYMDRGPGYSYPVDWWSLGITAYE    217
+
+AF-Q75J49-F1     289 IYCCDMPYPDLSFADVSSAV-------VHQNLRPDVPRCCPSAFANIMRK    331
+                     :.....||...|...:...:       ||.:     ...|....| ::||
+AF-Q9NY57-F1     218 LLRGWRPYEIHSVTPIDEILNMFKVERVHYS-----STWCKGMVA-LLRK    261
+
+AF-Q75J49-F1     332 CWDANPDKR    340
+                     ....:|:.|
+AF-Q9NY57-F1     262 LLTKDPESR    270
+
+
+#---------------------------------------
+#---------------------------------------

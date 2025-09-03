@@ -1,0 +1,125 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:11
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q5jjp8-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q15061-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q5jjp8-f1_af-q15061-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q5jjp8-f1_af-q15061-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5JJP8-F1
+# 2: AF-Q15061-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1069
+# Identity:      42/1069 ( 3.9%)
+# Similarity:    59/1069 ( 5.5%)
+# Gaps:         974/1069 (91.1%)
+# Score: 97.0
+# 
+#
+#=======================================
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15061-F1       1 MAAGGGGSCDPLAPAGVPCAFSPHSQAYFALASTDGHLRVWETANNRLHQ     50
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15061-F1      51 EYVPSAHLSGTCTCLAWAPARLQAKESPQRKKRKSEAVGMSNQTDLLALG    100
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15061-F1     101 TAVGSILLYSTVKGELHSKLISGGHDNRVNCIQWHQDSGCLYSCSDDKHI    150
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15061-F1     151 VEWNVQTCKVKCKWKGDNSSVSSLCISPDGKMLLSAGRTIKLWVLETKEV    200
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15061-F1     201 YRHFTGHATPVSSLMFTTIRPPNESQPFDGITGLYFLSGAVHDRLLNVWQ    250
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15061-F1     251 VRSENKEKSAVMSFTVTDEPVYIDLTLSENKEEPVKLAVVCRDGQVHLFE    300
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15061-F1     301 HILNGYCKKPLTSNCTIQIATPGKGKKSTPKPIPILAAGFCSDKMSLLLV    350
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15061-F1     351 YGSWFQPTIERVALNSREPHMCLVRDISNCWAPKVETAITKVRTPVMNSE    400
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15061-F1     401 AKVLVPGIPGHHAAIKPAPPQTEQVESKRKSGGNEVSIEERLGAMDIDTH    450
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15061-F1     451 KKGKEDLQTNSFPVLLTQGLESNDFEMLNKVLQTRNVNLIKKTVLRMPLH    500
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15061-F1     501 TIIPLLQELTKRLQGHPNSAVLMVQWLKCVLTVHASYLSTLPDLVPQLGT    550
+
+AF-Q5JJP8-F1       1 ---------------------MISAISWV-----------PRGAAKLVPV     18
+                                          :|..|:.|           |...|||  |
+AF-Q15061-F1     551 LYQLMESRVKTFQKLSHLHGKLILLITQVTASEKTKGATSPGQKAKL--V    598
+
+AF-Q5JJP8-F1      19 EAEPPTQEEIDEAIKAIAQHTEGGSDADEDADDGEENGNMEVDAAADEEE     68
+                     ..|..::||.|:.|            ||:|::|..:....|.::..||:.
+AF-Q15061-F1     599 YEEESSEEESDDEI------------ADKDSEDNWDEDEEESESEKDEDV    636
+
+AF-Q5JJP8-F1      69 EEVDEVAQAKAAAKALAKGAVDDVADELKELNMDNYDEEEEGLEIFSSGQ    118
+                     ||.||.|:.|..    ..|...|.|.| ||||.|                
+AF-Q15061-F1     637 EEEDEDAEGKDE----ENGEDRDTASE-KELNGD----------------    665
+
+AF-Q5JJP8-F1     119 GDLYYASNDLDPYLKNNDEDDDDEEIEDMTIKPTDLMVVCAYNEDDVNSL    168
+                            :||||      |::.:||                         
+AF-Q15061-F1     666 -------SDLDP------ENESEEE-------------------------    677
+
+AF-Q5JJP8-F1     169 QVNLLEETEDGDLNMFVHHEVPLADFPLCTAWMDFNLKGGDKGNFVAVGT    218
+                                                                       
+AF-Q15061-F1     677 --------------------------------------------------    677
+
+AF-Q5JJP8-F1     219 MDPAIEIWDLDIVDEVQPHMVLGGHSKKKKKVKGKKAKKYKKGSHRSSVL    268
+                                                                       
+AF-Q15061-F1     677 --------------------------------------------------    677
+
+AF-Q5JJP8-F1     269 GLAWNKEVRNVLASASADKTVKIWDVSVGKCAVTLEHHDDKVQSVAWSRQ    318
+                                                                       
+AF-Q15061-F1     677 --------------------------------------------------    677
+
+AF-Q5JJP8-F1     319 SPEVLLSGSFDKSVAMNDMKDGGQSCNKWSVEADVESLAWDPHNEHSFMV    368
+                                                                       
+AF-Q15061-F1     677 --------------------------------------------------    677
+
+AF-Q5JJP8-F1     369 SLENGMVQAFDKRTASSNSNSGRPTFTLHAHEKAVSSISFSPSTPNFLAT    418
+                                                                       
+AF-Q15061-F1     677 --------------------------------------------------    677
+
+AF-Q5JJP8-F1     419 GSTDKMVKLWDLSNNQPSCIASLNPKLGAIFSVSFSNDSPFLLASGGSKG    468
+                                                                       
+AF-Q15061-F1     677 --------------------------------------------------    677
+
+AF-Q5JJP8-F1     469 KLKVWNTLTEPAVANKFGK    487
+                                        
+AF-Q15061-F1     677 -------------------    677
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:52
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p49137-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-p49137-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-p49137-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-P49137-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 180
+# Identity:      52/180 (28.9%)
+# Similarity:    85/180 (47.2%)
+# Gaps:          23/180 (12.8%)
+# Score: 195.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1     122 KQEVAV-WHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARAC-    169
+                     ::||.: |.....|::.:.|..          ..|..||       |.| 
+AF-P49137-F1     102 RREVELHWRASQCPHIVRIVDV----------YENLYAG-------RKCL    134
+
+AF-Q6AUE3-F1     170 CVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQLALDLARGLSYLHSRKIVH    219
+                     .:|:|.|.||.|...:.....:....:...::...:...:.||||..|.|
+AF-P49137-F1     135 LIVMECLDGGELFSRIQDRGDQAFTEREASEIMKSIGEAIQYLHSINIAH    184
+
+AF-Q6AUE3-F1     220 RDVKTENMLLDTQRN---LKIADFGVARVEAQNPKDMTGATGTLGYMAPE    266
+                     ||||.||:|..::|.   ||:.|||.|: |..:...:|....|..|:|||
+AF-P49137-F1     185 RDVKPENLLYTSKRPNAILKLTDFGFAK-ETTSHNSLTTPCYTPYYVAPE    233
+
+AF-Q6AUE3-F1     267 VLDGKPYNRKCDVYSFGICLWEIYCCDMPY    296
+                     ||..:.|::.||::|.|:.::.:.|...|:
+AF-P49137-F1     234 VLGPEKYDKSCDMWSLGVIMYILLCGYPPF    263
+
+
+#---------------------------------------
+#---------------------------------------

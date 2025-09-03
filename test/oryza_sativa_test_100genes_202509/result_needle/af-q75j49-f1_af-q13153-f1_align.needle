@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:03
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q13153-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q75j49-f1_af-q13153-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q75j49-f1_af-q13153-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-Q13153-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 668
+# Identity:      87/668 (13.0%)
+# Similarity:   144/668 (21.6%)
+# Gaps:         412/668 (61.7%)
+# Score: 238.0
+# 
+#
+#=======================================
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13153-F1       1 MSNNGLDIQDKPPAPPMRNTSTMIGAGSKDAGTLNHGSKPLPPNPEEKKK     50
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13153-F1      51 KDRFYRSILPGDKTNKKKEKERPEISLPSDFEHTIHVGFDAVTGEFTGMP    100
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13153-F1     101 EQWARLLQTSNITKSEQKKNPQAVLDVLEFYNSKKTSNSQKYMSFTDKSA    150
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13153-F1     151 EDYNSSNALNVKAVSETPAVPPVSEDEDDDDDDATPPPVIAPRPEHTKSV    200
+
+AF-Q75J49-F1       1 -------------------------------------------MASSTSD      7
+                                                                .....||
+AF-Q13153-F1     201 YTRSVIEPLPVTPTRDVATSPISPTENNTTPPDALTRNTEKQKKKPKMSD    250
+
+AF-Q75J49-F1       8 IPEGREKLKRSGSLGSSDTAYVRADKIDLTSLDIQLEKQLTKTWGKANLK     57
+                      .|..|||:...|:|.....|.|.:|                        
+AF-Q13153-F1     251 -EEILEKLRSIVSVGDPKKKYTRFEK------------------------    275
+
+AF-Q75J49-F1      58 AHGPKEDWEIDLAKLEIRYVIAQGTYGTVYRG--TYDGQDVAVKLLDWGE    105
+                                         |.||..||||..  ...||:||:|.::   
+AF-Q13153-F1     276 --------------------IGQGASGTVYTAMDVATGQEVAIKQMN---    302
+
+AF-Q75J49-F1     106 DGFATEAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNN    155
+                           .:....:.....|:.|..:..:||:..::.:.:...:|      
+AF-Q13153-F1     303 ------LQQQPKKELIINEILVMRENKNPNIVNYLDSYLVGDEL------    340
+
+AF-Q75J49-F1     156 SNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQLALD-    204
+                                   .||:||||||:|..             ||.:..:| 
+AF-Q13153-F1     341 --------------WVVMEYLAGGSLTD-------------VVTETCMDE    363
+
+AF-Q75J49-F1     205 ---------LARGLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFG-VAR    244
+                              ..:.|.:|||.:::|||:|::|:||....::|:.||| .|:
+AF-Q13153-F1     364 GQIAAVCRECLQALEFLHSNQVIHRDIKSDNILLGMDGSVKLTDFGFCAQ    413
+
+AF-Q75J49-F1     245 VEAQNPKDMTGATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDM    294
+                     :..:..|..| ..||..:|||||:..|.|..|.|::|.||...|:...:.
+AF-Q13153-F1     414 ITPEQSKRST-MVGTPYWMAPEVVTRKAYGPKVDIWSLGIMAIEMIEGEP    462
+
+AF-Q75J49-F1     295 PY-----------------PDLSFADVSSAVVHQNLRPDVPRCCPSAFAN    327
+                     ||                 |:|...:..||:                |.:
+AF-Q13153-F1     463 PYLNENPLRALYLIATNGTPELQNPEKLSAI----------------FRD    496
+
+AF-Q75J49-F1     328 IMRKCWDANPDKRPDMDEVVQ----------------LLEALDTSKGGGM    361
+                     .:.:|.:.:.:||....|::|                :..|.:.:|... 
+AF-Q13153-F1     497 FLNRCLEMDVEKRGSAKELLQHQFLKIAKPLSSLTPLIAAAKEATKNNH-    545
+
+AF-Q75J49-F1     362 IPDGQSSGCLCFTKARGP    379
+                                       
+AF-Q13153-F1     545 ------------------    545
+
+
+#---------------------------------------
+#---------------------------------------

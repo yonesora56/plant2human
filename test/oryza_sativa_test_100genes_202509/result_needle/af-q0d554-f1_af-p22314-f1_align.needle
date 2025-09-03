@@ -1,0 +1,157 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:24
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0d554-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p22314-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0d554-f1_af-p22314-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0d554-f1_af-p22314-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0D554-F1
+# 2: AF-P22314-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1491
+# Identity:      72/1491 ( 4.8%)
+# Similarity:   112/1491 ( 7.5%)
+# Gaps:        1266/1491 (84.9%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+AF-Q0D554-F1       1 MESGQPNSAAAADKTQNSSVPPVEGVAGGGTSYGWVDGGLQASSLGNGAI     50
+                                                                       
+AF-P22314-F1       0 --------------------------------------------------      0
+
+AF-Q0D554-F1      51 DPTKIHSADLLHVWSMPSTANVSQQEAPRPLEHVNLLAARNERESFQIAL    100
+                                                                       
+AF-P22314-F1       0 --------------------------------------------------      0
+
+AF-Q0D554-F1     101 RPKVSWATSGIAGSVQVQCTDLCSSAGDRLVVGQSVTLRRVVPMLGVPDA    150
+                                                                       
+AF-P22314-F1       0 --------------------------------------------------      0
+
+AF-Q0D554-F1     151 LVPIDPLNSQINLLPGETSAIWVSLNVPCGQQPGLYEGEIFISAVRAEAE    200
+                                                                       
+AF-P22314-F1       0 --------------------------------------------------      0
+
+AF-Q0D554-F1     201 SRGESLTKSERYQLYKELRNCIDITEPRDYSSSEEMVQRLTSASTTLRRM    250
+                                                                       
+AF-P22314-F1       0 --------------------------------------------------      0
+
+AF-Q0D554-F1     251 LALPSFQDCQENNGLGDMMDEDIMNNVAVRLKLSLTVWDFTLPLTPSLPA    300
+                                                                       
+AF-P22314-F1       0 --------------------------------------------------      0
+
+AF-Q0D554-F1     301 VFGISETVIEDRFCLEHGTKGWYDALDHHFRWLLQYRISPFFCRWGDSMR    350
+                                                                       
+AF-P22314-F1       0 --------------------------------------------------      0
+
+AF-Q0D554-F1     351 ILAYTCPWPADHPKAKEYY---SDPRLAAYAVPYAPILSSTDA------A    391
+                             .:..|.:|:..   .||:..:...|...:||...:      |
+AF-P22314-F1       1 --------MSSSPLSKKRRVSGPDPKPGSNCSPAQSVLSEVPSVPTNGMA     42
+
+AF-Q0D554-F1     392 KNSLRRE-----------------------------------VEILKS--    404
+                     ||....:                                   |||.|:  
+AF-P22314-F1      43 KNGSEADIDEGLYSRQLYVLGHEAMKRLQTSSVLVSGLRGLGVEIAKNII     92
+
+AF-Q0D554-F1     405 -------------EAHWS--KSYFYLWDEPLNMEQYDVICSISNELRSYA    439
+                                  .|.|:  .|.|||.:|.:...:.:|......||.|| 
+AF-P22314-F1      93 LGGVKAVTLHDQGTAQWADLSSQFYLREEDIGKNRAEVSQPRLAELNSY-    141
+
+AF-Q0D554-F1     440 SDVRILTTYYCGPSGSELAPSTFEAFVKVPNVLRPHTQI--FCTSEWVLG    487
+                         :..|.|.||...:.. |.|:..|.....|....::  ||.:..   
+AF-P22314-F1     142 ----VPVTAYTGPLVEDFL-SGFQVVVLTNTPLEDQLRVGEFCHNRG---    183
+
+AF-Q0D554-F1     488 TREDLVKDIVAELRP-------DLGEEWWTYVCMGPSDPQPNWHLGMRGT    530
+                          :|.:||:.|.       |.|||      |..:|        ..|.
+AF-P22314-F1     184 -----IKLVVADTRGLFGQLFCDFGEE------MILTD--------SNGE    214
+
+AF-Q0D554-F1     531 QHRAVMWRVWKEGGTGFLYWGTNCYEKAMIPSAEICFRRGLPPGDGVLFY    580
+                     |..:.|..:..:...|.:    .|.::|         |.|...||.|.| 
+AF-P22314-F1     215 QPLSAMVSMVTKDNPGVV----TCLDEA---------RHGFESGDFVSF-    250
+
+AF-Q0D554-F1     581 PGEVFSSSHEPVASTRLERILSGMQDIEYLKLYSSRYGREEGLALLEKTG    630
+                      .||.....           |:|.|.:| :|:                  
+AF-P22314-F1     251 -SEVQGMVE-----------LNGNQPME-IKV------------------    269
+
+AF-Q0D554-F1     631 VYLGPDRYAL-DHGPI-DVMRGEVYRTCRS--------------------    658
+                       |||..::: |.... |.:||.:....:.                    
+AF-P22314-F1     270 --LGPYTFSICDTSNFSDYIRGGIVSQVKVPKKISFKSLVASLAEPDFVV    317
+
+AF-Q0D554-F1     658 --------------------------------------------------    658
+                                                                       
+AF-P22314-F1     318 TDFAKFSRPAQLHIGFQALHQFCAQHGRPPRPRNEEDAAELVALAQAVNA    367
+
+AF-Q0D554-F1     658 --------------------------------------------------    658
+                                                                       
+AF-P22314-F1     368 RALPAVQQNNLDEDLIRKLAYVAAGDLAPINAFIGGLAAQEVMKACSGKF    417
+
+AF-Q0D554-F1     658 --------------------------------------------------    658
+                                                                       
+AF-P22314-F1     418 MPIMQWLYFDALECLPEDKEVLTEDKCLQRQNRYDGQVAVFGSDLQEKLG    467
+
+AF-Q0D554-F1     658 --------------------------------------------------    658
+                                                                       
+AF-P22314-F1     468 KQKYFLVGAGAIGCELLKNFAMIGLGCGEGGEIIVTDMDTIEKSNLNRQF    517
+
+AF-Q0D554-F1     658 --------------------------------------------------    658
+                                                                       
+AF-P22314-F1     518 LFRPWDVTKLKSDTAAAAVRQMNPHIRVTSHQNRVGPDTERIYDDDFFQN    567
+
+AF-Q0D554-F1     658 --------------------------------------------------    658
+                                                                       
+AF-P22314-F1     568 LDGVANALDNVDARMYMDRRCVYYRKPLLESGTLGTKGNVQVVIPFLTES    617
+
+AF-Q0D554-F1     658 --------------------------------------------------    658
+                                                                       
+AF-P22314-F1     618 YSSSQDPPEKSIPICTLKNFPNAIEHTLQWARDEFEGLFKQPAENVNQYL    667
+
+AF-Q0D554-F1     658 --------------------------------------------------    658
+                                                                       
+AF-P22314-F1     668 TDPKFVERTLRLAGTQPLEVLEAVQRSLVLQRPQTWADCVTWACHHWHTQ    717
+
+AF-Q0D554-F1     658 --------------------------------------------------    658
+                                                                       
+AF-P22314-F1     718 YSNNIRQLLHNFPPDQLTSSGAPFWSGPKRCPHPLTFDVNNPLHLDYVMA    767
+
+AF-Q0D554-F1     658 --------------------------------------------------    658
+                                                                       
+AF-P22314-F1     768 AANLFAQTYGLTGSQDRAAVATFLQSVQVPEFTPKSGVKIHVSDQELQSA    817
+
+AF-Q0D554-F1     658 --------------------------------------------------    658
+                                                                       
+AF-P22314-F1     818 NASVDDSRLEELKATLPSPDKLPGFKMYPIDFEKDDDSNFHMDFIVAASN    867
+
+AF-Q0D554-F1     658 --------------------------------------------------    658
+                                                                       
+AF-P22314-F1     868 LRAENYDIPSADRHKSKLIAGKIIPAIATTTAAVVGLVCLELYKVVQGHR    917
+
+AF-Q0D554-F1     658 --------------------------------------------------    658
+                                                                       
+AF-P22314-F1     918 QLDSYKNGFLNLALPFFGFSEPLAAPRHQYYNQEWTLWDRFEVQGLQPNG    967
+
+AF-Q0D554-F1     658 --------------------------------------------------    658
+                                                                       
+AF-P22314-F1     968 EEMTLKQFLDYFKTEHKLEITMLSQGVSMLYSFFMPAAKLKERLDQPMTE   1017
+
+AF-Q0D554-F1     658 -----------------------------------------    658
+                                                              
+AF-P22314-F1    1018 IVSRVSKRKLGRHVRALVLELCCNDESGEDVEVPYVRYTIR   1058
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,81 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:09
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p29322-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-p29322-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-p29322-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-P29322-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 546
+# Identity:     123/546 (22.5%)
+# Similarity:   210/546 (38.5%)
+# Gaps:         122/546 (22.3%)
+# Score: 277.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     439 QNPRIVEINLSGSGLQGELEISFMKMSSLKKLDLSHNNLTGTIPDYQVN-    487
+                     |...:|:.:|..:.|...:..||...:.....|||.......:.:...| 
+AF-P29322-F1     388 QQTSLVQASLLVANLLAHMNYSFWIEAVNGVSDLSPEPRRAAVVNITTNQ    437
+
+AF-B7FAC9-F1     488 -----------------SLTVIDLSNNQLNGSIPDSILQRYKAGLLELRL    520
+                                      |::::.....|.||.|.:..::.|:.. .|::.
+AF-P29322-F1     438 AAPSQVVVIRQERAGQTSVSLLWQEPEQPNGIILEYEIKYYEKD-KEMQS    486
+
+AF-B7FAC9-F1     521 EGNPICSKVRASYCGNKKNTR-----------------------------    541
+                     .........||:..|.|..||                             
+AF-P29322-F1     487 YSTLKAVTTRATVSGLKPGTRYVFQVRARTSAGCGRFSQAMEVETGKPRP    536
+
+AF-B7FAC9-F1     542 ---TRILLISVLVPVTSLLVVLFIFWRLCWK---GKSRKSEEED-----Y    580
+                        ||.::...|..:|.|:|:|.:.  :|.|   |.|:..::.|     |
+AF-P29322-F1     537 RYDTRTIVWICLTLITGLVVLLLLL--ICKKRHCGYSKAFQDSDEEKMHY    584
+
+AF-B7FAC9-F1     581 DMYEEETPLHIDI--------------------------RRFTYAELKLI    604
+                     ...:...|:.:.:                          |.|| .|::..
+AF-P29322-F1     585 QNGQAPPPVFLPLHHPPGKLPEPQFYAEPHTYEEPGRAGRSFT-REIEAS    633
+
+AF-B7FAC9-F1     605 TNNFQSIIGKGGFGTVYHGIL----ENNDEVAVKVL-VETSIAESKDFLP    649
+                     ..:.:.|||.|..|.|.:|.|    :.:..||:|.| ...:..:.:|||.
+AF-P29322-F1     634 RIHIEKIIGSGDSGEVCYGRLRVPGQRDVPVAIKALKAGYTERQRRDFLS    683
+
+AF-B7FAC9-F1     650 EVQTLSKVHHKNLVALVGYCQNKKCLALVYDFMPRGNLQQLLRGGYDSLN    699
+                     |...:.:..|.|::.|.|.....:...:|.::|..|:|...||.......
+AF-P29322-F1     684 EASIMGQFDHPNIIRLEGVVTRGRLAMIVTEYMENGSLDTFLRTHDGQFT    733
+
+AF-B7FAC9-F1     700 WEERLHIALDAAQGLEYLHESCTPSIVHRDVKTPNILLDKNLVAKISDFG    749
+                     ..:.:.:......|:.||.:.   ..||||:...|:|:|.|||.|:||||
+AF-P29322-F1     734 IMQLVGMLRGVGAGMRYLSDL---GYVHRDLAARNVLVDSNLVCKVSDFG    780
+
+AF-B7FAC9-F1     750 LSRAF----NAAHTHISTVAAGTLGYLDPEYHATFQLTVKTDVYSFGIVL    795
+                     |||..    :||:|  :|.....:.:..||..|....:..:||:|||:|:
+AF-P29322-F1     781 LSRVLEDDPDAAYT--TTGGKIPIRWTAPEAIAFRTFSSASDVWSFGVVM    828
+
+AF-B7FAC9-F1     796 LEIVT-GQPPVFMDPQTVHLPNWVRQKIANGSVHDVVDK--KLLDQYDAT    842
+                     .|::. |:.|.           |   .:.|..|...|::  :|.......
+AF-P29322-F1     829 WEVLAYGERPY-----------W---NMTNRDVISSVEEGYRLPAPMGCP    864
+
+AF-B7FAC9-F1     843 HLQTVIDLAMNCLENASIDRPSMTEVVSVLKVCLPISSERQSATST    888
+                     |  .:..|.::|.......||..:::||||...:. |.|...||:|
+AF-P29322-F1     865 H--ALHQLMLDCWHKDRAQRPRFSQIVSVLDALIR-SPESLRATAT    907
+
+
+#---------------------------------------
+#---------------------------------------

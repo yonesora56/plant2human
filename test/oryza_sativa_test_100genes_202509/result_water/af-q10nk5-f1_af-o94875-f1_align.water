@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:02
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o94875-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-o94875-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-o94875-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-O94875-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 312
+# Identity:      71/312 (22.8%)
+# Similarity:   110/312 (35.3%)
+# Gaps:          88/312 (28.2%)
+# Score: 131.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1     115 HSQMEKERE-------NLLKFLGEQVFEPLREMIMSAPLEDARLLTYRYQ    157
+                     |...|:.|.       :.|.||...|  |.|....|||.:.......: .
+AF-O94875-F1     679 HENTEEPRRQEMDPGLSKLAFLVSPV--PFRRKKNSAPKKQTEKAKCK-A    725
+
+AF-Q10NK5-F1     158 RIRQDMESQIADVMRKQLKSKESSGN-ADNSVKLQHAESKL----SELRT    202
+                     .:.:.::|.:.|:. .|:|:::..|: .|||: |....|:|    .|..:
+AF-O94875-F1     726 SVFEALDSALKDIC-DQIKAEKKRGSLPDNSI-LHRLISELLPDVPERNS    773
+
+AF-Q10NK5-F1     203 TLSALGRE----------ATAAMEAVEVQQQQVTFDRLLAMVDAERA---    239
+                     :|.||.|.          ...|:.....|.......|..:..|.:.|   
+AF-O94875-F1     774 SLRALRRSPLHQPLHPLPPDGAIHCPPYQNDCGRMPRSASFQDVDTANSS    823
+
+AF-Q10NK5-F1     240 -YHQNAADILNKLHDEMVQAKHHDEPENHYDETSSDPKTAATHEHSRSTS    288
+                      :||:....|          :..:.|.: |..|.:|...:|..|. |.|.
+AF-O94875-F1     824 CHHQDRGGAL----------QDRESPRS-YSSTLTDMGRSAPRER-RGTP    861
+
+AF-Q10NK5-F1     289 EDHIFTNTSEPTRTETSEPTRTETSEPTRNGQEVHYVGEVIHPFDAQADG    338
+                     |                     :...|.:          .::.|.||...
+AF-O94875-F1     862 E---------------------KEKLPAK----------AVYDFKAQTSK    880
+
+AF-Q10NK5-F1     339 ELSISVGDYVVVRQVAPNGWSEGECKGKAGWFPSAYVEQ----------R    378
+                     |||...||.|.:.:.....|.|||..|:.|.||.:|||:          |
+AF-O94875-F1     881 ELSFKKGDTVYILRKIDQNWYEGEHHGRVGIFPISYVEKLTPPEKAQPAR    930
+
+AF-Q10NK5-F1     379 DKAPASKVIEPG    390
+                     ...||    :||
+AF-O94875-F1     931 PPPPA----QPG    938
+
+
+#---------------------------------------
+#---------------------------------------

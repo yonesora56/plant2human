@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:34
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o75716-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-o75716-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-o75716-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-O75716-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 309
+# Identity:      77/309 (24.9%)
+# Similarity:   127/309 (41.1%)
+# Gaps:          52/309 (16.8%)
+# Score: 193.0
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      75 RYVIAQG------TYGTVYRGTYDGQDVAVKLLDWGEDGFATEAETAALR    118
+                     ||:..|.      :|..:..|.:||...|:|.:...|.....||      
+AF-O75716-F1      19 RYLFIQKLGEGGFSYVDLVEGLHDGHFYALKRILCHEQQDREEA------     62
+
+AF-Q6AUE3-F1     119 TSFKQEVAVWHKL-SHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPAR    167
+                         |..|..|:| :|||:.:.|...:           ...||:     .
+AF-O75716-F1      63 ----QREADMHRLFNHPNILRLVAYCL-----------RERGAK-----H     92
+
+AF-Q6AUE3-F1     168 ACCVVVEYLAGGTLKQYL--IKNSRRKLAYKVVVQLALDLARGLSYLHSR    215
+                     ...:::.:...|||...:  :|:....|....::.|.|.:.|||..:|::
+AF-O75716-F1      93 EAWLLLPFFKRGTLWNEIERLKDKGNFLTEDQILWLLLGICRGLEAIHAK    142
+
+AF-Q6AUE3-F1     216 KIVHRDVKTENMLLDTQRNLKIADFG-----VARVE----AQNPKDMTGA    256
+                     ...|||:|..|:||..:....:.|.|     ...||    |...:|....
+AF-O75716-F1     143 GYAHRDLKPTNILLGDEGQPVLMDLGSMNQACIHVEGSRQALTLQDWAAQ    192
+
+AF-Q6AUE3-F1     257 TGTLGYMAPEVLDGKPY---NRKCDVYSFGICLWEIYCCDMPYPDLSFA-    302
+                     ..|:.|.|||:...:.:   :.:.||:|.|..|:.:...:.|| |:.|. 
+AF-O75716-F1     193 RCTISYRAPELFSVQSHCVIDERTDVWSLGCVLYAMMFGEGPY-DMVFQK    241
+
+AF-Q6AUE3-F1     303 --DVSSAVVHQNLRPDVPRCCPSAFANIMRKCWDANPDKRPDMDEVVQLL    350
+                       .|:.||.:|...|..|| ..||...::......:|.:||.:..::..|
+AF-O75716-F1     242 GDSVALAVQNQLSIPQSPR-HSSALRQLLNSMMTVDPHQRPHIPLLLSQL    290
+
+AF-Q6AUE3-F1     351 EALDTSKGG    359
+                     |||.....|
+AF-O75716-F1     291 EALQPPAPG    299
+
+
+#---------------------------------------
+#---------------------------------------

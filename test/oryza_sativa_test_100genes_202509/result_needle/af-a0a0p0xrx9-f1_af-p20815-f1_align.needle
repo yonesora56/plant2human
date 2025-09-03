@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:42
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0xrx9-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p20815-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0xrx9-f1_af-p20815-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0xrx9-f1_af-p20815-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0XRX9-F1
+# 2: AF-P20815-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 560
+# Identity:     134/560 (23.9%)
+# Similarity:   235/560 (42.0%)
+# Gaps:         111/560 (19.8%)
+# Score: 309.5
+# 
+#
+#=======================================
+
+AF-A0A0P0XRX9      1 MASFLPWL---PWLLAA--LLSVYLLDLLAHS--RRLLPPGPRPLPLIGS     43
+                      ...:|.|   .|||.|  |:.:||.....|.  :||..|||.||||:|:
+AF-P20815-F1       1 -MDLIPNLAVETWLLLAVSLVLLYLYGTRTHGLFKRLGIPGPTPLPLLGN     49
+
+AF-A0A0P0XRX9     44 LHLLGDQPHRSLAGL-------AKMYGPLMSLRLGAVTTVVVSSPDVARE     86
+                     :     ..:|.  ||       .|.||.:.....|.:..:.::.|||.|.
+AF-P20815-F1      50 V-----LSYRQ--GLWKFDTECYKKYGKMWGTYEGQLPVLAITDPDVIRT     92
+
+AF-A0A0P0XRX9     87 FLQRH-NAAFASRSVPDATGDHATNSVAWLPNSPRWRALRRIMAAELFAP    135
+                     .|.:. .:.|.:|......|  ...|...|.....|:.:|.:: :..|..
+AF-P20815-F1      93 VLVKECYSVFTNRRSLGPVG--FMKSAISLAEDEEWKRIRSLL-SPTFTS    139
+
+AF-A0A0P0XRX9    136 HRLDALRRLRREKVQELVDHVARLAEREGGAAAVDVGRVAFATSLNLLSS    185
+                     .:|..:..:..:....||.::.|.||:   ...|.:..:..|.|:::::.
+AF-P20815-F1     140 GKLKEMFPIIAQYGDVLVRNLRREAEK---GKPVTLKDIFGAYSMDVITG    186
+
+AF-A0A0P0XRX9    186 TIFSRNLTSLDDHGESMEFKEVVVEIMEAGGC----------PNVSDFFP    225
+                     |.|..|:.||::..:  .|.|...:.::.|..          |.::..|.
+AF-P20815-F1     187 TSFGVNIDSLNNPQD--PFVESTKKFLKFGFLDPLFLSIILFPFLTPVFE    234
+
+AF-A0A0P0XRX9    226 AIAAADLQGWRRRMAGLFAR-----LHRVFDAVVEERLSERDAGEARKGD    270
+                     |:..:           ||.:     |.:..:.:.:.||:::   :..:.|
+AF-P20815-F1     235 ALNVS-----------LFPKDTINFLSKSVNRMKKSRLNDK---QKHRLD    270
+
+AF-A0A0P0XRX9    271 FLDVLLDVA-ARDNDS--AGLDRDTLRSLFTDLFAAGSDTSPSIVEWAIA    317
+                     ||.:::|.. :::.:|  |..|.:........:| ||.:|:.|::.:.:.
+AF-P20815-F1     271 FLQLMIDSQNSKETESHKALSDLELAAQSIIFIF-AGYETTSSVLSFTLY    319
+
+AF-A0A0P0XRX9    318 ELMRNPLWFLHQCCD-------ELSQVIGSGTNIEESDIGQLPYLQAVVK    360
+                     ||..:|        |       |:..|:.:........:.|:.||..||.
+AF-P20815-F1     320 ELATHP--------DVQQKLQKEIDAVLPNKAPPTYDAVVQMEYLDMVVN    361
+
+AF-A0A0P0XRX9    361 ETFRLHPPVPLLLPRQAETTTNIAGYTIPKGARVFVNVWAIGRHKDTWSQ    410
+                     ||.||. ||.:.|.|..:....|.|..||||:.|.:..:|:......|::
+AF-P20815-F1     362 ETLRLF-PVAIRLERTCKKDVEINGVFIPKGSMVVIPTYALHHDPKYWTE    410
+
+AF-A0A0P0XRX9    411 PEKFMPERFFER--NIDFRGVHFELIPFGAGRRICPRMPLANRMVHLVLG    458
+                     ||:|.||||.::  :||    .:...|||.|.|.|..|..|...:.|.|.
+AF-P20815-F1     411 PEEFRPERFSKKKDSID----PYIYTPFGTGPRNCIGMRFALMNMKLALI    456
+
+AF-A0A0P0XRX9    459 SLLNQFKW------NLPVDIERNGIDMSEKFGLTLVKAIPLCALVTPISV    502
+                     .:|..|.:      .:|:.::..|:...||         |:.     :.|
+AF-P20815-F1     457 RVLQNFSFKPCKETQIPLKLDTQGLLQPEK---------PIV-----LKV    492
+
+AF-A0A0P0XRX9    503 ESGDH-----    507
+                     :|.|.     
+AF-P20815-F1     493 DSRDGTLSGE    502
+
+
+#---------------------------------------
+#---------------------------------------

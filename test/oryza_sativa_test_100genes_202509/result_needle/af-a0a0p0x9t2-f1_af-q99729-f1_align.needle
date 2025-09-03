@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:53
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0x9t2-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q99729-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0x9t2-f1_af-q99729-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0x9t2-f1_af-q99729-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0X9T2-F1
+# 2: AF-Q99729-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 370
+# Identity:      57/370 (15.4%)
+# Similarity:    96/370 (25.9%)
+# Gaps:         159/370 (43.0%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+AF-A0A0P0X9T2      1 -----------MAGSSESDYYS--EEEEELGWEEDGLGS--------EGE     29
+                                ..|::|:.:.:  |.....||.....|:        .|.
+AF-Q99729-F1       1 MSEAGEEQPMETTGATENGHEAVPEASRGRGWTGAAAGAGGATAAPPSGN     50
+
+AF-A0A0P0X9T2     30 EEDAEAARERALKRLDGLGKRGVCYLSRVPPNMNPSHVRQMLSKYGEVQ-     78
+                     :..||..:..|.|..:..||..|..||.   :.:...::...:|:|||. 
+AF-Q99729-F1      51 QNGAEGDQINASKNEEDAGKMFVGGLSW---DTSKKDLKDYFTKFGEVVD     97
+
+AF-A0A0P0X9T2     79 -RIYLVPEGQGHRKHTNVRAKAYTEGWIEF----SKKSVAKRVANLLNGE    123
+                      .|.:.|        ...|::.:  |:|.|    |.:.|..:..:.|:|.
+AF-Q99729-F1      98 CTIKMDP--------NTGRSRGF--GFILFKDAASVEKVLDQKEHRLDGR    137
+
+AF-A0A0P0X9T2    124 QIGGKKRSPFYYDIWNIKYLKKFKWDDLVGEIAEKTHIREQKLNLEIAAA    173
+                     .|..||......|     .:||.    .||           .||.|....
+AF-Q99729-F1     138 VIDPKKAMAMKKD-----PVKKI----FVG-----------GLNPESPTE    167
+
+AF-A0A0P0X9T2    174 KKQRDHY--LSNVEKSRTLKHIQERRKKKQKTEGAEFNEVREEKIARPIP    221
+                     :|.|:::  ...:|....     ....|..|..|..|...:||:..:.:.
+AF-Q99729-F1     168 EKIREYFGEFGEIEAIEL-----PMDPKLNKRRGFVFITFKEEEPVKKVL    212
+
+AF-A0A0P0X9T2    222 QKK--PVEETDAKTKPKLPKDILAGVFGGP--------------------    249
+                     :||  .|..:..:.|...||::......|.                    
+AF-Q99729-F1     213 EKKFHTVSGSKCEIKVAQPKEVYQQQQYGSGGRGNRNRGNRGSGGGGGGG    262
+
+AF-A0A0P0X9T2    249 --------------------------------------------------    249
+                                                                       
+AF-Q99729-F1     263 GQSQSWNQGYGNYWNQGYGYQQGYGPGYGGYDYSPYGYYGYGPGYDYSQG    312
+
+AF-A0A0P0X9T2    249 --------------------    249
+                                         
+AF-Q99729-F1     313 STNYGKSQRRGGHQNNYKPY    332
+
+
+#---------------------------------------
+#---------------------------------------

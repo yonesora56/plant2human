@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:20
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o75530-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vcb7-f1_af-o75530-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vcb7-f1_af-o75530-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-O75530-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 459
+# Identity:      40/459 ( 8.7%)
+# Similarity:    73/459 (15.9%)
+# Gaps:         299/459 (65.1%)
+# Score: 68.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O75530-F1       1 MSEREVSTAPAGTDMPAAKKQKLSSDENSNPDLSGDENDDAVSIESGTNT     50
+
+AF-A0A0P0VCB7      1 ------------------------------------------------VQ      2
+                                                                     ||
+AF-O75530-F1      51 ERPDTPTNTPNAPGRKSWGKGKWKSKKCKYSFKCVNSLKEDHNQPLFGVQ    100
+
+AF-A0A0P0VCB7      3 SVAWSRQSPEVLLSGSFDKSVAMNDMKDGGQSCNKWS-VEADVE----SL     47
+                     ....|::...::.:......|.:.:....|:.....| |:||.:    :.
+AF-O75530-F1     101 FNWHSKEGDPLVFATVGSNRVTLYECHSQGEIRLLQSYVDADADENFYTC    150
+
+AF-A0A0P0VCB7     48 AW--DPHNEHSFM-VSLENGMVQAFDKRTASSNSNSGRPTFTLHAHEKAV     94
+                     ||  |.:..|..: |:...|:::..:..|.....:       ...|..|:
+AF-O75530-F1     151 AWTYDSNTSHPLLAVAGSRGIIRIINPITMQCIKH-------YVGHGNAI    193
+
+AF-A0A0P0VCB7     95 SSISFSPSTPNFLATGSTDKMVKLWDLSNNQPSCIASLNPKLGAIF----    140
+                     :.:.|.|..||.|.:.|.|..::||::..:          .|.|||    
+AF-O75530-F1     194 NELKFHPRDPNLLLSVSKDHALRLWNIQTD----------TLVAIFGGVE    233
+
+AF-A0A0P0VCB7    141 ---SVSFSNDSPFL---LASGGSKGKLKVWNTLTEPAVANKFGK------    178
+                        ....|.|...|   :.|.|....||:|. :....:.|...:      
+AF-O75530-F1     234 GHRDEVLSADYDLLGEKIMSCGMDHSLKLWR-INSKRMMNAIKESYDYNP    282
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-O75530-F1     283 NKTNRPFISQKIHFPDFSTRDIHRNYVDCVRWLGDLILSKSCENAIVCWK    332
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-O75530-F1     333 PGKMEDDIDKIKPSESNVTILGRFDYSQCDIWYMRFSMDFWQKMLALGNQ    382
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-O75530-F1     383 VGKLYVWDLEVEDPHKAKCTTLTHHKCGAAIRQTSFSRDSSILIAVCDDA    432
+
+AF-A0A0P0VCB7    178 ---------    178
+                              
+AF-O75530-F1     433 SIWRWDRLR    441
+
+
+#---------------------------------------
+#---------------------------------------

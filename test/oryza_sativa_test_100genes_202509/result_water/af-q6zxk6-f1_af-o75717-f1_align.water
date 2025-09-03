@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:00
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6zxk6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o75717-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6zxk6-f1_af-o75717-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6zxk6-f1_af-o75717-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6ZXK6-F1
+# 2: AF-O75717-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 256
+# Identity:      53/256 (20.7%)
+# Similarity:    82/256 (32.0%)
+# Gaps:          85/256 (33.2%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+AF-Q6ZXK6-F1       3 MAAGT---WVKLEQKGDGPGARSSHAITLVGGTAYAFGGEFTPR------     43
+                     :|||:   .||:....|     ||...|..|..|......|.|:      
+AF-O75717-F1     109 IAAGSSDFLVKIVDVMD-----SSQQKTFRGHDAPVLSLSFDPKDIFLAS    153
+
+AF-Q6ZXK6-F1      44 VPVDNAMYAFDLKSQ-C---WSALDASGDVP----------PPRVGVTMA     79
+                     ...|.::..:.:..| |   |..|....||.          .|:.|..:|
+AF-O75717-F1     154 ASCDGSVRVWQISDQTCAISWPLLQKCNDVINAKSICRLAWQPKSGKLLA    203
+
+AF-Q6ZXK6-F1      80 -SVGATVYMFGGRDQEHKELNELYSFDTATN---------RWT----LLS    115
+                      .|..:|.::......|:       ||.:.|         .|:    .|:
+AF-O75717-F1     204 IPVEKSVKLYRRESWSHQ-------FDLSDNFISQTLNIVTWSPCGQYLA    246
+
+AF-Q6ZXK6-F1     116 SGAGDG-----------PPHRSYHSMVADAAGGGKVYVFGGCGDA-----    149
+                     :|:.:|           ...|..|.         |.|..  ||.|     
+AF-O75717-F1     247 AGSINGLIIVWNVETKDCMERVKHE---------KGYAI--CGLAWHPTC    285
+
+AF-Q6ZXK6-F1     150 GRLNDLWAYDVAAGRWEALPSPGEACKPRGGPGLAVAGGKVWVVYG--FS    197
+                     ||:    :|..|.|....|.:   .|.|.|....:....:|...|.  |.
+AF-O75717-F1     286 GRI----SYTDAEGNLGLLEN---VCDPSGKTSSSKVSSRVEKDYNDLFD    328
+
+AF-Q6ZXK6-F1     198 GEELDD    203
+                     |:::.:
+AF-O75717-F1     329 GDDMSN    334
+
+
+#---------------------------------------
+#---------------------------------------

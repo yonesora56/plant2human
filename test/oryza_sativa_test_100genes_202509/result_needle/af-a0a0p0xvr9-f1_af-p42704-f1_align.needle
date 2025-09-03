@@ -1,0 +1,149 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:53
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0xvr9-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p42704-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0xvr9-f1_af-p42704-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0xvr9-f1_af-p42704-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0XVR9-F1
+# 2: AF-P42704-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1395
+# Identity:      19/1395 ( 1.4%)
+# Similarity:    38/1395 ( 2.7%)
+# Gaps:        1308/1395 (93.8%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+AF-A0A0P0XVR9      0 --------------------------------------------------      0
+                                                                       
+AF-P42704-F1       1 MAALLRSARWLLRAGAAPRLPLSLRLLPGGPGRLHAASYLPAARAGPVAG     50
+
+AF-A0A0P0XVR9      0 --------------------------------------------------      0
+                                                                       
+AF-P42704-F1      51 GLLSPARLYAIAAKEKDIQEESTFSSRKISNQFDWALMRLDLSVRRTGRI    100
+
+AF-A0A0P0XVR9      0 --------------------------------------------------      0
+                                                                       
+AF-P42704-F1     101 PKKLLQKVFNDTCRSGGLGGSHALLLLRSCGSLLPELKLEERTEFAHRIW    150
+
+AF-A0A0P0XVR9      0 --------------------------------------------------      0
+                                                                       
+AF-P42704-F1     151 DTLQKLGAVYDVSHYNALLKVYLQNEYKFSPTDFLAKMEEANIQPNRVTY    200
+
+AF-A0A0P0XVR9      1 -----------------------VRNGIQPDHHVFNILICAYAKQEKVDQ     27
+                                            ....:.....||:.|:..:|:...::.
+AF-P42704-F1     201 QRLIASYCNVGDIEGASKILGFMKTKDLPVTEAVFSALVTGHARAGDMEN    250
+
+AF-A0A0P0XVR9     28 AMLVFSKMRQHGLNPNVVCYGTVIDVLCKSGSVDDAMLYFEQ-------M     70
+                     |..:.:.||..|:.|....|..:::...:.|.:|......|:       :
+AF-P42704-F1     251 AENILTVMRDAGIEPGPDTYLALLNAYAEKGDIDHVKQTLEKVEKSELHL    300
+
+AF-A0A0P0XVR9     71 IDEGLTPNIILSVSSVLF--------------------------------     88
+                     :|..|. .||.|.|...:                                
+AF-P42704-F1     301 MDRDLL-QIIFSFSKAGYPQYVSEILEKVTCERRYIPDAMNLILLLVTEK    349
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1     350 LEDVALQILLACPVSKEDGPSVFGSFFLQHCVTMNTPVEKLTDYCKKLKE    399
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1     400 VQMHSFPLQFTLHCALLANKTDLAKALMKAVKEEGFPIRPHYFWPLLVGR    449
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1     450 RKEKNVQGIIEILKGMQELGVHPDQETYTDYVIPCFDSVNSARAILQENG    499
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1     500 CLSDSDMFSQAGLRSEAANGNLDFVLSFLKSNTLPISLQSIRSSLLLGFR    549
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1     550 RSMNINLWSEITELLYKDGRYCQEPRGPTEAVGYFLYNLIDSMSDSEVQA    599
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1     600 KEEHLRQYFHQLEKMNVKIPENIYRGIRNLLESYHVPELIKDAHLLVESK    649
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1     650 NLDFQKTVQLTSSELESTLETLKAENQPIRDVLKQLILVLCSEENMQKAL    699
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1     700 ELKAKYESDMVTGGYAALINLCCRHDKVEDALNLKEEFDRLDSSAVLDTG    749
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1     750 KYVGLVRVLAKHGKLQDAINILKEMKEKDVLIKDTTALSFFHMLNGAALR    799
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1     800 GEIETVKQLHEAIVTLGLAEPSTNISFPLVTVHLEKGDLSTALEVAIDCY    849
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1     850 EKYKVLPRIHDVLCKLVEKGETDLIQKAMDFVSQEQGEMVMLYDLFFAFL    899
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1     900 QTGNYKEAKKIIETPGIRARSARLQWFCDRCVANNQVETLEKLVELTQKL    949
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1     950 FECDRDQMYYNLLKLYKINGDWQRADAVWNKIQEENVIPREKTLRLLAEI    999
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1    1000 LREGNQEVPFDVPELWYEDEKHSLNSSSASTTEPDFQKDILIACRLNQKK   1049
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1    1050 GAYDIFLNAKEQNIVFNAETYSNLIKLLMSEDYFTQAMEVKAFAETHIKG   1099
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1    1100 FTLNDAANSRLIITQVRRDYLKEAVTTLKTVLDQQQTPSRLAVTRVIQAL   1149
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1    1150 AMKGDVENIEVVQKMLNGLEDSIGLSKMVFINNIALAQIKNNNIDAAIEN   1199
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1    1200 IENMLTSENKVIEPQYFGLAYLFRKVIEEQLEPAVEKISIMAERLANQFA   1249
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1    1250 IYKPVTDFFLQLVDAGKVDDARALLQRCGAIAEQTPILLLFLLRNSRKQG   1299
+
+AF-A0A0P0XVR9     88 --------------------------------------------------     88
+                                                                       
+AF-P42704-F1    1300 KASTVKSVLELIPELNEKEEAYNSLMKSYVSEKDVTSAKALYEHLTAKNT   1349
+
+AF-A0A0P0XVR9     88 ---------------------------------------------     88
+                                                                  
+AF-P42704-F1    1350 KLDDLFLKRYASLLKYAGEPVPFIEPPESFEFYAQQLRKLRENSS   1394
+
+
+#---------------------------------------
+#---------------------------------------

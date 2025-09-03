@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:48
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q5vt25-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-q5vt25-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-q5vt25-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-Q5VT25-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 302
+# Identity:      78/302 (25.8%)
+# Similarity:   128/302 (42.4%)
+# Gaps:          68/302 (22.5%)
+# Score: 202.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      41 IQLEKQLTK--TWGK------ANLKAHGPKEDWEIDLAKLEIRYVIAQGT     82
+                     ::.||.:.:  .|.|      ..::.|  :||:       ||..||.:|.
+AF-Q5VT25-F1      47 LRREKNILEYLEWAKPFTSKVKQMRLH--REDF-------EILKVIGRGA     87
+
+AF-Q6AUE3-F1      83 YGTVYRGTYDGQD--VAVKLLDWGEDGFATEAETAALRTSFKQEVAVWHK    130
+                     :|.|........|  .|:|:|:..|  ....||||..|.  :::|.|   
+AF-Q5VT25-F1      88 FGEVAVVKLKNADKVFAMKILNKWE--MLKRAETACFRE--ERDVLV---    130
+
+AF-Q6AUE3-F1     131 LSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCVVVEYLAGGT    180
+                              .|.:...|.|.....:.|     ||     .:|::|..||.
+AF-Q5VT25-F1     131 ---------NGDNKWITTLHYAFQDDN-----NL-----YLVMDYYVGGD    161
+
+AF-Q6AUE3-F1     181 LKQYLIKNSRRKLAYKVVVQLALDLAR--------GLSYLHSRKIVHRDV    222
+                     |...|.|...|         |..|:||        .:..:|....||||:
+AF-Q5VT25-F1     162 LLTLLSKFEDR---------LPEDMARFYLAEMVIAIDSVHQLHYVHRDI    202
+
+AF-Q6AUE3-F1     223 KTENMLLDTQRNLKIADFG-VARVEAQNPKDMTGATGTLGYMAPEVL---    268
+                     |.:|:|:|...::::|||| ..::........:.|.||..|::||:|   
+AF-Q5VT25-F1     203 KPDNILMDMNGHIRLADFGSCLKLMEDGTVQSSVAVGTPDYISPEILQAM    252
+
+AF-Q6AUE3-F1     269 -DGK-PYNRKCDVYSFGICLWEIYCCDMPYPDLSFADVSSAVVHQNLRPD    316
+                      ||| .|..:||.:|.|:|::|:...:.|:...|..:....:::...|..
+AF-Q5VT25-F1     253 EDGKGRYGPECDWWSLGVCMYEMLYGETPFYAESLVETYGKIMNHKERFQ    302
+
+AF-Q6AUE3-F1     317 VP    318
+                     .|
+AF-Q5VT25-F1     303 FP    304
+
+
+#---------------------------------------
+#---------------------------------------

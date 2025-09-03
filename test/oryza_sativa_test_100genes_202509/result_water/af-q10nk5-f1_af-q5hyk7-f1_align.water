@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:05
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q5hyk7-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-q5hyk7-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-q5hyk7-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-Q5HYK7-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 218
+# Identity:      55/218 (25.2%)
+# Similarity:    88/218 (40.4%)
+# Gaps:          41/218 (18.8%)
+# Score: 138.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1     173 KQLKSKESSGNADNSVKLQHAESKLSELRTTLSALGREATAAMEAVEVQQ    222
+                     |:|....||.:.|       .:.|.|.|.|.||       .|...|...|
+AF-Q5HYK7-F1     360 KKLPFNRSSSDMD-------LQKKQSNLATGLS-------KAKSQVFKNQ    395
+
+AF-Q10NK5-F1     223 QQVTFDR-----------LLAM---VDAERAYHQNAADILNKLHDEMVQA    258
+                     ..|...|           :|::   :..|....||..::..|..|.:|..
+AF-Q5HYK7-F1     396 DPVLPPRPKPGHPLYSKYMLSVPHGIANEDIVSQNPGELSCKRGDVLVML    445
+
+AF-Q10NK5-F1     259 KHHDEPENHYDETSSDPKTAATHEHSRSTSEDHIFTNTSEPTRTETSEPT    308
+                     |   :.||:|.|......|...|     .|:..|.|...|..|:..::|:
+AF-Q5HYK7-F1     446 K---QTENNYLECQKGEDTGRVH-----LSQMKIITPLDEHLRSRPNDPS    487
+
+AF-Q10NK5-F1     309 RTETSEPTRNGQEVHYVGEVIHPFDAQADGELSISVGDYVVVRQVAPNGW    358
+                     ..:  :|..:|.. |.|  |:|.|.|:...:|:::.|:.|.:.:.....|
+AF-Q5HYK7-F1     488 HAQ--KPVDSGAP-HAV--VLHDFPAEQVDDLNLTSGEIVYLLEKIDTDW    532
+
+AF-Q10NK5-F1     359 SEGECKGKAGWFPSAYVE    376
+                     ..|.|:.:.|.||:.||:
+AF-Q5HYK7-F1     533 YRGNCRNQIGIFPANYVK    550
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:59
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0j381-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q6pf15-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0j381-f1_af-q6pf15-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0j381-f1_af-q6pf15-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0J381-F1
+# 2: AF-Q6PF15-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 212
+# Identity:      59/212 (27.8%)
+# Similarity:    95/212 (44.8%)
+# Gaps:          33/212 (15.6%)
+# Score: 174.0
+# 
+#
+#=======================================
+
+AF-Q0J381-F1       7 TWVKLEQKGDGPGARSSHAITLVGGTAYAFGG-EFTPRVPVDNAMYAFDL     55
+                     ||:|:.....|   |..|.:.:|.|..:|.|| :...|:   :::..:|.
+AF-Q6PF15-F1     373 TWIKVASLHKG---RWRHKMAVVQGQLFAVGGFDGLRRL---HSVERYDP    416
+
+AF-Q0J381-F1      56 KSQCWSALDASGDVPPPRVGVTMASVGATVYMFGGRDQEHKELNELYSFD    105
+                     .|..|:   |:..:|.......:||....:::.||..|.....:::..||
+AF-Q6PF15-F1     417 FSNTWA---AAAPLPEAVSSAAVASCAGKLFVIGGARQGGVNTDKVQCFD    463
+
+AF-Q0J381-F1     106 TATNRWTLLSSGAGDGPPHRSYHSMVADAAGGGKVYVFGGCGDAGRLNDL    155
+                     ...:||:|.|      |...|...:.| .:....:||.||.     ::.:
+AF-Q6PF15-F1     464 PKEDRWSLRS------PAPFSQRCLEA-VSLEDTIYVMGGL-----MSKI    501
+
+AF-Q0J381-F1     156 WAYDVAAGRW-EA--LPSPGEACKPRGGPGLAVAGGKVWVVYGFS--GEE    200
+                     :.||.....| ||  ||||.|:|      |:.|..|||.::.|..  ||.
+AF-Q6PF15-F1     502 FTYDPGTDVWGEAAVLPSPVESC------GVTVCDGKVHILGGRDDRGES    545
+
+AF-Q0J381-F1     201 LDDVHCYDPGTG    212
+                     .|.|..:||.:|
+AF-Q6PF15-F1     546 TDKVFTFDPSSG    557
+
+
+#---------------------------------------
+#---------------------------------------

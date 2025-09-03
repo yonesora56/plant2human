@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:22
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q13882-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-q13882-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-q13882-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-Q13882-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 309
+# Identity:      75/309 (24.3%)
+# Similarity:   129/309 (41.7%)
+# Gaps:          65/309 (21.0%)
+# Score: 257.5
+# 
+#
+#=======================================
+
+AF-Q75J49-F1      54 ANLKAHGPK-----EDWEIDLAKLEIRYVIAQGTYGTVYRGTY-DGQDVA     97
+                     |..:.|.|:     :|||....:..:...:..|.:|.|:.|.: |...||
+AF-Q13882-F1     168 APCRKHEPEPLPHWDDWERPREEFTLCRKLGSGYFGEVFEGLWKDRVQVA    217
+
+AF-Q75J49-F1      98 VKLLDWGEDGFATEAETAALRTSFKQEVAVWHKLSHPNV-TKFVGASMGT    146
+                     :|::         ..:....:...:.|:....||.|.:: ..:...|:|.
+AF-Q13882-F1     218 IKVI---------SRDNLLHQQMLQSEIQAMKKLRHKHILALYAVVSVGD    258
+
+AF-Q75J49-F1     147 TDLKIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYK    196
+                                          ...::.|.:|.|:|.:.|..:..:.|...
+AF-Q13882-F1     259 ---------------------PVYIITELMAKGSLLELLRDSDEKVLPVS    287
+
+AF-Q75J49-F1     197 VVVQLALDLARGLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARVE    246
+                     .::.:|..:|.|:.||.|:..:|||:...|:|:......|:.|||:||:.
+AF-Q13882-F1     288 ELLDIAWQVAEGMCYLESQNYIHRDLAARNILVGENTLCKVGDFGLARLI    337
+
+AF-Q75J49-F1     247 AQN---------PKDMTGATGTLGYMAPEVLDGKPYNRKCDVYSFGICLW    287
+                     .::         |...|         |||.|....|:.|.||:||||.|.
+AF-Q13882-F1     338 KEDVYLSHDHNIPYKWT---------APEALSRGHYSTKSDVWSFGILLH    378
+
+AF-Q75J49-F1     288 EIYC-CDMPYPDLS----FADVSSAVVHQNLRPDVPRCCPSAFANIMRKC    332
+                     |::. ..:|||.:|    |..|.:     ..|...|..||.:...:|..|
+AF-Q13882-F1     379 EMFSRGQVPYPGMSNHEAFLRVDA-----GYRMPCPLECPPSVHKLMLTC    423
+
+AF-Q75J49-F1     333 WDANPDKRP    341
+                     |..:|::||
+AF-Q13882-F1     424 WCRDPEQRP    432
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:55
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o00444-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-o00444-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-o00444-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-O00444-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 324
+# Identity:      83/324 (25.6%)
+# Similarity:   143/324 (44.1%)
+# Gaps:          45/324 (13.9%)
+# Score: 254.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     610 SIIGKGGFGTVYHG-ILENNDEVAVKVLVETSIAESKDFLPEVQTLSKVH    658
+                     :::|||.|..||.. .:....|||:|::.:.::.:: ..:..||...|:|
+AF-O00444-F1      16 NLLGKGSFAGVYRAESIHTGLEVAIKMIDKKAMYKA-GMVQRVQNEVKIH     64
+
+AF-B7FAC9-F1     659 ----HKNLVALVGYCQNKKCLALVYDFMPRGNLQQLLRGGYDSLNWEERL    704
+                         |.:::.|..|.::...:.||.:....|.:.:.|:......:..|..
+AF-O00444-F1      65 CQLKHPSILELYNYFEDSNYVYLVLEMCHNGEMNRYLKNRVKPFSENEAR    114
+
+AF-B7FAC9-F1     705 HIALDAAQGLEYLHESCTPSIVHRDVKTPNILLDKNLVAKISDFGLSRAF    754
+                     |.......|:.|||   :..|:|||:...|:||.:|:..||:||||:...
+AF-O00444-F1     115 HFMHQIITGMLYLH---SHGILHRDLTLSNLLLTRNMNIKIADFGLATQL    161
+
+AF-B7FAC9-F1     755 NAAHTHISTVAAGTLGYLDPEYHATFQLTVKTDVYSFGIVLLEIVTGQPP    804
+                     ...|....|: .||..|:.||........:::||:|.|.:...::.|:||
+AF-O00444-F1     162 KMPHEKHYTL-CGTPNYISPEIATRSAHGLESDVWSLGCMFYTLLIGRPP    210
+
+AF-B7FAC9-F1     805 VFMDPQTVHLPNWVRQKIANGSVHDVVDKKLLDQYDATHLQTV--IDLAM    852
+                     ...|                 :|.:.::|.:|..|:.....::  .||..
+AF-O00444-F1     211 FDTD-----------------TVKNTLNKVVLADYEMPSFLSIEAKDLIH    243
+
+AF-B7FAC9-F1     853 NCLENASIDRPSMTEVVSVLKVCLPISSERQSATSTPRKKNVMD------    896
+                     ..|.....||.|::.|:.     .|..| |.|:|.:.....|.|      
+AF-O00444-F1     244 QLLRRNPADRLSLSSVLD-----HPFMS-RNSSTKSKDLGTVEDSIDSGH    287
+
+AF-B7FAC9-F1     897 AEIPRQFQLMISGASTTSYEGSSF    920
+                     |.|    ...|:.:|:||..||.|
+AF-O00444-F1     288 ATI----STAITASSSTSISGSLF    307
+
+
+#---------------------------------------
+#---------------------------------------

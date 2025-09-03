@@ -1,0 +1,125 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:59
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0dw27-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q4vnc0-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0dw27-f1_af-q4vnc0-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0dw27-f1_af-q4vnc0-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0DW27-F1
+# 2: AF-Q4VNC0-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1093
+# Identity:     235/1093 (21.5%)
+# Similarity:   415/1093 (38.0%)
+# Gaps:         310/1093 (28.4%)
+# Score: 404.0
+# 
+#
+#=======================================
+
+AF-Q0DW27-F1      37 GLTSEVAQQRIHSFGYNKLEEKQES--KLLKFLGFMWNPLSWVMEAAAIM     84
+                     |||||..:.|....|.|.:|.:.:.  |||  :..:.||. :|.:|.. :
+AF-Q4VNC0-F1     170 GLTSEEQEVRRLVCGPNAIEVEIQPIWKLL--VKQVLNPF-YVFQAFT-L    215
+
+AF-Q0DW27-F1      85 AIALAHGGRDARGKRMRIDYHDFVGIVLLLFINSTIS-------------    121
+                     .:.|:.|         .|:|.  |.|::|..|:..:|             
+AF-Q4VNC0-F1     216 TLWLSQG---------YIEYS--VAIIILTVISIVLSVYDLRQQSVKLHN    254
+
+AF-Q0DW27-F1     122 FMEENNAGNAAAALMARLAPKAKVLRDGTWDELDASLLVPGDIISVKLGD    171
+                     .:|::|......           :::|...:||::.|||||||:.:....
+AF-Q4VNC0-F1     255 LVEDHNKVQVTI-----------IVKDKGLEELESRLLVPGDILILPGKF    293
+
+AF-Q0DW27-F1     172 IIPADARLLEGDPLKIDQSALTGESLPVTKHP------------------    203
+                     .:|.||.|::|..: :::..|||||:||||.|                  
+AF-Q4VNC0-F1     294 SLPCDAVLIDGSCV-VNEGMLTGESIPVTKTPLPQMENTMPWKCHSLEDY    342
+
+AF-Q0DW27-F1     204 -------GDGIYSGSTCKQGEIEAVVIATGIHTFFGKAAHLVESTTHVGH    246
+                            |..:.......||.:.|||:.||.:|..|   .||.|..    
+AF-Q4VNC0-F1     343 RKHVLFCGTEVIQVKPSGQGPVRAVVLQTGYNTAKG---DLVRSIL----    385
+
+AF-Q0DW27-F1     247 FQKVLTSIGNFCICSIAAGMVIEL-----------LVMYAVHERKYRQIV    285
+                     :.:.|    ||.:.|.|...::.|           |.:|..|....:..|
+AF-Q4VNC0-F1     386 YPRPL----NFKLYSDAFKFIVFLACLGVMGFFYALGVYMYHGVPPKDTV    431
+
+AF-Q0DW27-F1     286 DNLLVLLIGGIPIAMPTVLSVTMAIGSHKLAQQGAITKRMTAIE----EM    331
+                     ...|:||    .:.:|.||...:.|| :..||:....|::..|.    .|
+AF-Q4VNC0-F1     432 TMALILL----TVTVPPVLPAALTIG-NVYAQKRLKKKKIFCISPQRINM    476
+
+AF-Q0DW27-F1     332 AG-MDVLCSDKTGTLTLNKL-------SVDKNLIEV--FEKG--------    363
+                     .| ::::|.|||||||.:.|       :.|....|.  |..|        
+AF-Q4VNC0-F1     477 CGQINLVCFDKTGTLTEDGLDLWGTVPTADNCFQEAHSFASGQAVPWSPL    526
+
+AF-Q0DW27-F1     364 ----------------IEKD--DVVLMAARASRLEN--QDAIDFAI-VSM    392
+                                     |:.|  |:.:....|.::|:  .|:..|.. ||.
+AF-Q4VNC0-F1     527 CAAMASCHSLILLNGTIQGDPLDLKMFEGTAWKMEDCIVDSCKFGTSVSN    576
+
+AF-Q0DW27-F1     393 L--PDPKEARAGIQEVHFL---PFNPTDKR-TALTYLDAEGKMHRVSKGA    436
+                     :  |.||.:::.::.:..|   ||:.:.:| :.:..|..|...|...|||
+AF-Q4VNC0-F1     577 IIKPGPKASKSPVEAIITLCQFPFSSSLQRMSVIAQLAGENHFHVYMKGA    626
+
+AF-Q0DW27-F1     437 PEQILNLASNKCEIERKVHHVIGNFAERGLRSLAVAYQ--------EVPE    478
+                     ||.:.....:: .:.:.....:.::..:|.|.:|:|::        ||..
+AF-Q4VNC0-F1     627 PEMVARFCRSE-TVPKNFPQELRSYTVQGFRVIALAHKTLKMGNLSEVEH    675
+
+AF-Q0DW27-F1     479 GTKESPGGPWQFVGLLPLFDPPRHDSAETIRRALDLGVSVKMITGDQLAI    528
+                     ..:|.......|:|||.:.:..:.::...::...:..:...|||||.|  
+AF-Q4VNC0-F1     676 LAREKVESELTFLGLLIMENRLKKETKLVLKELSEARIRTVMITGDNL--    723
+
+AF-Q0DW27-F1     529 GKETGRRLGMGTNMYPSSSLLGDRKDGDIAVLPVDE------------LI    566
+                       :|...:...:.|.|..|        .:.::..||            |:
+AF-Q4VNC0-F1     724 --QTAITVAKNSEMIPPGS--------QVIIVEADEPEEFVPASVTWQLV    763
+
+AF-Q0DW27-F1     567 E---------------------QADG------------------------    571
+                     |                     :.:|                        
+AF-Q4VNC0-F1     764 ENQETGPGKKEIYMHTGNSSTPRGEGGSCYHFAMSGKSYQVIFQHFNSLL    813
+
+AF-Q0DW27-F1     572 ---------FAGVFPEHKYEIVQRLQARKHICGMTGDGVNDAPALKKADI    612
+                              ||.:.|..|..:::..|...:..||.|||.||..|||.|..
+AF-Q4VNC0-F1     814 PKILVNGTVFARMSPGQKSSLIEEFQKLNYYVGMCGDGANDCGALKAAHA    863
+
+AF-Q0DW27-F1     613 GIAVADATDAARSASDIVLTEPGLSVIISAVLTSRAI----FQRMKNYTI    658
+                     ||::::  ..|..||........:..:...:...||.    |...|..|:
+AF-Q4VNC0-F1     864 GISLSE--QEASVASPFTSKTTNIQCVPHLIREGRAALVSSFGVFKYLTM    911
+
+AF-Q0DW27-F1     659 YAVSITVRIVLGFLLLACFWK---FDFPPFLVLVIAILNDGTIM---TIS    702
+                     |.:   ::.:...||   :|:   |....:|:..:||    |:|   |:|
+AF-Q4VNC0-F1     912 YGI---IQFISALLL---YWQLQLFGNYQYLMQDVAI----TLMVCLTMS    951
+
+AF-Q0DW27-F1     703 KDKVKP--SPYPDSWK-----------LTEIFATGVIIGAYLAVTTVLFF    739
+                     .....|  :||..:.:           |...|:..|.|.|:|.|....::
+AF-Q4VNC0-F1     952 STHAYPKLAPYRPAGQLLSPPLLLSIFLNSCFSCIVQISAFLYVKQQPWY   1001
+
+AF-Q0DW27-F1     740 WAAYKTQ--FFVHLFNVDT-LNINKVDTTDNELVARNTEKLASAVYLQVS    786
+                     ...|:..  |..:..|..| :::.:..|.:..|:..:.....:.....::
+AF-Q4VNC0-F1    1002 CEVYQYSECFLANQSNFSTNVSLERNWTGNATLIPGSILSFETTTLWPIT   1051
+
+AF-Q0DW27-F1     787 TISQALIFVTRSRGWSFLERP-------GLLLMAAFVIAQLIATVLAAIA    829
+                     ||:...:....|:|..| .:|       ..||:||     |..|:....:
+AF-Q4VNC0-F1    1052 TINYITVAFIFSKGKPF-RKPIYTNYIFSFLLLAA-----LGLTIFILFS   1095
+
+AF-Q0DW27-F1     830 TWEVASIRGI-------GWRWAGAIWVYNIVVYLLLDPMKFAVRYGL---    869
+                     .::|. .||:       .||          |:.|::...:|.|.:.:   
+AF-Q4VNC0-F1    1096 DFQVI-YRGMELIPTITSWR----------VLILVVALTQFCVAFFVEDS   1134
+
+AF-Q0DW27-F1     870 ---SGKAWNLVIDNKVAFTNRKDFGREARVVA----WAHEQRT    905
+                        :.:.| |:|..:..|.::..:....:.:|    |....||
+AF-Q4VNC0-F1    1135 ILQNHELW-LLIKREFGFYSKSQYRTWQKKLAEDSTWPPINRT   1176
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:38
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b9f2u5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p62070-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b9f2u5-f1_af-p62070-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b9f2u5-f1_af-p62070-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B9F2U5-F1
+# 2: AF-P62070-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 190
+# Identity:      39/190 (20.5%)
+# Similarity:    75/190 (39.5%)
+# Gaps:          45/190 (23.7%)
+# Score: 61.5
+# 
+#
+#=======================================
+
+AF-B9F2U5-F1      89 GKSTLADKLLELTGTVQKREMKQQFLDNMDLERERGITIKLQAARMRYIM    138
+                     |||.|         |:|  .::..|:.:.|...|...|       .:.::
+AF-P62070-F1      26 GKSAL---------TIQ--FIQSYFVTDYDPTIEDSYT-------KQCVI     57
+
+AF-B9F2U5-F1     139 NDEPYCLNLIDTPGHVDFSYEVSRSLAACEGALLVVDASQGVEAQTLANV    188
+                     :|....|:::||.|..:|.....:.:...||.|||...:   :..:...:
+AF-P62070-F1      58 DDRAARLDILDTAGQEEFGAMREQYMRTGEGFLLVFSVT---DRGSFEEI    104
+
+AF-B9F2U5-F1     189 Y-----LALENDLEIIPVL---NKIDL------PGAEPDRVAQEIEEIIG    224
+                     |     :....|.:..|::   ||.||      ...|..::|::: ::..
+AF-P62070-F1     105 YKFQRQILRVKDRDEFPMILIGNKADLDHQRQVTQEEGQQLARQL-KVTY    153
+
+AF-B9F2U5-F1     225 MDCSNAIRCSAKEGIGITEILDAIVTKI------PPPQNT    258
+                     |:.|..||.:..:..   ..|..::.|.      |.|:.|
+AF-P62070-F1     154 MEASAKIRMNVDQAF---HELVRVIRKFQEQECPPSPEPT    190
+
+
+#---------------------------------------
+#---------------------------------------

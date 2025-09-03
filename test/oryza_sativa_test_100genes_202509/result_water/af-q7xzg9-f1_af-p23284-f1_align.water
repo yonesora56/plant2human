@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:23
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q7xzg9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p23284-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q7xzg9-f1_af-p23284-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q7xzg9-f1_af-p23284-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7XZG9-F1
+# 2: AF-P23284-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 203
+# Identity:     101/203 (49.8%)
+# Similarity:   127/203 (62.6%)
+# Gaps:          17/203 ( 8.4%)
+# Score: 467.5
+# 
+#
+#=======================================
+
+AF-Q7XZG9-F1       7 AAISAGPT----PPSAAAASSSVDWHLRPPNPKNPV-VFFDVTIGSIPAG     51
+                     ||:.||..    .|..:||..      :...||..| |:||:.||....|
+AF-P23284-F1      15 AALIAGSVFFLLLPGPSAADE------KKKGPKVTVKVYFDLRIGDEDVG     58
+
+AF-Q7XZG9-F1      52 RIKMELFADIVPKTAENFRQFCTGEHRKSGLPQGYKGCQFHRVIKDFMIQ    101
+                     |:...||...||||.:||....|||   .|.  |||..:|||||||||||
+AF-P23284-F1      59 RVIFGLFGKTVPKTVDNFVALATGE---KGF--GYKNSKFHRVIKDFMIQ    103
+
+AF-Q7XZG9-F1     102 GGDYMKGDGTGCTSIYGTKFDDENFIAKHTGPGLLSMANSGVNSNGSQFF    151
+                     |||:.:|||||..||||.:|.||||..||.|||.:||||:|.::||||||
+AF-P23284-F1     104 GGDFTRGDGTGGKSIYGERFPDENFKLKHYGPGWVSMANAGKDTNGSQFF    153
+
+AF-Q7XZG9-F1     152 ITCAKCEWLDNKHVVFGRVLGDGMLAVRKIENVATGPNNRPKLACVISEC    201
+                     ||..|..|||.||||||:|| :||..|||:|:..|...::|....:|::|
+AF-P23284-F1     154 ITTVKTAWLDGKHVVFGKVL-EGMEVVRKVESTKTDSRDKPLKDVIIADC    202
+
+AF-Q7XZG9-F1     202 GEM    204
+                     |::
+AF-P23284-F1     203 GKI    205
+
+
+#---------------------------------------
+#---------------------------------------

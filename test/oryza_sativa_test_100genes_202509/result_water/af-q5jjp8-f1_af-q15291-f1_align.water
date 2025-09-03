@@ -1,0 +1,69 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:33
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q5jjp8-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q15291-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5jjp8-f1_af-q15291-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5jjp8-f1_af-q15291-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5JJP8-F1
+# 2: AF-Q15291-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 368
+# Identity:      78/368 (21.2%)
+# Similarity:   126/368 (34.2%)
+# Gaps:         135/368 (36.7%)
+# Score: 138.0
+# 
+#
+#=======================================
+
+AF-Q5JJP8-F1     168 LQVNLLE-------ETEDGDLNMFVHHEVPLADFPLCT--AWMDFNLKGG    208
+                     :.:.|||       |..||.|:.     :.:|  ..||  .|        
+AF-Q15291-F1       1 MNLELLESFGQNYPEEADGTLDC-----ISMA--LTCTFNRW--------     35
+
+AF-Q5JJP8-F1     209 DKGNFVAVGTMDPAIEIWDLDIVDEVQPHMVLGGHSKKKKKVKGKKAKKY    258
+                       |..:|||..|..|.|||          .:..|.:|             
+AF-Q15291-F1      36 --GTLLAVGCNDGRIVIWD----------FLTRGIAK-------------     60
+
+AF-Q5JJP8-F1     259 KKGSHRSSVLGLAWNKEVRNVLASASADKTVKIWDVSVGKC---------    299
+                     ...:|...|..|.|::: .:.|.|||.|..|..|||..|.|         
+AF-Q15291-F1      61 IISAHIHPVCSLCWSRD-GHKLVSASTDNIVSQWDVLSGDCDQRFRFPSP    109
+
+AF-Q5JJP8-F1     300 AVTLEHHD-DKVQSVAWSRQSPEVLLSGSFDKSVAMNDMKDGGQSCNKWS    348
+                     .:.:::|. |:.:.:....:|..|:|:.|..|.|.: .:.|         
+AF-Q15291-F1     110 ILKVQYHPRDQNKVLVCPMKSAPVMLTLSDSKHVVL-PVDD---------    149
+
+AF-Q5JJP8-F1     349 VEADVESLA-WDPHNEHSF----------MVSLENGMVQAFDKRTASSNS    387
+                      ::|:..:| :|...|:.:          :.:....:|.:|...|.:||:
+AF-Q15291-F1     150 -DSDLNVVASFDRRGEYIYTGNAKGKILVLKTDSQDLVASFRVTTGTSNT    198
+
+AF-Q5JJP8-F1     388 NSGRPTFTLHAHEKAVSSISFSPSTPNFLAT-------------------    418
+                     .             |:.||.|:.....||..                   
+AF-Q15291-F1     199 T-------------AIKSIEFARKGSCFLINTADRIIRVYDGREILTCGR    235
+
+AF-Q5JJP8-F1     419 -GSTDKMVKLWDLSNNQP--SCIASLNPKLGAIFSVSFSNDSPFLLASGG    465
+                      |..:.|.||.||.|..|  .|              .||.|..:::|...
+AF-Q15291-F1     236 DGEPEPMQKLQDLVNRTPWKKC--------------CFSGDGEYIVAGSA    271
+
+AF-Q5JJP8-F1     466 SKGKLKVWNTLTEPAVAN    483
+                     .:..|.:|    |.::.|
+AF-Q15291-F1     272 RQHALYIW----EKSIGN    285
+
+
+#---------------------------------------
+#---------------------------------------

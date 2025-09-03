@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:30
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6k7h2-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9c093-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6k7h2-f1_af-q9c093-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6k7h2-f1_af-q9c093-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6K7H2-F1
+# 2: AF-Q9C093-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 209
+# Identity:      44/209 (21.1%)
+# Similarity:    84/209 (40.2%)
+# Gaps:          69/209 (33.0%)
+# Score: 92.5
+# 
+#
+#=======================================
+
+AF-Q6K7H2-F1      65 EIKSG---------SENGTMIENMIKEGKIVPSEVTIKLLQEAMIK-SGN    104
+                     |:||.         ::.|...|.::|:||.:|..:.:.::..|:.: ..|
+AF-Q9C093-F1     670 EVKSSDSFLKLTTRAQLGAKSEQLLKKGKSIPDVLLVDIIVNAINEIPVN    719
+
+AF-Q6K7H2-F1     105 DKFLIDGFP-----------------RN---EENRAAFENVTKITPA---    131
+                     ...::||||                 ||   .|.:.|.::...|.||   
+AF-Q9C093-F1     720 QDCILDGFPMTLNQAQLLEEALTGCNRNLTEVERKKAQKSTLAIDPATSK    769
+
+AF-Q6K7H2-F1     132 ----------FVLFFDCSE---------------------EEMERRLLGR    150
+                               ||:..|.|:                     |::.:|:...
+AF-Q9C093-F1     770 EIPLPSPAFDFVILLDVSDTSSMSRMNDIIAEELSYKTAHEDISQRVAAE    819
+
+AF-Q6K7H2-F1     151 NQGR-VDDNI-ETIRKRFKVFVESSLPVIEYYNAKDK--VKKIDAAKPIP    196
+                     ||.: .|.|: :.|:.|...|:: :.|::|.:.::.:  :.||:|.....
+AF-Q9C093-F1     820 NQDKDGDQNLRDQIQHRIIGFLD-NWPLLEQWFSEPENILIKINAEIDKE    868
+
+AF-Q6K7H2-F1     197 EVFEDVKAI    205
+                     .:.|.||.|
+AF-Q9C093-F1     869 SLCEKVKEI    877
+
+
+#---------------------------------------
+#---------------------------------------

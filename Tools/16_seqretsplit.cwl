@@ -17,7 +17,7 @@ inputs:
     default:
       class: File
       format: edam:format_1929
-      location: ../test/workflow_test/blastdbcmd_result_query_species.fasta
+      location: ../test/oryza_sativa_test_202509/blastdbcmd_result_query_species.fasta
   # - id: sformat1
   #   type: string
   #   doc: "sequence format"

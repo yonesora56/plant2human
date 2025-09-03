@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:28
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p04626-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-p04626-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-p04626-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-P04626-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 293
+# Identity:      73/293 (24.9%)
+# Similarity:   138/293 (47.1%)
+# Gaps:          47/293 (16.0%)
+# Score: 253.0
+# 
+#
+#=======================================
+
+AF-Q75J49-F1      66 EIDLAKLEIRYVIAQGTYGTVYRGTY--DGQD----VAVKLLDWGEDGFA    109
+                     |.:|.|::   |:..|.:||||:|.:  ||::    ||:|:|   .:..:
+AF-P04626-F1     717 ETELRKVK---VLGSGAFGTVYKGIWIPDGENVKIPVAIKVL---RENTS    760
+
+AF-Q75J49-F1     110 TEAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAG    159
+                     .:|....|     .|..|...:..|.|::.:|..:.:|            
+AF-P04626-F1     761 PKANKEIL-----DEAYVMAGVGSPYVSRLLGICLTST------------    793
+
+AF-Q75J49-F1     160 ARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQLALDLARGL    209
+                              ..:|.:.:..|.|..: ::.:|.:|..:.::...:.:|:|:
+AF-P04626-F1     794 ---------VQLVTQLMPYGCLLDH-VRENRGRLGSQDLLNWCMQIAKGM    833
+
+AF-Q75J49-F1     210 SYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARV----EAQNPKDMTG    255
+                     |||...::||||:...|:|:.:..::||.|||:||:    |.:...|  |
+AF-P04626-F1     834 SYLEDVRLVHRDLAARNVLVKSPNHVKITDFGLARLLDIDETEYHAD--G    881
+
+AF-Q75J49-F1     256 ATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCD-MPYPDLSFADV    304
+                     ....:.:||.|.:..:.:..:.||:|:|:.:||:.... .||..:...::
+AF-P04626-F1     882 GKVPIKWMALESILRRRFTHQSDVWSYGVTVWELMTFGAKPYDGIPAREI    931
+
+AF-Q75J49-F1     305 SSAVVHQNLRPDVPRCCPSAFANIMRKCWDANPDKRPDMDEVV    347
+                     ...:......|..|.|....:. ||.|||..:.:.||...|:|
+AF-P04626-F1     932 PDLLEKGERLPQPPICTIDVYM-IMVKCWMIDSECRPRFRELV    973
+
+
+#---------------------------------------
+#---------------------------------------

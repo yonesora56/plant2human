@@ -1,0 +1,53 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:58
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q8gvw5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q15369-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q8gvw5-f1_af-q15369-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q8gvw5-f1_af-q15369-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q8GVW5-F1
+# 2: AF-Q15369-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 185
+# Identity:      32/185 (17.3%)
+# Similarity:    46/185 (24.9%)
+# Gaps:          89/185 (48.1%)
+# Score: 75.0
+# 
+#
+#=======================================
+
+AF-Q8GVW5-F1       1 MAATADNGEK-----------MILLISSDGERFELSEAAASQSKTLSHMI     39
+                         .|..||           .:.||||||..|.:....|..|.|:..|:
+AF-Q15369-F1       1 ----MDGEEKTYGGCEGPDAMYVKLISSDGHEFIVKREHALTSGTIKAML     46
+
+AF-Q8GVW5-F1      40 ED-----DCTDNGVPLPNVTAVVLAKVVEYFKKHAAVTPKPATEAVAADK     84
+                     ..     :...|.|....:.:.||:||..||......|            
+AF-Q15369-F1      47 SGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYT------------     84
+
+AF-Q8GVW5-F1      85 AKREEELKSFDAEFVDVDRTMVFELILAANFLNAQDLLDLTCQHAADLIK    134
+                      ....|:..|     .:...:..||::|||||:.                
+AF-Q15369-F1      85 -NSSTEIPEF-----PIAPEIALELLMAANFLDC----------------    112
+
+AF-Q8GVW5-F1     135 DMSVEEVREVFNITNDFTPEEEAEVRKENAWAFDN    169
+                                                        
+AF-Q15369-F1     112 -----------------------------------    112
+
+
+#---------------------------------------
+#---------------------------------------

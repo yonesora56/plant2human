@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:09
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o14920-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-o14920-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-o14920-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-O14920-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 285
+# Identity:      57/285 (20.0%)
+# Similarity:   109/285 (38.2%)
+# Gaps:          58/285 (20.4%)
+# Score: 69.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1      83 VKKLAEDCCRYGNDNQNFGFILAR--------------------ASVEFG    112
+                     ::.|.|||.|.....:.....|.|                    |.::|.
+AF-O14920-F1     437 IQTLKEDCNRLQQGQRAAMMNLLRNNSCLSKMKNSMASMSQQLKAKLDFF    486
+
+AF-Q10NK5-F1     113 NSHSQMEKER---ENLLKFLGEQVFEPLREMIMSAPL----EDARLLTYR    155
+                     .:..|::.|:   :.......:::....|||..:..|    .:.:||..|
+AF-O14920-F1     487 KTSIQIDLEKYSEQTEFGITSDKLLLAWREMEQAVELCGRENEVKLLVER    536
+
+AF-Q10NK5-F1     156 YQRIRQDMESQIADVMRKQLKSKESSGNADNSVKLQHAESKLSELRTTLS    205
+                     ...::.|    |.|:.|..:..|: .|..|:      .|.:..||...|.
+AF-O14920-F1     537 MMALQTD----IVDLQRSPMGRKQ-GGTLDD------LEEQARELYRRLR    575
+
+AF-Q10NK5-F1     206 ALGREATA---AMEAVEVQQQQV-TFDRLLAMVDAERA----YHQNAADI    247
+                     ...|:...   :.|.|.:..|.: :|::.:.::..:.:    ..|.|.::
+AF-O14920-F1     576 EKPRDQRTEGDSQEMVRLLLQAIQSFEKKVRVIYTQLSKTVVCKQKALEL    625
+
+AF-Q10NK5-F1     248 LNKLHDEMVQAKHHDE------PENHYDETSSDPKTAATHEHSR-STSED    290
+                     |.|: :|:|...:.||      .|....|..:..|.|.:..... |.|.|
+AF-O14920-F1     626 LPKV-EEVVSLMNEDEKTVVRLQEKRQKELWNLLKIACSKVRGPVSGSPD    674
+
+AF-Q10NK5-F1     291 HI-FTNTSEPTRTETSEPTRTETS--EPTRNGQEV    322
+                     .: .:..|:|.:. .|:|:....|  ||.:..:|:
+AF-O14920-F1     675 SMNASRLSQPGQL-MSQPSTASNSLPEPAKKSEEL    708
+
+
+#---------------------------------------
+#---------------------------------------

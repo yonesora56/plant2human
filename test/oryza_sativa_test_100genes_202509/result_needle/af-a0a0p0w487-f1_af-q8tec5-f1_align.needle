@@ -1,0 +1,101 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:19
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0w487-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q8tec5-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0w487-f1_af-q8tec5-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0w487-f1_af-q8tec5-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0W487-F1
+# 2: AF-Q8TEC5-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 782
+# Identity:      76/782 ( 9.7%)
+# Similarity:   123/782 (15.7%)
+# Gaps:         525/782 (67.1%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+AF-A0A0P0W487      0 --------------------------------------------------      0
+                                                                       
+AF-Q8TEC5-F1       1 MDDLTLLDLLECPVCFEKLDVTAKVLPCQHTFCKPCLQRVFKAHKELRCP     50
+
+AF-A0A0P0W487      1 ------------------LPRLQSGLRS-----RIMKLKNRAEEIFRDGD     27
+                                       |.||..|:||     |....:.......:||.
+AF-Q8TEC5-F1      51 ECRTPVFSNIEALPANLLLVRLLDGVRSGQSSGRGGSFRRPGTMTLQDGR    100
+
+AF-A0A0P0W487     28 LIFTSERNLGAR------NVQMDYDIV---------RANQPAVVQTRCRW     62
+                     ...|:.|.|.|.      ||::..|.|         |...|..:    |:
+AF-Q8TEC5-F1     101 KSRTNPRRLQASPFRLVPNVRIHMDGVPRAKALCNYRGQNPGDL----RF    146
+
+AF-A0A0P0W487     63 IIGDV---TEVLDRNTWKLGKIAKMLKNNYFVIRLADCIQLKEFHISSLR    109
+                     ..||:   ...||.| |..|:|..:..|               |..||:.
+AF-Q8TEC5-F1     147 NKGDIILLRRQLDEN-WYQGEINGISGN---------------FPASSVE    180
+
+AF-A0A0P0W487    110 V----PASP---------------HSNNQ--------------YSVADKK    126
+                     |    |..|               .|.||              ..|.:..
+AF-Q8TEC5-F1     181 VIKQLPQPPPLCRALYNFDLRGKDKSENQDCLTFLKDDIITVISRVDENW    230
+
+AF-A0A0P0W487    127 SEAKLAQR-GQIP-------------SDALPGRTNKKRKSTADTSFNPRR    162
+                     :|.||..: |..|             .:...||.:.:.|:.:..|.:.|.
+AF-Q8TEC5-F1     231 AEGKLGDKVGIFPILFVEPNLTARHLLEKNKGRQSSRTKNLSLVSSSSRG    280
+
+AF-A0A0P0W487    163 RT--------SRPENASRACVLDGSTTQNRFQFIREEAECSVASCSINDP    204
+                     .|        ||.:...:..:.....|.||.               ::.|
+AF-Q8TEC5-F1     281 NTSTLRRGPGSRRKVPGQFSITTALNTLNRM---------------VHSP    315
+
+AF-A0A0P0W487    205 DTTFTNAKKLQSLGFPDDAMSACP--CTSGMEDDDAAAAAADEDDDDEPA    252
+                          :.:.:..:..|....|:.|  .|..||..|..::...:.....||
+AF-Q8TEC5-F1     316 -----SGRHMVEISTPVLISSSNPSVITQPMEKADVPSSCVGQVSTYHPA    360
+
+AF-A0A0P0W487    253 AIAVHELELEAYQSTMRALYASGPLTWEQESLLTNLRLSLNISNEEH---    299
+                     .::      ..:.:.:.:|..|      |:.|..|:.::|: |...|   
+AF-Q8TEC5-F1     361 PVS------PGHSTAVVSLPGS------QQHLSANMFVALH-SYSAHGPD    397
+
+AF-A0A0P0W487    300 LLQLRRLLSSR---------------------------------------    310
+                     .|.|::....|                                       
+AF-Q8TEC5-F1     398 ELDLQKGEGVRVLGKCQDGWLRGVSLVTGRVGIFPNNYVIPIFRKTSSFP    447
+
+AF-A0A0P0W487    310 --------------------------------------------------    310
+                                                                       
+AF-Q8TEC5-F1     448 DSRSPGLYTTWTLSTSSVSSQGSISEGDPRQSRPFKSVFVPTAIVNPVRS    497
+
+AF-A0A0P0W487    310 --------------------------------------------------    310
+                                                                       
+AF-Q8TEC5-F1     498 TAGPGTLGQGSLRKGRSSMRKNGSLQRPLQSGIPTLVVGSLRRSPTMVLR    547
+
+AF-A0A0P0W487    310 --------------------------------------------------    310
+                                                                       
+AF-Q8TEC5-F1     548 PQQFQFYQPQGIPSSPSAVVVEMGSKPALTGEPALTCISRGSEAWIHSAA    597
+
+AF-A0A0P0W487    310 --------------------------------------------------    310
+                                                                       
+AF-Q8TEC5-F1     598 SSLIMEDKEIPIKSEPLPKPPASAPPSILVKPENSRNGIEKQVKTVRFQN    647
+
+AF-A0A0P0W487    310 --------------------------------------------------    310
+                                                                       
+AF-Q8TEC5-F1     648 YSPPPTKHYTSHPTSGKPEQPATLKASQPEAASLGPEMTVLFAHRSGCHS    697
+
+AF-A0A0P0W487    310 --------------------------------    310
+                                                     
+AF-Q8TEC5-F1     698 GQQTDLRRKSALGKATTLVSTASGTQTVFPSK    729
+
+
+#---------------------------------------
+#---------------------------------------

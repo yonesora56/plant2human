@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:54
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0x9t2-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p35637-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0x9t2-f1_af-p35637-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0x9t2-f1_af-p35637-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0X9T2-F1
+# 2: AF-P35637-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 736
+# Identity:      11/736 ( 1.5%)
+# Similarity:    15/736 ( 2.0%)
+# Gaps:         697/736 (94.7%)
+# Score: 12.5
+# 
+#
+#=======================================
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P35637-F1       1 MASNDYTQQATQSYGAYPTQPGQGYSQQSSQPYGQQSYSGYSQSTDTSGY     50
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P35637-F1      51 GQSSYSSYGQSQNTGYGTQSTPQGYGSTGGYGSSQSSQSSYGQQSSYPGY    100
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P35637-F1     101 GQQPAPSSTSGSYGSSSQSSSYGQPQSGSYSQQPSYGGQQQSYGQQQSYN    150
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P35637-F1     151 PPQGYGQQNQYNSSSGGGGGGGGGGNYGQDQSSMSSGGGSGGGYGNQDQS    200
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P35637-F1     201 GGGGSGGYGQQDRGGRGRGGSGGGGGGGGGGYNRSSGGYEPRGRGGGRGG    250
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P35637-F1     251 RGGMGGSDRGGFNKFGGPRDQGSRHDSEQDNSDNNTIFVQGLGENVTIES    300
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P35637-F1     301 VADYFKQIGIIKTNKKTGQPMINLYTDRETGKLKGEATVSFDDPPSAKAA    350
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P35637-F1     351 IDWFDGKEFSGNPIKVSFATRRADFNRGGGNGRGGRGRGGPMGRGGYGGG    400
+
+AF-A0A0P0X9T2      0 --------------------------------------------------      0
+                                                                       
+AF-P35637-F1     401 GSGGGGRGGFPSGGGGGGGQQRAGDWKCPNPTCENMNFSWRNECNQCKAP    450
+
+AF-A0A0P0X9T2      1 -------------------------MAGSSESDYYSEEEEELGW------     19
+                                              ..|.....|.....:..|:      
+AF-P35637-F1     451 KPDGPGGGPGGSHMGGNYGDDRRGGRGGYDRGGYRGRGGDRGGFRGGRGG    500
+
+AF-A0A0P0X9T2     20 -EEDGLG-----SEGEEEDAEAARERALKRLDGLGKRGVCYLSRVPPNMN     63
+                      :..|.|     |.||..  :..|||..                      
+AF-P35637-F1     501 GDRGGFGPGKMDSRGEHR--QDRRERPY----------------------    526
+
+AF-A0A0P0X9T2     64 PSHVRQMLSKYGEVQRIYLVPEGQGHRKHTNVRAKAYTEGWIEFSKKSVA    113
+                                                                       
+AF-P35637-F1     526 --------------------------------------------------    526
+
+AF-A0A0P0X9T2    114 KRVANLLNGEQIGGKKRSPFYYDIWNIKYLKKFKWDDLVGEIAEKTHIRE    163
+                                                                       
+AF-P35637-F1     526 --------------------------------------------------    526
+
+AF-A0A0P0X9T2    164 QKLNLEIAAAKKQRDHYLSNVEKSRTLKHIQERRKKKQKTEGAEFNEVRE    213
+                                                                       
+AF-P35637-F1     526 --------------------------------------------------    526
+
+AF-A0A0P0X9T2    214 EKIARPIPQKKPVEETDAKTKPKLPKDILAGVFGGP    249
+                                                         
+AF-P35637-F1     526 ------------------------------------    526
+
+
+#---------------------------------------
+#---------------------------------------

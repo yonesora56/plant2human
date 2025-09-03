@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:35
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0j381-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q8n4n3-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0j381-f1_af-q8n4n3-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0j381-f1_af-q8n4n3-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0J381-F1
+# 2: AF-Q8N4N3-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 714
+# Identity:      77/714 (10.8%)
+# Similarity:   119/714 (16.7%)
+# Gaps:         480/714 (67.2%)
+# Score: 149.0
+# 
+#
+#=======================================
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q8N4N3-F1       1 MMEGSRQTRVSRPYKISESSKVYRWADHSSTVLQRLNEQRLRGLFCDVVL     50
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q8N4N3-F1      51 VADEQRVPAHRNLLAVCSDYFNSMFTIGMREAFQKEVELIGASYIGLKAV    100
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q8N4N3-F1     101 VDFLYGGELVLDGGNIDYVLETAHLLQIWTVVDFCCEYLEQEVSEDNYLY    150
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q8N4N3-F1     151 LQELASIYSLKRLDAFIDGFILNHFGTLSFTPDFLQNVSMQKLCVYLSSS    200
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q8N4N3-F1     201 EVQRECEHDLLQAALQWLTQQPEREAHARQVLENIHFPLIPKNDLLHRVK    250
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q8N4N3-F1     251 PAVCSLLPKEANCEGFIEEAVRYHNNLAAQPVMQTKRTALRTNQERLLFV    300
+
+AF-Q0J381-F1       1 -----------------MPMAAGTWVKLEQKGDGPGARSSHAITLVGGTA     33
+                                      :...:..|||   :...|..||.|.:.::||..
+AF-Q8N4N3-F1     301 GGEVSERCLELSDDTCYLDAKSEQWVK---ETPLPARRSHHCVAVLGGFI    347
+
+AF-Q0J381-F1      34 YAFGGEFTPRVPVD---NAMYAFDLKSQCWSALDASGDVPPPRVGVTMAS     80
+                     :..||.|:.....|   |.:|.:|.:.:.|..:   ..:...||...:||
+AF-Q8N4N3-F1     348 FIAGGSFSRDNGGDAASNLLYRYDPRCKQWIKV---ASMNQRRVDFYLAS    394
+
+AF-Q0J381-F1      81 VGATVYMFGGRDQEHKELNELYSFDTATNRWTLLS---------------    115
+                     :...:...|||: |:..|:.:.::...|:.|:.::               
+AF-Q8N4N3-F1     395 IEDMLVAIGGRN-ENGALSSVETYSPKTDSWSYVAGLPRFTYGHAGTIYK    443
+
+AF-Q0J381-F1     116 -----SGAGD---GP--------PHRS--------------YHSMVADAA    135
+                          ||..|   ||        .||:              :|||   .:
+AF-Q8N4N3-F1     444 DFVYISGGHDYQIGPYRKNLLCYDHRTDVWEERRPMTTARGWHSM---CS    490
+
+AF-Q0J381-F1     136 GGGKVYVFGGCGDAGRLNDLWAYDVAAGRWEALPSPGEACKP------RG    179
+                     .|..:|..||..|  .:..:..:||..         .||..|      |.
+AF-Q8N4N3-F1     491 LGDSIYSIGGSDD--NIESMERFDVLG---------VEAYSPQCNQWTRV    529
+
+AF-Q0J381-F1     180 GP--------GLAVAGGKVWVVYGFSGEEL---DDVHCYDPGTGAWSTVE    218
+                     .|        |:||..|:::::.|:|.|..   ..|..||.....||.  
+AF-Q8N4N3-F1     530 APLLHANSESGVAVWEGRIYILGGYSWENTAFSKTVQVYDREADKWSR--    577
+
+AF-Q0J381-F1     219 TTGGGGGGDKPSPRSVFCAAGIGKHVVVFGGEVDPSDLGHLGAGKFSAEA    268
+                           |.|.|.       |..|....|...|..|.|....|.||     
+AF-Q8N4N3-F1     578 ------GVDLPK-------AIAGGSACVCALEPRPEDKKKKGKGK-----    609
+
+AF-Q0J381-F1     269 FALDTETGAWARLDDAGEHHPGPRGWCAFSAGEVDGRRGLLVYGGNSPTN    318
+                                |..|.|:                                
+AF-Q8N4N3-F1     610 -----------RHQDRGQ--------------------------------    616
+
+AF-Q0J381-F1     319 DRLGDIYFFTPPLA    332
+                                   
+AF-Q8N4N3-F1     616 --------------    616
+
+
+#---------------------------------------
+#---------------------------------------

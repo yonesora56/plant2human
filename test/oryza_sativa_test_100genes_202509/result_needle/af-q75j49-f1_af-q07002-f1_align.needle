@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:14
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q07002-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q75j49-f1_af-q07002-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q75j49-f1_af-q07002-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-Q07002-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 546
+# Identity:     104/546 (19.0%)
+# Similarity:   157/546 (28.8%)
+# Gaps:         239/546 (43.8%)
+# Score: 211.5
+# 
+#
+#=======================================
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q07002-F1       1 MIMNKMKNFKRRFSLSVPRTETIEESLAEFTEQFNQLHNRRNENLQLGPL     50
+
+AF-Q75J49-F1       1 ---------------------------------------------MASST      5
+                                                                  ..|..
+AF-Q07002-F1      51 GRDPPQECSTFSPTDSGEEPGQLSPGVQFQRRQNQRRFSMEDVSKRLSLP    100
+
+AF-Q75J49-F1       6 SDIPEGREKLKRSGSLGSSDTAYVRADKIDLTSLDIQLEKQLTKTWGKAN     55
+                     .||...:|.|:                |:.:.|.|  |.|.|::...:|:
+AF-Q07002-F1     101 MDIRLPQEFLQ----------------KLQMESPD--LPKPLSRMSRRAS    132
+
+AF-Q75J49-F1      56 LKAHGPKEDWEIDLAKLEIRYV----IAQGTYGTVYRGTYDGQDVAVKLL    101
+                     |.        :|...||| .||    :.:|||.||::|.....:..|.|.
+AF-Q07002-F1     133 LS--------DIGFGKLE-TYVKLDKLGEGTYATVFKGRSKLTENLVALK    173
+
+AF-Q75J49-F1     102 DWGEDGFATEAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKI    151
+                     :     ...|.|..|..|:.: ||::...|.|.|:...       .|| |
+AF-Q07002-F1     174 E-----IRLEHEEGAPCTAIR-EVSLLKNLKHANIVTL-------HDL-I    209
+
+AF-Q75J49-F1     152 PTNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQL    201
+                     .|:            |:..:|.||| ...|||||.........:.|.: .
+AF-Q07002-F1     210 HTD------------RSLTLVFEYL-DSDLKQYLDHCGNLMSMHNVKI-F    245
+
+AF-Q75J49-F1     202 ALDLARGLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQNPK    251
+                     ...|.|||:|.|.|||:|||:|.:|:|::.:..||:||||:||.::...|
+AF-Q07002-F1     246 MFQLLRGLAYCHHRKILHRDLKPQNLLINERGELKLADFGLARAKSVPTK    295
+
+AF-Q75J49-F1     252 DMTGATGTLGYMAPEVLDGK-PYNRKCDVYSFGICLWEIYCCDMPYPDLS    300
+                     ..:....||.|..|:||.|. .|:...|::..|...:|:......:|. |
+AF-Q07002-F1     296 TYSNEVVTLWYRPPDVLLGSTEYSTPIDMWGVGCIHYEMATGRPLFPG-S    344
+
+AF-Q75J49-F1     301 FADVSSAVVHQNLRPDVPRCCP-----SAFANIMRKCWDANPDKRPDMDE    345
+                     .......::.:.|........|     |.|......|:...|        
+AF-Q07002-F1     345 TVKEELHLIFRLLGTPTEETWPGVTAFSEFRTYSFPCYLPQP--------    386
+
+AF-Q75J49-F1     346 VVQLLEALDTSKGGGMIPDG---QSSGCLCFTKARGP-------------    379
+                     ::.....|||        ||   .||..|..:|:|..             
+AF-Q07002-F1     387 LINHAPRLDT--------DGIHLLSSLLLYESKSRMSAEAALSHSYFRSL    428
+
+AF-Q75J49-F1     379 ----------------------------------------------    379
+                                                                   
+AF-Q07002-F1     429 GERVHQLEDTASIFSLKEIQLQKDPGYRGLAFQQPGRGKNRRQSIF    474
+
+
+#---------------------------------------
+#---------------------------------------

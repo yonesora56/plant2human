@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:48
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q02897-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9y3q3-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q02897-f1_af-q9y3q3-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q02897-f1_af-q9y3q3-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q02897-F1
+# 2: AF-Q9Y3Q3-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 218
+# Identity:      45/218 (20.6%)
+# Similarity:    74/218 (33.9%)
+# Gaps:          74/218 (33.9%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+AF-Q02897-F1      92 GLLVPRYSNTPGLVYII----QGRGSMGLTFPGCPATYQQQFQQFSSQGQ    137
+                     |..|||.::...|:.::    |..|: .|||. .|...:|.|.:...|| 
+AF-Q9Y3Q3-F1       2 GSTVPRSASVLLLLLLLRRAEQPCGA-ELTFE-LPDNAKQCFHEEVEQG-     48
+
+AF-Q02897-F1     138 SQSQKFRDEHQKI---HQFRQGDV---VALPAGVAHWFYNDGD-------    174
+                        .||..::|.|   |.    ||   |..|.|  :..|.:..       
+AF-Q9Y3Q3-F1      49 ---VKFSLDYQVITGGHY----DVDCYVEDPQG--NTIYRETKKQYDSFT     89
+
+AF-Q02897-F1     175 --ASVVAIYVYDINNSANQLEPRQKEF---------LLAGNNNRVQQVYG    213
+                       |.|..:|.:..:|..:....:...|         :|....|||..:  
+AF-Q9Y3Q3-F1      90 YRAEVKGVYQFCFSNEFSTFSHKTVYFDFQVGDEPPILPDMGNRVTAL--    137
+
+AF-Q02897-F1     214 SSIEQHSSQNIFNGFGTELLSEALGINTVAAKRLQSQNDQRGEIVHVKNG    263
+                                     |::.|..:.|:......:.||...|         
+AF-Q9Y3Q3-F1     138 ----------------TQMESACVTIHEALKTVIDSQTHYR---------    162
+
+AF-Q02897-F1     264 LQLLKPTLTQQQEQAQAQ    281
+                            |.:.|::|:|:
+AF-Q9Y3Q3-F1     163 -------LREAQDRARAE    173
+
+
+#---------------------------------------
+#---------------------------------------

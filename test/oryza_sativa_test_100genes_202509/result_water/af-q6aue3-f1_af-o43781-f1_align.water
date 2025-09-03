@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:50
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o43781-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-o43781-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-o43781-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-O43781-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 299
+# Identity:      75/299 (25.1%)
+# Similarity:   119/299 (39.8%)
+# Gaps:          80/299 (26.8%)
+# Score: 162.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1       9 PE----GREKLKRSGSLG--------SSDTAYVRADKIDLTSLDIQLEKQ     46
+                     ||    |....||.|.:|        .:|.||:                 
+AF-O43781-F1     166 PEIYFVGPNAKKRHGVIGGPNNGGYDDADGAYI-----------------    198
+
+AF-Q6AUE3-F1      47 LTKTWGKANLKAHGPKEDWEIDLA-KLEIRYVIAQGTYGTVYRGTYD---     92
+                                 |.|::    .|| :.|:..:|.:|::|.|.| .||   
+AF-O43781-F1     199 ------------HVPRD----HLAYRYEVLKIIGKGSFGQVAR-VYDHKL    231
+
+AF-Q6AUE3-F1      93 GQDVAVKLLDWGEDGFATEAETAALRTSFKQEVAVWHKLSHPNVTKFVGA    142
+                     .|.||:|::. .|..|..:|         .:|:.:...|...:.|    .
+AF-O43781-F1     232 RQYVALKMVR-NEKRFHRQA---------AEEIRILEHLKKQDKT----G    267
+
+AF-Q6AUE3-F1     143 SMGTTDLKIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRK    192
+                     ||....:.......|          ..|:..|.|: ..|.:.:.||..:.
+AF-O43781-F1     268 SMNVIHMLESFTFRN----------HVCMAFELLS-IDLYELIKKNKFQG    306
+
+AF-Q6AUE3-F1     193 LAYKVVVQLALDLARGLSYLHSRKIVHRDVKTENMLL--DTQRNLKIADF    240
+                     .:.::|.:.|..:.:.|..||..||:|.|:|.||:||  ..:.:.|:.||
+AF-O43781-F1     307 FSVQLVRKFAQSILQSLDALHKNKIIHCDLKPENILLKHHGRSSTKVIDF    356
+
+AF-Q6AUE3-F1     241 GVARVEAQNPKDMTGATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEI    289
+                     |.:..|.|  |..|...... |.|||::.|..|:...|::|||..|.|:
+AF-O43781-F1     357 GSSCFEYQ--KLYTYIQSRF-YRAPEIILGSRYSTPIDIWSFGCILAEL    402
+
+
+#---------------------------------------
+#---------------------------------------

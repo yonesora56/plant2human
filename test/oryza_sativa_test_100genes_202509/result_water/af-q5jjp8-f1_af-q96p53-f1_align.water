@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:35
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q5jjp8-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q96p53-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5jjp8-f1_af-q96p53-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5jjp8-f1_af-q96p53-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5JJP8-F1
+# 2: AF-Q96P53-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 277
+# Identity:      61/277 (22.0%)
+# Similarity:   110/277 (39.7%)
+# Gaps:          82/277 (29.6%)
+# Score: 166.5
+# 
+#
+#=======================================
+
+AF-Q5JJP8-F1     207 GGDKGNFVAVGTMDPAIEIWDLDIVDEVQPHMVLGGHSKKKKKVKGKK--    254
+                     ||.:.:.||.|..           .|....|:.:|.||.:...:|.::  
+AF-Q96P53-F1     150 GGYRTSAVASGLQ-----------FDVETRHVFIGDHSGQVTILKLEQEN    188
+
+AF-Q5JJP8-F1     255 ---AKKYKKGSHRSSVLGLAWNKEVRNVLASASADKTVKIWDVSVGK-CA    300
+                        ...::  .|...|..|.|: .|:.||.|.|:|.:|.:||:...| .|
+AF-Q96P53-F1     189 CTLVTTFR--GHTGGVTALCWD-PVQRVLFSGSSDHSVIMWDIGGRKGTA    235
+
+AF-Q5JJP8-F1     301 VTLEHHDDKVQSVAWSRQSPEVLLSGSFDKSVAMNDM------------K    338
+                     :.|:.|:|:||::::::.:.:::..|. |..:.:.:|            .
+AF-Q96P53-F1     236 IELQGHNDRVQALSYAQHTRQLISCGG-DGGIVVWNMDVERQETPEWLDS    284
+
+AF-Q5JJP8-F1     339 DGGQSCNK---WSVEADVESLAWDPHNEHSFMVSLENGMVQ---------    376
+                     |..|.|::   |:.:.     .||         |.:.|:.|         
+AF-Q96P53-F1     285 DSCQKCDQPFFWNFKQ-----MWD---------SKKIGLRQHHCRKCGKA    320
+
+AF-Q5JJP8-F1     377 -----------------AFDKRTASS-----NSNSGRPTFTLHAHEKAVS    404
+                                      .|:.|...|     ......||.|.|..:..:.
+AF-Q96P53-F1     321 VCGKCSSKRSSIPLMGFEFEVRVCDSCHEAITDEERAPTATFHDSKHNIV    370
+
+AF-Q5JJP8-F1     405 SISFSPSTPNFLATGSTDKMVKLWDLS    431
+                     .:.|. :|..:|.|..|||::||||::
+AF-Q96P53-F1     371 HVHFD-ATRGWLLTSGTDKVIKLWDMT    396
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,125 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:30
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q59h18-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-b7fac9-f1_af-q59h18-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-b7fac9-f1_af-q59h18-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q59H18-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1077
+# Identity:     213/1077 (19.8%)
+# Similarity:   345/1077 (32.0%)
+# Gaps:         382/1077 (35.5%)
+# Score: 287.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1       1 MLKQKDLMVISYSCSAGTKLTWILSLLLILVAATQVHGVSPPGFLNVDCG     50
+                                                                       
+AF-Q59H18-F1       0 --------------------------------------------------      0
+
+AF-B7FAC9-F1      51 LTN---RSTYNDTDTTLTYVSDREFVESGKSYDIMAQYMADATNEQEKTL     97
+                     :.|   |.|...||.....||:        ||.|..:.:.|....:||.|
+AF-Q59H18-F1       1 MGNYKSRPTQTCTDEWKKKVSE--------SYVITIERLEDDLQIKEKEL     42
+
+AF-B7FAC9-F1      98 RSFPDGQRNCYTLPTNSSKKYLIRATFTYGNYDGLN-----------SSE    136
+                     ...    ||.:     .|.:...:....|...:||:           .|.
+AF-Q59H18-F1      43 TEL----RNIF-----GSDEAFSKVNLNYRTENGLSLLHLCCICGGKKSH     83
+
+AF-B7FAC9-F1     137 KGSLFIFGL---HIGVNFWTTVNLTKWDPSSTVWKEVI------------    171
+                     ..:|.:.||   .:..|.:|.::|..:..::.:...::            
+AF-Q59H18-F1      84 IRTLMLKGLRPSRLTRNGFTALHLAVYKDNAELITSLLHSGADIQQVGYG    133
+
+AF-B7FAC9-F1     172 --------TVAPDKSVSVCLINMGSGTPFISTLDLRPLQDTMYPFVNAST    213
+                             |:|.....:..|:..|:.......:...||....|       
+AF-Q59H18-F1     134 GLTALHIATIAGHLEAADVLLQHGANVNIQDAVFFTPLHIAAY-------    176
+
+AF-B7FAC9-F1     214 SVSYFSRIRFG--SVDEYITRFPTDQYDRFWEGWVFTMHTFPWVNKSSNG    261
+                              :|  .|...:.:|..|                  ||.|  |
+AF-Q59H18-F1     177 ---------YGHEQVTRLLLKFGAD------------------VNVS--G    197
+
+AF-B7FAC9-F1     262 KVAELPNIDTFGLPPAILGSASTINGNFSWLNISVSASNSLATDLELLPV    311
+                     :|         |..|..|.||.      .:|||:           :||. 
+AF-Q59H18-F1     198 EV---------GDRPLHLASAK------GFLNIA-----------KLLM-    220
+
+AF-B7FAC9-F1     312 FHFVELGNNGSKRIFDIYNVDEPQALFSNFSPPSFLSSMFHNWFLRKGRR    361
+                            ..|||.  |:...|.     .:..|..|.|...|:..::    
+AF-Q59H18-F1     221 -------EEGSKA--DVNAQDN-----EDHVPLHFCSRFGHHDIVK----    252
+
+AF-B7FAC9-F1     362 AYFQLRKTPDSQLPPLINAYEVYSRVQVENFTTASSDVD-SMKTIKEKYM    410
+                       :.|:...:.| |.::|.|               .|.. .:.....|:.
+AF-Q59H18-F1     253 --YLLQSDLEVQ-PHVVNIY---------------GDTPLHLACYNGKFE    284
+
+AF-B7FAC9-F1     411 VIK---NWNGDPCSPREYIWNGL----TCTYPNG--------GQNPRIVE    445
+                     |.|   ..:|.....:|.|::..    .|||...        .||  ::.
+AF-Q59H18-F1     285 VAKEIIQISGTESLTKENIFSETAFHSACTYGKSIDLVKFLLDQN--VIN    332
+
+AF-B7FAC9-F1     446 INLSG----SGLQGELEISFMKMSSLKKLDLSHNNLTGTIP-------DY    484
+                     ||..|    :||........:::......:.:..||....|       |.
+AF-Q59H18-F1     333 INHQGRDGHTGLHSACYHGHIRLVQFLLDNGADMNLVACDPSRSSGEKDE    382
+
+AF-B7FAC9-F1     485 QVNSLTVIDLSNNQLNGSIPDSILQRYKAGLLELRLEGNPICSKVR----    530
+                     |...:...:..::.:     .::|:.||....||.      |::..    
+AF-Q59H18-F1     383 QTCLMWAYEKGHDAI-----VTLLKHYKRPQDELP------CNEYSQPGG    421
+
+AF-B7FAC9-F1     531 -ASYCGNKKNTRTRILLISVLVPVTSLLVVLFIFWRLCWKGKSRKSEEED    579
+                      .||             :||..|:..:              ||...|:.|
+AF-Q59H18-F1     422 DGSY-------------VSVPSPLGKI--------------KSMTKEKAD    444
+
+AF-B7FAC9-F1     580 YDMYEEETPLHIDIRRFTYAELKLITNNFQSIIGKGGFGTVYHGILENND    629
+                     ..:.....|.|.        .|:|....|..|||.|.||.||.|...|. 
+AF-Q59H18-F1     445 ILLLRAGLPSHF--------HLQLSEIEFHEIIGSGSFGKVYKGRCRNK-    485
+
+AF-B7FAC9-F1     630 EVAVKVLVETSIAESKD---FLPEVQTLSKVHHKNLVALVGYCQNKKC-L    675
+                     .||:|.....:.....|   |..||..|.:::|..::..||.|.|... .
+AF-Q59H18-F1     486 IVAIKRYRANTYCSKSDVDMFCREVSILCQLNHPCVIQFVGACLNDPSQF    535
+
+AF-B7FAC9-F1     676 ALVYDFMPRGNLQQLLRGGYDSLNWEERLHIALDAAQGLEYLHESCTPSI    725
+                     |:|..::..|:|..||......|:.:.:|.||:|.|:|:|||| :.|..|
+AF-Q59H18-F1     536 AIVTQYISGGSLFSLLHEQKRILDLQSKLIIAVDVAKGMEYLH-NLTQPI    584
+
+AF-B7FAC9-F1     726 VHRDVKTPNILLDKNLVAKISDFGLSRAFNAAHTHISTVAAGTLGYLDPE    775
+                     :|||:.:.||||.::..|.::|||.||...:......|...|.|.::.||
+AF-Q59H18-F1     585 IHRDLNSHNILLYEDGHAVVADFGESRFLQSLDEDNMTKQPGNLRWMAPE    634
+
+AF-B7FAC9-F1     776 -YHATFQLTVKTDVYSFGIVLLEIVTGQPPVFMDPQTVHLP---------    815
+                      :....:.|:|.||:|:.:.|.||:||:.|.      .||.         
+AF-Q59H18-F1     635 VFTQCTRYTIKADVFSYALCLWEILTGEIPF------AHLKPAAAAADMA    678
+
+AF-B7FAC9-F1     816 -NWVRQKIANGSVHDVVDKKLLDQYDATHLQTVIDLAMNCLENASIDRPS    864
+                      :.:|..|.. |:...:...|:..::|            |.|.    ||.
+AF-Q59H18-F1     679 YHHIRPPIGY-SIPKPISSLLIRGWNA------------CPEG----RPE    711
+
+AF-B7FAC9-F1     865 MTEVVSVLKVCL-------PISSERQSATST------------PRKKNVM    895
+                     .:|||..|:.||       |.||....:.|.            |.:.:| 
+AF-Q59H18-F1     712 FSEVVMKLEECLCNIELMSPASSNSSGSLSPSSSSDCLVNRGGPGRSHV-    760
+
+AF-B7FAC9-F1     896 DAEIPRQFQL-----------MISGASTTSYEGSSFQS-----GYTGGVS    929
+                      |.:..:|:|           :...|...|.:|.|.:.     .|| .:.
+AF-Q59H18-F1     761 -AALRSRFELEYALNARSYAALSQSAGQYSSQGLSLEEMKRSLQYT-PID    808
+
+AF-B7FAC9-F1     930 EISHISGR-------------------    937
+                     :..::|..                   
+AF-Q59H18-F1     809 KYGYVSDPMSSMHFHSCRNSSSFEDSS    835
+
+
+#---------------------------------------
+#---------------------------------------

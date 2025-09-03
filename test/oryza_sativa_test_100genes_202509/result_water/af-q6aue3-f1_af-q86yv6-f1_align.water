@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:48
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q86yv6-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-q86yv6-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-q86yv6-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-Q86YV6-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 284
+# Identity:      63/284 (22.2%)
+# Similarity:   116/284 (40.8%)
+# Gaps:          64/284 (22.5%)
+# Score: 172.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      69 LAKLEIRYVIAQGTYGTVYR--GTYDGQDVAVKLLDWGEDGFATEAETAA    116
+                     ::|.||   :..|.:|.|::  .|..|..:|.|::           :|..
+AF-Q86YV6-F1     106 VSKTEI---LGGGRFGQVHKCEETATGLKLAAKII-----------KTRG    141
+
+AF-Q6AUE3-F1     117 L--RTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNL    164
+                     :  :...|.|::|.::|.|.|:.:...|.....|:               
+AF-Q86YV6-F1     142 MKDKEEVKNEISVMNQLDHANLIQLYDAFESKNDI---------------    176
+
+AF-Q6AUE3-F1     165 PARACCVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQLALDLARGLSYLHS    214
+                          .:|:||:.||.|...:|..|........::.:. .:..|:.::|.
+AF-Q86YV6-F1     177 -----VLVMEYVDGGELFDRIIDESYNLTELDTILFMK-QICEGIRHMHQ    220
+
+AF-Q6AUE3-F1     215 RKIVHRDVKTENMLLDTQ--RNLKIADFGVARVEAQNPKDMTGAT-GTLG    261
+                     ..|:|.|:|.||:|...:  :.:||.|||:||  ...|::..... ||..
+AF-Q86YV6-F1     221 MYILHLDLKPENILCVNRDAKQIKIIDFGLAR--RYKPREKLKVNFGTPE    268
+
+AF-Q6AUE3-F1     262 YMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMPYPDLSFADVSSAVVHQ    311
+                     ::||||::       .|..||...:|.:             .|.:.::..
+AF-Q86YV6-F1     269 FLAPEVVN-------YDFVSFPTDMWSV-------------GVIAYMLLS    298
+
+AF-Q6AUE3-F1     312 NLRPDVPRCCPSAFANIMRKCWDANPDKRPDMDE    345
+                     .|.|.:.........||:...||...::..|:.|
+AF-Q86YV6-F1     299 GLSPFLGDNDAETLNNILACRWDLEDEEFQDISE    332
+
+
+#---------------------------------------
+#---------------------------------------

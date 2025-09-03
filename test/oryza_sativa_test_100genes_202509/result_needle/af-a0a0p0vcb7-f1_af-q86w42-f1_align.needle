@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:22
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q86w42-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vcb7-f1_af-q86w42-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vcb7-f1_af-q86w42-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-Q86W42-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 367
+# Identity:      39/367 (10.6%)
+# Similarity:    72/367 (19.6%)
+# Gaps:         215/367 (58.6%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q86W42-F1       1 MERAVPLAVPLGQTEVFQALQRLHMTIFSQSVSPCGKFLAAGNNYGQIAI     50
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q86W42-F1      51 FSLSSALSSEAKEESKKPVVTFQAHDGPVYSMVSTDRHLLSAGDGEVKAW    100
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q86W42-F1     101 LWAEMLKKGCKELWRRQPPYRTSLEVPEINALLLVPKENSLILAGGDCQL    150
+
+AF-A0A0P0VCB7      1 --------------------VQSVAWSRQSPEVLLSGSFDKSVAMNDMKD     30
+                                         :..:|...:|||| |||..|.:|.:.|::.
+AF-Q86W42-F1     151 HTMDLETGTFTRVLRGHTDYIHCLALRERSPEV-LSGGEDGAVRLWDLRT    199
+
+AF-A0A0P0VCB7     31 G----------GQSCNKWSVEADVESLAWDPHNEH--SFMVSLENGMVQA     68
+                     .          .:.|::             |||..  ..:.:..:.||..
+AF-Q86W42-F1     200 AKEVQTIEVYKHEECSR-------------PHNGRWIGCLATDSDWMVCG    236
+
+AF-A0A0P0VCB7     69 FDKRTASSNSNSGRPT--FTLHAHEKAVSSISFSPSTPNFLATGSTDKMV    116
+                     ........:..|..||  |.:.|.:|.|:...      :.:.:....:.|
+AF-Q86W42-F1     237 GGPALTLWHLRSSTPTTIFPIRAPQKHVTFYQ------DLILSAGQGRCV    280
+
+AF-A0A0P0VCB7    117 KLWDLSNNQPSCIASLNPKLGAIFSVSFSNDSPF-----LLASGGSKGKL    161
+                     ..|.||....:.:...:|   .:.|:|. |..|.     :|.:.|:..::
+AF-Q86W42-F1     281 NQWQLSGELKAQVPGSSP---GLLSLSL-NQQPAAPECKVLTAAGNSCRV    326
+
+AF-A0A0P0VCB7    162 KVWNTLTEPAVANKFGK    178
+                     .|:..|...|.:..|  
+AF-Q86W42-F1     327 DVFTNLGYRAFSLSF--    341
+
+
+#---------------------------------------
+#---------------------------------------

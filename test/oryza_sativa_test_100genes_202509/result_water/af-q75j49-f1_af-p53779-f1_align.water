@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:52
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p53779-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-p53779-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-p53779-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-P53779-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 310
+# Identity:      70/310 (22.6%)
+# Similarity:   122/310 (39.4%)
+# Gaps:          68/310 (21.9%)
+# Score: 177.5
+# 
+#
+#=======================================
+
+AF-Q75J49-F1      79 AQGTYGTVYRGTYDGQDVAVKLLDWGEDGFATEAETAALRTSFKQEVAVW    128
+                     |||.....|....| ::||:|.|     ....:.:|.|.|.  .:|:.:.
+AF-P53779-F1      74 AQGIVCAAYDAVLD-RNVAIKKL-----SRPFQNQTHAKRA--YRELVLM    115
+
+AF-Q75J49-F1     129 HKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCVVVEYLAG    178
+                     ..::|.|:...:              |.....:|....:...:|:|.:..
+AF-P53779-F1     116 KCVNHKNIISLL--------------NVFTPQKTLEEFQDVYLVMELMDA    151
+
+AF-Q75J49-F1     179 GTLKQYLIKNSRRKLAYKVVVQLALDLARGLSYLHSRKIVHRDVKTENML    228
+                     ...:...::....:::|     |...:..|:.:|||..|:|||:|..|::
+AF-P53779-F1     152 NLCQVIQMELDHERMSY-----LLYQMLCGIKHLHSAGIIHRDLKPSNIV    196
+
+AF-Q75J49-F1     229 LDTQRNLKIADFGVARVEAQNPKDMTGATGTLGYMAPEVLDGKPYNRKCD    278
+                     :.:...|||.|||:||. |.....||....|..|.||||:.|..|....|
+AF-P53779-F1     197 VKSDCTLKILDFGLART-AGTSFMMTPYVVTRYYRAPEVILGMGYKENVD    245
+
+AF-Q75J49-F1     279 VYSFGICLWEIYCCDMPYPDLSFADVSSAVVHQ----------NLRPDV-    317
+                     ::|.|..:.|:....:.:|...:.|..:.|:.|          .|:|.| 
+AF-P53779-F1     246 IWSVGCIMGEMVRHKILFPGRDYIDQWNKVIEQLGTPCPEFMKKLQPTVR    295
+
+AF-Q75J49-F1     318 --------------PRCCP---------------SAFANIMRKCWDANPD    338
+                                   |:..|               |...:::.|....:|.
+AF-P53779-F1     296 NYVENRPKYAGLTFPKLFPDSLFPADSEHNKLKASQARDLLSKMLVIDPA    345
+
+AF-Q75J49-F1     339 KRPDMDEVVQ    348
+                     ||..:|:.:|
+AF-P53779-F1     346 KRISVDDALQ    355
+
+
+#---------------------------------------
+#---------------------------------------

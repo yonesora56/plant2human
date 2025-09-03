@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:53
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6zxk6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9uh77-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6zxk6-f1_af-q9uh77-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6zxk6-f1_af-q9uh77-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6ZXK6-F1
+# 2: AF-Q9UH77-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 215
+# Identity:      55/215 (25.6%)
+# Similarity:    85/215 (39.5%)
+# Gaps:          31/215 (14.4%)
+# Score: 146.5
+# 
+#
+#=======================================
+
+AF-Q6ZXK6-F1      12 EQKGDGPGARSSHAITLVGGTAYAFGGEFTPRVPVDNAMYAFDLKSQCWS     61
+                     :|..:.|..|....:..:.|..||.|| |...:.|........:|.| |:
+AF-Q9UH77-F1     328 DQIAELPSRRCRAGVVFMAGHVYAVGG-FNGSLRVRTVDVYDGVKDQ-WT    375
+
+AF-Q6ZXK6-F1      62 ALDASGDVPPPRVGVTMASVGATV-----YMFGGRDQEHKELN-ELYSFD    105
+                     ::.:..:        ..:::||.|     |..||.|......: |.||: 
+AF-Q9UH77-F1     376 SIASMQE--------RRSTLGAAVLNDLLYAVGGFDGSTGLASVEAYSY-    416
+
+AF-Q6ZXK6-F1     106 TATNRWTLLSSGAGDGPPHRSYHSMVADAAGGGKVYVFGGCGDAGR--LN    153
+                      .||.|..::       |..:..|.|......||:|..||...|.|  |:
+AF-Q9UH77-F1     417 -KTNEWFFVA-------PMNTRRSSVGVGVVEGKLYAVGGYDGASRQCLS    458
+
+AF-Q6ZXK6-F1     154 DLWAYDVAAGRWEALPSPGEACKPRGGPGLAVAGGKVWVVYGFSGEEL-D    202
+                     .:..|:.|...|..:   .:....|.|.|:.|..|:::...|..|..: .
+AF-Q9UH77-F1     459 TVEQYNPATNEWIYV---ADMSTRRSGAGVGVLSGQLYATGGHDGPLVRK    505
+
+AF-Q6ZXK6-F1     203 DVHCYDPGTGAWSTV    217
+                     .|..|||||..|..|
+AF-Q9UH77-F1     506 SVEVYDPGTNTWKQV    520
+
+
+#---------------------------------------
+#---------------------------------------

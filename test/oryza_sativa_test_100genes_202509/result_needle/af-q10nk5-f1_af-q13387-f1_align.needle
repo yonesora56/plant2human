@@ -1,0 +1,109 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:45
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q13387-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10nk5-f1_af-q13387-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10nk5-f1_af-q13387-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-Q13387-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 888
+# Identity:      88/888 ( 9.9%)
+# Similarity:   151/888 (17.0%)
+# Gaps:         558/888 (62.8%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13387-F1       1 MADRAEMFSLSTFHSLSPPGCRPPQDISLEEFDDEDLSEITDDCGLGLSY     50
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13387-F1      51 DSDHCEKDSLSLGRSEQPHPICSFQDDFQEFEMIDDNEEEDDEDEEEEEE    100
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13387-F1     101 EEEGDGEGQEGGDPGSEAPAPGPLIPSPSVEEPHKHRPTTLRLTTLGAQD    150
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13387-F1     151 SLNNNGGFDLVRPASWQETALCSPAPEALRELPGPLPATDTGPGGAQSPV    200
+
+AF-Q10NK5-F1       1 ----------------------------METLRKQAS------KLREHVA     16
+                                                 ...||.::|      :..:.::
+AF-Q13387-F1     201 RPGCDCEGNRPAEPPAPGGTSPSSDPGIEADLRSRSSGGRGGRRSSQELS    250
+
+AF-Q10NK5-F1      17 KQQQAVRKQFSARYNQDPSLVDEAELECHQNLQRLYNSTRAAKHFQRSIV     66
+                     ...........||..:..|.:.|.|||...:...  :|:..:.|...||.
+AF-Q13387-F1     251 SPGSDSEDAGGARLGRMISSISETELELSSDGGS--SSSGRSSHLTNSIE    298
+
+AF-Q10NK5-F1      67 RGVE---------------GFIAVSTKQMEIVKKLAEDCCRYGNDNQNFG    101
+                     ....               .|:.|                  |.|:.|  
+AF-Q13387-F1     299 EASSPASEPEPPREPPRRPAFLPV------------------GPDDTN--    328
+
+AF-Q10NK5-F1     102 FILARASVEFGN-SHSQMEKERE------NLLKFLGEQVFEPLR---EMI    141
+                          :..|.|: |...:.::.:      ||:..:..:...|:|   :.:
+AF-Q13387-F1     329 -----SEYESGSESEPDLSEDADSPWLLSNLVSRMISEGSSPIRCPGQCL    373
+
+AF-Q10NK5-F1     142 MSAPLEDARLLTYRYQRIRQDMESQIADVMRKQLKSKESSGNADNSVKLQ    191
+                     ..||            |...:..|......:.....:.::|  ...|:|.
+AF-Q13387-F1     374 SPAP------------RPPGEPVSPAGGAAQDSQDPEAAAG--PGGVELV    409
+
+AF-Q10NK5-F1     192 HAESKL------------------------SELRTTLSAL----------    207
+                     ..|:..                        :..|.|::.|          
+AF-Q13387-F1     410 DMETLCAPPPPAPAAPRPGPAQPGPCLFLSNPTRDTITPLWAAPGRAARP    459
+
+AF-Q10NK5-F1     208 GREATAAMEAVEVQQQQVTFDRLLAMVDAE--------RAYHQNAADILN    249
+                     ||..:||....|.::.....:      |||        |....:|....:
+AF-Q13387-F1     460 GRACSAACSEEEDEEDDEEEE------DAEDSAGSPGGRGTGPSAPRDAS    503
+
+AF-Q10NK5-F1     250 KLHD--------------EMVQAKH-----HDEPENHYDETSSDPKTAAT    280
+                     .::|              |:|..:.     ||..|:...|.|.:...||.
+AF-Q13387-F1     504 LVYDAVKYTLVVDEHTQLELVSLRRCAGLGHDSEEDSGGEASEEEAGAAL    553
+
+AF-Q10NK5-F1     281 ---HEHSRSTSED-----------HIFTNTSEPTRTETSEPTRTET---S    313
+                        .:.|..||.|           ::|.|:       ||..:.||:   .
+AF-Q13387-F1     554 LGGGQVSGDTSPDSPDLTFSKKFLNVFVNS-------TSRSSSTESFGLF    596
+
+AF-Q10NK5-F1     314 EPTRNGQEVHYVGEVIHPFDAQADGELSISVGDYVVVRQVAPNGWSEG--    361
+                     ....||:|.......:..|..:...||.:.|.|.|:|.....:.|..|  
+AF-Q13387-F1     597 SCLVNGEEREQTHRAVFRFIPRHPDELELDVDDPVLVEAEEDDFWFRGFN    646
+
+AF-Q10NK5-F1     362 ECKGKAGWFPSAYVEQRDKAPASKVIEPG----LLTT-------------    394
+                     ...|:.|.||:.|..          ..||    ||.:             
+AF-Q13387-F1     647 MRTGERGVFPAFYAH----------AVPGPAKDLLGSKRSPCWVERFDVQ    686
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q13387-F1     687 FLGSVEVPCHQGNGILCAAMQKIATARKLTVHLRPPASCDLEISLRGVKL    736
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q13387-F1     737 SLSGGGPEFQRCSHFFQMKNISFCGCHPRNSCYFGFITKHPLLSRFACHV    786
+
+AF-Q10NK5-F1     394 --------------------------------------    394
+                                                           
+AF-Q13387-F1     787 FVSQESMRPVAQSVGRAFLEYYQEHLAYACPTEDIYLE    824
+
+
+#---------------------------------------
+#---------------------------------------

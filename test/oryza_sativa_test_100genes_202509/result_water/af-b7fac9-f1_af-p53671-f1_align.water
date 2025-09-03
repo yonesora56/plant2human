@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:55
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p53671-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-p53671-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-p53671-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-P53671-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 221
+# Identity:      72/221 (32.6%)
+# Similarity:   106/221 (48.0%)
+# Gaps:          31/221 (14.0%)
+# Score: 240.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     611 IIGKGGFGTVYHGILENNDEVAV-KVLVETSIAESKDFLPEVQTLSKVHH    659
+                     ::|||.||.......:...:|.| |.|:.......|.||.||:.:..:.|
+AF-P53671-F1     336 VLGKGFFGQAIKVTHKATGKVMVMKELIRCDEETQKTFLTEVKVMRSLDH    385
+
+AF-B7FAC9-F1     660 KNLVALVGYCQNKKCLALVYDFMPRGNLQQLLRGGYDSLNWEERLHIALD    709
+                     .|::..:|.....|.|.|:.:::..|.|:..|| ..|...|::::..|..
+AF-P53671-F1     386 PNVLKFIGVLYKDKKLNLLTEYIEGGTLKDFLR-SMDPFPWQQKVRFAKG    434
+
+AF-B7FAC9-F1     710 AAQGLEYLHESCTPSIVHRDVKTPNIL--LDKNLVAKISDFGLSRAF---    754
+                     .|.|:.|||..|   |:|||:.:.|.|  |||.:|  ::||||||..   
+AF-P53671-F1     435 IASGMAYLHSMC---IIHRDLNSHNCLIKLDKTVV--VADFGLSRLIVEE    479
+
+AF-B7FAC9-F1     755 -NAAHTHISTVAAGTLGYLD----------PEYHATFQLTVKT-----DV    788
+                      ..|....:|....||...|          |.:.|...|..|:     |:
+AF-P53671-F1     480 RKRAPMEKATTKKRTLRKNDRKKRYTVVGNPYWMAPEMLNGKSYDETVDI    529
+
+AF-B7FAC9-F1     789 YSFGIVLLEIVTGQPPVFMDP    809
+                     :||||||.||: ||  |:.||
+AF-P53671-F1     530 FSFGIVLCEII-GQ--VYADP    547
+
+
+#---------------------------------------
+#---------------------------------------

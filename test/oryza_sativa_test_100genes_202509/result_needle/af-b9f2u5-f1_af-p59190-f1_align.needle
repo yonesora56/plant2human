@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:11
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-b9f2u5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p59190-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-b9f2u5-f1_af-p59190-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-b9f2u5-f1_af-p59190-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B9F2U5-F1
+# 2: AF-P59190-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 706
+# Identity:      47/706 ( 6.7%)
+# Similarity:    92/706 (13.0%)
+# Gaps:         520/706 (73.7%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+AF-B9F2U5-F1       1 MATATASRLAVPAPRTSPQAPGRRRPAAPLPSAPPRPRALSAAPRGRVVC     50
+                                                                       
+AF-P59190-F1       0 --------------------------------------------------      0
+
+AF-B9F2U5-F1      51 PAAPASSPASTTDAGQDRLQKVPVSNIRNFSIIAHIDHGKSTLADKLLEL    100
+                                                                       
+AF-P59190-F1       0 --------------------------------------------------      0
+
+AF-B9F2U5-F1     101 TGTVQKREMKQQFLDNMDLERERGITIKLQAARMRYIMNDEPYCLNLIDT    150
+                                                                       
+AF-P59190-F1       0 --------------------------------------------------      0
+
+AF-B9F2U5-F1     151 PGHVDFSYEVSRSLAACEGALLVVDASQGVEAQTLANVYLALENDLEIIP    200
+                                                                       
+AF-P59190-F1       0 --------------------------------------------------      0
+
+AF-B9F2U5-F1     201 VLNKIDLPGAEPDRVAQEIEEIIGMDCSNAIRCSAKEGIGITEILDAIVT    250
+                                                                       
+AF-P59190-F1       0 --------------------------------------------------      0
+
+AF-B9F2U5-F1     251 KIPPPQNTAISPLRALIFDSYYDPYRGVIVYFRVVDGSIKKGDKICFMAS    300
+                                                                       
+AF-P59190-F1       0 --------------------------------------------------      0
+
+AF-B9F2U5-F1     301 GKEYVADEIGVLSPNQMQVSELYAGEVGYLSASIRSVADARVGDTITHSS    350
+                                                                       
+AF-P59190-F1       0 --------------------------------------------------      0
+
+AF-B9F2U5-F1     351 KRAECALPGYSQATPMVFCGLFPIDADQFEELREALEKLQLNDAALKAVT    400
+                                                                       
+AF-P59190-F1       0 --------------------------------------------------      0
+
+AF-B9F2U5-F1     401 RFSMQFEPESSSAMGFGFRCGFLGLLHMEIVQERLEREYNL--NLIITAP    448
+                                                       :.::|::  .|::...
+AF-P59190-F1       1 ----------------------------------MAKQYDVLFRLLLIGD     16
+
+AF-B9F2U5-F1     449 SVVYHVNL----ADGETVECSNPSLLPEPGKRRSIEEPYVKIDMLTPKEY    494
+                     |.|....|    .|.| ...|:.|.:....|.::||...:|:.:      
+AF-P59190-F1      17 SGVGKTCLLCRFTDNE-FHSSHISTIGVDFKMKTIEVDGIKVRI------     59
+
+AF-B9F2U5-F1     495 IGPIME-LGQERRGEFKEMNFITENRASVVYELPLAEMVGDFFDQLKSRS    543
+                       .|.: .||||.....:..:.......:||::              |..
+AF-P59190-F1      60 --QIWDTAGQERYQTITKQYYRRAQGIFLVYDI--------------SSE     93
+
+AF-B9F2U5-F1     544 KGYASMEYSLIGYRESNLVKLDIQINGDPVEALSTIVHRDKA-----YSV    588
+                     :.|            .:::|....::....|.:..|:..:||     ..|
+AF-P59190-F1      94 RSY------------QHIMKWVSDVDEYAPEGVQKILIGNKADEEQKRQV    131
+
+AF-B9F2U5-F1     589 GRALTQKLKELIPRQMFRVPIQACIGAKVIASEALSAIRKDVLSKCYGGD    638
+                     ||...|:|.:......:..  .||....:  .|:.:.:.:.||       
+AF-P59190-F1     132 GREQGQQLAKEYGMDFYET--SACTNLNI--KESFTRLTELVL-------    170
+
+AF-B9F2U5-F1     639 ISRKKKLLKKQAEGKKRMKAIGRVDVPQEAFMAVLKLEKEVL--------    680
+                          :..:|:.|| .||:|...        :|:.:||:|..        
+AF-P59190-F1     171 -----QAHRKELEG-LRMRASNE--------LALAELEEEEGKPEGPANS    206
+
+AF-B9F2U5-F1     680 ------    680
+                           
+AF-P59190-F1     207 SKTCWC    212
+
+
+#---------------------------------------
+#---------------------------------------

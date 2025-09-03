@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:27
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q5jjp8-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8ted0-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5jjp8-f1_af-q8ted0-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5jjp8-f1_af-q8ted0-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5JJP8-F1
+# 2: AF-Q8TED0-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 270
+# Identity:      66/270 (24.4%)
+# Similarity:   116/270 (43.0%)
+# Gaps:          42/270 (15.6%)
+# Score: 161.5
+# 
+#
+#=======================================
+
+AF-Q5JJP8-F1     211 GNFVAVGTMDPAIEIWDLDIVDEVQPHMVLGGHSKKKKKVKGKKAKKYKK    260
+                     |..:..|:.|..::::|   :....|.....||:|....| ...|.||. 
+AF-Q8TED0-F1      92 GRLLVAGSEDGGVQLFD---ISGRAPLRQFEGHTKAVHTV-DFTADKYH-    136
+
+AF-Q5JJP8-F1     261 GSHRSSVLGLAWNKEVRNVLASASADKTVKIWDVSVGKCAVTLEHHDDKV    310
+                                        :.|.:.|.|||:||:...|..:|.:.|.|.|
+AF-Q8TED0-F1     137 -------------------VVSGADDYTVKLWDIPNSKEILTFKEHSDYV    167
+
+AF-Q5JJP8-F1     311 QSVAWSRQSPEVLLSGSFDKSVAMNDMKDGGQSCNKWSVE--ADVESLAW    358
+                     :....|:.:|::.::||:|.:|.|.|.:   .|.:..|||  ..|||:..
+AF-Q8TED0-F1     168 RCGCASKLNPDLFITGSYDHTVKMFDAR---TSESVLSVEHGQPVESVLL    214
+
+AF-Q5JJP8-F1     359 DPHNEHSFMVSLENGMVQAFDKRTASSNSNSGRPTFTLHAHEKAVSSISF    408
+                     .|..  ..:||.....|:.:|.      ...|:...:|..|.|.|:.:..
+AF-Q8TED0-F1     215 FPSG--GLLVSAGGRYVKVWDM------LKGGQLLVSLKNHHKTVTCLCL    256
+
+AF-Q5JJP8-F1     409 SPSTPNFLATGSTDKMVKLWDLSNNQPSCIASLNPKLGAIFSVSFSNDSP    458
+                     |.|....| :||.|:.||::  |......:.|.: ...:|.|::.:::..
+AF-Q8TED0-F1     257 SSSGQRLL-SGSLDRKVKVY--STTSYKVVHSFD-YAASILSLALAHEDE    302
+
+AF-Q5JJP8-F1     459 FLLASGGSKGKLKVWNTLTE    478
+                     .::. |.:.|.|.|.:..:|
+AF-Q8TED0-F1     303 TIVV-GMTNGILSVKHRKSE    321
+
+
+#---------------------------------------
+#---------------------------------------

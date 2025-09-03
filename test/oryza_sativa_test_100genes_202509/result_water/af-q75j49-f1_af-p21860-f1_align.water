@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:41
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p21860-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-p21860-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-p21860-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-P21860-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 326
+# Identity:      75/326 (23.0%)
+# Similarity:   142/326 (43.6%)
+# Gaps:          59/326 (18.1%)
+# Score: 248.0
+# 
+#
+#=======================================
+
+AF-Q75J49-F1      66 EIDLAKLEIRYVIAQGTYGTVYRGTY--DGQD----VAVKLLDWGEDGFA    109
+                     |.:|.||:   |:..|.:|||::|.:  :|:.    |.:|::        
+AF-P21860-F1     706 ETELRKLK---VLGSGVFGTVHKGVWIPEGESIKIPVCIKVI--------    744
+
+AF-Q75J49-F1     110 TEAETAALRTSFK---QEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNS    156
+                        |..:.|.||:   ..:.....|.|.::.:.:|.              
+AF-P21860-F1     745 ---EDKSGRQSFQAVTDHMLAIGSLDHAHIVRLLGL--------------    777
+
+AF-Q75J49-F1     157 NAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQLALDLA    206
+                            .|..:..:|.:||..|:|..: ::..|..|..::::...:.:|
+AF-P21860-F1     778 -------CPGSSLQLVTQYLPLGSLLDH-VRQHRGALGPQLLLNWGVQIA    819
+
+AF-Q75J49-F1     207 RGLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQNPKDM--T    254
+                     :|:.||....:|||::...|:||.:...:::||||||.:...:.|.:  :
+AF-P21860-F1     820 KGMYYLEEHGMVHRNLAARNVLLKSPSQVQVADFGVADLLPPDDKQLLYS    869
+
+AF-Q75J49-F1     255 GATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDM-PYPDLSFAD    303
+                     .|...:.:||.|.:....|..:.||:|:|:.:||:..... ||..|..|:
+AF-P21860-F1     870 EAKTPIKWMALESIHFGKYTHQSDVWSYGVTVWELMTFGAEPYAGLRLAE    919
+
+AF-Q75J49-F1     304 VSSAVVHQNLRPDVPRCCPSAFANIMRKCWDANPDKRPDMDEVVQLLE--    351
+                     |.. ::.:..|...|:.|......:|.|||..:.:.||...|:.....  
+AF-P21860-F1     920 VPD-LLEKGERLAQPQICTIDVYMVMVKCWMIDENIRPTFKELANEFTRM    968
+
+AF-Q75J49-F1     352 --------ALDTSKGGGMIPDGQSSG    369
+                             .:....|.|:.|..:..|
+AF-P21860-F1     969 ARDPPRYLVIKRESGPGIAPGPEPHG    994
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,109 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:05
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6k7h2-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q00839-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6k7h2-f1_af-q00839-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6k7h2-f1_af-q00839-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6K7H2-F1
+# 2: AF-Q00839-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 883
+# Identity:      41/883 ( 4.6%)
+# Similarity:    68/883 ( 7.7%)
+# Gaps:         727/883 (82.3%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+AF-Q6K7H2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q00839-F1       1 MSSSPVNVKKLKVSELKEELKKRRLSDKGLKAELMERLQAALDDEEAGGR     50
+
+AF-Q6K7H2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q00839-F1      51 PAMEPGNGSLDLGGDSAGRSGAGLEQEAAAGGDEEEEEEEEEEEGISALD    100
+
+AF-Q6K7H2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q00839-F1     101 GDQMELGEENGAAGAADSGPMEEEEAASEDENGDDQGFQEGEDELGDEEE    150
+
+AF-Q6K7H2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q00839-F1     151 GAGDENGHGEQQPQPPATQQQQPQQQRGAAKEAAGKSSGPTSLFAVTVAP    200
+
+AF-Q6K7H2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q00839-F1     201 PGARQGQQQAGGKKKAEGGGGGGRPGAPAAGDGKTEQKGGDKKRGVKRPR    250
+
+AF-Q6K7H2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q00839-F1     251 EDHGRGYFEYIEENKYSRAKSPQPPVEEEDEHFDDTVVCLDTYNCDLHFK    300
+
+AF-Q6K7H2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q00839-F1     301 ISRDRLSASSLTMESFAFLWAGGRASYGVSKGKVCFEMKVTEKIPVRHLY    350
+
+AF-Q6K7H2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q00839-F1     351 TKDIDIHEVRIGWSLTTSGMLLGEEEFSYGYSLKGIKTCNCETEDYGEKF    400
+
+AF-Q6K7H2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q00839-F1     401 DENDVITCFANFESDEVELSYAKNGQDLGVAFKISKEVLAGRPLFPHVLC    450
+
+AF-Q6K7H2-F1       1 ------------------------------MGSVVDAPTVVAGQEEVTDN     20
+                                                   :...|..|   .|.||    
+AF-Q00839-F1     451 HNCAVEFNFGQKEKPYFPIPEEYTFIQNVPLEDRVRGP---KGPEE----    493
+
+AF-Q6K7H2-F1      21 MLGDKKVTVVFVLGGPGSGKGTQCANIVEHFGFIHLSAGDLLRAEIKSGS     70
+                        .|...||.::|.||:||.|...                     |..:
+AF-Q00839-F1     494 ---KKDCEVVMMIGLPGAGKTTWVT---------------------KHAA    519
+
+AF-Q6K7H2-F1      71 ENGTMIENMIKEGKIVPSEVTIKLLQEAMIKSGNDKFLIDGFPRNEENRA    120
+                     ||              |.:..|......|     ||.::.||.:...:..
+AF-Q00839-F1     520 EN--------------PGKYNILGTNTIM-----DKMMVAGFKKQMADTG    550
+
+AF-Q6K7H2-F1     121 AFENVTKITPAFV-LFFDCSEEEMERRLLGRNQGRVDDNIETIRKRFKVF    169
+                     ....:.:..|..: .|.:.:..:....:|.:.      |:....:|.|:.
+AF-Q00839-F1     551 KLNTLLQRAPQCLGKFIEIAARKKRNFILDQT------NVSAAAQRRKMC    594
+
+AF-Q6K7H2-F1     170 VESSL--------PVIEYYNAKDKVKKIDAAKPIPE-VFEDVKAIFAPYA    210
+                     :.:..        |..|.|..:.:.|.....|.:|| ....:|..|.  .
+AF-Q00839-F1     595 LFAGFQRKAVVVCPKDEDYKQRTQKKAEVEGKDLPEHAVLKMKGNFT--L    642
+
+AF-Q6K7H2-F1     211 PNAA----------------------------------------------    214
+                     |..|                                              
+AF-Q00839-F1     643 PEVAECFDEITYVELQKEEAQKLLEQYKEESKKALPPEKKQNTGSKKSNK    692
+
+AF-Q6K7H2-F1     214 --------------------------------------------------    214
+                                                                       
+AF-Q00839-F1     693 NKSGKNQFNRGGGHRGRGGFNMRGGNFRGGAPGNRGGYNRRGNMPQRGGG    742
+
+AF-Q6K7H2-F1     214 --------------------------------------------------    214
+                                                                       
+AF-Q00839-F1     743 GGGSGGIGYPYPRAPVFPGRGSYSNRGNYNRGGMPNRGNYNQNFRGRGNN    792
+
+AF-Q6K7H2-F1     214 ---------------------------------    214
+                                                      
+AF-Q00839-F1     793 RGYKNQSQGYNQWQQGQFWGQKPWSQHYHQGYY    825
+
+
+#---------------------------------------
+#---------------------------------------

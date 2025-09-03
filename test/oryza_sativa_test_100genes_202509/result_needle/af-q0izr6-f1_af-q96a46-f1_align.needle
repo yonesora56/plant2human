@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:56
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0izr6-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q96a46-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0izr6-f1_af-q96a46-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0izr6-f1_af-q96a46-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0IZR6-F1
+# 2: AF-Q96A46-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 379
+# Identity:      60/379 (15.8%)
+# Similarity:    82/379 (21.6%)
+# Gaps:         212/379 (55.9%)
+# Score: 141.0
+# 
+#
+#=======================================
+
+AF-Q0IZR6-F1       1 -----------------------------------MPEMGARGGEAGAAR     15
+                                                        ....||.||||||.|
+AF-Q96A46-F1       1 MELEGRGAGGVAGGPAAGPGRSPGESALLDGWLQRGVGRGAGGGEAGACR     50
+
+AF-Q0IZR6-F1      16 --VANGGGGGGTGGMRLFSPEYYALCTGGGM---LAAGAT-----HLAIT     55
+                       |......|         |:|.||..|..:   :.|||.     |..:.
+AF-Q96A46-F1      51 PPVRQDPDSG---------PDYEALPAGATVTTHMVAGAVAGILEHCVMY     91
+
+AF-Q0IZR6-F1      56 PLDVLKVNMQ-VNP---MKYNSIFSGLNILVKEEGASSLWRGWAG---KF     98
+                     |:|.:|..|| :.|   .:|.::...|..:::.||   |||...|   ..
+AF-Q96A46-F1      92 PIDCVKTRMQSLQPDPAARYRNVLEALWRIIRTEG---LWRPMRGLNVTA    138
+
+AF-Q0IZR6-F1      99 FGYGFQGGCKFGLYEYFKKKYSDVLVDRNKSTIYFISSASAQIIA----D    144
+                     .|.|......|..||..||..|||:.....|   .|::.:|..:|    |
+AF-Q96A46-F1     139 TGAGPAHALYFACYEKLKKTLSDVIHPGGNS---HIANGAAGCVATLLHD    185
+
+AF-Q0IZR6-F1     145 VALCPFESVKVRVQTQPMFAKGLIDGFPRVYATEGLSG------------    182
+                     .|:.|.|.||.|:|........:.|....|:..||...            
+AF-Q96A46-F1     186 AAMNPAEVVKQRMQMYNSPYHRVTDCVRAVWQNEGAGAFYRSYTTQLTMN    235
+
+AF-Q0IZR6-F1     182 --------------------------------------------------    182
+                                                                       
+AF-Q96A46-F1     236 VPFQAIHFMTYEFLQEHFNPQRRYNPSSHVLSGACAGAVAAAATTPLDVC    285
+
+AF-Q0IZR6-F1     182 --------------------------------------------------    182
+                                                                       
+AF-Q96A46-F1     286 KTLLNTQESLALNSHITGHITGMASAFRTVYQVGGVTAYFRGVQARVIYQ    335
+
+AF-Q0IZR6-F1     182 -----------------------------    182
+                                                  
+AF-Q96A46-F1     336 IPSTAIAWSVYEFFKYLITKRQEEWRAGK    364
+
+
+#---------------------------------------
+#---------------------------------------

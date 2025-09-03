@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:54
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q7xi89-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o14617-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q7xi89-f1_af-o14617-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q7xi89-f1_af-o14617-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7XI89-F1
+# 2: AF-O14617-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 255
+# Identity:      51/255 (20.0%)
+# Similarity:    86/255 (33.7%)
+# Gaps:          79/255 (31.0%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+AF-Q7XI89-F1      64 WSMPSTANVSQQEAPRPLEHVNLLAARNERESFQIALRPKV--SWATSGI    111
+                     |.:.....:::.|..|   |.:|:||    :...:|:|.|.  .:|.|  
+AF-O14617-F1     417 WYISILVELTRLEGTR---HGHLIAA----QMLDVAIRVKAIRKFAVS--    457
+
+AF-Q7XI89-F1     112 AGSVQVQCTDLCSSAGDRLVVGQSVTLRRVVPMLGVPDALVPI-------    154
+                           |.:.|..||  .|:.  |.|.|.     |:.:.|...       
+AF-O14617-F1     458 ------QMSALLDSA--HLLA--SSTQRN-----GICEVLYAAAWICGEF    492
+
+AF-Q7XI89-F1     155 -----DP-------LNSQINLLPGETSAIWVSLNVPC-------GQQPGL    185
+                          :|       |..::..|||...|::|...|..       .:|.|.
+AF-O14617-F1     493 SEHLQEPHHTLEAMLRPRVTTLPGHIQAVYVQNVVKLYASILQQKEQAGE    542
+
+AF-Q7XI89-F1     186 YEG------------EIFISAVRAEAESRGESLTKSERYQLYKELRNCID    223
+                     .||            ..|:.:...|.:.|...:     .||.|.::.   
+AF-O14617-F1     543 AEGAQAVTQLMVDRLPQFVQSADLEVQERASCI-----LQLVKHIQK---    584
+
+AF-Q7XI89-F1     224 ITEPRDYSSSEEM----VQRLTSASTTLRRMLALPSFQDCQE--NNGLGD    267
+                      .:.:|...:||:    ...|...:...::.:.:|...|...  |..|.|
+AF-O14617-F1     585 -LQAKDVPVAEEVSALFAGELNPVAPKAQKKVPVPEGLDLDAWINEPLSD    633
+
+AF-Q7XI89-F1     268 MMDED    272
+                     ...||
+AF-O14617-F1     634 SESED    638
+
+
+#---------------------------------------
+#---------------------------------------

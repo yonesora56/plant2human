@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:40
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p32298-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-p32298-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-p32298-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-P32298-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 254
+# Identity:      66/254 (26.0%)
+# Similarity:   108/254 (42.5%)
+# Gaps:          32/254 (12.6%)
+# Score: 196.5
+# 
+#
+#=======================================
+
+AF-Q75J49-F1     104 GEDGFATEAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPT    153
+                     |:.||   .|..|.:.....::....||....:.|..|.:|...:.:|  
+AF-P32298-F1     194 GKGGF---GEVCACQVRATGKMYACKKLQKKRIKKRKGEAMALNEKRI--    238
+
+AF-Q75J49-F1     154 NNSNAGARTNLPAR-------------ACCVVVEYLAGGTLKQYLIKNSR    190
+                            ...:.:|             |.|:|:..:.||.||.::.....
+AF-P32298-F1     239 -------LEKVQSRFVVSLAYAYETKDALCLVLTIMNGGDLKFHIYNLGN    281
+
+AF-Q75J49-F1     191 RKLAYKVVVQLALDLARGLSYLHSRKIVHRDVKTENMLLDTQRNLKIADF    240
+                     .....:..|..|.:|..||..|...:||:||:|.||:|||.:.:::|:|.
+AF-P32298-F1     282 PGFDEQRAVFYAAELCCGLEDLQRERIVYRDLKPENILLDDRGHIRISDL    331
+
+AF-Q75J49-F1     241 GVARVEAQNPKDMTGATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIY    290
+                     |:| .|....:.:.|..||:|||||||::.:.|....|.:..|..::|:.
+AF-P32298-F1     332 GLA-TEIPEGQRVRGRVGTVGYMAPEVVNNEKYTFSPDWWGLGCLIYEMI    380
+
+AF-Q75J49-F1     291 CCDMPYPDLSFADVSSAVVHQNLRPDVPRCCPSAFA----NIMRKCWDAN    336
+                     ....|:.... ..|....|.|.::.|... ....|:    :|.|.....|
+AF-P32298-F1     381 QGHSPFKKYK-EKVKWEEVDQRIKNDTEE-YSEKFSEDAKSICRMLLTKN    428
+
+AF-Q75J49-F1     337 PDKR    340
+                     |.||
+AF-P32298-F1     429 PSKR    432
+
+
+#---------------------------------------
+#---------------------------------------

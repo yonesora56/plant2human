@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:10
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o75175-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-o75175-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-o75175-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-O75175-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 348
+# Identity:      78/348 (22.4%)
+# Similarity:   128/348 (36.8%)
+# Gaps:         104/348 (29.9%)
+# Score: 120.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1     116 SQMEKERENLLKFLG--EQVFEPLREMIMSAPLEDARLLTYRYQRIRQDM    163
+                     :|.||...:|.|.:.  :::.:.::..:.|..::|.|.|....:.|...|
+AF-O75175-F1      39 NQKEKYEADLKKEIKKLQRLRDQIKTWVASNEIKDKRQLIDNRKLIETQM     88
+
+AF-Q10NK5-F1     164 ESQIADVMRKQLK----SKESSGNADNSVKLQHAESKLSE----LRTTLS    205
+                     |.  ..|:.::.|    |||..|.|.   |:..|:.:..|    |..|:.
+AF-O75175-F1      89 ER--FKVVERETKTKAYSKEGLGLAQ---KVDPAQKEKEEVGQWLTNTID    133
+
+AF-Q10NK5-F1     206 ALGREA---TAAMEAVEVQQQQVTFDR--------LLAMVDAERAYHQNA    244
+                     .|..:.   .:.:|::.||.::...|:        |...::..| ||...
+AF-O75175-F1     134 TLNMQVDQFESEVESLSVQTRKKKGDKDKQDRIEGLKRHIEKHR-YHVRM    182
+
+AF-Q10NK5-F1     245 ADILNKLHDE---MVQA--KHHDEPENHYDETSSDP--------------    275
+                     .:.:.::.|.   :|.|  |..|:.| :|.::|.||              
+AF-O75175-F1     183 LETILRMLDNDSILVDAIRKIKDDVE-YYVDSSQDPDFEENEFLYDDLDL    231
+
+AF-Q10NK5-F1     276 -----KTAATHEHSRSTSEDHIFT-NTSEPTRTETSEP-------TRTET    312
+                          ...||...|.|..||.||. ::|.||.|.:|.|       ..||.
+AF-O75175-F1     232 EDIPQALVATSPPSHSHMEDEIFNQSSSTPTSTTSSSPIPPSPANCTTEN    281
+
+AF-Q10NK5-F1     313 SE----------------PTRNGQEVHYVGEVIHPFD-----------AQ    335
+                     ||                |.:||.:..:..:  ||..           ..
+AF-O75175-F1     282 SEDDKKRGRSTDSEVSQSPAKNGSKPVHSNQ--HPQSPAVPPTYPSGPPP    329
+
+AF-Q10NK5-F1     336 ADGELSISVGDYVVVRQVAPNGWSEGECKGKAGWFPSAYVEQRDKAPA    383
+                     |...||.:.|:..|....||               |||...:...||:
+AF-O75175-F1     330 AASALSTTPGNNGVPAPAAP---------------PSALGPKASPAPS    362
+
+
+#---------------------------------------
+#---------------------------------------

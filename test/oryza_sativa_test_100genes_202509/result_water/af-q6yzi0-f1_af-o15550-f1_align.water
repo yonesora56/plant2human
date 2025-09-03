@@ -1,0 +1,93 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:14
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6yzi0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o15550-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6yzi0-f1_af-o15550-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6yzi0-f1_af-o15550-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6YZI0-F1
+# 2: AF-O15550-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 681
+# Identity:     136/681 (20.0%)
+# Similarity:   245/681 (36.0%)
+# Gaps:         169/681 (24.8%)
+# Score: 189.0
+# 
+#
+#=======================================
+
+AF-Q6YZI0-F1       5 GMDSSEGRESNGVVPERNGGAVPAKQQLDGKDTLRYANILRSRNKFAEAL     54
+                     |..|.|..|::..:      ....::.|.|.|:..:..:     :|.|  
+AF-O15550-F1      28 GKASGESEEASPSL------TAEEREALGGLDSRLFGFV-----RFHE--     64
+
+AF-Q6YZI0-F1      55 QLYNNVLEKDEANVEALIGKGICLQAQSLPMQAIECFNEAV-----RIDP     99
+                              |.|..:||:||            |:.|:...:     :::.
+AF-O15550-F1      65 ---------DGARTKALLGK------------AVRCYESLILKAEGKVES     93
+
+AF-Q6YZI0-F1     100 GNACALTYCGMIYKDEGHLVEAAEAYQKARNADPSYKPAAEFLAIVLTDL    149
+                     ...|.|.:..::.:|   ..:|..|||:..:....|...|.|    |..|
+AF-O15550-F1      94 DFFCQLGHFNLLLED---YPKALSAYQRYYSLQSDYWKNAAF----LYGL    136
+
+AF-Q6YZI0-F1     150 GTSLKLAGNTEEGIQKYCEALEVDSHYAPA---YYNLGVVY-------SE    189
+                     |.........:..|:.:.|.|.||..:..|   :..||:::       |.
+AF-O15550-F1     137 GLVYFHYNAFQWAIKAFQEVLYVDPSFCRAKEIHLRLGLMFKVNTDYESS    186
+
+AF-Q6YZI0-F1     190 MMQFDLALTCYEKAALERPLYAEAYCNMGVIYKNRGELEAAIACYERCLT    239
+                     :..|.|||.......|..   ||...::..:|:.:.:..:|...||:.|.
+AF-O15550-F1     187 LKHFQLALVDCNPCTLSN---AEIQFHIAHLYETQRKYHSAKEAYEQLLQ    233
+
+AF-Q6YZI0-F1     240 ISPNFEIAKNNMAIALTDLG---TKVKIEGD----INQGVAYYKKALFYN    282
+                     ..   .::....|..|..||   ..|.:.||    .:..:.|.:|:|..:
+AF-O15550-F1     234 TE---NLSAQVKATVLQQLGWMHHTVDLLGDKATKESYAIQYLQKSLEAD    280
+
+AF-Q6YZI0-F1     283 WHYADAMYNLGVAYGEMLNFEMAIVFYELALHFNPRCAEACNNLGVIYKD    332
+                     .:...:.|.||..|..:...:.|.:.|..::..:...|:...::||:|:.
+AF-O15550-F1     281 PNSGQSWYFLGRCYSSIGKVQDAFISYRQSIDKSEASADTWCSIGVLYQQ    330
+
+AF-Q6YZI0-F1     333 RDNLDKAVECYQMALSIKPNFSQSLNNLGVVYTVQGKMDAASSMIQKAI-    381
+                     ::....|::.|..|:.:....:.:..:||.:|       .:.:..|.|| 
+AF-O15550-F1     331 QNQPMDALQAYICAVQLDHGHAAAWMDLGTLY-------ESCNQPQDAIK    373
+
+AF-Q6YZI0-F1     382 -FANSTYAEAYNNLGVLYRDAGSITSAVQAYEKCLQIDPDSRNAG--QNR    428
+                      :.|:|.:::.:|           |||:.|..|.||....:...|  ||:
+AF-O15550-F1     374 CYLNATRSKSCSN-----------TSALAARIKYLQAQLCNLPQGSLQNK    412
+
+AF-Q6YZI0-F1     429 LLALNYIDEGFDDKLYQAHREWGKRFLKLYPQYTSWDNPKVADRPLVIGY    478
+                     ...|..|:|                         :|..|..|:.....|.
+AF-O15550-F1     413 TKLLPSIEE-------------------------AWSLPIPAELTSRQGA    437
+
+AF-Q6YZI0-F1     479 V------SPDYFT--HSVSYFIEAPLAHHDYSNYKVVVYSGVVKADAKTL    520
+                     :      :.|.::  |:||:......||......:.:.:...::|:...|
+AF-O15550-F1     438 MNTAQQNTSDNWSGGHAVSHPPVQQQAHSWCLTPQKLQHLEQLRANRNNL    487
+
+AF-Q6YZI0-F1     521 RFKDKVLKKGGLWRDIYGIDEKKVASLVREDKVDILVELTGHTANNKLGT    570
+                     ....|                     |:.|......|.:..|        
+AF-O15550-F1     488 NPAQK---------------------LMLEQLESQFVLMQQH--------    508
+
+AF-Q6YZI0-F1     571 MACRPAPI-QVTWIGYPNTTGLPTIDYRI-TDSLADPPDTTQKHVEELVR    618
+                      ..||..: ||...|.||.   ||.|..: |:|::.     |:....|.|
+AF-O15550-F1     509 -QMRPTGVAQVRSTGIPNG---PTADSSLPTNSVSG-----QQPQLALTR    549
+
+AF-Q6YZI0-F1     619 LPESFLCYSPSPEAGPVCPTPAILNGFITFG    649
+                     :|.     ...|...|.||...:.||..:.|
+AF-O15550-F1     550 VPS-----VSQPGVRPACPGQPLANGPFSAG    575
+
+
+#---------------------------------------
+#---------------------------------------

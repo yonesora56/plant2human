@@ -1,0 +1,57 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:52
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q7f225-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p40429-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q7f225-f1_af-p40429-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q7f225-f1_af-p40429-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7F225-F1
+# 2: AF-P40429-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 212
+# Identity:     123/212 (58.0%)
+# Similarity:   152/212 (71.7%)
+# Gaps:          15/212 ( 7.1%)
+# Score: 628.0
+# 
+#
+#=======================================
+
+AF-Q7F225-F1       1 MVSGSGLCTRRV-VVDARHHMLGRLASLVAKELLNGQRVVVVRCEEMCIS     49
+                           :...:| |:|.|.|:|||||::|||::|.|::|||||||.:.||
+AF-P40429-F1       1 ------MAEVQVLVLDGRGHLLGRLAAIVAKQVLLGRKVVVVRCEGINIS     44
+
+AF-Q7F225-F1      50 GGLVRQKMKYLRFLRKRMNTKPSHGPIHFRAPSRIFWRTVRGMIPHKTPR     99
+                     |...|.|:|||.||||||||.||.||.||||||||||||||||:||||.|
+AF-P40429-F1      45 GNFYRNKLKYLAFLRKRMNTNPSRGPYHFRAPSRIFWRTVRGMLPHKTKR     94
+
+AF-Q7F225-F1     100 GEAALANLKAFDGVPPPYDRTKRMVVPDALKVLRLQPGHKYCLLGQLSKE    149
+                     |:|||..||.|||:|||||:.||||||.||||:||:|..|:..||:|:.|
+AF-P40429-F1      95 GQAALDRLKVFDGIPPPYDKKKRMVVPAALKVVRLKPTRKFAYLGRLAHE    144
+
+AF-Q7F225-F1     150 VGWNYHDTIRELEEKRKEKAKVAYERRKQLTRLRVKAEKAAEEKLGSQID    199
+                     |||.|......||||||||||:.|.::|||.|||.:|||..|:|:....:
+AF-P40429-F1     145 VGWKYQAVTATLEEKRKEKAKIHYRKKKQLMRLRKQAEKNVEKKIDKYTE    194
+
+AF-Q7F225-F1     200 ILAPIKY-----    206
+                     :|   |.     
+AF-P40429-F1     195 VL---KTHGLLV    203
+
+
+#---------------------------------------
+#---------------------------------------

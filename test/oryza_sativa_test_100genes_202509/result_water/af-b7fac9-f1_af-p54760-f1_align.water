@@ -1,0 +1,81 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:11
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p54760-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-p54760-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-p54760-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-P54760-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 524
+# Identity:     129/524 (24.6%)
+# Similarity:   215/524 (41.0%)
+# Gaps:         107/524 (20.4%)
+# Score: 294.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     478 TGTIPDYQV----------NSLTVIDLSNN--QLNGSIPDSILQRYKAGL    515
+                     :|.:.||:|          :|:..:..|.|  :|.|      |:|..:.|
+AF-P54760-F1     461 SGAVLDYEVKYHEKGAEGPSSVRFLKTSENRAELRG------LKRGASYL    504
+
+AF-B7FAC9-F1     516 LELRLEGNPICSKVRASY--CGNKKNTRTRI-----------LLISVLVP    552
+                     :::|       ::..|.|  .|.:.:::|::           |:....|.
+AF-P54760-F1     505 VQVR-------ARSEAGYGPFGQEHHSQTQLDESEGWREQLALIAGTAVV    547
+
+AF-B7FAC9-F1     553 VTSLLVVLFIFWRLCWKGKSRKSEEEDYDMYEE-----ETPLHIDIRRFT    597
+                     ...|::|:.:...||.:.:|...|.|..|.:.:     .|.::||  .||
+AF-P54760-F1     548 GVVLVLVVIVVAVLCLRKQSNGREAEYSDKHGQYLIGHGTKVYID--PFT    595
+
+AF-B7FAC9-F1     598 YAELKLITNNF-----------QSIIGKGGFGTVYHGIL----ENNDEVA    632
+                     |.:.......|           :.:||.|.||.|..|.|    :....||
+AF-P54760-F1     596 YEDPNEAVREFAKEIDVSYVKIEEVIGAGEFGEVCRGRLKAPGKKESCVA    645
+
+AF-B7FAC9-F1     633 VKVL----VETSIAESKDFLPEVQTLSKVHHKNLVALVGYCQNKKCLALV    678
+                     :|.|    .|   .:.::||.|...:.:..|.|::.|.|...|...:.::
+AF-P54760-F1     646 IKTLKGGYTE---RQRREFLSEASIMGQFEHPNIIRLEGVVTNSMPVMIL    692
+
+AF-B7FAC9-F1     679 YDFMPRGNLQQLLRGGYDSLNWEERLHIALDAAQGLEYLHESCTPSIVHR    728
+                     .:||..|.|...||.........:.:.:....|.|:.||.|.   |.|||
+AF-P54760-F1     693 TEFMENGALDSFLRLNDGQFTVIQLVGMLRGIASGMRYLAEM---SYVHR    739
+
+AF-B7FAC9-F1     729 DVKTPNILLDKNLVAKISDFGLSRAF---NAAHTHISTVAAG-TLGYLDP    774
+                     |:...|||::.|||.|:|||||||..   ::..|:.|::... .:.:..|
+AF-P54760-F1     740 DLAARNILVNSNLVCKVSDFGLSRFLEENSSDPTYTSSLGGKIPIRWTAP    789
+
+AF-B7FAC9-F1     775 EYHATFQLTVKTDVYSFGIVLLEIVT-GQPPVFMDPQTVHLPNWVRQKIA    823
+                     |..|..:.|..:|.:|:|||:.|::: |:.| :.|.....:.|.:.|   
+AF-P54760-F1     790 EAIAFRKFTSASDAWSYGIVMWEVMSFGERP-YWDMSNQDVINAIEQ---    835
+
+AF-B7FAC9-F1     824 NGSVHDVVDKKLLDQYDA-THLQTVIDLAMNCLENASIDRPSMTEVVSVL    872
+                             |.:|....|. |.|.   .|.::|.:.....||...:|||.|
+AF-P54760-F1     836 --------DYRLPPPPDCPTSLH---QLMLDCWQKDRNARPRFPQVVSAL    874
+
+AF-B7FAC9-F1     873 ------KVCLPISSERQSATSTPRKKNVMDAEIPRQFQL-----MISGAS    911
+                           ...|.|.:......|.|    ::|...|.....     .:....
+AF-P54760-F1     875 DKMIRNPASLKIVARENGGASHP----LLDQRQPHYSAFGSVGEWLRAIK    920
+
+AF-B7FAC9-F1     912 TTSYEGSSFQSGYTGGVSEISHIS    935
+                     ...||.|...:|: |....:|.||
+AF-P54760-F1     921 MGRYEESFAAAGF-GSFELVSQIS    943
+
+
+#---------------------------------------
+#---------------------------------------

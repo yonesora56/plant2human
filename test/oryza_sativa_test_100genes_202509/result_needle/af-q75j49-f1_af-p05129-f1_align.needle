@@ -1,0 +1,101 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:13
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p05129-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q75j49-f1_af-p05129-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q75j49-f1_af-p05129-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-P05129-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 797
+# Identity:      85/797 (10.7%)
+# Similarity:   145/797 (18.2%)
+# Gaps:         518/797 (65.0%)
+# Score: 193.5
+# 
+#
+#=======================================
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P05129-F1       1 MAGLGPGVGDSEGGPRPLFCRKGALRQKVVHEVKSHKFTARFFKQPTFCS     50
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P05129-F1      51 HCTDFIWGIGKQGLQCQVCSFVVHRRCHEFVTFECPGAGKGPQTDDPRNK    100
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P05129-F1     101 HKFRLHSYSSPTFCDHCGSLLYGLVHQGMKCSCCEMNVHRRCVRSVPSLC    150
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P05129-F1     151 GVDHTERRGRLQLEIRAPTADEIHVTVGEARNLIPMDPNGLSDPYVKLKL    200
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P05129-F1     201 IPDPRNLTKQKTRTVKATLNPVWNETFVFNLKPGDVERRLSVEVWDWDRT    250
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P05129-F1     251 SRNDFMGAMSFGVSELLKAPVDGWYKLLNQEEGEYYNVPVADADNCSLLQ    300
+
+AF-Q75J49-F1       1 ----------------MASSTSDIPEGREKLKRSGSLGSSDTAYVRADKI     34
+                                     |..|:|.||        |.|...:|         
+AF-P05129-F1     301 KFEACNYPLELYERVRMGPSSSPIP--------SPSPSPTD---------    333
+
+AF-Q75J49-F1      35 DLTSLDIQLEKQLTKTWGKANLKAHGPKEDW------EIDLAKLEIRYVI     78
+                                               ||..:      .:.::......|:
+AF-P05129-F1     334 --------------------------PKRCFFGASPGRLHISDFSFLMVL    357
+
+AF-Q75J49-F1      79 AQGTYGTVYRGTYDGQD--VAVKLLDWGEDGFATEAETAALRTSFKQEVA    126
+                     .:|::|.|......|.|  .|:|:|                    |::|.
+AF-P05129-F1     358 GKGSFGKVMLAERRGSDELYAIKIL--------------------KKDVI    387
+
+AF-Q75J49-F1     127 VWH-----KLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCV    171
+                     |..     .|....|....|...|..    |...:...:....|.| ...
+AF-P05129-F1     388 VQDDDVDCTLVEKRVLALGGRGPGGR----PHFLTQLHSTFQTPDR-LYF    432
+
+AF-Q75J49-F1     172 VVEYLAGGTLKQYLIKNSRRKLAYKVVVQLALDLARGLSYLHSRKIVHRD    221
+                     |:||:.||.|..::.:..:.|..:...  .|.::|.||.:||::.|::||
+AF-P05129-F1     433 VMEYVTGGDLMYHIQQLGKFKEPHAAF--YAAEIAIGLFFLHNQGIIYRD    480
+
+AF-Q75J49-F1     222 VKTENMLLDTQRNLKIADFGVARVEAQNPKDMTGAT-----GTLGYMAPE    266
+                     :|.:|::||.:.::||.|||:.:...     ..|.|     ||..|:|||
+AF-P05129-F1     481 LKLDNVMLDAEGHIKITDFGMCKENV-----FPGTTTRTFCGTPDYIAPE    525
+
+AF-Q75J49-F1     267 VLDGKPYNRKCDVYSFGICLWEIYCCDMPYPDLSFADVSSAVVHQNLRPD    316
+                     ::..:||.:..|.:|||:.|:|:.....|:......::..|::.|.:  .
+AF-P05129-F1     526 IIAYQPYGKSVDWWSFGVLLYEMLAGQPPFDGEDEEELFQAIMEQTV--T    573
+
+AF-Q75J49-F1     317 VPRCCPSAFANIMRKCWDANPDKRPDMDEVVQLLEALDTSKGGGMIPDGQ    366
+                     .|:........|.:.....:|.||                .|.|  |||:
+AF-P05129-F1     574 YPKSLSREAVAICKGFLTKHPGKR----------------LGSG--PDGE    605
+
+AF-Q75J49-F1     367 SSGCLCFTKARGP-------------------------------------    379
+                     .:     .:|.|.                                     
+AF-P05129-F1     606 PT-----IRAHGFFRWIDWERLERLEIPPPFRPRPCGRSGENFDKFFTRA    650
+
+AF-Q75J49-F1     379 -----------------------------------------------    379
+                                                                    
+AF-P05129-F1     651 APALTPPDRLVLASIDQADFQGFTYVNPDFVHPDARSPTSPVPVPVM    697
+
+
+#---------------------------------------
+#---------------------------------------

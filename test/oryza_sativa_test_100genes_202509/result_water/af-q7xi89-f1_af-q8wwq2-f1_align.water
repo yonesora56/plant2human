@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:53
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q7xi89-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8wwq2-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q7xi89-f1_af-q8wwq2-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q7xi89-f1_af-q8wwq2-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7XI89-F1
+# 2: AF-Q8WWQ2-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 292
+# Identity:      58/292 (19.9%)
+# Similarity:    84/292 (28.8%)
+# Gaps:         129/292 (44.2%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+AF-Q7XI89-F1     291 TLPLTPSLPAVFGISETVIEDRFCLEHGTKGWYDALDHHFRWLLQYRISP    340
+                     :|.|.||          :|.|         ||.|.|.......|...:||
+AF-Q8WWQ2-F1      80 SLQLDPS----------IIHD---------GWLDFLSSKRLVTLARGLSP    110
+
+AF-Q7XI89-F1     341 FFCRWG---------DSMRILAYTCPWP----------------------    359
+                     .|.|:|         .::|..|.:...|                      
+AF-Q8WWQ2-F1     111 AFLRFGGKRTDFLQFQNLRNPAKSRGGPGPDYYLKNYEDDIVRSDVALDK    160
+
+AF-Q7XI89-F1     360 ------ADHP---------KA--------KEYYSD--PRLAAYAVPYAPI    384
+                           |.||         ||        ||.:|:  ..|...|.....:
+AF-Q8WWQ2-F1     161 QKGCKIAQHPDVMLELQREKAAQMHLVLLKEQFSNTYSNLILTARSLDKL    210
+
+AF-Q7XI89-F1     385 LSSTDA-------AKNSLRRE----------VEILKSEAHWSKSYFYLWD    417
+                     .:..|.       |.|:|||.          :.:||..|  ||.|...|:
+AF-Q8WWQ2-F1     211 YNFADCSGLHLIFALNALRRNPNNSWNSSSALSLLKYSA--SKKYNISWE    258
+
+AF-Q7XI89-F1     418 EPLNMEQYDVICSISNELRSYASDVRILTTYYCGPSGSELAPSTFE----    463
+                                  :.||..:|.      |.:....:||:|.....:    
+AF-Q8WWQ2-F1     259 -------------LGNEPNNYR------TMHGRAVNGSQLGKDYIQLKSL    289
+
+AF-Q7XI89-F1     464 ---------AFVKVPNVLRPHTQIFCTSEW---VLGTREDLV    493
+                              |.:..||:.||...:....:.   |.|:..|.|
+AF-Q8WWQ2-F1     290 LQPIRIYSRASLYGPNIGRPRKNVIALLDGFMKVAGSTVDAV    331
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:27
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q16816-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-q16816-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-q16816-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-Q16816-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 248
+# Identity:      64/248 (25.8%)
+# Similarity:   113/248 (45.6%)
+# Gaps:          36/248 (14.5%)
+# Score: 199.5
+# 
+#
+#=======================================
+
+AF-Q75J49-F1      58 AHGPKEDWEIDLAKLEIRYVIAQGTYGTVYRGTY--DGQDVAVKLLDWGE    105
+                     :|..::.:|    ..|.:.::.:|....|.|..:  ..|:.|||::|...
+AF-Q16816-F1      10 SHSAQDFYE----NYEPKEILGRGVSSVVRRCIHKPTSQEYAVKVIDVTG     55
+
+AF-Q75J49-F1     106 DGFATEAETAALRTSFKQEVAVWHKLS-HPNVTKFVGASMGTTDLKIPTN    154
+                     .|..:..|...||.:..:||.:..|:| |||:.:          || .|.
+AF-Q16816-F1      56 GGSFSPEEVRELREATLKEVDILRKVSGHPNIIQ----------LK-DTY     94
+
+AF-Q75J49-F1     155 NSNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQLALD    204
+                     .:|.         ...:|.:.:..|.|..||  ..:..|:.|...::...
+AF-Q16816-F1      95 ETNT---------FFFLVFDLMKRGELFDYL--TEKVTLSEKETRKIMRA    133
+
+AF-Q75J49-F1     205 LARGLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQNPKDMT    254
+                     |...:..||...|||||:|.||:|||...|:|:.|||.: .:.:..:.:.
+AF-Q16816-F1     134 LLEVICTLHKLNIVHRDLKPENILLDDNMNIKLTDFGFS-CQLEPGERLR    182
+
+AF-Q75J49-F1     255 GATGTLGYMAPEVL------DGKPYNRKCDVYSFGICLWEIYCCDMPY    296
+                     ...||..|:|||::      |...|.::.|::|.|:.::.:.....|:
+AF-Q16816-F1     183 EVCGTPSYLAPEIIECSMNEDHPGYGKEVDMWSTGVIMYTLLAGSPPF    230
+
+
+#---------------------------------------
+#---------------------------------------

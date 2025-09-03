@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:00
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6zxk6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q12834-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6zxk6-f1_af-q12834-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6zxk6-f1_af-q12834-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6ZXK6-F1
+# 2: AF-Q12834-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 260
+# Identity:      55/260 (21.2%)
+# Similarity:    80/260 (30.8%)
+# Gaps:         112/260 (43.1%)
+# Score: 81.0
+# 
+#
+#=======================================
+
+AF-Q6ZXK6-F1      16 DGPGARSSHAITLV---GGTAYAFGGEFTPRVPVDNAMYAFDLKSQCWSA     62
+                     |.|..|:.:.:.||   .|...|        |.:||::|       .|||
+AF-Q12834-F1     177 DAPEIRNDYYLNLVDWSSGNVLA--------VALDNSVY-------LWSA    211
+
+AF-Q6ZXK6-F1      63 LDASGDV-------PPPRVGVTMASVGATVYMFGGRD---------QEHK     96
+                       :|||:       .|.....::|.:....|:..|..         |:.|
+AF-Q12834-F1     212 --SSGDILQLLQMEQPGEYISSVAWIKEGNYLAVGTSSAEVQLWDVQQQK    259
+
+AF-Q6ZXK6-F1      97 ELNEL--YSFDTATNRWT--LLSSGAGDGPPHRSYHSM------VADAAG    136
+                     .|..:  :|....:..|.  :||||:..|  |..:|.:      ||..:|
+AF-Q12834-F1     260 RLRNMTSHSARVGSLSWNSYILSSGSRSG--HIHHHDVRVAEHHVATLSG    307
+
+AF-Q6ZXK6-F1     137 GGKVYVFGGCGDAGRLNDLWAYDVAAGRWEALPSPGEACKPRGGP-GLAV    185
+                     ..:                                 |.|..|..| |..:
+AF-Q12834-F1     308 HSQ---------------------------------EVCGLRWAPDGRHL    324
+
+AF-Q6ZXK6-F1     186 AGGKVWVVYGFSGEELDDVHCYDPGTGAW---------------------    214
+                     |.|        ..:.|.:|....||.|.|                     
+AF-Q12834-F1     325 ASG--------GNDNLVNVWPSAPGEGGWVPLQTFTQHQGAVKAVAWCPW    366
+
+AF-Q6ZXK6-F1     215 -STVETTGGG    223
+                      |.|..||||
+AF-Q12834-F1     367 QSNVLATGGG    376
+
+
+#---------------------------------------
+#---------------------------------------

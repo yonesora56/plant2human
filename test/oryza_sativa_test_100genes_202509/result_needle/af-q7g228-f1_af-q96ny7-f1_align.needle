@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:47
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q7g228-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q96ny7-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q7g228-f1_af-q96ny7-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q7g228-f1_af-q96ny7-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7G228-F1
+# 2: AF-Q96NY7-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 745
+# Identity:      29/745 ( 3.9%)
+# Similarity:    51/745 ( 6.8%)
+# Gaps:         642/745 (86.2%)
+# Score: 20.5
+# 
+#
+#=======================================
+
+AF-Q7G228-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96NY7-F1       1 MAEAAEPEGVAPGPQGPPEVPAPLAERPGEPGAAGGEAEGPEGSEGAEEA     50
+
+AF-Q7G228-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96NY7-F1      51 PRGAAAVKEAGGGGPDRGPEAEARGTRGAHGETEAEEGAPEGAEVPQGGE    100
+
+AF-Q7G228-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96NY7-F1     101 ETSGAQQVEGASPGRGAQGEPRGEAQREPEDSAAPERQEEAEQRPEVPEG    150
+
+AF-Q7G228-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96NY7-F1     151 SASGEAGDSVDAEGPLGDNIEAEGPAGDSVEAEGRVGDSVDAEGPAGDSV    200
+
+AF-Q7G228-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96NY7-F1     201 DAEGPLGDNIQAEGPAGDSVDAEGRVGDSVDAEGPAGDSVDAEGRVGDSV    250
+
+AF-Q7G228-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96NY7-F1     251 EAGDPAGDGVEAGVPAGDSVEAEGPAGDSMDAEGPAGRARRVSGEPQQSG    300
+
+AF-Q7G228-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96NY7-F1     301 DGSLSPQAEAIEVAAGESAGRSPGELAWDAAEEAEVPGVKGSEEAAPGDA    350
+
+AF-Q7G228-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96NY7-F1     351 RADAGEDRVGDGPQQEPGEDEERRERSPEGPREEEAAGGEEESPDSSPHG    400
+
+AF-Q7G228-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q96NY7-F1     401 EASRGAAEPEAQLSNHLAEEGPAEGSGEAARVNGRREDGEASEPRALGQE    450
+
+AF-Q7G228-F1       1 -----------------------MSSSSTSGSAEPAAAVRVLGSWTSPFV     27
+                                            ...:...|.:        :|:  .||.
+AF-Q96NY7-F1     451 HDITLFVKVKLTALGCSRIAIKKYLRAGYDGES--------IGN--CPFS    490
+
+AF-Q7G228-F1      28 MRVVVALKLKGVEEYELLQETRGKKSE---LLLRSNPVHKKIPVLLHHGK     74
+                     .|:.:.|.||||.......:.:.|.::   |...:||     |.:...|:
+AF-Q96NY7-F1     491 QRLFMILWLKGVIFNVTTVDLKRKPADLQNLAPGTNP-----PFMTFDGE    535
+
+AF-Q7G228-F1      75 PLAESLIIVEYIDEVWPASDGAPAILPRDPYCRAVERFWAQYIDDKFPR-    123
+                     ...:...|.|:::|..     ||   ||                  :|: 
+AF-Q96NY7-F1     536 VKTDVNKIEEFLEEKL-----AP---PR------------------YPKL    559
+
+AF-Q7G228-F1     124 GTRVLRGTVAGEEPWLKCPPL-----------------------------    144
+                     ||:......||.:.:.|....                             
+AF-Q96NY7-F1     560 GTQHPESNSAGNDVFAKFSAFIKNTKKDANEIHEKNLLKALRKLDNYLNS    609
+
+AF-Q7G228-F1     144 --------------------------------------------------    144
+                                                                       
+AF-Q96NY7-F1     610 PLPDEIDAYSTEDVTVSGRKFLDGDELTLADCNLLPKLHIIKIVAKKYRD    659
+
+AF-Q7G228-F1     144 ---------------------------------------------    144
+                                                                  
+AF-Q96NY7-F1     660 FEFPSEMTGIWRYLNNAYARDEFTNTCPADQEIEHAYSDVAKRMK    704
+
+
+#---------------------------------------
+#---------------------------------------

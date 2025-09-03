@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:12
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q8h3e5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q53g59-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q8h3e5-f1_af-q53g59-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q8h3e5-f1_af-q53g59-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q8H3E5-F1
+# 2: AF-Q53G59-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 231
+# Identity:      60/231 (26.0%)
+# Similarity:    86/231 (37.2%)
+# Gaps:          69/231 (29.9%)
+# Score: 142.5
+# 
+#
+#=======================================
+
+AF-Q8H3E5-F1     233 DITFEVDGEVFPAHKVVLAARSPVFRAQLFGPMKDKNMKRITIEDMEASV    282
+                     |:|..|:.:.||||::||||.|..|.|.....:.:|....:.|:.:.||.
+AF-Q53G59-F1      34 DVTLRVEQKDFPAHRIVLAACSDYFCAMFTSELSEKGKPYVDIQGLTAST     83
+
+AF-Q8H3E5-F1     283 FKALLHFMYWDELPDIEELTGLNTTWVSTLMAQHLLAAADRYALERLKLL    332
+                     .:.||.|:|.:            |..|:....|.||.||....|:.:|..
+AF-Q53G59-F1      84 MEILLDFVYTE------------TVHVTVENVQELLPAACLLQLKGVKQA    121
+
+AF-Q8H3E5-F1     333 CELKLCEDVAIN-TVANTLAL---AEQHHCYQLKTVCLRFVA--LPENLK    376
+                     |    ||.:... ..:|.|.:   ||.|:|..|......|..  .||   
+AF-Q53G59-F1     122 C----CEFLESQLDPSNCLGIRDFAETHNCVDLMQAAEVFSQKHFPE---    164
+
+AF-Q8H3E5-F1     377 AVMQTDGFDYLQQ-------SCPSL-------------------------    394
+                      |:|.:.|..|.|       .|..:                         
+AF-Q53G59-F1     165 -VVQHEEFILLSQGEVEKLIKCDEIQVDSEEPVFEAVINWVKHAKKEREE    213
+
+AF-Q8H3E5-F1     395 -LTELLEYVAKVGEHSVSPCL---YSNEVLD    421
+                      |..||:||.       .|.|   |..:|:|
+AF-Q53G59-F1     214 SLPNLLQYVR-------MPLLTPRYITDVID    237
+
+
+#---------------------------------------
+#---------------------------------------

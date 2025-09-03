@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:52
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6zxk6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p51610-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6zxk6-f1_af-p51610-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6zxk6-f1_af-p51610-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6ZXK6-F1
+# 2: AF-P51610-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 310
+# Identity:      84/310 (27.1%)
+# Similarity:   126/310 (40.6%)
+# Gaps:          87/310 (28.1%)
+# Score: 226.0
+# 
+#
+#=======================================
+
+AF-Q6ZXK6-F1      66 SGDVPPPRVGVTMASVGATVYMFGGRDQEHKELNELYSFDTATNRWTLLS    115
+                     ||.||.||.|....::...:.:|||.::  ..::||:.::||||:| .:.
+AF-P51610-F1      26 SGPVPRPRHGHRAVAIKELIVVFGGGNE--GIVDELHVYNTATNQW-FIP     72
+
+AF-Q6ZXK6-F1     116 SGAGDGPPHRSYHSMVADAAGGGKVYVFGGCGDAGRL-NDLWAYDVAAGR    164
+                     :..||.||..:.:..|.|   |.::.||||..:.|:. |||  |::.|.|
+AF-P51610-F1      73 AVRGDIPPGCAAYGFVCD---GTRLLVFGGMVEYGKYSNDL--YELQASR    117
+
+AF-Q6ZXK6-F1     165 WE------ALPSPGEACKPRGGPGLAVAGGKVWVVYGFSGEE--------    200
+                     ||      ..|..|....||.|...::.|.|.::..|.:.:.        
+AF-P51610-F1     118 WEWKRLKAKTPKNGPPPCPRLGHSFSLVGNKCYLFGGLANDSEDPKNNIP    167
+
+AF-Q6ZXK6-F1     201 --LDDVHCYD--PGTG--AWSTVETTG-----------------------    221
+                       |:|::..:  ||:|  ||....|.|                       
+AF-P51610-F1     168 RYLNDLYILELRPGSGVVAWDIPITYGVLPPPRESHTAVVYTEKDNKKSK    217
+
+AF-Q6ZXK6-F1     222 ----GGGGG----------------DKPS-------PRSVFCAAGIGKHV    244
+                         ||..|                :|||       |||:..|..||..:
+AF-P51610-F1     218 LVIYGGMSGCRLGDLWTLDIDTLTWNKPSLSGVAPLPRSLHSATTIGNKM    267
+
+AF-Q6ZXK6-F1     245 VVFGGEV-----DPSDLGHLGAGKFSAEAFALDTETGAWAR--LDDAGEH    287
+                     .||||.|     |.....|....|.:.....|:.:|.||..  :|...::
+AF-P51610-F1     268 YVFGGWVPLVMDDVKVATHEKEWKCTNTLACLNLDTMAWETILMDTLEDN    317
+
+AF-Q6ZXK6-F1     288 HPGPR-GWCA    296
+                     .|..| |.||
+AF-P51610-F1     318 IPRARAGHCA    327
+
+
+#---------------------------------------
+#---------------------------------------

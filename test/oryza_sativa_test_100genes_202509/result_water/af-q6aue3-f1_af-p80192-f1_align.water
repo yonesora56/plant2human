@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:21
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p80192-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-p80192-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-p80192-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-P80192-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 316
+# Identity:      97/316 (30.7%)
+# Similarity:   156/316 (49.4%)
+# Gaps:          41/316 (13.0%)
+# Score: 394.0
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      52 GKANLKAHGPKEDWEIDLAKLEIRYVIAQGTYGTVYRGTYDGQDVAVKLL    101
+                     |..:...:.|.:..|||.|:|.:..:|..|.:|.|||..:.|.:||||..
+AF-P80192-F1     124 GGEDPSCYPPIQLLEIDFAELTLEEIIGIGGFGKVYRAFWIGDEVAVKAA    173
+
+AF-Q6AUE3-F1     102 DWGEDGFATEAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKI    151
+                     ....|     .:.:....:.:||..::..|.|||:....|..     ||.
+AF-P80192-F1     174 RHDPD-----EDISQTIENVRQEAKLFAMLKHPNIIALRGVC-----LKE    213
+
+AF-Q6AUE3-F1     152 PTNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQL    201
+                     |          ||     |:|:|:..||.|.:.|   |.:::...::|..
+AF-P80192-F1     214 P----------NL-----CLVMEFARGGPLNRVL---SGKRIPPDILVNW    245
+
+AF-Q6AUE3-F1     202 ALDLARGLSYLHSRKIV---HRDVKTENMLL-------D-TQRNLKIADF    240
+                     |:.:|||::|||...||   |||:|:.|:|:       | :.:.|||.||
+AF-P80192-F1     246 AVQIARGMNYLHDEAIVPIIHRDLKSSNILILQKVENGDLSNKILKITDF    295
+
+AF-Q6AUE3-F1     241 GVARVEAQNPKDMTGATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIY    290
+                     |:||...:..|  ..|.||..:|||||:....:::..||:|:|:.|||:.
+AF-P80192-F1     296 GLAREWHRTTK--MSAAGTYAWMAPEVIRASMFSKGSDVWSYGVLLWELL    343
+
+AF-Q6AUE3-F1     291 CCDMPYPDLSFADVSSAVVHQNLRPDVPRCCPSAFANIMRKCWDANPDKR    340
+                     ..::|:..:....|:..|....|...:|..||..||.:|..||:.:|..|
+AF-P80192-F1     344 TGEVPFRGIDGLAVAYGVAMNKLALPIPSTCPEPFAKLMEDCWNPDPHSR    393
+
+AF-Q6AUE3-F1     341 PDMDEVVQLLEALDTS    356
+                     |....::..|..::.|
+AF-P80192-F1     394 PSFTNILDQLTTIEES    409
+
+
+#---------------------------------------
+#---------------------------------------

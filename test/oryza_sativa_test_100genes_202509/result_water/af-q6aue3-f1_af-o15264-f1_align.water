@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:45
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o15264-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-o15264-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-o15264-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-O15264-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 314
+# Identity:      79/314 (25.2%)
+# Similarity:   126/314 (40.1%)
+# Gaps:          68/314 (21.7%)
+# Score: 198.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      62 KEDWEIDLAKLEIRYVIAQGTYGTVYRG--TYDGQDVAVKLLD--WGEDG    107
+                     |..||:....:...:| ..|.||:|...  ...|:.||:|.|.  :..:.
+AF-O15264-F1      16 KTAWELPKTYVSPTHV-GSGAYGSVCSAIDKRSGEKVAIKKLSRPFQSEI     64
+
+AF-Q6AUE3-F1     108 FATEAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSN    157
+                     ||..|         .:|:.:...:.|.||       :|..|:..|     
+AF-O15264-F1      65 FAKRA---------YRELLLLKHMQHENV-------IGLLDVFTP-----     93
+
+AF-Q6AUE3-F1     158 AGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQLALDLAR    207
+                     |.:..|.  ....:|:.::.....|...::.|..|:.|     |...:.:
+AF-O15264-F1      94 ASSLRNF--YDFYLVMPFMQTDLQKIMGMEFSEEKIQY-----LVYQMLK    136
+
+AF-Q6AUE3-F1     208 GLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQNPKDMTGAT    257
+                     ||.|:||..:||||:|..|:.::....|||.|||:||   ....:|||..
+AF-O15264-F1     137 GLKYIHSAGVVHRDLKPGNLAVNEDCELKILDFGLAR---HADAEMTGYV    183
+
+AF-Q6AUE3-F1     258 GTLGYMAPEV-LDGKPYNRKCDVYSFGICLWEIYCCDMPYPDLSFADVSS    306
+                     .|..|.|||| |....||:..|::|.|..:.|:......:....:.|..:
+AF-O15264-F1     184 VTRWYRAPEVILSWMHYNQTVDIWSVGCIMAEMLTGKTLFKGKDYLDQLT    233
+
+AF-Q6AUE3-F1     307 AVVH--------------------------QNLRPD----VPRCCPSAFA    326
+                     .::.                          |..|.|    .||..|.| |
+AF-O15264-F1     234 QILKVTGVPGTEFVQKLNDKAAKSYIQSLPQTPRKDFTQLFPRASPQA-A    282
+
+AF-Q6AUE3-F1     327 NIMRKCWDANPDKR    340
+                     :::.|..:.:.|||
+AF-O15264-F1     283 DLLEKMLELDVDKR    296
+
+
+#---------------------------------------
+#---------------------------------------

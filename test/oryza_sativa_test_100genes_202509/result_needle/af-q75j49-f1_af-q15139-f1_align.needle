@@ -1,0 +1,117 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:20
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q15139-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q75j49-f1_af-q15139-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q75j49-f1_af-q15139-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-Q15139-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 978
+# Identity:      91/978 ( 9.3%)
+# Similarity:   156/978 (16.0%)
+# Gaps:         665/978 (68.0%)
+# Score: 212.0
+# 
+#
+#=======================================
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15139-F1       1 MSAPPVLRPPSPLLPVAAAAAAAAAALVPGSGPGPAPFLAPVAAPVGGIS     50
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15139-F1      51 FHLQIGLSREPVLLLQDSSGDYSLAHVREMACSIVDQKFPECGFYGMYDK    100
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15139-F1     101 ILLFRHDPTSENILQLVKAASDIQEGDLIEVVLSASATFEDFQIRPHALF    150
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15139-F1     151 VHSYRAPAFCDHCGEMLWGLVRQGLKCEGCGLNYHKRCAFKIPNNCSGVR    200
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15139-F1     201 RRRLSNVSLTGVSTIRTSSAELSTSAPDEPLLQKSPSESFIGREKRSNSQ    250
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15139-F1     251 SYIGRPIHLDKILMSKVKVPHTFVIHSYTRPTVCQYCKKLLKGLFRQGLQ    300
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15139-F1     301 CKDCRFNCHKRCAPKVPNNCLGEVTINGDLLSPGAESDVVMEEGSDDNDS    350
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15139-F1     351 ERNSGLMDDMEEAMVQDAEMAMAECQNDSGEMQDPDPDHEDANRTISPST    400
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15139-F1     401 SNNIPLMRVVQSVKHTKRKSSTVMKEGWMVHYTSKDTLRKRHYWRLDSKC    450
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15139-F1     451 ITLFQNDTGSRYYKEIPLSEILSLEPVKTSALIPNGANPHCFEITTANVV    500
+
+AF-Q75J49-F1       1 ------------------------------------MASSTSDIPEGREK     14
+                                                         ..:....||:|   
+AF-Q15139-F1     501 YYVGENVVNPSSPSPNNSVLTSGVGADVARMWEIAIQHALMPVIPKG---    547
+
+AF-Q75J49-F1      15 LKRSGSLGSSDTAYVRADKIDLTSLDIQLEKQLTKTWGKANLKAHGPKED     64
+                         .|:|:....: |...:.::..:.|:::                   
+AF-Q15139-F1     548 ----SSVGTGTNLH-RDISVSISVSNCQIQE-------------------    573
+
+AF-Q75J49-F1      65 WEIDLAKLEIRY---VIAQGTYGTVYRGTY--DGQDVAVKLLDWGEDGFA    109
+                      .:|::.:...:   |:..|.:|.||.|.:  .|:|||:|::|  :..|.
+AF-Q15139-F1     574 -NVDISTVYQIFPDEVLGSGQFGIVYGGKHRKTGRDVAIKIID--KLRFP    620
+
+AF-Q75J49-F1     110 TEAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAG    159
+                     |:.|     :..:.|||:...|.||.|.                   |..
+AF-Q15139-F1     621 TKQE-----SQLRNEVAILQNLHHPGVV-------------------NLE    646
+
+AF-Q75J49-F1     160 ARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQLALDLARGL    209
+                     .....|.|. .||:|.|.|..| :.::.:.:.:|...:...|...:...|
+AF-Q15139-F1     647 CMFETPERV-FVVMEKLHGDML-EMILSSEKGRLPEHITKFLITQILVAL    694
+
+AF-Q75J49-F1     210 SYLHSRKIVHRDVKTENMLL---DTQRNLKIADFGVARVEAQNPKDMTGA    256
+                     .:||.:.|||.|:|.||:||   |....:|:.|||.||:..:. ......
+AF-Q15139-F1     695 RHLHFKNIVHCDLKPENVLLASADPFPQVKLCDFGFARIIGEK-SFRRSV    743
+
+AF-Q75J49-F1     257 TGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMPYPDLSFADVSS    306
+                     .||..|:|||||..|.|||..|::|.|:.::.......|:.:       .
+AF-Q15139-F1     744 VGTPAYLAPEVLRNKGYNRSLDMWSVGVIIYVSLSGTFPFNE-------D    786
+
+AF-Q75J49-F1     307 AVVHQNLRPDVPRCCPSAFANIMRKCWD-------ANPDKRPDMDEVVQL    349
+                     ..:|..::.......|:.:..|..:..|       ....||..:|:.:..
+AF-Q15139-F1     787 EDIHDQIQNAAFMYPPNPWKEISHEAIDLINNLLQVKMRKRYSVDKTLSH    836
+
+AF-Q75J49-F1     350 -----------LEALDTSKGGGMIPDGQSSGCLCFTKARGP---------    379
+                                |..|:...|...|.  ..|..|.:.|..|.         
+AF-Q15139-F1     837 PWLQDYQTWLDLRELECKIGERYIT--HESDDLRWEKYAGEQGLQYPTHL    884
+
+AF-Q75J49-F1     379 ----------------------------    379
+                                                 
+AF-Q15139-F1     885 INPSASHSDTPETEETEMKALGERVSIL    912
+
+
+#---------------------------------------
+#---------------------------------------

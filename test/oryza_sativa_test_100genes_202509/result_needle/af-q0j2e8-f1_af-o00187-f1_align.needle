@@ -1,0 +1,105 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:21
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0j2e8-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o00187-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0j2e8-f1_af-o00187-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0j2e8-f1_af-o00187-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0J2E8-F1
+# 2: AF-O00187-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 801
+# Identity:      47/801 ( 5.9%)
+# Similarity:    61/801 ( 7.6%)
+# Gaps:         685/801 (85.5%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+AF-Q0J2E8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O00187-F1       1 MRLLTLLGLLCGSVATPLGPKWPEPVFGRLASPGFPGEYANDQERRWTLT     50
+
+AF-Q0J2E8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O00187-F1      51 APPGYRLRLYFTHFDLELSHLCEYDFVKLSSGAKVLATLCGQESTDTERA    100
+
+AF-Q0J2E8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O00187-F1     101 PGKDTFYSLGSSLDITFRSDYSNEKPFTGFEAFYAAEDIDECQVAPGEAP    150
+
+AF-Q0J2E8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O00187-F1     151 TCDHHCHNHLGGFYCSCRAGYVLHRNKRTCSALCSGQVFTQRSGELSSPE    200
+
+AF-Q0J2E8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O00187-F1     201 YPRPYPKLSSCTYSISLEEGFSVILDFVESFDVETHPETLCPYDFLKIQT    250
+
+AF-Q0J2E8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O00187-F1     251 DREEHGPFCGKTLPHRIETKSNTVTITFVTDESGDHTGWKIHYTSTAQPC    300
+
+AF-Q0J2E8-F1       1 -----------------------------------MALLVLVAVLVFEAA     15
+                                                        ...|.|.:   |.|.
+AF-O00187-F1     301 PYPMAPPNGHVSPVQAKYILKDSFSIFCETGYELLQGHLPLKS---FTAV    347
+
+AF-Q0J2E8-F1      16 VRADG-----QTGFLSIDCGLEADDSYPDDLTGITYVPDG---HYTDAGE     57
+                     .:.||     ......:|||      .||||      |.|   :.|..| 
+AF-O00187-F1     348 CQKDGSWDRPMPACSIVDCG------PPDDL------PSGRVEYITGPG-    384
+
+AF-Q0J2E8-F1      58 NHKVTTVYRNAWWGPDRTLYTVRSFPSAEGQRNCYSLPNDVRSKYLVRLK    107
+                        |||......:..:.|.||::              .||  .||:... 
+AF-O00187-F1     385 ---VTTYKAVIQYSCEETFYTMK--------------VND--GKYVCEA-    414
+
+AF-Q0J2E8-F1     108 FLYGNYDGLDSSSLKFNLTLGVKHWDTVSIDTTDGNDGYNVHEAVFVAWA    157
+                           ||..:||                    .|.....|.|       
+AF-O00187-F1     415 ------DGFWTSS--------------------KGEKSLPVCE-------    431
+
+AF-Q0J2E8-F1     158 SWAPVCLINIGQGTPFMSMVELRPLGILPYPAVMGNVSLSLYVRSNVG--    205
+                        |||                                 .|..|:..|  
+AF-O00187-F1     432 ---PVC---------------------------------GLSARTTGGRI    445
+
+AF-Q0J2E8-F1     206 -----SSPDDDKLVRYICSEFPWILYILQLS-------------------    231
+                          :.|.|          |||.:.||..:                   
+AF-O00187-F1     446 YGGQKAKPGD----------FPWQVLILGGTTAAGALLYDNWVLTAAHAV    485
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-O00187-F1     486 YEQKHDASALDIRMGTLKRLSPHYTQAWSEAVFIHEGYTHDAGFDNDIAL    535
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-O00187-F1     536 IKLNNKVVINSNITPICLPRKEAESFMRTDDIGTASGWGLTQRGFLARNL    585
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-O00187-F1     586 MYVDIPIVDHQKCTAAYEKPPYPRGSVTANMLCAGLESGGKDSCRGDSGG    635
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-O00187-F1     636 ALVFLDSETERWFVGGIVSWGSMNCGEAGQYGVYTKVINYIPWIENIISD    685
+
+AF-Q0J2E8-F1     231 -    231
+                      
+AF-O00187-F1     686 F    686
+
+
+#---------------------------------------
+#---------------------------------------

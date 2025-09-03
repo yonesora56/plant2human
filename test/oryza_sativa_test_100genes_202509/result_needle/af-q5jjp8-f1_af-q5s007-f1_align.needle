@@ -1,0 +1,245 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:16
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q5jjp8-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q5s007-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q5jjp8-f1_af-q5s007-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q5jjp8-f1_af-q5s007-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5JJP8-F1
+# 2: AF-Q5S007-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2590
+# Identity:     123/2590 ( 4.7%)
+# Similarity:   218/2590 ( 8.4%)
+# Gaps:        2166/2590 (83.6%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5S007-F1       1 MASGSCQGCEEDEETLKKLIVRLNNVQEGKQIETLVQILEDLLVFTYSER     50
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5S007-F1      51 ASKLFQGKNIHVPLLIVLDSYMRVASVQQVGWSLLCKLIEVCPGTMQSLM    100
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5S007-F1     101 GPQDVGNDWEVLGVHQLILKMLTVHNASVNLSVIGLKTLDLLLTSGKITL    150
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5S007-F1     151 LILDEESDIFMLIFDAMHSFPANDEVQKLGCKALHVLFERVSEEQLTEFV    200
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5S007-F1     201 ENKDYMILLSALTNFKDEEEIVLHVLHCLHSLAIPCNNVEVLMSGNVRCY    250
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5S007-F1     251 NIVVEAMKAFPMSERIQEVSCCLLHRLTLGNFFNILVLNEVHEFVVKAVQ    300
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5S007-F1     301 QYPENAALQISALSCLALLTETIFLNQDLEEKNENQENDDEGEEDKLFWL    350
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5S007-F1     351 EACYKALTWHRKNKHVQEAACWALNNLLMYQNSLHEKIGDEDGHFPAHRE    400
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5S007-F1     401 VMLSMLMHSSSKEVFQASANALSTLLEQNVNFRKILLSKGIHLNVLELMQ    450
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5S007-F1     451 KHIHSPEVAESGCKMLNHLFEGSNTSLDIMAAVVPKILTVMKRHETSLPV    500
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5S007-F1     501 QLEALRAILHFIVPGMPEESREDTEFHHKLNMVKKQCFKNDIHKLVLAAL    550
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5S007-F1     551 NRFIGNPGIQKCGLKVISSIVHFPDALEMLSLEGAMDSVLHTLQMYPDDQ    600
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5S007-F1     601 EIQCLGLSLIGYLITKKNVFIGTGHLLAKILVSSLYRFKDVAEIQTKGFQ    650
+
+AF-Q5JJP8-F1       1 ----------------------------MISAISWVPRGAAKLVPVEAEP     22
+                                                 |.|.|              .|.
+AF-Q5S007-F1     651 TILAILKLSASFSKLLVHHSFDLVIFHQMSSNI--------------MEQ    686
+
+AF-Q5JJP8-F1      23 PTQEEIDEAIKAIAQHTEGGSDADEDADDGEENGNMEVDAAADEEEEEVD     72
+                     ..|:.::...|..|:..         .||..:  |:.::.|.|:....:.
+AF-Q5S007-F1     687 KDQQFLNLCCKCFAKVA---------MDDYLK--NVMLERACDQNNSIMV    725
+
+AF-Q5JJP8-F1      73 E--------VAQAKAAAKALAKGAVDDVADELKELNMDNYDEEEE---GL    111
+                     |        ..|||..:..:.:....:.:.:|.||.:::...|::   .|
+AF-Q5S007-F1     726 ECLLLLGADANQAKEGSSLICQVCEKESSPKLVELLLNSGSREQDVRKAL    775
+
+AF-Q5JJP8-F1     112 EIFSSGQGD------------LYYASNDL----------DPYLKNNDEDD    139
+                     .| |.|:||            |..|:|.:          :|........|
+AF-Q5S007-F1     776 TI-SIGKGDSQIISLLLRRLALDVANNSICLGGFCIGKVEPSWLGPLFPD    824
+
+AF-Q5JJP8-F1     140 DDEEIEDMT-IKPTDLMVVCAYNEDDVNSLQVNLLEETEDGDLNMFVHHE    188
+                     ....:...| |..|...:|..|      .::..:.|.|..|....|  .|
+AF-Q5S007-F1     825 KTSNLRKQTNIASTLARMVIRY------QMKSAVEEGTASGSDGNF--SE    866
+
+AF-Q5JJP8-F1     189 VPLADFPLCTAWM---------------DFNLKGGD-------KGNFVAV    216
+                     ..|:.|   ..|.               |.:.:|.:       |.|.::|
+AF-Q5S007-F1     867 DVLSKF---DEWTFIPDSSMDSVFAQSDDLDSEGSEGSFLVKKKSNSISV    913
+
+AF-Q5JJP8-F1     217 GTMDPAIEIWDLDIVDEVQPHMVLGGHS-----------KKKKKV-----    250
+                     |      |.:...::....|::....:|           |:|:|:     
+AF-Q5S007-F1     914 G------EFYRDAVLQRCSPNLQRHSNSLGPIFDHEDLLKRKRKILSSDD    957
+
+AF-Q5JJP8-F1     251 --KGKKAKKYKKGSHRSSVLGLAWNKE-VRNVLASASADKTVKIWDVSVG    297
+                       :..|.:.:.:  |..|:..||..:| :.::..||:..:.:   |....
+AF-Q5S007-F1     958 SLRSSKLQSHMR--HSDSISSLASEREYITSLDLSANELRDI---DALSQ   1002
+
+AF-Q5JJP8-F1     298 KCAVT--LEH------HDDKVQSVAWSRQSPEVLLSGSFDKSVAMNDMKD    339
+                     ||.::  |||      |.:.:.|  :.:|..|.|      ||:...|:..
+AF-Q5S007-F1    1003 KCCISVHLEHLEKLELHQNALTS--FPQQLCETL------KSLTHLDLHS   1044
+
+AF-Q5JJP8-F1     340 GGQSCNKWS------------VEADVE------SLAWDP-----------    360
+                          ||::            ...||.      |:..||           
+AF-Q5S007-F1    1045 -----NKFTSFPSYLLKMSCIANLDVSRNDIGPSVVLDPTVKCPTLKQFN   1089
+
+AF-Q5JJP8-F1     361 --HNEHSFMVSLENGMVQAFDKRTASSNSNSG-------RPTFTLHAHEK    401
+                       :|:.||:......:|:..::.....|..||       :....|:..:.
+AF-Q5S007-F1    1090 LSYNQLSFVPENLTDVVEKLEQLILEGNKISGICSPLRLKELKILNLSKN   1139
+
+AF-Q5JJP8-F1     402 AVSSIS--FSPSTP---------NFLAT-GSTDKMVKLWDLSNNQPSCI-    438
+                     .:||:|  |..:.|         ||||. ......:.:..||.|:.||| 
+AF-Q5S007-F1    1140 HISSLSENFLEACPKVESFSARMNFLAAMPFLPPSMTILKLSQNKFSCIP   1189
+
+AF-Q5JJP8-F1     439 -ASLN-PKLGAIFSVSFSNDSPFLLASGGSKG------------------    468
+                      |.|| |.|.:: .:| |||..:|......|.                  
+AF-Q5S007-F1    1190 EAILNLPHLRSL-DMS-SNDIQYLPGPAHWKSLNLRELLFSHNQISILDL   1237
+
+AF-Q5JJP8-F1     469 --KLKVWNTLTEPAVA-NKFGK----------------------------    487
+                       |..:|:.:.:..:: ||..:                            
+AF-Q5S007-F1    1238 SEKAYLWSRVEKLHLSHNKLKEIPPEIGCLENLTSLDVSYNLELRSFPNE   1287
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1288 MGKLSKIWDLPLDELHLNFDFKHIGCKAKDIIRFLQQRLKKAVPYNRMKL   1337
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1338 MIVGNTGSGKTTLLQQLMKTKKSDLGMQSATVGIDVKDWPIQIRDKRKRD   1387
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1388 LVLNVWDFAGREEFYSTHPHFMTQRALYLAVYDLSKGQAEVDAMKPWLFN   1437
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1438 IKARASSSPVILVGTHLDVSDEKQRKACMSKITKELLNKRGFPAIRDYHF   1487
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1488 VNATEESDALAKLRKTIINESLNFKIRDQLVVGQLIPDCYVELEKIILSE   1537
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1538 RKNVPIEFPVIDRKRLLQLVRENQLQLDENELPHAVHFLNESGVLLHFQD   1587
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1588 PALQLSDLYFVEPKWLCKIMAQILTVKVEGCPKHPKGIISRRDVEKFLSK   1637
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1638 KRKFPKNYMSQYFKLLEKFQIALPIGEEYLLVPSSLSDHRPVIELPHCEN   1687
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1688 SEIIIRLYEMPYFPMGFWSRLINRLLEISPYMLSGRERALRPNRMYWRQG   1737
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1738 IYLNWSPEAYCLVGSEVLDNHPESFLKITVPSCRKGCILLGQVVDHIDSL   1787
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1788 MEEWFPGLLEIDICGEGETLLKKWALYSFNDGEEHQKILLDDLMKKAEEG   1837
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1838 DLLVNPDQPRLTIPISQIAPDLILADLPRNIMLNNDELEFEQAPEFLLGD   1887
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1888 GSFGSVYRAAYEGEEVAVKIFNKHTSLRLLRQELVVLCHLHHPSLISLLA   1937
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1938 AGIRPRMLVMELASKGSLDRLLQQDKASLTRTLQHRIALHVADGLRYLHS   1987
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    1988 AMIIYRDLKPHNVLLFTLYPNAAIIAKIADYGIAQYCCRMGIKTSEGTPG   2037
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    2038 FRAPEVARGNVIYNQQADVYSFGLLLYDILTTGGRIVEGLKFPNEFDELE   2087
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    2088 IQGKLPDPVKEYGCAPWPMVEKLIKQCLKENPQERPTSAQVFDILNSAEL   2137
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    2138 VCLTRRILLPKNVIVECMVATHHNSRNASIWLGCGHTDRGQLSFLDLNTE   2187
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    2188 GYTSEEVADSRILCLALVHLPVEKESWIVSGTQSGTLLVINTEDGKKRHT   2237
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    2238 LEKMTDSVTCLYCNSFSKQSKQKNFLLVGTADGKLAIFEDKTVKLKGAAP   2287
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    2288 LKILNIGNVSTPLMCLSESTNSTERNVMWGGCGTKIFSFSNDFTIQKLIE   2337
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    2338 TRTSQLFSYAAFSDSNIITVVVDTALYIAKQNSPVVEVWDKKTEKLCGLI   2387
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    2388 DCVHFLREVMVKENKESKHKMSYSGRVKTLCLQKNTALWIGTGGGHILLL   2437
+
+AF-Q5JJP8-F1     487 --------------------------------------------------    487
+                                                                       
+AF-Q5S007-F1    2438 DLSTRRLIRVIYNFCNSVRVMMTAQLGSLKNVMLVLGYNRKNTEGTQKQK   2487
+
+AF-Q5JJP8-F1     487 ----------------------------------------    487
+                                                             
+AF-Q5S007-F1    2488 EIQSCLTVWDINLPHEVQNLEKHIEVRKELAEKMRRTSVE   2527
+
+
+#---------------------------------------
+#---------------------------------------

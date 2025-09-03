@@ -1,0 +1,45 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:12
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q7g228-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8tb36-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q7g228-f1_af-q8tb36-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q7g228-f1_af-q8tb36-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7G228-F1
+# 2: AF-Q8TB36-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 97
+# Identity:      24/97 (24.7%)
+# Similarity:    47/97 (48.5%)
+# Gaps:           6/97 ( 6.2%)
+# Score: 80.0
+# 
+#
+#=======================================
+
+AF-Q7G228-F1       8 GSAEPAAAVRVLGSWTSPF---VMRVVVALKLKGVEEYELLQETRGKKSE     54
+                     |.|: |....:|..||..|   .:|:|:|.|....||:::..........
+AF-Q8TB36-F1      18 GKAD-AEVKLILYHWTHSFSSQKVRLVIAEKALKCEEHDVSLPLSEHNEP     66
+
+AF-Q7G228-F1      55 LLLRSNPVHKKIPVLLHHGKPLAESLIIVEYIDEVWPASDGAPAILP    101
+                     ..:|.|.. .::|||:|....:.|:..|::|:::.: ..:..|.::|
+AF-Q8TB36-F1      67 WFMRLNST-GEVPVLIHGENIICEATQIIDYLEQTF-LDERTPRLMP    111
+
+
+#---------------------------------------
+#---------------------------------------

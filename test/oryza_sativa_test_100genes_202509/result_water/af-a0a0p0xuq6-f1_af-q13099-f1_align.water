@@ -1,0 +1,93 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:16
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0xuq6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q13099-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0xuq6-f1_af-q13099-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0xuq6-f1_af-q13099-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0XUQ6-F1
+# 2: AF-Q13099-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 657
+# Identity:     117/657 (17.8%)
+# Similarity:   208/657 (31.7%)
+# Gaps:         237/657 (36.1%)
+# Score: 95.5
+# 
+#
+#=======================================
+
+AF-A0A0P0XUQ6    185 PPVAAWSAIVAHMCQTATGAFLAADMVMEIGYLFQNNRVDPRKKSNRPLL    234
+                     ||:.|..:..|.....|||......:...||               ||:.
+AF-Q13099-F1      50 PPITAKISSTAVTRPIATGYGSKTSLASSIG---------------RPMT     84
+
+AF-A0A0P0XUQ6    235 ------LMKPNSLTFNIILTASLLFGTTKKAEQLLELMPRIGLKPDVSSL    278
+                           :.:|        :||....|.||.|.:.....|....:...|.|
+AF-Q13099-F1      85 GAIQDGVTRP--------MTAVRAAGFTKAALRGSAFDPLSQSRGPASPL    126
+
+AF-A0A0P0XUQ6    279 IVMARIYEQNGHRDEIQKLRRHVNEACGLSESELRQFYDCLL-SCHLKFG    327
+                         ...:::...::|::|.:.|||.  :.||       |:. ||    |
+AF-Q13099-F1     127 ----EAKKKDSPEEKIKQLEKEVNEL--VEES-------CIANSC----G    159
+
+AF-A0A0P0XUQ6    328 DLDSAVDMILDMLKKGKNTKRSLEAAKAVLEAVENNKIYLPYEKTKPVNS    377
+                     ||..|::...|..:|    :|.|...:..:...||..:.|.|        
+AF-Q13099-F1     160 DLKLALEKAKDAGRK----ERVLVRQREQVTTPENINLDLTY--------    197
+
+AF-A0A0P0XUQ6    378 GSSNKSVCTDSQMLNYISFFKDKSFARLELDARELLKLLSDKLQEQVGLV    427
+                               |.:.|..|.:.........|:..::  ::.:|:....|::
+AF-Q13099-F1     198 ----------SVLFNLASQYSVNEMYAEALNTYQV--IVKNKMFSNAGIL    235
+
+AF-A0A0P0XUQ6    428 KSEYGILYPTETMYAKLVKAFLEANKISALASFLVKASKEDSPVSVESSF    477
+                     |...|.:|..:..|:|.:|.:..|                          
+AF-Q13099-F1     236 KMNMGNIYLKQRNYSKAIKFYRMA--------------------------    259
+
+AF-A0A0P0XUQ6    478 VVQVINACISLGWLEQAHDLLDEMRFSGIR-VGSTI-----YSSLLKAYC    521
+                                  |:|...:..:||...:: :|.|.     ||..:.:| 
+AF-Q13099-F1     260 -------------LDQVPSVNKQMRIKIMQNIGVTFIQAGQYSDAINSY-    295
+
+AF-A0A0P0XUQ6    522 KEGHHEDDIAALLKDAQQAGIQLDPSCY----------------------    549
+                        .|...:|..||    ||..| ..||                      
+AF-Q13099-F1     296 ---EHIMSMAPNLK----AGYNL-TICYFAIGDREKMKKAFQKLITVPLE    337
+
+AF-A0A0P0XUQ6    550 --EDLIQSRAHHNNTTGALNLFKELKSLNILKAGQNEFEMLVQGCNNNGA    597
+                       ||...|.:...:|    ||..|....:.|:..:.|.:.:.:......|
+AF-Q13099-F1     338 IDEDKYISPSDDPHT----NLVTEAIKNDHLRQMERERKAMAEKYIMTSA    383
+
+AF-A0A0P0XUQ6    598 ALTTKLVE--------------------EVRSGHPVNHAI-----HDWNN    622
+                     .|...::|                    |:.:...:|.|:     .|:|.
+AF-Q13099-F1     384 KLIAPVIETSFAAGYDWCVEVVKASQYVELANDLEINKAVTYLRQKDYNQ    433
+
+AF-A0A0P0XUQ6    623 VIHFFCKKRLMHDAHKALGKMKALGHTPNAQTFH-----SLVTGYAAV--    665
+                     .:      .::....|...::|:...|..:..::     :..:.||.:  
+AF-Q13099-F1     434 AV------EILKVLEKKDSRVKSAAATNLSALYYMGKDFAQASSYADIAV    477
+
+AF-A0A0P0XUQ6    666 -------------------GGKYVEVTDLWGEMKVLATSSS---------    687
+                                        .|.|.:..:.:.|  .|...||         
+AF-Q13099-F1     478 NSDRYNPAALTNKGNTVFANGDYEKAAEFYKE--ALRNDSSCTEALYNIG    525
+
+AF-A0A0P0XUQ6    688 MNFDQ-ELLDSLLYCFVRGGFFLR-AMEVI-------EMMEKGKMFIDKY    728
+                     :.::: ..||..|.||::....|| :.||:       |:||.....|:  
+AF-Q13099-F1     526 LTYEKLNRLDEALDCFLKLHAILRNSAEVLYQIANIYELMENPSQAIE--    573
+
+AF-A0A0P0XUQ6    729 KYKSLWL    735
+                          ||
+AF-Q13099-F1     574 -----WL    575
+
+
+#---------------------------------------
+#---------------------------------------

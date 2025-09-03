@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:59
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0j381-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9nxs3-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0j381-f1_af-q9nxs3-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0j381-f1_af-q9nxs3-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0J381-F1
+# 2: AF-Q9NXS3-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 251
+# Identity:      56/251 (22.3%)
+# Similarity:    96/251 (38.2%)
+# Gaps:          64/251 (25.5%)
+# Score: 168.5
+# 
+#
+#=======================================
+
+AF-Q0J381-F1       7 TWVKLEQKGDGPGARSSHAITLVGGTAYAFGG-----------EFTPRVP     45
+                     ||..||:..:   :||:..:.::.|..||.||           ::.|::.
+AF-Q9NXS3-F1     365 TWTSLERMNE---SRSTLGVVVLAGELYALGGYDGQSYLQSVEKYIPKIR    411
+
+AF-Q0J381-F1      46 VDNAMYAFDLKSQCWSALDASGDVPPPRVGVTMASVGATVYMFGGRDQEH     95
+                     ....:........|::|                |.:...:|..||....|
+AF-Q9NXS3-F1     412 KWQPVAPMTTTRSCFAA----------------AVLDGMIYAIGGYGPAH    445
+
+AF-Q0J381-F1      96 KELNELYSFDTATNRWTLLSSGAGDGPPHRSYHSMVADAAGGGKVYVFGG    145
+                       :|.:..:|.:.:.|.:::|.| |...|.....|:      |.::|.||
+AF-Q9NXS3-F1     446 --MNSVERYDPSKDSWEMVASMA-DKRIHFGVGVML------GFIFVVGG    486
+
+AF-Q0J381-F1     146 CGDAGRLNDLWAYDVAAGRWEALPSPGEACK----PRGGPGLAVAGGKVW    191
+                     ......|:.:..||....:|       ..|:    ||.|.|.||....::
+AF-Q9NXS3-F1     487 HNGVSHLSSIERYDPHQNQW-------TVCRPMKEPRTGVGAAVIDNYLY    529
+
+AF-Q0J381-F1     192 VVYGFSGEE-LDDVHCYDPGTGAWSTVETTGGGGGGDKPSPRSVFCAAGI    240
+                     ||.|.||.. |:.|..|||.:..|  :::.|           .::|....
+AF-Q9NXS3-F1     530 VVGGHSGSSYLNTVQKYDPISDTW--LDSAG-----------MIYCRCNF    566
+
+AF-Q0J381-F1     241 G    241
+                     |
+AF-Q9NXS3-F1     567 G    567
+
+
+#---------------------------------------
+#---------------------------------------

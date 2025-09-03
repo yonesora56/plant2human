@@ -1,0 +1,233 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:40
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0j381-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p08922-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0j381-f1_af-p08922-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0j381-f1_af-p08922-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0J381-F1
+# 2: AF-P08922-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2444
+# Identity:      69/2444 ( 2.8%)
+# Similarity:   111/2444 ( 4.5%)
+# Gaps:        2209/2444 (90.4%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1       1 MKNIYCLIPKLVNFATLGCLWISVVQCTVLNSCLKSCVTNLGQQLDLGTP     50
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1      51 HNLSEPCIQGCHFWNSVDQKNCALKCRESCEVGCSSAEGAYEEEVLENAD    100
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     101 LPTAPFASSIGSHNMTLRWKSANFSGVKYIIQWKYAQLLGSWTYTKTVSR    150
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     151 PSYVVKPLHPFTEYIFRVVWIFTAQLQLYSPPSPSYRTHPHGVPETAPLI    200
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     201 RNIESSSPDTVEVSWDPPQFPGGPILGYNLRLISKNQKLDAGTQRTSFQF    250
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     251 YSTLPNTIYRFSIAAVNEVGEGPEAESSITTSSSAVQQEEQWLFLSRKTS    300
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     301 LRKRSLKHLVDEAHCLRLDAIYHNITGISVDVHQQIVYFSEGTLIWAKKA    350
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     351 ANMSDVSDLRIFYRGSGLISSISIDWLYQRMYFIMDELVCVCDLENCSNI    400
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     401 EEITPPSISAPQKIVADSYNGYVFYLLRDGIYRADLPVPSGRCAEAVRIV    450
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     451 ESCTLKDFAIKPQAKRIIYFNDTAQVFMSTFLDGSASHLILPRIPFADVK    500
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     501 SFACENNDFLVTDGKVIFQQDALSFNEFIVGCDLSHIEEFGFGNLVIFGS    550
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     551 SSQLHPLPGRPQELSVLFGSHQALVQWKPPALAIGANVILISDIIELFEL    600
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     601 GPSAWQNWTYEVKVSTQDPPEVTHIFLNISGTMLNVPELQSAMKYKVSVR    650
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     651 ASSPKRPGPWSEPSVGTTLVPASEPPFIMAVKEDGLWSKPLNSFGPGEFL    700
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     701 SSDIGNVSDMDWYNNSLYYSDTKGDVFVWLLNGTDISENYHLPSIAGAGA    750
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     751 LAFEWLGHFLYWAGKTYVIQRQSVLTGHTDIVTHVKLLVNDMVVDSVGGY    800
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     801 LYWTTLYSVESTRLNGESSLVLQTQPWFSGKKVIALTLDLSDGLLYWLVQ    850
+
+AF-Q0J381-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08922-F1     851 DSQCIHLYTAVLRGQSTGDTTITEFAAWSTSEISQNALMYYSGRLFWING    900
+
+AF-Q0J381-F1       1 ---------------------------------MPMAAGTWVKLEQKGDG     17
+                                                      .|:              
+AF-P08922-F1     901 FRIITTQEIGQKTSVSVLEPARFNQFTIIQTSLKPL--------------    936
+
+AF-Q0J381-F1      18 PGARSSHAITLVGGTAYAFGGEFTPRVPVDNAM-YAFDLKSQC------W     60
+                     ||..|                 |||:|..|:.. .:|.::...      |
+AF-P08922-F1     937 PGNFS-----------------FTPKVIPDSVQESSFRIEGNASSFQILW    969
+
+AF-Q0J381-F1      61 SALDASGDVPPPRV--GVTMASVGATVYMFGGRDQEHK------ELNELY    102
+                     :.        ||.|  ||...||..:.:......::|.      |..|.|
+AF-P08922-F1     970 NG--------PPAVDWGVVFYSVEFSAHSKFLASEQHSLPVFTVEGLEPY   1011
+
+AF-Q0J381-F1     103 S-FDTATNRWTLLSSGAGDGPPHRSYHSMVADAAGGGKVYVF--GGCGDA    149
+                     : |:.:...:|....|.......|:..: |..|....::::.  |.|.:.
+AF-P08922-F1    1012 ALFNLSVTPYTYWGKGPKTSLSLRAPET-VPSAPENPRIFILPSGKCCNK   1060
+
+AF-Q0J381-F1     150 GRLNDLWAYDVAAGRWEALPSPGEACKPRGGPGLAVAGGKVWVVYGFSGE    199
+                     ..:       |...||.         ||:...|:..   |..:.|..|.:
+AF-P08922-F1    1061 NEV-------VVEFRWN---------KPKHENGVLT---KFEIFYNISNQ   1091
+
+AF-Q0J381-F1     200 ELDDVHCYDPGTGAWSTVETTGGGGGGDKP----------SPR-------    232
+                     .:.:..|.|     |..|..|        |          |||       
+AF-P08922-F1    1092 SITNKTCED-----WIAVNVT--------PSVMSFQLEGMSPRCFIAFQV   1128
+
+AF-Q0J381-F1     233 SVFCAAGIGKHVVVF---GGEVDPSDLGHL-----------------GAG    262
+                     ..|.:.|.|.:..|.   ..|::|  ..||                 ...
+AF-P08922-F1    1129 RAFTSKGPGPYADVVKSTTSEINP--FPHLITLLGNKIVFLDMDQNQVVW   1176
+
+AF-Q0J381-F1     263 KFSAE------AFALDTETGAWARLDDAGEHHPGPRGWCAFSAGEVDGRR    306
+                     .||||      .:..|.|.|.:|                       :|..
+AF-P08922-F1    1177 TFSAERVISAVCYTADNEMGYYA-----------------------EGDS   1203
+
+AF-Q0J381-F1     307 GLLVYGGNSPTNDRLGDIYFFTPPLA------------------------    332
+                     ..|::..|..:::...|...|...:.                        
+AF-P08922-F1    1204 LFLLHLHNRSSSELFQDSLVFDITVITIDWISRHLYFALKESQNGMQVFD   1253
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1254 VDLEHKVKYPREVKIHNRNSTIISFSVYPLLSRLYWTEVSNFGYQMFYYS   1303
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1304 IISHTLHRILQPTATNQQNKRNQCSCNVTEFELSGAMAIDTSNLEKPLIY   1353
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1354 FAKAQEIWAMDLEGCQCWRVITVPAMLAGKTLVSLTVDGDLIYWIITAKD   1403
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1404 STQIYQAKKGNGAIVSQVKALRSRHILAYSSVMQPFPDKAFLSLASDTVE   1453
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1454 PTILNATNTSLTIRLPLAKTNLTWYGITSPTPTYLVYYAEVNDRKNSSDL   1503
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1504 KYRILEFQDSIALIEDLQPFSTYMIQIAVKNYYSDPLEHLPPGKEIWGKT   1553
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1554 KNGVPEAVQLINTTVRSDTSLIISWRESHKPNGPKESVRYQLAISHLALI   1603
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1604 PETPLRQSEFPNGRLTLLVTRLSGGNIYVLKVLACHSEEMWCTESHPVTV   1653
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1654 EMFNTPEKPYSLVPENTSLQFNWKAPLNVNLIRFWVELQKWKYNEFYHVK   1703
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1704 TSCSQGPAYVCNITNLQPYTSYNVRVVVVYKTGENSTSLPESFKTKAGVP   1753
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1754 NKPGIPKLLEGSKNSIQWEKAEDNGCRITYYILEIRKSTSNNLQNQNLRW   1803
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1804 KMTFNGSCSSVCTWKSKNLKGIFQFRVVAANNLGFGEYSGISENIILVGD   1853
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1854 DFWIPETSFILTIIVGIFLVVTIPLTFVWHRRLKNQKSAKEGVTVLINED   1903
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1904 KELAELRGLAAGVGLANACYAIHTLPTQEEIENLPAFPREKLTLRLLLGS   1953
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    1954 GAFGEVYEGTAVDILGVGSGEIKVAVKTLKKGSTDQEKIEFLKEAHLMSK   2003
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    2004 FNHPNILKQLGVCLLNEPQYIILELMEGGDLLTYLRKARMATFYGPLLTL   2053
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    2054 VDLVDLCVDISKGCVYLERMHFIHRDLAARNCLVSVKDYTSPRIVKIGDF   2103
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    2104 GLARDIYKNDYYRKRGEGLLPVRWMAPESLMDGIFTTQSDVWSFGILIWE   2153
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    2154 ILTLGHQPYPAHSNLDVLNYVQTGGRLEPPRNCPDDLWNLMTQCWAQEPD   2203
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    2204 QRPTFHRIQDQLQLFRNFFLNSIYKSRDEANNSGVINESFEGEDGDVICL   2253
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P08922-F1    2254 NSDDIMPVALMETKNREGLNYMVLATECGQGEEKSEGPLGSQESESCGLR   2303
+
+AF-Q0J381-F1     332 --------------------------------------------    332
+                                                                 
+AF-P08922-F1    2304 KEEKEPHADKDFCQEKQVAYCPSGKPEGLNYACLTHSGYGDGSD   2347
+
+
+#---------------------------------------
+#---------------------------------------

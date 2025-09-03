@@ -1,0 +1,137 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:48
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6yzi0-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o94826-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6yzi0-f1_af-o94826-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6yzi0-f1_af-o94826-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6YZI0-F1
+# 2: AF-O94826-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1229
+# Identity:      81/1229 ( 6.6%)
+# Similarity:   144/1229 (11.7%)
+# Gaps:         923/1229 (75.1%)
+# Score: 163.0
+# 
+#
+#=======================================
+
+AF-Q6YZI0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O94826-F1       1 MAASKPVEAAVVAAAVPSSGSGVGGGGTAGPGTGGLPRWQLALAVGAPLL     50
+
+AF-Q6YZI0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O94826-F1      51 LGAGAIYLWSRQQRRREARGRGDASGLKRNSERKTPEGRASPAPGSGHPE    100
+
+AF-Q6YZI0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O94826-F1     101 GPGAHLDMNSLDRAQAAKNKGNKYFKAGKYEQAIQCYTEAISLCPTEKNV    150
+
+AF-Q6YZI0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O94826-F1     151 DLSTFYQNRAAAFEQLQKWKEVAQDCTKAVELNPKYVKALFRRAKAHEKL    200
+
+AF-Q6YZI0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O94826-F1     201 DNKKECLEDVTAVCILEGFQNQQSMLLADKVLKLLGKEKAKEKYKNREPL    250
+
+AF-Q6YZI0-F1       1 ------------------MGRP---GMDSSEGRESNGVVPE--RNGGAVP     27
+                                       :.:|   |..|.|.::..|...|  .|.|.:.
+AF-O94826-F1     251 MPSPQFIKSYFSSFTDDIISQPMLKGEKSDEDKDKEGEALEVKENSGYLK    300
+
+AF-Q6YZI0-F1      28 AKQQLDGKDTLRYANILRSRNK--------FAEALQL-------------     56
+                     |||.::.::   |..|:...:|        .||||.|             
+AF-O94826-F1     301 AKQYMEEEN---YDKIISECSKEIDAEGKYMAEALLLRATFYLLIGNANA    347
+
+AF-Q6YZI0-F1      57 ----YNNVLEKDEANVE----ALIGKGICLQAQSLPMQAIECFNEAVRID     98
+                         .:.|:...||||:    |||.:|.....|..|:.:.:.||.|..||
+AF-O94826-F1     348 AKPDLDKVISLKEANVKLRANALIKRGSMYMQQQQPLLSTQDFNMAADID    397
+
+AF-Q6YZI0-F1      99 PGNACALTYCGMIYKDEGHLVEAAEAYQKARNADPSYKPAAEFLAIVLTD    148
+                     |.||       .:|...|.|....:..::|                 :.|
+AF-O94826-F1     398 PQNA-------DVYHHRGQLKILLDQVEEA-----------------VAD    423
+
+AF-Q6YZI0-F1     149 LGTSLKLAGNTEEGIQKYCEALEVDSHYAPAYYNLGVVYSEMMQFDLALT    198
+                     ....::|...:.....:.|.||     |..||..     :...|...|:.
+AF-O94826-F1     424 FDECIRLRPESALAQAQKCFAL-----YRQAYTG-----NNSSQIQAAMK    463
+
+AF-Q6YZI0-F1     199 CYEKAALERPLYAEAYCNMGVIYKNRGELEAAIACYERCLTISPNFEIAK    248
+                     .:|:...:.|..||.|........::.:...|...|::|:.:.|:     
+AF-O94826-F1     464 GFEEVIKKFPRCAEGYALYAQALTDQQQFGKADEMYDKCIDLEPD-----    508
+
+AF-Q6YZI0-F1     249 NNMAIALTDLGTKVKIEGDINQGVAYYKKALFYNWHYADAMYNLGVAYGE    298
+                                         |.....:|..|...|..             
+AF-O94826-F1     509 --------------------NATTYVHKGLLQLQWKQ-------------    525
+
+AF-Q6YZI0-F1     299 MLNFEMAIVFYELALHFNPRCAEACNNLGVIYKDRDNLDKAVECYQMALS    348
+                       :.:..:.....|:..:.:|..|...:|.|...|.|::||::.:..|: 
+AF-O94826-F1     526 --DLDRGLELISKAIEIDNKCDFAYETMGTIEVQRGNMEKAIDMFNKAI-    572
+
+AF-Q6YZI0-F1     349 IKPNFSQSLNNLGVVYTVQGKMDAASSMIQKAIFANSTYAEAYNNLGVLY    398
+                        |.::|...:..:|::.....|.:.:.:|......|.           
+AF-O94826-F1     573 ---NLAKSEMEMAHLYSLCDAAHAQTEVAKKYGLKPPTL-----------    608
+
+AF-Q6YZI0-F1     399 RDAGSITSAVQAYEKCLQIDPDSRNAGQNRLLALNYIDEGFDDKLYQAHR    448
+                                                                       
+AF-O94826-F1     608 --------------------------------------------------    608
+
+AF-Q6YZI0-F1     449 EWGKRFLKLYPQYTSWDNPKVADRPLVIGYVSPDYFTHSVSYFIEAPLAH    498
+                                                                       
+AF-O94826-F1     608 --------------------------------------------------    608
+
+AF-Q6YZI0-F1     499 HDYSNYKVVVYSGVVKADAKTLRFKDKVLKKGGLWRDIYGIDEKKVASLV    548
+                                                                       
+AF-O94826-F1     608 --------------------------------------------------    608
+
+AF-Q6YZI0-F1     549 REDKVDILVELTGHTANNKLGTMACRPAPIQVTWIGYPNTTGLPTIDYRI    598
+                                                                       
+AF-O94826-F1     608 --------------------------------------------------    608
+
+AF-Q6YZI0-F1     599 TDSLADPPDTTQKHVEELVRLPESFLCYSPSPEAGPVCPTPAILNGFITF    648
+                                                                       
+AF-O94826-F1     608 --------------------------------------------------    608
+
+AF-Q6YZI0-F1     649 GSFNNLAKITPKVLQVWAKILCAVPNSRLVVKCKPFCCDSIRQKFLSTLA    698
+                                                                       
+AF-O94826-F1     608 --------------------------------------------------    608
+
+AF-Q6YZI0-F1     699 ELGLEPLRVDLLPLIHLNHDHMQAYSLMDISLDTFPYAGTTTTCESLYMG    748
+                                                                       
+AF-O94826-F1     608 --------------------------------------------------    608
+
+AF-Q6YZI0-F1     749 VPCVTMAGSVHAHNVGVSLLTKVGLGRLVAKSENEYVSLALDLAADVTAL    798
+                                                                       
+AF-O94826-F1     608 --------------------------------------------------    608
+
+AF-Q6YZI0-F1     799 QELRMSLRGLMAKSPVCDGENFTRGLESAYRNMWRRYCDGDAPALRRLDL    848
+                                                                       
+AF-O94826-F1     608 --------------------------------------------------    608
+
+AF-Q6YZI0-F1     849 LQEEPCSNNNKQDFDDNQVAKLADLKAQRVDAAVDGDKQSQLTAHAAVVG    898
+                                                                       
+AF-O94826-F1     608 --------------------------------------------------    608
+
+AF-Q6YZI0-F1     899 EVQQAPIMVNGVSSPVSSGKVEANGHISR    927
+                                                  
+AF-O94826-F1     608 -----------------------------    608
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:48
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q7g228-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q13505-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q7g228-f1_af-q13505-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q7g228-f1_af-q13505-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7G228-F1
+# 2: AF-Q13505-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 512
+# Identity:      28/512 ( 5.5%)
+# Similarity:    38/512 ( 7.4%)
+# Gaps:         414/512 (80.9%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+AF-Q7G228-F1       1 ----------------------------------MSSSSTSGSAEPAAAV     16
+                                                       ....:...|.||||..
+AF-Q13505-F1       1 MLLGGPPRSPRSGTSPKGPWSSTGHVQFGKSPQTWPRRTRPRSPEPAAPS     50
+
+AF-Q7G228-F1      17 RVLGS-WTSPFVMRVVVALKLKGVEEYELLQETRGKKSELLLRSNPVHKK     65
+                     .|.|| ||                           ::.:...|:.|.   
+AF-Q13505-F1      51 GVRGSTWT---------------------------RRRDSPRRAGPT---     70
+
+AF-Q7G228-F1      66 IPVLLHHGKPLAESLIIVEYIDEVW----PASDGAPAILPRDPYCRAVER    111
+                                    .:..|:..:|    |.|..|...:||........|
+AF-Q13505-F1      71 ---------------ALSRYVGHLWMGRRPPSPEARGPVPRSSAASRARR    105
+
+AF-Q7G228-F1     112 FWAQYIDDKFPRGTRVLRGTVAGEEPWLKCPPL-----------------    144
+                     ..|.......|. |..:.|.|||..|.......                 
+AF-Q13505-F1     106 SLASPGISPGPL-TATIGGAVAGGGPRQGRAEAHKEVFPGQRVGKMAAPM    154
+
+AF-Q7G228-F1     144 --------------------------------------------------    144
+                                                                       
+AF-Q13505-F1     155 ELFCWSGGWGLPSVDLDSLAVLTYARFTGAPLKVHKISNPWQSPSGTLPA    204
+
+AF-Q7G228-F1     144 --------------------------------------------------    144
+                                                                       
+AF-Q13505-F1     205 LRTSHGEVISVPHKIITHLRKEKYNADYDLSARQGADTLAFMSLLEEKLL    254
+
+AF-Q7G228-F1     144 --------------------------------------------------    144
+                                                                       
+AF-Q13505-F1     255 PVLVHTFWIDTKNYVEVTRKWYAEAMPFPLNFFLPGRMQRQYMERLQLLT    304
+
+AF-Q7G228-F1     144 --------------------------------------------------    144
+                                                                       
+AF-Q13505-F1     305 GEHRPEDEEELEKELYREARECLTLLSQRLGSQKFFFGDAPASLDAFVFS    354
+
+AF-Q7G228-F1     144 --------------------------------------------------    144
+                                                                       
+AF-Q13505-F1     355 YLALLLQAKLPSGKLQVHLRGLHNLCAYCTHILSLYFPWDGAEVPPQRQT    404
+
+AF-Q7G228-F1     144 --------------------------------------------------    144
+                                                                       
+AF-Q13505-F1     405 PAGPETEEEPYRRRNQILSVLAGLAAMVGYALLSGIVSIQRATPARAPGT    454
+
+AF-Q7G228-F1     144 ------------    144
+                                 
+AF-Q13505-F1     455 RTLGMAEEDEEE    466
+
+
+#---------------------------------------
+#---------------------------------------

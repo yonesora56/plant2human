@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:07
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q96b97-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-q96b97-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-q96b97-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-Q96B97-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 315
+# Identity:      69/315 (21.9%)
+# Similarity:   122/315 (38.7%)
+# Gaps:          87/315 (27.6%)
+# Score: 145.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1     106 RASVEFG---NSHSQMEKERENLLKFLGEQVFEPLREMIMSA-----PLE    147
+                     |..|.|.   .:..::|.:..::::.:|| |.|...|.:::.     |..
+AF-Q96B97-F1     102 RCQVAFSYLPQNDDELELKVGDIIEVVGE-VEEGWWEGVLNGKTGMFPSN    150
+
+AF-Q10NK5-F1     148 DARLLTYRYQRIRQDMESQIADVMRKQLKSKESSGNADNSVKLQHAESKL    197
+                     ..:.|:.....:....:.|::....::....||.|...:|.|.:.|.   
+AF-Q96B97-F1     151 FIKELSGESDELGISQDEQLSKSSLRETTGSESDGGDSSSTKSEGAN---    197
+
+AF-Q10NK5-F1     198 SELRTTLSALGREATAAMEAVEVQQQQVTFDRLLAMVDAERAYHQNAADI    247
+                               |..||||::..:|  :.|.|                 .||
+AF-Q96B97-F1     198 ----------GTVATAAIQPKKV--KGVGF-----------------GDI    218
+
+AF-Q10NK5-F1     248 LNKLHDEMVQAKHHD-EPENHY--DETSSDPKTAATHEHSRSTSEDHIFT    294
+                     ..   |:.::.:... |.||.:  .|.:...|..||              
+AF-Q96B97-F1     219 FK---DKPIKLRPRSIEVENDFLPVEKTIGKKLPAT--------------    251
+
+AF-Q10NK5-F1     295 NTSEPTRTETSEPTRTETSEPTRNGQEVHYVGEVIHPFDAQADGELSISV    344
+                      |:.|..::|...:||::.:..:          ||.|::||.|.||:|..
+AF-Q96B97-F1     252 -TATPDSSKTEMDSRTKSKDYCK----------VIFPYEAQNDDELTIKE    290
+
+AF-Q10NK5-F1     345 GDYVVV--RQVAPNGWSEGECKGKAGWFPSAYVE-------------QRD    379
+                     ||.|.:  :.....||.|||..|:.|.||..:|:             ::.
+AF-Q96B97-F1     291 GDIVTLINKDCIDVGWWEGELNGRRGVFPDNFVKLLPPDFEKEGNRPKKP    340
+
+AF-Q10NK5-F1     380 KAPASKVIEPGLLTT    394
+                     ..|::.||:.|..||
+AF-Q96B97-F1     341 PPPSAPVIKQGAGTT    355
+
+
+#---------------------------------------
+#---------------------------------------

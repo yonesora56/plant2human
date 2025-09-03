@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:36
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q75m00-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q96sz6-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q75m00-f1_af-q96sz6-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q75m00-f1_af-q96sz6-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75M00-F1
+# 2: AF-Q96SZ6-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 713
+# Identity:      81/713 (11.4%)
+# Similarity:   146/713 (20.5%)
+# Gaps:         413/713 (57.9%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+AF-Q75M00-F1       1 MAPPTARSLLASHAAVRAAASARRGRLAGDHHPPQ-VAALRRG-DWVKLI     48
+                                                   .||.| |..::|. .|..| 
+AF-Q96SZ6-F1       1 ------------------------------MHPLQCVLQVQRSLGWGPL-     19
+
+AF-Q75M00-F1      49 CGASFEDAADVRNLSLVYTLAGVDCIDCAADASVVGAVNEGIDVAASIVP     98
+                             |.|..|||..         |.|.:|          :::::.|
+AF-Q96SZ6-F1      20 --------ASVSWLSLRM---------CRAHSS----------LSSTMCP     42
+
+AF-Q75M00-F1      99 AVQRPWVMVSVNDDCRD------------LHFRKAEFDPEDCPPDCSKPC    136
+                     :.:|.      .|..|.            .||.|:          .|.|.
+AF-Q96SZ6-F1      43 SPERQ------EDGARKDFSSRLAAGPTFQHFLKS----------ASAPQ     76
+
+AF-Q75M00-F1     137 EKVC-----PADAILLERVMIEEEHSQSDPSCGKLEGGVITERCYGCGRC    181
+                     ||:.     |...::::.::..:..              :....|||   
+AF-Q96SZ6-F1      77 EKLSSEVEDPPPYLMMDELLGRQRK--------------VYLETYGC---    109
+
+AF-Q75M00-F1     182 LSVCPYDRIRAMSYVRDPAMTAELLKRN---------DVDAIEIHTTGKG    222
+                                ...|.|..:...:|:::         :.|.|.:.|....
+AF-Q96SZ6-F1     110 -----------QMNVNDTEIAWSILQKSGYLRTSNLQEADVILLVTCSIR    148
+
+AF-Q75M00-F1     223 TDMFNTLWSNL------------------------------GESINNVKL    242
+                     .....|:|:.|                              .|.:|..|:
+AF-Q96SZ6-F1     149 EKAEQTIWNRLHQLKALKTRRPRSRVPLRIGILGCMAERLKEEILNREKM    198
+
+AF-Q75M00-F1     243 IAV--------SLP------DVGDSTVNLMNAIYTT--------------    264
+                     :.:        .||      :.|....|::.::..|              
+AF-Q96SZ6-F1     199 VDILAGPDAYRDLPRLLAVAESGQQAANVLLSLDETYADVMPVQTSASAT    248
+
+AF-Q75M00-F1     265 --MQSHLQGY-NLWQLDGRPMSGDIGRGATRETVSFAVHLSSMSN-----    306
+                       ..|.::|. |:......|.:.  ||..:|...|....:..:|.     
+AF-Q96SZ6-F1     249 SAFVSIMRGCDNMCSYCIVPFTR--GRERSRPIASILEEVKKLSEQVFLP    296
+
+AF-Q75M00-F1     307 -RPPGFYQLAG-------GTNSYTIESLKKAGLFQ-STTFPGAATSGVTD    347
+                      |||....|.|       |.|   :.|.:.....| ::..|...:.|.|.
+AF-Q96SZ6-F1     297 PRPPKVLGLQGLKEVTLLGQN---VNSFRDNSEVQFNSAVPTNLSRGFTT    343
+
+AF-Q75M00-F1     348 CQQAFIGGIAYGGYARKIVGRVLRKIPAQFGHARIEDHPDYLLEALQEAL    397
+                     ..:...||:.: .:....|.||..::..:|.....:|.||.:|:.:.|..
+AF-Q96SZ6-F1     344 NYKTKQGGLRF-AHLLDQVSRVDPEMRIRFTSPHPKDFPDEVLQLIHERD    392
+
+AF-Q75M00-F1     398 SLVGPVKGYPTLPSL-----------------------------------    412
+                     ::...:.    ||:.                                   
+AF-Q96SZ6-F1     393 NICKQIH----LPAQSGSSRVLEAMRRGYSREAYVELVHHIRESIPGVSL    438
+
+AF-Q75M00-F1     412 --------------------------------------------------    412
+                                                                       
+AF-Q96SZ6-F1     439 SSDFIAGFCGETEEDHVQTVSLLREVQYNMGFLFAYSMRQKTRAYHRLKD    488
+
+AF-Q75M00-F1     412 --------------------------------------------------    412
+                                                                       
+AF-Q96SZ6-F1     489 DVPEEVKLRRLEELITIFREEATKANQTSVGCTQLVLVEGLSKRSATDLC    538
+
+AF-Q75M00-F1     412 --------------------------------------------------    412
+                                                                       
+AF-Q96SZ6-F1     539 GRNDGNLKVIFPDAEMEDVNNPGLRVRAQPGDYVLVKITSASSQTLRGHV    588
+
+AF-Q75M00-F1     412 -------------    412
+                                  
+AF-Q96SZ6-F1     589 LCRTTLRDSSAYC    601
+
+
+#---------------------------------------
+#---------------------------------------

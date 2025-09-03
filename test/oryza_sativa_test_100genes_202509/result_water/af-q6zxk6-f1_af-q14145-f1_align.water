@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:56
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6zxk6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q14145-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6zxk6-f1_af-q14145-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6zxk6-f1_af-q14145-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6ZXK6-F1
+# 2: AF-Q14145-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 282
+# Identity:      73/282 (25.9%)
+# Similarity:   103/282 (36.5%)
+# Gaps:          87/282 (30.9%)
+# Score: 199.0
+# 
+#
+#=======================================
+
+AF-Q6ZXK6-F1       6 GTWVKLEQKGDGPGARSSHAITLVGGTAYAFGG-----------------     38
+                     |||::|   .|....||..|..:|||..||.||                 
+AF-Q14145-F1     350 GTWLRL---ADLQVPRSGLAGCVVGGLLYAVGGRNNSPDGNTDSSALDCY    396
+
+AF-Q6ZXK6-F1      39 -----EFTPRVP------------VDNAMYAFDLKSQC------------     59
+                          :::|..|            :|..:||......|            
+AF-Q14145-F1     397 NPMTNQWSPCAPMSVPRNRIGVGVIDGHIYAVGGSHGCIHHNSVERYEPE    446
+
+AF-Q6ZXK6-F1      60 ---WSALDASGDVPP---PRVGVTMASVGATVYMFGGRDQEHKELNELYS    103
+                        |..      |.|   .|:||.:|.:...:|..||.|..:: ||....
+AF-Q14145-F1     447 RDEWHL------VAPMLTRRIGVGVAVLNRLLYAVGGFDGTNR-LNSAEC    489
+
+AF-Q6ZXK6-F1     104 FDTATNRWTLLS------SGAGDGPPHRSYHSMVADAAGGGKVYVFGGCG    147
+                     :....|.|.:::      ||||....|..             :|..||..
+AF-Q14145-F1     490 YYPERNEWRMITAMNTIRSGAGVCVLHNC-------------IYAAGGYD    526
+
+AF-Q6ZXK6-F1     148 DAGRLNDLWAYDVAAGRWEALPSPGEACKPRGGPGLAVAGGKVWVVYGFS    197
+                     ...:||.:..|||....| ...:|.:  ..|...|:.|..|:::|:.|:.
+AF-Q14145-F1     527 GQDQLNSVERYDVETETW-TFVAPMK--HRRSALGITVHQGRIYVLGGYD    573
+
+AF-Q6ZXK6-F1     198 GEE-LDDVHCYDPGTGAWSTVE--TTGGGGGG    226
+                     |.. ||.|.||||.|..||.|.  |:|..|.|
+AF-Q14145-F1     574 GHTFLDSVECYDPDTDTWSEVTRMTSGRSGVG    605
+
+
+#---------------------------------------
+#---------------------------------------

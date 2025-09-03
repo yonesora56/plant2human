@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:38
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q5jjp8-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-a2rrh5-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5jjp8-f1_af-a2rrh5-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5jjp8-f1_af-a2rrh5-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5JJP8-F1
+# 2: AF-A2RRH5-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 222
+# Identity:      45/222 (20.3%)
+# Similarity:    87/222 (39.2%)
+# Gaps:          70/222 (31.5%)
+# Score: 102.5
+# 
+#
+#=======================================
+
+AF-Q5JJP8-F1     247 KKKVKGKKAKKYKKGSHRSSVLGL-------AWNKEVRNVLASASADKTV    289
+                     |.::|..|.|...|...|.|..|.       |.|....:::.:|..::||
+AF-A2RRH5-F1     633 KDEIKRYKQKSKSKLICRLSTTGAVDMTSLSAVNDFYSHIVLAAGRNRTV    682
+
+AF-Q5JJP8-F1     290 KIWDVSVG-KCAVTLEHHDDKVQSV------AWSRQSPE---VLLSGSFD    329
+                     :::|::.| ..||..|.|...|..:      :::.|.|:   :.|:.:..
+AF-A2RRH5-F1     683 EVFDLNAGCSAAVIAEAHSRPVHQICQNKGSSFTTQQPQAYNLFLTTAIG    732
+
+AF-Q5JJP8-F1     330 KSVAMNDMK--------DG----GQSCNKWSVEADVESLAWDP-------    360
+                     ..:.:.|::        :|    |..|          .:|:.|       
+AF-A2RRH5-F1     733 DGMRLWDLRTLRCERHFEGHPTRGYPC----------GIAFSPCGRFAAC    772
+
+AF-Q5JJP8-F1     361 --HNEHSFMVSLENGMVQAFDKRTASSNSNSGRPTFT--LHAHEKAVSSI    406
+                       .:.|:::..:                   |..||:  |..|...|:.:
+AF-A2RRH5-F1     773 GAEDRHAYVYEM-------------------GSSTFSHRLAGHTDTVTGV    803
+
+AF-Q5JJP8-F1     407 SFSPSTPNFLATGSTDKMVKLW    428
+                     :|:||.|. |||.:.|..::|:
+AF-A2RRH5-F1     804 AFNPSAPQ-LATATLDGKLQLF    824
+
+
+#---------------------------------------
+#---------------------------------------

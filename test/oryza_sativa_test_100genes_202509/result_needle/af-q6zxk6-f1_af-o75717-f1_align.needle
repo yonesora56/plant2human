@@ -1,0 +1,133 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:33
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6zxk6-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o75717-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6zxk6-f1_af-o75717-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6zxk6-f1_af-o75717-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6ZXK6-F1
+# 2: AF-O75717-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1178
+# Identity:      86/1178 ( 7.3%)
+# Similarity:   131/1178 (11.1%)
+# Gaps:         895/1178 (76.0%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+AF-Q6ZXK6-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O75717-F1       1 MPATRKPMRYGHTEGHTEVCFDDSGSFIVTCGSDGDVRIWEDLDDDDPKF     50
+
+AF-Q6ZXK6-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O75717-F1      51 INVGEKAYSCALKSGKLVTAVSNNTIQVHTFPEGVPDGILTRFTTNANHV    100
+
+AF-Q6ZXK6-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O75717-F1     101 VFNGDGTKIAAGSSDFLVKIVDVMDSSQQKTFRGHDAPVLSLSFDPKDIF    150
+
+AF-Q6ZXK6-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O75717-F1     151 LASASCDGSVRVWQISDQTCAISWPLLQKCNDVINAKSICRLAWQPKSGK    200
+
+AF-Q6ZXK6-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O75717-F1     201 LLAIPVEKSVKLYRRESWSHQFDLSDNFISQTLNIVTWSPCGQYLAAGSI    250
+
+AF-Q6ZXK6-F1       1 ---------------------------------------MPMAAGTWVKL     11
+                                                            ...|.|....|
+AF-O75717-F1     251 NGLIIVWNVETKDCMERVKHEKGYAICGLAWHPTCGRISYTDAEGNLGLL    300
+
+AF-Q6ZXK6-F1      12 EQKGDGPGARSSHAIT---------LVGGTAYAFGGEFTPRVPVDNAMYA     52
+                     |...|..|..||..::         |..|...:..|:|..    |||:  
+AF-O75717-F1     301 ENVCDPSGKTSSSKVSSRVEKDYNDLFDGDDMSNAGDFLN----DNAV--    344
+
+AF-Q6ZXK6-F1      53 FDLKSQCWSALD----------ASGDVPPPR------------VGVTMAS     80
+                      ::.|.....::          |||   .||            |.::|..
+AF-O75717-F1     345 -EIPSFSKGIINDDEDDEDLMMASG---RPRQRSHILEDDENSVDISMLK    390
+
+AF-Q6ZXK6-F1      81 VGATVYMFGGRDQEHKELNEL---------YSFDTATNRWTLLSSGAGDG    121
+                     .|:::......|.:...::.|         |.....|.|.....||:  .
+AF-O75717-F1     391 TGSSLLKEEEEDGQEGSIHNLPLVTSQRPFYDGPMPTPRQKPFQSGS--T    438
+
+AF-Q6ZXK6-F1     122 PPHRSYHSMVADAAGGGKVYVFGGCGD-----------------AGRLND    154
+                     |.|.::..||.::.|..:.|     .|                 |..|::
+AF-O75717-F1     439 PLHLTHRFMVWNSIGIIRCY-----NDEQDNAIDVEFHDTSIHHATHLSN    483
+
+AF-Q6ZXK6-F1     155 LWAYDVAAGRWEALPSPGEACKPRGGPGLAVA----------GGKVWVVY    194
+                     ...|.:|....||:..   ||:  ....||..          ..|.|::.
+AF-O75717-F1     484 TLNYTIADLSHEAILL---ACE--STDELASKLHCLHFSSWDSSKEWIID    528
+
+AF-Q6ZXK6-F1     195 GFSGEELDDVHCYDPGTGAWST------VETTGGGGGGDKPSPRSVFCAA    238
+                     ....|:::.: |...|..|.:|      :.|.||       ..:.||..|
+AF-O75717-F1     529 LPQNEDIEAI-CLGQGWAAAATSALLLRLFTIGG-------VQKEVFSLA    570
+
+AF-Q6ZXK6-F1     239 GIGKHVVVFGGEVDPSDL-GHLGAGKFSAEAFALD-TETGAWARLDDAGE    286
+                     |   .||...|..:...: .|.|.|....:...:. .|.|...:....|:
+AF-O75717-F1     571 G---PVVSMAGHGEQLFIVYHRGTGFDGDQCLGVQLLELGKKKKQILHGD    617
+
+AF-Q6ZXK6-F1     287 HHPGPR----GWCAFSAG----EVDG-------RRGLLVYGGNSPTNDRL    321
+                     ..|..|    .|..|||.    .||.       .|||    ||:.|    
+AF-O75717-F1     618 PLPLTRKSYLAWIGFSAEGTPCYVDSEGIVRMLNRGL----GNTWT----    659
+
+AF-Q6ZXK6-F1     322 GDIYFFTPPLA---------------------------------------    332
+                             |:.                                       
+AF-O75717-F1     660 --------PICNTREHCKGKSDHYWVVGIHENPQQLRCIPCKGSRFPPTL    701
+
+AF-Q6ZXK6-F1     332 --------------------------------------------------    332
+                                                                       
+AF-O75717-F1     702 PRPAVAILSFKLPYCQIATEKGQMEEQFWRSVIFHNHLDYLAKNGYEYEE    751
+
+AF-Q6ZXK6-F1     332 --------------------------------------------------    332
+                                                                       
+AF-O75717-F1     752 STKNQATKEQQELLMKMLALSCKLEREFRCVELADLMTQNAVNLAIKYAS    801
+
+AF-Q6ZXK6-F1     332 --------------------------------------------------    332
+                                                                       
+AF-O75717-F1     802 RSRKLILAQKLSELAVEKAAELTATQVEEEEEEEDFRKKLNAGYSNTATE    851
+
+AF-Q6ZXK6-F1     332 --------------------------------------------------    332
+                                                                       
+AF-O75717-F1     852 WSQPRFRNQVEEDAEDSGEADDEEKPEIHKPGQNSFSKSTNSSDVSAKSG    901
+
+AF-Q6ZXK6-F1     332 --------------------------------------------------    332
+                                                                       
+AF-O75717-F1     902 AVTFSSQGRVNPFKVSASSKEPAMSMNSARSTNILDNMGKSSKKSTALSR    951
+
+AF-Q6ZXK6-F1     332 --------------------------------------------------    332
+                                                                       
+AF-O75717-F1     952 TTNNEKSPIIKPLIPKPKPKQASAASYFQKRNSQTNKTEEVKEENLKNVL   1001
+
+AF-Q6ZXK6-F1     332 --------------------------------------------------    332
+                                                                       
+AF-O75717-F1    1002 SETPAICPPQNTENQRPKTGFQMWLEENRSNILSDNPDFSDEADIIKEGM   1051
+
+AF-Q6ZXK6-F1     332 --------------------------------------------------    332
+                                                                       
+AF-O75717-F1    1052 IRFRVLSTEERKVWANKAKGETASEGTEAKKRKRVVDESDETENQEEKAK   1101
+
+AF-Q6ZXK6-F1     332 ----------------------------    332
+                                                 
+AF-O75717-F1    1102 ENLNLSKKQKPLDFSTNQKLSAFAFKQE   1129
+
+
+#---------------------------------------
+#---------------------------------------

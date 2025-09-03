@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:44
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q15642-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10nk5-f1_af-q15642-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10nk5-f1_af-q15642-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-Q15642-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 666
+# Identity:      96/666 (14.4%)
+# Similarity:   179/666 (26.9%)
+# Gaps:         337/666 (50.6%)
+# Score: 128.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15642-F1       1 MDWGTELWDQFEVLERHTQWGLDLLDRYVKFVKERTEVEQAYAKQLRSLV     50
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15642-F1      51 KKYLPKRPAKDDPESKFSQQQSFVQILQEVNDFAGQRELVAENLSVRVCL    100
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q15642-F1     101 ELTKYSQEMKQERKMHFQEGRRAQQQLENGFKQLENSKRKFERDCREAEK    150
+
+AF-Q10NK5-F1       1 ------------------METLRKQASKLREHVAKQQQAVRKQFSA---R     29
+                                       :|..::|| .||.|:|::.   :.:::|   |
+AF-Q15642-F1     151 AAQTAERLDQDINATKADVEKAKQQA-HLRSHMAEES---KNEYAAQLQR    196
+
+AF-Q10NK5-F1      30 YNQD---------PSLVDEAELECHQNLQRLYNSTRAAKHFQRSIVRGVE     70
+                     :|:|         |.:.|:.     |::.            :|...|...
+AF-Q15642-F1     197 FNRDQAHFYFSQMPQIFDKL-----QDMD------------ERRATRLGA    229
+
+AF-Q10NK5-F1      71 GFIAVSTKQMEIVKKLAEDCCRYGN-------DNQNFGFIL--------A    105
+                     |:..:|..::|:|..:|:  |..|.       |.:|...:|        |
+AF-Q15642-F1     230 GYGLLSEAELEVVPIIAK--CLEGMKVAANAVDPKNDSHVLIELHKSGFA    277
+
+AF-Q10NK5-F1     106 R-ASVEF-----------------------------GNSHS------QME    119
+                     | ..|||                             |.|.:      :..
+AF-Q15642-F1     278 RPGDVEFEDFSQPMNRAPSDSSLGTPSDGRPELRGPGRSRTKRWPFGKKN    327
+
+AF-Q10NK5-F1     120 KERENLLKFLGEQV--------------FEPLREMIMSAPLEDARLLTYR    155
+                     |.|...|..||..|              .:||..:...:.....||.::|
+AF-Q15642-F1     328 KPRPPPLSPLGGPVPSALPNGPPSPRSGRDPLAILSEISKSVKPRLASFR    377
+
+AF-Q10NK5-F1     156 YQR------IRQDMESQIADVMRKQLKS--KESSGNADNSVKLQHAESKL    197
+                     ..|      :.:|......:..||:|:.  :|.|......|..:.|..|:
+AF-Q15642-F1     378 SLRGSRGTVVTEDFSHLPPEQQRKRLQQQLEERSRELQKEVDQREALKKM    427
+
+AF-Q10NK5-F1     198 SELRTTLSALG---------REATAAMEAVEVQQQQVTFDRLLAMVDAER    238
+                     .::......:|         .|..:.:|.::::.|:  ::..||  :||.
+AF-Q15642-F1     428 KDVYEKTPQMGDPASLEPQIAETLSNIERLKLEVQK--YEAWLA--EAES    473
+
+AF-Q10NK5-F1     239 AYHQNAADILNKLHDEMVQAKHHDEPENHYDETSSDPKTAATHEHSRSTS    288
+                     ....|..|.|::          |..|.   |..:|.|..::::..|:.|.
+AF-Q15642-F1     474 RVLSNRGDSLSR----------HARPP---DPPASAPPDSSSNSASQDTK    510
+
+AF-Q10NK5-F1     289 EDHIFTNTSEPTRTETSE-PTRTE-----TSEPTRNGQEVHYVGE--VIH    330
+                     |     ::.||...|:.: |..||     ..|||..      :|.  .|:
+AF-Q15642-F1     511 E-----SSEEPPSEESQDTPIYTEFDEDFEEEPTSP------IGHCVAIY    549
+
+AF-Q10NK5-F1     331 PFDAQADGELSISVG-DYVVVRQVAPNGWSEGECK-GKAGWFPSAYVEQR    378
+                     .|:..::|.:|::.| |..::.:...:||:....| |..|:.|::|:...
+AF-Q15642-F1     550 HFEGSSEGTISMAEGEDLSLMEEDKGDGWTRVRRKEGGEGYVPTSYLRVT    599
+
+AF-Q10NK5-F1     379 DKAPASKVIEPGLLTT    394
+                     ..              
+AF-Q15642-F1     600 LN--------------    601
+
+
+#---------------------------------------
+#---------------------------------------

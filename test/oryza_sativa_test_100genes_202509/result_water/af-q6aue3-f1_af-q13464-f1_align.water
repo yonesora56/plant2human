@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:50
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q13464-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-q13464-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-q13464-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-Q13464-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 286
+# Identity:      80/286 (28.0%)
+# Similarity:   110/286 (38.5%)
+# Gaps:         100/286 (35.0%)
+# Score: 205.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      63 EDWEIDLAKLEIRYVIAQGTYGTVY-------RGTYDGQDVAVKLLD---    102
+                     ||:|:      :: ||.:|.:|.|.       |..|     |:|||.   
+AF-Q13464-F1      74 EDYEV------VK-VIGRGAFGEVQLVRHKSTRKVY-----AMKLLSKFE    111
+
+AF-Q6AUE3-F1     103 ----------WGED---GFATEAETAALRTSFKQEVAVWHKLSHPNVTKF    139
+                               |.|.   .||.......|..:|:.:               
+AF-Q13464-F1     112 MIKRSDSAFFWEERDIMAFANSPWVVQLFYAFQDD---------------    146
+
+AF-Q6AUE3-F1     140 VGASMGTTDLKIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIKN-    188
+                                                |...:|:||:.||.|.. |:.| 
+AF-Q13464-F1     147 ---------------------------RYLYMVMEYMPGGDLVN-LMSNY    168
+
+AF-Q6AUE3-F1     189 ---SRRKLAYKVVVQLALDLARGLSYLHSRKIVHRDVKTENMLLDTQRNL    235
+                        .:....|...|.||||.      :||...:|||||.:|||||...:|
+AF-Q13464-F1     169 DVPEKWARFYTAEVVLALDA------IHSMGFIHRDVKPDNMLLDKSGHL    212
+
+AF-Q6AUE3-F1     236 KIADFGVARVEAQNPKDMT---GATGTLGYMAPEVL-----DGKPYNRKC    277
+                     |:||||...  ..|.:.|.   .|.||..|::||||     ||. |.|:|
+AF-Q13464-F1     213 KLADFGTCM--KMNKEGMVRCDTAVGTPDYISPEVLKSQGGDGY-YGREC    259
+
+AF-Q6AUE3-F1     278 DVYSFGICLWEIYCCDMP-YPDLSFADVSSAVVHQN    312
+                     |.:|.|:.|:|:...|.| |.|......|..:.|:|
+AF-Q13464-F1     260 DWWSVGVFLYEMLVGDTPFYADSLVGTYSKIMNHKN    295
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:23
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p06239-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-p06239-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-p06239-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-P06239-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 335
+# Identity:      90/335 (26.9%)
+# Similarity:   142/335 (42.4%)
+# Gaps:          65/335 (19.4%)
+# Score: 317.5
+# 
+#
+#=======================================
+
+AF-Q75J49-F1      42 QLEKQLTKTWGKANLKAHGPKEDWEIDLAKLEIRYVIAQGTYGTVYRGTY     91
+                     |.:|.....|          :::||:....|::...:..|.:|.|:.|.|
+AF-P06239-F1     225 QTQKPQKPWW----------EDEWEVPRETLKLVERLGAGQFGEVWMGYY    264
+
+AF-Q75J49-F1      92 DGQ-DVAVKLLDWGE---DGFATEAETAALRTSFKQEVAVWHKLSHPNVT    137
+                     :|. .||||.|..|.   |.|..||.             :..:|.|..:.
+AF-P06239-F1     265 NGHTKVAVKSLKQGSMSPDAFLAEAN-------------LMKQLQHQRLV    301
+
+AF-Q75J49-F1     138 KFVGASMGTTDLKIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIK    187
+                     :....                     :......::.||:..|:|..:|..
+AF-P06239-F1     302 RLYAV---------------------VTQEPIYIITEYMENGSLVDFLKT    330
+
+AF-Q75J49-F1     188 NSRRKLAYKVVVQLALDLARGLSYLHSRKIVHRDVKTENMLLDTQRNLKI    237
+                     .|..||....::.:|..:|.|::::..|..:|||::..|:|:....:.||
+AF-P06239-F1     331 PSGIKLTINKLLDMAAQIAEGMAFIEERNYIHRDLRAANILVSDTLSCKI    380
+
+AF-Q75J49-F1     238 ADFGVAR-VEAQNPKDMTGATGTLGYMAPEVLDGKPYNRKCDVYSFGICL    286
+                     ||||:|| :|........||...:.:.|||.::...:..|.||:||||.|
+AF-P06239-F1     381 ADFGLARLIEDNEYTAREGAKFPIKWTAPEAINYGTFTIKSDVWSFGILL    430
+
+AF-Q75J49-F1     287 WEIYCCD-MPYPDLSFADVSSAVVHQNL-------RPDVPRCCPSAFANI    328
+                     .||.... :|||.::..:|.     |||       |||   .||.....:
+AF-P06239-F1     431 TEIVTHGRIPYPGMTNPEVI-----QNLERGYRMVRPD---NCPEELYQL    472
+
+AF-Q75J49-F1     329 MRKCWDANPDKRPDMDEVVQLLEALDTSKGGGMIP    363
+                     ||.||...|:.||..|.:..:||...|:..|...|
+AF-P06239-F1     473 MRLCWKERPEDRPTFDYLRSVLEDFFTATEGQYQP    507
+
+
+#---------------------------------------
+#---------------------------------------

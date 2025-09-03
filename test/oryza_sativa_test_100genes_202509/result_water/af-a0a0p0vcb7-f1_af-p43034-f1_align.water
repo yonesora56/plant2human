@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:32
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p43034-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0vcb7-f1_af-p43034-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0vcb7-f1_af-p43034-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-P43034-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 216
+# Identity:      42/216 (19.4%)
+# Similarity:    76/216 (35.2%)
+# Gaps:          80/216 (37.0%)
+# Score: 122.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7     14 LLSGSFDKSVAMNDMKDG------------------------------GQ     33
+                     ::|.|.||::.|.:::.|                              .|
+AF-P43034-F1     207 IVSASRDKTIKMWEVQTGYCVKTFTGHREWVRMVRPNQDGTLIASCSNDQ    256
+
+AF-A0A0P0VCB7     34 SCNKWSV------------EADVESLAWDPHNEHSFMVSLENGMVQAFDK     71
+                     :...|.|            |..||.::|.|.:.:|           :..:
+AF-P43034-F1     257 TVRVWVVATKECKAELREHEHVVECISWAPESSYS-----------SISE    295
+
+AF-A0A0P0VCB7     72 RTASSNSNSGRP-----------------------TFTLHAHEKAVSSIS     98
+                     .|.|....||:|                       ..||..|:..|..:.
+AF-P43034-F1     296 ATGSETKKSGKPGPFLLSGSRDKTIKMWDVSTGMCLMTLVGHDNWVRGVL    345
+
+AF-A0A0P0VCB7     99 FSPSTPNFLATGSTDKMVKLWDLSNNQPSCIASLNPKLGAIFSVSFSNDS    148
+                     |. |...|:.:.:.||.:::||..|.:  |:.:||.....:.|:.|...:
+AF-P43034-F1     346 FH-SGGKFILSCADDKTLRVWDYKNKR--CMKTLNAHEHFVTSLDFHKTA    392
+
+AF-A0A0P0VCB7    149 PFLLASGGSKGKLKVW    164
+                     |::: :|.....:|||
+AF-P43034-F1     393 PYVV-TGSVDQTVKVW    407
+
+
+#---------------------------------------
+#---------------------------------------

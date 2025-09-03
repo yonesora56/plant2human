@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:31
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0dkk4-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q8iw45-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0dkk4-f1_af-q8iw45-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0dkk4-f1_af-q8iw45-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0DKK4-F1
+# 2: AF-Q8IW45-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 694
+# Identity:      21/694 ( 3.0%)
+# Similarity:    31/694 ( 4.5%)
+# Gaps:         629/694 (90.6%)
+# Score: 14.0
+# 
+#
+#=======================================
+
+AF-Q0DKK4-F1       1 MAPPTARSLLASHAAVRAAASARRGRLAGDHHPPQVAALRRGDWVKLICG     50
+                                                                       
+AF-Q8IW45-F1       0 --------------------------------------------------      0
+
+AF-Q0DKK4-F1      51 ASFEDAADVRNLSLVYTLAGVDCIDCAADASVVGAVNEGIDVAASIVPAV    100
+                                                                       
+AF-Q8IW45-F1       0 --------------------------------------------------      0
+
+AF-Q0DKK4-F1     101 QRPWVMVSVNDDCRDLHFRKAEFDPEDCPPDCSKPCEKVCPADAILLERV    150
+                                                                       
+AF-Q8IW45-F1       0 --------------------------------------------------      0
+
+AF-Q0DKK4-F1     151 MIEEEHSQSDPSCGKLEGGVITERCYGCGRCLSVCPYDRIRAMSYVRDPA    200
+                                                                       
+AF-Q8IW45-F1       0 --------------------------------------------------      0
+
+AF-Q0DKK4-F1     201 MTAELLKRNDVDAIEIHTTGKGTDMFNTLWSNLGESINNVKLIAVSLPDV    250
+                                                                       
+AF-Q8IW45-F1       0 --------------------------------------------------      0
+
+AF-Q0DKK4-F1     251 GDSTVNLMNAIYTTMQSHLQGYNLWQLDGRPMSGDIGRGATRETVSFAVH    300
+                                                                       
+AF-Q8IW45-F1       0 --------------------------------------------------      0
+
+AF-Q0DKK4-F1     301 LSSMSNRPPGFYQLAGGTNSYTIESLKKAGLFQSTTFPGAATSGVTDCQQ    350
+                                             .:.:||  ..|...||....:.....
+AF-Q8IW45-F1       1 ------------------------MVTRAG--AGTAVAGAVVVALLSAAL     24
+
+AF-Q0DKK4-F1     351 AFIGGIAYGGYARKIVGRV--LRKIPAQFGHARIEDHPDYLLEALQEALS    398
+                     |.     ||.....::.|.  |||     .|: |:|        ::..|.
+AF-Q8IW45-F1      25 AL-----YGPPLDAVLERAFSLRK-----AHS-IKD--------MENTLQ     55
+
+AF-Q0DKK4-F1     399 LVGPVKGYPTLPSL------------------------------------    412
+                     ||..:  .|.|.|.                                    
+AF-Q8IW45-F1      56 LVRNI--IPPLSSTKHKGQDGRIGVVGGCQEYTGAPYFAAISALKVGADL    103
+
+AF-Q0DKK4-F1     412 --------------------------------------------------    412
+                                                                       
+AF-Q8IW45-F1     104 SHVFCASAAAPVIKAYSPELIVHPVLDSPNAVHEVEKWLPRLHALVVGPG    153
+
+AF-Q0DKK4-F1     412 --------------------------------------------------    412
+                                                                       
+AF-Q8IW45-F1     154 LGRDDALLRNVQGILEVSKARDIPVVIDADGLWLVAQQPALIHGYRKAVL    203
+
+AF-Q0DKK4-F1     412 --------------------------------------------------    412
+                                                                       
+AF-Q8IW45-F1     204 TPNHVEFSRLYDAVLRGPMDSDDSHGSVLRLSQALGNVTVVQKGERDILS    253
+
+AF-Q0DKK4-F1     412 --------------------------------------------------    412
+                                                                       
+AF-Q8IW45-F1     254 NGQQVLVCSQEGSSRRCGGQGDLLSGSLGVLVHWALLAGPQKTNGSSPLL    303
+
+AF-Q0DKK4-F1     412 --------------------------------------------    412
+                                                                 
+AF-Q8IW45-F1     304 VAAFGACSLTRQCNHQAFQKHGRSTTTSDMIAEVGAAFSKLFET    347
+
+
+#---------------------------------------
+#---------------------------------------

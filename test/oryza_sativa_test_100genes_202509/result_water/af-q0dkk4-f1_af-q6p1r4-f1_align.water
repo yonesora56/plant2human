@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:51
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0dkk4-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q6p1r4-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0dkk4-f1_af-q6p1r4-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0dkk4-f1_af-q6p1r4-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0DKK4-F1
+# 2: AF-Q6P1R4-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 207
+# Identity:      35/207 (16.9%)
+# Similarity:    74/207 (35.7%)
+# Gaps:          46/207 (22.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+AF-Q0DKK4-F1      92 VAASIVPAVQRPWVMVSVNDDC--------------RDLHFRKAEFDPED    127
+                     |.|.:|...:..|.::|.....              ||.::||.....|.
+AF-Q6P1R4-F1      20 VVAPMVDQSELAWRLLSRRHGAQLCYTPMLHAQVFVRDANYRKENLYCEV     69
+
+AF-Q0DKK4-F1     128 CPPDCSKP-CEKVCPAD-AILLERVMIEEEHSQS---DPSCGKL------    166
+                     ||.|  :| ..:.|..| .:.::..::.:::..:   :..|.::      
+AF-Q6P1R4-F1      70 CPED--RPLIVQFCANDPEVFVQAALLAQDYCDAIDLNLGCPQMIAKRGH    117
+
+AF-Q0DKK4-F1     167 -------EGGVITERCYGCGRCLSVCPYDRIRAMSYVRDPAMTAELLKRN    209
+                            |..::..........|||....:||....:......|::|::.
+AF-Q6P1R4-F1     118 YGAFLQDEWDLLQRMILLAHEKLSVPVTCKIRVFPEIDKTVRYAQMLEKA    167
+
+AF-Q0DKK4-F1     210 DVDAIEIHTTGKGTDMFNTL-----WSNLGESINNVKLIAVSLPDVGDST    254
+                     ....:.:|  |:..:....|     |    |.|..|:. ||::|...:..
+AF-Q6P1R4-F1     168 GCQLLTVH--GRTKEQKGPLSGAASW----EHIKAVRK-AVAIPVFANGN    210
+
+AF-Q0DKK4-F1     255 VNLMNAI    261
+                     :..:..:
+AF-Q6P1R4-F1     211 IQCLQDV    217
+
+
+#---------------------------------------
+#---------------------------------------

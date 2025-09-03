@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:15
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6yzi0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q5taa0-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6yzi0-f1_af-q5taa0-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6yzi0-f1_af-q5taa0-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6YZI0-F1
+# 2: AF-Q5TAA0-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 301
+# Identity:      63/301 (20.9%)
+# Similarity:    98/301 (32.6%)
+# Gaps:          96/301 (31.9%)
+# Score: 104.5
+# 
+#
+#=======================================
+
+AF-Q6YZI0-F1     153 LKLAGNTEEGIQKYCEALEVDSHYAP----AYYNLGVVYSEMMQFDLALT    198
+                     |||   ..||:::     |:....||    ..:.||.....:.:.|.|..
+AF-Q5TAA0-F1      46 LKL---QREGLRQ-----ELQLAAAPQRPAVRHLLGAFAFYLEELDEARE     87
+
+AF-Q6YZI0-F1     199 CYEKAALERPLYAEAYCNMGVIYKNRGELEAAIACYERCLTI--------    240
+                     |:.:.|.|.|....|:.|:..:|...|:.|...||..|...:        
+AF-Q5TAA0-F1      88 CFLEVAHEHPGNLNAWANLAHVYGRLGQEEEEEACAARLADLMGLAEEPE    137
+
+AF-Q6YZI0-F1     241 ---SPNFEIAKNNMAIALTDLG-----------TKVKIEGDINQGVAYYK    276
+                        .|....|:     .|.:.|           .:.:..| :..|:|.|.
+AF-Q5TAA0-F1     138 AAGDPQLRAAR-----CLAEQGYAHGFDVGCASPEERARG-LAAGIALYD    181
+
+AF-Q6YZI0-F1     277 KALFY----------NWHYADAMYNLGVAYGEMLNFEMAIVFYELALH--    314
+                     |||.|          .|::..|          .|...:..:|.||...  
+AF-Q5TAA0-F1     182 KALGYGQQIPMEEKRGWYFTMA----------TLYIRLDGIFLELGSEEQ    221
+
+AF-Q6YZI0-F1     315 -----FN--------------PR-CAEACNNLGVIYKDRDNLDKA-----    339
+                          ||              || .|.|...||::.:.:|.....     
+AF-Q5TAA0-F1     222 KRLPAFNRTLALLRQVLKSEDPRHRALAWCYLGMLLERKDTFSTTPMGVH    271
+
+AF-Q6YZI0-F1     340 ---------VECYQMALSIKPNFSQSLNNLGVVYTVQGKMDAASSMIQKA    380
+                              ::|:..|:.|..|....||.|..::...||.|.|......|
+AF-Q5TAA0-F1     272 DCGYSGTDPLDCFGKAIEIAKNQPPILNRLAKIFYFLGKQDMAIGTCNMA    321
+
+AF-Q6YZI0-F1     381 I    381
+                     :
+AF-Q5TAA0-F1     322 L    322
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,85 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:19
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6yzi0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o60293-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6yzi0-f1_af-o60293-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6yzi0-f1_af-o60293-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6YZI0-F1
+# 2: AF-O60293-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 575
+# Identity:     103/575 (17.9%)
+# Similarity:   192/575 (33.4%)
+# Gaps:         216/575 (37.6%)
+# Score: 105.0
+# 
+#
+#=======================================
+
+AF-Q6YZI0-F1      67 NVEALIGKGICLQAQSLPMQAIE-------------------CFNEAVRI     97
+                     |.|:.:          :|.||::                   |.:|::.:
+AF-O60293-F1    1555 NTESFV----------MPWQAVQDVKTNPDMLLAVFEDAVKACTDESLAV   1594
+
+AF-Q6YZI0-F1      98 DPG-NACALTYCGMIYKDEGHLVEAAEAYQKARNADPSYKPAAEFLAIVL    146
+                     :.. .||...|..||     .|.:..|.|:.|                  
+AF-O60293-F1    1595 EERIEACLPLYTNMI-----ALHQLLERYEAA------------------   1621
+
+AF-Q6YZI0-F1     147 TDLGTSLKLAGNTEEGIQKYCEALEVDSHYAPAYYNLGVVYSEMMQFDLA    196
+                           ::|..:..|.....|:.||.          |..:|.:..|.|.|
+AF-O60293-F1    1622 ------MELCKSLLESCPINCQLLEA----------LVALYLQTNQHDKA   1655
+
+AF-Q6YZI0-F1     197 ----LTCYEKAALERPLYAEAYCNM--GVIYKNRGE-----LEAAIACYE    235
+                         ||.:||    .|..||.:.:|  ..|.:|||:     |...||.: 
+AF-O60293-F1    1656 RAVWLTAFEK----NPQNAEVFYHMCKFFILQNRGDNLLPFLRKFIASF-   1700
+
+AF-Q6YZI0-F1     236 RCLTISPNFEIAKNNMAI--ALTDLGTKVKIEGDINQGVAYYKKALFYNW    283
+                         ..|.|| ..||:.:  .|.::...:.|...:.:|            
+AF-O60293-F1    1701 ----FKPGFE-KYNNLDLFRYLLNIPGPIDIPSRLCKG------------   1733
+
+AF-Q6YZI0-F1     284 HYADAMYNLGVAYGEMLNFEMAIVFYELALHFNPRCAEACNNLGVIYKDR    333
+                     ::.|.|:|..|.|       :.:::          |  .|:.|      :
+AF-O60293-F1    1734 NFDDDMFNHQVPY-------LWLIY----------C--LCHPL------Q   1758
+
+AF-Q6YZI0-F1     334 DNLDKAVECYQMALSIKPNFSQSLNNLGVVYTVQGKMDAASS--------    375
+                     .::.:.||.|:.||.:... ...:..:.:.|.|.....||.|        
+AF-O60293-F1    1759 SSIKETVEAYEAALGVAMR-CDIVQKIWMDYLVFANNRAAGSRNKVQEFK   1807
+
+AF-Q6YZI0-F1     376 ----MIQKAI----------FANSTY---AEAYNNLGVLYRDAGSITSAV    408
+                         ::.:.:          |:::.|   .|.:|.:...|......|...
+AF-O60293-F1    1808 FFTDLVNRCLVTVPARYPIPFSSADYWSNYEFHNRVIFFYLSCVPKTQHS   1857
+
+AF-Q6YZI0-F1     409 QAYEKCLQIDPDSRNAGQNRLLALNYIDEGFDDKLYQAHREWGKRFLKLY    458
+                     :..|:...:.|  .|:|    |||..:...:::...|        .|||.
+AF-O60293-F1    1858 KTLERFCSVMP--ANSG----LALRLLQHEWEESNVQ--------ILKLQ   1893
+
+AF-Q6YZI0-F1     459 PQYTSWDNPKVADRPLVIGYVSPDYFTHSVSYFIEAPLAHHDYSNYKVVV    508
+                     .:                      .||:::...:         :.:|:.:
+AF-O60293-F1    1894 AK----------------------MFTYNIPTCL---------ATWKIAI   1912
+
+AF-Q6YZI0-F1     509 YSGVV-KADAKTLRFKDKVLKK----GGLWRD--IYGIDE-------KKV    544
+                     .:.:| |...:..|...:.|:|    ..||:|  ::...|       :|:
+AF-O60293-F1    1913 AAEIVLKGQREVHRLYQRALQKLPLCASLWKDQLLFEASEGGKTDNLRKL   1962
+
+AF-Q6YZI0-F1     545 ASLVREDKVDI--LVELTGHTANNK    567
+                     .|..:|..|.:  |:.|..:...:|
+AF-O60293-F1    1963 VSKCQEIGVSLNELLNLNSNKTESK   1987
+
+
+#---------------------------------------
+#---------------------------------------

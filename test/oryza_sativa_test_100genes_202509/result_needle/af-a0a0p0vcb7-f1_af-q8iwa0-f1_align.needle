@@ -1,0 +1,109 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:26
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q8iwa0-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vcb7-f1_af-q8iwa0-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vcb7-f1_af-q8iwa0-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-Q8IWA0-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 899
+# Identity:      35/899 ( 3.9%)
+# Similarity:    54/899 ( 6.0%)
+# Gaps:         790/899 (87.9%)
+# Score: 74.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7      1 VQSVAWSRQSPEVLLSGSFDKSVAMNDMKDGGQSCNKWSVEADVESLAWD     50
+                                                                       
+AF-Q8IWA0-F1       0 --------------------------------------------------      0
+
+AF-A0A0P0VCB7     51 PHNEHSFMVSLENGMVQAFDKRTASSNSNSGRPTFT--------------     86
+                            ||..||..|    .|...|..|..|..|:              
+AF-Q8IWA0-F1       1 -------MVEEENIRV----VRCGGSELNFRRAVFSADSKYIFCVSGDFV     39
+
+AF-A0A0P0VCB7     87 -------------LHAHEKAVSSISFSPSTPNFLATGSTDKMVKLWDLSN    123
+                                  ||.|...|:.|..:|:....|.:.|.|..:||||..:
+AF-Q8IWA0-F1      40 KVYSTVTEECVHILHGHRNLVTGIQLNPNNHLQLYSCSLDGTIKLWDYID     89
+
+AF-A0A0P0VCB7    124 NQPSCIASLNPKLGAIFSVSFSNDSPFLLASGGSKGKLKVWNTLTEPAVA    173
+                     ........:..||.|:|:::.:.||.|::.   :|.|..::.     .|:
+AF-Q8IWA0-F1      90 GILIKTFIVGCKLHALFTLAQAEDSVFVIV---NKEKPDIFQ-----LVS    131
+
+AF-A0A0P0VCB7    174 NKFGK---------------------------------------------    178
+                     .|..|                                             
+AF-Q8IWA0-F1     132 VKLPKSSSQEVEAKELSFVLDYINQSPKCIAFGNEGVYVAAVREFYLSVY    181
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-Q8IWA0-F1     182 FFKKKTTSRFTLSSSRNKKHAKNNFTCVACHPTEDCIASGHMDGKIRLWR    231
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-Q8IWA0-F1     232 NFYDDKKYTYTCLHWHHDMVMDLAFSVTGTSLLSGGRESVLVEWRDATEK    281
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-Q8IWA0-F1     282 NKEFLPRLGATIEHISVSPAGDLFCTSHSDNKIIIIHRNLEASAVIQGLV    331
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-Q8IWA0-F1     332 KDRSIFTGLMIDPRTKALVLNGKPGHLQFYSLQSDKQLYNLDIIQQEYIN    381
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-Q8IWA0-F1     382 DYGLIQIELTKAAFGCFGNWLATVEQRQEKETELELQMKLWMYNKKTQGF    431
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-Q8IWA0-F1     432 ILNTKINMPHEDCITALCFCNAEKSEQPTLVTASKDGYFKVWILTDDSDI    481
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-Q8IWA0-F1     482 YKKAVGWTCDFVGSYHKYQATNCCFSEDGSLLAVSFEEIVTIWDSVTWEL    531
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-Q8IWA0-F1     532 KCTFCQRAGKIRHLCFGRLTCSKYLLGATENGILCCWNLLSCALEWNAKL    581
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-Q8IWA0-F1     582 NVRVMEPDPNSENIAAISQSSVGSDLFVFKPSEPRPLYIQKGISREKVQW    631
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-Q8IWA0-F1     632 GVFVPRDVPESFTSEAYQWLNRSQFYFLTKSQSLLTFSTKSPEEKLTPTS    681
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-Q8IWA0-F1     682 KQLLAEESLPTTPFYFILGKHRQQQDEKLNETLENELVQLPLTENIPAIS    731
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-Q8IWA0-F1     732 ELLHTPAHVLPSAAFLCSMFVNSLLLSKETKSAKEIPEDVDMEEEKESED    781
+
+AF-A0A0P0VCB7    178 -------------------------------------------------    178
+                                                                      
+AF-Q8IWA0-F1     782 SDEENDFTEKVQDTSNTGLGEDIIHQLSKSEEKELRKFRKIDYSWIAAL    830
+
+
+#---------------------------------------
+#---------------------------------------

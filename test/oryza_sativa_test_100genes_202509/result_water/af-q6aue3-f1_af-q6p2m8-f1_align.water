@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:22
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q6p2m8-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-q6p2m8-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-q6p2m8-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-Q6P2M8-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 298
+# Identity:      81/298 (27.2%)
+# Similarity:   131/298 (44.0%)
+# Gaps:          56/298 (18.8%)
+# Score: 240.0
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      56 LKAHGPKEDWEIDLAKL-EIRYVIAQGTYGTVYRGTYDGQD--VAVKLLD    102
+                     ||.|..      |::.: |||..:..|.:..|......|..  ||:|.: 
+AF-Q6P2M8-F1       4 LKKHTE------DISSVYEIRERLGSGAFSEVVLAQERGSAHLVALKCI-     46
+
+AF-Q6AUE3-F1     103 WGEDGFATEAETAALR---TSFKQEVAVWHKLSHPNVTKFVGASMGTTDL    149
+                               ...|||   ...:.|:||..::||||:..........:.|
+AF-Q6P2M8-F1      47 ----------PKKALRGKEALVENEIAVLRRISHPNIVALEDVHESPSHL     86
+
+AF-Q6AUE3-F1     150 KIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYKVVV    199
+                     .:                    .:|.:.||.|...:::  |.....|...
+AF-Q6P2M8-F1      87 YL--------------------AMELVTGGELFDRIME--RGSYTEKDAS    114
+
+AF-Q6AUE3-F1     200 QLALDLARGLSYLHSRKIVHRDVKTENMLLDT---QRNLKIADFGVARVE    246
+                     .|...:...:|||||..|||||:|.||:|..|   ...:.::|||:::::
+AF-Q6P2M8-F1     115 HLVGQVLGAVSYLHSLGIVHRDLKPENLLYATPFEDSKIMVSDFGLSKIQ    164
+
+AF-Q6AUE3-F1     247 AQNPKDMTG-ATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMP    295
+                     |.|   |.| |.||.||:|||:|:.|||.:..||::.|:..:.:.|...|
+AF-Q6P2M8-F1     165 AGN---MLGTACGTPGYVAPELLEQKPYGKAVDVWALGVISYILLCGYPP    211
+
+AF-Q6AUE3-F1     296 YPDLSFADVSSAVVHQNLRPDVP---RCCPSAFANIMRKCWDANPDKR    340
+                     :.|.|..::.|.::..:...|.|   ....|| .:.:|...:.:|.||
+AF-Q6P2M8-F1     212 FYDESDPELFSQILRASYEFDSPFWDDISESA-KDFIRHLLERDPQKR    258
+
+
+#---------------------------------------
+#---------------------------------------

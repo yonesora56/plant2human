@@ -1,0 +1,45 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:09
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0n7kqm5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p00736-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0n7kqm5-f1_af-p00736-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0n7kqm5-f1_af-p00736-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0N7KQM5-F1
+# 2: AF-P00736-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      22/76 (28.9%)
+# Similarity:    28/76 (36.8%)
+# Gaps:          25/76 (32.9%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+AF-A0A0N7KQM5     76 LYTVRS--FPSAEGQRNCYSLPNDVRSKYLVRLKFLYGNYDGLDSSSLKF    123
+                     |||..|  ..|.|..|   |.|.|:|..|.:|               ::.
+AF-P00736-F1     197 LYTEASGYISSLEYPR---SYPPDLRCNYSIR---------------VER    228
+
+AF-A0A0N7KQM5    124 NLTLGVKHWDTVSIDTTDGNDGYNVH    149
+                     .|||.:|..:...||     |...||
+AF-P00736-F1     229 GLTLHLKFLEPFDID-----DHQQVH    249
+
+
+#---------------------------------------
+#---------------------------------------

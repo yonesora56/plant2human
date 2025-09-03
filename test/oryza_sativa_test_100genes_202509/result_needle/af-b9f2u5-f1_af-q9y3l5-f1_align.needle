@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:10
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-b9f2u5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q9y3l5-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-b9f2u5-f1_af-q9y3l5-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-b9f2u5-f1_af-q9y3l5-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B9F2U5-F1
+# 2: AF-Q9Y3L5-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 702
+# Identity:      42/702 ( 6.0%)
+# Similarity:    75/702 (10.7%)
+# Gaps:         541/702 (77.1%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+AF-B9F2U5-F1       1 MATATASRLAVPAPRTSPQAPGRRRPAAPLPSAPPRPRALSAAPRGRVVC     50
+                                                                       
+AF-Q9Y3L5-F1       0 --------------------------------------------------      0
+
+AF-B9F2U5-F1      51 PAAPASSPASTTDAGQDRLQKVPVSNIRNFSIIAHIDHGKSTLADKLLEL    100
+                                               :|.:.::.....|....|..:..:
+AF-Q9Y3L5-F1       1 --------------------------MREYKVVVLGSGGVGKSALTVQFV     24
+
+AF-B9F2U5-F1     101 TGTVQKREMKQQFLDNMDLERERGITIKLQAARMRYIMNDEPYCLNLIDT    150
+                     |||         |::..|...|       ...|....::..|..|.::||
+AF-Q9Y3L5-F1      25 TGT---------FIEKYDPTIE-------DFYRKEIEVDSSPSVLEILDT     58
+
+AF-B9F2U5-F1     151 PGHVDFSYEVSRSLAACEGALLVVDASQGVEAQTLANV-----YLALEND    195
+                     .|...|:......:...:|.:||...   |..|:..::     .:.....
+AF-Q9Y3L5-F1      59 AGTEQFASMRDLYIKNGQGFILVYSL---VNQQSFQDIKPMRDQIVRVKR    105
+
+AF-B9F2U5-F1     196 LEIIPVL---NKIDLPGAEPDRVAQEIEEIIGMDCSNAIRC-----SAKE    237
+                     .|.:|::   ||:||   ||:|   |:....|...:....|     |||.
+AF-Q9Y3L5-F1     106 YEKVPLILVGNKVDL---EPER---EVMSSEGRALAQEWGCPFMETSAKS    149
+
+AF-B9F2U5-F1     238 GIGITEILDAIV-----TKIPPPQN----TAISPLRALIFDSYYDPYRGV    278
+                     ...:.|:...||     :.:|..|:    |.:..                
+AF-Q9Y3L5-F1     150 KSMVDELFAEIVRQMNYSSLPEKQDQCCTTCVVQ----------------    183
+
+AF-B9F2U5-F1     279 IVYFRVVDGSIKKGDKICFMASGKEYVADEIGVLSPNQMQVSELYAGEVG    328
+                                                                       
+AF-Q9Y3L5-F1     183 --------------------------------------------------    183
+
+AF-B9F2U5-F1     329 YLSASIRSVADARVGDTITHSSKRAECALPGYSQATPMVFCGLFPIDADQ    378
+                                                                       
+AF-Q9Y3L5-F1     183 --------------------------------------------------    183
+
+AF-B9F2U5-F1     379 FEELREALEKLQLNDAALKAVTRFSMQFEPESSSAMGFGFRCGFLGLLHM    428
+                                                                       
+AF-Q9Y3L5-F1     183 --------------------------------------------------    183
+
+AF-B9F2U5-F1     429 EIVQERLEREYNLNLIITAPSVVYHVNLADGETVECSNPSLLPEPGKRRS    478
+                                                                       
+AF-Q9Y3L5-F1     183 --------------------------------------------------    183
+
+AF-B9F2U5-F1     479 IEEPYVKIDMLTPKEYIGPIMELGQERRGEFKEMNFITENRASVVYELPL    528
+                                                                       
+AF-Q9Y3L5-F1     183 --------------------------------------------------    183
+
+AF-B9F2U5-F1     529 AEMVGDFFDQLKSRSKGYASMEYSLIGYRESNLVKLDIQINGDPVEALST    578
+                                                                       
+AF-Q9Y3L5-F1     183 --------------------------------------------------    183
+
+AF-B9F2U5-F1     579 IVHRDKAYSVGRALTQKLKELIPRQMFRVPIQACIGAKVIASEALSAIRK    628
+                                                                       
+AF-Q9Y3L5-F1     183 --------------------------------------------------    183
+
+AF-B9F2U5-F1     629 DVLSKCYGGDISRKKKLLKKQAEGKKRMKAIGRVDVPQEAFMAVLKLEKE    678
+                                                                       
+AF-Q9Y3L5-F1     183 --------------------------------------------------    183
+
+AF-B9F2U5-F1     679 VL    680
+                       
+AF-Q9Y3L5-F1     183 --    183
+
+
+#---------------------------------------
+#---------------------------------------

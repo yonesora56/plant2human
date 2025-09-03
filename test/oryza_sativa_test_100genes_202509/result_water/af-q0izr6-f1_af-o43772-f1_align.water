@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:16
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0izr6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o43772-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0izr6-f1_af-o43772-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0izr6-f1_af-o43772-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0IZR6-F1
+# 2: AF-O43772-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 175
+# Identity:      43/175 (24.6%)
+# Similarity:    65/175 (37.1%)
+# Gaps:          40/175 (22.9%)
+# Score: 94.0
+# 
+#
+#=======================================
+
+AF-Q0IZR6-F1      32 SPEYYALCTG-GGMLAAGATHLAITPLDVLKVNMQVNPMK-------YNS     73
+                     ||....|..| ||:......|    |||.:||.:|..|..       |:.
+AF-O43772-F1       9 SPLKNLLAGGFGGVCLVFVGH----PLDTVKVRLQTQPPSLPGQPPMYSG     54
+
+AF-Q0IZR6-F1      74 IFSGLNILVKEEGASSLWRGWAGK-----------FFGYGFQGGCKFGLY    112
+                     .|......:..||.:.|:||.|..           |||        |||.
+AF-O43772-F1      55 TFDCFRKTLFREGITGLYRGMAAPIIGVTPMFAVCFFG--------FGLG     96
+
+AF-Q0IZR6-F1     113 EYFKKKY-SDVLVDRNKSTIYFISSASAQIIADVALCPFESVKVRVQTQP    161
+                     :..::|: .|||    .....|.:...:.:.....:.|.|.:|..:|.|.
+AF-O43772-F1      97 KKLQQKHPEDVL----SYPQLFAAGMLSGVFTTGIMTPGERIKCLLQIQA    142
+
+AF-Q0IZR6-F1     162 MFAK----GLIDGFPRVYATEGLSG    182
+                     ...:    |.:|...::|...|:.|
+AF-O43772-F1     143 SSGESKYTGTLDCAKKLYQEFGIRG    167
+
+
+#---------------------------------------
+#---------------------------------------

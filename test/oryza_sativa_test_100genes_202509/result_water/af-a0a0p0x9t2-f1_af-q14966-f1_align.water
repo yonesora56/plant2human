@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:14
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0x9t2-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q14966-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0x9t2-f1_af-q14966-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0x9t2-f1_af-q14966-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0X9T2-F1
+# 2: AF-Q14966-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 246
+# Identity:      50/246 (20.3%)
+# Similarity:    98/246 (39.8%)
+# Gaps:          53/246 (21.5%)
+# Score: 70.0
+# 
+#
+#=======================================
+
+AF-A0A0P0X9T2     20 EEDGLGSEGEEEDAEAARERALKRLDGLGKRGVCYLSRVPPN-MNPSHVR     68
+                     |:|.|....:..|...:.:|.|::...|....|..::.:|.: .....||
+AF-Q14966-F1     645 EDDTLSECKQVSDKAVSLQRKLRKEQSLHYGSVLLITELPEDGCTEEDVR    694
+
+AF-A0A0P0X9T2     69 QMLSKYGEVQRIYLVPEGQGHRKHTNVRAKAYTEGWIEFSK--KSVAKRV    116
+                     ::...:|:|..:.:||          .|.:||.|  :||.:  .::.|.:
+AF-Q14966-F1     695 KLFQPFGKVNDVLIVP----------YRKEAYLE--MEFKEAITAIMKYI    732
+
+AF-A0A0P0X9T2    117 AN---LLNGEQ----IGGKKRSPFYYDIWNIKYLKKFKWDDLVGEIAEKT    159
+                     ..   .:.|:.    :.|||::       ..|.:||...:.  .:::..|
+AF-Q14966-F1     733 ETTPLTIKGKSVKICVPGKKKA-------QNKEVKKKTLES--KKVSAST    773
+
+AF-A0A0P0X9T2    160 HIREQKLN--LEI-----AAAKKQRDHYLSNVEKS-----RTLKHI----    193
+                     ..|:...:  :||     ||...|....::.|.||     .::|.:    
+AF-Q14966-F1     774 LKRDADASKAVEIVTSTSAAKTGQAKASVAKVNKSTGKSASSVKSVVTVA    823
+
+AF-A0A0P0X9T2    194 ---QERRKKKQKTEGAEFNEVREEKIARPIPQKKPV---EETDAKT    233
+                        .:...|..|:.|.:..|.::....:.....|||   |.::.||
+AF-Q14966-F1     824 VKGNKASIKTAKSGGKKSLEAKKTGNVKNKDSNKPVTIPENSEIKT    869
+
+
+#---------------------------------------
+#---------------------------------------

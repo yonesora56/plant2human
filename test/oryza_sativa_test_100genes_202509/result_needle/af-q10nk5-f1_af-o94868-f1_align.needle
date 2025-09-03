@@ -1,0 +1,101 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:40
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o94868-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10nk5-f1_af-o94868-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10nk5-f1_af-o94868-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-O94868-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 784
+# Identity:     105/784 (13.4%)
+# Similarity:   184/784 (23.5%)
+# Gaps:         434/784 (55.4%)
+# Score: 110.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O94868-F1       1 MQPPPRKVKVTQELKNIQVEQMTKLQAKHQAECDLLEDMRTFSQKKAAIE     50
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O94868-F1      51 REYAQGMQKLASQYLKRDWPGVKADDRNDYRSMYPVWKSFLEGTMQVAQS    100
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O94868-F1     101 RMNICENYKNFISEPARTVRSLKEQQLKRCVDQLTKIQTELQETVKDLAK    150
+
+AF-Q10NK5-F1       1 --------------------------------METLRKQASKLREHVAKQ     18
+                                                     ..:|:|.:.||:   |::
+AF-O94868-F1     151 GKKKYFETEQMAHAVREKADIEAKSKLSLFQSRISLQKASVKLK---ARR    197
+
+AF-Q10NK5-F1      19 QQAVRKQFSARYNQDPSLVDEAELECHQNLQRLYNSTRAAKHFQRSIVRG     68
+                     .:...|...||   :..|:..|....||:  |.|.:...      :|::.
+AF-O94868-F1     198 SECNSKATHAR---NDYLLTLAAANAHQD--RYYQTDLV------NIMKA    236
+
+AF-Q10NK5-F1      69 VEG---------FIAVSTKQMEIVKKLAEDCCRYGNDNQN-FGFILARAS    108
+                     ::|         .||.|..::|..:.:           || |.|:|..:|
+AF-O94868-F1     237 LDGNVYDHLKDYLIAFSRTELETCQAV-----------QNTFQFLLENSS    275
+
+AF-Q10NK5-F1     109 VEFGNSHSQMEKERE-NLLKFLGEQV---------FEPLREMIMSAPLE-    147
+                               :..|: ||..||.|..         |:|. :...|..|| 
+AF-O94868-F1     276 ----------KVVRDYNLQLFLQENAVFHKPQPFQFQPC-DSDTSRQLES    314
+
+AF-Q10NK5-F1     148 ------------DARLLTYR----------YQRIRQDME---SQIADVMR    172
+                                 :||....|          .||:..|:|   :.:::..|
+AF-O94868-F1     315 ETGTTEEHSLNKEARKWATRVAREHKNIVHQQRVLNDLECHGAAVSEQSR    364
+
+AF-Q10NK5-F1     173 KQLKSK--ESSGNADNS--VKLQHAESKLSELRTTLSALGREATAAMEAV    218
+                     .:|:.|  |:..|...:  :||: ||::|..|:....::.....:||..|
+AF-O94868-F1     365 AELEQKIDEARENIRKAEIIKLK-AEARLDLLKQIGVSVDTWLKSAMNQV    413
+
+AF-Q10NK5-F1     219 EVQQQQVTFDRLLAMVDAERAYHQNAADILNKLHDEMVQAKHHDEPENHY    268
+                     ..:.:...:.|..| |.:....|...||      .|..:.:..::..:.:
+AF-O94868-F1     414 MEELENERWARPPA-VTSNGTLHSLNAD------TEREEGEEFEDNMDVF    456
+
+AF-Q10NK5-F1     269 DETSSDP-----------KTAATHEHSRS---TSEDHIFTNTSE------    298
+                     |::||.|           |...:::.|:.   |.|:|......|      
+AF-O94868-F1     457 DDSSSSPSGTLRNYPLTCKVVYSYKASQPDELTIEEHEVLEVIEDGDMED    506
+
+AF-Q10NK5-F1     299 ---------------------PT----------------RTET-SEPTRT    310
+                                          ||                |:.| |..|..
+AF-O94868-F1     507 WVKARNKVGQVGYVPEKYLQFPTSNSLLSMLQSLAALDSRSHTSSNSTEA    556
+
+AF-Q10NK5-F1     311 ETSEPTRNGQEVHYVGEVIHPFDAQADGELSISVGDYVVV---RQVAPNG    357
+                     |....:.||.......:.::.::.|.|.|||...|..:.:   .....:|
+AF-O94868-F1     557 ELVSGSLNGDASVCFVKALYDYEGQTDDELSFPEGAIIRILNKENQDDDG    606
+
+AF-Q10NK5-F1     358 WSEGECKGKAGWFPSAYVEQ------------------------------    377
+                     :.|||..|:.|.|||..||:                              
+AF-O94868-F1     607 FWEGEFNGRIGVFPSVLVEELSASENGDTPWMREIQISPSPKPHASLPPL    656
+
+AF-Q10NK5-F1     378 --RDKAPASKVIEPGLLTT-------------------------------    394
+                       .|:.|:|....|...::                               
+AF-O94868-F1     657 PLYDQPPSSPYPSPDKRSSLYFPRSPSANEKSLHAESPGFSQASRHTPET    706
+
+AF-Q10NK5-F1     394 ----------------------------------    394
+                                                       
+AF-O94868-F1     707 SYGKLRPVRAAPPPPTQNHRRPAEKIEDVEITLV    740
+
+
+#---------------------------------------
+#---------------------------------------

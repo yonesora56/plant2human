@@ -1,0 +1,181 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:43
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0j381-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p53675-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0j381-f1_af-p53675-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0j381-f1_af-p53675-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0J381-F1
+# 2: AF-P53675-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1767
+# Identity:      54/1767 ( 3.1%)
+# Similarity:    95/1767 ( 5.4%)
+# Gaps:        1562/1767 (88.4%)
+# Score: 17.0
+# 
+#
+#=======================================
+
+AF-Q0J381-F1       1 ----MPMAAGTWVKLEQKGDGPGARSSHAITL-----------VGGTAYA     35
+                         :|:......:|:..|..|.......:|:           ||..|..
+AF-P53675-F1       1 MAQILPVRFQEHFQLQNLGINPANIGFSTLTMESDKFICIREKVGEQAQV     50
+
+AF-Q0J381-F1      36 FGGEFT-PRVPVDNAMYAFDLKSQCWSALDASGDVPPPRVGVTMASVGAT     84
+                     ...:.: |..|:..             .:.|...:..|...|.....|.|
+AF-P53675-F1      51 TIIDMSDPMAPIRR-------------PISAESAIMNPASKVIALKAGKT     87
+
+AF-Q0J381-F1      85 VYMFG----GRDQEHKELNELYSF------------DTATNRWTLLSSGA    118
+                     :.:|.    .:.:.|....|:..:            :||...|::    .
+AF-P53675-F1      88 LQIFNIEMKSKMKAHTMAEEVIFWKWVSVNTVALVTETAVYHWSM----E    133
+
+AF-Q0J381-F1     119 GDGPPHRSY--HSMVADAAGGGKVYVFGGC-----------------GDA    149
+                     ||..|.:.:  |:.:.            ||                 |.:
+AF-P53675-F1     134 GDSQPMKMFDRHTSLV------------GCQVIHYRTDEYQKWLLLVGIS    171
+
+AF-Q0J381-F1     150 GRLNDLWAYDVAAGRWEALPSPGEACKPRGGPGLAVAGGKVWVVYGFSGE    199
+                     .:.|.:      .|..:......:..:|..|...|.|..|:         
+AF-P53675-F1     172 AQQNRV------VGAMQLYSVDRKVSQPIEGHAAAFAEFKM---------    206
+
+AF-Q0J381-F1     200 ELDDVHCYDPGTGAWSTVETTGGGGGGDKPSPRSVFCAAGIGKHVVVFGG    249
+                                             .|..||:  ::||             
+AF-P53675-F1     207 ------------------------EGNAKPA--TLFC-------------    217
+
+AF-Q0J381-F1     250 EVDPSDLGHLGAGKFSAEAFALDTETGAWARLDDAGEHHPGPRGWCAFSA    299
+                                        ||:...||....:.:.|:  |.         
+AF-P53675-F1     218 -------------------FAVRNPTGGKLHIIEVGQ--PA---------    237
+
+AF-Q0J381-F1     300 GEVDGRRGLLVYGGNSPTNDRLGDIYFFTPPLA-----------------    332
+                                 .||.|...:..|::|  ||.|                 
+AF-P53675-F1     238 ------------AGNQPFVKKAVDVFF--PPEAQNDFPVAMQIGAKHGVI    273
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     274 YLITKYGYLHLYDLESGVCICMNRISADTIFVTAPHKPTSGIIGVNKKGQ    323
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     324 VLSVCVEEDNIVNYATNVLQNPDLGLRLAVRSNLAGAEKLFVRKFNTLFA    373
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     374 QGSYAEAAKVAASAPKGILRTRETVQKFQSIPAQSGQASPLLQYFGILLD    423
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     424 QGQLNKLESLELCHLVLQQGRKQLLEKWLKEDKLECSEELGDLVKTTDPM    473
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     474 LALSVYLRANVPSKVIQCFAETGQFQKIVLYAKKVGYTPDWIFLLRGVMK    523
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     524 ISPEQGLQFSRMLVQDEEPLANISQIVDIFMENSLIQQCTSFLLDALKNN    573
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     574 RPAEGLLQTWLLEMNLVHAPQVADAILGNKMFTHYDRAHIAQLCEKAGLL    623
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     624 QQALEHYTDLYDIKRAVVHTHLLNPEWLVNFFGSLSVEDSVECLHAMLSA    673
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     674 NIRQNLQLCVQVASKYHEQLGTQALVELFESFKSYKGLFYFLGSIVNFSQ    723
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     724 DPDVHLKYIQAACKTGQIKEVERICRESSCYNPERVKNFLKEAKLTDQLP    773
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     774 LIIVCDRFGFVHDLVLYLYRNNLQRYIEIYVQKVNPSRTPAVIGGLLDVD    823
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     824 CSEEVIKHLIMAVRGQFSTDELVAEVEKRNRLKLLLPWLESQIQEGCEEP    873
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     874 ATHNALAKIYIDSNNSPECFLRENAYYDSSVVGRYCEKRDPHLACVAYER    923
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     924 GQCDLELIKVCNENSLFKSEARYLVCRKDPELWAHVLEETNPSRRQLIDQ    973
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1     974 VVQTALSETRDPEEISVTVKAFMTADLPNELIELLEKIVLDNSVFSEHRN   1023
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1    1024 LQNLLILTAIKADRTRVMEYISRLDNYDALDIASIAVSSALYEEAFTVFH   1073
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1    1074 KFDMNASAIQVLIEHIGNLDRAYEFAERCNEPAVWSQLAQAQLQKDLVKE   1123
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1    1124 AINSYIRGDDPSSYLEVVQSASRSNNWEDLVKFLQMARKKGRESYIETEL   1173
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1    1174 IFALAKTSRVSELEDFINGPNNAHIQQVGDRCYEEGMYEAAKLLYSNVSN   1223
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1    1224 FARLASTLVHLGEYQAAVDNSRKASSTRTWKEVCFACMDGQEFRFAQLCG   1273
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1    1274 LHIVIHADELEELMCYYQDRGYFEELILLLEAALGLERAHMGMFTELAIL   1323
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1    1324 YSKFKPQKMLEHLELFWSRVNIPKVLRAAEQAHLWAELVFLYDKYEEYDN   1373
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1    1374 AVLTMMSHPTEAWKEGQFKDIITKVANVELCYRALQFYLDYKPLLINDLL   1423
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1    1424 LVLSPRLDHTWTVSFFSKAGQLPLVKPYLRSVQSHNNKSVNEALNHLLTE   1473
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1    1474 EEDYQGLRASIDAYDNFDNISLAQQLEKHQLMEFRCIAAYLYKGNNWWAQ   1523
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1    1524 SVELCKKDHLYKDAMQHAAESRDAELAQKLLQWFLEEGKRECFAACLFTC   1573
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-P53675-F1    1574 YDLLRPDMVLELAWRHNLVDLAMPYFIQVMREYLSKVDKLDALESLRKQE   1623
+
+AF-Q0J381-F1     332 -----------------    332
+                                      
+AF-P53675-F1    1624 EHVTEPAPLVFDFDGHE   1640
+
+
+#---------------------------------------
+#---------------------------------------

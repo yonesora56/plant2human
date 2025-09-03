@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:07
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o00141-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-o00141-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-o00141-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-O00141-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 238
+# Identity:      79/238 (33.2%)
+# Similarity:   112/238 (47.1%)
+# Gaps:          26/238 (10.9%)
+# Score: 207.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     607 NFQSIIGKGGFGTVYHGILENN--DEV--AVKVLVETSI---AESKDFLP    649
+                     :|..:||||.||.|   :|..:  :||  |||||.:.:|   .|.|..:.
+AF-O00141-F1      99 HFLKVIGKGSFGKV---LLARHKAEEVFYAVKVLQKKAILKKKEEKHIMS    145
+
+AF-B7FAC9-F1     650 EVQTLSK-VHHKNLVALVGYCQNKKCLALVYDFMPRGNLQQLLRGGYDSL    698
+                     |...|.| |.|..||.|....|....|..|.|::..|.|...|:.....|
+AF-O00141-F1     146 ERNVLLKNVKHPFLVGLHFSFQTADKLYFVLDYINGGELFYHLQRERCFL    195
+
+AF-B7FAC9-F1     699 NWEERLHIALDAAQGLEYLHESCTPSIVHRDVKTPNILLDKNLVAKISDF    748
+                     ....|.: |.:.|..|.|||   :.:||:||:|..|||||......::||
+AF-O00141-F1     196 EPRARFY-AAEIASALGYLH---SLNIVYRDLKPENILLDSQGHIVLTDF    241
+
+AF-B7FAC9-F1     749 GLSRAFNAAHTHISTVAAGTLGYLDPE--YHATFQLTVKTDVYSFGIVLL    796
+                     ||.:. |..|...::...||..||.||  :...:..||  |.:..|.||.
+AF-O00141-F1     242 GLCKE-NIEHNSTTSTFCGTPEYLAPEVLHKQPYDRTV--DWWCLGAVLY    288
+
+AF-B7FAC9-F1     797 EIVTGQPPVF------MDPQTVHLPNWVRQKIANGSVH    828
+                     |::.|.||.:      |....::.|..::..|.|.:.|
+AF-O00141-F1     289 EMLYGLPPFYSRNTAEMYDNILNKPLQLKPNITNSARH    326
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,145 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:31
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0dw27-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p20020-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0dw27-f1_af-p20020-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0dw27-f1_af-p20020-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0DW27-F1
+# 2: AF-P20020-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1317
+# Identity:     256/1317 (19.4%)
+# Similarity:   466/1317 (35.4%)
+# Gaps:         444/1317 (33.7%)
+# Score: 563.0
+# 
+#
+#=======================================
+
+AF-Q0DW27-F1       1 -----------------------------------MLMEVANAMDAITKE     15
+                                                        .|||: .:.||:.| 
+AF-P20020-F1       1 MGDMANNSVAYSGVKNSLKEANHDGDFGITLAELRALMEL-RSTDALRK-     48
+
+AF-Q0DW27-F1      16 TVDLEHIPVEEVLDHLKCT-REGLTSEVA--QQRIHSFGYNKLEEKQESK     62
+                      :...:..|..:...||.: .|||:...|  ::|...||.|.:..|   |
+AF-P20020-F1      49 -IQESYGDVYGICTKLKTSPNEGLSGNPADLERREAVFGKNFIPPK---K     94
+
+AF-Q0DW27-F1      63 LLKFLGFMWNPLS----WVMEAAAIMAIALAH----------------GG     92
+                     ...||..:|..|.    .::|.|||:::.|:.                |.
+AF-P20020-F1      95 PKTFLQLVWEALQDVTLIILEIAAIVSLGLSFYQPPEGDNALCGEVSVGE    144
+
+AF-Q0DW27-F1      93 RDARGKRMRIDYHDFVGIVLLLFINSTISFMEENNAGNAA--AALMARLA    140
+                     .:..|:...|:     |..:||.:...:.....|:.....  ..|.:|:.
+AF-P20020-F1     145 EEGEGETGWIE-----GAAILLSVVCVVLVTAFNDWSKEKQFRGLQSRIE    189
+
+AF-Q0DW27-F1     141 PKAK--VLRDGTWDELDASLLVPGDIISVKLGDIIPADARLLEGDPLKID    188
+                     .:.|  |:|.|...::..:.:..|||..||.||::|||..|::|:.||||
+AF-P20020-F1     190 QEQKFTVIRGGQVIQIPVADITVGDIAQVKYGDLLPADGILIQGNDLKID    239
+
+AF-Q0DW27-F1     189 QSALTGESLPVTKHPGDG--IYSGSTCKQGEIEAVVIATGIHTFFG----    232
+                     :|:|||||..|.|.....  :.||:...:|....||.|.|:::..|    
+AF-P20020-F1     240 ESSLTGESDHVKKSLDKDPLLLSGTHVMEGSGRMVVTAVGVNSQTGIIFT    289
+
+AF-Q0DW27-F1     232 --------------------------------------------------    232
+                                                                       
+AF-P20020-F1     290 LLGAGGEEEEKKDEKKKEKKNKKQDGAIENRNKAKAQDGAAMEMQPLKSE    339
+
+AF-Q0DW27-F1     233 ----------KAAHLVESTTHV--GHFQKVLTSIGNFCICSIAAGMVIEL    270
+                               |.|:|.:....|  |...|:...||...:  :.:.:.:.:
+AF-P20020-F1     340 EGGDGDEKDKKKANLPKKEKSVLQGKLTKLAVQIGKAGL--LMSAITVII    387
+
+AF-Q0DW27-F1     271 LVMYAVHERKYRQ-------------------IVDNLLVLLIGGIPIAMP    301
+                     ||:|.|.:..:.|                   .:..:.||:: .:|..:|
+AF-P20020-F1     388 LVLYFVIDTFWVQKRPWLAECTPIYIQYFVKFFIIGVTVLVV-AVPEGLP    436
+
+AF-Q0DW27-F1     302 TVLSVTMAIGSHKLAQQGAITKRMTAIEEMAGMDVLCSDKTGTLTLNKLS    351
+                     ..:::::|....|:.:...:.:.:.|.|.|.....:|||||||||:|:::
+AF-P20020-F1     437 LAVTISLAYSVKKMMKDNNLVRHLDACETMGNATAICSDKTGTLTMNRMT    486
+
+AF-Q0DW27-F1     352 VDKNLIEVFEKGIEK----------------DDVVLMAARASRL---ENQ    382
+                     |.:..|.  ||..:|                ..:.:..|..|::   |.:
+AF-P20020-F1     487 VVQAYIN--EKHYKKVPEPEAIPPNILSYLVTGISVNCAYTSKILPPEKE    534
+
+AF-Q0DW27-F1     383 DAI--------DFAIVSMLPD------------PKEARAGIQEVHFLPFN    412
+                     ..:        :.|::.:|.|            |:||   :.:|:  .||
+AF-P20020-F1     535 GGLPRHVGNKTECALLGLLLDLKRDYQDVRNEIPEEA---LYKVY--TFN    579
+
+AF-Q0DW27-F1     413 PTDKRTALTYLDAEGKMHRVSKGAPEQILN------LASNKCEIERK---    453
+                     ...|..:....:::|.....||||.|.||.      .|:.:.::.|.   
+AF-P20020-F1     580 SVRKSMSTVLKNSDGSYRIFSKGASEIILKKCFKILSANGEAKVFRPRDR    629
+
+AF-Q0DW27-F1     454 ---VHHVIGNFAERGLRSLAVAYQEVPEGTKESPGGPWQ----------F    490
+                        |..||...|..|||::.:|:::.|.|   .|...|.          .
+AF-P20020-F1     630 DDIVKTVIEPMASEGLRTICLAFRDFPAG---EPEPEWDNENDIVTGLTC    676
+
+AF-Q0DW27-F1     491 VGLLPLFDPPRHDSAETIRRALDLGVSVKMITGDQLAIGKETGRRLGMGT    540
+                     :.::.:.||.|.:..:.|::....|::|:|:|||.:...:....:.|:  
+AF-P20020-F1     677 IAVVGIEDPVRPEVPDAIKKCQRAGITVRMVTGDNINTARAIATKCGI--    724
+
+AF-Q0DW27-F1     541 NMYPSSSLLG-DRKD---------GDIAVLPVDELIEQADGFAGVFPEHK    580
+                      ::|....|. :.||         |:|....:|::..:....|...|..|
+AF-P20020-F1     725 -LHPGEDFLCLEGKDFNRRIRNEKGEIEQERIDKIWPKLRVLARSSPTDK    773
+
+AF-Q0DW27-F1     581 YEIVQ-----RLQARKHICGMTGDGVNDAPALKKADIGIAVADA-TDAAR    624
+                     :.:|:     .:..::.:..:||||.||.|||||||:|.|:..| ||.|:
+AF-P20020-F1     774 HTLVKGIIDSTVSDQRQVVAVTGDGTNDGPALKKADVGFAMGIAGTDVAK    823
+
+AF-Q0DW27-F1     625 SASDIVLTEPGLSVIISAVLTSRAIFQRMKNYTIYAVSITVRIVLGFLLL    674
+                     .||||:||:...:.|:.||:..|.::..:..:..:.:::.|..|:.....
+AF-P20020-F1     824 EASDIILTDDNFTSIVKAVMWGRNVYDSISKFLQFQLTVNVVAVIVAFTG    873
+
+AF-Q0DW27-F1     675 ACFWKFDFP--PFLVLVIAILNDGTIMTISKDKVKPS-------PYPDSW    715
+                     ||..: |.|  ...:|.:.::.| |:.:::.....|:       ||..:.
+AF-P20020-F1     874 ACITQ-DSPLKAVQMLWVNLIMD-TLASLALATEPPTESLLLRKPYGRNK    921
+
+AF-Q0DW27-F1     716 KLTEIFATGVIIG----AYLAVTTVLF-----------------------    738
+                     .|........|:|    ..:.|.|:||                       
+AF-P20020-F1     922 PLISRTMMKNILGHAFYQLVVVFTLLFAGEKFFDIDSGRNAPLHAPPSEH    971
+
+AF-Q0DW27-F1     739 FWAAYKTQFFVHLFNVDTLNINKVDTTDN--ELVARNTEKLASAVYLQVS    786
+                     :...:.|...:.|||  .:|..|:....|  |.:..|.            
+AF-P20020-F1     972 YTIVFNTFVLMQLFN--EINARKIHGERNVFEGIFNNA------------   1007
+
+AF-Q0DW27-F1     787 TISQALIFVTRSRGWSFLERPGLLLMAAFVIAQLIATVLAAIATWEVASI    836
+                           ||.|             :::..||:..:|........:....||
+AF-P20020-F1    1008 ------IFCT-------------IVLGTFVVQIIIVQFGGKPFSCSELSI   1038
+
+AF-Q0DW27-F1     837 RGIGWRWAGAIWVYNIVVYLLLDPMKFAVRYGLSGKAWNLVIDNKVAFTN    886
+                     .  .|.|:         ::|           |:....|..:|  ....|:
+AF-P20020-F1    1039 E--QWLWS---------IFL-----------GMGTLLWGQLI--STIPTS   1064
+
+AF-Q0DW27-F1     887 RKDFGREARVVAWAHEQRTLHGLQSAASREKAASTELNQM--AEEARRRA    934
+                     |..|.:||.           ||.|.....|:..:.::.::  ||...||.
+AF-P20020-F1    1065 RLKFLKEAG-----------HGTQKEEIPEEELAEDVEEIDHAERELRRG   1103
+
+AF-Q0DW27-F1     935 EITRLRELHTLKGKVESV-----AKLKGIDLEDVNNQHYTV---------    970
+                     :|...|.|:.::.::..|     :..:|::..:..:..:..         
+AF-P20020-F1    1104 QILWFRGLNRIQTQIRVVNAFRSSLYEGLEKPESRSSIHNFMTHPEFRIE   1153
+
+AF-Q0DW27-F1     970 --------------------------------------------------    970
+                                                                       
+AF-P20020-F1    1154 DSEPHIPLIDDTDAEDDAPTKRNSSPPPSPNKNNNAVDSGIHLTIEMNKS   1203
+
+AF-Q0DW27-F1     970 -----------------    970
+                                      
+AF-P20020-F1    1204 ATSSSPGSPLHSLETSL   1220
+
+
+#---------------------------------------
+#---------------------------------------

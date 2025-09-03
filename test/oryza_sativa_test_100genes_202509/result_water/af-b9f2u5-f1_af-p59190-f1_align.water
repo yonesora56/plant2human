@@ -1,0 +1,49 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:38
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b9f2u5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p59190-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b9f2u5-f1_af-p59190-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b9f2u5-f1_af-p59190-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B9F2U5-F1
+# 2: AF-P59190-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 136
+# Identity:      29/136 (21.3%)
+# Similarity:    52/136 (38.2%)
+# Gaps:          31/136 (22.8%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+AF-B9F2U5-F1     126 TIKLQAARMRYIMNDEPYCLNLIDTPGHVDFSYEVSRSLAACEGALLVVD    175
+                     ||::...::|         :.:.||.|...:.....:.....:|..||.|
+AF-P59190-F1      49 TIEVDGIKVR---------IQIWDTAGQERYQTITKQYYRRAQGIFLVYD     89
+
+AF-B9F2U5-F1     176 ASQGVEAQTL----ANVYLALENDLEIIPVLNKIDLPGAEPDR-----VA    216
+                     .|.....|.:    ::|.......::.|.:.||.|   .|..|     ..
+AF-P59190-F1      90 ISSERSYQHIMKWVSDVDEYAPEGVQKILIGNKAD---EEQKRQVGREQG    136
+
+AF-B9F2U5-F1     217 QEIEEIIGMD------CSNAIRCSAKEGI-GITEIL    245
+                     |::.:..|||      |:|   .:.||.. .:||::
+AF-P59190-F1     137 QQLAKEYGMDFYETSACTN---LNIKESFTRLTELV    169
+
+
+#---------------------------------------
+#---------------------------------------

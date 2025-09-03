@@ -1,0 +1,165 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:03
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a5s6r8c2-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p07814-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a5s6r8c2-f1_af-p07814-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a5s6r8c2-f1_af-p07814-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A5S6R8C2-F1
+# 2: AF-P07814-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1562
+# Identity:      66/1562 ( 4.2%)
+# Similarity:   108/1562 ( 6.9%)
+# Gaps:        1334/1562 (85.4%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1       1 MATLSLTVNSGDPPLGALLAVEHVKDDVSISVEEGKENILHVSENVIFTD     50
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1      51 VNSILRYLARVATTAGLYGSNLMEHTEIDHWLEFSATKLSSCDSFTSTIN    100
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1     101 ELNHCLSLRTYLVGNSLSLADLCVWATLKGNAAWQEQLKQKKAPVHVKRW    150
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1     151 FGFLEAQQAFQSVGTKWDVSTTKARVAPEKKQDVGKFVELPGAEMGKVTV    200
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1     201 RFPPEASGYLHIGHAKAALLNQHYQVNFKGKLIMRFDDTNPEKEKEDFEK    250
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1     251 VILEDVAMLHIKPDQFTYTSDHFETIMKYAEKLIQEGKAYVDDTPAEQMK    300
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1     301 AEREQRIDSKHRKNPIEKNLQMWEEMKKGSQFGQSCCLRAKIDMSSNNGC    350
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1     351 MRDPTLYRCKIQPHPRTGNKYNVYPTYDFACPIVDSIEGVTHALRTTEYH    400
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1     401 DRDEQFYWIIEALGIRKPYIWEYSRLNLNNTVLSKRKLTWFVNEGLVDGW    450
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1     451 DDPRFPTVRGVLRRGMTVEGLKQFIAAQGSSRSVVNMEWDKIWAFNKKVI    500
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1     501 DPVAPRYVALLKKEVIPVNVPEAQEEMKEVAKHPKNPEVGLKPVWYSPKV    550
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1     551 FIEGADAETFSEGEMVTFINWGNLNITKIHKNADGKIISLDAKLNLENKD    600
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1     601 YKKTTKVTWLAETTHALPIPVICVTYEHLITKPVLGKDEDFKQYVNKNSK    650
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1     651 HEELMLGDPCLKDLKKGDIIQLQRRGFFICDQPYEPVSPYSCKEAPCVLI    700
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1     701 YIPDGHTKEMPTSGSKEKTKVEATKNETSAPFKERPTPSLNNNCTTSEDS    750
+
+AF-A0A5S6R8C2      0 --------------------------------------------------      0
+                                                                       
+AF-P07814-F1     751 LVLYNRVAVQGDVVRELKAKKAPKEDVDAAVKQLLSLKAEYKEKTGQEYK    800
+
+AF-A0A5S6R8C2      1 -----------------------------------MPGAVKVFGSPSSAE     15
+                                                        :...:|...|| .|:
+AF-P07814-F1     801 PGNPPAEIGQNISSNSSASILESKSLYDEVAAQGEVVRKLKAEKSP-KAK    849
+
+AF-A0A5S6R8C2     16 VARVLACLFEKDVEFQLIRVDSFRGSKRMPQYLKLQP-------HGEALT     58
+                     :...:.||.....:::         .|...:|:..||       ......
+AF-P07814-F1     850 INEAVECLLSLKAQYK---------EKTGKEYIPGQPPLSQSSDSSPTRN    890
+
+AF-A0A5S6R8C2     59 FEDGNVTLVESRKIIRHIADKYKNQGNPDLIGMGALERS-------SIEQ    101
+                     .|...:...|::.:.    ||..:||  :::.....|::       ::::
+AF-P07814-F1     891 SEPAGLETPEAKVLF----DKVASQG--EVVRKLKTEKAPKDQVDIAVQE    934
+
+AF-A0A5S6R8C2    102 WLQTEAQSFDVPSADVVYSLAYLPAATT-----------------QPNKG    134
+                     .||.:||      ...:..:.|.|.:.|                 :.||.
+AF-P07814-F1     935 LLQLKAQ------YKSLIGVEYKPVSATGAEDKDKKKKEKENKSEKQNKP    978
+
+AF-A0A5S6R8C2    135 AAAADGGRCEEEKNDDGGRDRQYSSQRQGGAGAGGGRDGQMAAAHRQKVE    184
+                     ....||.|.:..||..||..       ..|||.|.|...|.......|.|
+AF-P07814-F1     979 QKQNDGQRKDPSKNQGGGLS-------SSGAGEGQGPKKQTRLGLEAKKE   1021
+
+AF-A0A5S6R8C2    185 E-------------------------------------MKQLFEKSSKEL    197
+                     |                                     :|..|:...|:|
+AF-P07814-F1    1022 ENLADWYSQVITKSEMIEYHDISGCYILRPWAYAIWEAIKDFFDAEIKKL   1071
+
+AF-A0A5S6R8C2    198 SKVLDIYEQRLEEAEYLAGDKFTLADLSHLPN------------ADRLAA    235
+                     . |.:.|.........|..:|..:||.:  |.            |:.:|.
+AF-P07814-F1    1072 G-VENCYFPMFVSQSALEKEKTHVADFA--PEVAWVTRSGKTELAEPIAI   1118
+
+AF-A0A5S6R8C2    236 DPRT--------LRMLQSRR----------NVSRWWADVSGRESWKQVKS    267
+                     .|.:        .:.:||.|          ||.||              .
+AF-P07814-F1    1119 RPTSETVMYPAYAKWVQSHRDLPIKLNQWCNVVRW--------------E   1154
+
+AF-A0A5S6R8C2    268 LNRPPSAEAPF---------------------------------------    278
+                     ...|    .||                                       
+AF-P07814-F1    1155 FKHP----QPFLRTREFLWQEGHSAFATMEEAAEEVLQILDLYAQVYEEL   1200
+
+AF-A0A5S6R8C2    278 --------------------------------------------------    278
+                                                                       
+AF-P07814-F1    1201 LAIPVVKGRKTEKEKFAGGDYTTTIEAFISASGRAIQGGTSHHLGQNFSK   1250
+
+AF-A0A5S6R8C2    278 --------------------------------------------------    278
+                                                                       
+AF-P07814-F1    1251 MFEIVFEDPKIPGEKQFAYQNSWGLTTRTIGVMTMVHGDNMGLVLPPRVA   1300
+
+AF-A0A5S6R8C2    278 --------------------------------------------------    278
+                                                                       
+AF-P07814-F1    1301 CVQVVIIPCGITNALSEEDKEALIAKCNDYRRRLLSVNIRVRADLRDNYS   1350
+
+AF-A0A5S6R8C2    278 --------------------------------------------------    278
+                                                                       
+AF-P07814-F1    1351 PGWKFNHWELKGVPIRLEVGPRDMKSCQFVAVRRDTGEKLTVAENEAETK   1400
+
+AF-A0A5S6R8C2    278 --------------------------------------------------    278
+                                                                       
+AF-P07814-F1    1401 LQAILEDIQVTLFTRASEDLKTHMVVANTMEDFQKILDSGKIVQIPFCGE   1450
+
+AF-A0A5S6R8C2    278 --------------------------------------------------    278
+                                                                       
+AF-P07814-F1    1451 IDCEDWIKKTTARDQDLEPGAPSMGAKSLCIPFKPLCELQPGAKCVCGKN   1500
+
+AF-A0A5S6R8C2    278 ------------    278
+                                 
+AF-P07814-F1    1501 PAKYYTLFGRSY   1512
+
+
+#---------------------------------------
+#---------------------------------------

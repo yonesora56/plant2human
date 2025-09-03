@@ -6,9 +6,30 @@ doc: |
   "
   plant2human main workflow: compare structural similarity and sequence similarity
   Compare distantly related species, such as plants and humans, using measures of structural similarity and sequence similarity.
-  This workflow will contribute to the discovery of protein-coding genes with features that are “sequence dissimilar but structurally similar”.
+  This workflow will contribute to the discovery of protein-coding genes with features that are “low sequence similarity but high structural similarity”.
   "
 
+# ----------WORKFLOW METADATA----------
+$namespaces:
+  s: https://schema.org/
+  edam: http://edamontology.org/
+
+s:author:
+  - class: s:Person
+    s:identifier: https://orcid.org/0009-0004-1874-3117
+    s:email: d246887@hiroshima-u.ac.jp
+    s:name: Sora Yonezawa
+
+s:codeRepository: https://github.com/yonesora56/plant2human
+s:dateCreated: "2024-11-13"
+s:dateModified: "2025-09-03"
+s:license: https://spdx.org/licenses/MIT
+s:keywords:
+  - "Gene Mining"
+  - "alphafold"
+  - "protein structure"
+
+# ----------WORKFLOW REQUIREMENTS----------
 requirements:
   - class: WorkReuse
     enableReuse: true
@@ -16,19 +37,20 @@ requirements:
   - class: NetworkAccess
     networkAccess: true
 
+
 # ----------WORKFLOW INPUTS----------
 inputs:
   # foldseek easy-search sub-workflow inputs
   - id: INPUT_DIRECTORY
-    label: "input protein structure file directory"
+    label: "input protein structure files directory"
     doc: "query protein structure file (default: mmCIF) directory for foldseek easy-search input."
     type: Directory
     default:
       class: Directory
-      location: ../test/oryza_sativa_test/rice_random_gene_mmcif/
+      location: ../test/oryza_sativa_test_202509/rice_random_gene_mmcif/
 
   - id: FILE_MATCH_PATTERN
-    label: "file match pattern"
+    label: "structure file match pattern"
     doc: "file match pattern for listing input files. default: *.cif"
     type: string
     default: "*.cif"
@@ -135,6 +157,165 @@ inputs:
     default: "foldseek_result_hit_species.txt"
 
   # 11_retrieve_sequence_wf_v2.cwl
+  - id: BLAST_INDEX_FILES
+    type: File
+    label: "blast index files (blastdbcmd)"
+    doc: "blast index files for blastdbcmd"
+    default:
+      class: File
+      location: ../index/index_uniprot_afdb_all_sequences/afdb_all_sequences.fasta
+    secondaryFiles:
+      - .00.phd
+      - .00.phi
+      - .00.phr
+      - .00.pin
+      - .00.pog
+      - .00.psq
+      - .01.phd
+      - .01.phi
+      - .01.phr
+      - .01.pin
+      - .01.pog
+      - .01.psq
+      - .02.phd
+      - .02.phi
+      - .02.phr
+      - .02.pin
+      - .02.pog
+      - .02.psq
+      - .03.phd
+      - .03.phi
+      - .03.phr
+      - .03.pin
+      - .03.pog
+      - .03.psq
+      - .04.phd
+      - .04.phi
+      - .04.phr
+      - .04.pin
+      - .04.pog
+      - .04.psq
+      - .05.phd
+      - .05.phi
+      - .05.phr
+      - .05.pin
+      - .05.pog
+      - .05.psq
+      - .06.phd
+      - .06.phi
+      - .06.phr
+      - .06.pin
+      - .06.pog
+      - .06.psq
+      - .07.phd
+      - .07.phi
+      - .07.phr
+      - .07.pin
+      - .07.pog
+      - .07.psq
+      - .08.phd
+      - .08.phi
+      - .08.phr
+      - .08.pin
+      - .08.pog
+      - .08.psq
+      - .09.phd
+      - .09.phi
+      - .09.phr
+      - .09.pin
+      - .09.pog
+      - .09.psq
+      - .10.phd
+      - .10.phi
+      - .10.phr
+      - .10.pin
+      - .10.pog
+      - .10.psq
+      - .11.phd
+      - .11.phi
+      - .11.phr
+      - .11.pin
+      - .11.pog
+      - .11.psq
+      - .12.phd
+      - .12.phi
+      - .12.phr
+      - .12.pin
+      - .12.pog
+      - .12.psq
+      - .13.phd
+      - .13.phi
+      - .13.phr
+      - .13.pin
+      - .13.pog
+      - .13.psq
+      - .14.phd
+      - .14.phi
+      - .14.phr
+      - .14.pin
+      - .14.pog
+      - .14.psq
+      - .15.phd
+      - .15.phi
+      - .15.phr
+      - .15.pin
+      - .15.pog
+      - .15.psq
+      - .16.phd
+      - .16.phi
+      - .16.phr
+      - .16.pin
+      - .16.pog
+      - .16.psq
+      - .17.phd
+      - .17.phi
+      - .17.phr
+      - .17.pin
+      - .17.pog
+      - .17.psq
+      - .18.phd
+      - .18.phi
+      - .18.phr
+      - .18.pin
+      - .18.pog
+      - .18.psq
+      - .19.phd
+      - .19.phi
+      - .19.phr
+      - .19.pin
+      - .19.pog
+      - .19.psq
+      - .20.phd
+      - .20.phi
+      - .20.phr
+      - .20.pin
+      - .20.pog
+      - .20.psq
+      - .21.phd
+      - .21.phi
+      - .21.phr
+      - .21.pin
+      - .21.pog
+      - .21.psq
+      - .22.phd
+      - .22.phi
+      - .22.phr
+      - .22.pin
+      - .22.pog
+      - .22.psq
+      - .23.phd
+      - .23.phi
+      - .23.phr
+      - .23.pin
+      - .23.pog
+      - .23.psq
+      - .pal
+      - .pdb
+      - .pjs
+      - .pos
+      - .pot
+      - .ptf
+      - .pto
 
   # togoid convert process
   - id: ROUTE_DATASET
@@ -166,7 +347,7 @@ inputs:
     default:
       class: File
       format: edam:format_3475
-      location: ../test/oryza_sativa_test/rice_random_gene_idmapping_all.tsv
+      location: ../test/oryza_sativa_test_202509/rice_random_gene_idmapping_all.tsv
 
   - id: QUERY_GENE_LIST_TSV
     label: "query gene list tsv (papermill process)"
@@ -176,7 +357,7 @@ inputs:
     default:
       class: File
       format: edam:format_3475
-      location: ../test/oryza_sativa_test/oryza_sativa_random_gene_list.tsv
+      location: ../test/oryza_sativa_test_202509/oryza_sativa_random_gene_list.tsv
 
 # ----------OUTPUTS----------
 outputs:
@@ -369,11 +550,12 @@ steps:
       Step 3: blastdbcmd: ../Tools/15_blastdbcmd.cwl
       Step 4: seqretsplit: ../Tools/16_seqretsplit.cwl
       Step 5: needle (Global alignment): ../Tools/17_needle.cwl
-      Step 6: water (Local alignment): ../Tools/17_water.cwl"
+      Step 6: water (Local alignment): ../Tools/17_water.cwl
+      "
 
     run: ./11_retrieve_sequence_wf_v2.cwl
     in:
-      # BLAST_INDEX_FILES: default
+      BLAST_INDEX_FILES: BLAST_INDEX_FILES
       ENTRY_BATCH_QUERY_SPECIES: extract_query_species_column/output_file # workflow input
       ENTRY_BATCH_HIT_SPECIES: extract_hit_species_column/output_file # workflow input
       # BLASTDBCMD_RESULT_FILE_NAME_QUERY_SPECIES: default
@@ -388,10 +570,6 @@ steps:
       ALIGNMENT_QUERY_COLUMN_NUMBER: WF_COLUMN_NUMBER_QUERY_SPECIES
       ALIGNMENT_TARGET_COLUMN_NUMBER: WF_COLUMN_NUMBER_HIT_SPECIES
     out:
-      - output_index_dir_query_species
-      - output_index_file_query_species
-      - output_index_dir_hit_species
-      - output_index_file_hit_species
       - output_blastdbcmd_result_query_species
       - output_logfile_query_species
       - output_blastdbcmd_result_hit_species
@@ -432,20 +610,3 @@ steps:
       togoid_convert_tsv: togoid_convert/output_file # workflow input
     out:
       - report_notebook
-
-# metadata
-s:author:
-  - class: s:Person
-    s:identifier: https://orcid.org/0009-0004-1874-3117
-    s:email: d246887@hiroshima-u.ac.jp
-    s:name: Sora Yonezawa
-
-
-s:codeRepository: https://github.com/yonesora56/plant2human
-s:dateCreated: "2024-11-13"
-s:dateModified: "2025-09-02"
-s:license: https://spdx.org/licenses/MIT
-
-$namespaces:
-  s: https://schema.org/
-  edam: http://edamontology.org/

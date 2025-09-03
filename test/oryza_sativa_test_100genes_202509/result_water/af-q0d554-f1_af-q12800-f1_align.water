@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:50
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0d554-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q12800-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0d554-f1_af-q12800-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0d554-f1_af-q12800-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0D554-F1
+# 2: AF-Q12800-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 188
+# Identity:      42/188 (22.3%)
+# Similarity:    62/188 (33.0%)
+# Gaps:          71/188 (37.8%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+AF-Q0D554-F1     228 RDYSSSEEMV-QRLTSASTTLRRMLALPSFQDCQENNGLGDMMDEDIM--    274
+                     :|:.:|...: |.|.:.:.::..:||||.|:  ||.:.|....:..|:  
+AF-Q12800-F1      20 QDFDASLSGIGQELGAGAYSMSDVLALPIFK--QEESSLPPDNENKILPF     67
+
+AF-Q0D554-F1     275 -------NNVAVRLKLSLTVWDFTLPL----------------TPSLPAV    301
+                            .:.||:|.      |.||..                ...||.:
+AF-Q12800-F1      68 QYVLCAATSPAVKLH------DETLTYLNQGQSYEIRMLDNRKLGELPEI    111
+
+AF-Q0D554-F1     302 FG-----ISETVIEDR---FCLEHGTKGWYDALDHHFRWLLQYRISPFFC    343
+                     .|     |...|..||   :......:||        ||          .
+AF-Q12800-F1     112 NGKLVKSIFRVVFHDRRLQYTEHQQLEGW--------RW----------N    143
+
+AF-Q0D554-F1     344 RWGDSMRILAYTCPW------PADHP---KAKEYYSDP    372
+                     |.||  |||....|.      |..:|   ...|:..||
+AF-Q12800-F1     144 RPGD--RILDIDIPMSVGIIDPRANPTQLNTVEFLWDP    179
+
+
+#---------------------------------------
+#---------------------------------------

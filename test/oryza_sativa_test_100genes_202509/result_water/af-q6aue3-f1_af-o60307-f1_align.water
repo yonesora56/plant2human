@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:44
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o60307-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-o60307-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-o60307-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-O60307-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 290
+# Identity:      70/290 (24.1%)
+# Similarity:   122/290 (42.1%)
+# Gaps:          68/290 (23.4%)
+# Score: 191.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      77 VIAQGTYGTVY--RGTYDGQDVAVKLLDWGEDGFATEAETAALRTSFKQE    124
+                     :|:.|.||.||  |.....|..|:|.::         .:...||... |:
+AF-O60307-F1     372 LISNGAYGAVYLVRHRDTRQRFAIKKIN---------KQNLILRNQI-QQ    411
+
+AF-Q6AUE3-F1     125 VAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCVVVE    174
+                     |.|...:.......||.:...:.:.:                |..|:|:|
+AF-O60307-F1     412 VFVERDILTFAENPFVVSMFCSFETR----------------RHLCMVME    445
+
+AF-Q6AUE3-F1     175 YLAGGTLKQYLIKNSRRKLAYKVVVQLALDLAR--------GLSYLHSRK    216
+                     |:.||.... |:||         :..|.:|:||        .|.|||:..
+AF-O60307-F1     446 YVEGGDCAT-LLKN---------MGPLPVDMARLYFAETVLALEYLHNYG    485
+
+AF-Q6AUE3-F1     217 IVHRDVKTENMLLDTQRNLKIADFGVARV----------EAQNPKDM---    253
+                     |||||:|.:|:|:.:..::|:.|||::::          |....||.   
+AF-O60307-F1     486 IVHRDLKPDNLLITSLGHIKLTDFGLSKIGLMSMATNLYEGHIEKDAREF    535
+
+AF-Q6AUE3-F1     254 --TGATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMPY----P    297
+                       ....||..|:||||:..:.|.:..|.::.|:.|:|.....:|:    |
+AF-O60307-F1     536 IDKQVCGTPEYIAPEVIFRQGYGKPVDWWAMGVVLYEFLVGCVPFFGDTP    585
+
+AF-Q6AUE3-F1     298 DLSFADVSSAVVHQNLRPDVPRCCPSAFANIMRKCWDANP    337
+                     :..|..|.|..:   :.|:.....|:...:::.:....:|
+AF-O60307-F1     586 EELFGQVVSDEI---MWPEGDEALPADAQDLITRLLRQSP    622
+
+
+#---------------------------------------
+#---------------------------------------

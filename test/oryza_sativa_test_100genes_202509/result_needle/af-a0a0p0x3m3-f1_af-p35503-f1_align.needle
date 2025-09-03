@@ -1,0 +1,101 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:07
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0x3m3-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p35503-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0x3m3-f1_af-p35503-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0x3m3-f1_af-p35503-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0X3M3-F1
+# 2: AF-P35503-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 786
+# Identity:      37/786 ( 4.7%)
+# Similarity:    48/786 ( 6.1%)
+# Gaps:         682/786 (86.8%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+AF-A0A0P0X3M3      0 --------------------------------------------------      0
+                                                                       
+AF-P35503-F1       1 MATGLQVPLPWLATGLLLLLSVQPWAESGKVLVVPIDGSHWLSMREVLRE     50
+
+AF-A0A0P0X3M3      0 --------------------------------------------------      0
+                                                                       
+AF-P35503-F1      51 LHARGHQAVVLTPEVNMHIKEENFFTLTTYAISWTQDEFDRHVLGHTQLY    100
+
+AF-A0A0P0X3M3      0 --------------------------------------------------      0
+                                                                       
+AF-P35503-F1     101 FETEHFLKKFFRSMAMLNNMSLVYHRSCVELLHNEALIRHLNATSFDVVL    150
+
+AF-A0A0P0X3M3      0 --------------------------------------------------      0
+                                                                       
+AF-P35503-F1     151 TDPVNLCAAVLAKYLSIPTVFFLRNIPCDLDFKGTQCPNPSSYIPRLLTT    200
+
+AF-A0A0P0X3M3      0 --------------------------------------------------      0
+                                                                       
+AF-P35503-F1     201 NSDHMTFMQRVKNMLYPLALSYICHAFSAPYASLASELFQREVSVVDILS    250
+
+AF-A0A0P0X3M3      0 --------------------------------------------------      0
+                                                                       
+AF-P35503-F1     251 HASVWLFRGDFVMDYPRPIMPNMVFIGGINCANRKPLSQEFEAYINASGE    300
+
+AF-A0A0P0X3M3      0 --------------------------------------------------      0
+                                                                       
+AF-P35503-F1     301 HGIVVFSLGSMVSEIPEKKAMAIADALGKIPQTVLWRYTGTRPSNLANNT    350
+
+AF-A0A0P0X3M3      1 ----------------------------MAASASSSSPLHIVMFPWLAFG     22
+                                                 :..|..:..|:  ||.|  .||
+AF-P35503-F1     351 ILVKWLPQNDLLGHPMTRAFITHAGSHGVYESICNGVPM--VMMP--LFG    396
+
+AF-A0A0P0X3M3     23 HMIPFLELAKRLARRGLAVTF--------------------VSTPRNAAR     52
+                     ..   ::.|||:..:|..||.                    .|...|..|
+AF-P35503-F1     397 DQ---MDNAKRMETKGAGVTLNVLEMTSEDLENALKAVINDKSYKENIMR    443
+
+AF-A0A0P0X3M3     53 LGAIPPALSAHLRVVPLDL------------------PAVDGLPEGAEST     84
+                     |.    :|.....|.||||                  ||...|......:
+AF-P35503-F1     444 LS----SLHKDRPVEPLDLAVFWVEFVMRHKGAPHLRPAAHDLTWYQYHS    489
+
+AF-A0A0P0X3M3     85 ADAPPEKVGLLKKAFDGLAAPFAGFVAEACAAG--------------HGE    120
+                     .|.    :|.|....  |...|..|  :.||.|              |..
+AF-P35503-F1     490 LDV----IGFLLAVV--LTVAFITF--KCCAYGYRKCLGKKGRVKKAHKS    531
+
+AF-A0A0P0X3M3    121 STPTAAGFSRKPDWIILDFAQNWVWPIAEEHKIPCAMFSIFPAAMVAFVG    170
+                     .|.                                               
+AF-P35503-F1     532 KTH-----------------------------------------------    534
+
+AF-A0A0P0X3M3    171 PRQENLAHPRTKTEHFMVQPPWIPFPSNVAYRRRHGAEWIAAVFRPNASG    220
+                                                                       
+AF-P35503-F1     534 --------------------------------------------------    534
+
+AF-A0A0P0X3M3    221 VSDADRFWEMEHACCRLIIHRSCPEAEPRLFPLLTELFAKPSVPAGLLMP    270
+                                                                       
+AF-P35503-F1     534 --------------------------------------------------    534
+
+AF-A0A0P0X3M3    271 PPPPAAGVDDDDDDALPAREIGVEVACNDDGSFRRDAIAAAVRQVMVEEK    320
+                                                                       
+AF-P35503-F1     534 --------------------------------------------------    534
+
+AF-A0A0P0X3M3    321 GKALSRKAEELRDVLGDEGRQEMYLDELVGYLQRYK    356
+                                                         
+AF-P35503-F1     534 ------------------------------------    534
+
+
+#---------------------------------------
+#---------------------------------------

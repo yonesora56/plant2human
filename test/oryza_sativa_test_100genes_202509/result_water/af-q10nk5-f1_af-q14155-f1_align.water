@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:04
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q14155-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-q14155-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-q14155-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-Q14155-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 222
+# Identity:      63/222 (28.4%)
+# Similarity:    88/222 (39.6%)
+# Gaps:          58/222 (26.1%)
+# Score: 121.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1     193 AESK-LSELRTTLSALGREATAAMEAV----EVQQQQVTFDRLLAMV-DA    236
+                     :||: ||.:|..|...|  |:..:|.:    :..|..||...|.|.. ||
+AF-Q14155-F1      62 SESECLSNIREFLRGCG--ASLRLELLFPPSQPPQHLVTTILLSASTFDA    109
+
+AF-Q10NK5-F1     237 ERAYH-QNAADI------LNK------LHDEMVQAKHHDEPENH----YD    269
+                     ...|. ||...:      |||      |..:.|.|:    |.:|    :|
+AF-Q14155-F1     110 NDLYQGQNFNKVLSSLVTLNKVTADIGLGSDSVCAR----PSSHRIKSFD    155
+
+AF-Q10NK5-F1     270 ETSSDPKTAATHEHSRSTSEDHIFTNTSEPTRTETSEPTRTETSEPTRNG    319
+                                     |.....:.|.||:..:.:......|:.|    |.
+AF-Q14155-F1     156 ----------------SLGSQSLHTRTSKLFQGQYRSLDMTDNS----NN    185
+
+AF-Q10NK5-F1     320 QEVHYVGEVIHPFDAQA--DGELSISVGDYVVVRQVAPNGWSEGECKGKA    367
+                     |.|     |...|:.|.  :.|||.|.||.:.|.:|...||.||...|:.
+AF-Q14155-F1     186 QLV-----VRAKFNFQQTNEDELSFSKGDVIHVTRVEEGGWWEGTLNGRT    230
+
+AF-Q10NK5-F1     368 GWFPSAYVEQRDKAPASKVIEP    389
+                     |||||.||  |:...:.|.:.|
+AF-Q14155-F1     231 GWFPSNYV--REVKASEKPVSP    250
+
+
+#---------------------------------------
+#---------------------------------------

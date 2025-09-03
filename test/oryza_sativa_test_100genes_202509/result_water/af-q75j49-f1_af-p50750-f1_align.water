@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:46
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p50750-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-p50750-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-p50750-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-P50750-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 311
+# Identity:      84/311 (27.0%)
+# Similarity:   130/311 (41.8%)
+# Gaps:          75/311 (24.1%)
+# Score: 229.0
+# 
+#
+#=======================================
+
+AF-Q75J49-F1      68 DLAKLEIRYVIAQGTYGTVYRGTY--DGQDVAVK--LLDWGEDGFATEAE    113
+                     :::|.|....|.|||:|.|::..:  .||.||:|  |::..::||    .
+AF-P50750-F1      15 EVSKYEKLAKIGQGTFGEVFKARHRKTGQKVALKKVLMENEKEGF----P     60
+
+AF-Q75J49-F1     114 TAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTN    163
+                     ..|||     |:.:...|.|.||...:..                 .||.
+AF-P50750-F1      61 ITALR-----EIKILQLLKHENVVNLIEI-----------------CRTK     88
+
+AF-Q75J49-F1     164 L-PARAC----------CVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQLA    202
+                     . |...|          |   |:...|.|...|:|.:..::  |.|:|:.
+AF-P50750-F1      89 ASPYNRCKGSIYLVFDFC---EHDLAGLLSNVLVKFTLSEI--KRVMQML    133
+
+AF-Q75J49-F1     203 LDLARGLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVAR----VEAQ    248
+                     |:   ||.|:|..||:|||:|..|:|:.....||:||||:||    .:..
+AF-P50750-F1     134 LN---GLYYIHRNKILHRDMKAANVLITRDGVLKLADFGLARAFSLAKNS    180
+
+AF-Q75J49-F1     249 NPKDMTGATGTLGYMAPEVLDG-KPYNRKCDVYSFGICLWEIYCCDMPYP    297
+                     .|...|....||.|..||:|.| :.|....|::..|..:.|::       
+AF-P50750-F1     181 QPNRYTNRVVTLWYRPPELLLGERDYGPPIDLWGAGCIMAEMW-------    223
+
+AF-Q75J49-F1     298 DLSFADVSSAVVHQNLRPDVPRCCPSAFANIMRKCWDANPDKRPDMDEVV    347
+                           ..|.::..|..       ....|.|.:.|....|:..|::|. .
+AF-P50750-F1     224 ------TRSPIMQGNTE-------QHQLALISQLCGSITPEVWPNVDN-Y    259
+
+AF-Q75J49-F1     348 QLLEALDTSKG    358
+                     :|.|.|:..||
+AF-P50750-F1     260 ELYEKLELVKG    270
+
+
+#---------------------------------------
+#---------------------------------------

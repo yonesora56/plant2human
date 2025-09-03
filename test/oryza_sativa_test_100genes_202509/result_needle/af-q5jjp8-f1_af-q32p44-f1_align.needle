@@ -1,0 +1,121 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:16
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q5jjp8-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q32p44-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q5jjp8-f1_af-q32p44-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q5jjp8-f1_af-q32p44-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5JJP8-F1
+# 2: AF-Q32P44-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1008
+# Identity:      93/1008 ( 9.2%)
+# Similarity:   172/1008 (17.1%)
+# Gaps:         633/1008 (62.8%)
+# Score: 87.0
+# 
+#
+#=======================================
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q32P44-F1       1 MDGAAGPGDGPAREALQSLSQRLRVQEQEMELVKAALAEALRLLRLQVPP     50
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q32P44-F1      51 SSLQGSGTPAPPGDSLAAPPGLPPTCTPSLVSRGTQTETEVELKSSPGPP    100
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q32P44-F1     101 GLSNGPPAPQGASEEPSGTQSEGGGSSSSGAGSPGPPGILRPLQPPQRAD    150
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q32P44-F1     151 TPRRNSSSSSSPSERPRQKLSRKAISSANLLVRSGSTESRGGKDPLSSPG    200
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q32P44-F1     201 GPGSRRSNYNLEGISVKMFLRGRPITMYIPSGIRSLEELPSGPPPETLSL    250
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q32P44-F1     251 DWVYGYRGRDSRSNLFVLRSGEVVYFIACVVVLYRPGGGPGGPGGGGQRH    300
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q32P44-F1     301 YRGHTDCVRCLAVHPDGVRVASGQTAGVDKDGKPLQPVVHIWDSETLLKL    350
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q32P44-F1     351 QEIGLGAFERGVGALAFSAADQGAFLCVVDDSNEHMLSVWDCSRGMKLAE    400
+
+AF-Q5JJP8-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q32P44-F1     401 IKSTNDSVLAVGFNPRDSSCIVTSGKSHVHFWNWSGGVGVPGNGTLTRKQ    450
+
+AF-Q5JJP8-F1       1 ----------------------------MISAISWVPRGAAKLVPVEAEP     22
+                                                 ..:.::|   |.:   |.:::.
+AF-Q32P44-F1     451 GVFGKYKKPKFIPCFVFLPDGDILTGDSEGNILTW---GRS---PSDSKT    494
+
+AF-Q5JJP8-F1      23 PTQEEIDEAIKAIAQ-HTEGGS--------DADEDADDGEENGNMEVDAA     63
+                     |.:....|....:|| |...||        |....:..|.:...::....
+AF-Q32P44-F1     495 PGRGGAKETYGIVAQAHAHEGSIFALCLRRDGTVLSGGGRDRRLVQWGPG    544
+
+AF-Q5JJP8-F1      64 ADEEEEEVDEVAQAKAAAKALAKGAVDDVADELKELNMDNYDEEEEGLEI    113
+                     ....:|.  |:.:...|.:|:|:|    :..||......|          
+AF-Q32P44-F1     545 LVALQEA--EIPEHFGAVRAIAEG----LGSELLVGTTKN----------    578
+
+AF-Q5JJP8-F1     114 FSSGQGDLYYASNDLDPYLKNNDEDDDDEEIEDMTIKPT-DLMVVCAYNE    162
+                      :..:|||   :....|.::.:     .:|:..:...|: :..:.|.::.
+AF-Q32P44-F1     579 -ALLRGDL---AQGFSPVIQGH-----TDELWGLCTHPSQNRFLTCGHDR    619
+
+AF-Q5JJP8-F1     163 DDVNSLQVNLLEETEDGDLNMFVHHEVPLADFPLCTAWMDFNLKGGDKGN    212
+                           |:.|.    ||:.:... ..:.|.:..||.   ||:    ..|.
+AF-Q32P44-F1     620 ------QLCLW----DGESHALA-WSIDLKETGLCA---DFH----PSGA    651
+
+AF-Q5JJP8-F1     213 FVAVG-------TMDPAIEIWDLDIVD--------EVQP---HMVLGGHS    244
+                     .||||       .:|........|::|        ...|   ::.:|.|.
+AF-Q32P44-F1     652 VVAVGLNTGRWLVLDTETREIVSDVIDGNEQLSVVRYSPDGLYLAIGSHD    701
+
+AF-Q5JJP8-F1     245 K----KKKKVKGKKAKKYKK-GSHRSSVLGLAWNKEVRNVLASASADKTV    289
+                     .    ......|.|:.::.: ..|.|.:..|.|:|: .|.:.|.|.|..:
+AF-Q32P44-F1     702 NVIYIYSVSSDGAKSSRFGRCMGHSSFITHLDWSKD-GNFIMSNSGDYEI    750
+
+AF-Q5JJP8-F1     290 KIWDVSVGKCAVTLEHHDDKVQSVAWSRQSPEVLLSGSFDKSVAMNDMKD    339
+                     ..|||: |.|......::.:.:.  |:..:..:    .|.......|..|
+AF-Q32P44-F1     751 LYWDVA-GGCKQLKNRYESRDRE--WATYTCVL----GFHVYGVWPDGSD    793
+
+AF-Q5JJP8-F1     340 GGQSCNKWSVEADVESLAWDPHNEHSFMVSLENGMVQAFDKRTASSNSNS    389
+                     |          .|:.||. ..|||....|:.:...|..|....|.:.:  
+AF-Q32P44-F1     794 G----------TDINSLC-RSHNERVVAVADDFCKVHLFQYPCARAKA--    830
+
+AF-Q5JJP8-F1     390 GRPTFTLHAHEKAVSSISFSPSTPNFLATGSTDKMVKLWDL--------S    431
+                       |:.....|...|:|:.|:....:.::.|..|..:..|.:        :
+AF-Q32P44-F1     831 --PSRMYGGHGSHVTSVRFTHDDSHLVSLGGKDASIFQWRVLGAGGAGPA    878
+
+AF-Q5JJP8-F1     432 NNQPSCIASLNP--KLGAIFSVSFSNDSPFLLASGGSKGKLKVWNTLTEP    479
+                     ...||...||:|  .|..                                
+AF-Q32P44-F1     879 PATPSRTPSLSPASSLDV--------------------------------    896
+
+AF-Q5JJP8-F1     480 AVANKFGK    487
+                             
+AF-Q32P44-F1     896 --------    896
+
+
+#---------------------------------------
+#---------------------------------------

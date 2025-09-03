@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:35
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q969h0-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0vcb7-f1_af-q969h0-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0vcb7-f1_af-q969h0-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-Q969H0-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 251
+# Identity:      46/251 (18.3%)
+# Similarity:    80/251 (31.9%)
+# Gaps:          98/251 (39.0%)
+# Score: 113.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7      6 WSRQSPE-VLLSGSFDKSVAMNDMKDG-----------------------     31
+                     ||.|..: :::|||.|:::.:.:.:.|                       
+AF-Q969H0-F1     425 WSSQMRDNIIISGSTDRTLKVWNAETGECIHTLYGHTSTVRCMHLHEKRV    474
+
+AF-A0A0P0VCB7     32 -----GQSCNKWSVEA-----------------------------DVESL     47
+                          ..:...|.:|.                             |....
+AF-Q969H0-F1     475 VSGSRDATLRVWDIETGQCLHVLMGHVAAVRCVQYDGRRVVSGAYDFMVK    524
+
+AF-A0A0P0VCB7     48 AWDPHNE---------------------HSFMVSLENGMVQAFDKRTASS     76
+                     .|||..|                     |....||:.. ::.:|..|   
+AF-Q969H0-F1     525 VWDPETETCLHTLQGHTNRVYSLQFDGIHVVSGSLDTS-IRVWDVET---    570
+
+AF-A0A0P0VCB7     77 NSNSGRPTFTLHAHEKAVSSISFSPSTPNFLATGSTDKMVKLWDLSNNQP    126
+                         |....||..|:...|.:...   .|.|.:|:.|..||:||:...| 
+AF-Q969H0-F1     571 ----GNCIHTLTGHQSLTSGMELK---DNILVSGNADSTVKIWDIKTGQ-    612
+
+AF-A0A0P0VCB7    127 SCIASL---NPKLGAIFSVSFSNDSPFLLASGGSKGKLKVWNTLTEPAVA    173
+                      |:.:|   |....|:..:.|:.:  |::.| ...|.:|:|:..|...:.
+AF-Q969H0-F1     613 -CLQTLQGPNKHQSAVTCLQFNKN--FVITS-SDDGTVKLWDLKTGEFIR    658
+
+AF-A0A0P0VCB7    174 N    174
+                     |
+AF-Q969H0-F1     659 N    659
+
+
+#---------------------------------------
+#---------------------------------------

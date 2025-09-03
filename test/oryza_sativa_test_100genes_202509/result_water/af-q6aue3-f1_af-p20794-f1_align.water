@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:42
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p20794-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-p20794-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-p20794-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-P20794-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 317
+# Identity:      80/317 (25.2%)
+# Similarity:   125/317 (39.4%)
+# Gaps:          82/317 (25.9%)
+# Score: 202.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      75 RYV----IAQGTYGTVYRG--TYDGQDVAVKLLDWGEDGFATEAETAALR    118
+                     ||.    :..||||:|..|  ...|:.||:|.:   :..|.:..|...||
+AF-P20794-F1       3 RYTTMRQLGDGTYGSVLMGKSNESGELVAIKRM---KRKFYSWDECMNLR     49
+
+AF-Q6AUE3-F1     119 TSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARA    168
+                          ||....||:|.||.|.         .::...|.:           
+AF-P20794-F1      50 -----EVKSLKKLNHANVIKL---------KEVIRENDH-----------     74
+
+AF-Q6AUE3-F1     169 CCVVVEYLAGGTLKQYLIKNSRRKLAYKVVVQ-LALDLARGLSYLHSRKI    217
+                     ...:.||:....   |.:...|.||..:.|:: :...:.:||:::|....
+AF-P20794-F1      75 LYFIFEYMKENL---YQLMKDRNKLFPESVIRNIMYQILQGLAFIHKHGF    121
+
+AF-Q6AUE3-F1     218 VHRDVKTENMLLDTQRNLKIADFGVARVEAQNPKDMTGATGTLGYMAPEV    267
+                     .|||:|.||:|......:||||||:|| |.::....|....|..|.||||
+AF-P20794-F1     122 FHRDMKPENLLCMGPELVKIADFGLAR-ELRSQPPYTDYVSTRWYRAPEV    170
+
+AF-Q6AUE3-F1     268 -LDGKPYNRKCDVYSFGICLWEIYCCDMPYPDLSFAD-------------    303
+                      |....|:...||::.|..:.|:|.....:|..|..|             
+AF-P20794-F1     171 LLRSSVYSSPIDVWAVGSIMAELYMLRPLFPGTSEVDEIFKICQVLGTPK    220
+
+AF-Q6AUE3-F1     304 ---------VSSAVVHQNLRPDVPRCCPSAFANIMRKC------------    332
+                              ::|::   |.|  .|:|.|.....::...            
+AF-P20794-F1     221 KSDWPEGYQLASSM---NFR--FPQCVPINLKTLIPNASNEAIQLMTEML    265
+
+AF-Q6AUE3-F1     333 -WDANPDKRPDMDEVVQ    348
+                      ||  |.|||...:.::
+AF-P20794-F1     266 NWD--PKKRPTASQALK    280
+
+
+#---------------------------------------
+#---------------------------------------

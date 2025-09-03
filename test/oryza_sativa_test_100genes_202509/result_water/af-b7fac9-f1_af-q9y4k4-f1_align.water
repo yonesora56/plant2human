@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:10
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9y4k4-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q9y4k4-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q9y4k4-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q9Y4K4-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 251
+# Identity:      63/251 (25.1%)
+# Similarity:   110/251 (43.8%)
+# Gaps:          61/251 (24.3%)
+# Score: 183.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     573 RKSEEEDYDMYEEETPLHIDIRRFTYAELKLITNNFQSIIGKGGFGTVYH    622
+                     |::.::||::.:.                          :|.|.:|.||.
+AF-Q9Y4K4-F1      13 RRNPQQDYELVQR--------------------------VGSGTYGDVYK     36
+
+AF-B7FAC9-F1     623 GILENNDEV-AVKVLVETSIAESKDF---LPEVQTLSKVHHKNLVALVGY    668
+                     ....:..|: |||::   .:....||   ..|:..:.:..|.|:||..|.
+AF-Q9Y4K4-F1      37 ARNVHTGELAAVKII---KLEPGDDFSLIQQEIFMVKECKHCNIVAYFGS     83
+
+AF-B7FAC9-F1     669 CQNKKCLALVYDFMPRGNLQQL--LRGGYDSLNWEERLHIALDAAQGLEY    716
+                     ..:::.|.:..::...|:||.:  :.|....|   :..::..:..|||.|
+AF-Q9Y4K4-F1      84 YLSREKLWICMEYCGGGSLQDIYHVTGPLSEL---QIAYVCRETLQGLAY    130
+
+AF-B7FAC9-F1     717 LHESCTPSIVHRDVKTPNILLDKNLVAKISDFGLSRAFNAAHTHISTVA-    765
+                     ||   |...:|||:|..||||..:...|::|||::....|      |:| 
+AF-Q9Y4K4-F1     131 LH---TKGKMHRDIKGANILLTDHGDVKLADFGVAAKITA------TIAK    171
+
+AF-B7FAC9-F1     766 ----AGTLGYLDPEYHAT------FQLTVKTDVYSFGIVLLEIVTGQPPV    805
+                         .||..::.||..|.      .||   .|:::.||..:|:...|||:
+AF-Q9Y4K4-F1     172 RKSFIGTPYWMAPEVAAVEKNGGYNQL---CDIWAVGITAIELGELQPPM    218
+
+AF-B7FAC9-F1     806 F    806
+                     |
+AF-Q9Y4K4-F1     219 F    219
+
+
+#---------------------------------------
+#---------------------------------------

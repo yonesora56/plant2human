@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:23
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q7xck0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8tb36-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q7xck0-f1_af-q8tb36-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q7xck0-f1_af-q8tb36-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7XCK0-F1
+# 2: AF-Q8TB36-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 310
+# Identity:      66/310 (21.3%)
+# Similarity:   108/310 (34.8%)
+# Gaps:         109/310 (35.2%)
+# Score: 95.0
+# 
+#
+#=======================================
+
+AF-Q7XCK0-F1      12 SSAEVARVLA-----CLFEKDVEFQLIRVDSFRGSKRMPQYLKLQPHGEA     56
+                     ||.:|..|:|     | .|.||...|       .....|.:::|...||.
+AF-Q8TB36-F1      36 SSQKVRLVIAEKALKC-EEHDVSLPL-------SEHNEPWFMRLNSTGEV     77
+
+AF-Q7XCK0-F1      57 LTFEDGNVTLVESRKIIRHIADKYKNQGNPDLIGMGALERSSIEQWLQTE    106
+                     .....|...:.|:.:||.::...:.::..|.|:               .:
+AF-Q8TB36-F1      78 PVLIHGENIICEATQIIDYLEQTFLDERTPRLM---------------PD    112
+
+AF-Q7XCK0-F1     107 AQSFDVPSA----DVVYSL---AY---------------LPA-ATTQPNK    133
+                     .:|...|..    :::.||   ||               :|| |||:...
+AF-Q8TB36-F1     113 KESMYYPRVQHYRELLDSLPMDAYTHGCILHPELTVDSMIPAYATTRIRS    162
+
+AF-Q7XCK0-F1     134 --GAAAADGGRCEEEKNDDGGRDRQYSSQRQGGAGAGGGRDGQMAAAHRQ    181
+                       |...::..:..||                       ..|.|.|...:|
+AF-Q8TB36-F1     163 QIGNTESELKKLAEE-----------------------NPDLQEAYIAKQ    189
+
+AF-Q7XCK0-F1     182 KVEEMKQLFEKSSKELSKVLDIYEQRLEEAE-----------------YL    214
+                     |..:.|.|...:.|.|.|:||..|:.|::.|                 :|
+AF-Q8TB36-F1     190 KRLKSKLLDHDNVKYLKKILDELEKVLDQVETELQRRNEETPEEGQQPWL    239
+
+AF-Q7XCK0-F1     215 AGDKFTLADLSHLPNADRLAADPRTLRML---------QSRRNVSRWWAD    255
+                     .|:.|||||:|       ||.....|:.|         ..|.|:..::..
+AF-Q8TB36-F1     240 CGESFTLADVS-------LAVTLHRLKFLGFARRNWGNGKRPNLETYYER    282
+
+AF-Q7XCK0-F1     256 VSGRESWKQV    265
+                     |..|:::.:|
+AF-Q8TB36-F1     283 VLKRKTFNKV    292
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,113 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:23
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0d554-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q12800-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0d554-f1_af-q12800-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0d554-f1_af-q12800-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0D554-F1
+# 2: AF-Q12800-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 950
+# Identity:      64/950 ( 6.7%)
+# Similarity:   103/950 (10.8%)
+# Gaps:         740/950 (77.9%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q12800-F1       1 MAWALKLPLADEVIESGLVQDFDASLSGIGQELGAGAYSMSDVLALPIFK     50
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q12800-F1      51 QEESSLPPDNENKILPFQYVLCAATSPAVKLHDETLTYLNQGQSYEIRML    100
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q12800-F1     101 DNRKLGELPEINGKLVKSIFRVVFHDRRLQYTEHQQLEGWRWNRPGDRIL    150
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q12800-F1     151 DIDIPMSVGIIDPRANPTQLNTVEFLWDPAKRTSVFIQVHCISTEFTMRK    200
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q12800-F1     201 HGGEKGVPFRVQIDTFKENENGEYTEHLHSASCQIKVFKPKGADRKQKTD    250
+
+AF-Q0D554-F1       1 -----------MESGQPNSAAAADKTQNSSVPPVEGVAGGGTSYGWVDGG     39
+                                .|..|| |......|:.|..|.:..| ....|.|: :..
+AF-Q12800-F1     251 REKMEKRTPHEKEKYQP-SYETTILTECSPWPEITYV-NNSPSPGF-NSS    297
+
+AF-Q0D554-F1      40 LQASSLGNGAIDPTKIHSADLLHVWSMPSTANVSQQEAPRPLEHVNLLAA     89
+                     ..:.|||.|...|.                   .|.|.|.|:.. |||..
+AF-Q12800-F1     298 HSSFSLGEGNGSPN-------------------HQPEPPPPVTD-NLLPT    327
+
+AF-Q0D554-F1      90 RNERESFQIALRPKVSWAT---SGIAGSVQVQCT-----DLCSSAGDRLV    131
+                     ...:|:.|...|.:.|..|   :..:|:..::.|     .:|..| |.:.
+AF-Q12800-F1     328 TTPQEAQQWLHRNRFSTFTRLFTNFSGADLLKLTRDDVIQICGPA-DGIR    376
+
+AF-Q0D554-F1     132 VGQSVTLRRVVPMLGVPDALVPIDPLNSQINLLPGETSAIWV---SLNVP    178
+                     :..::..|.|.|.|                        .|:|   ||.:.
+AF-Q12800-F1     377 LFNALKGRMVRPRL------------------------TIYVCQESLQLR    402
+
+AF-Q0D554-F1     179 CGQQ----------PGLYEGEIFI-SAVRAEAESRGE---------SLTK    208
+                     ..||          .|...|..|: .|:..|..:..|         |::.
+AF-Q12800-F1     403 EQQQQQQQQQQKHEDGDSNGTFFVYHAIYLEELTAVELTEKIAQLFSISP    452
+
+AF-Q0D554-F1     209 SERYQLYKELRNCIDITEPRDYSSSEEMVQRLTSASTTLRRMLALPSFQD    258
+                     .:..|:||:....|.:.      .|:||:|                :|| 
+AF-Q12800-F1     453 CQISQIYKQGPTGIHVL------ISDEMIQ----------------NFQ-    479
+
+AF-Q0D554-F1     259 CQENNGLGDMMDEDIMNNVAVRLKLSLTVWDFTLPLTPSLPAVFGISETV    308
+                      :|...:.|.|..:..::..:.||                          
+AF-Q12800-F1     480 -EEACFILDTMKAETNDSYHIILK--------------------------    502
+
+AF-Q0D554-F1     309 IEDRFCLEHGTKGWYDALDHHFRWLLQYRISPFFCRWGDSMRILAYTCPW    358
+                                                                       
+AF-Q12800-F1     502 --------------------------------------------------    502
+
+AF-Q0D554-F1     359 PADHPKAKEYYSDPRLAAYAVPYAPILSSTDAAKNSLRREVEILKSEAHW    408
+                                                                       
+AF-Q12800-F1     502 --------------------------------------------------    502
+
+AF-Q0D554-F1     409 SKSYFYLWDEPLNMEQYDVICSISNELRSYASDVRILTTYYCGPSGSELA    458
+                                                                       
+AF-Q12800-F1     502 --------------------------------------------------    502
+
+AF-Q0D554-F1     459 PSTFEAFVKVPNVLRPHTQIFCTSEWVLGTREDLVKDIVAELRPDLGEEW    508
+                                                                       
+AF-Q12800-F1     502 --------------------------------------------------    502
+
+AF-Q0D554-F1     509 WTYVCMGPSDPQPNWHLGMRGTQHRAVMWRVWKEGGTGFLYWGTNCYEKA    558
+                                                                       
+AF-Q12800-F1     502 --------------------------------------------------    502
+
+AF-Q0D554-F1     559 MIPSAEICFRRGLPPGDGVLFYPGEVFSSSHEPVASTRLERILSGMQDIE    608
+                                                                       
+AF-Q12800-F1     502 --------------------------------------------------    502
+
+AF-Q0D554-F1     609 YLKLYSSRYGREEGLALLEKTGVYLGPDRYALDHGPIDVMRGEVYRTCRS    658
+                                                                       
+AF-Q12800-F1     502 --------------------------------------------------    502
+
+
+#---------------------------------------
+#---------------------------------------

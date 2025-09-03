@@ -23,17 +23,17 @@ inputs:
     default:
       class: File
       format: edam:format_3475
-      location: ../test/workflow_test/foldseek_rice_up_9606.tsv
+      location: ../test/oryza_sativa_test_202509/foldseek_os_random_9606.tsv
   - id: split_fasta_query_species_dir
     type: Directory
     default:
       class: Directory
-      location: ../test/workflow_test/split_fasta_query_species/
+      location: ../test/oryza_sativa_test_202509/split_fasta_query_species/
   - id: split_fasta_hit_species_dir
     type: Directory
     default:
       class: Directory
-      location: ../test/workflow_test/split_fasta_hit_species/
+      location: ../test/oryza_sativa_test_202509/split_fasta_hit_species/
   - id: result_water_dir_name
     type: string
     default: "result_water"

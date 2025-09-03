@@ -1,0 +1,109 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:48
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o14920-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10nk5-f1_af-o14920-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10nk5-f1_af-o14920-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-O14920-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 879
+# Identity:      75/879 ( 8.5%)
+# Similarity:   140/879 (15.9%)
+# Gaps:         608/879 (69.2%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O14920-F1       1 MSWSPSLTTQTCGAWEMKERLGTGGFGNVIRWHNQETGEQIAIKQCRQEL     50
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O14920-F1      51 SPRNRERWCLEIQIMRRLTHPNVVAARDVPEGMQNLAPNDLPLLAMEYCQ    100
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O14920-F1     101 GGDLRKYLNQFENCCGLREGAILTLLSDIASALRYLHENRIIHRDLKPEN    150
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O14920-F1     151 IVLQQGEQRLIHKIIDLGYAKELDQGSLCTSFVGTLQYLAPELLEQQKYT    200
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O14920-F1     201 VTVDYWSFGTLAFECITGFRPFLPNWQPVQWHSKVRQKSEVDIVVSEDLN    250
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O14920-F1     251 GTVKFSSSLPYPNNLNSVLAERLEKWLQLMLMWHPRQRGTDPTYGPNGCF    300
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O14920-F1     301 KALDDILNLKLVHILNMVTGTIHTYPVTEDESLQSLKARIQQDTGIPEED    350
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O14920-F1     351 QELLQEAGLALIPDKPATQCISDGKLNEGHTLDMDLVFLFDNSKITYETQ    400
+
+AF-Q10NK5-F1       1 ------------------------------------METLRKQASKLREH     14
+                                                         ::||::..::|   
+AF-O14920-F1     401 ISPRPQPESVSCILQEPKRNLAFFQLRKVWGQVWHSIQTLKEDCNRL---    447
+
+AF-Q10NK5-F1      15 VAKQQQAVRKQFSARYNQDPSLVDEAELECHQNLQRLYNSTRAAK--HFQ     62
+                       :|.|........|.|...|.:..:.....|.|:        ||  .|:
+AF-O14920-F1     448 --QQGQRAAMMNLLRNNSCLSKMKNSMASMSQQLK--------AKLDFFK    487
+
+AF-Q10NK5-F1      63 RSIVRGVEGFIAVSTKQMEIVKKLAEDCCRYGNDNQNFGFILARASVEFG    112
+                     .||             |::: :|.:|                   ..|||
+AF-O14920-F1     488 TSI-------------QIDL-EKYSE-------------------QTEFG    504
+
+AF-Q10NK5-F1     113 NSHSQM---EKERENLLKFLGEQVFEPLREMIMSAPLEDARLLTYRYQRI    159
+                     .:..::   .:|.|..::..|.:              .:.:||..|...:
+AF-O14920-F1     505 ITSDKLLLAWREMEQAVELCGRE--------------NEVKLLVERMMAL    540
+
+AF-Q10NK5-F1     160 RQDMESQIADVMRKQLKSKESSGNADNSVKLQHAESKLSELRTTLSALGR    209
+                     :.|    |.|:.|..:..|: .|..|:      .|.:..||...|....|
+AF-O14920-F1     541 QTD----IVDLQRSPMGRKQ-GGTLDD------LEEQARELYRRLREKPR    579
+
+AF-Q10NK5-F1     210 EATA---AMEAVEVQQQQV-TFDRLLAMVDAERA----YHQNAADILNKL    251
+                     :...   :.|.|.:..|.: :|::.:.::..:.:    ..|.|.::|.|:
+AF-O14920-F1     580 DQRTEGDSQEMVRLLLQAIQSFEKKVRVIYTQLSKTVVCKQKALELLPKV    629
+
+AF-Q10NK5-F1     252 HDEMVQAKHHDEPENHYDETSSDPKTAATHEHSR----------------    285
+                      :|:|...:.||            ||....:..|                
+AF-O14920-F1     630 -EEVVSLMNEDE------------KTVVRLQEKRQKELWNLLKIACSKVR    666
+
+AF-Q10NK5-F1     286 ---STSEDHI-FTNTSEPTRTETSEPTRTETS--EPTRNGQEVHYVGEVI    329
+                        |.|.|.: .:..|:|.:. .|:|:....|  ||.:..:|:  |.|. 
+AF-O14920-F1     667 GPVSGSPDSMNASRLSQPGQL-MSQPSTASNSLPEPAKKSEEL--VAEA-    712
+
+AF-Q10NK5-F1     330 HPF---------DAQADGELSISVGDYVVVRQVAPNGW-----SEGECKG    365
+                     |..         |...:.:.|.:..|:         .|     .|..|..
+AF-O14920-F1     713 HNLCTLLENAIQDTVREQDQSFTALDW---------SWLQTEEEEHSCLE    753
+
+AF-Q10NK5-F1     366 KAGWFPSAYVEQRDKAPASKVIEPGLLTT    394
+                     :|.                          
+AF-O14920-F1     754 QAS--------------------------    756
+
+
+#---------------------------------------
+#---------------------------------------

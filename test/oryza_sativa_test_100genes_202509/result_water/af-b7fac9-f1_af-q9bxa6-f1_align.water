@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:57
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9bxa6-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q9bxa6-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q9bxa6-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q9BXA6-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 233
+# Identity:      72/233 (30.9%)
+# Similarity:   100/233 (42.9%)
+# Gaps:          48/233 (20.6%)
+# Score: 171.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     612 IGKGGFGTV-------YHGILENNDEVAVKVLVETSIAES--KDFLP-EV    651
+                     ||:|.:..|       |.|      .||:||:........  ..||| |:
+AF-Q9BXA6-F1      18 IGEGSYSKVKVATSKKYKG------TVAIKVVDRRRAPPDFVNKFLPREL     61
+
+AF-B7FAC9-F1     652 QTLSKVHHKNLV---ALVGYCQNKKCLALVYDFMPRGNLQQLLRGGYDSL    698
+                     ..|..|.|.::|   ..:..|..|  |.:|.:......||.:.|.|  .:
+AF-Q9BXA6-F1      62 SILRGVRHPHIVHVFEFIEVCNGK--LYIVMEAAATDLLQAVQRNG--RI    107
+
+AF-B7FAC9-F1     699 NWEERLHIALDAAQGLEYLHESCTPSIVHRDVKTPNILL--DKNLVAKIS    746
+                     ...:...:....|..:.|||:.   .:||||:|..|:||  |:..| |::
+AF-Q9BXA6-F1     108 PGVQARDLFAQIAGAVRYLHDH---HLVHRDLKCENVLLSPDERRV-KLT    153
+
+AF-B7FAC9-F1     747 DFGLSRAFNAAHTH--ISTVAAGTLGYLDPE------YHATFQLTVKTDV    788
+                     |||..|   .||.:  :||...|:..|..||      |...     |.||
+AF-Q9BXA6-F1     154 DFGFGR---QAHGYPDLSTTYCGSAAYASPEVLLGIPYDPK-----KYDV    195
+
+AF-B7FAC9-F1     789 YSFGIVLLEIVTGQPPVFMDPQTVHLPNWVRQK    821
+                     :|.|:||..:|||..| |.|.....||.  |||
+AF-Q9BXA6-F1     196 WSMGVVLYVMVTGCMP-FDDSDIAGLPR--RQK    225
+
+
+#---------------------------------------
+#---------------------------------------

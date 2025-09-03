@@ -1,0 +1,93 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:21
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0inq2-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p45844-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0inq2-f1_af-p45844-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0inq2-f1_af-p45844-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0INQ2-F1
+# 2: AF-P45844-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 675
+# Identity:     192/675 (28.4%)
+# Similarity:   330/675 (48.9%)
+# Gaps:          85/675 (12.6%)
+# Score: 655.0
+# 
+#
+#=======================================
+
+AF-Q0INQ2-F1      72 GTFDGVEVPLPAAQAV-SLPRAAADVVDDPAVFLTWEDVRVTVP----GR    116
+                     |....|:..|..||.. ||||.|       ||.:.:.|:..:||    .|
+AF-P45844-F1      51 GHLKKVDNNLTEAQRFSSLPRRA-------AVNIEFRDLSYSVPEGPWWR     93
+
+AF-Q0INQ2-F1     117 TRGSPPARILDGITGHARPGEVLAIMGPSGCGKTTLLDTLAGRLGQEMNQ    166
+                     .:|.  ..:|.||:|....||::|||||||.||:||::.|||.  :|...
+AF-P45844-F1      94 KKGY--KTLLKGISGKFNSGELVAIMGPSGAGKSTLMNILAGY--RETGM    139
+
+AF-Q0INQ2-F1     167 TGVILING--RQEKLAFGTSAYVTQDNVLMSTLSVREAVYYSAHLQLPDT    214
+                     .|.:||||  |..:.....|.|:.||::|:..|:|:||:..||||:|.:.
+AF-P45844-F1     140 KGAVLINGLPRDLRCFRKVSCYIMQDDMLLPHLTVQEAMMVSAHLKLQEK    189
+
+AF-Q0INQ2-F1     215 MLASEKRAHAERVIREMGLSDTMDTRIGGRITKGISGGQRKRMSICIEML    264
+                       ...:|...:.::..:||....:||.|     .:|||||||::|.:|::
+AF-P45844-F1     190 --DEGRREMVKEILTALGLLSCANTRTG-----SLSGGQRKRLAIALELV    232
+
+AF-Q0INQ2-F1     265 TRPRLLFLDEPTSGLDSAASYHVMSHITRVAAREGMTVIAAVHQPSGDVF    314
+                     ..|.::|.||||||||||:.:.|:| :.:..|:.|.::|..:||||..:|
+AF-P45844-F1     233 NNPPVMFFDEPTSGLDSASCFQVVS-LMKGLAQGGRSIICTIHQPSAKLF    281
+
+AF-Q0INQ2-F1     315 DLFHGLLLLAYGRMVFFGTVSNATEFFTQSGFPCPHLRNPSDHFLRTINK    364
+                     :||..|.:|:.|:.|:.|.|.|...:....|..||...||:|..:...:.
+AF-P45844-F1     282 ELFDQLYVLSQGQCVYRGKVCNLVPYLRDLGLNCPTYHNPADFVMEVASG    331
+
+AF-Q0INQ2-F1     365 DFD-----------EGTMESS-KANRKTAAEATNILTNAYHSTYSEKTAN    402
+                     ::.           ||..:|. |.:....||....|   :|     :.:.
+AF-P45844-F1     332 EYGDQNSRLVRAVREGMCDSDHKRDLGGDAEVNPFL---WH-----RPSE    373
+
+AF-Q0INQ2-F1     403 EIVEMKGMGGTPFRRKE----------QASFLTKLLVLTRRSFLNMHRDI    442
+                     |:.:.|.:.|.   ||:          .||.||:..:|.:|:||::.||.
+AF-P45844-F1     374 EVKQTKRLKGL---RKDSSSMEGCHSFSASCLTQFCILFKRTFLSIMRDS    420
+
+AF-Q0INQ2-F1     443 GYYWMRLGIYLGIGICLGTIFYQVGYSYSSIQSRCEVIMYTTALVTFMAI    492
+                     ....:|:..::|||:.:|.::..:|.....:.|....:.::...:.|.|:
+AF-P45844-F1     421 VLTHLRITSHIGIGLLIGLLYLGIGNEAKKVLSNSGFLFFSMLFLMFAAL    470
+
+AF-Q0INQ2-F1     493 GGFP---SFVEDIKLFRRERLSGHYGVMEFVISNTLSATPYLAVIAVIPG    539
+                       .|   :|..::.:|.||.|:..|.:..:.::.|::..|:..:..|...
+AF-P45844-F1     471 --MPTVLTFPLEMGVFLREHLNYWYSLKAYYLAKTMADVPFQIMFPVAYC    518
+
+AF-Q0INQ2-F1     540 AMMYYLTGLTRGAEHFAYFVATLCMCTLLVESMMMIIAVIVPDFLMGIII    589
+                     :::|::|.....|..|..|.|...|.:|:.:|:.::|........:...:
+AF-P45844-F1     519 SIVYWMTSQPSDAVRFVLFAALGTMTSLVAQSLGLLIGAASTSLQVATFV    568
+
+AF-Q0INQ2-F1     590 GAGIQGMMMLNGGFFRLPNELPKPV-WKYPCYYISFHKYAVQGFYKNEFI    638
+                     |......::|..|||...:.:|..: |   ..|||:.:|..:|...:.: 
+AF-P45844-F1     569 GPVTAIPVLLFSGFFVSFDTIPTYLQW---MSYISYVRYGFEGVILSIY-    614
+
+AF-Q0INQ2-F1     639 GLSFPSDQL---IEANATISGLQVLKERLQVEMG--YSKWVNLAILFGMM    683
+                     ||.  .:.|   |:........:.:...|.||..  |..::.|.|.|   
+AF-P45844-F1     615 GLD--REDLHCDIDETCHFQKSEAILRELDVENAKLYLDFIVLGIFF---    659
+
+AF-Q0INQ2-F1     684 VTYRMIFFVIVKIAEELRLKLRGIR    708
+                     ::.|:|.:.:      ||.|:|..|
+AF-P45844-F1     660 ISLRLIAYFV------LRYKIRAER    678
+
+
+#---------------------------------------
+#---------------------------------------

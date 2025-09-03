@@ -1,0 +1,141 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:28
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q02897-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p20701-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q02897-f1_af-p20701-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q02897-f1_af-p20701-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q02897-F1
+# 2: AF-P20701-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1287
+# Identity:     122/1287 ( 9.5%)
+# Similarity:   178/1287 (13.8%)
+# Gaps:         909/1287 (70.6%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+AF-Q02897-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P20701-F1       1 MKDSCITVMAMALLSGFFFFAPASSYNLDVRGARSFSPPRAGRHFGYRVL     50
+
+AF-Q02897-F1       1 -------------------------------MATTIFSRFSIYFCAMLLC     19
+                                                    ..|...|.::..:..|.|.
+AF-P20701-F1      51 QVGNGVIVGAPGEGNSTGSLYQCQSGTGHCLPVTLRGSNYTSKYLGMTLA    100
+
+AF-Q02897-F1      20 QGSMAQLFNPSTNPWHSPRQGSFRECRFDRLQAFEPLRKVRSEAGVTEYF     69
+                     .               .|..||...|                :.|::...
+AF-P20701-F1     101 T---------------DPTDGSILAC----------------DPGLSRTC    119
+
+AF-Q02897-F1      70 DEKNELFQCTGTFVIRRVIQPQGLLVPRYSNTPGLVYIIQGRGSMGLTFP    119
+                     |:...|   :|...:.|    |.|..|.....||....|:|...:...|.
+AF-P20701-F1     120 DQNTYL---SGLCYLFR----QNLQGPMLQGRPGFQECIKGNVDLVFLFD    162
+
+AF-Q02897-F1     120 GCPATYQQQFQQFSSQGQSQSQKFRDEHQKIHQFRQGDVVALPAGVAHWF    169
+                     |          ..|.|        .||.|||..|.: ||:...:..::.|
+AF-P20701-F1     163 G----------SMSLQ--------PDEFQKILDFMK-DVMKKLSNTSYQF    193
+
+AF-Q02897-F1     170 YNDGDASVVAIYVY----DINNSANQLEP-----RQKEFLLAGNNNRVQQ    210
+                          |:|.....|    |.::...:.:|     ..|..||..|      
+AF-P20701-F1     194 -----AAVQFSTSYKTEFDFSDYVKRKDPDALLKHVKHMLLLTN------    232
+
+AF-Q02897-F1     211 VYGSSIEQHSSQNIFNGFGTELLSEALGINTVAAKRL-------------    247
+                     .:|:          .|...||:..|.||....|.|.|             
+AF-P20701-F1     233 TFGA----------INYVATEVFREELGARPDATKVLIIITDGEATDSGN    272
+
+AF-Q02897-F1     248 ------------------QSQNDQR----------GEIVHVKNGLQLLKP    269
+                                       |::..|.          .|.|.:.:..:.||.
+AF-P20701-F1     273 IDAAKDIIRYIIGIGKHFQTKESQETLHKFASKPASEFVKILDTFEKLKD    322
+
+AF-Q02897-F1     270 TLTQQQEQAQAQYQEVQYSEQQQTS--------------SR---------    296
+                     ..|:.|::.   |.....|:|..||              ||         
+AF-P20701-F1     323 LFTELQKKI---YVIEGTSKQDLTSFNMELSSSGISADLSRGHAVVGAVG    369
+
+AF-Q02897-F1     297 ---WNGLEENFCTIKARVNIENPSRADSYNP--RAGRISSV-----NSQK    336
+                        |.|   .|..:||.:..:.....:...|  |||.:...     :.||
+AF-P20701-F1     370 AKDWAG---GFLDLKADLQDDTFIGNEPLTPEVRAGYLGYTVTWLPSRQK    416
+
+AF-Q02897-F1     337 FPILNLIQMSAT------RVNLYQNAILSPFWNVNAHSLVYMIQGQSRVQ    380
+                        .:|:...|.      ||.|:|.......|     |.|..|.|   .|
+AF-P20701-F1     417 ---TSLLASGAPRYQHMGRVLLFQEPQGGGHW-----SQVQTIHG---TQ    455
+
+AF-Q02897-F1     381 VVSNFGKTVF------DGVLRPGQLLII--PQHYAVLKKAEREGCQYIAI    422
+                     :.|.||..:.      ||   ..:||:|  |..|     .|:.|.:....
+AF-P20701-F1     456 IGSYFGGELCGVDVDQDG---ETELLLIGAPLFY-----GEQRGGRVFIY    497
+
+AF-Q02897-F1     423 KTNANAF--VSHLAGK--------NSVFRALP-------VDVVANAYRIS    455
+                     :.....|  ||.|.|.        .....||.       |||...| .:.
+AF-P20701-F1     498 QRRQLGFEEVSELQGDPGYPLGRFGEAITALTDINGDGLVDVAVGA-PLE    546
+
+AF-Q02897-F1     456 REQARSIKNNRGEEHGAFTPRFQQQYYPGFSNESESETSE----------    495
+                     .:.|..|.|.|   ||..:|:..|:.          |.::          
+AF-P20701-F1     547 EQGAVYIFNGR---HGGLSPQPSQRI----------EGTQVLSGIQWFGR    583
+
+AF-Q02897-F1     495 --------------------------------------------------    495
+                                                                       
+AF-P20701-F1     584 SIHGVKDLEGDGLADVAVGAESQMIVLSSRPVVDMVTLMSFSPAEIPVHE    633
+
+AF-Q02897-F1     495 --------------------------------------------------    495
+                                                                       
+AF-P20701-F1     634 VECSYSTSNKMKEGVNITICFQIKSLIPQFQGRLVANLTYTLQLDGHRTR    683
+
+AF-Q02897-F1     495 --------------------------------------------------    495
+                                                                       
+AF-P20701-F1     684 RRGLFPGGRHELRRNIAVTTSMSCTDFSFHFPVCVQDLISPINVSLNFSL    733
+
+AF-Q02897-F1     495 --------------------------------------------------    495
+                                                                       
+AF-P20701-F1     734 WEEEGTPRDQRAQGKDIPPILRPSLHSETWEIPFEKNCGEDKKCEANLRV    783
+
+AF-Q02897-F1     495 --------------------------------------------------    495
+                                                                       
+AF-P20701-F1     784 SFSPARSRALRLTAFASLSVELSLSNLEEDAYWVQLDLHFPPGLSFRKVE    833
+
+AF-Q02897-F1     495 --------------------------------------------------    495
+                                                                       
+AF-P20701-F1     834 MLKPHSQIPVSCEELPEESRLLSRALSCNVSSPIFKAGHSVALQMMFNTL    883
+
+AF-Q02897-F1     495 --------------------------------------------------    495
+                                                                       
+AF-P20701-F1     884 VNSSWGDSVELHANVTCNNEDSDLLEDNSATTIIPILYPINILIQDQEDS    933
+
+AF-Q02897-F1     495 --------------------------------------------------    495
+                                                                       
+AF-P20701-F1     934 TLYVSFTPKGPKIHQVKHMYQVRIQPSIHDHNIPTLEAVVGVPQPPSEGP    983
+
+AF-Q02897-F1     495 --------------------------------------------------    495
+                                                                       
+AF-P20701-F1     984 ITHQWSVQMEPPVPCHYEDLERLPDAAEPCLPGALFRCPVVFRQEILVQV   1033
+
+AF-Q02897-F1     495 --------------------------------------------------    495
+                                                                       
+AF-P20701-F1    1034 IGTLELVGEIEASSMFSLCSSLSISFNSSKHFHLYGSNASLAQVVMKVDV   1083
+
+AF-Q02897-F1     495 --------------------------------------------------    495
+                                                                       
+AF-P20701-F1    1084 VYEKQMLYLYVLSGIGGLLLLLLIFIVLYKVGFFKRNLKEKMEAGRGVPN   1133
+
+AF-Q02897-F1     495 -------------------------------------    495
+                                                          
+AF-P20701-F1    1134 GIPAEDSEQLASGQEAGDPGCLKPLHEKDSESGGGKD   1170
+
+
+#---------------------------------------
+#---------------------------------------

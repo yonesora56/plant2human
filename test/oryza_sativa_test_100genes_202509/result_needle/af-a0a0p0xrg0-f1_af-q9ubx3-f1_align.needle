@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:22:48
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0xrg0-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q9ubx3-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0xrg0-f1_af-q9ubx3-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0xrg0-f1_af-q9ubx3-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0XRG0-F1
+# 2: AF-Q9UBX3-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 325
+# Identity:      46/325 (14.2%)
+# Similarity:    73/325 (22.5%)
+# Gaps:         181/325 (55.7%)
+# Score: 81.0
+# 
+#
+#=======================================
+
+AF-A0A0P0XRG0      1 MPEMGARGGEAGAARVANGGGGGGTGGMRLFSPEYYALCTGGGMLAAGA-     49
+                              .|..|||               |..|:     ||:.:.|| 
+AF-Q9UBX3-F1       1 ---------MAAEARV---------------SRWYF-----GGLASCGAA     21
+
+AF-A0A0P0XRG0     50 --THLAITPLDVLKVNMQVNPMKYNSIFSGLNI-LVKEEGASSLWRGWAG     96
+                       ||    |||:|||::|.. .:.....:|:.: :|:.:|..:|:.|.:.
+AF-Q9UBX3-F1      22 CCTH----PLDLLKVHLQTQ-QEVKLRMTGMALRVVRTDGILALYSGLSA     66
+
+AF-A0A0P0XRG0     97 KFFGYGFQGGCKFGLYEYFK----KKYSDVLVDRNKSTIYFISSASAQII    142
+                     ...........:|.:||..:    |.....|....|..:..:|..:...:
+AF-Q9UBX3-F1      67 SLCRQMTYSLTRFAIYETVRDRVAKGSQGPLPFHEKVLLGSVSGLAGGFV    116
+
+AF-A0A0P0XRG0    143 ADVALCPFESVKVRVQTQPMFAKG-------LIDGFPRVYATEGL----S    181
+                     .    .|.:.|.||:|......:|       .:||..||...|||    |
+AF-Q9UBX3-F1     117 G----TPADLVNVRMQNDVKLPQGQRRNYAHALDGLYRVAREEGLRRLFS    162
+
+AF-A0A0P0XRG0    182 G-------------------------------------------------    182
+                     |                                                 
+AF-Q9UBX3-F1     163 GATMASSRGALVTVGQLSCYDQAKQLVLSTGYLSDNIFTHFVASFIAGGC    212
+
+AF-A0A0P0XRG0    182 --------------------------------------------------    182
+                                                                       
+AF-Q9UBX3-F1     213 ATFLCQPLDVLKTRLMNSKGEYQGVFHCAVETAKLGPLAFYKGLVPAGIR    262
+
+AF-A0A0P0XRG0    182 -------------------------    182
+                                              
+AF-Q9UBX3-F1     263 LIPHTVLTFVFLEQLRKNFGIKVPS    287
+
+
+#---------------------------------------
+#---------------------------------------

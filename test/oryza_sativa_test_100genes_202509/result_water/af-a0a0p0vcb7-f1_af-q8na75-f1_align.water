@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:40
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8na75-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0vcb7-f1_af-q8na75-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0vcb7-f1_af-q8na75-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-Q8NA75-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 218
+# Identity:      46/218 (21.1%)
+# Similarity:    73/218 (33.5%)
+# Gaps:          70/218 (32.1%)
+# Score: 75.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7     11 PEVLLSGSFDKSVAMNDMKDGGQSCNKWSVEADVESLAW--DPHNEHSFM     58
+                     |..|..|||.      .|:..|..|: :.: .|..|.||  ..|..|||.
+AF-Q8NA75-F1     160 PASLFIGSFP------GMRRPGMLCS-FQI-PDAWSCAWSLSIHAYHSFS    201
+
+AF-A0A0P0VCB7     59 VSLE---------NGMVQAFDKRTAS------------------------     75
+                     ..|.         .|..|:|.  |:|                        
+AF-Q8NA75-F1     202 TGLSQQVLLTNVVTGHQQSFG--TSSDVLAQQFAIMTPLLFNGCRSGEIF    249
+
+AF-A0A0P0VCB7     76 ------SNSNSGRPTFTLHAHEKAVSSISFSPSTPNFLATGSTDKMVKLW    119
+                           .|..||.....| :|:.||:|:... ....||.:......:|||
+AF-Q8NA75-F1     250 GIDLRCGNQGSGWKAICL-SHDSAVTSLQIL-QDGQFLVSSDMTGTIKLW    297
+
+AF-A0A0P0VCB7    120 DLSNNQPSCIASLNPKLGAIFSVSF----SNDSPFLLASGGSKGKLKVWN    165
+                     ||  ....|:....   |.:.:.::    .|:...::|:.|.....::|:
+AF-Q8NA75-F1     298 DL--RATKCVTQYE---GHVNNSAYLPVHVNEEEGVVAAVGQDCYTRIWS    342
+
+AF-A0A0P0VCB7    166 --------TLTEPAVANK    175
+                             |:..|..|::
+AF-Q8NA75-F1     343 LRHGHLLTTIPSPYPASE    360
+
+
+#---------------------------------------
+#---------------------------------------

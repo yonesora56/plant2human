@@ -1,0 +1,73 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:09
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o60239-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-o60239-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-o60239-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-O60239-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 418
+# Identity:      75/418 (17.9%)
+# Similarity:   153/418 (36.6%)
+# Gaps:          91/418 (21.8%)
+# Score: 103.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1      12 REHVAKQQQAVRKQFSARYNQDPSLVDEAEL--ECHQNLQRLYNSTRAAK     59
+                     |:...::::.:.:........||.:..|.|.  :...::.|.......|:
+AF-O60239-F1      21 RDEEEEEEEGMEQGLEEEEEVDPRIQGELEKLNQSTDDINRRETELEDAR     70
+
+AF-Q10NK5-F1      60 HFQRSIVRGVEGFIAVSTKQMEIVKKL---AEDCCRYGNDNQNFGFILAR    106
+                     ...||::      :..:.|..|:|||:   .||...|....:    :..:
+AF-O60239-F1      71 QKFRSVL------VEATVKLDELVKKIGKAVEDSKPYWEARR----VARQ    110
+
+AF-Q10NK5-F1     107 ASVEFGNSHSQMEKERENLLKFLGEQVFEPLREMIMSAP---LEDAR---    150
+                     |.:|...:....::..|         |....:|.|..|.   |||.:   
+AF-O60239-F1     111 AQLEAQKATQDFQRATE---------VLRAAKETISLAEQRLLEDDKRQF    151
+
+AF-Q10NK5-F1     151 ------LLTYRYQRIRQDMESQIADVMRKQLKSKESSGNADNSV-KLQHA    193
+                           :|.:..||:.:..:::    .|.:|..||::...:.:: :::..
+AF-O60239-F1     152 DSAWQEMLNHATQRVMEAEQTK----TRSELVHKETAARYNAAMGRMRQL    197
+
+AF-Q10NK5-F1     194 ESKLSELRTTLSALGRE----ATAAMEAVEVQQQQVTFDRLLAMVDAERA    239
+                     |.||..      |:.:.    ...|...|:::|.:.|.|.|.|.:...:.
+AF-O60239-F1     198 EKKLKR------AINKSKPYFELKAKYYVQLEQLKKTVDDLQAKLTLAKG    241
+
+AF-Q10NK5-F1     240 YHQNAADILNKLHDEMVQAKHHDEPENHYDETSSDPKTAATHEHSRSTS-    288
+                     .::.|...|..:.||:.:.:.         .::..|:.........||| 
+AF-O60239-F1     242 EYKMALKNLEMISDEIHERRR---------SSAMGPRGCGVGAEGSSTSV    282
+
+AF-Q10NK5-F1     289 --------------------EDHIFTNTSEPTRTETSEPTRTETSEPTRN    318
+                                         ||...:|......:|| :...:.:|.||..
+AF-O60239-F1     283 EDLPGSKPEPDAISVASEAFEDDSCSNFVSEDDSET-QSVSSFSSGPTSP    331
+
+AF-Q10NK5-F1     319 GQEVHYVGEVIHPFDAQADGELSISVGDYVVVRQV-APNGWSEGECKGKA    367
+                     .:.......|:.|  ...|....:|:.::.::..| .|    ..||.|.:
+AF-O60239-F1     332 SEMPDQFPAVVRP--GSLDLPSPVSLSEFGMMFPVLGP----RSECSGAS    375
+
+AF-Q10NK5-F1     368 GWFPSAYVEQRDKAPASK    385
+                     .  |...||:.|:|..::
+AF-O60239-F1     376 S--PECEVERGDRAEGAE    391
+
+
+#---------------------------------------
+#---------------------------------------

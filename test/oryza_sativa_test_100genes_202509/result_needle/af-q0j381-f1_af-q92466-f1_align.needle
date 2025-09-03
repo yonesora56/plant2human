@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:43
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0j381-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q92466-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0j381-f1_af-q92466-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0j381-f1_af-q92466-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0J381-F1
+# 2: AF-Q92466-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 518
+# Identity:      72/518 (13.9%)
+# Similarity:   117/518 (22.6%)
+# Gaps:         277/518 (53.5%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+AF-Q0J381-F1       1 ------------------------------MPMAAGTWVKLEQKGDGPGA     20
+                                                   .|.|.    ||..||.||..
+AF-Q92466-F1       1 MAPKKRPETQKTSEIVLRPRNKRSRSPLELEPEAK----KLCAKGSGPSR     46
+
+AF-Q0J381-F1      21 RSSHAITLVGGTAYAFGGEFTPRVPVDNAMYAFDLKSQC-WSALDASGDV     69
+                     |..                                 |.| |..|.....:
+AF-Q92466-F1      47 RCD---------------------------------SDCLWVGLAGPQIL     63
+
+AF-Q0J381-F1      70 PPPRVGVTMASVGATVYMFG-GRD-----QEHKELNELYSFDTATNRWTL    113
+                     ||.|      |:..|::... ||.     |:..:.:.|::.|:    :.:
+AF-Q92466-F1      64 PPCR------SIVRTLHQHKLGRASWPSVQQGLQQSFLHTLDS----YRI    103
+
+AF-Q0J381-F1     114 LSSGAGDGPP----------HRSYHSMVADAAGGGKVYV--FG-------    144
+                     |...|    |          |.::.|.||..:.||.:.:  ||       
+AF-Q92466-F1     104 LQKAA----PFDRRATSLAWHPTHPSTVAVGSKGGDIMLWNFGIKDKPTF    149
+
+AF-Q0J381-F1     145 --GCGDAGRLNDLWAYDVAAGRWEALPSPGEACKPRGGPGLAVAGGKVWV    192
+                       |.|..|.:..|....:...::       .|....|...|....|.:..
+AF-Q92466-F1     150 IKGIGAGGSITGLKFNPLNTNQF-------YASSMEGTTRLQDFKGNILR    192
+
+AF-Q0J381-F1     193 VYGFSGEELDDVHCYDPGTGAWSTVETTGGGGGGDKPSPRSVFCAAGIGK    242
+                     |:..|    |.::.:      :.:::.:.        |.|.|.....:|.
+AF-Q92466-F1     193 VFASS----DTINIW------FCSLDVSA--------SSRMVVTGDNVGN    224
+
+AF-Q0J381-F1     243 HVVVFGGEVDPSDLGHLGAGK--------------FSAEAFALDTETGAW    278
+                     .:::   .:|..:|.:|...|              |.|.| ::|.....|
+AF-Q92466-F1     225 VILL---NMDGKELWNLRMHKKKVTHVALNPCCDWFLATA-SVDQTVKIW    270
+
+AF-Q0J381-F1     279 ARLDDAGE-------HHPGPRGWCAFSAGEVDGRRGLLVYGGNSPTNDRL    321
+                     ......|:       .|..|.....||.   ||.|.|        |.|:.
+AF-Q92466-F1     271 DLRQVRGKASFLYSLPHRHPVNAACFSP---DGARLL--------TTDQK    309
+
+AF-Q0J381-F1     322 GDIYFFTP-----PLA----------------------------------    332
+                     .:|..::.     ||.                                  
+AF-Q92466-F1     310 SEIRVYSASQWDCPLGLIPHPHRHFQHLTPIKAAWHPRYNLIVVGRYPDP    359
+
+AF-Q0J381-F1     332 --------------------------------------------------    332
+                                                                       
+AF-Q92466-F1     360 NFKSCTPYELRTIDVFDGNSGKMMCQLYDPESSGISSLNEFNPMGDTLAS    409
+
+AF-Q0J381-F1     332 ------------------    332
+                                       
+AF-Q92466-F1     410 AMGYHILIWSQEEARTRK    427
+
+
+#---------------------------------------
+#---------------------------------------

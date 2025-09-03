@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:45
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q02897-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9bt30-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q02897-f1_af-q9bt30-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q02897-f1_af-q9bt30-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q02897-F1
+# 2: AF-Q9BT30-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 242
+# Identity:      45/242 (18.6%)
+# Similarity:    88/242 (36.4%)
+# Gaps:          68/242 (28.1%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+AF-Q02897-F1     238 GINTVAAKRLQSQNDQRGEIVHVKNGLQ---LLKP-TLTQQQEQAQAQYQ    283
+                     |...:|.:.|...:..||....|.:.||   :::| .|:..:|:..::..
+AF-Q9BT30-F1       3 GTGLLALRTLPGPSWVRGSGPSVLSRLQDAAVVRPGFLSTAEEETLSREL     52
+
+AF-Q02897-F1     284 EVQYSEQQQTSSRWNGLEENFC-TIKARVN-----IENPSRADSYNPRAG    327
+                     |.:...::.....|:.....|. |.|:|.:     |....:|.::.|...
+AF-Q9BT30-F1      53 EPELRRRRYEYDHWDAAIHGFRETEKSRWSEASRAILQRVQAAAFGPGQT    102
+
+AF-Q02897-F1     328 RISS---------------VNSQKFPILNLIQMSATRVNLYQNAILSPFW    362
+                     .:||               |:|.||       ..||...|   ::|||  
+AF-Q9BT30-F1     103 LLSSVHVLDLEARGYIKPHVDSIKF-------CGATIAGL---SLLSP--    140
+
+AF-Q02897-F1     363 NVNAHSLVYMIQGQSRVQVVSNFGKTVFDGVLRPG---QLLIIPQHYAVL    409
+                          |::.::..|                  .||   :||:.|....:|
+AF-Q9BT30-F1     141 -----SVMRLVHTQ------------------EPGEWLELLLEPGSLYIL    167
+
+AF-Q02897-F1     410 KKAEREGCQYIAIKTNANAFVSHLAGKNSVFRALPVDVVANA    451
+                     :.:.|....:..::...:.|     |:..:.|...:.|:..:
+AF-Q9BT30-F1     168 RGSARYDFSHEILRDEESFF-----GERRIPRGRRISVICRS    204
+
+
+#---------------------------------------
+#---------------------------------------

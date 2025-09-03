@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:37
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q14012-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-q14012-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-q14012-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-Q14012-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 308
+# Identity:      81/308 (26.3%)
+# Similarity:   140/308 (45.5%)
+# Gaps:          61/308 (19.8%)
+# Score: 244.0
+# 
+#
+#=======================================
+
+AF-Q75J49-F1      60 GPKEDWEIDLAKL-EIRYVIAQGTYGTVYRGTYDGQD------VAVKLLD    102
+                     ||:.....|:..: :.|.|:..|.:..|..    .:|      ||:|.: 
+AF-Q14012-F1       7 GPRWKQAEDIRDIYDFRDVLGTGAFSEVIL----AEDKRTQKLVAIKCI-     51
+
+AF-Q75J49-F1     103 WGEDGFATEAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIP    152
+                           |.|| ......|.:.|:||.||:.|||:       :...|:   
+AF-Q14012-F1      52 ------AKEA-LEGKEGSMENEIAVLHKIKHPNI-------VALDDI---     84
+
+AF-Q75J49-F1     153 TNNSNAGARTNLPARACCVVVEYLAGGTL------KQYLIKNSRRKLAYK    196
+                        ..:|....|       :::.::||.|      |.:..:....:|.::
+AF-Q14012-F1      85 ---YESGGHLYL-------IMQLVSGGELFDRIVEKGFYTERDASRLIFQ    124
+
+AF-Q75J49-F1     197 VVVQLALDLARGLSYLHSRKIVHRDVKTENML---LDTQRNLKIADFGVA    243
+                     |     ||   .:.|||...|||||:|.||:|   ||....:.|:|||::
+AF-Q14012-F1     125 V-----LD---AVKYLHDLGIVHRDLKPENLLYYSLDEDSKIMISDFGLS    166
+
+AF-Q75J49-F1     244 RVEAQNPKD-MTGATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCC    292
+                     ::|  :|.. ::.|.||.||:|||||..|||::..|.:|.|:..:.:.|.
+AF-Q14012-F1     167 KME--DPGSVLSTACGTPGYVAPEVLAQKPYSKAVDCWSIGVIAYILLCG    214
+
+AF-Q75J49-F1     293 DMPYPDLSFADVSSAVVHQNLRPDVPRC--CPSAFANIMRKCWDANPDKR    340
+                     ..|:.|.:.|.:...::......|.|..  ...:..:.:|...:.:|:||
+AF-Q14012-F1     215 YPPFYDENDAKLFEQILKAEYEFDSPYWDDISDSAKDFIRHLMEKDPEKR    264
+
+AF-Q75J49-F1     341 PDMDEVVQ    348
+                     ...::.:|
+AF-Q14012-F1     265 FTCEQALQ    272
+
+
+#---------------------------------------
+#---------------------------------------

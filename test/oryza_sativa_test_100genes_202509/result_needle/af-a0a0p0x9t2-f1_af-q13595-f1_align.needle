@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:53
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0x9t2-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q13595-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0x9t2-f1_af-q13595-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0x9t2-f1_af-q13595-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0X9T2-F1
+# 2: AF-Q13595-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 411
+# Identity:      26/411 ( 6.3%)
+# Similarity:    52/411 (12.7%)
+# Gaps:         291/411 (70.8%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+AF-A0A0P0X9T2      1 MAGSSESDYYSEEEEELGWEEDGLGSEGEEEDAEAARERALKRLDGLGKR     50
+                                                                       
+AF-Q13595-F1       0 --------------------------------------------------      0
+
+AF-A0A0P0X9T2     51 GVCYLSRVPPNMNPSHVRQMLSKYGEVQRIYLVPEGQGHRKHTNVRAKAY    100
+                                                                       
+AF-Q13595-F1       0 --------------------------------------------------      0
+
+AF-A0A0P0X9T2    101 TEGWIEFSKKSVAKRVANLLNGEQIGGKKRSPFYYDIWNIKYLKKFKWDD    150
+                                ::....|...|.:...:.:||       .....:.|.:.
+AF-Q13595-F1       1 -----------MSDVEENNFEGRESRSQSKSP-------TGTPARVKSES     32
+
+AF-A0A0P0X9T2    151 LVGEIA-------EKTHIREQKLNLEIAAAKKQRDHYLSNVEKSRTLKHI    193
+                     ..|..:       .::|.|.:.     .:..:.|.|......:||:..| 
+AF-Q13595-F1      33 RSGSRSPSRVSKHSESHSRSRS-----KSRSRSRRHSHRRYTRSRSHSH-     76
+
+AF-A0A0P0X9T2    194 QERRKKKQKTEGAEFNEVREEKIARPIPQKKPVEETDAKTKPKLPKDILA    243
+                     ..||:.:.::...|:.. |..:...|:..::  ..|.::..|. |...| 
+AF-Q13595-F1      77 SHRRRSRSRSYTPEYRR-RRSRSHSPMSNRR--RHTGSRANPD-PNTCL-    121
+
+AF-A0A0P0X9T2    244 GVFGGP--------------------------------------------    249
+                     ||||..                                            
+AF-Q13595-F1     122 GVFGLSLYTTERDLREVFSRYGPLSGVNVVYDQRTGRSRGFAFVYFERID    171
+
+AF-A0A0P0X9T2    249 --------------------------------------------------    249
+                                                                       
+AF-Q13595-F1     172 DSKEAMERANGMELDGRRIRVDYSITKRAHTPTPGIYMGRPTHSGGGGGG    221
+
+AF-A0A0P0X9T2    249 --------------------------------------------------    249
+                                                                       
+AF-Q13595-F1     222 GGGGGGGGGGRRRDSYYDRGYDRGYDRYEDYDYRYRRRSPSPYYSRYRSR    271
+
+AF-A0A0P0X9T2    249 -----------    249
+                                
+AF-Q13595-F1     272 SRSRSYSPRRY    282
+
+
+#---------------------------------------
+#---------------------------------------

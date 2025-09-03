@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:00
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0j381-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8nbe8-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0j381-f1_af-q8nbe8-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0j381-f1_af-q8nbe8-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0J381-F1
+# 2: AF-Q8NBE8-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 234
+# Identity:      57/234 (24.4%)
+# Similarity:    87/234 (37.2%)
+# Gaps:          56/234 (23.9%)
+# Score: 135.0
+# 
+#
+#=======================================
+
+AF-Q0J381-F1      20 ARSSHAITLVGGTAYAFGGEFTPRVPVDNAMYAFDLKSQCWSALDASGDV     69
+                     ||..|....:||..||.|| :....|.:.|.:...||.: |        :
+AF-Q8NBE8-F1     358 ARYYHCAVTLGGCVYALGG-YRKGAPAEEAEFYDPLKEK-W--------I    397
+
+AF-Q0J381-F1      70 PPPRV--GV---TMASVGATVYMFGGR--DQEHKELNELYSFDTATNRWT    112
+                     |...:  ||   |...:...:|:.||.  .:.....:::.|:::..|.|:
+AF-Q8NBE8-F1     398 PIANMIKGVGNATACVLHDVIYVIGGHCGYRGSCTYDKVQSYNSDINEWS    447
+
+AF-Q0J381-F1     113 LLSSGAGDGPPHRSYHSMVADAAGGGKVYVFGG------CGDAGRLNDLW    156
+                     |::|.     ||..|.  :.......|:|:.||      |          
+AF-Q8NBE8-F1     448 LITSS-----PHPEYG--LCSVPFENKLYLVGGQTTITEC----------    480
+
+AF-Q0J381-F1     157 AYDVAAGRWEALPSPGEACKPRGGPGLAVAGGKVWVVYGFS---GEELDD    203
+                      ||.....|..:....|.   |...|..:..|.::|..|:|   |..|..
+AF-Q8NBE8-F1     481 -YDPEQNEWREIAPMMER---RMECGAVIMNGCIYVTGGYSYSKGTYLQS    526
+
+AF-Q0J381-F1     204 VHCYDPGTGAWSTVETTGGGGGGDKPSP-RSVFC    236
+                     :..|||....|..|        |:.||. ||..|
+AF-Q8NBE8-F1     527 IEKYDPDLNKWEIV--------GNLPSAMRSHGC    552
+
+
+#---------------------------------------
+#---------------------------------------

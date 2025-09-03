@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:33
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q04771-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-q04771-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-q04771-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-Q04771-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 327
+# Identity:      87/327 (26.6%)
+# Similarity:   145/327 (44.3%)
+# Gaps:          87/327 (26.6%)
+# Score: 278.5
+# 
+#
+#=======================================
+
+AF-Q75J49-F1      78 IAQGTYGTVYRGTYDGQDVAVKLLDWGEDGFATEAETAALRTSFKQEVAV    127
+                     :.:|.||.|:||::.|::||||:       |::..|     .|:.:|..:
+AF-Q04771-F1     214 VGKGRYGEVWRGSWQGENVAVKI-------FSSRDE-----KSWFRETEL    251
+
+AF-Q75J49-F1     128 WH--KLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCVVVEY    175
+                     ::  .|.|.|:..|:.:.|           ::..:.|.|     .::..|
+AF-Q04771-F1     252 YNTVMLRHENILGFIASDM-----------TSRHSSTQL-----WLITHY    285
+
+AF-Q75J49-F1     176 LAGGTLKQYLIKNSRRKLAYKVVVQLALDLARGLSYLH--------SRKI    217
+                     ...|:|..||...:...::   .:::.|.:|.||::||        ...|
+AF-Q04771-F1     286 HEMGSLYDYLQLTTLDTVS---CLRIVLSIASGLAHLHIEIFGTQGKPAI    332
+
+AF-Q75J49-F1     218 VHRDVKTENMLLDTQRNLKIADFGVARVEAQ---------NPKDMTGATG    258
+                     .|||:|::|:|:.......|||.|:|.:.:|         ||:     .|
+AF-Q04771-F1     333 AHRDLKSKNILVKKNGQCCIADLGLAVMHSQSTNQLDVGNNPR-----VG    377
+
+AF-Q75J49-F1     259 TLGYMAPEVLDG-------KPYNRKCDVYSFGICLWEI------------    289
+                     |..||||||||.       ..|.| .|:::||:.|||:            
+AF-Q04771-F1     378 TKRYMAPEVLDETIQVDCFDSYKR-VDIWAFGLVLWEVARRMVSNGIVED    426
+
+AF-Q75J49-F1     290 -----YCCDMPYPDLSFADVSSAVVHQNLRPDVPRCCPS-----AFANIM    329
+                          |  |:...|.||.|:...|.....||::|....|     :.|.:|
+AF-Q04771-F1     427 YKPPFY--DVVPNDPSFEDMRKVVCVDQQRPNIPNRWFSDPTLTSLAKLM    474
+
+AF-Q75J49-F1     330 RKCWDANPDKRPDMDEVVQLLEALDTS    356
+                     ::||..||..|.....:.:.|..:|.|
+AF-Q04771-F1     475 KECWYQNPSARLTALRIKKTLTKIDNS    501
+
+
+#---------------------------------------
+#---------------------------------------

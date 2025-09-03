@@ -1,0 +1,121 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:07
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p54760-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q75j49-f1_af-p54760-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q75j49-f1_af-p54760-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-P54760-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1027
+# Identity:     106/1027 (10.3%)
+# Similarity:   178/1027 (17.3%)
+# Gaps:         688/1027 (67.0%)
+# Score: 293.0
+# 
+#
+#=======================================
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54760-F1       1 MELRVLLCWASLAAALEETLLNTKLETADLKWVTFPQVDGQWEELSGLDE     50
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54760-F1      51 EQHSVRTYEVCDVQRAPGQAHWLRTGWVPRRGAVHVYATLRFTMLECLSL    100
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54760-F1     101 PRAGRSCKETFTVFYYESDADTATALTPAWMENPYIKVDTVAAEHLTRKR    150
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54760-F1     151 PGAEATGKVNVKTLRLGPLSKAGFYLAFQDQGACMALLSLHLFYKKCAQL    200
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54760-F1     201 TVNLTRFPETVPRELVVPVAGSCVVDAVPAPGPSPSLYCREDGQWAEQPV    250
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54760-F1     251 TGCSCAPGFEAAEGNTKCRACAQGTFKPLSGEGSCQPCPANSHSNTIGSA    300
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54760-F1     301 VCQCRVGYFRARTDPRGAPCTTPPSAPRSVVSRLNGSSLHLEWSAPLESG    350
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54760-F1     351 GREDLTYALRCRECRPGGSCAPCGGDLTFDPGPRDLVEPWVVVRGLRPDF    400
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54760-F1     401 TYTFEVTALNGVSSLATGPVPFEPVNVTTDREVPPAVSDIRVTRSSPSSL    450
+
+AF-Q75J49-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54760-F1     451 SLAWAVPRAPSGAVLDYEVKYHEKGAEGPSSVRFLKTSENRAELRGLKRG    500
+
+AF-Q75J49-F1       1 ----------------------MASSTSDIPEG-REKLKRSGSLGSSDTA     27
+                                           .:.:..|..|| ||:|....  |::...
+AF-P54760-F1     501 ASYLVQVRARSEAGYGPFGQEHHSQTQLDESEGWREQLALIA--GTAVVG    548
+
+AF-Q75J49-F1      28 YVRADKIDLTSLDIQLEKQLTKTWGKAN------LKAHGPK--------E     63
+                     .|....:.:.:: :.|.||......:.:      |..||.|        |
+AF-P54760-F1     549 VVLVLVVIVVAV-LCLRKQSNGREAEYSDKHGQYLIGHGTKVYIDPFTYE    597
+
+AF-Q75J49-F1      64 D---------WEIDLAKLEIRYVIAQGTYGTVYRGTYDGQD-----VAVK     99
+                     |         .|||::.::|..||..|.:|.|.||......     ||:|
+AF-P54760-F1     598 DPNEAVREFAKEIDVSYVKIEEVIGAGEFGEVCRGRLKAPGKKESCVAIK    647
+
+AF-Q75J49-F1     100 LLDWGEDGFATEAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDL    149
+                     .|..|    .||.:    |..|..|.::..:..|||:.:..|        
+AF-P54760-F1     648 TLKGG----YTERQ----RREFLSEASIMGQFEHPNIIRLEG--------    681
+
+AF-Q75J49-F1     150 KIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYKVVV    199
+                      :.||        ::|.   .::.|::..|.|..:|..|..:....::|.
+AF-P54760-F1     682 -VVTN--------SMPV---MILTEFMENGALDSFLRLNDGQFTVIQLVG    719
+
+AF-Q75J49-F1     200 QLALDLARGLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQN    249
+                     .|. .:|.|:.||.....||||:...|:|:::....|::|||::|...:|
+AF-P54760-F1     720 MLR-GIASGMRYLAEMSYVHRDLAARNILVNSNLVCKVSDFGLSRFLEEN    768
+
+AF-Q75J49-F1     250 PKDMTGATGTLG------YMAPEVLDGKPYNRKCDVYSFGICLWEIYCC-    292
+                     ..|.| .|.:||      :.|||.:..:.:....|.:|:||.:||:... 
+AF-P54760-F1     769 SSDPT-YTSSLGGKIPIRWTAPEAIAFRKFTSASDAWSYGIVMWEVMSFG    817
+
+AF-Q75J49-F1     293 DMPYPDLSFADVSSAVVHQNLRPDVPRCCPSAFANIMRKCWDANPDKRPD    342
+                     :.||.|:|..||.:| :.|:.|...|..||::...:|..||..:.:.||.
+AF-P54760-F1     818 ERPYWDMSNQDVINA-IEQDYRLPPPPDCPTSLHQLMLDCWQKDRNARPR    866
+
+AF-Q75J49-F1     343 MDEVVQLLEALDTSKGGGMIPDGQSSGCLCFTKARGP-------------    379
+                     ..:||..|:.:..:.....|...::.|      |..|             
+AF-P54760-F1     867 FPQVVSALDKMIRNPASLKIVARENGG------ASHPLLDQRQPHYSAFG    910
+
+AF-Q75J49-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P54760-F1     911 SVGEWLRAIKMGRYEESFAAAGFGSFELVSQISAEDLLRIGVTLAGHQKK    960
+
+AF-Q75J49-F1     379 ---------------------------    379
+                                                
+AF-P54760-F1     961 ILASVQHMKSQAKPGTPGGTGGPAPQY    987
+
+
+#---------------------------------------
+#---------------------------------------

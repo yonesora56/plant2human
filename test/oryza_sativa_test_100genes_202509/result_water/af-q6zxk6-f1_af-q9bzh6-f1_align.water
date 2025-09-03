@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:01
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6zxk6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9bzh6-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6zxk6-f1_af-q9bzh6-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6zxk6-f1_af-q9bzh6-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6ZXK6-F1
+# 2: AF-Q9BZH6-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:      47/208 (22.6%)
+# Similarity:    73/208 (35.1%)
+# Gaps:          51/208 (24.5%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+AF-Q6ZXK6-F1      45 PVDNAMYAFDLKSQCWSALDASGDVPP-PRVGVTMASVGATVYMFGGRDQ     93
+                     ||....|  ||:||| .|:..:..|.| ..|...:....|.:.:..||..
+AF-Q9BZH6-F1     335 PVQELTY--DLRSQC-DAIRVTKTVRPFSMVCCPVNENAAALVVSDGRVM    381
+
+AF-Q6ZXK6-F1      94 EHKELNELYSFDTATNRWTLLSSGAGDGP-------------------PH    124
+                            ::...:|.......:|.:|..|                   |.
+AF-Q9BZH6-F1     382 -------IWELKSAVCNRNSRNSSSGVSPLYSPVSFCGIPVGVLQNKLPD    424
+
+AF-Q6ZXK6-F1     125 RSYHSMVADAAGGGKVYVFGGCGDAGRLNDLWAYDVAAGRWEALPSPGEA    174
+                     .|..:|:..:|..|:.:..|..     |.::....:..|....||:|..|
+AF-Q9BZH6-F1     425 LSLDNMIGQSAIAGEEHPRGSI-----LREVHLKFLLTGLLSGLPAPQFA    469
+
+AF-Q6ZXK6-F1     175 ---CKP-------RGGPGLAV--AGGKVWVVYGFSG---EELDDVHCYDP    209
+                        |.|       ...|.|||  :.|.|.|.:..||   :||....|...
+AF-Q9BZH6-F1     470 IRMCPPLTTKNIKMYQPLLAVGTSNGSVLVYHLTSGLLHKELSIHSCEVK    519
+
+AF-Q6ZXK6-F1     210 GTGAWSTV    217
+                     |. .|:::
+AF-Q9BZH6-F1     520 GI-EWTSL    526
+
+
+#---------------------------------------
+#---------------------------------------

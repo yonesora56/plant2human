@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:16
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6yzi0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p19878-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6yzi0-f1_af-p19878-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6yzi0-f1_af-p19878-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6YZI0-F1
+# 2: AF-P19878-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 312
+# Identity:      52/312 (16.7%)
+# Similarity:   102/312 (32.7%)
+# Gaps:         113/312 (36.2%)
+# Score: 93.0
+# 
+#
+#=======================================
+
+AF-Q6YZI0-F1      85 MQAIECFNEAVRIDPGNACALTYCGMIYKDEGHLVEAAEAYQKARNADPS    134
+                     ::||..:||               |::..|:.....|.:|:...:  ||.
+AF-P19878-F1       4 VEAISLWNE---------------GVLAADKKDWKGALDAFSAVQ--DPH     36
+
+AF-Q6YZI0-F1     135 YKPAAEFLAIVLTDLGTSLKLAGNTEEGIQKYCEALEVDSHYAPAYYNLG    184
+                     .:        :..::|....:..|..|..:.:..::..|.|.|.||:..|
+AF-P19878-F1      37 SR--------ICFNIGCMYTILKNMTEAEKAFTRSINRDKHLAVAYFQRG     78
+
+AF-Q6YZI0-F1     185 VVYSEMMQFDLALTCYEKAALERPLYAEAYCNMGVIYKNRGELEAAIACY    234
+                     ::|.:..::|||:.                           :|:.|:   
+AF-P19878-F1      79 MLYYQTEKYDLAIK---------------------------DLKEAL---     98
+
+AF-Q6YZI0-F1     235 ERCLTISPNFEIAKNNMAIALTDLGTKVKIEGDINQGVAYYKKALFYNWH    284
+                                                :::.|  ||.:.|....|.:...
+AF-P19878-F1      99 ---------------------------IQLRG--NQLIDYKILGLQFKLF    119
+
+AF-Q6YZI0-F1     285 YADAMYNLGVAYGEMLNFEMAIVFYELA--LHFNPRCAEACNNLGVIYKD    332
+                     ..:.:||:...|.:...::.|.....||  :...||              
+AF-P19878-F1     120 ACEVLYNIAFMYAKKEEWKKAEEQLALATSMKSEPR--------------    155
+
+AF-Q6YZI0-F1     333 RDNLDKAVEC------YQ-----MALSIKPNFSQSLNNLGVVYTVQGKMD    371
+                     ...:|||:||      |:     :....:||..|........|.  ||..
+AF-P19878-F1     156 HSKIDKAMECVWKQKLYEPVVIPVGKLFRPNERQVAQLAKKDYL--GKAT    203
+
+AF-Q6YZI0-F1     372 AASSMIQKAIFA    383
+                     ..:|::.:..|:
+AF-P19878-F1     204 VVASVVDQDSFS    215
+
+
+#---------------------------------------
+#---------------------------------------

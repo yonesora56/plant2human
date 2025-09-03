@@ -1,0 +1,93 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:08
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p29320-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-p29320-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-p29320-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-P29320-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 678
+# Identity:     154/678 (22.7%)
+# Similarity:   257/678 (37.9%)
+# Gaps:         165/678 (24.3%)
+# Score: 324.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     363 YFQLRKTPDSQL---PPLINAYEVYSRVQVENFTTAS--------SDVDS    401
+                     ||:..|.|.|..   ||      ...|..:.|....|        .|...
+AF-P29320-F1     310 YFRADKDPPSMACTRPP------SSPRNVISNINETSVILDWSWPLDTGG    353
+
+AF-B7FAC9-F1     402 MKTIKEKYMVIK-NWN---GDPCS------PREYIWNGLTCTYPNGGQNP    441
+                     .|.:....:..| .||   .:|||      ||::   |||        |.
+AF-P29320-F1     354 RKDVTFNIICKKCGWNIKQCEPCSPNVRFLPRQF---GLT--------NT    392
+
+AF-B7FAC9-F1     442 RIVEINLSG--------SGLQGELEIS-----FMKMS------------S    466
+                     .:...:|..        ..:.|..|:|     |..:|            :
+AF-P29320-F1     393 TVTVTDLLAHTNYTFEIDAVNGVSELSSPPRQFAAVSITTNQAAPSPVLT    442
+
+AF-B7FAC9-F1     467 LKKLDLSHNNLT----------GTIPDYQV---------NSLTVIDL--S    495
+                     :||...|.|:::          |.|.||:|         .|.|::..  :
+AF-P29320-F1     443 IKKDRTSRNSISLSWQEPEHPNGIILDYEVKYYEKQEQETSYTILRARGT    492
+
+AF-B7FAC9-F1     496 NNQLNGSIPDSIL-----QRYKAGL----LELRLEGNPICSKVRASYCGN    536
+                     |..::...||:|.     .|..||.    .:...|.:|      .|:..:
+AF-P29320-F1     493 NVTISSLKPDTIYVFQIRARTAAGYGTNSRKFEFETSP------DSFSIS    536
+
+AF-B7FAC9-F1     537 KKNTRTRILLISVLVPVTSLLVVLFI-FWRLC-WKGKSRKSEEE------    578
+                     .::::..::.||..|.:..|.||::: ..|.| :|.|....|:.      
+AF-P29320-F1     537 GESSQVVMIAISAAVAIILLTVVIYVLIGRFCGYKSKHGADEKRLHFGNG    586
+
+AF-B7FAC9-F1     579 -----------DYDMYEEETPLHIDIRRFTYAELKLITNNFQSIIGKGGF    617
+                                |...||:.|..   :..|. .||.....:...::|.|.|
+AF-P29320-F1     587 HLKLPGLRTYVDPHTYEDPTQA---VHEFA-KELDATNISIDKVVGAGEF    632
+
+AF-B7FAC9-F1     618 GTVYHGILENNDEVAVKVLVET-----SIAESKDFLPEVQTLSKVHHKNL    662
+                     |.|..|.|:...:..:.|.::|     :..:.:|||.|...:.:..|.|:
+AF-P29320-F1     633 GEVCSGRLKLPSKKEISVAIKTLKVGYTEKQRRDFLGEASIMGQFDHPNI    682
+
+AF-B7FAC9-F1     663 VALVGYCQNKKCLALVYDFMPRGNLQQLLRGGYDSLNWEERLHIALDAAQ    712
+                     :.|.|.....|.:.:|.::|..|:|...||.........:.:.:....|.
+AF-P29320-F1     683 IRLEGVVTKSKPVMIVTEYMENGSLDSFLRKHDAQFTVIQLVGMLRGIAS    732
+
+AF-B7FAC9-F1     713 GLEYLHESCTPSIVHRDVKTPNILLDKNLVAKISDFGLSRAFNAAHTHIS    762
+                     |::||.:.   ..||||:...|||::.|||.|:|||||||..........
+AF-P29320-F1     733 GMKYLSDM---GYVHRDLAARNILINSNLVCKVSDFGLSRVLEDDPEAAY    779
+
+AF-B7FAC9-F1     763 TVAAG--TLGYLDPEYHATFQLTVKTDVYSFGIVLLEIVT-GQPPVFMDP    809
+                     |...|  .:.:..||..|..:.|..:||:|:||||.|::: |:.|.    
+AF-P29320-F1     780 TTRGGKIPIRWTSPEAIAYRKFTSASDVWSYGIVLWEVMSYGERPY----    825
+
+AF-B7FAC9-F1     810 QTVHLPNWVRQKIANGSVHDVVDK--KLLDQYDATHLQTVIDLAMNCLEN    857
+                            |   :::|..|...||:  :|....|..  ..:..|.::|.:.
+AF-P29320-F1     826 -------W---EMSNQDVIKAVDEGYRLPPPMDCP--AALYQLMLDCWQK    863
+
+AF-B7FAC9-F1     858 ASIDRPSMTEVVSVLKVCLPISSERQSATSTPRKKNVMDAEIPRQFQLMI    907
+                     ...:||...::||:|          ......|....::.:...|...|::
+AF-P29320-F1     864 DRNNRPKFEQIVSIL----------DKLIRNPGSLKIITSAAARPSNLLL    903
+
+AF-B7FAC9-F1     908 --SGASTTSYE--GSSFQSGYTGGVSEI    931
+                       |....|::.  |......:|....||
+AF-P29320-F1     904 DQSNVDITTFRTTGDWLNGVWTAHCKEI    931
+
+
+#---------------------------------------
+#---------------------------------------

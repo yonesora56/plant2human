@@ -1,0 +1,93 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:58
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q05397-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q05397-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q05397-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q05397-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 698
+# Identity:     146/698 (20.9%)
+# Similarity:   252/698 (36.1%)
+# Gaps:         155/698 (22.2%)
+# Score: 220.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     292 LNISVSASNSLATDLELLPVFH-FVELGNNGSKRIFDIYNVDEPQALFSN    340
+                     |.|:......:|..|..|.:.. :.|:..|..::..: |.|.|.......
+AF-Q05397-F1     157 LEIADQVDQEIALKLGCLEIRRSYWEMRGNALEKKSN-YEVLEKDVGLKR    205
+
+AF-B7FAC9-F1     341 FSPPSFLSSMFHNWFLRKGRRAYFQLRKTPDSQLPPLINAYEVYS---RV    387
+                     |.|.|.|.|:......:..::.:.|....  ::...::..:|:.|   |.
+AF-Q05397-F1     206 FFPKSLLDSVKAKTLRKLIQQTFRQFANL--NREESILKFFEILSPVYRF    253
+
+AF-B7FAC9-F1     388 QVENFTTA--SSDVDSMKTI---KE--KYMVIKNWNGDPCSPREY--IWN    428
+                     ..|.|..|  ||.:.|::..   :|  .|:..|.     |:|...  ...
+AF-Q05397-F1     254 DKECFKCALGSSWIISVELAIGPEEGISYLTDKG-----CNPTHLADFTQ    298
+
+AF-B7FAC9-F1     429 GLTCTYPNGGQNPRIVEINLSGSGLQGELEISFMKMSSLKKLDLSHNNLT    478
+                     ..|..|.|.....|           :|.|::         |:..:...||
+AF-Q05397-F1     299 VQTIQYSNSEDKDR-----------KGMLQL---------KIAGAPEPLT    328
+
+AF-B7FAC9-F1     479 GTIPDYQV--NSLTVIDLSNNQLNGSIPDSILQRYKAGLLELRLEGNPIC    526
+                     .|.|...:  |...:||.....:||:....|::..|.|...|     |..
+AF-Q05397-F1     329 VTAPSLTIAENMADLIDGYCRLVNGTSQSFIIRPQKEGERAL-----PSI    373
+
+AF-B7FAC9-F1     527 SKVRASYCGNKKNTRTRILLISVLVPVTSLLVVLFIFWRLCWKGKSRKSE    576
+                     .|:..|   .|:..||..:.:|.......::                 .|
+AF-Q05397-F1     374 PKLANS---EKQGMRTHAVSVSETDDYAEII-----------------DE    403
+
+AF-B7FAC9-F1     577 EEDYDM-----YEEETPLHIDIRRFTYAELKLITNNFQSIIGKGGFGTVY    621
+                     |:.|.|     ||.:.. .|::.|               .||:|.||.|:
+AF-Q05397-F1     404 EDTYTMPSTRDYEIQRE-RIELGR---------------CIGEGQFGDVH    437
+
+AF-B7FAC9-F1     622 HGILENNDEVAVKVLVET-------SIAESKDFLPEVQTLSKVHHKNLVA    664
+                     .||..:.:..|:.|.::|       |:.|.  ||.|..|:.:..|.::|.
+AF-Q05397-F1     438 QGIYMSPENPALAVAIKTCKNCTSDSVREK--FLQEALTMRQFDHPHIVK    485
+
+AF-B7FAC9-F1     665 LVGYCQNKKCLALVYDFMPRGNLQQLLRGGYDSLNWEERLHIALDAAQGL    714
+                     |:|.. .:..:.::.:....|.|:..|:....||:....:..|...:..|
+AF-Q05397-F1     486 LIGVI-TENPVWIIMELCTLGELRSFLQVRKYSLDLASLILYAYQLSTAL    534
+
+AF-B7FAC9-F1     715 EYLHESCTPSIVHRDVKTPNILLDKNLVAKISDFGLSRAFNAAHTHISTV    764
+                     .||.   :...||||:...|:|:..|...|:.||||||....:..:.::.
+AF-Q05397-F1     535 AYLE---SKRFVHRDIAARNVLVSSNDCVKLGDFGLSRYMEDSTYYKASK    581
+
+AF-B7FAC9-F1     765 AAGTLGYLDPEYHATFQLTVKTDVYSFGIVLLEIVT-GQPPVFMDPQTVH    813
+                     ....:.::.||.....:.|..:||:.||:.:.||:. |..|.        
+AF-Q05397-F1     582 GKLPIKWMAPESINFRRFTSASDVWMFGVCMWEILMHGVKPF--------    623
+
+AF-B7FAC9-F1     814 LPNWVRQKIANGSVHDVVDKKLLDQYDATHL-----QTVIDLAMNCLENA    858
+                           |.:.|   :||:.:  ::..:...:     .|:..|...|....
+AF-Q05397-F1     624 ------QGVKN---NDVIGR--IENGERLPMPPNCPPTLYSLMTKCWAYD    662
+
+AF-B7FAC9-F1     859 SIDRPSMTEVVSVLKVCLP-----------ISSERQSATS--------TP    889
+                     ...||..||:.:.|...|.           :.|.||:..|        .|
+AF-Q05397-F1     663 PSRRPRFTELKAQLSTILEEEKAQQEERMRMESRRQATVSWDSGGSDEAP    712
+
+AF-B7FAC9-F1     890 RKKNVMDAEIPR---------QFQLMISGASTTSYEGSSFQSGYTGGV    928
+                     .|.:......||         |..:..:....:.|.||...:...|.:
+AF-Q05397-F1     713 PKPSRPGYPSPRSSEGFYPSPQHMVQTNHYQVSGYPGSHGITAMAGSI    760
+
+
+#---------------------------------------
+#---------------------------------------

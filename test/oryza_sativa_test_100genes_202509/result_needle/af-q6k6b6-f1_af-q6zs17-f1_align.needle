@@ -1,0 +1,173 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:29
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6k6b6-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q6zs17-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6k6b6-f1_af-q6zs17-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6k6b6-f1_af-q6zs17-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6K6B6-F1
+# 2: AF-Q6ZS17-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1667
+# Identity:     168/1667 (10.1%)
+# Similarity:   260/1667 (15.6%)
+# Gaps:        1112/1667 (66.7%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+AF-Q6K6B6-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q6ZS17-F1       1 MMSLSVRPQRRLLSARVNRSQSFAGVLGSHERGPSLSFRSFPVFSPPGPP     50
+
+AF-Q6K6B6-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q6ZS17-F1      51 RKPPALSRVSRMFSVAHPAAKVPQPERLDLVYTALKRGLTAYLEVHQQEQ    100
+
+AF-Q6K6B6-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q6ZS17-F1     101 EKLQGQIRESKRNSRLGFLYDLDKQVKSIERFLRRLEFHASKIDELYEAY    150
+
+AF-Q6K6B6-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q6ZS17-F1     151 CVQRRLRDGAYNMVRAYTTGSPGSREARDSLAEATRGHREYTESMCLLES    200
+
+AF-Q6K6B6-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q6ZS17-F1     201 ELEAQLGEFHLRMKGLAGFARLCVGDQYEICMKYGRQRWKLRGRIEGSGK    250
+
+AF-Q6K6B6-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q6ZS17-F1     251 QVWDSEETIFLPLLTEFLSIKVTELKGLANHVVVGSVSCETKDLFAALPQ    300
+
+AF-Q6K6B6-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q6ZS17-F1     301 VVAVDINDLGTIKLSLEVTWSPFDKDDQPSAASSVNKASTVTKRFSTYSQ    350
+
+AF-Q6K6B6-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q6ZS17-F1     351 SPPDTPSLREQAFYNMLRRQEELENGTAWSLSSESSDDSSSPQLSGTARH    400
+
+AF-Q6K6B6-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q6ZS17-F1     401 SPAPRPLVQQPEPLPIQVAFRRPETPSSGPLDEEGAVAPVLANGHAPYSR    450
+
+AF-Q6K6B6-F1       1 -------------MAKAAEKLVVEVVAAHNL----------MPKDGQGSS     27
+                                  :|:|:    ||.|...:|          .|..|:..|
+AF-Q6ZS17-F1     451 TLSHISEASVDAALAEAS----VEAVGPESLAWGPSPPTHPAPTHGEHPS    496
+
+AF-Q6K6B6-F1      28 SAYVEVEFEHQRR-----RTRARPKELNPVWNERL--VFAVAD--PDDLP     68
+                     .....::..|...     .|.:.|...:|..:..|  |....|  |.:||
+AF-Q6ZS17-F1     497 PVPPALDPGHSATSSTLGTTGSVPTSTDPAPSAHLDSVHKSTDSGPSELP    546
+
+AF-Q6K6B6-F1      69 ----------YRAIDVGVYNDRAASGGVAGGGGAAPH------------G     96
+                               |.||.    ...:|...:......:.|            .
+AF-Q6ZS17-F1     547 GPTHTTTGSTYSAIT----TTHSAPSPLTHTTTGSTHKPIISTLTTTGPT    592
+
+AF-Q6K6B6-F1      97 RNFLGKVRV---PAAGVPAPGEEVVPQLFT-----------LEKRSLF--    130
+                     .|.:|.|:.   |...:|:|.........|           ..|.|:.  
+AF-Q6ZS17-F1     593 LNIIGPVQTTTSPTHTMPSPTHTTASPTHTSTSPTHTPTSPTHKTSMSPP    642
+
+AF-Q6K6B6-F1     131 -------------------SH--------IRGEITLKIYRTNSGEVVVKS    153
+                                        :|        ....|.:.:..:.|.|:...|
+AF-Q6ZS17-F1     643 TTTSPTPSGMGLVQTATSPTHPTTSPTHPTTSPILINVSPSTSLELATLS    692
+
+AF-Q6K6B6-F1     154 KPEKPVKAVVSGPE-VVAAPPVTGPKKQ---------------QQQQPVV    187
+                     .|.|.....:.|.: :..:|||:....|               ..::|:.
+AF-Q6ZS17-F1     693 SPSKHSDPTLPGTDSLPCSPPVSNSYTQADPMAPRTPHPSPAHSSRKPLT    742
+
+AF-Q6K6B6-F1     188 AVQPPPP----QPEAPMDILPPPAPV---LMKPVMLADPYPASAVFSGPG    230
+                     :..|.|.    |..:|....|.|||.   |...:.:..|.|.:|  .|.|
+AF-Q6ZS17-F1     743 SPAPDPSESTVQSLSPTPSPPTPAPQHSDLCLAMAVQTPVPTAA--GGSG    790
+
+AF-Q6K6B6-F1     231 DFSLKETRPRLGGGTTA-DKASATYDLVEQMQYLYVRVVRARGVAAVGET    279
+                     |.||:|.   ||....| |.....:   .::|.|...|.|          
+AF-Q6ZS17-F1     791 DRSLEEA---LGALMAALDDYRGQF---PELQGLEQEVTR----------    824
+
+AF-Q6K6B6-F1     280 VAEVKLGNYRGVTPATAA------HHWDQVFAFSKETIQSSFVEVFVRAR    323
+                      .|..|...:|:|.:.|:      .|..:.|:|..|              
+AF-Q6ZS17-F1     825 -LESLLMQRQGLTRSRASSLSITVEHALESFSFLNE--------------    859
+
+AF-Q6K6B6-F1     324 GSDDHVGRVWFDLSEVPRRAPP--------DSTLAPQWHIMEDRKGERGA    365
+                      .:|       :.::||...||        ||..:|....:........|
+AF-Q6ZS17-F1     860 -DED-------EDNDVPGDRPPSSPEAGAEDSIDSPSARPLSTGCPALDA    901
+
+AF-Q6K6B6-F1     366 AEV-------MIAVWFGTQADEAFAEAW-----------------HSKAA    391
+                     |.|       .:.:..||.......|||                 .|:..
+AF-Q6ZS17-F1     902 ALVRHLYHCSRLLLKLGTFGPLRCQEAWALERLLREARVLEAVCEFSRRW    951
+
+AF-Q6K6B6-F1     392 GVHGYGPLGSIKSKV-YVAPKLWYL--------RVSVIEAQDLIPMDK--    430
+                     .:    |..|.:..| :.|.:..:|        |:|..    |.|:::  
+AF-Q6ZS17-F1     952 EI----PASSAQEVVQFSASRPGFLTFWDQCTERLSCF----LCPVERVL    993
+
+AF-Q6K6B6-F1     431 -------GPMAIGRYPEL-------FVRAQVGSQMLRTRPAPVAANRGPS    466
+                            |.....|.|.|       |:...:| |.|..||.|     ||.
+AF-Q6ZS17-F1     994 LTFCNQYGARLSLRQPGLAEAVCVKFLEDALG-QKLPRRPQP-----GPG   1037
+
+AF-Q6K6B6-F1     467 S-----PFWNEDLMFVVAEPFEEFLVLSLEDHVSPGRDDVLGRLVVPVSS    511
+                     .     .||:    ||     |.....::|.:|:...::||  ||..::|
+AF-Q6ZS17-F1    1038 EQLTVFQFWS----FV-----ETLDSPTMEAYVTETAEEVL--LVRNLNS   1076
+
+AF-Q6K6B6-F1     512 IERRWDEKLVVSRWFGLDRGTGGGNVASGNTNRFGSRVHLRLSLDGGYHV    561
+                          |::.||.:...|        ...|...|.|.|....|.:.|...|
+AF-Q6ZS17-F1    1077 -----DDQAVVLKALRL--------APEGRLRRDGLRALSSLLVHGNNKV   1113
+
+AF-Q6K6B6-F1     562 LDEATAYSSDLR-----PTGK---------QLWQPHV-----GVLELGVL    592
+                     :   .|.|:.||     ||.:         ||....|     |.|.||.:
+AF-Q6ZS17-F1    1114 M---AAVSTQLRSLSLGPTFRERALLCFLDQLEDEDVQTRVAGCLALGCI   1160
+
+AF-Q6K6B6-F1     593 GA-TGLIPM---------KARDGRGATSDAYCVAKYGQKWIRTRTVVDSV    632
+                     .| .|:.|:         ..|:  .|........:.||...|........
+AF-Q6ZS17-F1    1161 KAPEGIEPLVYLCQTDTEAVRE--AARQSLQQCGEEGQSAHRRLEESLDA   1208
+
+AF-Q6K6B6-F1     633 CPRWNEQYTWEVFDPCTVITVGVFDNCHVDKPASGNTTLAVRDNCIGKVR    682
+                     .||        :|.|.::.:...                           
+AF-Q6ZS17-F1    1209 LPR--------IFGPGSMASTAF---------------------------   1223
+
+AF-Q6K6B6-F1     683 IRLSTLETDRVYTHAYPLLMLHPSGVKKMGELHLAVRFCCGNAGNMFHAY    732
+                                                                       
+AF-Q6ZS17-F1    1223 --------------------------------------------------   1223
+
+AF-Q6K6B6-F1     733 VRPLLPKMHYIEPLLVRQVESLRFQATNVVAARLGRAEPPLGREVVEYML    782
+                                                                       
+AF-Q6ZS17-F1    1223 --------------------------------------------------   1223
+
+AF-Q6K6B6-F1     783 DHRSHLWSMRRSKANFFRLVTVLSGPITIGRWFELVRSWNRPVHSCLAVF    832
+                                                                       
+AF-Q6ZS17-F1    1223 --------------------------------------------------   1223
+
+AF-Q6K6B6-F1     833 TFLVFVTMPELILPTAFLAMAFTGLWRYRVRSRHPPHMEMRLSHADAATV    882
+                                                                       
+AF-Q6ZS17-F1    1223 --------------------------------------------------   1223
+
+AF-Q6K6B6-F1     883 DELDEEFDTFPSSRGDVVRFRYDRLRSVAGRVQTVVGDIATQGERMQALL    932
+                                                                       
+AF-Q6ZS17-F1    1223 --------------------------------------------------   1223
+
+AF-Q6K6B6-F1     933 SWRDPRATVLFSIACVLAAVIAYTIPMKVLVGLWGLYAMRPPRFRSRMPS    982
+                                                                       
+AF-Q6ZS17-F1    1223 --------------------------------------------------   1223
+
+AF-Q6K6B6-F1     983 PLMNFFRRLPSKADSLL    999
+                                      
+AF-Q6ZS17-F1    1223 -----------------   1223
+
+
+#---------------------------------------
+#---------------------------------------

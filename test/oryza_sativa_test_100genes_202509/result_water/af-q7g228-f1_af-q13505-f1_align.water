@@ -1,0 +1,49 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:14
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q7g228-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q13505-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q7g228-f1_af-q13505-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q7g228-f1_af-q13505-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7G228-F1
+# 2: AF-Q13505-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 134
+# Identity:      28/134 (20.9%)
+# Similarity:    37/134 (27.6%)
+# Gaps:          51/134 (38.1%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+AF-Q7G228-F1       9 SAEPAAAVRVLGS-WTSPFVMRVVVALKLKGVEEYELLQETRGKKSELLL     57
+                     |.||||...|.|| ||                           ::.:...
+AF-Q13505-F1      43 SPEPAAPSGVRGSTWT---------------------------RRRDSPR     65
+
+AF-Q7G228-F1      58 RSNPVHKKIPVLLHHGKPLAESLIIVEYIDEVW----PASDGAPAILPRD    103
+                     |:.|.                  .:..|:..:|    |.|..|...:||.
+AF-Q13505-F1      66 RAGPT------------------ALSRYVGHLWMGRRPPSPEARGPVPRS     97
+
+AF-Q7G228-F1     104 PYCRAVERFWAQYIDDKFPRGTRVLRGTVAGEEP    137
+                     .......|..|.......|. |..:.|.|||..|
+AF-Q13505-F1      98 SAASRARRSLASPGISPGPL-TATIGGAVAGGGP    130
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,125 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:40
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o43150-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10nk5-f1_af-o43150-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10nk5-f1_af-o43150-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-O43150-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1083
+# Identity:      85/1083 ( 7.8%)
+# Similarity:   149/1083 (13.8%)
+# Gaps:         766/1083 (70.7%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       1 METLRKQASKLREHVAKQQQAVR----KQFSARYNQDPSLVDEAELECHQ     46
+                        :..|.| :.|.||:..:..:    ..|:.|..|..:.|...|.....
+AF-O43150-F1       1 ---MPDQIS-VSEFVAETHEDYKAPTASSFTTRTAQCRNTVAAIEEALDV     46
+
+AF-Q10NK5-F1      47 NLQRLYNSTRAAKHFQRSIVRGVEGFIAVSTKQMEIVKKLAEDC-CRYGN     95
+                     :...||...::.|....|.:..||.    ..:..:.::|...:| ||   
+AF-O43150-F1      47 DRMVLYKMKKSVKAINSSGLAHVEN----EEQYTQALEKFGGNCVCR---     89
+
+AF-Q10NK5-F1      96 DNQNFGFILARASVEFGNSHSQMEKERENLLKFLGEQVFEPLREMIMSAP    145
+                     |:.:.|....:.||        ..||...|.|.|.:.:     ..|:|.|
+AF-O43150-F1      90 DDPDLGSAFLKFSV--------FTKELTALFKNLIQNM-----NNIISFP    126
+
+AF-Q10NK5-F1     146 LEDARLLTYRYQRIRQDMESQIADVMR---KQLKSKESSGNADNSVKLQH    192
+                     |:..         ::.|::....|:.:   |..|..|:........|.:|
+AF-O43150-F1     127 LDSL---------LKGDLKGVKGDLKKPFDKAWKDYETKITKIEKEKKEH    167
+
+AF-Q10NK5-F1     193 AESKL-SELRTTLSALGREATAAMEAVEVQQQQVTFDRLLAMVDAERAYH    241
+                     |  || ..:||.:|  |.|....||. |.:..|:.....|..|:..:.  
+AF-O43150-F1     168 A--KLHGMIRTEIS--GAEIAEEMEK-ERRFFQLQMCEYLLKVNEIKI--    210
+
+AF-Q10NK5-F1     242 QNAADILNKLHDEMVQAKHHDEPENHYDE-----TSSDP--KTAATHEHS    284
+                     :...|:|..|      .|:.....|.:.:     .|..|  :|.:|..|:
+AF-O43150-F1     211 KKGVDLLQNL------IKYFHAQCNFFQDGLKAVESLKPSIETLSTDLHT    254
+
+AF-Q10NK5-F1     285 RSTSEDH----------IFTNTSEPTRTETS-----------EPTRTETS    313
+                     ...::|.          |..:..:..:.|.|           :|...:..
+AF-O43150-F1     255 IKQAQDEERRQLIQLRDILKSALQVEQKEDSQIRQSTAYSLHQPQGNKEH    304
+
+AF-Q10NK5-F1     314 EPTRNGQEVHYVGEVIHPFDAQADGELSISVGDYVVVRQVAPNGWSEGEC    363
+                     ...|||.           ...::||           :|:|    |.:.:|
+AF-O43150-F1     305 GTERNGS-----------LYKKSDG-----------IRKV----WQKRKC    328
+
+AF-Q10NK5-F1     364 KGKAGWFPSAYVEQRDKAPASKVIEPGLLTT-------------------    394
+                     ..|.|:...:: ...::.||    :..|||.                   
+AF-O43150-F1     329 SVKNGFLTISH-GTANRPPA----KLNLLTCQVKTNPEEKKCFDLISHDR    373
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43150-F1     374 TYHFQAEDEQECQIWMSVLQNSKEEALNNAFKGDDNTGENNIVQELTKEI    423
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43150-F1     424 ISEVQRMTGNDVCCDCGAPDPTWLSTNLGILTCIECSGIHRELGVHYSRM    473
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43150-F1     474 QSLTLDVLGTSELLLAKNIGNAGFNEIMECCLPAEDSVKPNPGSDMNARK    523
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43150-F1     524 DYITAKYIERRYARKKHADNAAKLHSLCEAVKTRDIFGLLQAYADGVDLT    573
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43150-F1     574 EKIPLANGHEPDETALHLAVRSVDRTSLHIVDFLVQNSGNLDKQTGKGST    623
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43150-F1     624 ALHYCCLTDNAECLKLLLRGKASIEIANESGETPLDIAKRLKHEHCEELL    673
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43150-F1     674 TQALSGRFNSHVHVEYEWRLLHEDLDESDDDMDEKLQPSPNRREDRPISF    723
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43150-F1     724 YQLGSNQLQSNAVSLARDAANLAKEKQRAFMPSILQNETYGALLSGSPPP    773
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43150-F1     774 AQPAAPSTTSAPPLPPRNVGKVQTASSANTLWKTNSVSVDGGSRQRSSSD    823
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43150-F1     824 PPAVHPPLPPLRVTSTNPLTPTPPPPVAKTPSVMEALSQPSKPAPPGISQ    873
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43150-F1     874 IRPPPLPPQPPSRLPQKKPAPGADKSTPLTNKGQPRGPVDLSATEALGPL    923
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43150-F1     924 SNAMVLQPPAPMPRKSQATKLKPKRVKALYNCVADNPDELTFSEGDVIIV    973
+
+AF-Q10NK5-F1     394 ---------------------------------    394
+                                                      
+AF-O43150-F1     974 DGEEDQEWWIGHIDGDPGRKGAFPVSFVHFIAD   1006
+
+
+#---------------------------------------
+#---------------------------------------

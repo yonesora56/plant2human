@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:04
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9ube8-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q9ube8-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q9ube8-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q9UBE8-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 214
+# Identity:      54/214 (25.2%)
+# Similarity:    95/214 (44.4%)
+# Gaps:          30/214 (14.0%)
+# Score: 140.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     612 IGKGGFGTVYHGILENND--EVAVKVL--VETSIAESKDFLPEVQTLSKV    657
+                     ||.|.||.|: .:.:..|  .||:|.:  |..::...|....|::.|...
+AF-Q9UBE8-F1     144 IGYGAFGVVW-SVTDPRDGKRVALKKMPNVFQNLVSCKRVFRELKMLCFF    192
+
+AF-B7FAC9-F1     658 HHKNLVALVGYCQNKKC-----LALVYDFMPRGNLQQLLRGGYDSLNWEE    702
+                     .|.|:::.:...|....     :.:|.:.| :.:|.:::... ..|:.:.
+AF-Q9UBE8-F1     193 KHDNVLSALDILQPPHIDYFEEIYVVTELM-QSDLHKIIVSP-QPLSSDH    240
+
+AF-B7FAC9-F1     703 RLHIALDAAQGLEYLHESCTPSIVHRDVKTPNILLDKNLVAKISDFGLSR    752
+                     .........:||:|||.:   .|:|||:|..|:|::.|.|.||.||||:|
+AF-Q9UBE8-F1     241 VKVFLYQILRGLKYLHSA---GILHRDIKPGNLLVNSNCVLKICDFGLAR    287
+
+AF-B7FAC9-F1     753 AFNAAHTHISTVAAGTLGYLDPEY-----HATFQLTVKTDVYSFGIVLLE    797
+                     ......:...|....|..|..||.     |.:..:    |::|.|.:..|
+AF-Q9UBE8-F1     288 VEELDESRHMTQEVVTQYYRAPEILMGSRHYSNAI----DIWSVGCIFAE    333
+
+AF-B7FAC9-F1     798 IV------TGQPPV    805
+                     ::      ..|.|:
+AF-Q9UBE8-F1     334 LLGRRILFQAQSPI    347
+
+
+#---------------------------------------
+#---------------------------------------

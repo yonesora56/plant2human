@@ -1,0 +1,149 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:57
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0inq2-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p08183-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0inq2-f1_af-p08183-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0inq2-f1_af-p08183-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0INQ2-F1
+# 2: AF-P08183-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1400
+# Identity:     169/1400 (12.1%)
+# Similarity:   297/1400 (21.2%)
+# Gaps:         807/1400 (57.6%)
+# Score: 207.5
+# 
+#
+#=======================================
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08183-F1       1 MDLEGDRNGGAKKKNFFKLNNKSEKDKKEKKPTVSVFSMFRYSNWLDKLY     50
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08183-F1      51 MVVGTLAAIIHGAGLPLMMLVFGEMTDIFANAGNLEDLMSNITNRSDIND    100
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08183-F1     101 TGFFMNLEEDMTRYAYYYSGIGAGVLVAAYIQVSFWCLAAGRQIHKIRKQ    150
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08183-F1     151 FFHAIMRQEIGWFDVHDVGELNTRLTDDVSKINEGIGDKIGMFFQSMATF    200
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08183-F1     201 FTGFIVGFTRGWKLTLVILAISPVLGLSAAVWAKILSSFTDKELLAYAKA    250
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P08183-F1     251 GAVAEEVLAAIRTVIAFGGQKKELERYNKNLEEAKRIGIKKAITANISIG    300
+
+AF-Q0INQ2-F1       1 -----MAATSPLPRWAPTPSPSRPLWRWGWGGGATPDARADGGVTGWTSS     45
+                          :.|:..|..|.                |.|.....:..:....:.
+AF-P08183-F1     301 AAFLLIYASYALAFWY----------------GTTLVLSGEYSIGQVLTV    334
+
+AF-Q0INQ2-F1      46 FFAAVFPWTRRRRVDDRWAPSAGGGVGTFDGVEVPLPAAQAVSLPRAAA-     94
+                     ||:.:                    :|.| .|....|:.:|.:..|.|| 
+AF-P08183-F1     335 FFSVL--------------------IGAF-SVGQASPSIEAFANARGAAY    363
+
+AF-Q0INQ2-F1      95 ---DVVDD-PAV---------------FLTWEDVRVTVPGRTRGSPPARI    125
+                        .::|: |::               .|.:.:|..:.|.|..    .:|
+AF-P08183-F1     364 EIFKIIDNKPSIDSYSKSGHKPDNIKGNLEFRNVHFSYPSRKE----VKI    409
+
+AF-Q0INQ2-F1     126 LDGITGHARPGEVLAIMGPSGCGKTT-------LLDTLAGRL---GQEMN    165
+                     |.|:....:.|:.:|::|.|||||:|       |.|...|.:   ||::.
+AF-P08183-F1     410 LKGLNLKVQSGQTVALVGNSGCGKSTTVQLMQRLYDPTEGMVSVDGQDIR    459
+
+AF-Q0INQ2-F1     166 QTGVILINGRQEKLAFGTSAYVTQDNVLMSTLSVREAVYYSAHLQLPDTM    215
+                          .||.|..:...|.   |:|:.||.:| ::.|.:.|.......|.:
+AF-P08183-F1     460 -----TINVRFLREIIGV---VSQEPVLFAT-TIAENIRYGRENVTMDEI    500
+
+AF-Q0INQ2-F1     216 LASEKRAHAERVIREMGLSDTMDTRIGGRITKGISGGQRKRMSICIEMLT    265
+                     ..:.|.|:|...|  |.|....||.:|.|..: :||||::|::|...::.
+AF-P08183-F1     501 EKAVKEANAYDFI--MKLPHKFDTLVGERGAQ-LSGGQKQRIAIARALVR    547
+
+AF-Q0INQ2-F1     266 RPRLLFLDEPTSGLDSAASYHVMSHITRVAAREGMTVIAAVHQPS----G    311
+                     .|::|.|||.||.||:.:...|...:.:  ||:|.|.|...|:.|    .
+AF-P08183-F1     548 NPKILLLDEATSALDTESEAVVQVALDK--ARKGRTTIVIAHRLSTVRNA    595
+
+AF-Q0INQ2-F1     312 DVFDLFHGLLLLAYGRMVFFGTVSNATEFFTQSGFPCPHLRNPSDHF-LR    360
+                     ||...|...:::..|         |..|...:.|.          :| |.
+AF-P08183-F1     596 DVIAGFDDGVIVEKG---------NHDELMKEKGI----------YFKLV    626
+
+AF-Q0INQ2-F1     361 TINKDFDEGTMESSKANRKTAAEATNILTNAYHSTYSEKTANEIVEMKGM    410
+                     |:....:|..:|::....|:..:|..:.:|...|:...|.:.        
+AF-P08183-F1     627 TMQTAGNEVELENAADESKSEIDALEMSSNDSRSSLIRKRST--------    668
+
+AF-Q0INQ2-F1     411 GGTPFRRKEQASFLTKLLVLTRRSFLNMHRDIGYYW--MRLGI----YLG    454
+                          ||..:.|......:.|:.:.......:. :|  |:|.:    |..
+AF-P08183-F1     669 -----RRSVRGSQAQDRKLSTKEALDESIPPVS-FWRIMKLNLTEWPYFV    712
+
+AF-Q0INQ2-F1     455 IGICLGTIFYQVGYSYSSIQSRCEVIMYTTAL--------------VTFM    490
+                     :|:....|...:..:::.|.|:  :|...|.:              :.|:
+AF-P08183-F1     713 VGVFCAIINGGLQPAFAIIFSK--IIGVFTRIDDPETKRQNSNLFSLLFL    760
+
+AF-Q0INQ2-F1     491 AIG----------GFPSFVEDIKLFRRERLSGHYGVMEFVIS------NT    524
+                     |:|          ||........|.:|.|......::...:|      ||
+AF-P08183-F1     761 ALGIISFITFFLQGFTFGKAGEILTKRLRYMVFRSMLRQDVSWFDDPKNT    810
+
+AF-Q0INQ2-F1     525 LSA-TPYLA-VIAVIPGAMMYYLTGLTRGAEHFAYFVATLCMCTLLVESM    572
+                     ..| |..|| ..|.:.||:...|..:|   ::.|.....:.:..:....:
+AF-P08183-F1     811 TGALTTRLANDAAQVKGAIGSRLAVIT---QNIANLGTGIIISFIYGWQL    857
+
+AF-Q0INQ2-F1     573 MMIIAVIVPDFLMGIIIGAGIQGMMMLNGGFFRLPNELPKPVWKYPCYYI    622
+                     .:::..|||     ||..||:..|.||:|...:...||.           
+AF-P08183-F1     858 TLLLLAIVP-----IIAIAGVVEMKMLSGQALKDKKELE-----------    891
+
+AF-Q0INQ2-F1     623 SFHKYAVQGFYKNEFIGLSFPSDQLIEANATISGLQVLKERLQVEMGYSK    672
+                     ...|.|.:.. :|....:|...:|..|        .:..:.|||.  |..
+AF-P08183-F1     892 GSGKIATEAI-ENFRTVVSLTQEQKFE--------HMYAQSLQVP--YRN    930
+
+AF-Q0INQ2-F1     673 WVNLAILFGM--MVTYRMIFF------------VIVKIA--EELRLKLRG    706
+                     .:..|.:||:  ..|..|::|            |..|:.  |::.|....
+AF-P08183-F1     931 SLRKAHIFGITFSFTQAMMYFSYAGCFRFGAYLVAHKLMSFEDVLLVFSA    980
+
+AF-Q0INQ2-F1     707 IRFRRLK-------------------------------------------    713
+                     :.|..:.                                           
+AF-P08183-F1     981 VVFGAMAVGQVSSFAPDYAKAKISAAHIIMIIEKTPLIDSYSTEGLMPNT   1030
+
+AF-Q0INQ2-F1     713 --------------------------------------------------    713
+                                                                       
+AF-P08183-F1    1031 LEGNVTFGEVVFNYPTRPDIPVLQGLSLEVKKGQTLALVGSSGCGKSTVV   1080
+
+AF-Q0INQ2-F1     713 --------------------------------------------------    713
+                                                                       
+AF-P08183-F1    1081 QLLERFYDPLAGKVLLDGKEIKRLNVQWLRAHLGIVSQEPILFDCSIAEN   1130
+
+AF-Q0INQ2-F1     713 --------------------------------------------------    713
+                                                                       
+AF-P08183-F1    1131 IAYGDNSRVVSQEEIVRAAKEANIHAFIESLPNKYSTKVGDKGTQLSGGQ   1180
+
+AF-Q0INQ2-F1     713 --------------------------------------------------    713
+                                                                       
+AF-P08183-F1    1181 KQRIAIARALVRQPHILLLDEATSALDTESEKVVQEALDKAREGRTCIVI   1230
+
+AF-Q0INQ2-F1     713 --------------------------------------------------    713
+                                                                       
+AF-P08183-F1    1231 AHRLSTIQNADLIVVFQNGRVKEHGTHQQLLAQKGIYFSMVSVQAGTKRQ   1280
+
+
+#---------------------------------------
+#---------------------------------------

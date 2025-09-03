@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:23
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q02897-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q8iuf8-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q02897-f1_af-q8iuf8-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q02897-f1_af-q8iuf8-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q02897-F1
+# 2: AF-Q8IUF8-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 660
+# Identity:      88/660 (13.3%)
+# Similarity:   151/660 (22.9%)
+# Gaps:         360/660 (54.5%)
+# Score: 76.5
+# 
+#
+#=======================================
+
+AF-Q02897-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q8IUF8-F1       1 MPKKAKPTGSGKEEGPAPCKQMKLEAAGGPSALNFDSPSSLFESLISPIK     50
+
+AF-Q02897-F1       1 ----------------------MATTIFSRFSIYFCAMLLCQG-------     21
+                                           :||...|.|.:.....|..:|       
+AF-Q8IUF8-F1      51 TETFFKEFWEQKPLLIQRDDPALATYYGSLFKLTDLKSLCSRGMYYGRDV    100
+
+AF-Q02897-F1      22 SMAQLFNPSTNPWHSPRQGSFRECR--FDR----LQAFEPLRKVRSEAGV     65
+                     ::.:..|......:...:..|.:.|  ||:    :|..:|.|        
+AF-Q8IUF8-F1     101 NVCRCVNGKKKVLNKDGKAHFLQLRKDFDQKRATIQFHQPQR--------    142
+
+AF-Q02897-F1      66 TEYFDEK---NELFQC-TGTFVIRRV-IQPQGL--LVPRYSNTPGLVYII    108
+                       :.||.   .|..:| .|:.|...| |.|.|.  |.|.|.:....:..:
+AF-Q8IUF8-F1     143 --FKDELWRIQEKLECYFGSLVGSNVYITPAGSQGLPPHYDDVEVFILQL    190
+
+AF-Q02897-F1     109 QGRGSMGLTFPGCPATYQQQFQQFSSQGQSQSQKFRDEHQKIHQF--RQG    156
+                     :|.....|..|..|..     :::|.:.:.:..:      .:|:|  :.|
+AF-Q8IUF8-F1     191 EGEKHWRLYHPTVPLA-----REYSVEAEERIGR------PVHEFMLKPG    229
+
+AF-Q02897-F1     157 DVVAL----------PAGVAHWFYNDGDASVVAIYVYDINNSANQLEPRQ    196
+                     |::..          |||:||       ::.|.|..|. |||..      
+AF-Q8IUF8-F1     230 DLLYFPRGTIHQADTPAGLAH-------STHVTISTYQ-NNSWG------    265
+
+AF-Q02897-F1     197 KEFLLAGNNNRVQQVYGSSIEQHSSQNIFNGFGTELLSEALGINTVAAKR    246
+                      :|||...:..|.......:|      :..|...:||.: :...|||.:|
+AF-Q8IUF8-F1     266 -DFLLDTISGLVFDTAKEDVE------LRTGIPRQLLLQ-VESTTVATRR    307
+
+AF-Q02897-F1     247 LQ-----------------SQNDQRGEIVH------VKNGLQLLKP----    269
+                     |.                 |.:.::..|:|      ..:|.:|..|    
+AF-Q8IUF8-F1     308 LSGFLRTLADRLEGTKELLSSDMKKDFIMHRLPPYSAGDGAELSTPGGKL    357
+
+AF-Q02897-F1     270 ---------------TLT-----QQQEQAQAQYQEVQYSEQQQTSSRWNG    299
+                                    .||     .|.::||.:...:.:|.:....:...|
+AF-Q8IUF8-F1     358 PRLDSVVRLQFKDHIVLTVLPDQDQSDEAQEKMVYIYHSLKNSRETHMMG    407
+
+AF-Q02897-F1     300 LEENFCTIKARVNIENPSRADSYNPRAGRISSVNSQKFPILNLIQMSATR    349
+                     .||.                          :..:..:||:.:|       
+AF-Q8IUF8-F1     408 NEEE--------------------------TEFHGLRFPLSHL-------    424
+
+AF-Q02897-F1     350 VNLYQNAILSPFWNVNA--------------HSLVYMIQGQSRVQVVSNF    385
+                           ..|...||..|              .|||..:..:..:|||   
+AF-Q8IUF8-F1     425 ------DALKQIWNSPAISVKDLKLTTDEEKESLVLSLWTECLIQVV---    465
+
+AF-Q02897-F1     386 GKTVFDGVLRPGQLLIIPQHYAVLKKAEREGCQYIAIKTNANAFVSHLAG    435
+                                                                       
+AF-Q8IUF8-F1     465 --------------------------------------------------    465
+
+AF-Q02897-F1     436 KNSVFRALPVDVVANAYRISREQARSIKNNRGEEHGAFTPRFQQQYYPGF    485
+                                                                       
+AF-Q8IUF8-F1     465 --------------------------------------------------    465
+
+AF-Q02897-F1     486 SNESESETSE    495
+                               
+AF-Q8IUF8-F1     465 ----------    465
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:05
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o75995-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-o75995-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-o75995-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-O75995-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 151
+# Identity:      31/151 (20.5%)
+# Similarity:    53/151 (35.1%)
+# Gaps:          26/151 (17.2%)
+# Score: 60.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1     248 LNKLHDEMVQAKHHDEPENHYDETSSDPKT-----------------AAT    280
+                     :|:...:|:.....:|..:..:|.|:.|.:                 :..
+AF-O75995-F1      84 MNRKMGKMMVKALSEEMADTLEEGSASPTSPDYSLDSPGPEKMALAFSEQ    133
+
+AF-Q10NK5-F1     281 HEH-----SRSTSEDHIFTNTSEPTRTETSEPTRTETSEPTRNGQEVHYV    325
+                     .||     ||..|......:.|..:.:...||...:.:.|......|| .
+AF-O75995-F1     134 EEHELPVLSRQASTGSELCSPSPGSGSFGEEPPAPQYTGPFCGRARVH-T    182
+
+AF-Q10NK5-F1     326 GEVIHPFDAQADGELSISVGDYVVVRQVAPNGWSEGECKGKAGWFPSAYV    375
+                     .....|:|..:   |.:..||.:.:.:..|.|...|...||.|.|...||
+AF-O75995-F1     183 DFTPSPYDHDS---LKLQKGDVIQIIEKPPVGTWLGLLNGKVGSFKFIYV    229
+
+AF-Q10NK5-F1     376 E    376
+                     :
+AF-O75995-F1     230 D    230
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:41
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0xrx9-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p51589-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0xrx9-f1_af-p51589-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0xrx9-f1_af-p51589-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0XRX9-F1
+# 2: AF-P51589-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 559
+# Identity:     135/559 (24.2%)
+# Similarity:   227/559 (40.6%)
+# Gaps:         109/559 (19.5%)
+# Score: 381.5
+# 
+#
+#=======================================
+
+AF-A0A0P0XRX9      1 MASFLPWLPWLLAALLSV-YLLDLLAHSRRLL------------------     31
+                               :|||:.|: ..|..:.|.|.||                  
+AF-P51589-F1       1 ----------MLAAMGSLAAALWAVVHPRTLLLGTVAFLLAADFLKRRRP     40
+
+AF-A0A0P0XRX9     32 ---PPGPRPLPLIGSLHLLG-DQPHRSLAGLAKMYGPLMSLRLGAVTTVV     77
+                        ||||..||.:|:..|:. :|.|..:....|.||.|.||.||.::.|:
+AF-P51589-F1      41 KNYPPGPWRLPFLGNFFLVDFEQSHLEVQLFVKKYGNLFSLELGDISAVL     90
+
+AF-A0A0P0XRX9     78 VSSPDVAREFLQRHNAAFASRSVPDATGDHATNSVAWLPNSPR-WRALRR    126
+                     ::...:.:|.|...:..|.:|.|.... :|.......:.:|.: |:..||
+AF-P51589-F1      91 ITGLPLIKEALIHMDQNFGNRPVTPMR-EHIFKKNGLIMSSGQAWKEQRR    139
+
+AF-A0A0P0XRX9    127 IMAAELFAPHRLDALR------RLRREKVQELVDHVARLAEREGGAAAVD    170
+                     .         .|.|||      :...|::||...|:....:.|.|.....
+AF-P51589-F1     140 F---------TLTALRNFGLGKKSLEERIQEEAQHLTEAIKEENGQPFDP    180
+
+AF-A0A0P0XRX9    171 VGRVAFATSLNLLSSTIFSRNLTSLDDHGESMEFKEV----------VVE    210
+                     ..::..|.| |::.|..|          ||..|:::.          .|.
+AF-P51589-F1     181 HFKINNAVS-NIICSITF----------GERFEYQDSWFQQLLKLLDEVT    219
+
+AF-A0A0P0XRX9    211 IMEAGGCPNVSDFFPAIAAADLQGWRRRMAGLFARLHRVFDAVVEERLSE    260
+                     .:||.....:.:.||.|... |.|..:.:...:.:|......::::...:
+AF-P51589-F1     220 YLEASKTCQLYNVFPWIMKF-LPGPHQTLFSNWKKLKLFVSHMIDKHRKD    268
+
+AF-A0A0P0XRX9    261 RDAGEARKGDFLDVLLDVAAR--DNDSAGLDRDTLRSLFTDLFAAGSDTS    308
+                     .:..|.|  ||:|..|...::  .|.::....:.|.....|||.||::|:
+AF-P51589-F1     269 WNPAETR--DFIDAYLKEMSKHTGNPTSSFHEENLICSTLDLFFAGTETT    316
+
+AF-A0A0P0XRX9    309 PSIVEWAIAELMRNPLWFLHQCCDELSQVIGSGTNIEESDIGQLPYLQAV    358
+                     .:.:.||:..:...| ....:...|:.:|||.|.....:....:||..||
+AF-P51589-F1     317 STTLRWALLYMALYP-EIQEKVQAEIDRVIGQGQQPSTAARESMPYTNAV    365
+
+AF-A0A0P0XRX9    359 VKETFRLHPPVPLLLPRQAETTTNIAGYTIPKGARVFVNVWAIGRHKDTW    408
+                     :.|..|:...:||.:||:....|.:|||.:|||..:..|:.|:.|....|
+AF-P51589-F1     366 IHEVQRMGNIIPLNVPREVTVDTTLAGYHLPKGTMILTNLTALHRDPTEW    415
+
+AF-A0A0P0XRX9    409 SQPEKFMPERFFERNIDFRGVHFELIPFGAGRRICPRMPLANRMVHLVLG    458
+                     :.|:.|.|:.|.| |..|: .....:||..|:|.|....||...:.:...
+AF-P51589-F1     416 ATPDTFNPDHFLE-NGQFK-KREAFMPFSIGKRACLGEQLARTELFIFFT    463
+
+AF-A0A0P0XRX9    459 SLLNQFKWNLPVDIERNGIDMSEKF--GLTLVKAIPLCALVTPISVESGD    506
+                     ||:.:|.:..|     |...:|.||  |:|          ::|:|     
+AF-P51589-F1     464 SLMQKFTFRPP-----NNEKLSLKFRMGIT----------ISPVS-----    493
+
+AF-A0A0P0XRX9    507 H--------    507
+                     |        
+AF-P51589-F1     494 HRLCAVPQV    502
+
+
+#---------------------------------------
+#---------------------------------------

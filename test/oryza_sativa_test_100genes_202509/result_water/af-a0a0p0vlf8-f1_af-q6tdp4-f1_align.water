@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:49
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0vlf8-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q6tdp4-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0vlf8-f1_af-q6tdp4-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0vlf8-f1_af-q6tdp4-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VLF8-F1
+# 2: AF-Q6TDP4-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 203
+# Identity:      45/203 (22.2%)
+# Similarity:    62/203 (30.5%)
+# Gaps:          71/203 (35.0%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VLF8      2 LFGGHGDA-TFLYSVPKRALLAPMPT-PTRVGDGGVDDMMRGHRWWTTAQ     49
+                     ||..|||. .:.....:..::|.|.| ..|||...|     |:|.:... 
+AF-Q6TDP4-F1     352 LFAIHGDCEAYDTRTDRWHVVASMSTRRARVGVAAV-----GNRLYAVG-    395
+
+AF-A0A0P0VLF8     50 GW-----LLMARRGSPCTFLWDPFTGRRVRLPPDHDGTVLTAEGSHRRRC     94
+                     |:     |.......|.|..|.|....         ||        ||.|
+AF-Q6TDP4-F1     396 GYDGTSDLATVESYDPVTNTWQPEVSM---------GT--------RRSC    428
+
+AF-A0A0P0VLF8     95 --------LLSCCGPMDPTSCTDLVIDLADPELWYCRPGDNHWVKLHQQP    136
+                             ||...|..|..||      |...|.:  .|....|..:    
+AF-Q6TDP4-F1     429 LGVAALHGLLYSAGGYDGASC------LNSAERY--DPLTGTWTSV----    466
+
+AF-A0A0P0VLF8    137 YQYRNPAHRDAIISFLRKF---TAIDGKFY------TELHTGNVGVLEFS    177
+                               |.:|..|::   ..:||..|      :..|...|.  ::.
+AF-Q6TDP4-F1     467 ----------AAMSTRRRYVRVATLDGNLYAVGGYDSSSHLATVE--KYE    504
+
+AF-A0A0P0VLF8    178 PEV    180
+                     |:|
+AF-Q6TDP4-F1     505 PQV    507
+
+
+#---------------------------------------
+#---------------------------------------

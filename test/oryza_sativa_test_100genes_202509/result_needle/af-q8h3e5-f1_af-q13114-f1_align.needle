@@ -1,0 +1,105 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:50
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q8h3e5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q13114-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q8h3e5-f1_af-q13114-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q8h3e5-f1_af-q13114-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q8H3E5-F1
+# 2: AF-Q13114-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 830
+# Identity:      51/830 ( 6.1%)
+# Similarity:    75/830 ( 9.0%)
+# Gaps:         658/830 (79.3%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+AF-Q8H3E5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13114-F1       1 MESSKKMDSPGALQTNPPLKLHTDRSAGTPVFVPEQGGYKEKFVKTVEDK     50
+
+AF-Q8H3E5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13114-F1      51 YKCEKCHLVLCSPKQTECGHRFCESCMAALLSSSSPKCTACQESIVKDKV    100
+
+AF-Q8H3E5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13114-F1     101 FKDNCCKREILALQIYCRNESRGCAEQLMLGHLLVHLKNDCHFEELPCVR    150
+
+AF-Q8H3E5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13114-F1     151 PDCKEKVLRKDLRDHVEKACKYREATCSHCKSQVPMIALQKHEDTDCPCV    200
+
+AF-Q8H3E5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13114-F1     201 VVSCPHKCSVQTLLRSELSAHLSECVNAPSTCSFKRYGCVFQGTNQQIKA    250
+
+AF-Q8H3E5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13114-F1     251 HEASSAVQHVNLLKEWSNSLEKKVSLLQNESVEKNKSIQSLHNQICSFEI    300
+
+AF-Q8H3E5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q13114-F1     301 EIERQKEMLRNNESKILHLQRVIDSQAEKLKELDKEIRPFRQNWEEADSM    350
+
+AF-Q8H3E5-F1       1 ------------------MGAGRACRGGPSSSSPAA-----------AAA     21
+                                       ..||:..|......|..:           ..|
+AF-Q13114-F1     351 KSSVESLQNRVTELESVDKSAGQVARNTGLLESQLSRHDQMLSVHDIRLA    400
+
+AF-Q8H3E5-F1      22 AVGRPFPPIAASCPFSSSSAAAAAPAAPSETASTSVTKTVNGSHHFKIAG     71
+                     .:...|..:                    ||||      .||...:||..
+AF-Q13114-F1     401 DMDLRFQVL--------------------ETAS------YNGVLIWKIRD    424
+
+AF-Q8H3E5-F1      72 YPLAKGIGV-GKYIA--SECFTVG--GYDWAIYFYPDGKSPEDGAAYVSL    116
+                     |...|...| ||.::  |:.|..|  ||......|.:|.....| .::||
+AF-Q13114-F1     425 YKRRKQEAVMGKTLSLYSQPFYTGYFGYKMCARVYLNGDGMGKG-THLSL    473
+
+AF-Q8H3E5-F1     117 FIALASEGTDV------RALFELTLVDQSGKGQDKVHTHFGRSLEGGPYT    160
+                     |..:.....|.      :....|.|:||...     ..|.|.:.:..|.:
+AF-Q13114-F1     474 FFVIMRGEYDALLPWPFKQKVTLMLMDQGSS-----RRHLGDAFKPDPNS    518
+
+AF-Q8H3E5-F1     161 LKYR---GSM---WGYKRFFKRSALETSDYLKDDCLLVNCTVGVVQSHTE    204
+                     ..::   |.|   .|...|..::.||...|:|||.:.:...|..  |...
+AF-Q13114-F1     519 SSFKKPTGEMNIASGCPVFVAQTVLENGTYIKDDTIFIKVIVDT--SDLP    566
+
+AF-Q8H3E5-F1     205 GPKIYTIPVPPSNMSQHIGQLLTDGKRTDITFEVDGEVFPAHKVVLAARS    254
+                     .|                                                
+AF-Q13114-F1     567 DP------------------------------------------------    568
+
+AF-Q8H3E5-F1     255 PVFRAQLFGPMKDKNMKRITIEDMEASVFKALLHFMYWDELPDIEELTGL    304
+                                                                       
+AF-Q13114-F1     568 --------------------------------------------------    568
+
+AF-Q8H3E5-F1     305 NTTWVSTLMAQHLLAAADRYALERLKLLCELKLCEDVAINTVANTLALAE    354
+                                                                       
+AF-Q13114-F1     568 --------------------------------------------------    568
+
+AF-Q8H3E5-F1     355 QHHCYQLKTVCLRFVALPENLKAVMQTDGFDYLQQSCPSLLTELLEYVAK    404
+                                                                       
+AF-Q13114-F1     568 --------------------------------------------------    568
+
+AF-Q8H3E5-F1     405 VGEHSVSPCLYSNEVLDGGDANGRRVKPRI    434
+                                                   
+AF-Q13114-F1     568 ------------------------------    568
+
+
+#---------------------------------------
+#---------------------------------------

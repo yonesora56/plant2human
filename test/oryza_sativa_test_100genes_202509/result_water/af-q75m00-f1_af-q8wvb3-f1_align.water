@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:02
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75m00-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8wvb3-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75m00-f1_af-q8wvb3-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75m00-f1_af-q8wvb3-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75M00-F1
+# 2: AF-Q8WVB3-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 344
+# Identity:      68/344 (19.8%)
+# Similarity:   104/344 (30.2%)
+# Gaps:         156/344 (45.3%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+AF-Q75M00-F1      77 AADASVVGAVNEGIDVAASIVPAVQRPWVMVSVNDDCRDLHFRKAEFDPE    126
+                     |...::|||:   ||....:.|..||             ||.        
+AF-Q8WVB3-F1     120 AESLALVGAM---IDQVLELHPGAQR-------------LHI--------    145
+
+AF-Q75M00-F1     127 DCPPDCSKPCEKVCPADAILLERVMIEEEHSQSDPSCGKLEGGVITERCY    176
+                             .|::|.........|..:::|.:    |.|||          
+AF-Q8WVB3-F1     146 --------GCDEVYYLGEGEASRRWLQQEQN----STGKL----------    173
+
+AF-Q75M00-F1     177 GCGRCLSVCPYDRIRAMS---YVRDPAMTAELLKRNDVDAIEIHTTGKGT    223
+                         |||     .:||::   ..|.|::|.                    
+AF-Q8WVB3-F1     174 ----CLS-----HMRAVASGVKARRPSVTP--------------------    194
+
+AF-Q75M00-F1     224 DMFNTLWSNLGESINNVKLIAVSLPD-----VGDSTVNL-MNAIYTTMQS    267
+                         .:|.::...:...:|.|..:|.     :.|.|.:| ::.....||.
+AF-Q8WVB3-F1     195 ----LVWDDMLRDLPEDQLAASGVPQLVEPVLWDYTADLDVHGKVLLMQK    240
+
+AF-Q75M00-F1     268 HLQ-GY-NLWQLDGRPMSGDIGRGATRETVSFAVHLSSMSNRPPGFYQLA    315
+                     :.: |: .||       :....:|||..  |.||        ||..:.|.
+AF-Q8WVB3-F1     241 YRRCGFPQLW-------AASAFKGATGP--SQAV--------PPVEHHLR    273
+
+AF-Q75M00-F1     316 GGTNSYTIESLKKAGLFQSTTFPGAATSGVTDCQQAFIGGIAYGGYARKI    365
+                     .     .::.|:.||            ||.||..|    ||...|:.|  
+AF-Q8WVB3-F1     274 N-----HVQWLQVAG------------SGPTDSLQ----GIILTGWQR--    300
+
+AF-Q75M00-F1     366 VGRVLRKIPAQFGHARIEDHPDYLLEALQEALSLVGPVKGYPTL    409
+                                      .||...|.|.|.         .|.|:|
+AF-Q8WVB3-F1     301 -----------------YDHYSVLCELLP---------AGVPSL    318
+
+
+#---------------------------------------
+#---------------------------------------

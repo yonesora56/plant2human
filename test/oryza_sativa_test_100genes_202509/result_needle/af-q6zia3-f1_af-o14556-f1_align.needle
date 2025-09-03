@@ -1,0 +1,101 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:22:45
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6zia3-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o14556-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6zia3-f1_af-o14556-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6zia3-f1_af-o14556-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6ZIA3-F1
+# 2: AF-O14556-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 766
+# Identity:      35/766 ( 4.6%)
+# Similarity:    58/766 ( 7.6%)
+# Gaps:         633/766 (82.6%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+AF-Q6ZIA3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O14556-F1       1 MSKRDIVLTNVTVVQLLRQPCPVTRAPPPPEPKAEVEPQPQPEPTPVREE     50
+
+AF-Q6ZIA3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O14556-F1      51 IKPPPPPLPPHPATPPPKMVSVARELTVGINGFGRIGRLVLRACMEKGVK    100
+
+AF-Q6ZIA3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O14556-F1     101 VVAVNDPFIDPEYMVYMFKYDSTHGRYKGSVEFRNGQLVVDNHEISVYQC    150
+
+AF-Q6ZIA3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O14556-F1     151 KEPKQIPWRAVGSPYVVESTGVYLSIQAASDHISAGAQRVVISAPSPDAP    200
+
+AF-Q6ZIA3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O14556-F1     201 MFVMGVNENDYNPGSMNIVSNASCTTNCLAPLAKVIHERFGIVEGLMTTV    250
+
+AF-Q6ZIA3-F1       1 --MDAAMESAVGPHFSGLRLDSRRLSSSSLPTSPSAASSNGCGGNDAPAA     48
+                       ..|..::..||.....| |.|....:.:|.|..||.:......:....
+AF-O14556-F1     251 HSYTATQKTVDGPSRKAWR-DGRGAHQNIIPASTGAAKAVTKVIPELKGK    299
+
+AF-Q6ZIA3-F1      49 VNGFA---PPP------------PPSAAAAAEEGSKQPFVIGVSGGTASG     83
+                     :.|.|   |.|            .|:..:|.:|..|           |:.
+AF-O14556-F1     300 LTGMAFRVPTPDVSVVDLTCRLAQPAPYSAIKEAVK-----------AAA    338
+
+AF-Q6ZIA3-F1      84 KTTVCDMIIQQLHDHRVVLVNQDSFYRGLTEEESDRVQDYNFDHPDAFDT    133
+                     |..:..::                   ..||:|..........|...||.
+AF-O14556-F1     339 KGPMAGIL-------------------AYTEDEVVSTDFLGDTHSSIFDA    369
+
+AF-Q6ZIA3-F1     134 EQLLECMGQLKSGLSVN------IPIYD--FKNHRRCSESFRKVNASDVI    175
+                               |:|:::|      |..||  :....|..:..|.:.:.|. 
+AF-O14556-F1     370 ----------KAGIALNDNFVKLISWYDNEYGYSHRVVDLLRYMFSRDK-    408
+
+AF-Q6ZIA3-F1     176 ILEGILVFHDQRVRDLMDMKIFVDTDADIRLARRIRRDTVERGRDVISVL    225
+                                                                       
+AF-O14556-F1     408 --------------------------------------------------    408
+
+AF-Q6ZIA3-F1     226 EQYGRFVKPAFDDFVLPSKKYADVIIPRGGDNHVAIDLIVQHIRTKLGQH    275
+                                                                       
+AF-O14556-F1     408 --------------------------------------------------    408
+
+AF-Q6ZIA3-F1     276 DLCKIYPNVYVVNTTFQIRGMHTLIRDRDIATPDFVFYSDRLIRLVVEHG    325
+                                                                       
+AF-O14556-F1     408 --------------------------------------------------    408
+
+AF-Q6ZIA3-F1     326 LGHLPFTEKQIVTPTGSTYMGVDFCKKLCGVSIIRSGESMENALRACCKG    375
+                                                                       
+AF-O14556-F1     408 --------------------------------------------------    408
+
+AF-Q6ZIA3-F1     376 IKIGKILIHRDGDNGQQLIYHKFPLDIAERHVLLMDPVLGTGNSANQAIE    425
+                                                                       
+AF-O14556-F1     408 --------------------------------------------------    408
+
+AF-Q6ZIA3-F1     426 LLISSGVPEERIMFLNLISAPEGVHCVCKRFPRLKIVTSEIETGLNEEYR    475
+                                                                       
+AF-O14556-F1     408 --------------------------------------------------    408
+
+AF-Q6ZIA3-F1     476 VIPGLGEYGDRYFGTD    491
+                                     
+AF-O14556-F1     408 ----------------    408
+
+
+#---------------------------------------
+#---------------------------------------

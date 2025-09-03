@@ -1,0 +1,105 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:42
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q8tec5-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10nk5-f1_af-q8tec5-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10nk5-f1_af-q8tec5-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-Q8TEC5-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 815
+# Identity:      80/815 ( 9.8%)
+# Similarity:   141/815 (17.3%)
+# Gaps:         507/815 (62.2%)
+# Score: 85.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q8TEC5-F1       1 MDDLTLLDLLECPVCFEKLDVTAKVLPCQHTFCKPCLQRVFKAHKELRCP     50
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q8TEC5-F1      51 ECRTPVFSNIEALPANLLLVRLLDGVRSGQSSGRGGSFRRPGTMTLQDGR    100
+
+AF-Q10NK5-F1       1 ---METLRKQAS------KLREHV-----AKQQQAVRKQ--FSARYNQDP     34
+                        ....|.|||      .:|.|:     ||.....|.|  ...|:|:..
+AF-Q8TEC5-F1     101 KSRTNPRRLQASPFRLVPNVRIHMDGVPRAKALCNYRGQNPGDLRFNKGD    150
+
+AF-Q10NK5-F1      35 SLVDEAELECHQNLQRLYNSTRAAKHFQRSIVRGVEGFIAVSTKQMEIVK     84
+                     .::...:|:               :::.:..:.|:.|....|:  :|::|
+AF-Q8TEC5-F1     151 IILLRRQLD---------------ENWYQGEINGISGNFPASS--VEVIK    183
+
+AF-Q10NK5-F1      85 KLAEDCCRYGNDNQNFGFILARASVEFGNSHSQMEKERENLLKFLGEQVF    134
+                     :|.:..            .|.||...| :...:.:.|.::.|.||.:.:.
+AF-Q8TEC5-F1     184 QLPQPP------------PLCRALYNF-DLRGKDKSENQDCLTFLKDDII    220
+
+AF-Q10NK5-F1     135 EPLRE------------------MIMSAPLEDARLLTYRYQRIRQDMESQ    166
+                     ..:..                  ::...|...||.|      :.::...|
+AF-Q8TEC5-F1     221 TVISRVDENWAEGKLGDKVGIFPILFVEPNLTARHL------LEKNKGRQ    264
+
+AF-Q10NK5-F1     167 IADVMRKQLKSKESSGNADNSVKLQHAESKLS---ELRTTLSALGREATA    213
+                     .:......|.|..|.||.....:...:..|:.   .:.|.|:.|.|    
+AF-Q8TEC5-F1     265 SSRTKNLSLVSSSSRGNTSTLRRGPGSRRKVPGQFSITTALNTLNR----    310
+
+AF-Q10NK5-F1     214 AMEAVEVQQQQVTFDRLLAMVDAERAYHQ---NAADILNKLHDEMVQAKH    260
+                                        ||.:....|.   :...:::..:..::    
+AF-Q8TEC5-F1     311 -------------------MVHSPSGRHMVEISTPVLISSSNPSVI----    337
+
+AF-Q10NK5-F1     261 HDEPENHYDETSSDPKTAATHEHSRSTSEDHIFTNTSEPTRTETSEPTRT    310
+                      .:|....|..||.....:|: |....|..|.....|.|           
+AF-Q8TEC5-F1     338 -TQPMEKADVPSSCVGQVSTY-HPAPVSPGHSTAVVSLP-----------    374
+
+AF-Q10NK5-F1     311 ETSEPTRNGQEVHYVGEV---IHPFDAQADGELSISVGDYVVVRQVAPNG    357
+                             |.:.|....:   :|.:.|....||.:..|:.|.|.....:|
+AF-Q8TEC5-F1     375 --------GSQQHLSANMFVALHSYSAHGPDELDLQKGEGVRVLGKCQDG    416
+
+AF-Q10NK5-F1     358 WSEGE--CKGKAGWFPSAYV----EQRDKAPASKVIEPGLLTT-------    394
+                     |..|.  ..|:.|.||:.||    .:....|.|:  .|||.||       
+AF-Q8TEC5-F1     417 WLRGVSLVTGRVGIFPNNYVIPIFRKTSSFPDSR--SPGLYTTWTLSTSS    464
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q8TEC5-F1     465 VSSQGSISEGDPRQSRPFKSVFVPTAIVNPVRSTAGPGTLGQGSLRKGRS    514
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q8TEC5-F1     515 SMRKNGSLQRPLQSGIPTLVVGSLRRSPTMVLRPQQFQFYQPQGIPSSPS    564
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q8TEC5-F1     565 AVVVEMGSKPALTGEPALTCISRGSEAWIHSAASSLIMEDKEIPIKSEPL    614
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q8TEC5-F1     615 PKPPASAPPSILVKPENSRNGIEKQVKTVRFQNYSPPPTKHYTSHPTSGK    664
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q8TEC5-F1     665 PEQPATLKASQPEAASLGPEMTVLFAHRSGCHSGQQTDLRRKSALGKATT    714
+
+AF-Q10NK5-F1     394 ---------------    394
+                                    
+AF-Q8TEC5-F1     715 LVSTASGTQTVFPSK    729
+
+
+#---------------------------------------
+#---------------------------------------

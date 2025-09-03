@@ -1,0 +1,93 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:57
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6k6b6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8tep8-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6k6b6-f1_af-q8tep8-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6k6b6-f1_af-q8tep8-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6K6B6-F1
+# 2: AF-Q8TEP8-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 677
+# Identity:     135/677 (19.9%)
+# Similarity:   207/677 (30.6%)
+# Gaps:         258/677 (38.1%)
+# Score: 80.5
+# 
+#
+#=======================================
+
+AF-Q6K6B6-F1     337 SEVPRRAPPDSTLAPQWHIMEDRKGERGAAEVMIAVWFGTQA--DEAFAE    384
+                     |..|..|..|:        :||||.:. .:|:...:..|:.|  :|...|
+AF-Q8TEP8-F1    1048 SSYPTTATDDA--------LEDRKSDI-TSELSTTIIQGSPAALEERAME   1088
+
+AF-Q6K6B6-F1     385 AWHSKAAGVH-GYGPLGSI----------------KSK-VYVAPKLWYLR    416
+                     ....|....: |.|.|.||                .|| .||.|...:.:
+AF-Q8TEP8-F1    1089 KLREKVPFQNRGKGTLSSIIQNNSDTRKATETTSLSSKPEYVKPDFRWSK   1138
+
+AF-Q6K6B6-F1     417 VSVIEAQDLI----------PMDKGPMAIGRYPELFVRAQVGSQMLRTRP    456
+                     ....::.:|:          |.:..|:.:....:..:..||||       
+AF-Q8TEP8-F1    1139 DPSSKSGNLLETSEVGWTSNPEELDPIRLALLGKSGLSCQVGS-------   1181
+
+AF-Q6K6B6-F1     457 APVAANRGPSSPFWNEDLMFVVAEPFEEFLVLSLEDHVSPGRDDVLGRLV    506
+                         |...|.|          ..||.:|      :..:||          
+AF-Q8TEP8-F1    1182 ----ATSHPVS----------CQEPIDE------DQRISP----------   1201
+
+AF-Q6K6B6-F1     507 VPVSSIERRWDEKLVVSRWFGLDRGTGG----GNVASGNTNRF------G    546
+                                          .|:.|.|    |.|:...|:..      .
+AF-Q8TEP8-F1    1202 ---------------------KDKSTAGREFSGQVSHQTTSENQCTPIPS   1230
+
+AF-Q6K6B6-F1     547 SRVHLRL----SLDGGYHVL---------DEATAYSSDLRPTGK-QLWQP    582
+                     |.||..:    ::....|.|         ..|..|...|..||. .|.|.
+AF-Q8TEP8-F1    1231 STVHSSVADMQNMPAAVHALLTQPSLSAAPFAQRYLGTLPSTGSTTLPQC   1280
+
+AF-Q6K6B6-F1     583 HVGVLELGVLGATGLIPMKARDG---RGATSDAYCV-AKYGQKWIRTRTV    628
+                     |.|  ...|.|.:|.:|..|..|   :.:.:...|: :..|..|:.|   
+AF-Q8TEP8-F1    1281 HAG--NATVCGFSGGLPYPAVAGEPVQNSVAVGICLGSNIGSGWMGT---   1325
+
+AF-Q6K6B6-F1     629 VDSVCPRWN---EQYTWEVFDPCTVITVGVFDNCHVDKPASGNTTLAVRD    675
+                      .|:|..::   .|.......|..|.:||.  ||.::...||.|      
+AF-Q8TEP8-F1    1326 -SSLCNPYSNTLNQNLLSTTKPFPVPSVGT--NCGIEPWDSGVT------   1366
+
+AF-Q6K6B6-F1     676 NCIGKVRI------------------RLSTLE-TDRVYTHAYPLLMLHPS    706
+                     :.:|.||:                  .||.|. |||....:..:|.:..:
+AF-Q8TEP8-F1    1367 SGLGSVRVPEELKLPHACCVGIASQTLLSVLNPTDRWLQVSIGVLSISVN   1416
+
+AF-Q6K6B6-F1     707 GVKKMGELHLAVRFCCGNAGNMF--HAYVRPLLPKMHYIEPLLVR-----    749
+                     |.|    :.|:...|.     :|  .|.:||     |..|.:.|.     
+AF-Q8TEP8-F1    1417 GEK----VDLSTYRCL-----VFKNKAIIRP-----HATEEIKVLFIPSS   1452
+
+AF-Q6K6B6-F1     750 -----------------------QVESLRFQATNVVAARLGRAEPPLGRE    776
+                                            |.|:|   |:.|....:  ||.|    
+AF-Q8TEP8-F1    1453 PGVFRCTFSVASWPCSTDAETIVQAEAL---ASTVTLTAI--AESP----   1493
+
+AF-Q6K6B6-F1     777 VVEYMLDHRSHLWSMRRSKANFFRLVTVLSGPITIGRWFELVRSWNRPVH    826
+                     |:|...:.:..|        :|        |.:|.|.|..|........|
+AF-Q8TEP8-F1    1494 VIEVETEKKDVL--------DF--------GDLTYGGWKALPLKLINRTH   1527
+
+AF-Q6K6B6-F1     827 SCLAV-------------FTF-LVFVTMPELILPTAFLAMAFTGLWRYRV    862
+                     :.:.:             ||| ...|..|..:.|.|.:.....|      
+AF-Q8TEP8-F1    1528 ATVPIRLIINANAVAWRCFTFSKESVRAPVEVAPCADVVTRLAG------   1571
+
+AF-Q6K6B6-F1     863 RSRHPPHMEMRLSHADAATVDELDEEF    889
+                          |.:   ::|...|:.|..|.||
+AF-Q8TEP8-F1    1572 -----PSV---VNHMMPASYDGQDPEF   1590
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:02
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8tdx7-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q8tdx7-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q8tdx7-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q8TDX7-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 319
+# Identity:      70/319 (21.9%)
+# Similarity:   131/319 (41.1%)
+# Gaps:          69/319 (21.6%)
+# Score: 193.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     583 YEEETPLHIDIRRFTYAELKLITNNFQSIIGKGGFGTVYH-GILENNDEV    631
+                     ::.:..|..|:...|.|..::     :..||:|.|..||. ..|.:...|
+AF-Q8TDX7-F1      16 FQPQKALRPDMGYNTLANFRI-----EKKIGRGQFSEVYRAACLLDGVPV     60
+
+AF-B7FAC9-F1     632 AVKVLVETSIAESK---DFLPEVQTLSKVHHKNLVALVGYCQNKKCLALV    678
+                     |:|.:....:.::|   |.:.|:..|.:::|.|::...........|.:|
+AF-Q8TDX7-F1      61 ALKKVQIFDLMDAKARADCIKEIDLLKQLNHPNVIKYYASFIEDNELNIV    110
+
+AF-B7FAC9-F1     679 YDFMPRGNLQQLLRGGYDSLNWEERL-------HIALDAAQGLEYLHESC    721
+                     .:....|:|.::::    ....::||       ...:.....||::|   
+AF-Q8TDX7-F1     111 LELADAGDLSRMIK----HFKKQKRLIPERTVWKYFVQLCSALEHMH---    153
+
+AF-B7FAC9-F1     722 TPSIVHRDVKTPNILLDKNLVAKISDFGLSRAFN----AAHTHISTVAAG    767
+                     :..::|||:|..|:.:....|.|:.|.||.|.|:    |||:.:     |
+AF-Q8TDX7-F1     154 SRRVMHRDIKPANVFITATGVVKLGDLGLGRFFSSKTTAAHSLV-----G    198
+
+AF-B7FAC9-F1     768 TLGYLDPEYHATFQLTVKTDVYSFGIVLLEIVTGQPPVFMDPQTVH----    813
+                     |..|:.||.........|:|::|.|.:|.|:...|.|.:.|...::    
+AF-Q8TDX7-F1     199 TPYYMSPERIHENGYNFKSDIWSLGCLLYEMAALQSPFYGDKMNLYSLCK    248
+
+AF-B7FAC9-F1     814 ---------LPNWVRQKIANGSVHDVVDKKLLDQYDATHLQTVIDLAMNC    854
+                              ||:                    |.| :..|:.::::   |
+AF-Q8TDX7-F1     249 KIEQCDYPPLPS--------------------DHY-SEELRQLVNM---C    274
+
+AF-B7FAC9-F1     855 LENASIDRPSMTEVVSVLK    873
+                     :......||.:|.|..|.|
+AF-Q8TDX7-F1     275 INPDPEKRPDVTYVYDVAK    293
+
+
+#---------------------------------------
+#---------------------------------------

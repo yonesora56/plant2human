@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:00
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8tdy4-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-q8tdy4-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-q8tdy4-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-Q8TDY4-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 214
+# Identity:      45/214 (21.0%)
+# Similarity:    79/214 (36.9%)
+# Gaps:          50/214 (23.4%)
+# Score: 66.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1     106 RASVE-FGNSH-SQMEKE------------RE------NLLKFLGEQVFE    135
+                     |.:|| .|||| ||...|            ||      ||::.|...|..
+AF-Q8TDY4-F1      77 REAVESLGNSHLSQNSHELSTGFLNLAVFTREVAALFKNLIQNLNNIVSF    126
+
+AF-Q10NK5-F1     136 PLREMIMSAPLEDARLLTYR-YQRIRQDMESQIADVMRKQLKSKESSGNA    184
+                     || :.:|...|.|.|..:.: .::..:|.|:::|.:.:::.:::.:.|..
+AF-Q8TDY4-F1     127 PL-DSLMKGQLRDGRQDSKKQLEKAWKDYEAKMAKLEKERDRARVTGGIP    175
+
+AF-Q10NK5-F1     185 DNSVKLQHAESKLSELRTTLSALGREATAAMEAVEVQQQQVTF-------    227
+                     ....:....|.::.:|......|....:...:..:..|..:.|       
+AF-Q8TDY4-F1     176 GEVAQDMQRERRIFQLHMCEYLLKAGESQMKQGPDFLQSLIKFFHAQHNF    225
+
+AF-Q10NK5-F1     228 ---------------DRLLAMVDAERAYHQNAADILNK---LHDEMVQAK    259
+                                    ::|.|.|   .|.||...|.|.|   |.|.:....
+AF-Q8TDY4-F1     226 FQDGWKAAQSLFPFIEKLAASV---HALHQAQEDELQKLTQLRDSLRGTL    272
+
+AF-Q10NK5-F1     260 HHDEPENHYDETSS    273
+                     ..:..|.|....:|
+AF-Q8TDY4-F1     273 QLESREEHLSRKNS    286
+
+
+#---------------------------------------
+#---------------------------------------

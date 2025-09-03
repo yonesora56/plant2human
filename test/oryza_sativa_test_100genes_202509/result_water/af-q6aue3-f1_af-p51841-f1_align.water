@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:41
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p51841-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-p51841-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-p51841-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-P51841-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 300
+# Identity:      69/300 (23.0%)
+# Similarity:   125/300 (41.7%)
+# Gaps:          50/300 (16.7%)
+# Score: 211.0
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      84 GTVYRGTYDGQDVAVKLLDW--------GEDGFATEAETAALRTSFKQEV    125
+                     |::...||:..::|:...||        |:.|     :..::::......
+AF-P51841-F1     551 GSLTPATYENSNIAIYEGDWVWLKKFSLGDFG-----DLKSIKSRASDVF    595
+
+AF-Q6AUE3-F1     126 AVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCVVVEY    175
+                     .:...|.|.|:...:|...            ::|        ...:|.|:
+AF-P51841-F1     596 EMMKDLRHENINPLLGFFY------------DSG--------MFAIVTEF    625
+
+AF-Q6AUE3-F1     176 LAGGTLKQYLIKNSRRKLAYKVVVQLALDLARGLSYLHSRKIVHRDVKTE    225
+                     .:.|:|:. ::.|...||.:.....|.|||.:|:.|||.|:.||..:|:.
+AF-P51841-F1     626 CSRGSLED-ILTNQDVKLDWMFKSSLLLDLIKGMKYLHHREFVHGRLKSR    674
+
+AF-Q6AUE3-F1     226 NMLLDTQRNLKIADFGVARV-EAQNPKDMTGATGTLGYMAPEVLDGKPYN    274
+                     |.::|.:..||:.|:|...: |.....:...:...|.:.|||:|.....:
+AF-P51841-F1     675 NCVVDGRFVLKVTDYGFNDILEMLRLSEEESSMEELLWTAPELLRAPRGS    724
+
+AF-Q6AUE3-F1     275 R----KCDVYSFGICLWEIYCCDMPYPDLSFADVSSAVVHQNL-------    313
+                     |    ..|||||.|.:.|:.....|:   ...|:.:..:...|       
+AF-P51841-F1     725 RLGSFAGDVYSFAIIMQEVMVRGTPF---CMMDLPAQEIINRLKKPPPVY    771
+
+AF-Q6AUE3-F1     314 RPDV-PRCCPSAFANIMRKCWDANPDKRPDMDEVVQLLEALDTSKGGGMI    362
+                     ||.| |...|.....:|::||....::||..||:....:..:..|...:|
+AF-P51841-F1     772 RPVVPPEHAPPECLQLMKQCWAEAAEQRPTFDEIFNQFKTFNKGKKTNII    821
+
+
+#---------------------------------------
+#---------------------------------------

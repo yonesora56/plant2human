@@ -1,0 +1,97 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:21
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0inq2-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q09428-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0inq2-f1_af-q09428-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0inq2-f1_af-q09428-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0INQ2-F1
+# 2: AF-Q09428-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 704
+# Identity:     145/704 (20.6%)
+# Similarity:   238/704 (33.8%)
+# Gaps:         221/704 (31.4%)
+# Score: 166.5
+# 
+#
+#=======================================
+
+AF-Q0INQ2-F1      76 GVEVPLPAAQAVSLPRAAADVVDDPAV-----FLTWEDVRVTVPGRTRGS    120
+                     |:..||.:.    :|.|..| .|:..|     :.||      .|.   |.
+AF-Q09428-F1     658 GLTGPLQSL----VPSADGD-ADNCCVQIMGGYFTW------TPD---GI    693
+
+AF-Q0INQ2-F1     121 PPARILDGITGHARPGEVLAIMGPSGCGKTTLLDTLAGRLGQEMNQTGVI    170
+                     |   .|..||.....|::..|:|..||||::||  ||. ||:....:|.:
+AF-Q09428-F1     694 P---TLSNITIRIPRGQLTMIVGQVGCGKSSLL--LAA-LGEMQKVSGAV    737
+
+AF-Q0INQ2-F1     171 L----------------------INGRQEKLAFGTSAYVTQDNVLMSTLS    198
+                     .                      ::.|:.    |..||.:|...|::. :
+AF-Q09428-F1     738 FWSSLPDSEIGEDPSPERETATDLDIRKR----GPVAYASQKPWLLNA-T    782
+
+AF-Q0INQ2-F1     199 VREAVYYSAHLQLPDTMLASEKRAHAERVIREMGLSDTMD-------TRI    241
+                     |.|.:.:.:..          .:...:.||....|...:|       |:|
+AF-Q09428-F1     783 VEENIIFESPF----------NKQRYKMVIEACSLQPDIDILPHGDQTQI    822
+
+AF-Q0INQ2-F1     242 GGRITKGI--SGGQRKRMSICIEMLTRPRLLFLDEPTSGLDSAASYHVM-    288
+                     |.|   ||  |||||:|:|:...:.....::|||:|.|.||...|.|:| 
+AF-Q09428-F1     823 GER---GINLSGGQRQRISVARALYQHANVVFLDDPFSALDIHLSDHLMQ    869
+
+AF-Q0INQ2-F1     289 SHITRVAAREGMTVIAAVHQ----PSGDVFDLFHGLLLLAYGRMVFFGTV    334
+                     :.|..:...:..||:...|:    |..|      .::.:..|.:...||:
+AF-Q09428-F1     870 AGILELLRDDKRTVVLVTHKLQYLPHAD------WIIAMKDGTIQREGTL    913
+
+AF-Q0INQ2-F1     335 SNATEFFTQSGFPCPHLRNPSDHFLRTINKDFDEGTMESSKANRKTAAEA    384
+                     .:    |.:|  .|...    :|:...:|:...|  :|......:.|.|.
+AF-Q09428-F1     914 KD----FQRS--ECQLF----EHWKTLMNRQDQE--LEKETVTERKATEP    951
+
+AF-Q0INQ2-F1     385 TNILTNAYHS-----TYSEKTANEIVEMKGMGGTPFRRKEQASFLTKLLV    429
+                     ...|:.|..|     ...|:...|..|           .|:...|:.:| 
+AF-Q09428-F1     952 PQGLSRAMSSRDGLLQDEEEEEEEAAE-----------SEEDDNLSSML-    989
+
+AF-Q0INQ2-F1     430 LTRRSFLNMHRDIGYYWMRLGIYL---GIGICLGTIFYQ-------VGYS    469
+                              |:.....|.....||   ||.:....:|.|       |...
+AF-Q09428-F1     990 ---------HQRAEIPWRACAKYLSSAGILLLSLLVFSQLLKHMVLVAID   1030
+
+AF-Q0INQ2-F1     470 Y------------------SSIQSRC--EVIMYTTALVTFMAIGGFPSFV    499
+                     |                  .|:...|  :..:|........::|.....|
+AF-Q09428-F1    1031 YWLAKWTDSALTLTPAARNCSLSQECTLDQTVYAMVFTVLCSLGIVLCLV   1080
+
+AF-Q0INQ2-F1     500 EDIK-----LFRRERLSGHYGVMEFVI---SNTLSATPYLAVIAVIPGAM    541
+                     ..:.     |...:||  |..::..:|   ......||       :...:
+AF-Q09428-F1    1081 TSVTVEWTGLKVAKRL--HRSLLNRIILAPMRFFETTP-------LGSIL   1121
+
+AF-Q0INQ2-F1     542 MYYLTGLTRGAEHFAYFVATLCMCTLLVESMMMIIAVIVPDFLMGIIIGA    591
+                     ..:.:......:|....:..|...|||..|.:.:|:.:.|.||:.:    
+AF-Q09428-F1    1122 NRFSSDCNTIDQHIPSTLECLSRSTLLCVSALAVISYVTPVFLVAL----   1167
+
+AF-Q0INQ2-F1     592 GIQGMMMLNGGFFRLPNELPKPVWKYPCYYISFHKYAVQGFYKNEFIGLS    641
+                                       ||..:   .||:|  .||         |...|
+AF-Q09428-F1    1168 ------------------LPLAI---VCYFI--QKY---------FRVAS   1185
+
+AF-Q0INQ2-F1     642 FPSDQLIEAN---------ATISGLQVLK-----ERLQVE-MGYSKWVNL    676
+                     ....||.:..         .|:.||..::     .|.|.: :.|:...|:
+AF-Q09428-F1    1186 RDLQQLDDTTQLPLLSHFAETVEGLTTIRAFRYEARFQQKLLEYTDSNNI   1235
+
+AF-Q0INQ2-F1     677 AILF    680
+                     |.||
+AF-Q09428-F1    1236 ASLF   1239
+
+
+#---------------------------------------
+#---------------------------------------

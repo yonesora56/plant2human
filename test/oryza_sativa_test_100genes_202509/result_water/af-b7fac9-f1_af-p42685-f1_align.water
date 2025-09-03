@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:56
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p42685-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-p42685-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-p42685-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-P42685-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 246
+# Identity:      70/246 (28.5%)
+# Similarity:   125/246 (50.8%)
+# Gaps:          20/246 ( 8.1%)
+# Score: 265.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     586 ETPLHIDIRRFTYAELKLITNNFQSI--IGKGGFGTVYHGILENNDEVAV    633
+                     :.|...|:...|..:.::..|:.|.:  :|.|.||.|:.|:..|...|||
+AF-P42685-F1     212 QVPAPFDLSYKTVDQWEIDRNSIQLLKRLGSGQFGEVWEGLWNNTTPVAV    261
+
+AF-B7FAC9-F1     634 KVLVETSIAESKDFLPEVQTLSKVHHKNLVALVGYCQNKKCLALVYDFMP    683
+                     |.|...|: :..|||.|.|.:..:.|..|:.|...|..:..:.::.:.|.
+AF-P42685-F1     262 KTLKPGSM-DPNDFLREAQIMKNLRHPKLIQLYAVCTLEDPIYIITELMR    310
+
+AF-B7FAC9-F1     684 RGNLQQLLRGGYDS-LNWEERLHIALDAAQGLEYLHESCTPSIVHRDVKT    732
+                     .|:||:.|:....| ::..:::.:|...|.|:.||.   :.:.:|||:..
+AF-P42685-F1     311 HGSLQEYLQNDTGSKIHLTQQVDMAAQVASGMAYLE---SRNYIHRDLAA    357
+
+AF-B7FAC9-F1     733 PNILLDKNLVAKISDFGLSRAFNAAHTHISTVAAG---TLGYLDPEYHAT    779
+                     .|:|:.::.:.|::||||:|.|...:..|......   .:.:..||...:
+AF-P42685-F1     358 RNVLVGEHNIYKVADFGLARVFKVDNEDIYESRHEIKLPVKWTAPEAIRS    407
+
+AF-B7FAC9-F1     780 FQLTVKTDVYSFGIVLLEIVT-GQPP---------VFMDPQTVHLP    815
+                     .:.::|:||:||||:|.||:| |:.|         :.|..|...||
+AF-P42685-F1     408 NKFSIKSDVWSFGILLYEIITYGKMPYSGMTGAQVIQMLAQNYRLP    453
+
+
+#---------------------------------------
+#---------------------------------------

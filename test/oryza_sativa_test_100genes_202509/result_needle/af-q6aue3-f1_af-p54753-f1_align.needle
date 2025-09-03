@@ -1,0 +1,121 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:04
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p54753-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6aue3-f1_af-p54753-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6aue3-f1_af-p54753-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-P54753-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1047
+# Identity:     102/1047 ( 9.7%)
+# Similarity:   171/1047 (16.3%)
+# Gaps:         717/1047 (68.5%)
+# Score: 290.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54753-F1       1 MARARPPPPPSPPPGLLPLLPPLLLLPLLLLPAGCRALEETLMDTKWVTS     50
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54753-F1      51 ELAWTSHPESGWEEVSGYDEAMNPIRTYQVCNVRESSQNNWLRTGFIWRR    100
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54753-F1     101 DVQRVYVELKFTVRDCNSIPNIPGSCKETFNLFYYEADSDVASASSPFWM    150
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54753-F1     151 ENPYVKVDTIAPDESFSRLDAGRVNTKVRSFGPLSKAGFYLAFQDQGACM    200
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54753-F1     201 SLISVRAFYKKCASTTAGFALFPETLTGAEPTSLVIAPGTCIPNAVEVSV    250
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54753-F1     251 PLKLYCNGDGEWMVPVGACTCATGHEPAAKESQCRPCPPGSYKAKQGEGP    300
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54753-F1     301 CLPCPPNSRTTSPAASICTCHNNFYRADSDSADSACTTVPSPPRGVISNV    350
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54753-F1     351 NETSLILEWSEPRDLGGRDDLLYNVICKKCHGAGGASACSRCDDNVEFVP    400
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54753-F1     401 RQLGLTERRVHISHLLAHTRYTFEVQAVNGVSGKSPLPPRYAAVNITTNQ    450
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P54753-F1     451 AAPSEVPTLRLHSSSGSSLTLSWAPPERPNGVILDYEMKYFEKSEGIAST    500
+
+AF-Q6AUE3-F1       1 --------------------------------------MASSTSDIPEGR     12
+                                                           ...:||:...|.
+AF-P54753-F1     501 VTSQMNSVQLDGLRPDARYVVQVRARTVAGYGQYSRPAEFETTSERGSGA    550
+
+AF-Q6AUE3-F1      13 EKLKRSGSL--GSSDTAYVRADKIDLTSLDIQLEKQLTKTWGKANLKAHG     60
+                     ::|:....|  ||:....|....:.:.:: :.|.||           .||
+AF-P54753-F1     551 QQLQEQLPLIVGSATAGLVFVVAVVVIAI-VCLRKQ-----------RHG    588
+
+AF-Q6AUE3-F1      61 PKEDW---------------------------------EIDLAKLEIRYV     77
+                     ...::                                 |||::.::|..|
+AF-P54753-F1     589 SDSEYTEKLQQYIAPGMKVYIDPFTYEDPNEAVREFAKEIDVSCVKIEEV    638
+
+AF-Q6AUE3-F1      78 IAQGTYGTVYRGTYDGQD-----VAVKLLDWGEDGFATEAETAALRTSFK    122
+                     |..|.:|.|.||......     ||:|.|..|    .||.:    |..|.
+AF-P54753-F1     639 IGAGEFGEVCRGRLKQPGRREVFVAIKTLKVG----YTERQ----RRDFL    680
+
+AF-Q6AUE3-F1     123 QEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCVV    172
+                     .|.::..:..|||:.:..|         :.|.           :|...::
+AF-P54753-F1     681 SEASIMGQFDHPNIIRLEG---------VVTK-----------SRPVMIL    710
+
+AF-Q6AUE3-F1     173 VEYLAGGTLKQYLIKNSRRKLAYKVVVQLALDLARGLSYLHSRKIVHRDV    222
+                     .|::....|..:|..|..:....::|..|. .:|.|:.||.....||||:
+AF-P54753-F1     711 TEFMENCALDSFLRLNDGQFTVIQLVGMLR-GIAAGMKYLSEMNYVHRDL    759
+
+AF-Q6AUE3-F1     223 KTENMLLDTQRNLKIADFGVARVEAQNPKDMTGATGTLG------YMAPE    266
+                     ...|:|:::....|::|||::|....:|.|.| .|.:||      :.|||
+AF-P54753-F1     760 AARNILVNSNLVCKVSDFGLSRFLEDDPSDPT-YTSSLGGKIPIRWTAPE    808
+
+AF-Q6AUE3-F1     267 VLDGKPYNRKCDVYSFGICLWEIYCC-DMPYPDLSFADVSSAVVHQNLRP    315
+                     .:..:.:....||:|:||.:||:... :.||.|:|..||.:| |.|:.|.
+AF-P54753-F1     809 AIAYRKFTSASDVWSYGIVMWEVMSYGERPYWDMSNQDVINA-VEQDYRL    857
+
+AF-Q6AUE3-F1     316 DVPRCCPSAFANIMRKCWDANPDKRPDMDEVVQLLEALDTSKGGGMIPDG    365
+                     ..|..||:|...:|..||..:.:.||...::|..|:.|..:.....:...
+AF-P54753-F1     858 PPPMDCPTALHQLMLDCWVRDRNLRPKFSQIVNTLDKLIRNAASLKVIAS    907
+
+AF-Q6AUE3-F1     366 QSSGCLCFTKARGP------------------------------------    379
+                     ..||      ...|                                    
+AF-P54753-F1     908 AQSG------MSQPLLDRTVPDYTTFTTVGDWLDAIKMGRYKESFVSAGF    951
+
+AF-Q6AUE3-F1     379 -----------------------------------------------    379
+                                                                    
+AF-P54753-F1     952 ASFDLVAQMTAEDLLRIGVTLAGHQKKILSSIQDMRLQMNQTLPVQV    998
+
+
+#---------------------------------------
+#---------------------------------------

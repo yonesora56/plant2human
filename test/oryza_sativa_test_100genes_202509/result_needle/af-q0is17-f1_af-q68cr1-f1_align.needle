@@ -1,0 +1,145 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:30
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0is17-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q68cr1-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0is17-f1_af-q68cr1-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0is17-f1_af-q68cr1-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0IS17-F1
+# 2: AF-Q68CR1-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1342
+# Identity:     195/1342 (14.5%)
+# Similarity:   347/1342 (25.9%)
+# Gaps:         684/1342 (51.0%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+AF-Q0IS17-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q68CR1-F1       1 MQRRGAGLGWPRQQQQQPPPLAVGPRAAAMVPSGGVPQGLGGRSACALLL     50
+
+AF-Q0IS17-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q68CR1-F1      51 LCYLNVVPSLGRQTSLTTSVIPKAEQSVAYKDFIYFTVFEGNVRNVSEVS    100
+
+AF-Q0IS17-F1       1 ----------------MQQPQASSMTAAARRRQLQGSVLAGKMVLVRKAL     34
+                                     :.....||:....:|.:.:..:...:..:|....
+AF-Q68CR1-F1     101 VEYLCSQPCVVNLEAVVSSEFRSSIPVYKKRWKNEKHLHTSRTQIVHVKF    150
+
+AF-Q0IS17-F1      35 DTNL---------NSGDVVCQLVSSTVGDPDNG-NRGMLGQEACVHI---     71
+                     .:.:         :|..|...:|.:.:....:| :..:..:|..:|.   
+AF-Q68CR1-F1     151 PSIMVYRDDYFIRHSISVSAVIVRAWITHKYSGRDWNVKWEENLLHAVAK    200
+
+AF-Q0IS17-F1      72 NSELHPT--PYE--------ASTFSFEFIWDMKKQGVPGAVIVKNYCDEE    111
+                     |..|..|  |:|        ...::..:||:::...:|       .|..|
+AF-Q68CR1-F1     201 NYTLLQTIPPFERPFKDHQVCLEWNMGYIWNLRANRIP-------QCPLE    243
+
+AF-Q0IS17-F1     112 FFV-------------NTITLDIVPGYGT-------------IVFTAESW    135
+                     ..|             ||..:...|.:..             .|||...|
+AF-Q68CR1-F1     244 NDVVALLGFPYASSGENTGIVKKFPRFRNRELEATRRQRMDYPVFTVSLW    293
+
+AF-Q0IS17-F1     136 VY-----------------PDEIYDHLPRVFFSNQPYLPNQMPAP-----    163
+                     :|                 .:|:|. .|.||.:.:.||..||...     
+AF-Q68CR1-F1     294 LYLLHYCKANLCGILYFVDSNEMYG-TPSVFLTEEGYLHIQMHLVKGEDL    342
+
+AF-Q0IS17-F1     164 ------LVPYRE--------------------EELRNLRGDDNPGPYKDH    187
+                           ::|.:|                    ::|::         |.:.
+AF-Q68CR1-F1     343 AVKTKFIIPLKEWFRLDISFNGGQIVVTTSIGQDLKS---------YHNQ    383
+
+AF-Q0IS17-F1     188 DRVYRYDV-YNDLGEPDSGNPRPVLGGSDEHPYPRRCRTGRRRTNTDPDS    236
+                     ...:|.|. |||..      ...::||                       
+AF-Q68CR1-F1     384 TISFREDFHYNDTA------GYFIIGG-----------------------    404
+
+AF-Q0IS17-F1     237 ESRNV----GF--PLTNHFYVPRD----EVFN---DRKKAYFDTNNLKLY    273
+                      ||.|    ||  ||  .:|..|.    ::||   :::.|    ..:|||
+AF-Q68CR1-F1     405 -SRYVAGIEGFFGPL--KYYRLRSLHPAQIFNPLLEKQLA----EQIKLY    447
+
+AF-Q0IS17-F1     274 ---------IMQKYATFLLHADQQTPFEFDSFADVLSLYDEGSINLPGWL    314
+                              |:..||:...|..::        .:...|:           
+AF-Q68CR1-F1     448 YERCAEVQEIVSVYASAAKHGGER--------QEACHLH-----------    478
+
+AF-Q0IS17-F1     315 NTFLQPLLGIIPFKLLQQVLTPDSEFILKFPMPAVIREDKTAWQTDEEFA    364
+                     |::|.          ||:          ::..|::.|  ...|:.:    
+AF-Q68CR1-F1     479 NSYLD----------LQR----------RYGRPSMCR--AFPWEKE----    502
+
+AF-Q0IS17-F1     365 REMLAGTNPVVIRRLGETEF--PPKSKLDTSKYHNQNSRITAAHVEKCLE    412
+                        |...:|.:.:.|.|.:.  .|:         |||..::        |
+AF-Q68CR1-F1     503 ---LKDKHPSLFQALLEMDLLTVPR---------NQNESVS--------E    532
+
+AF-Q0IS17-F1     413 VEGLTVEQVLADGRLFILD--HH-DHFMPYLLDAN----HQPDTFVYATR    455
+                     :.|...|:.:.  ||..:|  |. ...:|:|.|::    |:...::    
+AF-Q68CR1-F1     533 IGGKIFEKAVK--RLSSIDGLHQISSIVPFLTDSSCCGYHKASYYL----    576
+
+AF-Q0IS17-F1     456 TLLFHRNDGTLQPAAIELSLPRFE-----------AGSTLISSVGEVYTP    494
+                      .:|:...         |::||.:           .||..:||:...| .
+AF-Q68CR1-F1     577 -AVFYETG---------LNVPRDQLQGMLYSLVGGQGSERLSSMNLGY-K    615
+
+AF-Q0IS17-F1     495 ASDGVEGH--IWQLAKAYVTVNDYSWHQLVSHWL-NTHAVMEPFAIATHR    541
+                     ...|::.:  .|:|:.||.: |..:...|..|.| ...|.:|...:....
+AF-Q68CR1-F1     616 HYQGIDNYPLDWELSYAYYS-NIATKTPLDQHTLQGDQAYVETIRLKDDE    664
+
+AF-Q0IS17-F1     542 QLSV-----AHPIHKLLHPHYRDNLFINALGRQSLINAGGSSENTVFLGK    586
+                     .|.|     ......|.|...|.    ||..:|.|       ...:|.|:
+AF-Q68CR1-F1     665 ILKVQTKEDGDVFMWLKHEATRG----NAAAQQRL-------AQMLFWGQ    703
+
+AF-Q0IS17-F1     587 YGLSMTSEVYRNWNFTEQAL-PED-----------FIKRGVAKRRSNGEL    624
+                     .|::...|....| :.:.|| .||           |..:||.|.|... |
+AF-Q68CR1-F1     704 QGVAKNPEAAIEW-YAKGALETEDPALIYDYAIVLFKGQGVKKNRRLA-L    751
+
+AF-Q0IS17-F1     625 ELL----IKDYPYAVDGLAIW----------SAIETWVRD----------    650
+                     ||:    .|....||:||. |          .|.:.|::.          
+AF-Q68CR1-F1     752 ELMKKAASKGLHQAVNGLG-WYYHKFKKNYAKAAKYWLKAEEMGNPDASY    800
+
+AF-Q0IS17-F1     651 ---------------------------------------YCAIYYADDAA    661
+                                                            :|::||     
+AF-Q68CR1-F1     801 NLGVLHLDGIFPGVPGRNQTLAGEYFHKAAQGGHMEGTLWCSLYY-----    845
+
+AF-Q0IS17-F1     662 VQGDAELQSWWKDVREEGHGDLKDHKWWPEMKTVAELVQSCATIIWIASA    711
+                     :.|:  |:::.:|               ||           ..::|   |
+AF-Q68CR1-F1     846 ITGN--LETFPRD---------------PE-----------KAVVW---A    864
+
+AF-Q0IS17-F1     712 LHAAVNFGQYMYAGYVPNRPSVSRRPMPKPGTDLYRELELHPEKEFLLTI    761
+                     .|.|...|   |.|:|..:           |.:.|.|...|....:.:..
+AF-Q68CR1-F1     865 KHVAEKNG---YLGHVIRK-----------GLNAYLEGSWHEALLYYVLA    900
+
+AF-Q0IS17-F1     762 TKQDLSIAGIALVELLSSHSD-DEVYLG-------------QRDSPNWT-    796
+                     .:..:.::...|..:.....| ...|||             |.|:|::. 
+AF-Q68CR1-F1     901 AETGIEVSQTNLAHICEERPDLARRYLGVNCVWRYYNFSVFQIDAPSFAY    950
+
+AF-Q0IS17-F1     797 ---SDLDAMNAFDRFRERLLEVEKNIVAKNDKGS-GFKN-----RTGPVN    837
+                        .||......::.::..|.|:....|..|..| ||.|     ..|.: 
+AF-Q68CR1-F1     951 LKMGDLYYYGHQNQSQDLELSVQMYAQAALDGDSQGFFNLALLIEEGTI-    999
+
+AF-Q0IS17-F1     838 IPYNLLFPYASGDAEANTGVTGKGIPNSASI-------------------    868
+                     ||:::| .:...|:..::        |:.||                   
+AF-Q68CR1-F1    1000 IPHHIL-DFLEIDSTLHS--------NNISILQELYERCWSHSNEESFSP   1040
+
+AF-Q0IS17-F1     868 --------------------------------------------------    868
+                                                                       
+AF-Q68CR1-F1    1041 CSLAWLYLHLRLLWGAILHSALIYFLGTFLLSILIAWTVQYFQSVSASDP   1090
+
+AF-Q0IS17-F1     868 ------------------------------------------    868
+                                                               
+AF-Q68CR1-F1    1091 PPRPSQASPDTATSTASPAVTPAADASDQDQPTVTNNPEPRG   1132
+
+
+#---------------------------------------
+#---------------------------------------

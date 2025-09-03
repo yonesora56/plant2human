@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:03
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o60749-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-o60749-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-o60749-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-O60749-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 301
+# Identity:      62/301 (20.6%)
+# Similarity:   117/301 (38.9%)
+# Gaps:          69/301 (22.9%)
+# Score: 74.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       6 KQASKLREHVAKQQQAVRKQFSARYN-----QDPSL---VDEAELECHQN     47
+                     |:.|...|.|.|::.|:.:.......     |||.|   ::.:||....|
+AF-O60749-F1     223 KEDSSSTEFVEKRRAALERYLQRTVKHPTLLQDPDLRQFLESSELPRAVN    272
+
+AF-Q10NK5-F1      48 LQRLYNS------TRAAKHFQRSIVRGVEGFIAVSTKQMEI------VKK     85
+                     .|.|..:      .:||....:..::..|.......||.:.      ::|
+AF-O60749-F1     273 TQALSGAGILRMVNKAADAVNKMTIKMNESDAWFEEKQQQFENLDQQLRK    322
+
+AF-Q10NK5-F1      86 L-----AEDCCRYGNDNQNFGFILARASVEFGNSH---------SQMEKE    121
+                     |     |..|.|.........|  |:::...|||.         ||:.:.
+AF-O60749-F1     323 LHVSVEALVCHRKELSANTAAF--AKSAAMLGNSEDHTALSRALSQLAEV    370
+
+AF-Q10NK5-F1     122 RENLLKFLGEQVFEPLREMIMSAPLED-ARLLT-------YRYQRIRQDM    163
+                     .|.:.:...||.|...  .:.|..|.| .||:.       :|.:..::..
+AF-O60749-F1     371 EEKIDQLHQEQAFADF--YMFSELLSDYIRLIAAVKGVFDHRMKCWQKWE    418
+
+AF-Q10NK5-F1     164 ESQIADVMRKQLKSKESSGNADNSVKLQHAESKLSELRTTLSALGREATA    213
+                     ::||..:.:::.::|....|..:  |:|.|::::.|              
+AF-O60749-F1     419 DAQITLLKKREAEAKMMVANKPD--KIQQAKNEIRE--------------    452
+
+AF-Q10NK5-F1     214 AMEAVEVQQQQVTFDRLLAMVDAE--RAYHQNAAD---ILNKLHDEMVQA    258
+                      .|| :|||.:..|:::...:..|  |...:...|   ::.|..:.:||.
+AF-O60749-F1     453 -WEA-KVQQGERDFEQISKTIRKEVGRFEKERVKDFKTVIIKYLESLVQT    500
+
+AF-Q10NK5-F1     259 K    259
+                     :
+AF-O60749-F1     501 Q    501
+
+
+#---------------------------------------
+#---------------------------------------

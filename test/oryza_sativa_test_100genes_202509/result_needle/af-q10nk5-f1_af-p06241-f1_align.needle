@@ -1,0 +1,105 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:45
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p06241-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10nk5-f1_af-p06241-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10nk5-f1_af-p06241-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-P06241-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 806
+# Identity:      37/806 ( 4.6%)
+# Similarity:    58/806 ( 7.2%)
+# Gaps:         681/806 (84.5%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       1 METLRKQASKLREHVAKQQQAVRKQFSARYNQDPSLVDEAELECHQNLQR     50
+                                                                       
+AF-P06241-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1      51 LYNSTRAAKHFQRSIVRGVEGFIAVSTKQMEIVKKLAEDCCRYGNDNQNF    100
+                                                                       
+AF-P06241-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     101 GFILARASVEFGNSHSQMEKERENLLKFLGEQVFEPLREMIMSAPLEDAR    150
+                                                                       
+AF-P06241-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     151 LLTYRYQRIRQDMESQIADVMRKQLKSKESSGNADNSVKLQHAESKLSEL    200
+                                                                       
+AF-P06241-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     201 RTTLSALGREATAAMEAVEVQQQQVTFDRLLAMVDAERAYHQNAADILNK    250
+                                                                       
+AF-P06241-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     251 LHDEM--VQAKHHDEPENHYDETSSDPKTAATHEHSRSTSEDHIFTNTSE    298
+                         |  ||.|..:             .|..|.|...|.::...:...::
+AF-P06241-F1       1 ----MGCVQCKDKE-------------ATKLTEERDGSLNQSSGYRYGTD     33
+
+AF-Q10NK5-F1     299 PTRTETSEPTRTETSEPTRN------GQEVHYVGEV--------------    328
+                     |  |....|:...||.|..|      ||.:...|.|              
+AF-P06241-F1      34 P--TPQHYPSFGVTSIPNYNNFHAAGGQGLTVFGGVNSSSHTGTLRTRGG     81
+
+AF-Q10NK5-F1     329 --------IHPFDAQADGELSISVGDYVVVRQVAPNGWSEGE--CKGKAG    368
+                             ::.::|:.:.:||...|:...:...:...|.|..  ..|:.|
+AF-P06241-F1      82 TGVTLFVALYDYEARTEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETG    131
+
+AF-Q10NK5-F1     369 WFPSAYVEQRDKAPAS---------KVIEPGLLTT---------------    394
+                     :.||.||...|...|.         |..|..||:.               
+AF-P06241-F1     132 YIPSNYVAPVDSIQAEEWYFGKLGRKDAERQLLSFGNPRGTFLIRESETT    181
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P06241-F1     182 KGAYSLSIRDWDDMKGDHVKHYKIRKLDNGGYYITTRAQFETLQQLVQHY    231
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P06241-F1     232 SERAAGLCCRLVVPCHKGMPRLTDLSVKTKDVWEIPRESLQLIKRLGNGQ    281
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P06241-F1     282 FGEVWMGTWNGNTKVAIKTLKPGTMSPESFLEEAQIMKKLKHDKLVQLYA    331
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P06241-F1     332 VVSEEPIYIVTEYMNKGSLLDFLKDGEGRALKLPNLVDMAAQVAAGMAYI    381
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P06241-F1     382 ERMNYIHRDLRSANILVGNGLICKIADFGLARLIEDNEYTARQGAKFPIK    431
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P06241-F1     432 WTAPEAALYGRFTIKSDVWSFGILLTELVTKGRVPYPGMNNREVLEQVER    481
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P06241-F1     482 GYRMPCPQDCPISLHELMIHCWKKDPEERPTFEYLQSFLEDYFTATEPQY    531
+
+AF-Q10NK5-F1     394 ------    394
+                           
+AF-P06241-F1     532 QPGENL    537
+
+
+#---------------------------------------
+#---------------------------------------

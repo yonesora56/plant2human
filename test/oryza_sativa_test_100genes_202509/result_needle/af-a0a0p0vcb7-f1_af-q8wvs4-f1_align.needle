@@ -1,0 +1,125 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:19
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q8wvs4-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vcb7-f1_af-q8wvs4-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vcb7-f1_af-q8wvs4-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-Q8WVS4-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1085
+# Identity:      46/1085 ( 4.2%)
+# Similarity:    76/1085 ( 7.0%)
+# Gaps:         926/1085 (85.3%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1       1 MEPGKRRTKDDTWKADDLRKHLWAIQSGGSKEERKHREKKLRKESEMDLP     50
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1      51 EHKEPRCRDPDQDARSRDRVAEVHTAKESPRGERDRDRQRERRRDAKDRE    100
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1     101 KEKLKEKHREAEKSHSRGKDREKEKDRRARKEELRQTVAHHNLLGQETRD    150
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1     151 RQLLERAERKGRSVSKVRSEEKDEDSERGDEDRERRYRERKLQYGDSKDN    200
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1     201 PLKYWLYKEEGERRHRKPREPDRDNKHREKSSTREKREKYSKEKSNSFSD    250
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1     251 KGEERHKEKRHKEGFHFDDERHQSNVDRKEKSAKDEPRKRESQNGEHRNR    300
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1     301 GASSKRDGTSSQHAENLVRNHGKDKDSRRKHGHEEGSSVWWKLDQRPGGE    350
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1     351 ETVEIEKEETDLENARADAYTASCEDDFEDYEDDFEVCDGDDDESSNEPE    400
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1     401 SREKLEELPLAQKKEIQEIQRAINAENERIGELSLKLFQKRGRTEFEKEP    450
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1     451 RTDTNSSPSRASVCGIFVDFASASHRQKSRTQALKQKMRSTKLLRLIDLD    500
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1     501 FSFTFSLLDLPPVNEYDMYIRNFGKKNTKQAYVQCNEDNVERDIQTEEIE    550
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1     551 TREVWTQHPGESTVVSGGSEQRDTSDAVVMPKIDTPRLCSFLRAACQVMA    600
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1     601 VLLEEDRLAAEPSWNLRAQDRALYFSDSSSQLNTSLPFLQNRKVSSLHTS    650
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1     651 RVQRQMVVSVHDLPEKSFVPLLDSKYVLCVWDIWQPSGPQKVLICESQVT    700
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-Q8WVS4-F1     701 CCCLSPLKAFLLFAGTAHGSVVVWDLREDSRLHYSVTLSDGFWTFRTATF    750
+
+AF-A0A0P0VCB7      1 ---------------------------VQSVAWSRQSPEVLLSG------     17
+                                                .||...|..|.:..:||      
+AF-Q8WVS4-F1     751 STDGILTSVNHRSPLQAVEPISTSVHKKQSFVLSPFSTQEEMSGLSFHIA    800
+
+AF-A0A0P0VCB7     18 SFDKSVAMNDMKDGGQSCNKWSV----EADV-------------------     44
+                     |.|:|..:          |.|.|    :||:                   
+AF-Q8WVS4-F1     801 SLDESGVL----------NVWVVVELPKADIAGSISDLGLMPGGRVKLVH    840
+
+AF-A0A0P0VCB7     45 -------ESLA------WD----------PHNEHSFMVSLENGMVQ---A     68
+                            :||:      |.          |.:.:.|::..:.|::.   .
+AF-Q8WVS4-F1     841 SALIQLGDSLSHKGNEFWGTTQTLNVKFLPSDPNHFIIGTDMGLISHGTR    890
+
+AF-A0A0P0VCB7     69 FDKRTA----SSNSNSGRPTFTLHAHEKAVSSISFSP-STPNFLATGSTD    113
+                     .|.|.|    ....:..||.        .|:.|.||| ..|.||| |.:|
+AF-Q8WVS4-F1     891 QDLRVAPKLFKPQQHGIRPV--------KVNVIDFSPFGEPIFLA-GCSD    931
+
+AF-A0A0P0VCB7    114 KMVKLWDLSNNQPSCIASLNPKLGAIFSVSFSNDSPFLLASGGSKGKLKV    163
+                     ..::|..||:..|......:....|:..:.:|...|.:.........:.:
+AF-Q8WVS4-F1     932 GSIRLHQLSSAFPLLQWDSSTDSHAVTGLQWSPTRPAVFLVQDDTSNIYI    981
+
+AF-A0A0P0VCB7    164 WNTLTE---PAVANKFGK--------------------------------    178
+                     |:.|..   |....:...                                
+AF-Q8WVS4-F1     982 WDLLQSDLGPVAKQQVSPNRLVAMAAVGEPEKAGGSFLALVLARASGSID   1031
+
+AF-A0A0P0VCB7    178 -----------------------------------    178
+                                                        
+AF-Q8WVS4-F1    1032 IQHLKRRWAAPEVDECNRLRLLLQEALWPEGKLHK   1066
+
+
+#---------------------------------------
+#---------------------------------------

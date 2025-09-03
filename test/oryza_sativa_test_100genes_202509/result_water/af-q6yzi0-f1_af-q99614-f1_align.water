@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:16
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6yzi0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q99614-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6yzi0-f1_af-q99614-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6yzi0-f1_af-q99614-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6YZI0-F1
+# 2: AF-Q99614-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 255
+# Identity:      51/255 (20.0%)
+# Similarity:    82/255 (32.2%)
+# Gaps:          89/255 (34.9%)
+# Score: 83.0
+# 
+#
+#=======================================
+
+AF-Q6YZI0-F1      58 NNVLEKDEANVEALIGKGICLQAQSLPMQAIECFNE---AVRIDPG----    100
+                     :.:|..|||:::...|:.             |||::   :...:||    
+AF-Q99614-F1      43 SKLLRDDEAHLQEDQGEE-------------ECFHDCSASFEEEPGADKV     79
+
+AF-Q6YZI0-F1     101 --------NACALTYCGMIYKDEGHLVE-----AAEAYQKARNADPSYKP    137
+                             |:..|        ||.:|:|     :.|..||.|        
+AF-Q99614-F1      80 ENKSNEDVNSSEL--------DEEYLIELEKNMSDEEKQKRR--------    113
+
+AF-Q6YZI0-F1     138 AAEFLAIVLTDLGTSLKLAGNTE-------EGIQKYCEALEV-----DSH    175
+                               :..|.||..||.:       |....|..|||:     ...
+AF-Q99614-F1     114 ----------EESTRLKEEGNEQFKKGDYIEAESSYSRALEMCPSCFQKE    153
+
+AF-Q6YZI0-F1     176 YAPAYYNLGVVYSEMMQFDLALTCYEKAALERPLYAEAYCNMGVIYKNRG    225
+                     .:..:.|......:..:.::|:....||....|.|..|......:|:...
+AF-Q99614-F1     154 RSILFSNRAAARMKQDKKEMAINDCSKAIQLNPSYIRAILRRAELYEKTD    203
+
+AF-Q6YZI0-F1     226 ELEAAIACYERCLTISPNF------------------EIAKNNMAIALTD    257
+                     :|:.|:..|:..|...|:.                  |..|..|...|.|
+AF-Q99614-F1     204 KLDEALEDYKSILEKDPSIHQAREACMRLPKQIEERNERLKEEMLGKLKD    253
+
+AF-Q6YZI0-F1     258 LGTKV    262
+                     ||..|
+AF-Q99614-F1     254 LGNLV    258
+
+
+#---------------------------------------
+#---------------------------------------

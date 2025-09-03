@@ -1,0 +1,105 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:12
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-b9f2u5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o43236-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-b9f2u5-f1_af-o43236-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-b9f2u5-f1_af-o43236-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B9F2U5-F1
+# 2: AF-O43236-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 805
+# Identity:     117/805 (14.5%)
+# Similarity:   186/805 (23.1%)
+# Gaps:         452/805 (56.1%)
+# Score: 109.5
+# 
+#
+#=======================================
+
+AF-B9F2U5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O43236-F1       1 MDRSLGWQGNSVPEDRTEAGIKRFLEDTTDDGELSKFVKDFSGNASCHPP     50
+
+AF-B9F2U5-F1       1 MATATASRLAVPAPRTSPQAPGR-------RRPAAPLPS------APPRP     37
+                     .|...|||..||.||  ||||..       |.|:.|..|      ..|.|
+AF-O43236-F1      51 EAKTWASRPQVPEPR--PQAPDLYDDDLEFRPPSRPQSSDNQQYFCAPAP     98
+
+AF-B9F2U5-F1      38 RALSAAPRGRVVCPAAPASSP---ASTTDAGQDRLQKVPVSNIRN-----     79
+                     .:.||.||           ||   ....|:.:|..:.|..:.:.|     
+AF-O43236-F1      99 LSPSARPR-----------SPWGKLDPYDSSEDDKEYVGFATLPNQVHRK    137
+
+AF-B9F2U5-F1      80 -------FSIIAHIDH--GKSTLADKLLELTGTVQKREM---KQQFLDNM    117
+                            |:::...:.  |||||.:.|. ||...:.|::   :::.:..:
+AF-O43236-F1     138 SVKKGFDFTLMVAGESGLGKSTLVNSLF-LTDLYRDRKLLGAEERIMQTV    186
+
+AF-B9F2U5-F1     118 DLERERGITIKLQAARMRYIMNDEPYCLNLIDTPG---------------    152
+                     ::.: ..:.|:.:..|:|         |.::||||               
+AF-O43236-F1     187 EITK-HAVDIEEKGVRLR---------LTIVDTPGFGDAVNNTECWKPVA    226
+
+AF-B9F2U5-F1     153 -HVDFSYE-------------VSRSLAACEGALLVVDASQGVEAQTLANV    188
+                      ::|..:|             :..:...|   .|...:..|...:.|...
+AF-O43236-F1     227 EYIDQQFEQYFRDESGLNRKNIQDNRVHC---CLYFISPFGHGLRPLDVE    273
+
+AF-B9F2U5-F1     189 YL-ALENDLEIIPVLNKID-LPGAEPD----RVAQEIEEIIGMDCSNAIR    232
+                     :: ||...:.|:|:|.|.| |...|.|    ::.:|||..          
+AF-O43236-F1     274 FMKALHQRVNIVPILAKADTLTPPEVDHKKRKIREEIEHF----------    313
+
+AF-B9F2U5-F1     233 CSAKEGIGITEILDAIVTKIPPPQNTAISPLRALIFDSYYDPYRGVIVYF    282
+                          ||.|.:..|.                     ||..|.      .|
+AF-O43236-F1     314 -----GIKIYQFPDC---------------------DSDEDE------DF    331
+
+AF-B9F2U5-F1     283 RVVDGSIKKGDKICFMASGKEYVADEIGVLSPNQMQVSELYAGEVGYLSA    332
+                     ::.|.::|  :.|.|...|...|.:..|     :.....||...:     
+AF-O43236-F1     332 KLQDQALK--ESIPFAVIGSNTVVEARG-----RRVRGRLYPWGI-----    369
+
+AF-B9F2U5-F1     333 SIRSVADARVGDTITHSSKRAECALPGYSQATPMVFCGLFPIDADQFEEL    382
+                                         .|...||:        |        .|.:|
+AF-O43236-F1     370 --------------------VEVENPGH--------C--------DFVKL    383
+
+AF-B9F2U5-F1     383 REALEKLQLNDAALKAVTRFSMQFEPESSSAMGFGFRCGFLGLLHMEIVQ    432
+                     |..|.:..:.|  ||.||| ...:|         .:|...:..:...:|:
+AF-O43236-F1     384 RTMLVRTHMQD--LKDVTR-ETHYE---------NYRAQCIQSMTRLVVK    421
+
+AF-B9F2U5-F1     433 ER----LEREYNLNLIITA--PSVVYHVNLADGETVECSNPSLLPEPGKR    476
+                     ||    |.||...:..|.|  |.       .|.||     ..|:.|..:.
+AF-O43236-F1     422 ERNRNKLTRESGTDFPIPAVPPG-------TDPET-----EKLIREKDEE    459
+
+AF-B9F2U5-F1     477 -RSIEEPYVKIDMLTPKEYIGPIMELGQERRGEFKEMNFITENRASVVYE    525
+                      |.::|...||.....:.|                               
+AF-O43236-F1     460 LRRMQEMLHKIQKQMKENY-------------------------------    478
+
+AF-B9F2U5-F1     526 LPLAEMVGDFFDQLKSRSKGYASMEYSLIGYRESNLVKLDIQINGDPVEA    575
+                                                                       
+AF-O43236-F1     478 --------------------------------------------------    478
+
+AF-B9F2U5-F1     576 LSTIVHRDKAYSVGRALTQKLKELIPRQMFRVPIQACIGAKVIASEALSA    625
+                                                                       
+AF-O43236-F1     478 --------------------------------------------------    478
+
+AF-B9F2U5-F1     626 IRKDVLSKCYGGDISRKKKLLKKQAEGKKRMKAIGRVDVPQEAFMAVLKL    675
+                                                                       
+AF-O43236-F1     478 --------------------------------------------------    478
+
+AF-B9F2U5-F1     676 EKEVL    680
+                          
+AF-O43236-F1     478 -----    478
+
+
+#---------------------------------------
+#---------------------------------------

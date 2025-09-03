@@ -1,0 +1,93 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:17
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0xuq6-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p30260-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0xuq6-f1_af-p30260-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0xuq6-f1_af-p30260-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0XUQ6-F1
+# 2: AF-P30260-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 663
+# Identity:     124/663 (18.7%)
+# Similarity:   197/663 (29.7%)
+# Gaps:         250/663 (37.7%)
+# Score: 90.0
+# 
+#
+#=======================================
+
+AF-A0A0P0XUQ6    136 YNVVNH-AFEEKSKLLEK--------EPLIFLSLALARSSLPNLSINVVR    176
+                     :..:|| |:.:...|.|:        |.|..|:....||.          
+AF-P30260-F1      13 WQALNHYAYRDAVFLAERLYAEVHSEEALFLLATCYYRSG----------     52
+
+AF-A0A0P0XUQ6    177 KLIKMEAYPPVAAWSAIVAHMCQTATGAFLAADMVMEIGYLFQNNR----    222
+                          :||   .|:..:..|.|.|....:|.|...:::..|.:..:    
+AF-P30260-F1      53 -----KAY---KAYRLLKGHSCTTPQCKYLLAKCCVDLSKLAEGEQILSG     94
+
+AF-A0A0P0XUQ6    223 -VDPRKKSNRPLLLMKPNSLTFNIILTASLLFGTTKKA------EQLLEL    265
+                      |..::||:..::....:|..|.:.|...:...|.:.|      ::.|.|
+AF-P30260-F1      95 GVFNKQKSHDDIVTEFGDSACFTLSLLGHVYCKTDRLAKGSECYQKSLSL    144
+
+AF-A0A0P0XUQ6    266 MP----------RIGLKPDVSSLIVMARIYEQN-----------------    288
+                     .|          .||.|||.........:  ||                 
+AF-P30260-F1     145 NPFLWSPFESLCEIGEKPDPDQTFKFTSL--QNFSNCLPNSCTTQVPNHS    192
+
+AF-A0A0P0XUQ6    289 -GHRDEIQKLRRHVNEACGLSESELRQF---YDCLLSCHLKFGDLDSAV-    333
+                      .||.....|.....:...|:...|...   |.  |:.......:|||| 
+AF-P30260-F1     193 LSHRQPETVLTETPQDTIELNRLNLESSNSKYS--LNTDSSVSYIDSAVI    240
+
+AF-A0A0P0XUQ6    334 -----------DMILDMLKKGKNTKRSLEAAKAVLEAVENNKIYLP----    368
+                                .::...::....|.|||....|.|..:..:...||    
+AF-P30260-F1     241 SPDTVPLGTGTSILSKQVQNKPKTGRSLLGGPAALSPLTPSFGILPLETP    290
+
+AF-A0A0P0XUQ6    369 ----------YEKTKPV----NSGS-SNKSVC------------------    385
+                               |..|.||    ::|: |.|||.                  
+AF-P30260-F1     291 SPGDGSYLQNYTNTPPVIDVPSTGAPSKKSVARIGQTGTKSVFSQSGNSR    340
+
+AF-A0A0P0XUQ6    386 -----------------TDSQML--------NYISFFKDKSFARLELDAR    410
+                                      |..|:|        |.:.....:.|.......:
+AF-P30260-F1     341 EVTPILAQTQSSGPQTSTTPQVLSPTITSPPNALPRRSSRLFTSDSSTTK    390
+
+AF-A0A0P0XUQ6    411 ELLKLLSDKLQEQVGLVKSEY-----GILYPT---ETMYAKLVKAFLEAN    452
+                     |..|.|..|...::...|::.     ||..|.   .....||..:.:...
+AF-P30260-F1     391 ENSKKLKMKFPPKIPNRKTKSKTNKGGITQPNINDSLEITKLDSSIISEG    440
+
+AF-A0A0P0XUQ6    453 KISAL-----ASFLVKASKE---------------------DSPVSVESS    476
+                     |||.:     |..|.||:.|                     ...:::.|.
+AF-P30260-F1     441 KISTITPQIQAFNLQKAAAEGLMSLLREMGKGYLALCSYNCKEAINILSH    490
+
+AF-A0A0P0XUQ6    477 F----------VVQVINACISLGWLEQAHDLLDEM-RFSGIRV-GSTIYS    514
+                     .          :.|:..|...|....||..:..|: |....|| |..|||
+AF-P30260-F1     491 LPSHHYNTGWVLCQIGRAYFELSEYMQAERIFSEVRRIENYRVEGMEIYS    540
+
+AF-A0A0P0XUQ6    515 SLL------------------------KAYCKEGH-----HEDDIAALLK    535
+                     :.|                        :|:|..|:     .|.|||  :|
+AF-P30260-F1     541 TTLWHLQKDVALSVLSKDLTDMDKNSPEAWCAAGNCFSLQREHDIA--IK    588
+
+AF-A0A0P0XUQ6    536 DAQQAGIQLDP-----------------------SCYEDLIQSRAHHNNT    562
+                     ..|:| ||:||                       :|:.:.|:....|.|.
+AF-P30260-F1     589 FFQRA-IQVDPNYAYAYTLLGHEFVLTEELDKALACFRNAIRVNPRHYNA    637
+
+AF-A0A0P0XUQ6    563 TGALNL--FKELK    573
+                     ...|.:  :|:.|
+AF-P30260-F1     638 WYGLGMIYYKQEK    650
+
+
+#---------------------------------------
+#---------------------------------------

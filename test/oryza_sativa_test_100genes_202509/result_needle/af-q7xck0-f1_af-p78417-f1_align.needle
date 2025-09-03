@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:22:55
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q7xck0-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p78417-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q7xck0-f1_af-p78417-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q7xck0-f1_af-p78417-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7XCK0-F1
+# 2: AF-P78417-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 321
+# Identity:      46/321 (14.3%)
+# Similarity:    94/321 (29.3%)
+# Gaps:         123/321 (38.3%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+AF-Q7XCK0-F1       1 ------------------MP-GAVKVFGSPSSAEVARVLACLFEKDVEFQ     31
+                                       :| |:::::.........|....|..|.:..:
+AF-P78417-F1       1 MSGESARSLGKGSAPPGPVPEGSIRIYSMRFCPFAERTRLVLKAKGIRHE     50
+
+AF-Q7XCK0-F1      32 LIRVDSFRGSKRMPQ-YLKLQPHGEALTFEDGNVTLV-ESRKIIRHIADK     79
+                     :|.::    .|..|: :.|..|.|.....|:....|: ||.....::.:.
+AF-P78417-F1      51 VININ----LKNKPEWFFKKNPFGLVPVLENSQGQLIYESAITCEYLDEA     96
+
+AF-Q7XCK0-F1      80 YKNQGNPDLIGMGALERSSIEQWLQTEAQSFDVPSADVVYSLAYLPAATT    129
+                     |..:   .|:.....|::..:..|:..::   |||  :|.|...      
+AF-P78417-F1      97 YPGK---KLLPDDPYEKACQKMILELFSK---VPS--LVGSFIR------    132
+
+AF-Q7XCK0-F1     130 QPNKGAAAADGGRCEEEKNDDGGRDRQYSSQRQGGAGAGGGRDGQMAAAH    179
+                                   .:.|.|..|                           
+AF-P78417-F1     133 --------------SQNKEDYAG---------------------------    141
+
+AF-Q7XCK0-F1     180 RQKVEEMKQLFEKSSKELSKVLDIYEQRLEEAEYLAGDKFTLADLSHLPN    229
+                           :|:.|.|...:|.:||     ..::..:..|:..::.|....|.
+AF-P78417-F1     142 ------LKEEFRKEFTKLEEVL-----TNKKTTFFGGNSISMIDYLIWPW    180
+
+AF-Q7XCK0-F1     230 ADRLAA----------------------DPRTLRMLQSRRNVSRWWADVS    257
+                     .:||.|                      ||....:|.|.::   |     
+AF-P78417-F1     181 FERLEAMKLNECVDHTPKLKLWMAAMKEDPTVSALLTSEKD---W-----    222
+
+AF-Q7XCK0-F1     258 GRESWKQVKSLNRPPSAEAPF    278
+                       :.:.::...|.|.:.:...
+AF-P78417-F1     223 --QGFLELYLQNSPEACDYGL    241
+
+
+#---------------------------------------
+#---------------------------------------

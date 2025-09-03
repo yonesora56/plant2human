@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:59
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a5s6rcw4-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q16878-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a5s6rcw4-f1_af-q16878-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a5s6rcw4-f1_af-q16878-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A5S6RCW4-F1
+# 2: AF-Q16878-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 529
+# Identity:      51/529 ( 9.6%)
+# Similarity:    81/529 (15.3%)
+# Gaps:         363/529 (68.6%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+AF-A0A5S6RCW4      1 MATTIFSRFSIYFCAMLLCQGSMAQLFNPSTNPWHSPRQGSFRECRFDRL     50
+                                                                       
+AF-Q16878-F1       0 --------------------------------------------------      0
+
+AF-A0A5S6RCW4     51 QAFEPLRKVRSEAGVTEYFDEKNELFQCTGTFVIRRVIQPQGLLVPRYSN    100
+                                                                       
+AF-Q16878-F1       0 --------------------------------------------------      0
+
+AF-A0A5S6RCW4    101 TPGLVYIIQGRGSMGLTFPGCPATYQQQFQQFSSQGQSQSQKFR---DEH    147
+                                                       ..|::..|.|   |..
+AF-Q16878-F1       1 ----------------------------------MEQTEVLKPRTLADLI     16
+
+AF-A0A5S6RCW4    148 QKIHQFRQGDVVALPAGVAHWFYNDGDASVVAIYV-YDINNSANQLEPRQ    196
+                     :.:||...||.|.:....|.....:.|.:..|:|. :|        :.|.
+AF-Q16878-F1      17 RILHQLFAGDEVNVEEVQAIMEAYESDPTEWAMYAKFD--------QYRY     58
+
+AF-A0A5S6RCW4    197 KEFLLAGNNNRVQ-------QVYGSSIEQHSSQNIFNGFGTELLSEALGI    239
+                     ...|:...|.:..       :.:||||..|::.:.|              
+AF-Q16878-F1      59 TRNLVDQGNGKFNLMILCWGEGHGSSIHDHTNSHCF--------------     94
+
+AF-A0A5S6RCW4    240 NTVAAKRLQSQNDQRGEIVHVKNGLQLLKPTLTQQQEQAQAQYQEVQYSE    289
+                         .|.||..                ||.||        ..:.:.:.:|
+AF-Q16878-F1      95 ----LKMLQGN----------------LKETL--------FAWPDKKSNE    116
+
+AF-A0A5S6RCW4    290 QQQTSSRWNGLEENFCTIKARVN-------IENPSRADS------YNP--    324
+                     ..:.|.|  .|.||.|   |.:|       :||.|..:.      |:|  
+AF-Q16878-F1     117 MVKKSER--VLRENQC---AYINDSIGLHRVENISHTEPAVSLHLYSPPF    161
+
+AF-A0A5S6RCW4    325 --------RAGRISSVNSQKFPILNLIQMSATRVNLYQNAILSPFWNVNA    366
+                             |.|..:.|.........:...:||..:|..|           
+AF-Q16878-F1     162 DTCHAFDQRTGHKNKVTMTFHSKFGIRTPNATSGSLENN-----------    200
+
+AF-A0A5S6RCW4    367 HSLVYMIQGQSRVQVVSNFGKTVFDGVLRPGQLLIIPQHYAVLKKAEREG    416
+                                                                       
+AF-Q16878-F1     200 --------------------------------------------------    200
+
+AF-A0A5S6RCW4    417 CQYIAIKTNANAFVSHLAGKNSVFRALPVDVVANAYRISREQARSIKNNR    466
+                                                                       
+AF-Q16878-F1     200 --------------------------------------------------    200
+
+AF-A0A5S6RCW4    467 GEEHGAFTPRFQQQYYPGFSNESESETSE    495
+                                                  
+AF-Q16878-F1     200 -----------------------------    200
+
+
+#---------------------------------------
+#---------------------------------------

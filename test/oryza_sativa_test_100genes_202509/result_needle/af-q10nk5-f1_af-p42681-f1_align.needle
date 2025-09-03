@@ -1,0 +1,101 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:45
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p42681-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10nk5-f1_af-p42681-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10nk5-f1_af-p42681-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-P42681-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 799
+# Identity:      27/799 ( 3.4%)
+# Similarity:    54/799 ( 6.8%)
+# Gaps:         677/799 (84.7%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       1 METLRKQASKLREHVAKQQQAVRKQFSARYNQDPSLVDEAELECHQNLQR     50
+                                                                       
+AF-P42681-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1      51 LYNSTRAAKHFQRSIVRGVEGFIAVSTKQMEIVKKLAEDCCRYGNDNQNF    100
+                                                                       
+AF-P42681-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     101 GFILARASVEFGNSHSQMEKERENLLKFLGEQVFEPLREMIMSAPLEDAR    150
+                                                                       
+AF-P42681-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     151 LLTYRYQRIRQDMESQIADVMRKQLKSKESSGNADNSVKLQHAESKLSEL    200
+                                                                       
+AF-P42681-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     201 RTTLSALGREATAAMEAVEVQQQQVTFDRLLAMVDAERAYHQNAADILNK    250
+                                                                       
+AF-P42681-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1     251 LHDEMVQAKHHDEPENHYDET------SSDPKTAATHEHSRSTSED--HI    292
+                         |:.:.:     |.....      .|..|.....:.|.||.|:  ..
+AF-P42681-F1       1 ----MILSSY-----NTIQSVFCCCCCCSVQKRQMRTQISLSTDEELPEK     41
+
+AF-Q10NK5-F1     293 FTNTSEPTRTETSEPTRTETSE-------------PTRNGQEVHYVGEVI    329
+                     :|....|..::.|...::.|..             |:...:|...| :.:
+AF-P42681-F1      42 YTQRRRPWLSQLSNKKQSNTGRVQPSKRKPLPPLPPSEVAEEKIQV-KAL     90
+
+AF-Q10NK5-F1     330 HPFDAQADGELSI-SVGDYVVVRQVAPNGWSEGECKGKAGWFPSAYVEQR    378
+                     :.|..:....|:: ...:|:::.:..|:.|...:..|..|..||.||.:.
+AF-P42681-F1      91 YDFLPREPCNLALRRAEEYLILEKYNPHWWKARDRLGNEGLIPSNYVTEN    140
+
+AF-Q10NK5-F1     379 DKAPASKVIEPGLLTT----------------------------------    394
+                     .            :|.                                  
+AF-P42681-F1     141 K------------ITNLEIYEWYHRNITRNQAEHLLRQESKEGAFIVRDS    178
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P42681-F1     179 RHLGSYTISVFMGARRSTEAAIKHYQIKKNDSGQWYVAERHAFQSIPELI    228
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P42681-F1     229 WYHQHNAAGLMTRLRYPVGLMGSCLPATAGFSYEKWEIDPSELAFIKEIG    278
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P42681-F1     279 SGQFGVVHLGEWRSHIQVAIKAINEGSMSEEDFIEEAKVMMKLSHSKLVQ    328
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P42681-F1     329 LYGVCIQRKPLYIVTEFMENGCLLNYLRENKGKLRKEMLLSVCQDICEGM    378
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P42681-F1     379 EYLERNGYIHRDLAARNCLVSSTCIVKISDFGMTRYVLDDEYVSSFGAKF    428
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-P42681-F1     429 PIKWSPPEVFLFNKYSSKSDVWSFGVLMWEVFTEGKMPFENKSNLQVVEA    478
+
+AF-Q10NK5-F1     394 -------------------------------------------------    394
+                                                                      
+AF-P42681-F1     479 ISEGFRLYRPHLAPMSIYEVMYSCWHEKPEGRPTFAELLRAVTEIAETW    527
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:09
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p16591-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-p16591-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-p16591-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-P16591-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 314
+# Identity:      66/314 (21.0%)
+# Similarity:   122/314 (38.9%)
+# Gaps:          76/314 (24.2%)
+# Score: 98.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1      10 KLREHVAKQQQAVRKQFSARYNQDPSLVDEAELECHQNLQRL--------     51
+                     |::|.:.|..:.:..:    |:|..|||.|..:..|:.:|..        
+AF-P16591-F1     213 KMQEEMIKALKGIFDE----YSQITSLVTEEIVNVHKEIQMSVEQIDPST    258
+
+AF-Q10NK5-F1      52 -YNS------TRAAK----HFQRSIVRGVEGFIA-------VSTKQMEI-     82
+                      ||:      |.|||    .|..|::...|...|       ::.:.::: 
+AF-P16591-F1     259 EYNNFIDVHRTTAAKEQEIEFDTSLLEENENLQANEIMWNNLTAESLQVM    308
+
+AF-Q10NK5-F1      83 VKKLAEDCCRYGNDNQNFGFILARASVEFGNSHSQMEKERENLLKFLGEQ    132
+                     :|.|||:..:......|....:.........|....||:.:.:|....:|
+AF-P16591-F1     309 LKTLAEELMQTQQMLLNKEEAVLELEKRIEESSETCEKKSDIVLLLSQKQ    358
+
+AF-Q10NK5-F1     133 VFEPLREMIMSAPLEDAR------LLTYRYQ-----------RIRQDMES    165
+                     ..|.|::.:......:|:      ||..:.|           ...:|..|
+AF-P16591-F1     359 ALEELKQSVQQLRCTEAKFSAQKELLEQKVQENDGKEPPPVVNYEEDARS    408
+
+AF-Q10NK5-F1     166 QIADVMRKQLKSKESSGNADNSVKLQHAESKLSELRTTLSALGREATAAM    215
+                      :..:.||:..||..|        ::|:.:.:  :|:..||||..|.:.|
+AF-P16591-F1     409 -VTSMERKERLSKFES--------IRHSIAGI--IRSPKSALGSSALSDM    447
+
+AF-Q10NK5-F1     216 EAVEVQQQQVTFDRLLAMVDAERAYHQ-----NAADILNKLHDEMVQAKH    260
+                     .::.        ::.||..|   .||.     .|.::|.|..|.:|: :.
+AF-P16591-F1     448 ISIS--------EKPLAEQD---WYHGAIPRIEAQELLKKQGDFLVR-ES    485
+
+AF-Q10NK5-F1     261 HDEPENHYDETSSD    274
+                     |.:|..:.....||
+AF-P16591-F1     486 HGKPGEYVLSVYSD    499
+
+
+#---------------------------------------
+#---------------------------------------

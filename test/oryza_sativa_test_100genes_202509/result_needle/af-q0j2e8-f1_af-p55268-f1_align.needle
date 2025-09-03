@@ -1,0 +1,185 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:22
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0j2e8-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p55268-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0j2e8-f1_af-p55268-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0j2e8-f1_af-p55268-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0J2E8-F1
+# 2: AF-P55268-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1847
+# Identity:      54/1847 ( 2.9%)
+# Similarity:    95/1847 ( 5.1%)
+# Gaps:        1665/1847 (90.1%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+AF-Q0J2E8-F1       1 ---------------------MALLVLVAVLVFEAAVRADG--------Q     21
+                                          :.|.||.|.|....|....|        .
+AF-P55268-F1       1 MELTSRERGRGQPLPWELRLGLLLSVLAATLAQAPAPDVPGCSRGSCYPA     50
+
+AF-Q0J2E8-F1      22 TGFL----------SIDCGLEADDSYPDDLTGITYVPDG-----------     50
+                     ||.|          |..|||..    |.....::::.|.           
+AF-P55268-F1      51 TGDLLVGRADRLTASSTCGLNG----PQPYCIVSHLQDEKKCFLCDSRRP     96
+
+AF-Q0J2E8-F1      51 -HYTDAGENHKVTTVY-------RNAWWGPDRTLYTVRSFPSAEGQRNCY     92
+                      ...|...:|::..|.       |.|||..:..:..|             
+AF-P55268-F1      97 FSARDNPHSHRIQNVVTSFAPQRRAAWWQSENGIPAV-------------    133
+
+AF-Q0J2E8-F1      93 SLPNDVRSKY-----LVRLK---------------------FLYGNYD-G    115
+                     ::..|:.:::     ::..|                     :.|.:|| |
+AF-P55268-F1     134 TIQLDLEAEFHFTHLIMTFKTFRPAAMLVERSADFGRTWHVYRYFSYDCG    183
+
+AF-Q0J2E8-F1     116 LDSSSLKFNLTLGV-----KHWDTVSID--------TTDGNDGYNVHEAV    152
+                     .|..        ||     :|||.|..:        :|:|...|.|.:..
+AF-P55268-F1     184 ADFP--------GVPLAPPRHWDDVVCESRYSEIEPSTEGEVIYRVLDPA    225
+
+AF-Q0J2E8-F1     153 FVAWASWAPVCLINIGQGTPFMSMVELRPLGILPYPAVMGNVSLSLYVRS    202
+                     .       |:       ..|:.|.::    .:|.    :.|:.::|....
+AF-P55268-F1     226 I-------PI-------PDPYSSRIQ----NLLK----ITNLRVNLTRLH    253
+
+AF-Q0J2E8-F1     203 NVGSSPDDDKLVRYICSEFPWILYILQLS---------------------    231
+                     .:|.:..|.:  |.|..::.:.||.|.:.                     
+AF-P55268-F1     254 TLGDNLLDPR--REIREKYYYALYELVVRGNCFCYGHASECAPAPGAPAH    301
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1     302 AEGMVHGACICKHNTRGLNCEQCQDFYRDLPWRPAEDGHSHACRKCECHG    351
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1     352 HTHSCHFDMAVYLASGNVSGGVCDGCQHNTAGRHCELCRPFFYRDPTKDL    401
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1     402 RDPAVCRSCDCDPMGSQDGGRCDSHDDPALGLVSGQCRCKEHVVGTRCQQ    451
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1     452 CRDGFFGLSISDRLGCRRCQCNARGTVPGSTPCDPNSGSCYCKRLVTGRG    501
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1     502 CDRCLPGHWGLSHDLLGCRPCDCDVGGALDPQCDEGTGQCHCRQHMVGRR    551
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1     552 CEQVQPGYFRPFLDHLIWEAEDTRGQVLDVVERLVTPGETPSWTGSGFVR    601
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1     602 LQEGQTLEFLVASVPKAMDYDLLLRLEPQVPEQWAELELIVQRPGPVPAH    651
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1     652 SLCGHLVPKDDRIQGTLQPHARYLIFPNPVCLEPGISYKLHLKLVRTGGS    701
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1     702 AQPETPYSGPGLLIDSLVLLPRVLVLEMFSGGDAAALERQATFERYQCHE    751
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1     752 EGLVPSKTSPSEACAPLLISLSTLIYNGALPCQCNPQGSLSSECNPHGGQ    801
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1     802 CLCKPGVVGRRCDLCAPGYYGFGPTGCQACQCSHEGALSSLCEKTSGQCL    851
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1     852 CRTGAFGLRCDRCQRGQWGFPSCRPCVCNGHADECNTHTGACLGCRDHTG    901
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1     902 GEHCERCIAGFHGDPRLPYGGQCRPCPCPEGPGSQRHFATSCHQDEYSQQ    951
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1     952 IVCHCRAGYTGLRCEACAPGHFGDPSRPGGRCQLCECSGNIDPMDPDACD   1001
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1002 PHTGQCLRCLHHTEGPHCAHCKPGFHGQAARQSCHRCTCNLLGTNPQQCP   1051
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1052 SPDQCHCDPSSGQCPCLPNVQGPSCDRCAPNFWNLTSGHGCQPCACHPSR   1101
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1102 ARGPTCNEFTGQCHCRAGFGGRTCSECQELHWGDPGLQCHACDCDSRGID   1151
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1152 TPQCHRFTGHCSCRPGVSGVRCDQCARGFSGIFPACHPCHACFGDWDRVV   1201
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1202 QDLAARTQRLEQRAQELQQTGVLGAFESSFWHMQEKLGIVQGIVGARNTS   1251
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1252 AASTAQLVEATEELRREIGEATEHLTQLEADLTDVQDENFNANHALSGLE   1301
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1302 RDRLALNLTLRQLDQHLDLLKHSNFLGAYDSIRHAHSQSAEAERRANTSA   1351
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1352 LAVPSPVSNSASARHRTEALMDAQKEDFNSKHMANQRALGKLSAHTHTLS   1401
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1402 LTDINELVCGAPGDAPCATSPCGGAGCRDEDGQPRCGGLSCNGAAATADL   1451
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1452 ALGRARHTQAELQRALAEGGSILSRVAETRRQASEAQQRAQAALDKANAS   1501
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1502 RGQVEQANQELQELIQSVKDFLNQEGADPDSIEMVATRVLELSIPASAEQ   1551
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1552 IQHLAGAIAERVRSLADVDAILARTVGDVRRAEQLLQDARRARSWAEDEK   1601
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1602 QKAETVQAALEEAQRAQGIAQGAIRGAVADTRDTEQTLYQVQERMAGAER   1651
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1652 ALSSAGERARQLDALLEALKLKRAGNSLAASTAEETAGSAQGRAQEAEQL   1701
+
+AF-Q0J2E8-F1     231 --------------------------------------------------    231
+                                                                       
+AF-P55268-F1    1702 LRGPLGDQYQTVKALAERKAQGVLAAQARAEQLRDEARDLLQAAQDKLQR   1751
+
+AF-Q0J2E8-F1     231 -----------------------------------------------    231
+                                                                    
+AF-P55268-F1    1752 LQELEGTYEENERALESKAAQLDGLEARMRSVLQAINLQVQIYNTCQ   1798
+
+
+#---------------------------------------
+#---------------------------------------

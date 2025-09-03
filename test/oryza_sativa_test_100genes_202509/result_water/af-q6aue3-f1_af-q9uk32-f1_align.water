@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:33
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9uk32-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-q9uk32-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-q9uk32-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-Q9UK32-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 304
+# Identity:      76/304 (25.0%)
+# Similarity:   147/304 (48.4%)
+# Gaps:          51/304 (16.8%)
+# Score: 247.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      59 HGPKEDWE-IDLAKLEIRYVIAQGTYGTVY-----RGTYDGQDVAVKLLD    102
+                     |..||.:| .|.|:.|:..|:.||::|.|:     .|...||..|:|:| 
+AF-Q9UK32-F1      59 HHVKEGYEKADPAQFELLKVLGQGSFGKVFLVRKKTGPDAGQLYAMKVL-    107
+
+AF-Q6AUE3-F1     103 WGEDGFATEAETAAL------RTSFKQEVAVWHKLSHPNVTKFVGASMGT    146
+                               :.|:|      ||..::::.|  :::||.:.|...|..  
+AF-Q9UK32-F1     108 ----------KKASLKVRDRVRTKMERDILV--EVNHPFIVKLHYAFQ--    143
+
+AF-Q6AUE3-F1     147 TDLKIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAYK    196
+                     |:.|:                  .:::::|.||.:   ..:.|:..|..:
+AF-Q9UK32-F1     144 TEGKL------------------YLILDFLRGGDV---FTRLSKEVLFTE    172
+
+AF-Q6AUE3-F1     197 VVVQLAL-DLARGLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARV    245
+                     ..|:..| :||..|.:||...||:||:|.||:|||...::|:.|||:::.
+AF-Q9UK32-F1     173 EDVKFYLAELALALDHLHQLGIVYRDLKPENILLDEIGHIKLTDFGLSKE    222
+
+AF-Q6AUE3-F1     246 EAQNPKDMTGATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMP    295
+                     .....|......||:.||||||::.:.:::..|.:|:|:.::|:....:|
+AF-Q9UK32-F1     223 SVDQEKKAYSFCGTVEYMAPEVVNRRGHSQSADWWSYGVLMFEMLTGTLP    272
+
+AF-Q6AUE3-F1     296 YPDLSFADVSSAVVHQNLRPDVPRCCPSAFANIMRKCWDANPDKRPDMDE    345
+                     :......:..:.::...|  .:|:...:...:::|..:..||..|...:.
+AF-Q9UK32-F1     273 FQGKDRNETMNMILKAKL--GMPQFLSAEAQSLLRMLFKRNPANRLGSEG    320
+
+AF-Q6AUE3-F1     346 VVQL    349
+                     |.::
+AF-Q9UK32-F1     321 VEEI    324
+
+
+#---------------------------------------
+#---------------------------------------

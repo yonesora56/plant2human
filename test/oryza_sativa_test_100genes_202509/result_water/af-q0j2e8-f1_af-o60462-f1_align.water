@@ -1,0 +1,53 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:41
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0j2e8-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o60462-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0j2e8-f1_af-o60462-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0j2e8-f1_af-o60462-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0J2E8-F1
+# 2: AF-O60462-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 161
+# Identity:      37/161 (23.0%)
+# Similarity:    58/161 (36.0%)
+# Gaps:          51/161 (31.7%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+AF-Q0J2E8-F1      10 LVFEAAVRADGQTGFLSIDCGLEADDSYPDDLTGITYVPDGHYTD-----     54
+                     :|||..: ..|::|.::|           ||:...|.||..:..:     
+AF-O60462-F1     770 IVFEGVI-GKGRSGEIAI-----------DDIRISTDVPLENCMEPISAF    807
+
+AF-Q0J2E8-F1      55 AGENHKVTTV---YRNAW-----------WGPDRTLYTVRSFPSAEGQRN     90
+                     ||||.||...   .|..:           |....:..:....||.:.:::
+AF-O60462-F1     808 AGENFKVDIPEIHEREGYEDEIDDEYEVDWSNSSSATSGSGAPSTDKEKS    857
+
+AF-Q0J2E8-F1      91 -CYSL-PNDVRSKYLVRLKFLYG------------NYDGLDSSS------    120
+                      .|:| |..:....:..|..|.|            :|.||.|.|      
+AF-O60462-F1     858 WLYTLDPILITIIAMSSLGVLLGATCAGLLLYCTCSYSGLSSRSCTTLEN    907
+
+AF-Q0J2E8-F1     121 LKFNLTLGVKH    131
+                     ..|.|..|:||
+AF-O60462-F1     908 YNFELYDGLKH    918
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,173 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:57
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0inq2-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o60706-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0inq2-f1_af-o60706-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0inq2-f1_af-o60706-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0INQ2-F1
+# 2: AF-O60706-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1672
+# Identity:     156/1672 ( 9.3%)
+# Similarity:   282/1672 (16.9%)
+# Gaps:        1082/1672 (64.7%)
+# Score: 112.0
+# 
+#
+#=======================================
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60706-F1       1 MSLSFCGNNISSYNINDGVLQNSCFVDALNLVPHVFLLFITFPILFIGWG     50
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60706-F1      51 SQSSKVQIHHNTWLHFPGHNLRWILTFALLFVHVCEIAEGIVSDSRRESR    100
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60706-F1     101 HLHLFMPAVMGFVATTTSIVYYHNIETSNFPKLLLALFLYWVMAFITKTI    150
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60706-F1     151 KLVKYCQSGLDISNLRFCITGMMVILNGLLMAVEINVIRVRRYVFFMNPQ    200
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60706-F1     201 KVKPPEDLQDLGVRFLQPFVNLLSKATYWWMNTLIISAHKKPIDLKAIGK    250
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60706-F1     251 LPIAMRAVTNYVCLKDAYEEQKKKVADHPNRTPSIWLAMYRAFGRPILLS    300
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60706-F1     301 STFRYLADLLGFAGPLCISGIVQRVNETQNGTNNTTGISETLSSKEFLEN    350
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60706-F1     351 AYVLAVLLFLALILQRTFLQASYYVTIETGINLRGALLAMIYNKILRLST    400
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60706-F1     401 SNLSMGEMTLGQINNLVAIETNQLMWFLFLCPNLWAMPVQIIMGVILLYN    450
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60706-F1     451 LLGSSALVGAAVIVLLAPIQYFIATKLAEAQKSTLDYSTERLKKTNEILK    500
+
+AF-Q0INQ2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60706-F1     501 GIKLLKLYAWEHIFCKSVEETRMKELSSLKTFALYTSLSIFMNAAIPIAA    550
+
+AF-Q0INQ2-F1       1 ------------------------------------------------MA      2
+                                                                     :.
+AF-O60706-F1     551 VLATFVTHAYASGNNLKPAEAFASLSLFHILVTPLFLLSTVVRFAVKAII    600
+
+AF-Q0INQ2-F1       3 ATSPLPRWAPTPSPSRPLWRWGWGGGATPDARADGGVTGWTSSFFAAVFP     52
+                     :...|..:..:.......||.|.........:...||.           |
+AF-O60706-F1     601 SVQKLNEFLLSDEIGDDSWRTGESSLPFESCKKHTGVQ-----------P    639
+
+AF-Q0INQ2-F1      53 WTRRRRVDDRWAPSAGGGVGTFDGVEVPLPAAQAVSLPRAAADVVDDPAV    102
+                     .|..|:...|:         ..|..|      |:....|.|.  .:|.|:
+AF-O60706-F1     640 KTINRKQPGRY---------HLDSYE------QSTRRLRPAE--TEDIAI    672
+
+AF-Q0INQ2-F1     103 -----FLTWEDVRVTVPGRTRGSPPARILDGITGHARPGEVLAIMGPSGC    147
+                          :.:|            ||..| .|..|......|::..|:|..||
+AF-O60706-F1     673 KVTNGYFSW------------GSGLA-TLSNIDIRIPTGQLTMIVGQVGC    709
+
+AF-Q0INQ2-F1     148 GKTTLLDTLAGRLGQEMNQTGVILINGRQEKLAFGTS--------AYVTQ    189
+                     ||::||..:.|.:  :..:..|...|..:.:.:|..:        ||..|
+AF-O60706-F1     710 GKSSLLLAILGEM--QTLEGKVHWSNVNESEPSFEATRSRNRYSVAYAAQ    757
+
+AF-Q0INQ2-F1     190 DNVLMSTLSVREAVYYSAHLQLPDTMLASEKRAHAERVIREMGLSDTMD-    238
+                     ...|::. :|.|.:.:.:..        :::|..|  |.....|...:| 
+AF-O60706-F1     758 KPWLLNA-TVEENITFGSPF--------NKQRYKA--VTDACSLQPDIDL    796
+
+AF-Q0INQ2-F1     239 ------TRIGGRITKGI--SGGQRKRMSICIEMLTRPRLLFLDEPTSGLD    280
+                           |.||.|   ||  |||||:|:.:...:.....::|||:|.|.||
+AF-O60706-F1     797 LPFGDQTEIGER---GINLSGGQRQRICVARALYQNTNIVFLDDPFSALD    843
+
+AF-Q0INQ2-F1     281 SAASYHVMSH-ITRVAAREGMTVIAAVHQPSGDVFDLFHG--LLLLAYGR    327
+                     ...|.|:|.. |.:....:..|::...|:    :..|.|.  ::.:..|.
+AF-O60706-F1     844 IHLSDHLMQEGILKFLQDDKRTLVLVTHK----LQYLTHADWIIAMKDGS    889
+
+AF-Q0INQ2-F1     328 MVFFGTVSNA----TEFFTQSGFPCPH---LRNPSDHFLRTINKDF--DE    368
+                     ::..||:.:.    .|.:       .|   |.|..|   :.:.||.  |:
+AF-O60706-F1     890 VLREGTLKDIQTKDVELY-------EHWKTLMNRQD---QELEKDMEADQ    929
+
+AF-Q0INQ2-F1     369 GTMESSKANRKTAAEAT-NILTNAYHSTYSEKTANEIVEMKGMGGTPFRR    417
+                     .|:|     |||...|. :....|......|:...|..|...| .|..|.
+AF-O60706-F1     930 TTLE-----RKTLRRAMYSREAKAQMEDEDEEEEEEEDEDDNM-STVMRL    973
+
+AF-Q0INQ2-F1     418 KEQASFLTKLLVLTRRSFLNMHRDIGYYWMRLGIYLGIGICLGT------    461
+                     :.:..:.|....||...|..:...|....::..:.:.|...|.|      
+AF-O60706-F1     974 RTKMPWKTCWRYLTSGGFFLLILMIFSKLLKHSVIVAIDYWLATWTSEYS   1023
+
+AF-Q0INQ2-F1     462 ---------IFYQVGYSYSSIQSRCEVIMYTTALVTFMAIGGFPSFVEDI    502
+                              .:|..|:|.     .|...:: ..|||.:.       ||.:
+AF-O60706-F1    1024 INNTGKADQTYYVAGFSI-----LCGAGIF-LCLVTSLT-------VEWM   1060
+
+AF-Q0INQ2-F1     503 KLFRRERLSGHYGVMEFVISNTL---SATPYLAVIAVIPGAMMYYLTGLT    549
+                     .|...:.|  |:.::..:|...:   ..|| |.:|             |.
+AF-O60706-F1    1061 GLTAAKNL--HHNLLNKIILGPIRFFDTTP-LGLI-------------LN   1094
+
+AF-Q0INQ2-F1     550 RGA-------EHFAYFVATLCMCTLLVESMMMIIAVIVPDFLMGII-IGA    591
+                     |.:       :|....:.:|...|||..|.:.:|:...|.||:.:: :|.
+AF-O60706-F1    1095 RFSADTNIIDQHIPPTLESLTRSTLLCLSAIGMISYATPVFLVALLPLGV   1144
+
+AF-Q0INQ2-F1     592 GIQGMMMLNGGFFRLPN----------ELPKPVWKYPCYY-------ISF    624
+                     ....:..    :||:.:          :||     ..|::       .:.
+AF-O60706-F1    1145 AFYFIQK----YFRVASKDLQELDDSTQLP-----LLCHFSETAEGLTTI   1185
+
+AF-Q0INQ2-F1     625 HKYAVQGFYKNEFIGLSFPSDQLIEANATISGLQVLKERLQVEMGY----    670
+                     ..:..:..:|...:.|:..:      |.....|......|:|...|    
+AF-O60706-F1    1186 RAFRHETRFKQRMLELTDTN------NIAYLFLSAANRWLEVRTDYLGAC   1229
+
+AF-Q0INQ2-F1     671 ---------------SKWVNLAILFGMMVTYRMIFFVIVKIAEELRLKLR    705
+                                    |..|.|.:|:.:.:|..:.:  :|:...:|.:::.
+AF-O60706-F1    1230 IVLTASIASISGSSNSGLVGLGLLYALTITNYLNW--VVRNLADLEVQMG   1277
+
+AF-Q0INQ2-F1     706 GIR----FRRLK--------------------------------------    713
+                     .::    |..::                                      
+AF-O60706-F1    1278 AVKKVNSFLTMESENYEGTMDPSQVPEHWPQEGEIKIHDLCVRYENNLKP   1327
+
+AF-Q0INQ2-F1     713 --------------------------------------------------    713
+                                                                       
+AF-O60706-F1    1328 VLKHVKAYIKPGQKVGICGRTGSGKSSLSLAFFRMVDIFDGKIVIDGIDI   1377
+
+AF-Q0INQ2-F1     713 --------------------------------------------------    713
+                                                                       
+AF-O60706-F1    1378 SKLPLHTLRSRLSIILQDPILFSGSIRFNLDPECKCTDDRLWEALEIAQL   1427
+
+AF-Q0INQ2-F1     713 --------------------------------------------------    713
+                                                                       
+AF-O60706-F1    1428 KNMVKSLPGGLDAVVTEGGENFSVGQRQLFCLARAFVRKSSILIMDEATA   1477
+
+AF-Q0INQ2-F1     713 --------------------------------------------------    713
+                                                                       
+AF-O60706-F1    1478 SIDMATENILQKVVMTAFADRTVVTIAHRVSSIMDAGLVLVFSEGILVEC   1527
+
+AF-Q0INQ2-F1     713 ----------------------    713
+                                           
+AF-O60706-F1    1528 DTVPNLLAHKNGLFSTLVMTNK   1549
+
+
+#---------------------------------------
+#---------------------------------------

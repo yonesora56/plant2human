@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:15
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6yzi0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p50542-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6yzi0-f1_af-p50542-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6yzi0-f1_af-p50542-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6YZI0-F1
+# 2: AF-P50542-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 310
+# Identity:      76/310 (24.5%)
+# Similarity:   127/310 (41.0%)
+# Gaps:          50/310 (16.1%)
+# Score: 174.5
+# 
+#
+#=======================================
+
+AF-Q6YZI0-F1     154 KLAGNTEEGIQKYCEALEVDSHY---APAYYNLGVVYSE-----------    189
+                     ||....||..::..||....|.|   ..|.|:.|..:.|           
+AF-P50542-F1     290 KLQAELEEMAKRDAEAHPWLSDYDDLTSATYDKGYQFEEENPLRDHPQPF    339
+
+AF-Q6YZI0-F1     190 ------MMQFDL--ALTCYEKAALERPLYAEAYCNMGVIY-KNRGELEAA    230
+                           :.:.||  |:..:|.|..:.|.:.||:..:|... :|..|| .|
+AF-P50542-F1     340 EEGLRRLQEGDLPNAVLLFEAAVQQDPKHMEAWQYLGTTQAENEQEL-LA    388
+
+AF-Q6YZI0-F1     231 IACYERCLTISPNFEIAKNNMAIALTDLGTKVKIEGDINQGVAYYKKALF    280
+                     |:...|||.:.|:.:.|...:|::.|:       |....|.....:..|.
+AF-P50542-F1     389 ISALRRCLELKPDNQTALMALAVSFTN-------ESLQRQACETLRDWLR    431
+
+AF-Q6YZI0-F1     281 YNWHYADAM---------YNLGVA---YGEMLNFEMAIVFYEL---ALHF    315
+                     |...||..:         ..||.:   .|.:|:..:.:...||   |:..
+AF-P50542-F1     432 YTPAYAHLVTPAEEGAGGAGLGPSKRILGSLLSDSLFLEVKELFLAAVRL    481
+
+AF-Q6YZI0-F1     316 NPRCAE---ACNNLGVIYKDRDNLDKAVECYQMALSIKPNFSQSLNNLGV    362
+                     :|...:   .| .|||::......||||:|:..|||::||.....|.||.
+AF-P50542-F1     482 DPTSIDPDVQC-GLGVLFNLSGEYDKAVDCFTAALSVRPNDYLLWNKLGA    530
+
+AF-Q6YZI0-F1     363 VYTVQGKMDAASSMIQKAIFANSTYAEAYNNLGVLYRDAGSITSAVQAYE    412
+                     ......:.:.|.:..::|:.....|..:..|||:...:.|:...||:.:.
+AF-P50542-F1     531 TLANGNQSEEAVAAYRRALELQPGYIRSRYNLGISCINLGAHREAVEHFL    580
+
+AF-Q6YZI0-F1     413 KCLQIDPDSR    422
+                     :.|.:...||
+AF-P50542-F1     581 EALNMQRKSR    590
+
+
+#---------------------------------------
+#---------------------------------------

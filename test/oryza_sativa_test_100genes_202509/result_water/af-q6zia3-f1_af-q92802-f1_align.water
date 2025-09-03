@@ -1,0 +1,49 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:12
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6zia3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q92802-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6zia3-f1_af-q92802-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6zia3-f1_af-q92802-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6ZIA3-F1
+# 2: AF-Q92802-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 126
+# Identity:      32/126 (25.4%)
+# Similarity:    52/126 (41.3%)
+# Gaps:          33/126 (26.2%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+AF-Q6ZIA3-F1      70 QPFVIGVSGGTASGKTTVCDMIIQQLHDHRVVLVNQDSFYRGLTEEESDR    119
+                     |..:|.:.|...|||||:..:::.|..| .:|....|.|:.         
+AF-Q92802-F1     401 QKLLILLRGLPGSGKTTLSRILLGQNRD-GIVFSTDDYFHH---------    440
+
+AF-Q6ZIA3-F1     120 VQD---YNFDH-PDAFDTEQ--LLECMGQLKSGL---SVNIPIYDFKNHR    160
+                      ||   ||.:. .||.|..|  ..:.:.|.:|.:   :.||..::.|.: 
+AF-Q92802-F1     441 -QDGYRYNVNQLGDAHDWNQNRAKQAIDQGRSPVIIDNTNIQAWEMKPY-    488
+
+AF-Q6ZIA3-F1     161 RCSESFRKVNASDVIILEGILV-FHD    185
+                                .:|.|.:|..| ||:
+AF-Q92802-F1     489 -----------VEVAIGKGYRVEFHE    503
+
+
+#---------------------------------------
+#---------------------------------------

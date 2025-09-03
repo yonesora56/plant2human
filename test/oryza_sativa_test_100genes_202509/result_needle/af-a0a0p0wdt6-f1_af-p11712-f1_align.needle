@@ -1,0 +1,89 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:28:07
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0wdt6-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p11712-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0wdt6-f1_af-p11712-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0wdt6-f1_af-p11712-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0WDT6-F1
+# 2: AF-P11712-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 608
+# Identity:     127/608 (20.9%)
+# Similarity:   210/608 (34.5%)
+# Gaps:         181/608 (29.8%)
+# Score: 192.5
+# 
+#
+#=======================================
+
+AF-A0A0P0WDT6      1 MEAGTWAVVVAAVAAYMAW-FWRMSRGLS----GPRVWPVVGSLPGLVRH     45
+                       ..:..|:|..::..:.. .||.|.|..    ||...||:|::  |...
+AF-P11712-F1       1 --MDSLVVLVLCLSCLLLLSLWRQSSGRGKLPPGPTPLPVIGNI--LQIG     46
+
+AF-A0A0P0WDT6     46 AEDMHEWIAANLRRTRGTYQTCIFAVPGLARRGGLVTVTCDPRNLEHVLK     95
+                     .:|:.:.: .||.:..|...|..|.:..:....|...|.....:|.....
+AF-P11712-F1      47 IKDISKSL-TNLSKVYGPVFTLYFGLKPIVVLHGYEAVKEALIDLGEEFS     95
+
+AF-A0A0P0WDT6     96 SRFDNYPKGPFWHGVFGDLL-----GDGIFNSDGETWVAQRKTAALEFTT    140
+                     .|           |:| .|.     |.||..|:|:.|...|:     |:.
+AF-P11712-F1      96 GR-----------GIF-PLAERANRGFGIVFSNGKKWKEIRR-----FSL    128
+
+AF-A0A0P0WDT6    141 RTLRT-AMSRWVSRSIHSR-------LLPILSDAAAAGGGGGGATVDLQD    182
+                     .|||. .|.:   |||..|       |:..|....|       :..|...
+AF-P11712-F1     129 MTLRNFGMGK---RSIEDRVQEEARCLVEELRKTKA-------SPCDPTF    168
+
+AF-A0A0P0WDT6    183 LLLRLTFDNICGLAFG-----KDPE--TLARGLPE-------------ND    212
+                     :|.....:.||.:.|.     ||.:  .|...|.|             |:
+AF-P11712-F1     169 ILGCAPCNVICSIIFHKRFDYKDQQFLNLMEKLNENIKILSSPWIQICNN    218
+
+AF-A0A0P0WDT6    213 FASAFDRATEATLNRFIFPECVWRFKKWMGLGMETTLARSVQHVDRYLSA    262
+                     |:...|          .||            |....|.::|..:..|:..
+AF-P11712-F1     219 FSPIID----------YFP------------GTHNKLLKNVAFMKSYILE    246
+
+AF-A0A0P0WDT6    263 VIKARKLELAAGNGKGDASSATPHDDLLSRFMRK---------GTYSDES    303
+                     .:|..:..:...|.:          |.:..|:.|         ..::.||
+AF-P11712-F1     247 KVKEHQESMDMNNPQ----------DFIDCFLMKMEKEKHNQPSEFTIES    286
+
+AF-A0A0P0WDT6    304 LQHVALNFILAGRDTSSVALSWFFWLVSTHPAVERKIVRELCTVLAASRG    353
+                     |::.|::...||.:|:|..|.:...|:..||.|..|:..|:..|:..:| 
+AF-P11712-F1     287 LENTAVDLFGAGTETTSTTLRYALLLLLKHPEVTAKVQEEIERVIGRNR-    335
+
+AF-A0A0P0WDT6    354 ADDPALWLAAPLNFEELDQLVYLKAALSETLRLYPSVPEDSKHVVADDVL    403
+                       .|.:        ::...:.|..|.:.|..|....:|....|.|..|:.
+AF-P11712-F1     336 --SPCM--------QDRSHMPYTDAVVHEVQRYIDLLPTSLPHAVTCDIK    375
+
+AF-A0A0P0WDT6    404 PDGTFVPAGSSVTYSIYSAGRMKTVWGDDCLEF-RPERWLSADGTKFEPH    452
+                     .....:|.|:::..|:.|...       |..|| .||        .|:||
+AF-P11712-F1     376 FRNYLIPKGTTILISLTSVLH-------DNKEFPNPE--------MFDPH    410
+
+AF-A0A0P0WDT6    453 ------DSFR----FVAFNAGPRICLGKDLAYLQMRNIAGSVLLRHRLAV    492
+                           .:|:    |:.|:||.|||:|:.||.:::.....|:|       
+AF-P11712-F1     411 HFLDEGGNFKKSKYFMPFSAGKRICVGEALAGMELFLFLTSIL-------    453
+
+AF-A0A0P0WDT6    493 APGHRVEQKMSLTLFMKHGLRMEVRPR--DLAPIVDELRGAGEYAAAARA    540
+                                    ....|:..|.|:  |..|:|:      .:|:....
+AF-P11712-F1     454 ---------------QNFNLKSLVDPKNLDTTPVVN------GFASVPPF    482
+
+AF-A0A0P0WDT6    541 TAACA---    545
+                     ...|.   
+AF-P11712-F1     483 YQLCFIPV    490
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:10
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q7z2y5-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q7z2y5-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q7z2y5-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q7Z2Y5-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 272
+# Identity:      67/272 (24.6%)
+# Similarity:   111/272 (40.8%)
+# Gaps:          60/272 (22.1%)
+# Score: 177.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     612 IGKGGFGTVYHGILENNDE-VAVKVL------------------VETSIA    642
+                     ||.|.:|.:|.|:.|.... .||||:                  .:.|:.
+AF-Q7Z2Y5-F1      31 IGLGTYGRIYLGLHEKTGAFTAVKVMNARKTPLPEIGRRVRVNKYQKSVG     80
+
+AF-B7FAC9-F1     643 -----ESKDFLPEVQTLSKV-HHKNLVALVGYC------QNKKCLALVYD    680
+                          |.:|...|:..|.|. .|||:|:..|..      ..:..|.:|.:
+AF-Q7Z2Y5-F1      81 WRYSDEEEDLRTELNLLRKYSFHKNIVSFYGAFFKLSPPGQRHQLWMVME    130
+
+AF-B7FAC9-F1     681 FMPRGNLQQLLR-GGYDSLNWEERLHIALDAAQGLEYLHESCTPSIVHRD    729
+                     ....|::..::| ....||..:...:|..:..|||.:||   ...::|||
+AF-Q7Z2Y5-F1     131 LCAAGSVTDVVRMTSNQSLKEDWIAYICREILQGLAHLH---AHRVIHRD    177
+
+AF-B7FAC9-F1     730 VKTPNILLDKNLVAKISDFGLSRAFNAAHTHISTVAAGTLGYLDPEY---    776
+                     :|..|:||..|...|:.|||:|...:..:...::. .||..::.||.   
+AF-Q7Z2Y5-F1     178 IKGQNVLLTHNAEVKLVDFGVSAQVSRTNGRRNSF-IGTPYWMAPEVIDC    226
+
+AF-B7FAC9-F1     777 --HATFQLTVKTDVYSFGIVLLEIVTGQPPVF-MDP------------QT    811
+                       ........::||:|.||..:|:..|.||:. :.|            .|
+AF-Q7Z2Y5-F1     227 DEDPRRSYDYRSDVWSVGITAIEMAEGAPPLCNLQPLEALFVILRESAPT    276
+
+AF-B7FAC9-F1     812 VHLPNWVRQKIANGSVHDVVDK    833
+                     |....|.|:      .|:.::|
+AF-Q7Z2Y5-F1     277 VKSSGWSRK------FHNFMEK    292
+
+
+#---------------------------------------
+#---------------------------------------

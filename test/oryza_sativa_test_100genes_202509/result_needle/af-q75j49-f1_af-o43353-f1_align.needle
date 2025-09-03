@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:16
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o43353-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q75j49-f1_af-o43353-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q75j49-f1_af-o43353-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-O43353-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 653
+# Identity:      93/653 (14.2%)
+# Similarity:   152/653 (23.3%)
+# Gaps:         387/653 (59.3%)
+# Score: 208.0
+# 
+#
+#=======================================
+
+AF-Q75J49-F1       1 MASSTSDIPEGREKLKRSGSLGSSDTAYVRADKIDLTSLDIQLEKQLTKT     50
+                                                                       
+AF-O43353-F1       0 --------------------------------------------------      0
+
+AF-Q75J49-F1      51 WGKANLKAHGPKEDWE--------IDLAKL-EIRYVIAQGTYGTVYRGTY     91
+                                 .:.|        |...|| ::|| :::|..|||....:
+AF-O43353-F1       1 ------------MNGEAICSALPTIPYHKLADLRY-LSRGASGTVSSARH     37
+
+AF-Q75J49-F1      92 -DGQ-DVAVK-------LLDWGEDGFATEAETAALRTSFKQEVAVWHKLS    132
+                      |.: .||||       |||             :.|....:|..:.||..
+AF-O43353-F1      38 ADWRVQVAVKHLHIHTPLLD-------------SERKDVLREAEILHKAR     74
+
+AF-Q75J49-F1     133 HPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACC-------VVVEY    175
+                     ...:                           ||....|       :|.||
+AF-O43353-F1      75 FSYI---------------------------LPILGICNEPEFLGIVTEY     97
+
+AF-Q75J49-F1     176 LAGGTLKQYLIKNSRRKLAYKVVV-----QLALDLARGLSYLHSR--KIV    218
+                     :..|:|.:.|    .||..|..|.     ::..::|.|::|||:.  .::
+AF-O43353-F1      98 MPNGSLNELL----HRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLL    143
+
+AF-Q75J49-F1     219 HRDVKTENMLLDTQRNLKIADFGVAR---VEAQNPKDMTGAT--GTLGYM    263
+                     |.|:||:|:|||.:.::||||||:::   :.....:....|.  ||:.||
+AF-O43353-F1     144 HHDLKTQNILLDNEFHVKIADFGLSKWRMMSLSQSRSSKSAPEGGTIIYM    193
+
+AF-Q75J49-F1     264 APEVLDGKPYNR---KCDVYSFGICLWEIYCCDMPYPDL--------SFA    302
+                     .||..:....:|   |.|:||:.:..||:.....|:.|:        |.:
+AF-O43353-F1     194 PPENYEPGQKSRASIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVS    243
+
+AF-Q75J49-F1     303 DVSSAVVHQNLRP-DVPRCCPSAFANIMRKCWDANPDKRPDM--------    343
+                     .....|:::...| |:|.  .:...:::...|..|||:||..        
+AF-O43353-F1     244 QGHRPVINEESLPYDIPH--RARMISLIESGWAQNPDERPSFLKCLIELE    291
+
+AF-Q75J49-F1     344 -----DEVVQLLEA---LDTSKGGGMIPDGQSSGCLCFTKA---------    376
+                          .|.:..|||   |..:|    :....|:..||..|.         
+AF-O43353-F1     292 PVLRTFEEITFLEAVIQLKKTK----LQSVSSAIHLCDKKKMELSLNIPV    337
+
+AF-Q75J49-F1     377 -RGP----------------------------------------------    379
+                      .||                                              
+AF-O43353-F1     338 NHGPQEESCGSSQLHENSGSPETSRSLPAPQDNDFLSRKAQDCYFMKLHH    387
+
+AF-Q75J49-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O43353-F1     388 CPGNHSWDSTISGSQRAAFCDHKTTPCSSAIINPLSTAGNSERLQPGIAQ    437
+
+AF-Q75J49-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O43353-F1     438 QWIQSKREDIVNQMTEACLNQSLDALLSRDLIMKEDYELVSTKPTRTSKV    487
+
+AF-Q75J49-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O43353-F1     488 RQLLDTTDIQGEEFAKVIVQKLKDNKQMGLQPYPEILVVSRSPSLNLLQN    537
+
+AF-Q75J49-F1     379 ---    379
+                        
+AF-O43353-F1     538 KSM    540
+
+
+#---------------------------------------
+#---------------------------------------

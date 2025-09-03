@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:18
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q8h3e5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q5svq8-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q8h3e5-f1_af-q5svq8-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q8h3e5-f1_af-q5svq8-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q8H3E5-F1
+# 2: AF-Q5SVQ8-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 224
+# Identity:      53/224 (23.7%)
+# Similarity:    88/224 (39.3%)
+# Gaps:          69/224 (30.8%)
+# Score: 105.5
+# 
+#
+#=======================================
+
+AF-Q8H3E5-F1     184 YLKDDC---LLVNCTVGVVQSHTEG---PKIYTI--PVPPS---------    216
+                     |.||..   :.|.|. .|..:|:.|   |:....  .:|||         
+AF-Q5SVQ8-F1      18 YHKDSSEGNVAVECD-QVTYTHSAGRPTPEALHCYQELPPSPDQRKLLSS     66
+
+AF-Q8H3E5-F1     217 -NMSQHIGQLLTDGKR-----TDITFEVDGEVFPAHKVVLAARSPVFRAQ    260
+                      ..::::.:.|.|.::     .|:...|:|:.|.|||||:|..|..|.|.
+AF-Q5SVQ8-F1      67 LQYNKNLLKYLNDDRQKQPSFCDLLIIVEGKEFSAHKVVVAVGSSYFHAC    116
+
+AF-Q8H3E5-F1     261 LFGPMKDKNMKRITIEDMEASVFKALLHFMYWD-------ELPDIEELTG    303
+                     |   .|:.:...:|::.:..|||:.||.|:|..       |:|.:.|   
+AF-Q5SVQ8-F1     117 L---SKNPSTDVVTLDHVTHSVFQHLLEFLYTSEFFVYKYEIPLVLE---    160
+
+AF-Q8H3E5-F1     304 LNTTWVSTLMAQHLLAAADRYALERLKLL---------CEL--KLCEDVA    342
+                                    ||.....::.:|||         .||  |...:..
+AF-Q5SVQ8-F1     161 ---------------AAKFLDIIDAVKLLNNENVAPFHSELTEKSSPEET    195
+
+AF-Q8H3E5-F1     343 INTVANTLA------LAEQHHCYQ    360
+                     :|.:...|:      ...:|.||:
+AF-Q5SVQ8-F1     196 LNELTGRLSNNHQCKFCSRHFCYK    219
+
+
+#---------------------------------------
+#---------------------------------------

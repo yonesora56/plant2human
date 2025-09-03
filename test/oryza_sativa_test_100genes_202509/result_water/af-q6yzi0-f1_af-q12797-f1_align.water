@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:19
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6yzi0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q12797-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6yzi0-f1_af-q12797-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6yzi0-f1_af-q12797-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6YZI0-F1
+# 2: AF-Q12797-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 294
+# Identity:      63/294 (21.4%)
+# Similarity:    97/294 (33.0%)
+# Gaps:          97/294 (33.0%)
+# Score: 108.0
+# 
+#
+#=======================================
+
+AF-Q6YZI0-F1      29 KQQLDGKDTLRYANILRSRNKFAEALQLYNNVLEKDEANVEALIGKGICL     78
+                     |.:||.      |..||.|.|..||:..:..::.|...:..|..||..| 
+AF-Q12797-F1     342 KAELDA------AEKLRKRGKIEEAVNAFKELVRKYPQSPRARYGKAQC-    384
+
+AF-Q6YZI0-F1      79 QAQSLPMQAIECFNEAVRIDPGNACALTYCGMIYKDEGHLVEAAEAYQKA    128
+                                                         |..|.|...:.:..
+AF-Q12797-F1     385 ------------------------------------EDDLAEKRRSNEVL    398
+
+AF-Q6YZI0-F1     129 RNADPSYKPAAEFLAIVLTDLGTSLKLAGNTEEGIQKYCEALEVDSHYAP    178
+                     |.|..:|:..|. |..|..||   |||:.......|::            
+AF-Q12797-F1     399 RGAIETYQEVAS-LPDVPADL---LKLSLKRRSDRQQF------------    432
+
+AF-Q6YZI0-F1     179 AYYNLGVVYSEMMQFDLALTCYEKAALERPLYAEAYCNMGVIYKNRGELE    228
+                         ||.:...::.....:..:       |.......::||.|...|:.:
+AF-Q12797-F1     433 ----LGHMRGSLLTLQRLVQLF-------PNDTSLKNDLGVGYLLIGDND    471
+
+AF-Q6YZI0-F1     229 AAIACYERCLTISPNFEIAKNNMAIALTDLGTKVKIEGDINQGVAYYKKA    278
+                     .|...||..|:::||...||       ...|..:|.:..|.:.:.|.|:.
+AF-Q12797-F1     472 NAKKVYEEVLSVTPNDGFAK-------VHYGFILKAQNKIAESIPYLKEG    514
+
+AF-Q6YZI0-F1     279 L-----------FYNWHYADAMYNLGVAYGEMLNFEMAIVFYEL    311
+                     :           || :|..|||..:|       |.| |..:|||
+AF-Q12797-F1     515 IESGDPGTDDGRFY-FHLGDAMQRVG-------NKE-AYKWYEL    549
+
+
+#---------------------------------------
+#---------------------------------------

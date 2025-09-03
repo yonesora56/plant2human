@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:56
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0izr6-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o43772-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0izr6-f1_af-o43772-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0izr6-f1_af-o43772-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0IZR6-F1
+# 2: AF-O43772-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 344
+# Identity:      44/344 (12.8%)
+# Similarity:    67/344 (19.5%)
+# Gaps:         205/344 (59.6%)
+# Score: 86.5
+# 
+#
+#=======================================
+
+AF-Q0IZR6-F1       1 MPEMGARGGEAGAARVANGGGGGGTGGM----RLFSPEYYALCTG-GGML     45
+                                                |    :..||....|..| ||:.
+AF-O43772-F1       1 ---------------------------MADQPKPISPLKNLLAGGFGGVC     23
+
+AF-Q0IZR6-F1      46 AAGATHLAITPLDVLKVNMQVNPMK-------YNSIFSGLNILVKEEGAS     88
+                     .....|    |||.:||.:|..|..       |:..|......:..||.:
+AF-O43772-F1      24 LVFVGH----PLDTVKVRLQTQPPSLPGQPPMYSGTFDCFRKTLFREGIT     69
+
+AF-Q0IZR6-F1      89 SLWRGWAGK-----------FFGYGFQGGCKFGLYEYFKKKY-SDVLVDR    126
+                     .|:||.|..           |||        |||.:..::|: .|||   
+AF-O43772-F1      70 GLYRGMAAPIIGVTPMFAVCFFG--------FGLGKKLQQKHPEDVL---    108
+
+AF-Q0IZR6-F1     127 NKSTIYFISSASAQIIADVALCPFESVKVRVQTQPMFAK----GLIDGFP    172
+                      .....|.:...:.:.....:.|.|.:|..:|.|....:    |.:|...
+AF-O43772-F1     109 -SYPQLFAAGMLSGVFTTGIMTPGERIKCLLQIQASSGESKYTGTLDCAK    157
+
+AF-Q0IZR6-F1     173 RVYATEGLSG----------------------------------------    182
+                     ::|...|:.|                                        
+AF-O43772-F1     158 KLYQEFGIRGIYKGTVLTLMRDVPASGMYFMTYEWLKNIFTPEGKRVSEL    207
+
+AF-Q0IZR6-F1     182 --------------------------------------------------    182
+                                                                       
+AF-O43772-F1     208 SAPRILVAGGIAGIFNWAVAIPPDVLKSRFQTAPPGKYPNGFRDVLRELI    257
+
+AF-Q0IZR6-F1     182 --------------------------------------------    182
+                                                                 
+AF-O43772-F1     258 RDEGVTSLYKGFNAVMIRAFPANAACFLGFEVAMKFLNWATPNL    301
+
+
+#---------------------------------------
+#---------------------------------------

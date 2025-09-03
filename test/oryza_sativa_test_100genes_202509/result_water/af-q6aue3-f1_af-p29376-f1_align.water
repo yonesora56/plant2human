@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:29
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p29376-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-p29376-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-p29376-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-P29376-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 318
+# Identity:      90/318 (28.3%)
+# Similarity:   134/318 (42.1%)
+# Gaps:          56/318 (17.6%)
+# Score: 315.0
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      60 GPKEDW-------EIDLAKLEIRYVIAQGTYGTVYRGTYDG-------QD     95
+                     ||.:.|       |:..|.:.:...:..|.:|.||.|...|       ..
+AF-P29376-F1     491 GPAQSWPLPPGVTEVSPANVTLLRALGHGAFGEVYEGLVIGLPGDSSPLQ    540
+
+AF-Q6AUE3-F1      96 VAVKLLDWGEDGFATEAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMG    145
+                     ||:|.|        .|..:......|..|..:..|..|.|:.:.||.|:.
+AF-P29376-F1     541 VAIKTL--------PELCSPQDELDFLMEALIISKFRHQNIVRCVGLSLR    582
+
+AF-Q6AUE3-F1     146 TTDLKIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSR-----    190
+                     .|..                    .:::|.::||.:|.:| ::||     
+AF-P29376-F1     583 ATPR--------------------LILLELMSGGDMKSFL-RHSRPHLGQ    611
+
+AF-Q6AUE3-F1     191 -RKLAYKVVVQLALDLARGLSYLHSRKIVHRDVKTENMLLD---TQRNLK    236
+                      ..|..:.::|||.|:|:|..||.....:|||:...|.||.   ..|..|
+AF-P29376-F1     612 PSPLVMRDLLQLAQDIAQGCHYLEENHFIHRDIAARNCLLSCAGPSRVAK    661
+
+AF-Q6AUE3-F1     237 IADFGVAR--VEAQNPKDMTGATGTLGYMAPEVLDGKPYNRKCDVYSFGI    284
+                     |.|||:||  ..|...:....|...:.:|.||......:..|.|.:|||:
+AF-P29376-F1     662 IGDFGMARDIYRASYYRRGDRALLPVKWMPPEAFLEGIFTSKTDSWSFGV    711
+
+AF-Q6AUE3-F1     285 CLWEIYCCD-MPYPDLSFADVSSAVVHQNLRPDVPRCCPSAFANIMRKCW    333
+                     .||||:... ||||..:..:|...||... |.|.||.||.....||.:||
+AF-P29376-F1     712 LLWEIFSLGYMPYPGRTNQEVLDFVVGGG-RMDPPRGCPGPVYRIMTQCW    760
+
+AF-Q6AUE3-F1     334 DANPDKRPDMDEVVQLLE    351
+                     ...|:.||....:::.|:
+AF-P29376-F1     761 QHEPELRPSFASILERLQ    778
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:12
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p22455-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-p22455-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-p22455-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-P22455-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 319
+# Identity:      85/319 (26.6%)
+# Similarity:   133/319 (41.7%)
+# Gaps:          87/319 (27.3%)
+# Score: 221.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     612 IGKGGFGTVYHGILENND--------EVAVKVLVE-TSIAESKDFLPEVQ    652
+                     :|:|.||.|........|        .||||:|.: .|..:..|.:.|::
+AF-P22455-F1     473 LGEGCFGQVVRAEAFGMDPARPDQASTVAVKMLKDNASDKDLADLVSEME    522
+
+AF-B7FAC9-F1     653 TLSKV-HHKNLVALVGYCQNKKCLALVYDFMPRGNLQQLLRG----GYD-    696
+                     .:..: .|||::.|:|.|..:..|.::.:...:|||::.||.    |.| 
+AF-P22455-F1     523 VMKLIGRHKNIINLLGVCTQEGPLYVIVECAAKGNLREFLRARRPPGPDL    572
+
+AF-B7FAC9-F1     697 ----------SLNWEERLHIALDAAQGLEYLH-ESCTPSIVHRDVKTPNI    735
+                               .|::...:..|...|:|::||. ..|    :|||:...|:
+AF-P22455-F1     573 SPDGPRSSEGPLSFPVLVSCAYQVARGMQYLESRKC----IHRDLAARNV    618
+
+AF-B7FAC9-F1     736 LLDKNLVAKISDFGLSRAFNAAHTHISTVAAGTLGYLDPEYHATFQL---    782
+                     |:.::.|.||:||||:|..:    ||......:.|.|..::.|...|   
+AF-P22455-F1     619 LVTEDNVMKIADFGLARGVH----HIDYYKKTSNGRLPVKWMAPEALFDR    664
+
+AF-B7FAC9-F1     783 --TVKTDVYSFGIVLLEIVT--GQP----PV-----------FMDPQTVH    813
+                       |.::||:||||:|.||.|  |.|    ||           .|| :..|
+AF-P22455-F1     665 VYTHQSDVWSFGILLWEIFTLGGSPYPGIPVEELFSLLREGHRMD-RPPH    713
+
+AF-B7FAC9-F1     814 LPNWVRQKIANGSVHDVVDKKLLDQYDATHLQTVIDLAMNCLENASIDRP    863
+                     .|                             ..:..|...|...|...||
+AF-P22455-F1     714 CP-----------------------------PELYGLMRECWHAAPSQRP    734
+
+AF-B7FAC9-F1     864 SMTEVVSVL-KVCLPISSE    881
+                     :..::|..| ||.|.:|.|
+AF-P22455-F1     735 TFKQLVEALDKVLLAVSEE    753
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:07
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p63244-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vcb7-f1_af-p63244-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vcb7-f1_af-p63244-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-P63244-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 346
+# Identity:      56/346 (16.2%)
+# Similarity:    83/346 (24.0%)
+# Gaps:         197/346 (56.9%)
+# Score: 129.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7      1 -----------------VQSVAWSRQSPEVLLSGSFDKSVAMNDMKDGGQ     33
+                                      |..:|.:.|.|:::||.|.||::.|        
+AF-P63244-F1       1 MTEQMTLRGTLKGHNGWVTQIATTPQFPDMILSASRDKTIIM--------     42
+
+AF-A0A0P0VCB7     34 SCNKWSVEADVESLAWDPHNE---HSFMVSLENGMVQAFDKRTASSNS--     78
+                         |.:..| |:....|...   ||..||   .:|.:.|.:.|.|.|  
+AF-P63244-F1      43 ----WKLTRD-ETNYGIPQRALRGHSHFVS---DVVISSDGQFALSGSWD     84
+
+AF-A0A0P0VCB7     79 --------NSGRPTFTLHAHEKAVSSISFSPSTPNFLATGSTDKMVKLW-    119
+                             .:|..|.....|.|.|.|::|| |....:.:||.||.:||| 
+AF-P63244-F1      85 GTLRLWDLTTGTTTRRFVGHTKDVLSVAFS-SDNRQIVSGSRDKTIKLWN    133
+
+AF-A0A0P0VCB7    120 ----------DLSNNQ-PSCIASLNPKLGAIFSVSFSNDSPFLLASGGSK    158
+                               |.|::: .||:.         ||.:.||  |.:::.|..|
+AF-P63244-F1     134 TLGVCKYTVQDESHSEWVSCVR---------FSPNSSN--PIIVSCGWDK    172
+
+AF-A0A0P0VCB7    159 GKLKVWNTLTEPAVANKFGK------------------------------    178
+                      .:||||........|..|.                              
+AF-P63244-F1     173 -LVKVWNLANCKLKTNHIGHTGYLNTVTVSPDGSLCASGGKDGQAMLWDL    221
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-P63244-F1     222 NEGKHLYTLDGGDIINALCFSPNRYWLCAATGPSIKIWDLEGKIIVDELK    271
+
+AF-A0A0P0VCB7    178 ----------------------------------------------    178
+                                                                   
+AF-P63244-F1     272 QEVISTSSKAEPPQCTSLAWSADGQTLFAGYTDNLVRVWQVTIGTR    317
+
+
+#---------------------------------------
+#---------------------------------------

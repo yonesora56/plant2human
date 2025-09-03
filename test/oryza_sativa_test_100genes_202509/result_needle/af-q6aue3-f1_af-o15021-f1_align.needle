@@ -1,0 +1,257 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:22
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o15021-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6aue3-f1_af-o15021-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6aue3-f1_af-o15021-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-O15021-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2703
+# Identity:      99/2703 ( 3.7%)
+# Similarity:   158/2703 ( 5.8%)
+# Gaps:        2404/2703 (88.9%)
+# Score: 195.0
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15021-F1       1 MGEKVSEAPEPVPRGCSGHGSRTPASALVAASSPGASSAESSSGSETLSE     50
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15021-F1      51 EGEPGGFSREHQPPPPPPLGGTLGARAPAAWAPASVLLERGVLALPPPLP    100
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15021-F1     101 GGAVPPAPRGSSASQEEQDEELDHILSPPPMPFRKCSNPDVASGPGKSLK    150
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15021-F1     151 YKRQLSEDGRQLRRGSLGGALTGRYLLPNPVAGQAWPASAETSNLVRMRS    200
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15021-F1     201 QALGQSAPSLTASLKELSLPRRGSFCRTSNRKSLIGNGQSPALPRPHSPL    250
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15021-F1     251 SAHAGNSPQDSPRNFSPSASAHFSFARRTDGRRWSLASLPSSGYGTNTPS    300
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15021-F1     301 STVSSSCSSQEKLHQLPYQPTPDELHFLSKHFCTTESIATENRCRNTPMR    350
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15021-F1     351 PRSRSLSPGRSPACCDHEIIMMNHVYKERFPKATAQMEERLKEIITSYSP    400
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15021-F1     401 DNVLPLADGVLSFTHHQIIELARDCLDKSHQGLITSRYFLELQHKLDKLL    450
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O15021-F1     451 QEAHDRSESGELAFIKQLVRKILIVIARPARLLECLEFDPEEFYYLLEAA    500
+
+AF-Q6AUE3-F1       1 ------MASSTSDIPE--------GREKLKRSGSLGSSDTAYVRADKID-     35
+                           .....:|||.        .::.|:....||:.|:......:.| 
+AF-O15021-F1     501 EGHAKEGQGIKTDIPRYIISQLGLNKDPLEEMAHLGNYDSGTAETPETDE    550
+
+AF-Q6AUE3-F1      36 -LTSLDIQLEKQLTKTWGKANLKAHGPKEDWEIDLAKLEIRYVIAQGTYG     84
+                      ::|             ..|:||......:.:.:..||     |:.|.||
+AF-O15021-F1     551 SVSS-------------SNASLKLRRKPRESDFETIKL-----ISNGAYG    582
+
+AF-Q6AUE3-F1      85 TVY--RGTYDGQDVAVKLLDWGEDGFATEAETAALRTSFKQ---EVAVWH    129
+                     .||  |.....|..|:|.::         .:...||...:|   |..:..
+AF-O15021-F1     583 AVYFVRHKESRQRFAMKKIN---------KQNLILRNQIQQAFVERDILT    623
+
+AF-Q6AUE3-F1     130 KLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCVVVEYLAGG    179
+                     ...:|.|.... .|..|                   .|..|:|:||:.||
+AF-O15021-F1     624 FAENPFVVSMY-CSFET-------------------RRHLCMVMEYVEGG    653
+
+AF-Q6AUE3-F1     180 TLKQYLIKNSRRKLAYKVVVQLALDLAR--------GLSYLHSRKIVHRD    221
+                     .... |:||         :..|.:|:||        .|.|||:..|||||
+AF-O15021-F1     654 DCAT-LMKN---------MGPLPVDMARMYFAETVLALEYLHNYGIVHRD    693
+
+AF-Q6AUE3-F1     222 VKTENMLLDTQRNLKIADFGVARV----------EAQNPKDM-----TGA    256
+                     :|.:|:|:.:..::|:.|||:::|          |....||.     ...
+AF-O15021-F1     694 LKPDNLLVTSMGHIKLTDFGLSKVGLMSMTTNLYEGHIEKDAREFLDKQV    743
+
+AF-Q6AUE3-F1     257 TGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMPYPDLSFADVSS    306
+                     .||..|:||||:..:.|.:..|.::.||.|:|.....:|:    |.|...
+AF-O15021-F1     744 CGTPEYIAPEVILRQGYGKPVDWWAMGIILYEFLVGCVPF----FGDTPE    789
+
+AF-Q6AUE3-F1     307 AVVHQNLRPDVPRCCPSAFANIMRKCWDANPDK----RPDMDEVVQL---    349
+                     .:..|.:..::.              |   |:|    .||..:::.|   
+AF-O15021-F1     790 ELFGQVISDEIN--------------W---PEKDEAPPPDAQDLITLLLR    822
+
+AF-Q6AUE3-F1     350 ---LEALDTSKGGG-----------------------MIPDGQSSGCLCF    373
+                        ||.|.|  ||.                       .||..:|.....:
+AF-O15021-F1     823 QNPLERLGT--GGAYEVKQHRFFRSLDWNSLLRQKAEFIPQLESEDDTSY    870
+
+AF-Q6AUE3-F1     374 TKARGP--------------------------------------------    379
+                     ...|..                                            
+AF-O15021-F1     871 FDTRSEKYHHMETEEEDDTNDEDFNVEIRQFSSCSHRFSKVFSSIDRITQ    920
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1     921 NSAEEKEDSVDKTKSTTLPSTETLSWSSEYSEMQQLSTSNSSDTESNRHK    970
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1     971 LSSGLLPKLAISTEGEQDEAASCPGDPHEEPGKPALPPEECAQEEPEVTT   1020
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1021 PASTISSSTLSVGSFSEHLDQINGRSECVDSTDNSSKPSSEPASHMARQR   1070
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1071 LESTEKKKISGKVTKSLSASALSLMIPGDMFAVSPLGSPMSPHSLSSDPS   1120
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1121 SSRDSSPSRDSSAASASPHQPIVIHSSGKNYGFTIRAIRVYVGDSDIYTV   1170
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1171 HHIVWNVEEGSPACQAGLKAGDLITHINGEPVHGLVHTEVIELLLKSGNK   1220
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1221 VSITTTPFENTSIKTGPARRNSYKSRMVRRSKKSKKKESLERRRSLFKKL   1270
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1271 AKQPSPLLHTSRSFSCLNRSLSSGESLPGSPTHSLSPRSPTPSYRSTPDF   1320
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1321 PSGTNSSQSSSPSSSAPNSPAGSGHIRPSTLHGLAPKLGGQRYRSGRRKS   1370
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1371 AGNIPLSPLARTPSPTPQPTSPQRSPSPLLGHSLGNSKIAQAFPSKMHSP   1420
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1421 PTIVRHIVRPKSAEPPRSPLLKRVQSEEKLSPSYGSDKKHLCSRKHSLEV   1470
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1471 TQEEVQREQSQREAPLQSLDENVCDVPPLSRARPVEQGCLKRPVSRKVGR   1520
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1521 QESVDDLDRDKLKAKVVVKKADGFPEKQESHQKSHGPGSDLENFALFKLE   1570
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1571 EREKKVYPKAVERSSTFENKASMQEAPPLGSLLKDALHKQASVRASEGAM   1620
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1621 SDGRVPAEHRQGGGDFRRAPAPGTLQDGLCHSLDRGISGKGEGTEKSSQA   1670
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1671 KELLRCEKLDSKLANIDYLRKKMSLEDKEDNLCPVLKPKMTAGSHECLPG   1720
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1721 NPVRPTGGQQEPPPASESRAFVSSTHAAQMSAVSFVPLKALTGRVDSGTE   1770
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1771 KPGLVAPESPVRKSPSEYKLEGRSVSCLKPIEGTLDIALLSGPQASKTEL   1820
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1821 PSPESAQSPSPSGDVRASVPPVLPSSSGKKNDTTSARELSPSSLKMNKSY   1870
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1871 LLEPWFLPPSRGLQNSPAVSLPDPEFKRDRKGPHPTARSPGTVMESNPQQ   1920
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1921 REGSSPKHQDHTTDPKLLTCLGQNLHSPDLARPRCPLPPEASPSREKPGL   1970
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    1971 RESSERGPPTARSERSAARADTCREPSMELCFPETAKTSDNSKNLLSVGR   2020
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    2021 THPDFYTQTQAMEKAWAPGGKTNHKDGPGEARPPPRDNSSLHSAGIPCEK   2070
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    2071 ELGKVRRGVEPKPEALLARRSLQPPGIESEKSEKLSSFPSLQKDGAKEPE   2120
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    2121 RKEQPLQRHPSSIPPPPLTAKDLSSPAARQHCSSPSHASGREPGAKPSTA   2170
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    2171 EPSSSPQDPPKPVAAHSESSSHKPRPGPDPGPPKTKHPDRSLSSQKPSVG   2220
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    2221 ATKGKEPATQSLGGSSREGKGHSKSGPDVFPATPGSQNKASDGIGQGEGG   2270
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    2271 PSVPLHTDRAPLDAKPQPTSGGRPLEVLEKPVHLPRPGHPGPSEPADQKL   2320
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    2321 SAVGEKQTLSPKHPKPSTVKDCPTLCKQTDNRQTDKSPSQPAANTDRRAE   2370
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    2371 GKKCTEALYAPAEGDKLEAGLSFVHSENRLKGAERPAAGVGKGFPEARGK   2420
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    2421 GPGPQKPPTEADKPNGMKRSPSATGQSSFRSTALPEKSLSCSSSFPETRA   2470
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    2471 GVREASAASSDTSSAKAAGGMLELPAPSNRDHRKAQPAGEGRTHMTKSDS   2520
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    2521 LPSFRVSTLPLESHHPDPNTMGGASHRDRALSVTATVGETKGKDPAPAQP   2570
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15021-F1    2571 PPARKQNVGRDVTKPSPAPNTDRPISLSNEKDFVVRQRRGKESLRSSPHK   2620
+
+AF-Q6AUE3-F1     379 ---    379
+                        
+AF-O15021-F1    2621 KAL   2623
+
+
+#---------------------------------------
+#---------------------------------------

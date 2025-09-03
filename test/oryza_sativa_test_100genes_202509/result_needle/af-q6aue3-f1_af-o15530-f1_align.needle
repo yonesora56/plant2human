@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:14
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o15530-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6aue3-f1_af-o15530-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6aue3-f1_af-o15530-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-O15530-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 656
+# Identity:      81/656 (12.3%)
+# Similarity:   139/656 (21.2%)
+# Gaps:         377/656 (57.5%)
+# Score: 144.0
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1       1 ---------------------------------MASSTSDIPEGREKLKR     17
+                                                      .:|:...||.|    .|
+AF-O15530-F1       1 MARTTSQLYDAVPIQSSVVLCSCPSPSMVRTQTESSTPPGIPGG----SR     46
+
+AF-Q6AUE3-F1      18 SGSLGSSDTAYVRADKIDLTSLDIQLEKQLTKTWGKANLK-AHGPKEDWE     66
+                     .|.......|..|.                    |..:|: |..|.:..:
+AF-O15530-F1      47 QGPAMDGTAAEPRP--------------------GAGSLQHAQPPPQPRK     76
+
+AF-Q6AUE3-F1      67 IDLAKLEIRYVIAQGTYGTVY--RGTYDGQDVAVKLLDWGEDGFATEAET    114
+                     ......:...::.:|::.||.  |.....::.|:|:|:            
+AF-O15530-F1      77 KRPEDFKFGKILGEGSFSTVVLARELATSREYAIKILE------------    114
+
+AF-Q6AUE3-F1     115 AALRTSFKQ--------EVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNS    156
+                       .|...|:        |..|..:|.||...|..........|...    
+AF-O15530-F1     115 --KRHIIKENKVPYVTRERDVMSRLDHPFFVKLYFTFQDDEKLYFG----    158
+
+AF-Q6AUE3-F1     157 NAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLA---------YKV    197
+                                     :.|...|.|.:|:     ||:.         |  
+AF-O15530-F1     159 ----------------LSYAKNGELLKYI-----RKIGSFDETCTRFY--    185
+
+AF-Q6AUE3-F1     198 VVQLALDLARGLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARVEA    247
+                         ..::...|.|||.:.|:|||:|.||:||:...:::|.|||.|:|.:
+AF-O15530-F1     186 ----TAEIVSALEYLHGKGIIHRDLKPENILLNEDMHIQITDFGTAKVLS    231
+
+AF-Q6AUE3-F1     248 QNPKD--MTGATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMP    295
+                     ...|.  .....||..|::||:|..|...:..|:::.|..::::.....|
+AF-O15530-F1     232 PESKQARANSFVGTAQYVSPELLTEKSACKSSDLWALGCIIYQLVAGLPP    281
+
+AF-Q6AUE3-F1     296 YPDLSFADVSSAVVHQNLRPDVPRCCPSAFANIMRKCWDANPDK-RPDMD    344
+                     :          ...::.|          .|..|::..:|. |:| .|...
+AF-O15530-F1     282 F----------RAGNEYL----------IFQKIIKLEYDF-PEKFFPKAR    310
+
+AF-Q6AUE3-F1     345 EVVQLLEALDTSKGGGMIPDGQSSGCLCFTKARGP---------------    379
+                     ::|:.|..||.:|         ..||. ..:..||               
+AF-O15530-F1     311 DLVEKLLVLDATK---------RLGCE-EMEGYGPLKAHPFFESVTWENL    350
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15530-F1     351 HQQTPPKLTAYLPAMSEDDEDCYGNYDNLLSQFGCMQVSSSSSSHSLSAS    400
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15530-F1     401 DTGLPQRSGSNIEQYIHDLDSNSFELDLQFSEDEKRLLLEKQAGGNPWHQ    450
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15530-F1     451 FVENNLILKMGPVDKRKGLFARRRQLLLTEGPHLYYVDPVNKVLKGEIPW    500
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-O15530-F1     501 SQELRPEAKNFKTFFVHTPNRTYYLMDPSGNAHKWCRKIQEVWRQRYQSH    550
+
+AF-Q6AUE3-F1     379 ------    379
+                           
+AF-O15530-F1     551 PDAAVQ    556
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:59
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q99963-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-q99963-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-q99963-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-Q99963-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 333
+# Identity:      74/333 (22.2%)
+# Similarity:   132/333 (39.6%)
+# Gaps:          87/333 (26.1%)
+# Score: 160.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1      64 SIVRGVEGFIAVSTKQMEIVKKLAEDC-CRYG---NDNQNFGFILARASV    109
+                     |.:||     .|.|......:.|..|| .:||   .::..||    .|.:
+AF-Q99963-F1      75 SKIRG-----QVKTTGYPQTEGLLGDCMLKYGKELGEDSTFG----NALI    115
+
+AF-Q10NK5-F1     110 EFGNSHSQMEKERENLLKFLGEQVFEPLREMIMSAPLE---------DAR    150
+                     |.|.|...|.:.:::|...:.:...:|| :::....|:         :.|
+AF-Q99963-F1     116 EVGESMKLMAEVKDSLDINVKQTFIDPL-QLLQDKDLKEIGHHLKKLEGR    164
+
+AF-Q10NK5-F1     151 LLTYRY--QRIRQDMESQIADVMRKQLKSKESSGNADNSVKLQHAESKLS    198
+                     .|.|.|  :|:.:..:.::...:.|..:|||                 |:
+AF-Q99963-F1     165 RLDYDYKKKRVGKIPDEEVRQAVEKFEESKE-----------------LA    197
+
+AF-Q10NK5-F1     199 ELRTTLSALGREATAAMEAVEVQQQQVTFDRLLAMVDAERAYHQNAADIL    248
+                     | |:..:.|           |...:||:  :|...::|...||:.:.:||
+AF-Q99963-F1     198 E-RSMFNFL-----------ENDVEQVS--QLAVFIEAALDYHRQSTEIL    233
+
+AF-Q10NK5-F1     249 NKLHDEMVQAKHHDEPENHYDETSSDPKTAATHEH-----SRSTSEDHIF    293
+                     .:|..::         :......||.|:    .|:     .||:||.:..
+AF-Q99963-F1     234 QELQSKL---------QMRISAASSVPR----REYKPRPVKRSSSELNGV    270
+
+AF-Q10NK5-F1     294 TNTSEPTRTETSEPTRTETSEPTRNGQEVHYVGEVIHPFDAQADGELSIS    343
+                     :.||....|.::.|    ..:|...|         ::.|:.:..|||...
+AF-Q99963-F1     271 STTSVVKTTGSNIP----MDQPCCRG---------LYDFEPENQGELGFK    307
+
+AF-Q10NK5-F1     344 VGDYVVVRQVAPNGWSEGECKGKAGWFPSAYVE    376
+                     .||.:.:.......|.||...|::|:||..|||
+AF-Q99963-F1     308 EGDIITLTNQIDENWYEGMIHGESGFFPINYVE    340
+
+
+#---------------------------------------
+#---------------------------------------

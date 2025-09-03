@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:21
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6yzi0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q96tc7-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6yzi0-f1_af-q96tc7-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6yzi0-f1_af-q96tc7-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6YZI0-F1
+# 2: AF-Q96TC7-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 285
+# Identity:      62/285 (21.8%)
+# Similarity:    87/285 (30.5%)
+# Gaps:         120/285 (42.1%)
+# Score: 66.0
+# 
+#
+#=======================================
+
+AF-Q6YZI0-F1       1 MGR-PGMDSSEGRESNGVVPERNGGA------VPAKQQLD--------GK     35
+                     ||| ..:|..|...|........||:      :|..||.|        ||
+AF-Q96TC7-F1     207 MGRKDSLDLEEEAASGASSALEAGGSSGLEDVLPLLQQADELHRGDEQGK    256
+
+AF-Q6YZI0-F1      36 ---------DTLRYAN----ILRSRNKFAEALQLYNNVLE--------KD     64
+                              :.|.|.:    :.|....:::..:|...|.|        |:
+AF-Q96TC7-F1     257 REGFQLLLNNKLVYGSRQDFLWRLARAYSDMCELTEEVSEKKSYALDGKE    306
+
+AF-Q6YZI0-F1      65 EANVEALIGKGICLQAQSLPMQAIECFNEAVRIDPGNACALTY---CGMI    111
+                     ||  ||.:.||                      |....|.|.|   ||.:
+AF-Q96TC7-F1     307 EA--EAALEKG----------------------DESADCHLWYAVLCGQL    332
+
+AF-Q6YZI0-F1     112 YKDEG--HLVEAA----EAYQKARNADPSYKPAAEFLAIVLTDLG-----    150
+                     .:.|.  ..:::.    |...||....|. .|.|.||      ||     
+AF-Q96TC7-F1     333 AEHESIQRRIQSGFSFKEHVDKAIALQPE-NPMAHFL------LGRWCYQ    375
+
+AF-Q6YZI0-F1     151 ------------TSL---KLAGNTEEGIQKYCEALEVDSHYAPAYYNLGV    185
+                                 |:|   .|:...|:.:|.:.:|.|:.    |.:...|.
+AF-Q96TC7-F1     376 VSHLSWLEKKTATALLESPLSATVEDALQSFLKAEELQ----PGFSKAGR    421
+
+AF-Q6YZI0-F1     186 VYSEMMQFDLALTCYE------------KAALERP    208
+                     ||..        .||.            |.|||.|
+AF-Q96TC7-F1     422 VYIS--------KCYRELGKNSEARWWMKLALELP    448
+
+
+#---------------------------------------
+#---------------------------------------

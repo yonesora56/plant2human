@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:47
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q92772-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-q92772-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-q92772-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-Q92772-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 319
+# Identity:      77/319 (24.1%)
+# Similarity:   126/319 (39.5%)
+# Gaps:          77/319 (24.1%)
+# Score: 206.5
+# 
+#
+#=======================================
+
+AF-Q75J49-F1      69 LAKLEIRYVIAQGTYGTVY--RGTYDGQDVAV-KLLDWGEDGFATEAETA    115
+                     :.|.|...::.:|:||.|.  |....|:.||: |.|:..:|..   .:..
+AF-Q92772-F1       1 MEKYENLGLVGEGSYGMVMKCRNKDTGRIVAIKKFLESDDDKM---VKKI     47
+
+AF-Q75J49-F1     116 ALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLP    165
+                     |:|     |:.:..:|.|.|:...:                         
+AF-Q92772-F1      48 AMR-----EIKLLKQLRHENLVNLL-------------------------     67
+
+AF-Q75J49-F1     166 ARAC------CVVVEYLAGGTLKQY-LIKNSRRKLAYKVVVQLALDLARG    208
+                      ..|      .:|.|::....|... |..|.   |.|:||.:....:..|
+AF-Q92772-F1      68 -EVCKKKKRWYLVFEFVDHTILDDLELFPNG---LDYQVVQKYLFQIING    113
+
+AF-Q75J49-F1     209 LSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQNPKDMTGATG    258
+                     :.:.||..|:|||:|.||:|:.....:|:.|||.||..|...:..|....
+AF-Q92772-F1     114 IGFCHSHNIIHRDIKPENILVSQSGVVKLCDFGFARTLAAPGEVYTDYVA    163
+
+AF-Q75J49-F1     259 TLGYMAPEVLDGK-PYNRKCDVYSFGICLWEIYCCDMPYPDLSFADVSSA    307
+                     |..|.|||:|.|. .|.:..||::.|..:.|::..:..:|..|..|....
+AF-Q92772-F1     164 TRWYRAPELLVGDVKYGKAVDVWAIGCLVTEMFMGEPLFPGDSDIDQLYH    213
+
+AF-Q75J49-F1     308 VV---------HQNL-----------------RPDVPRCCP---SAFANI    328
+                     ::         ||.|                 |..:.|..|   ....::
+AF-Q92772-F1     214 IMMCLGNLIPRHQELFNKNPVFAGVRLPEIKEREPLERRYPKLSEVVIDL    263
+
+AF-Q75J49-F1     329 MRKCWDANPDKRPDMDEVV    347
+                     .:||...:|||||...|::
+AF-Q92772-F1     264 AKKCLHIDPDKRPFCAELL    282
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:22
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6yzi0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q08752-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6yzi0-f1_af-q08752-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6yzi0-f1_af-q08752-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6YZI0-F1
+# 2: AF-Q08752-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 311
+# Identity:      67/311 (21.5%)
+# Similarity:   109/311 (35.0%)
+# Gaps:          93/311 (29.9%)
+# Score: 94.5
+# 
+#
+#=======================================
+
+AF-Q6YZI0-F1       3 RPGMDS--SEGRESNG------VVPERNGGAVPAKQQLDGKDTLRYANIL     44
+                     |.|:.|  :.||.:||      .||         ...||||..: :..::
+AF-Q08752-F1     114 REGLLSMANAGRNTNGSQFFITTVP---------TPHLDGKHVV-FGQVI    153
+
+AF-Q6YZI0-F1      45 RSRNKFAEALQLYNNVLEKDEANVEALIGKGICLQAQSLPMQAIECFNEA     94
+                         |.....::..||..|.|                             
+AF-Q08752-F1     154 ----KGIGVARILENVEVKGE-----------------------------    170
+
+AF-Q6YZI0-F1      95 VRIDPGNACALTYCGMIYK-DEGHLVE---AAEAYQK-ARNADPSYKPAA    139
+                        .|...|.:..||.:.: |:|.:..   :.:::.. ..:||...|...
+AF-Q08752-F1     171 ---KPAKLCVIAECGELKEGDDGGIFPKDGSGDSHPDFPEDADIDLKDVD    217
+
+AF-Q6YZI0-F1     140 EFLAIV--LTDLGTSLKLAGNTEEGIQKYCEALE-VDSHYA---------    177
+                     :.|.|.  |.::|.:...:.|.|..|:||.|.|. |||..|         
+AF-Q08752-F1     218 KILLITEDLKNIGNTFFKSQNWEMAIKKYAEVLRYVDSSKAVIETADRAK    267
+
+AF-Q6YZI0-F1     178 ------PAYYNLGVVYSEMMQFDLAL-TCYEKAALE----RPLYAEAYCN    216
+                           ....|:|....:|..:..|: :|.|...|:    :.||..|...
+AF-Q08752-F1     268 LQPIALSCVLNIGACKLKMSNWQGAIDSCLEALELDPSNTKALYRRAQGW    317
+
+AF-Q6YZI0-F1     217 MGVIYKNRGELEAAIACYERCLTISPNFEIAKNNMAIALTDLGTKVKIEG    266
+                     .|:     .|.:.|:|..::...|:|      .:.||....|..|.||:.
+AF-Q08752-F1     318 QGL-----KEYDQALADLKKAQGIAP------EDKAIQAELLKVKQKIKA    356
+
+AF-Q6YZI0-F1     267 DINQGVAYYKK    277
+                     ..::..|.|.|
+AF-Q08752-F1     357 QKDKEKAVYAK    367
+
+
+#---------------------------------------
+#---------------------------------------

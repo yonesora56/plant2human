@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:28
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0n7ktx9-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q9unq0-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0n7ktx9-f1_af-q9unq0-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0n7ktx9-f1_af-q9unq0-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0N7KTX9-F1
+# 2: AF-Q9UNQ0-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 681
+# Identity:      83/681 (12.2%)
+# Similarity:   143/681 (21.0%)
+# Gaps:         380/681 (55.8%)
+# Score: 197.5
+# 
+#
+#=======================================
+
+AF-A0A0N7KTX9      0 --------------------------------------------------      0
+                                                                       
+AF-Q9UNQ0-F1       1 MSSSNVEVFIPVSQGNTNGFPATASNDLKAFTEGAVLSFHNICYRVKLKS     50
+
+AF-A0A0N7KTX9      0 --------------------------------------------------      0
+                                                                       
+AF-Q9UNQ0-F1      51 GFLPCRKPVEKEILSNINGIMKPGLNAILGPTGGGKSSLLDVLAARKDPS    100
+
+AF-A0A0N7KTX9      0 --------------------------------------------------      0
+                                                                       
+AF-Q9UNQ0-F1     101 GLSGDVLINGAPRPANFKCNSGYVVQDDVVMGTLTVRENLQFSAALRLAT    150
+
+AF-A0A0N7KTX9      0 --------------------------------------------------      0
+                                                                       
+AF-Q9UNQ0-F1     151 TMTNHEKNERINRVIQELGLDKVADSKVGTQFIRGVSGGERKRTSIGMEL    200
+
+AF-A0A0N7KTX9      0 --------------------------------------------------      0
+                                                                       
+AF-Q9UNQ0-F1     201 ITDPSILFLDEPTTGLDSSTANAVLLLLKRMSKQGRTIIFSIHQPRYSIF    250
+
+AF-A0A0N7KTX9      0 --------------------------------------------------      0
+                                                                       
+AF-Q9UNQ0-F1     251 KLFDSLTLLASGRLMFHGPAQEALGYFESAGYHCEAYNNPADFFLDIING    300
+
+AF-A0A0N7KTX9      1 ------------------------------ILTNAY-HSTYSEKTANEIV     19
+                                                   .|...| :|::.::|..|:.
+AF-Q9UNQ0-F1     301 DSTAVALNREEDFKATEIIEPSKQDKPLIEKLAEIYVNSSFYKETKAELH    350
+
+AF-A0A0N7KTX9     20 EMKGMGG------TPFRR-KEQASFLTKLLVLTRRSFLNMHRDIGYYWMR     62
+                     ::.  ||      |.|:. ....||..:|..:::|||.|:..:......:
+AF-Q9UNQ0-F1     351 QLS--GGEKKKKITVFKEISYTTSFCHQLRWVSKRSFKNLLGNPQASIAQ    398
+
+AF-A0A0N7KTX9     63 LGIYLGIGICLGTIFYQVGYSYSSIQSRCEVIMYTTALVTFMAIGGFPSF    112
+                     :.:.:.:|:.:|.|::.:....:.||:|..|:.:.|....|.::.....|
+AF-Q9UNQ0-F1     399 IIVTVVLGLVIGAIYFGLKNDSTGIQNRAGVLFFLTTNQCFSSVSAVELF    448
+
+AF-A0A0N7KTX9    113 VEDIKLFRRERLSGHYGVMEFVISNTLS-ATPYLAVIAVIPGAMMYYLTG    161
+                     |.:.|||..|.:||:|.|..:.:...|| ..|...:.::|...::|::.|
+AF-Q9UNQ0-F1     449 VVEKKLFIHEYISGYYRVSSYFLGKLLSDLLPMRMLPSIIFTCIVYFMLG    498
+
+AF-A0A0N7KTX9    162 LTRGAEHFAYFVATLCMCTLLVESMMMIIA-----VIVPDFLMGIIIGAG    206
+                     |...|:.|...:.||.|......||.:.||     |.|...||.|..   
+AF-Q9UNQ0-F1     499 LKPKADAFFVMMFTLMMVAYSASSMALAIAAGQSVVSVATLLMTICF---    545
+
+AF-A0A0N7KTX9    207 IQGMMMLNGGFFRLPNELPKPVWKYPCYYISFHKYAVQGFYKNEFIGLSF    256
+                       ..||:..|.  |.|......|.....|.|..:|.......|||:|.:|
+AF-Q9UNQ0-F1     546 --VFMMIFSGL--LVNLTTIASWLSWLQYFSIPRYGFTALQHNEFLGQNF    591
+
+AF-A0A0N7KTX9    257 PSDQLIEAN-----ATISGLQVLKERLQVEMG-----YSKWVNLAILFGM    296
+                     ........|     ||.:|     |...|:.|     :..|.|...|..|
+AF-Q9UNQ0-F1     592 CPGLNATGNNPCNYATCTG-----EEYLVKQGIDLSPWGLWKNHVALACM    636
+
+AF-A0A0N7KTX9    297 MVTYRMIFFVIVKIAEELRLKLRGIRFRRLK    327
+                     :|.:..|.::.:...::..            
+AF-Q9UNQ0-F1     637 IVIFLTIAYLKLLFLKKYS------------    655
+
+
+#---------------------------------------
+#---------------------------------------

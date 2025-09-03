@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:53
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p01133-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0vcb7-f1_af-p01133-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0vcb7-f1_af-p01133-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-P01133-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 204
+# Identity:      41/204 (20.1%)
+# Similarity:    66/204 (32.4%)
+# Gaps:          62/204 (30.4%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7      2 QSVAWSRQSPEVLLSGSFDKSVAMNDMKDGGQSCNKWSVEADVESLAWDP     51
+                     :.|.||.|...:         :.:.||| |..|....|......::|.||
+AF-P01133-F1     128 EEVIWSNQQEGI---------ITVTDMK-GNNSHILLSALKYPANVAVDP    167
+
+AF-A0A0P0VCB7     52 HNEHSFMVSLENG--------------MVQAFDKRTASSNSNSGRPTFTL     87
+                     .....|..|...|              :::..:|.||.|.....:..|.:
+AF-P01133-F1     168 VERFIFWSSEVAGSLYRADLDGVGVKALLETSEKITAVSLDVLDKRLFWI    217
+
+AF-A0A0P0VCB7     88 HAHEKAVSS-------------ISFSPSTPNFLATG--------STDKMV    116
+                     ..:.:..:|             ||..|:..|..|..        ||.||.
+AF-P01133-F1     218 QYNREGSNSLICSCDYDGGSVHISKHPTQHNLFAMSLFGDRIFYSTWKMK    267
+
+AF-A0A0P0VCB7    117 KLWDLSNNQPSCIASLNPKLGAIFSVSFSNDSPFLLASGGSKGKLKVWNT    166
+                     .:|..:.:....:..:|                 |.:|....|:|||.:.
+AF-P01133-F1     268 TIWIANKHTGKDMVRIN-----------------LHSSFVPLGELKVVHP    300
+
+AF-A0A0P0VCB7    167 LTEP    170
+                     |.:|
+AF-P01133-F1     301 LAQP    304
+
+
+#---------------------------------------
+#---------------------------------------

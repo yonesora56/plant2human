@@ -19,7 +19,7 @@ inputs:
     doc: "blast database file for blastdbcmd"
     default:
       class: File
-      location: ../index/index_uniprot_afdb_all_sequences/afdb_all_sequences.fasta.gz
+      location: ../index/index_uniprot_afdb_all_sequences/afdb_all_sequences.fasta
     secondaryFiles:
       - .00.phd
       - .00.phi

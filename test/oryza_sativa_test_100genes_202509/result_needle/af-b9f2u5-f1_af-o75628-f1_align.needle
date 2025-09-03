@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:11
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-b9f2u5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o75628-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-b9f2u5-f1_af-o75628-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-b9f2u5-f1_af-o75628-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B9F2U5-F1
+# 2: AF-O75628-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 726
+# Identity:      70/726 ( 9.6%)
+# Similarity:   122/726 (16.8%)
+# Gaps:         474/726 (65.3%)
+# Score: 73.0
+# 
+#
+#=======================================
+
+AF-B9F2U5-F1       1 MATATASRLAVPAPRTSPQA--PGRRRPAAPLPSAP--PRPRALSAAPRG     46
+                                ....|..:|  |..||.:.|||.:|  .:|..||..|..
+AF-O75628-F1       1 -----------MTLNTEQEAKTPLHRRASTPLPLSPRGHQPGRLSTVPST     39
+
+AF-B9F2U5-F1      47 RVVCP--------------AAPA----SSPASTTDAGQDRLQKVPVSNIR     78
+                     :...|              .:||    ||.:|.::...:.|.:|      
+AF-O75628-F1      40 QSQHPRLGQSASLNPPTQKPSPAPDDWSSESSDSEGSWEALYRV------     83
+
+AF-B9F2U5-F1      79 NFSIIAHIDHGKSTLADKLLELTGTVQKREMKQQFLDNMDLERERGITIK    128
+                       .::.....||::||    .|....|:|::.:|..:::   .||.:|: 
+AF-O75628-F1      84 --VLLGDPGVGKTSLA----SLFAGKQERDLHEQLGEDV---YERTLTV-    123
+
+AF-B9F2U5-F1     129 LQAARMRYIMNDEPYCLNLIDT--PGHVDFSYEVSRSLAACEGALLVVD-    175
+                               :.|...|.::||  ...:|.|:.....|......::|.. 
+AF-O75628-F1     124 ----------DGEDTTLVVVDTWEAEKLDKSWSQESCLQGGSAYVIVYSI    163
+
+AF-B9F2U5-F1     176 ASQG-VEAQTLANVYLALENDLEIIPVL---NKIDLPGAEPDRVAQEIEE    221
+                     |.:| .|:.:...:.|...:..:.:|::   ||.||.......|.:....
+AF-O75628-F1     164 ADRGSFESASELRIQLRRTHQADHVPIILVGNKADLARCREVSVEEGRAC    213
+
+AF-B9F2U5-F1     222 IIGMDCSNAIRCSAKEGIGITEILDAIVTKI------------PPPQNTA    259
+                     .:..|| ..|..||.....:.|:.:.:|.::            |.|:..|
+AF-O75628-F1     214 AVVFDC-KFIETSATLQHNVAELFEGVVRQLRLRRRDSAAKEPPAPRRPA    262
+
+AF-B9F2U5-F1     260 ISPLRALIFDSYYDPYRGVIVYFRVVDGS-----IKKGDKICFMASGKEY    304
+                     ....||..|            ..|:...|     :|...|.|        
+AF-O75628-F1     263 SLAQRARRF------------LARLTARSARRRALKARSKSC--------    292
+
+AF-B9F2U5-F1     305 VADEIGVLSPNQMQVSELYAGEVGYLSASIRSVADARVGDTITHSSKRAE    354
+                       ..:.||                                          
+AF-O75628-F1     293 --HNLAVL------------------------------------------    298
+
+AF-B9F2U5-F1     355 CALPGYSQATPMVFCGLFPIDADQFEELREALEKLQLNDAALKAVTRFSM    404
+                                                                       
+AF-O75628-F1     298 --------------------------------------------------    298
+
+AF-B9F2U5-F1     405 QFEPESSSAMGFGFRCGFLGLLHMEIVQERLEREYNLNLIITAPSVVYHV    454
+                                                                       
+AF-O75628-F1     298 --------------------------------------------------    298
+
+AF-B9F2U5-F1     455 NLADGETVECSNPSLLPEPGKRRSIEEPYVKIDMLTPKEYIGPIMELGQE    504
+                                                                       
+AF-O75628-F1     298 --------------------------------------------------    298
+
+AF-B9F2U5-F1     505 RRGEFKEMNFITENRASVVYELPLAEMVGDFFDQLKSRSKGYASMEYSLI    554
+                                                                       
+AF-O75628-F1     298 --------------------------------------------------    298
+
+AF-B9F2U5-F1     555 GYRESNLVKLDIQINGDPVEALSTIVHRDKAYSVGRALTQKLKELIPRQM    604
+                                                                       
+AF-O75628-F1     298 --------------------------------------------------    298
+
+AF-B9F2U5-F1     605 FRVPIQACIGAKVIASEALSAIRKDVLSKCYGGDISRKKKLLKKQAEGKK    654
+                                                                       
+AF-O75628-F1     298 --------------------------------------------------    298
+
+AF-B9F2U5-F1     655 RMKAIGRVDVPQEAFMAVLKLEKEVL    680
+                                               
+AF-O75628-F1     298 --------------------------    298
+
+
+#---------------------------------------
+#---------------------------------------

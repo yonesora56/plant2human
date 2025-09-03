@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:11
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9hbh9-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q9hbh9-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q9hbh9-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q9HBH9-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 225
+# Identity:      58/225 (25.8%)
+# Similarity:    98/225 (43.6%)
+# Gaps:          46/225 (20.4%)
+# Score: 163.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     609 QSIIGKGGFGTVYHGI-LENNDEVAVKVL------VETSIAESKDFLPEV    651
+                     :.::|:|....|...| |..:.|.|||::      :.:.:....:.|.:.
+AF-Q9HBH9-F1      87 EDVLGEGAHARVQTCINLITSQEYAVKIIEKQPGHIRSRVFREVEMLYQC    136
+
+AF-B7FAC9-F1     652 QTLSKVHHKNLVALVGYCQNKKCLALVYDFMPRGNLQQLLRGGYDSLNWE    701
+                     |     .|:|::.|:.:.:.:....||::.|         |||....:..
+AF-Q9HBH9-F1     137 Q-----GHRNVLELIEFFEEEDRFYLVFEKM---------RGGSILSHIH    172
+
+AF-B7FAC9-F1     702 ERLH--------IALDAAQGLEYLHESCTPSIVHRDVKTPNILLD-KNLV    742
+                     :|.|        :..|.|..|::||..   .|.|||:|..|||.: .|.|
+AF-Q9HBH9-F1     173 KRRHFNELEASVVVQDVASALDFLHNK---GIAHRDLKPENILCEHPNQV    219
+
+AF-B7FAC9-F1     743 A--KISDFGLSRA--FNAAHTHIST----VAAGTLGYLDPEYHATFQ---    781
+                     :  ||.||.|...  .|...:.|||    ...|:..|:.||....|.   
+AF-Q9HBH9-F1     220 SPVKICDFDLGSGIKLNGDCSPISTPELLTPCGSAEYMAPEVVEAFSEEA    269
+
+AF-B7FAC9-F1     782 --LTVKTDVYSFGIVLLEIVTGQPP    804
+                       ...:.|::|.|::|..:::|.||
+AF-Q9HBH9-F1     270 SIYDKRCDLWSLGVILYILLSGYPP    294
+
+
+#---------------------------------------
+#---------------------------------------

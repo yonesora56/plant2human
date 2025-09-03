@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:02
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q15349-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q15349-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q15349-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q15349-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 260
+# Identity:      76/260 (29.2%)
+# Similarity:   126/260 (48.5%)
+# Gaps:          32/260 (12.3%)
+# Score: 192.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     563 FWRLCWKGKSRKSEEEDYDMYEEETPLHIDIRR-----FTYAELKLITNN    607
+                     |:.:..:.|||........:.||.....|||..     |..|:    .:.
+AF-Q15349-F1      13 FFSVYLRRKSRSKSSSLSRLEEEGVVKEIDISHHVKEGFEKAD----PSQ     58
+
+AF-B7FAC9-F1     608 FQ--SIIGKGGFGTVY-HGILENNDE---VAVKVLVETSI-----AESKD    646
+                     |:  .::|:|.:|.|: ...::.:|.   .|:|||.:.::     ..|| 
+AF-Q15349-F1      59 FELLKVLGQGSYGKVFLVRKVKGSDAGQLYAMKVLKKATLKVRDRVRSK-    107
+
+AF-B7FAC9-F1     647 FLPEVQTLSKVHHKNLVALVGYCQNKKCLALVYDFMPRGNLQQLLRGGYD    696
+                       .|...|::|:|..:|.|....|.:..|.|:.||:..|:|  ..|...:
+AF-Q15349-F1     108 --MERDILAEVNHPFIVKLHYAFQTEGKLYLILDFLRGGDL--FTRLSKE    153
+
+AF-B7FAC9-F1     697 SLNWEERLHIAL-DAAQGLEYLHESCTPSIVHRDVKTPNILLDKNLVAKI    745
+                     .:..||.:...| :.|..|::||   :..|::||:|..|||||:....||
+AF-Q15349-F1     154 VMFTEEDVKFYLAELALALDHLH---SLGIIYRDLKPENILLDEEGHIKI    200
+
+AF-B7FAC9-F1     746 SDFGLSR-AFNAAHTHISTVAAGTLGYLDPEYHATFQLTVKTDVYSFGIV    794
+                     :|||||: |.:  |...:....||:.|:.||.......|...|.:|||::
+AF-Q15349-F1     201 TDFGLSKEAID--HDKRAYSFCGTIEYMAPEVVNRRGHTQSADWWSFGVL    248
+
+AF-B7FAC9-F1     795 LLEIVTGQPP    804
+                     :.|::||..|
+AF-Q15349-F1     249 MFEMLTGSLP    258
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:51
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0d554-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p22314-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0d554-f1_af-p22314-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0d554-f1_af-p22314-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0D554-F1
+# 2: AF-P22314-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 221
+# Identity:      51/221 (23.1%)
+# Similarity:    81/221 (36.7%)
+# Gaps:          58/221 (26.2%)
+# Score: 76.0
+# 
+#
+#=======================================
+
+AF-Q0D554-F1     389 DAAKNSLRREVEIL----KSEAHWS--KSYFYLWDEPLNMEQYDVICSIS    432
+                     :.|||.:...|:.:    :..|.|:  .|.|||.:|.:...:.:|.....
+AF-P22314-F1      86 EIAKNIILGGVKAVTLHDQGTAQWADLSSQFYLREEDIGKNRAEVSQPRL    135
+
+AF-Q0D554-F1     433 NELRSYASDVRILTTYYCGPSGSELAPSTFEAFVKVPNVLRPHTQI--FC    480
+                     .||.||     :..|.|.||...:.. |.|:..|.....|....::  ||
+AF-P22314-F1     136 AELNSY-----VPVTAYTGPLVEDFL-SGFQVVVLTNTPLEDQLRVGEFC    179
+
+AF-Q0D554-F1     481 TSEWVLGTREDLVKDIVAELRP-------DLGEEWWTYVCMGPSDPQPNW    523
+                     .:..        :|.:||:.|.       |.|||      |..:|     
+AF-P22314-F1     180 HNRG--------IKLVVADTRGLFGQLFCDFGEE------MILTD-----    210
+
+AF-Q0D554-F1     524 HLGMRGTQHRAVMWRVWKEGGTGFLYWGTNCYEKAMIPSAEICFRRGLPP    573
+                        ..|.|..:.|..:..:...|.:    .|.::|         |.|...
+AF-P22314-F1     211 ---SNGEQPLSAMVSMVTKDNPGVV----TCLDEA---------RHGFES    244
+
+AF-Q0D554-F1     574 GDGVLF--YPGEVFSSSHEPV    592
+                     ||.|.|  ..|.|..:.::|:
+AF-P22314-F1     245 GDFVSFSEVQGMVELNGNQPM    265
+
+
+#---------------------------------------
+#---------------------------------------

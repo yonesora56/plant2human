@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:45
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q14847-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10nk5-f1_af-q14847-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10nk5-f1_af-q14847-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-Q14847-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 436
+# Identity:      59/436 (13.5%)
+# Similarity:   107/436 (24.5%)
+# Gaps:         217/436 (49.8%)
+# Score: 86.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       1 METLRKQASKLREHVAKQQQAVRKQFSARYNQDPSLVDEAELECHQNLQR     50
+                                                                       
+AF-Q14847-F1       0 --------------------------------------------------      0
+
+AF-Q10NK5-F1      51 LYNSTRAAKHFQRSIVRGVEGFIAVSTKQMEIVKKLAEDCCRYGNDNQNF    100
+                                                        :..:|.|.|.     
+AF-Q14847-F1       1 -----------------------------------MNPNCARCGK-----     10
+
+AF-Q10NK5-F1     101 GFILARASV----EFGNS---HSQMEKERENLLKFLGEQ------VFEPL    137
+                      .:.....|    :|.:.   |.:..|...|:..:.|.:      ...|.
+AF-Q14847-F1      11 -IVYPTEKVNCLDKFWHKACFHCETCKMTLNMKNYKGYEKKPYCNAHYPK     59
+
+AF-Q10NK5-F1     138 REMIMSAPLEDARLLTYRYQRIRQDMESQIADVMRKQLKSKESSGNADNS    187
+                     :...|.|.       |....|::|..|      ::.|::.||        
+AF-Q14847-F1      60 QSFTMVAD-------TPENLRLKQQSE------LQSQVRYKE--------     88
+
+AF-Q10NK5-F1     188 VKLQHAESKLSELRTTLSALGREATAAMEAVEVQQQQVTFDRLLAMVDAE    237
+                        :..::|           |:..:...:..|:|:               
+AF-Q14847-F1      89 ---EFEKNK-----------GKGFSVVADTPELQR---------------    109
+
+AF-Q10NK5-F1     238 RAYHQNAADILNKLHDEMVQAKHHDEPENHYDETSSDPKTAATHEHSRST    287
+                               :.|..|::...|:|:|    ::::...|......|..|..
+AF-Q14847-F1     110 ----------IKKTQDQISNIKYHEE----FEKSRMGPSGGEGMEPERRD    145
+
+AF-Q10NK5-F1     288 SED--------------HIFTNT---SEPTR----------TETSEPTRT    310
+                     |:|              ||.|:.   .:|.:          .|.:.|...
+AF-Q14847-F1     146 SQDGSSYRRPLEQQQPHHIPTSAPVYQQPQQQPVAQSYGGYKEPAAPVSI    195
+
+AF-Q10NK5-F1     311 ETSEPTRNGQEVHYVGEVIHPFDAQADGELSISVGDYVVVRQVAPNGWSE    360
+                     :.|.|...|:..    ..::.:.|..:.|:|...||.:|..|...:||..
+AF-Q14847-F1     196 QRSAPGGGGKRY----RAVYDYSAADEDEVSFQDGDTIVNVQQIDDGWMY    241
+
+AF-Q10NK5-F1     361 G--ECKGKAGWFPSAYVEQRDKAPASKVIEPGLLTT    394
+                     |  |..|..|..|:.|||..                
+AF-Q14847-F1     242 GTVERTGDTGMLPANYVEAI----------------    261
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,85 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:27
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q7xsq8-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p05181-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q7xsq8-f1_af-p05181-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q7xsq8-f1_af-p05181-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q7XSQ8-F1
+# 2: AF-P05181-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 583
+# Identity:     133/583 (22.8%)
+# Similarity:   208/583 (35.7%)
+# Gaps:         178/583 (30.5%)
+# Score: 203.0
+# 
+#
+#=======================================
+
+AF-Q7XSQ8-F1       5 TWAVVVAAVAAYMAWFWRMSRGL----SGPRVWPVVGSLPGLVRHAEDMH     50
+                     |.|::|.|....:...||.....    .||...|::|:|           
+AF-P05181-F1       7 TVALLVWAAFLLLVSMWRQVHSSWNLPPGPFPLPIIGNL-----------     45
+
+AF-Q7XSQ8-F1      51 EWIAANLRRTRGTYQTCIFAVP----GLARR-GGLVTVTCDPRNL-----     90
+                                  :|..:..:|    .||:| |.:.|:....:.:     
+AF-P05181-F1      46 -------------FQLELKNIPKSFTRLAQRFGPVFTLYVGSQRMVVMHG     82
+
+AF-Q7XSQ8-F1      91 -----EHVL--KSRFDNYPKGPFWH-----GVFGDLLGDGIFNSDGETWV    128
+                          |.:|  |..|......|.:|     |:        ||| :|.||.
+AF-P05181-F1      83 YKAVKEALLDYKDEFSGRGDLPAFHAHRDRGI--------IFN-NGPTWK    123
+
+AF-Q7XSQ8-F1     129 AQRKTAALEFTTRTLRT-AMSRWVSRSIHSRLLPILSDAAAAGGGGGGAT    177
+                     ..|:     |:..|||. .|.:..:.|...|....|.:|           
+AF-P05181-F1     124 DIRR-----FSLTTLRNYGMGKQGNESRIQREAHFLLEA-----------    157
+
+AF-Q7XSQ8-F1     178 VDLQDLLLRLTFDNICGLAFGKDPETLARGLPEND-----FASAFDRATE    222
+                            ||.|    .|..|  ||..|....|.|.     |...||...|
+AF-P05181-F1     158 -------LRKT----QGQPF--DPTFLIGCAPCNVIADILFRKHFDYNDE    194
+
+AF-Q7XSQ8-F1     223 ATLN-RFIFPECVWRF----KKWMGL------------GMETTLARSVQH    255
+                     ..|. .::|.|   .|    ..|:.|            |....:.::|..
+AF-P05181-F1     195 KFLRLMYLFNE---NFHLLSTPWLQLYNNFPSFLHYLPGSHRKVIKNVAE    241
+
+AF-Q7XSQ8-F1     256 VDRYLSAVIKARKLELAAGNGKGDASSATPHDDLLSRFMRKGTYSDESLQ    305
+                     |..|:|..:|.....|       |.:......|.|...|.|..:|.|.|.
+AF-P05181-F1     242 VKEYVSERVKEHHQSL-------DPNCPRDLTDCLLVEMEKEKHSAERLY    284
+
+AF-Q7XSQ8-F1     306 HV------ALNFILAGRDTSSVALSWFFWLVSTHPAVERKIVRELCTVLA    349
+                     .:      ..:...||.:|:|..|.:...::..:|.:|.|:..|:..|:.
+AF-P05181-F1     285 TMDGITVTVADLFFAGTETTSTTLRYGLLILMKYPEIEEKLHEEIDRVIG    334
+
+AF-Q7XSQ8-F1     350 ASRGADDPALWLAAPLNFEELDQLVYLKAALSETLRLYPSVPEDSKHVVA    399
+                     .||   .||:        ::..::.|:.|.:.|..|....||.:..|...
+AF-P05181-F1     335 PSR---IPAI--------KDRQEMPYMDAVVHEIQRFITLVPSNLPHEAT    373
+
+AF-Q7XSQ8-F1     400 DDVLPDGTFVPAGSSVTYSIYSAGRMKTVWGD-----DCLEFRPERWLSA    444
+                     .|.:..|..:|.|:.|..::.|      |..|     |..:|:||.:|:.
+AF-P05181-F1     374 RDTIFRGYLIPKGTVVVPTLDS------VLYDNQEFPDPEKFKPEHFLNE    417
+
+AF-Q7XSQ8-F1     445 DGTKFEPHDSFRFVAFNAGPRICLGKDLAYLQMRNIAGSVLLRHRLAVAP    494
+                     :| ||:..|.|:  .|:.|.|:|.|:.||                     
+AF-P05181-F1     418 NG-KFKYSDYFK--PFSTGKRVCAGEGLA---------------------    443
+
+AF-Q7XSQ8-F1     495 GHRVEQKMSLTLFMKH-GLRMEVRPR--DLAPI    524
+                       |:|..:.|...::| .|:..|.|:  ||:||
+AF-P05181-F1     444 --RMELFLLLCAILQHFNLKPLVDPKDIDLSPI    474
+
+
+#---------------------------------------
+#---------------------------------------

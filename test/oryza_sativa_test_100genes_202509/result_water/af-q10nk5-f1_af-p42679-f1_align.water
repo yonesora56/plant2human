@@ -1,0 +1,41 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:06
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p42679-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-p42679-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-p42679-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-P42679-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      12/49 (24.5%)
+# Similarity:    21/49 (42.9%)
+# Gaps:           3/49 ( 6.1%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1     338 GELSISVGDYVVVRQVAPN-GW--SEGECKGKAGWFPSAYVEQRDKAPA    383
+                     |||:...||.|.:.:...| .|  .:....|:.|...:..:.:|:...|
+AF-P42679-F1      65 GELAFRKGDVVTILEACENKSWYRVKHHTSGQEGLLAAGALREREALSA    113
+
+
+#---------------------------------------
+#---------------------------------------

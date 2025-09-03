@@ -1,0 +1,109 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:12
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q657k0-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q9una1-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q657k0-f1_af-q9una1-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q657k0-f1_af-q9una1-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q657K0-F1
+# 2: AF-Q9UNA1-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 862
+# Identity:      66/862 ( 7.7%)
+# Similarity:   111/862 (12.9%)
+# Gaps:         638/862 (74.0%)
+# Score: 13.0
+# 
+#
+#=======================================
+
+AF-Q657K0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q9UNA1-F1       1 MGLPALEFSDCCLDSPHFRETLKSHEAELDKTNKFIKELIKDGKSLISAL     50
+
+AF-Q657K0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q9UNA1-F1      51 KNLSSAKRKFADSLNEFKFQCIGDAETDDEMCIARSLQEFATVLRNLEDE    100
+
+AF-Q657K0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q9UNA1-F1     101 RIRMIENASEVLITPLEKFRKEQIGAAKEAKKKYDKETEKYCGILEKHLN    150
+
+AF-Q657K0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q9UNA1-F1     151 LSSKKKESQLQEADSQVDLVRQHFYEVSLEYVFKVQEVQERKMFEFVEPL    200
+
+AF-Q657K0-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q9UNA1-F1     201 LAFLQGLFTFYHHGYELAKDFGDFKTQLTISIQNTRNRFEGTRSEVESLM    250
+
+AF-Q657K0-F1       1 -----------------------------MGAGVVGCGGGWWRWRCEIRR     21
+                                                  .|.       .|.:..|..:|
+AF-Q9UNA1-F1     251 KKMKENPLEHKTISPYTMEGYLYVQEKRHFGT-------SWVKHYCTYQR    293
+
+AF-Q657K0-F1      22 PVDEST-----EKAGSLRRRRLHRRRRPGEAGS--LRRC------QLLRR     58
+                     ...:.|     :|:|.          :.||..|  |:.|      .:.:|
+AF-Q9UNA1-F1     294 DSKQITMVPFDQKSGG----------KGGEDESVILKSCTRRKTDSIEKR    333
+
+AF-Q657K0-F1      59 RC--------PGCRRPDESTEKAGSLWQCQWLRRRCPGGRRPVPRDG---     97
+                     .|        ||.......:|:...||.      ....||.||....   
+AF-Q9UNA1-F1     334 FCFDVEAVDRPGVITMQALSEEDRRLWM------EAMDGREPVYNSNKDS    377
+
+AF-Q657K0-F1      98 -----------GGSFLRPASPGQAV-------------------ARSLLL    117
+                                |.|.:|...  .||                   .:.||.
+AF-Q9UNA1-F1     378 QSEGTAQLDSIGFSIIRKCI--HAVETRGINEQGLYRIVGVNSRVQKLLS    425
+
+AF-Q657K0-F1     118 VVLD---------SLLARWR----------------------RFCQCMLE    136
+                     |::|         .:.|.|.                      :|.:..::
+AF-Q9UNA1-F1     426 VLMDPKTASETETDICAEWEIKTITSALKTYLRMLPGPLMMYQFQRSFIK    475
+
+AF-Q657K0-F1     137 CFLYHGSISQVSQDFSPPFSHVDPRRQ--QFVCHHSS-----------SS    173
+                     ........|:||:..|......:..||  |.:.:|.:           :.
+AF-Q9UNA1-F1     476 AAKLENQESRVSEIHSLVHRLPEKNRQMLQLLMNHLANVANNHKQNLMTV    525
+
+AF-Q657K0-F1     174 VGLGIWMWAPSSSVFPTSSFHARFVVRVELTLLRFNDELRGLLLLS----    219
+                     ..||:        ||..:....:......:..::|.:.:..:|:.:    
+AF-Q9UNA1-F1     526 ANLGV--------VFGPTLLRPQEETVAAIMDIKFQNIVIEILIENHEKI    567
+
+AF-Q657K0-F1     220 ----PVMPPQNLRL--------SSKPPFCA-----VF--VEATGWGLPVC    250
+                         |.||..|.:|        .||||.|:     :|  |::        
+AF-Q9UNA1-F1     568 FNTVPDMPLTNAQLHLSRKKSSDSKPPSCSERPLTLFHTVQS--------    609
+
+AF-Q657K0-F1     251 QACCTPKEAQGCIRRGIAAAPC----------------------------    272
+                         |.|:.|   |..|..:..                            
+AF-Q9UNA1-F1     610 ----TEKQEQ---RNSIINSSLESVSSNPNSILNSSSSLQPNMNSSDPDL    652
+
+AF-Q657K0-F1     272 --------------------------------------------------    272
+                                                                       
+AF-Q9UNA1-F1     653 AVVKPTRPNSLPPNPSPTSPLSPSWPMFSAPSSPMPTSSTSSDSSPVRSV    702
+
+AF-Q657K0-F1     272 --------------------------------------------------    272
+                                                                       
+AF-Q9UNA1-F1     703 AGFVWFSVAAVVLSLARSSLHAVFSLLVNFVPCHPNLHLLFDRPEEAVHE    752
+
+AF-Q657K0-F1     272 --------------------------------------------------    272
+                                                                       
+AF-Q9UNA1-F1     753 DSSTPFRKAKALYACKAEHDSELSFTAGTVFDNVHPSQEPGWLEGTLNGK    802
+
+AF-Q657K0-F1     272 ------------    272
+                                 
+AF-Q9UNA1-F1     803 TGLIPENYVEFL    814
+
+
+#---------------------------------------
+#---------------------------------------

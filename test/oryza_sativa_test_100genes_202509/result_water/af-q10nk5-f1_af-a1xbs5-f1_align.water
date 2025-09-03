@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:59
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-a1xbs5-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-a1xbs5-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-a1xbs5-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-A1XBS5-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 317
+# Identity:      64/317 (20.2%)
+# Similarity:   113/317 (35.6%)
+# Gaps:         112/317 (35.3%)
+# Score: 80.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1     104 LARASVEFGNSHS-QMEKERENLLKFLGE--QVFEP-------LREM---    140
+                     :.|.::|..|:.: |::....|:.|..||  |:|..       ||:.   
+AF-A1XBS5-F1       1 MMRRTLENRNAQTKQLQTAVSNVEKHFGELCQIFAAYVRKTARLRDKADL     50
+
+AF-Q10NK5-F1     141 -------------------IMSAPLEDARLLTYRYQRIRQDMESQIADVM    171
+                                        :|:...|.|:|..||.           |:|.
+AF-A1XBS5-F1      51 LVNEINAYAATETPHLKLGLMNFADEFAKLQDYRQ-----------AEVE     89
+
+AF-Q10NK5-F1     172 RKQLKSKESSGNADNSVKLQHAESKLSELRTTLSALGREATAAMEAVEVQ    221
+                     |.:.|..|........||:     |..:|:.||:|..|||          
+AF-A1XBS5-F1      90 RLEAKVVEPLKTYGTIVKM-----KRDDLKATLTARNREA----------    124
+
+AF-Q10NK5-F1     222 QQQVTFDRLLAMVDAERAYHQNAAD--ILNKLHDEMVQA--------KHH    261
+                      :|:|        ..||...:|.:|  ::::...|:.:|        :|.
+AF-A1XBS5-F1     125 -KQLT--------QLERTRQRNPSDRHVISQAETELQRAAMDASRTSRHL    165
+
+AF-Q10NK5-F1     262 DEPENHYD-ETSSDPKT--------------------AATHEHSRSTSED    290
+                     :|..|::: :...|.||                    .|.:::.::..||
+AF-A1XBS5-F1     166 EETINNFERQKMKDIKTIFSEFITIEMLFHGKALEVYTAAYQNIQNIDED    215
+
+AF-Q10NK5-F1     291 ---HIFTNT-SEPTRTETSEPTRTETSEPTRNGQEVHYV---GEVIH---    330
+                        .:|.|: ..|..:...:..|..:..|.:.......|   |:|..   
+AF-A1XBS5-F1     216 EDLEVFRNSLYAPDYSSRLDIVRANSKSPLQRSLSAKCVSGTGQVSTCRL    265
+
+AF-Q10NK5-F1     331 PFDAQA----DGELSIS    343
+                     ..|.||    |.||.::
+AF-A1XBS5-F1     266 RKDQQAEDDEDDELDVT    282
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,93 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:13
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6yzi0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p81274-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6yzi0-f1_af-p81274-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6yzi0-f1_af-p81274-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6YZI0-F1
+# 2: AF-P81274-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 661
+# Identity:     146/661 (22.1%)
+# Similarity:   226/661 (34.2%)
+# Gaps:         198/661 (30.0%)
+# Score: 189.5
+# 
+#
+#=======================================
+
+AF-Q6YZI0-F1      70 ALIGKGICLQAQSLPMQAIECFNEAVRIDPGNACALTYCGMIYKDEGHLV    119
+                     ||.|:.:|.....  ...:..|..||::...:...|:   .||...|:..
+AF-P81274-F1      28 ALEGERLCKSGDC--RAGVSFFEAAVQVGTEDLKTLS---AIYSQLGNAY     72
+
+AF-Q6YZI0-F1     120 EAAEAYQKARNADPSYKPAAEFLAIVLTD----------LGTSLKLAGNT    159
+                     .....|.||.    .|......||..:.|          ||.:||:.||.
+AF-P81274-F1      73 FYLHDYAKAL----EYHHHDLTLARTIGDQLGEAKASGNLGNTLKVLGNF    118
+
+AF-Q6YZI0-F1     160 EEGI---QKYCE-ALEVDSHY--APAYYNLGVVY------------SEMM    191
+                     :|.|   |::.: :.|::...  |.|.||||.||            .::.
+AF-P81274-F1     119 DEAIVCCQRHLDISRELNDKVGEARALYNLGNVYHAKGKSFGCPGPQDVG    168
+
+AF-Q6YZI0-F1     192 QF--------DLALTCYEK------AALERPLYAEAYCNMGVIYKNRGEL    227
+                     :|        ..|:..||:      |..:|.....|:.|:|..:...|..
+AF-P81274-F1     169 EFPEEVRDALQAAVDFYEENLSLVTALGDRAAQGRAFGNLGNTHYLLGNF    218
+
+AF-Q6YZI0-F1     228 EAAIACYERCLTISPNF--EIAKNNMAIALTDLGTKVKIEGDINQGVAYY    275
+                     ..|:..:|:.|.|:..|  :.|:..   |.::||......|:......||
+AF-P81274-F1     219 RDAVIAHEQRLLIAKEFGDKAAERR---AYSNLGNAYIFLGEFETASEYY    265
+
+AF-Q6YZI0-F1     276 KKALFYNWHYAD------AMYNLGVAYGEMLNFEMAIVFY----ELALHF    315
+                     ||.|.......|      :.|:||..|..:.::|.||.::    .:|...
+AF-P81274-F1     266 KKTLLLARQLKDRAVEAQSCYSLGNTYTLLQDYEKAIDYHLKHLAIAQEL    315
+
+AF-Q6YZI0-F1     316 NPRCAE--ACNNLGVIYKDRDNLDKAVECYQMALSI-------------K    350
+                     |.|..|  ||.:||..|....|.|:|:...:..|.|             :
+AF-P81274-F1     316 NDRIGEGRACWSLGNAYTALGNHDQAMHFAEKHLEISREVGDKSGELTAR    365
+
+AF-Q6YZI0-F1     351 PNFSQSLNNLGVVYT------------------VQGKMDAASSM------    376
+                     .|.|.....||:.|:                  |:.|:....||      
+AF-P81274-F1     366 LNLSDLQMVLGLSYSTNNSIMSENTEIDSSLNGVRPKLGRRHSMENMELM    415
+
+AF-Q6YZI0-F1     377 ------IQ-------------------KAIFANSTYAEAYNNLGVLYRDA    401
+                           :|                   |.:|.|....:.|.        .
+AF-P81274-F1     416 KLTPEKVQNWNSEILAKQKPLIAKPSAKLLFVNRLKGKKYK--------T    457
+
+AF-Q6YZI0-F1     402 GSITSAVQAYEKCLQIDPDSRNAGQNRLLALNYI-DEGFDDKL--YQAHR    448
+                     .|.|..:|.....:    |.|.....|.::.:.| ||||.|.|  :|::|
+AF-P81274-F1     458 NSSTKVLQDASNSI----DHRIPNSQRKISADTIGDEGFFDLLSRFQSNR    503
+
+AF-Q6YZI0-F1     449 EWGKRF------LKLYPQYTSWDNPKVADRPLVIGYVSP------DYFTH    486
+                     ...:|.      .......||...||:..:...:..|||      |....
+AF-P81274-F1     504 MDDQRCCLQEKNCHTASTTTSSTPPKMMLKTSSVPVVSPNTDEFLDLLAS    553
+
+AF-Q6YZI0-F1     487 SVSYFIEAPLAHHDYSN---YKVVVYSGVVKADAKTLRFKDKVLKKGGLW    533
+                     |.|..::...|  .:||   .::...|..|.:...|              
+AF-P81274-F1     554 SQSRRLDDQRA--SFSNLPGLRLTQNSQSVLSHLMT--------------    587
+
+AF-Q6YZI0-F1     534 RDIYGIDEKKVASLVREDKVDILVELTGHTANNKLGTMACRPAPIQVTWI    583
+                           ::.|.|.   ||..||||:..|    ::|....|.|.|.     
+AF-P81274-F1     588 ------NDNKEAD---EDFFDILVKCQG----SRLDDQRCAPPPA-----    619
+
+AF-Q6YZI0-F1     584 GYPNTTGLPTI    594
+                         ||..||:
+AF-P81274-F1     620 ----TTKGPTV    626
+
+
+#---------------------------------------
+#---------------------------------------

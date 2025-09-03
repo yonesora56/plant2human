@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:05
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6k7h2-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q5tbk1-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6k7h2-f1_af-q5tbk1-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6k7h2-f1_af-q5tbk1-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6K7H2-F1
+# 2: AF-Q5TBK1-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 454
+# Identity:       1/454 ( 0.2%)
+# Similarity:     1/454 ( 0.2%)
+# Gaps:         451/454 (99.3%)
+# Score: 2.0
+# 
+#
+#=======================================
+
+AF-Q6K7H2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5TBK1-F1       1 MEDSFLQSFGRLSLQPQQQQQRQRPPRPPPRGTPPRRHSFRKHLYLLRGL     50
+
+AF-Q6K7H2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5TBK1-F1      51 PGSGKTTLARQLQHDFPRALIFSTDDFFFREDGAYEFNPDFLEEAHEWNQ    100
+
+AF-Q6K7H2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5TBK1-F1     101 KRARKAMRNGISPIIIDNTNLHAWEMKPYAVMALENNYEVIFREPDTRWK    150
+
+AF-Q6K7H2-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q5TBK1-F1     151 FNVQELARRNIHGVSREKIHRMKERYEHDVTFHSVLHAEKPSRMNRNQDR    200
+
+AF-Q6K7H2-F1       1 ----------------------------------------MGSVVDAPTV     10
+                                                             .|.       
+AF-Q5TBK1-F1     201 NNALPSNNARYWNSYTEFPNRRAHGGFTNESSYHRRGGCHHGY-------    243
+
+AF-Q6K7H2-F1      11 VAGQEEVTDNMLGDKKVTVVFVLGGPGSGKGTQCANIVEHFGFIHLSAGD     60
+                                                                       
+AF-Q5TBK1-F1     243 --------------------------------------------------    243
+
+AF-Q6K7H2-F1      61 LLRAEIKSGSENGTMIENMIKEGKIVPSEVTIKLLQEAMIKSGNDKFLID    110
+                                                                       
+AF-Q5TBK1-F1     243 --------------------------------------------------    243
+
+AF-Q6K7H2-F1     111 GFPRNEENRAAFENVTKITPAFVLFFDCSEEEMERRLLGRNQGRVDDNIE    160
+                                                                       
+AF-Q5TBK1-F1     243 --------------------------------------------------    243
+
+AF-Q6K7H2-F1     161 TIRKRFKVFVESSLPVIEYYNAKDKVKKIDAAKPIPEVFEDVKAIFAPYA    210
+                                                                       
+AF-Q5TBK1-F1     243 --------------------------------------------------    243
+
+AF-Q6K7H2-F1     211 PNAA    214
+                         
+AF-Q5TBK1-F1     243 ----    243
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:37
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q6a1a2-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-q6a1a2-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-q6a1a2-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-Q6A1A2-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 303
+# Identity:      65/303 (21.5%)
+# Similarity:   114/303 (37.6%)
+# Gaps:          88/303 (29.0%)
+# Score: 159.0
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      77 VIAQGTYGTVY--RGTYDGQDVAVKLLDWGEDGFATEAETAALRTSFKQ-    123
+                     ::.:|::.||.  |.....::.|:|:|:              .|...|: 
+AF-Q6A1A2-F1      60 ILGEGSFSTVVLARELATSREYAIKILE--------------KRHIIKEN     95
+
+AF-Q6AUE3-F1     124 -------EVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPA    166
+                            |..|..:|.||...|..........|...              
+AF-Q6A1A2-F1      96 KVPYVTRERDVMSRLDHPFFVKLYFTFQDDEKLYFG--------------    131
+
+AF-Q6AUE3-F1     167 RACCVVVEYLAGGTLKQYLIKNSRRKLA---------YKVVVQLALDLAR    207
+                           :.|...|.|.:|:     ||:.         |      ..::..
+AF-Q6A1A2-F1     132 ------LSYAKNGELLKYI-----RKIGSFDETCTRFY------TAEIVS    164
+
+AF-Q6AUE3-F1     208 GLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQNPKD--MTG    255
+                     .|.|||.:.|:|||:|.||:||:....::|.|||.|:|.:...|.  ...
+AF-Q6A1A2-F1     165 ALEYLHGKGIIHRDLKPENILLNEDMYIQITDFGTAKVLSPESKQARANS    214
+
+AF-Q6AUE3-F1     256 ATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMPYPDLSFADVS    305
+                     ..||..|::||:|..|...:..|:::.|..::::.....|:         
+AF-Q6A1A2-F1     215 FVGTAQYVSPELLTEKSACKSSDLWALGCIIYQLVAGLPPF---------    255
+
+AF-Q6AUE3-F1     306 SAVVHQNLRPDVPRCCPSAFANIMRKCWDANPDK-RPDMDEVVQLLEALD    354
+                      ...::.|          .|..|::..:|. |:| .|...::|:.|..||
+AF-Q6A1A2-F1     256 -RAGNEYL----------IFQKIIKLEYDF-PEKFFPKARDLVEKLLVLD    293
+
+AF-Q6AUE3-F1     355 TSK    357
+                     .:|
+AF-Q6A1A2-F1     294 ATK    296
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:09
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-b9f2u5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p49411-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-b9f2u5-f1_af-p49411-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-b9f2u5-f1_af-p49411-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B9F2U5-F1
+# 2: AF-P49411-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 744
+# Identity:     122/744 (16.4%)
+# Similarity:   190/744 (25.5%)
+# Gaps:         356/744 (47.8%)
+# Score: 219.5
+# 
+#
+#=======================================
+
+AF-B9F2U5-F1       1 MATATASRLAVPAPRTSPQAPGRRRPAAPLPSAPPRPRALSAAPRGR---     47
+                                             ..||.|..|.|....|:|   ||   
+AF-P49411-F1       1 ------------------------MAAATLLRATPHFSGLAA---GRTFL     23
+
+AF-B9F2U5-F1      48 -------VVCPAAPASSPASTTDAGQDRLQKVPVSNIRNFSIIAHIDHGK     90
+                            :..||.|........:|.:..::..|..|:   ..|.|:||||
+AF-P49411-F1      24 LQGLLRLLKAPALPLLCRGLAVEAKKTYVRDKPHVNV---GTIGHVDHGK     70
+
+AF-B9F2U5-F1      91 STLA---DKLLELTGTVQKREMKQQFLDNMDLERERGITIKLQAARMRYI    137
+                     :||.   .|:|...|..:.:  |.:.:||...||.|||||  .||.:.|.
+AF-P49411-F1      71 TTLTAAITKILAEGGGAKFK--KYEEIDNAPEERARGITI--NAAHVEYS    116
+
+AF-B9F2U5-F1     138 MNDEPYCLNLIDTPGHVDFSYEVSRSLAACEGALLVVDASQGVEAQTLAN    187
+                     .....|...  |.|||.|:...:....|..:|.:|||.|:.|...||..:
+AF-P49411-F1     117 TAARHYAHT--DCPGHADYVKNMITGTAPLDGCILVVAANDGPMPQTREH    164
+
+AF-B9F2U5-F1     188 VYLALENDLE-IIPVLNKID-LPGAE-PDRVAQEIEEII------GMDCS    228
+                     :.||.:..:| ::..:||.| :..:| .:.|..||.|::      |.:..
+AF-P49411-F1     165 LLLARQIGVEHVVVYVNKADAVQDSEMVELVELEIRELLTEFGYKGEETP    214
+
+AF-B9F2U5-F1     229 NAIRCS--AKEG----IG---ITEILDAIVTKIPPPQNTAISPLRALIFD    269
+                     ..:..:  |.||    :|   :.::|||:.|.||.|......|....:..
+AF-P49411-F1     215 VIVGSALCALEGRDPELGLKSVQKLLDAVDTYIPVPARDLEKPFLLPVEA    264
+
+AF-B9F2U5-F1     270 SYYDPYRGVIVYFRVVDGSIKKGDKICFMASGKEYVADEIGVLSPNQMQV    319
+                     .|..|.||.:|...:..|.:||||:...:...|.......|:    :|..
+AF-P49411-F1     265 VYSVPGRGTVVTGTLERGILKKGDECELLGHSKNIRTVVTGI----EMFH    310
+
+AF-B9F2U5-F1     320 SELYAGEVG-YLSASIRSV--ADARVGDTIT-------HSSKRAECAL--    357
+                     ..|...|.| .|.|.:|.:  .|.|.|..:.       |....|:..:  
+AF-P49411-F1     311 KSLERAEAGDNLGALVRGLKREDLRRGLVMVKPGSIKPHQKVEAQVYILS    360
+
+AF-B9F2U5-F1     358 --------PGYSQATPMVF-------CG-LFPIDADQFEELREALEKLQL    391
+                             |..|...|::|       |. :.|.:    :||....|.|:.
+AF-P49411-F1     361 KEEGGRHKPFVSHFMPVMFSLTWDMACRIILPPE----KELAMPGEDLKF    406
+
+AF-B9F2U5-F1     392 N-----DAALKAVTRFSMQFEPESSSAMGFGFRCGFLGLLHMEIVQERLE    436
+                     |     ...|:...||:::   :.:..:|.|.....|.:         .|
+AF-P49411-F1     407 NLILRQPMILEKGQRFTLR---DGNRTIGTGLVTNTLAM---------TE    444
+
+AF-B9F2U5-F1     437 REYNLNLIITAPSVVYHVNLADGETVECSNPSLLPEPGKRRSIEEPYVKI    486
+                     .|.|:...                                          
+AF-P49411-F1     445 EEKNIKWG------------------------------------------    452
+
+AF-B9F2U5-F1     487 DMLTPKEYIGPIMELGQERRGEFKEMNFITENRASVVYELPLAEMVGDFF    536
+                                                                       
+AF-P49411-F1     452 --------------------------------------------------    452
+
+AF-B9F2U5-F1     537 DQLKSRSKGYASMEYSLIGYRESNLVKLDIQINGDPVEALSTIVHRDKAY    586
+                                                                       
+AF-P49411-F1     452 --------------------------------------------------    452
+
+AF-B9F2U5-F1     587 SVGRALTQKLKELIPRQMFRVPIQACIGAKVIASEALSAIRKDVLSKCYG    636
+                                                                       
+AF-P49411-F1     452 --------------------------------------------------    452
+
+AF-B9F2U5-F1     637 GDISRKKKLLKKQAEGKKRMKAIGRVDVPQEAFMAVLKLEKEVL    680
+                                                                 
+AF-P49411-F1     452 --------------------------------------------    452
+
+
+#---------------------------------------
+#---------------------------------------

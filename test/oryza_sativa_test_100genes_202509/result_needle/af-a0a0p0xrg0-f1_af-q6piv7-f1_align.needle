@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:22:49
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0xrg0-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q6piv7-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0xrg0-f1_af-q6piv7-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0xrg0-f1_af-q6piv7-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0XRG0-F1
+# 2: AF-Q6PIV7-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 309
+# Identity:      45/309 (14.6%)
+# Similarity:    77/309 (24.9%)
+# Gaps:         132/309 (42.7%)
+# Score: 78.5
+# 
+#
+#=======================================
+
+AF-A0A0P0XRG0      1 ------------------------------------MPEMGARGGE----     10
+                                                         ..|:.|||..    
+AF-Q6PIV7-F1       1 METVPPAVDLVLGASACCLACVFTNPLEVVKTRLQLQGELQARGTYPRPY     50
+
+AF-A0A0P0XRG0     11 ----AGAARVANGGG--------------GGGTGGMRLFSPEYYALCTG-     41
+                         |..|.||...|              .|...|:|.:.  |...|.. 
+AF-Q6PIV7-F1      51 HGFIASVAAVARADGLWGLQKGLAAGLLYQGLMNGVRFYC--YSLACQAG     98
+
+AF-A0A0P0XRG0     42 -----GGMLAAGATHLAI-----TPLDVLKVNMQVNPM---------KYN     72
+                          ||.:.|||...|:     :|..::|..:|...:         .:.
+AF-Q6PIV7-F1      99 LTQQPGGTVVAGAVAGALGAFVGSPAYLIKTQLQAQTVAAVAVGHQHNHQ    148
+
+AF-A0A0P0XRG0     73 SIFSGLNILVKEEGASSLWRGWAGK----FFGYGFQGGCKFGLYEYFKKK    118
+                     ::...|..:.:::|...||:|..|.    ..|...|.........:.:|:
+AF-Q6PIV7-F1     149 TVLGALETIWRQQGLLGLWQGVGGAVPRVMVGSAAQLATFASAKAWVQKQ    198
+
+AF-A0A0P0XRG0    119 YSDVLVDRNKSTIYFISSASAQIIADVALCPFESVKVRVQTQPM------    162
+                     .   .:..:...:.......:.|...|.:.||:.|..|:..||:      
+AF-Q6PIV7-F1     199 Q---WLPEDSWLVALAGGMISSIAVVVVMTPFDVVSTRLYNQPVDTAGRG    245
+
+AF-A0A0P0XRG0    163 -FAKGLIDGFPRVYATEGLSG-----------------------------    182
+                      ...||.|...:::..||...                             
+AF-Q6PIV7-F1     246 QLYGGLTDCMVKIWRQEGPLALYKGLGPAYLRLGPHTILSMLFWDELRKL    295
+
+AF-A0A0P0XRG0    182 ---------    182
+                              
+AF-Q6PIV7-F1     296 AGRAQHKGT    304
+
+
+#---------------------------------------
+#---------------------------------------

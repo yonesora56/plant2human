@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:26
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q5jjp8-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q09028-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5jjp8-f1_af-q09028-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5jjp8-f1_af-q09028-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5JJP8-F1
+# 2: AF-Q09028-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 349
+# Identity:      83/349 (23.8%)
+# Similarity:   132/349 (37.8%)
+# Gaps:          97/349 (27.8%)
+# Score: 232.0
+# 
+#
+#=======================================
+
+AF-Q5JJP8-F1     155 MVVCAYNEDDVNSL---QVNLLEETEDGDLNMFVHHEVPLADFPLCTAWM    201
+                     :|:..:..|:.|.|   .|.|..:....|.:.:...:.....|...:..:
+AF-Q09028-F1      66 LVLGTHTSDEQNHLVIASVQLPNDDAQFDASHYDSEKGEFGGFGSVSGKI    115
+
+AF-Q5JJP8-F1     202 DFNLKGGDKG----------NFVAVGTMDPAIEIWDLDIV---------D    232
+                     :..:|...:|          |...:.|..|:.::...|..         .
+AF-Q09028-F1     116 EIEIKINHEGEVNRARYMPQNPCIIATKTPSSDVLVFDYTKHPSKPDPSG    165
+
+AF-Q5JJP8-F1     233 EVQPHMVLGGHSKKKKKVKGKKAKKYKKGSHRSSVLGLAWNKEVRNVLAS    282
+                     |..|.:.|.||.|:.                    .||:||..:...|.|
+AF-Q09028-F1     166 ECNPDLRLRGHQKEG--------------------YGLSWNPNLSGHLLS    195
+
+AF-Q5JJP8-F1     283 ASADKTVKIWDVSV----GKC--AVTL-EHHDDKVQSVAWSRQSPEVLLS    325
+                     ||.|.|:.:||:|.    ||.  |.|: ..|...|:.|:|.      ||.
+AF-Q09028-F1     196 ASDDHTICLWDISAVPKEGKVVDAKTIFTGHTAVVEDVSWH------LLH    239
+
+AF-Q5JJP8-F1     326 GSFDKSVAMNDMKDGGQSCNKWSVEADVESLAWDPHNEHSFMVSLENGMV    375
+                     .|...|||                 .|.:.:.||                
+AF-Q09028-F1     240 ESLFGSVA-----------------DDQKLMIWD----------------    256
+
+AF-Q5JJP8-F1     376 QAFDKRTASSNSNSGRPTFTLHAHEKAVSSISFSPSTPNFLATGSTDKMV    425
+                             :.::|:.:|:.::.||...|:.:||:|.:...|||||.||.|
+AF-Q09028-F1     257 --------TRSNNTSKPSHSVDAHTAEVNCLSFNPYSEFILATGSADKTV    298
+
+AF-Q5JJP8-F1     426 KLWDLSNNQPSCIASLNPKLGAIFSVSFSNDSPFLLASGGSKGKLKVWN    474
+                     .||||.|.:.. :.|.......||.|.:|..:..:|||.|:..:|.||:
+AF-Q09028-F1     299 ALWDLRNLKLK-LHSFESHKDEIFQVQWSPHNETILASSGTDRRLNVWD    346
+
+
+#---------------------------------------
+#---------------------------------------

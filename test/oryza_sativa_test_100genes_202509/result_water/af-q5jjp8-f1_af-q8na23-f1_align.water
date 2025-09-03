@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:30
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q5jjp8-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8na23-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5jjp8-f1_af-q8na23-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5jjp8-f1_af-q8na23-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5JJP8-F1
+# 2: AF-Q8NA23-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 225
+# Identity:      51/225 (22.7%)
+# Similarity:    92/225 (40.9%)
+# Gaps:          36/225 (16.0%)
+# Score: 125.5
+# 
+#
+#=======================================
+
+AF-Q5JJP8-F1     276 VRNVLASASADKTVKIWDVSVGKCAVTLEHH-----------DDKVQSVA    314
+                     :|..|..|...|....:.|.:||....|:|.           ::::|:.|
+AF-Q8NA23-F1       4 LRCQLKQAPPQKVSFRFCVVMGKQQSKLKHSTYKYGRPDEIIEERIQTKA     53
+
+AF-Q5JJP8-F1     315 WSRQSP--------------EVLLSGSFDKSVAMNDMKDGGQSCNKWSVE    350
+                     :...||              ::.:||..||:|...:.|.|.........|
+AF-Q8NA23-F1      54 FQEYSPAHMDTVSVVAALNSDLCVSGGKDKTVVAYNWKTGNVVKRFKGHE    103
+
+AF-Q5JJP8-F1     351 ADVESLAWDPHNEHSFMVSLENGMVQAFDKRTASSNSNSGRPTFTLHAHE    400
+                     .::..:|..|.:...|..|.:. ||..:|..      .|.:|...|..|.
+AF-Q8NA23-F1     104 HEITKVACIPKSSQFFSASRDR-MVMMWDLH------GSSQPRQQLCGHA    146
+
+AF-Q5JJP8-F1     401 KAVSSISFSPSTPNFLATGSTDKMVKLWDLSNNQPSCIASLNPKLGAIFS    450
+                     ..|:.::.||.:.. |.|||.|..:.|||:...|....||::..:  :..
+AF-Q8NA23-F1     147 MVVTGLAVSPDSSQ-LCTGSRDNTLLLWDVVTGQSVERASVSRNV--VTH    193
+
+AF-Q5JJP8-F1     451 VSFSNDSPFLLASGGSKGKLKVWNT    475
+                     :.:....|::|.:...| .|::|::
+AF-Q8NA23-F1     194 LCWVPREPYILQTSEDK-TLRLWDS    217
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:39
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0wv91-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p35503-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0wv91-f1_af-p35503-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0wv91-f1_af-p35503-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0WV91-F1
+# 2: AF-P35503-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 651
+# Identity:     111/651 (17.1%)
+# Similarity:   179/651 (27.5%)
+# Gaps:         273/651 (41.9%)
+# Score: 83.0
+# 
+#
+#=======================================
+
+AF-A0A0P0WV91      1 --------------------MATPTDAAAHVLVVPYPALGHLIRILDLVR     30
+                                         ...|...:..|||||... .|.:.:.:::|
+AF-P35503-F1       1 MATGLQVPLPWLATGLLLLLSVQPWAESGKVLVVPIDG-SHWLSMREVLR     49
+
+AF-A0A0P0WV91     31 LLASRGLRLTVVVTPA-----------TAPLLAAA--------HPGGVVS     61
+                     .|.:|| ...||:||.           |....|.:        |   |:.
+AF-P35503-F1      50 ELHARG-HQAVVLTPEVNMHIKEENFFTLTTYAISWTQDEFDRH---VLG     95
+
+AF-A0A0P0WV91     62 ALTLPCPSHHAVPAGLEVPKGPPGAAPRLLPTRVVAFAGLRGPLGSWARA    111
+                     ...|...:.|.:.....       :...|....:|........|.:.|..
+AF-P35503-F1      96 HTQLYFETEHFLKKFFR-------SMAMLNNMSLVYHRSCVELLHNEALI    138
+
+AF-A0A0P0WV91    112 RAGTPDRVVAVLSD--FLCGWTQLLAAELGVPHVVF--------------    145
+                     |.........||:|  .||  ..:||..|.:|.|.|              
+AF-P35503-F1     139 RHLNATSFDVVLTDPVNLC--AAVLAKYLSIPTVFFLRNIPCDLDFKGTQ    186
+
+AF-A0A0P0WV91    146 --SPSGVYGTAMLHSLFRVMPRPADENDDESPVRFVDIPGSPAYPRRQLT    193
+                       :||.            .:||....|.|.  :.|:....:..||   |.
+AF-P35503-F1     187 CPNPSS------------YIPRLLTTNSDH--MTFMQRVKNMLYP---LA    219
+
+AF-A0A0P0WV91    194 RAYRTYKKGDEIDKGFKSNFLWNLESSSLVSNTFRQ--------------    229
+                     .:|        |...|.:.:      :||.|..|::              
+AF-P35503-F1     220 LSY--------ICHAFSAPY------ASLASELFQREVSVVDILSHASVW    255
+
+AF-A0A0P0WV91    230 -LEGRY-LESP---LADLGFRRVRAIG--------PLAPEADDDASGNRG    266
+                      ..|.: ::.|   :.::.|     ||        ||:.|.  :|..|..
+AF-P35503-F1     256 LFRGDFVMDYPRPIMPNMVF-----IGGINCANRKPLSQEF--EAYINAS    298
+
+AF-A0A0P0WV91    267 GETAVADGRVGPLRVAGPVRRPLRRVRQLREHVAAAAASRGGAGGRAGAY    316
+                     ||..:....:|.:            |.::.|..|.|.|.           
+AF-P35503-F1     299 GEHGIVVFSLGSM------------VSEIPEKKAMAIAD-----------    325
+
+AF-A0A0P0WV91    317 RRGVRLGR-------RRTGAAFVWAAGSHTALPEGFEERAAAGGRGTVIR    359
+                         .||:       |.||.                  |.:.....|::.
+AF-P35503-F1     326 ----ALGKIPQTVLWRYTGT------------------RPSNLANNTILV    353
+
+AF-A0A0P0WV91    360 GWAPQLSALRHRAVGWFVTHCGWNSILEAVAAGVAMLTWPMVADQFVNAR    409
+                     .|.||...|.|.....|:||.|.:.:.|::..||.|:..|:..||..||:
+AF-P35503-F1     354 KWLPQNDLLGHPMTRAFITHAGSHGVYESICNGVPMVMMPLFGDQMDNAK    403
+
+AF-A0A0P0WV91    410 LLVDELRTAVPVSWGGV---AAPPTADEVARVLEATVLMAEDGGEASDSE    456
+                     .:  |.:.|      ||   ....|::::...|:|.:         :|..
+AF-P35503-F1     404 RM--ETKGA------GVTLNVLEMTSEDLENALKAVI---------NDKS    436
+
+AF-A0A0P0WV91    457 WSHVGARVEELAVEAAAATREGGSSWVEVDELARELRGL-----------    495
+                     :.....|:..|..:......:....||   |.....:|.           
+AF-P35503-F1     437 YKENIMRLSSLHKDRPVEPLDLAVFWV---EFVMRHKGAPHLRPAAHDLT    483
+
+AF-A0A0P0WV91    495 --------------------------------------------------    495
+                                                                       
+AF-P35503-F1     484 WYQYHSLDVIGFLLAVVLTVAFITFKCCAYGYRKCLGKKGRVKKAHKSKT    533
+
+AF-A0A0P0WV91    495 -    495
+                      
+AF-P35503-F1     534 H    534
+
+
+#---------------------------------------
+#---------------------------------------

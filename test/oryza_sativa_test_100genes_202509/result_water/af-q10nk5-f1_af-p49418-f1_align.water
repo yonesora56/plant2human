@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:00
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p49418-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-p49418-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-p49418-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-P49418-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 264
+# Identity:      51/264 (19.3%)
+# Similarity:   101/264 (38.3%)
+# Gaps:          71/264 (26.9%)
+# Score: 100.5
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1     145 PLEDARLLTYRYQRIRQDMESQIADVMR-------KQLKSKESSGNADNS    187
+                     |:|:|.::.      ..|.::.:..::.       ::.::::::..|...
+AF-P49418-F1     461 PVEEAVIIP------GADADAAVGTLVSAAEGAPGEEAEAEKATVPAGEG    504
+
+AF-Q10NK5-F1     188 VKLQHAESKLSELRTTLSALGREATAAMEAVEVQQQQ----VTFDRLLAM    233
+                     |.|:.|:            :|.|.|...|:.:.:.::    |..::::..
+AF-P49418-F1     505 VSLEEAK------------IGTETTEGAESAQPEAEELEATVPQEKVIPS    542
+
+AF-Q10NK5-F1     234 VDAERAYHQNAADILNKLHDEMVQAKHHDEPENHY------DETSSD--P    275
+                     |..|.|                  :.|.:|.||..      .||:.|  |
+AF-P49418-F1     543 VVIEPA------------------SNHEEEGENEITIGAEPKETTEDAAP    574
+
+AF-Q10NK5-F1     276 KTAATHEHSRSTSEDHIFTNTSEPTRTETSEPTRTETSEPTRNGQEVH--    323
+                     ....:.....:|.:..|  ...:||.:..:.....:.:......||:.  
+AF-P49418-F1     575 PGPTSETPELATEQKPI--QDPQPTPSAPAMGAADQLASAREASQELPPG    622
+
+AF-Q10NK5-F1     324 --YVGEVIHPFDAQADGELSISVGDYVVVRQVAPNGWSEGECKGKAGWF-    370
+                       |..|.:|.|:|....||::..||.|:   |.|   |:.|....|||. 
+AF-P49418-F1     623 FLYKVETLHDFEAANSDELTLQRGDVVL---VVP---SDSEADQDAGWLV    666
+
+AF-Q10NK5-F1     371 ---PSAYVEQRDKA    381
+                        .|.:::.||.|
+AF-P49418-F1     667 GVKESDWLQYRDLA    680
+
+
+#---------------------------------------
+#---------------------------------------

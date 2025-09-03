@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:24:38
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0wv91-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o75795-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0wv91-f1_af-o75795-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0wv91-f1_af-o75795-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0WV91-F1
+# 2: AF-O75795-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 676
+# Identity:     105/676 (15.5%)
+# Similarity:   167/676 (24.7%)
+# Gaps:         327/676 (48.4%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+AF-A0A0P0WV91      1 --------------------------MATPTDAAAHV----LVVPYPALG     20
+                                               :..||:.:..:    ::......|
+AF-O75795-F1       1 MSLKWMSVFLLMQLSCYFSSGSCGKVLVWPTEYSHWINMKTILEELVQRG     50
+
+AF-A0A0P0WV91     21 HLIRILD-----LVRLLASRGLRLTVVVTPATA-----------------     48
+                     |.:.:|.     ||....|..::|.|..|..|.                 
+AF-O75795-F1      51 HEVIVLTSSASILVNASKSSAIKLEVYPTSLTKNDLEDFFMKMFDRWTYS    100
+
+AF-A0A0P0WV91     49 -----------------------------------------------PLL     51
+                                                                    .||
+AF-O75795-F1     101 ISKNTFWSYFSQLQELCWEYSDYNIKLCEDAVLNKKLMRKLQESKFDVLL    150
+
+AF-A0A0P0WV91     52 A-AAHPGGVVSALTLPCPSHHAV--PAGLEVPKG------PPGAAPRLLP     92
+                     | |.:|.|.:.|..|..|..:::  ..|..|.|.      ||...|    
+AF-O75795-F1     151 ADAVNPCGELLAELLNIPFLYSLRFSVGYTVEKNGGGFLFPPSYVP----    196
+
+AF-A0A0P0WV91     93 TRVVAFAGLRGPLGSWARARAGTPDRVVAVLSDF------LCGWTQLLAA    136
+                        |..:.|...:....|.:    :.:..:..||      |..|.|..:.
+AF-O75795-F1     197 ---VVMSELSDQMIFMERIK----NMIYMLYFDFWFQAYDLKKWDQFYSE    239
+
+AF-A0A0P0WV91    137 ELGVPHVVFSPSGVYGTAMLHSLFRV-MPRPADENDDESPVRFVDIPG--    183
+                     .||.|..:|...|.....::.:.:.. .|||...|        ||..|  
+AF-O75795-F1     240 VLGRPTTLFETMGKAEMWLIRTYWDFEFPRPFLPN--------VDFVGGL    281
+
+AF-A0A0P0WV91    184 --SPAYPRRQLTRAYRTYKKGDEIDKGFKSNFLWNLESSSLVSNTFRQLE    231
+                       .||.|         ..|:.:|..:....|.:......|::||...: .
+AF-O75795-F1     282 HCKPAKP---------LPKEMEEFVQSSGENGIVVFSLGSMISNMSEE-S    321
+
+AF-A0A0P0WV91    232 GRYLESPLADLGFRRVRAIGPLAPEADDDASGNRGGETAVADGRVGPLRV    281
+                     ...:.|.||.:                                   |.:|
+AF-O75795-F1     322 ANMIASALAQI-----------------------------------PQKV    336
+
+AF-A0A0P0WV91    282 AGPVRRPLRRVRQLREHVAAAAASRGGAGGRAGAYRRGVRLGRRRTGAAF    331
+                                                                       
+AF-O75795-F1     336 --------------------------------------------------    336
+
+AF-A0A0P0WV91    332 VW--------AAGSHTALPEGFEERAAAGGRGTVIRGWAPQLSALRHRAV    373
+                     :|        ..||:|.|.:                 |.||...|.|...
+AF-O75795-F1     337 LWRFDGKKPNTLGSNTRLYK-----------------WLPQNDLLGHPKT    369
+
+AF-A0A0P0WV91    374 GWFVTHCGWNSILEAVAAGVAMLTWPMVADQFVN----------------    407
+                     ..|:||.|.|.|.||:..|:.|:..|:.|||..|                
+AF-O75795-F1     370 KAFITHGGTNGIYEAIYHGIPMVGIPLFADQHDNIAHMKAKGAALSVDIR    419
+
+AF-A0A0P0WV91    408 ---ARLLVDELRTAV--PVSWGGVAAPPTA--DEVARVLEATVLMAEDGG    450
+                        :|.|::.|::.:  |:....:......  |:..:.|:..|...|   
+AF-O75795-F1     420 TMSSRDLLNALKSVINDPIYKENIMKLSRIHHDQPVKPLDRAVFWIE---    466
+
+AF-A0A0P0WV91    451 EASDSEWSHVGARVEELAVEAAAATREGGSSWVE---VDELARELRGL--    495
+                         ....|.||:  .|.|.|...|      |::   :|.:|..|..:  
+AF-O75795-F1     467 ----FVMRHKGAK--HLRVAAHNLT------WIQYHSLDVIAFLLACVAT    504
+
+AF-A0A0P0WV91    495 --------------------------    495
+                                               
+AF-O75795-F1     505 MIFMITKCCLFCFRKLAKTGKKKKRD    530
+
+
+#---------------------------------------
+#---------------------------------------

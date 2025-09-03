@@ -1,0 +1,85 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:54
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p42684-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-p42684-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-p42684-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-P42684-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 554
+# Identity:     141/554 (25.5%)
+# Similarity:   229/554 (41.3%)
+# Gaps:         125/554 (22.6%)
+# Score: 295.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     438 GQNPRIVEINLSG--------SGLQGELEISFM-KMSSLKKLDLSHNNLT    478
+                     |:..|::..|.:|        :| ||.:..::: .::||:|....|..::
+AF-P42684-F1     131 GEKLRVLGYNQNGEWSEVRSKNG-QGWVPSNYITPVNSLEKHSWYHGPVS    179
+
+AF-B7FAC9-F1     479 GTIPDYQVNSLTVIDLSNNQLNGSIPDSILQRYKAG----LLELRLEGNP    524
+                     .:..:|.::||         :|||.   :::..::.    .:.||.||..
+AF-P42684-F1     180 RSAAEYLLSSL---------INGSF---LVRESESSPGQLSISLRYEGRV    217
+
+AF-B7FAC9-F1     525 ICSKVRASYCGNKKNT-RTRILLISVLV-----PVTSLLVVLFIFWRLCW    568
+                     ...::..:..|....| .:|...::.||     ....|:..|......|.
+AF-P42684-F1     218 YHYRINTTADGKVYVTAESRFSTLAELVHHHSTVADGLVTTLHYPAPKCN    267
+
+AF-B7FAC9-F1     569 K----GKSRKSEEEDYDMYEEETPLHIDIRRFTYAELKLITNNFQSIIGK    614
+                     |    |.|     ..:|.:|.|   ..||             ..:..:|.
+AF-P42684-F1     268 KPTVYGVS-----PIHDKWEME---RTDI-------------TMKHKLGG    296
+
+AF-B7FAC9-F1     615 GGFGTVYHGILENND-EVAVKVLVETSIAESKDFLPEVQTLSKVHHKNLV    663
+                     |.:|.||.|:.:... .||||.|.|.:: |.::||.|...:.::.|.|||
+AF-P42684-F1     297 GQYGEVYVGVWKKYSLTVAVKTLKEDTM-EVEEFLKEAAVMKEIKHPNLV    345
+
+AF-B7FAC9-F1     664 ALVGYCQNKKCLALVYDFMPRGNLQQLLRGGYDSLNWEE-----RLHIAL    708
+                     .|:|.|..:....:|.::||.|||...||    ..|.||     .|::|.
+AF-P42684-F1     346 QLLGVCTLEPPFYIVTEYMPYGNLLDYLR----ECNREEVTAVVLLYMAT    391
+
+AF-B7FAC9-F1     709 DAAQGLEYLHESCTPSIVHRDVKTPNILLDKNLVAKISDFGLSRAFNAAH    758
+                     ..:..:|||.:.   :.:|||:...|.|:.:|.|.|::||||||.. ...
+AF-P42684-F1     392 QISSAMEYLEKK---NFIHRDLAARNCLVGENHVVKVADFGLSRLM-TGD    437
+
+AF-B7FAC9-F1     759 THISTVAAGT---LGYLDPEYHATFQLTVKTDVYSFGIVLLEIVT-GQPP    804
+                     |:  |..||.   :.:..||..|....::|:||::||::|.||.| |..|
+AF-P42684-F1     438 TY--TAHAGAKFPIKWTAPESLAYNTFSIKSDVWAFGVLLWEIATYGMSP    485
+
+AF-B7FAC9-F1     805 VFMDPQTVHLPNWVRQKIANGSVHDVVDKKLLDQYDATHLQTVIDLAMNC    854
+                              .|.     |....|:|:::|....:........|.:|...|
+AF-P42684-F1     486 ---------YPG-----IDLSQVYDLLEKGYRMEQPEGCPPKVYELMRAC    521
+
+AF-B7FAC9-F1     855 LENASIDRPSMTEVVSVLKVCL---PISSE------RQSATST-----PR    890
+                     .:.:..||||..|.....:...   .||.|      |.:::|:     ||
+AF-P42684-F1     522 WKWSPADRPSFAETHQAFETMFHDSSISEEVAEELGRAASSSSVVPYLPR    571
+
+AF-B7FAC9-F1     891 -----------KKNVMDAEIPRQFQLMISGA-STTSYEGSSFQSGYTGGV    928
+                                ||.|.:.|       .|.|| ..|....||...|:..|.
+AF-P42684-F1     572 LPILPSKTRTLKKQVENKE-------NIEGAQDATENSASSLAPGFIRGA    614
+
+AF-B7FAC9-F1     929 SEIS    932
+                     ...|
+AF-P42684-F1     615 QASS    618
+
+
+#---------------------------------------
+#---------------------------------------

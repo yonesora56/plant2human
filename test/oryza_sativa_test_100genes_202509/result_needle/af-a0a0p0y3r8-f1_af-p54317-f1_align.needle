@@ -1,0 +1,121 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:19
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0y3r8-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p54317-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0y3r8-f1_af-p54317-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0y3r8-f1_af-p54317-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0Y3R8-F1
+# 2: AF-P54317-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1010
+# Identity:      97/1010 ( 9.6%)
+# Similarity:   160/1010 (15.8%)
+# Gaps:         683/1010 (67.6%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+AF-A0A0P0Y3R8      1 -----------------------------MQQPQASSMTAAARRRQLQGS     21
+                                                  .::|.|.::     :|.::..
+AF-P54317-F1       1 MLPPWTLGLLLLATVRGKEVCYGQLGCFSDEKPWAGTL-----QRPVKLL     45
+
+AF-A0A0P0Y3R8     22 VLAGKMVLVRKALDTNLNSGDVVCQLVSSTVGDPDNGNRGMLGQEACVHI     71
+                     ..:.:.:..|..|.||.|..:.  ||::.|  :||.              
+AF-P54317-F1      46 PWSPEDIDTRFLLYTNENPNNF--QLITGT--EPDT--------------     77
+
+AF-A0A0P0Y3R8     72 NSELHPTPYEASTFSFE----FI----WDMKKQGVPGAVIVKNYCDEEFF    113
+                             .|||.|..:    ||    .|..:...|..:..|.:..|:  
+AF-P54317-F1      78 --------IEASNFQLDRKTRFIIHGFLDKAEDSWPSDMCKKMFEVEK--    117
+
+AF-A0A0P0Y3R8    114 VNTITLDIVPGYGTIVFTAESW------VYPDEIYDHLPRVFFSNQPYLP    157
+                     ||.|.:|              |      :|...:.:  .||..:...:|.
+AF-P54317-F1     118 VNCICVD--------------WRHGSRAMYTQAVQN--IRVVGAETAFLI    151
+
+AF-A0A0P0Y3R8    158 NQMPAPLVPYREEELR-----------------------NLRGDDNPGP-    183
+                     ..:...| .|..|::.                       .:.|.|..|| 
+AF-P54317-F1     152 QALSTQL-GYSLEDVHVIGHSLGAHTAAEAGRRLGGRVGRITGLDPAGPC    200
+
+AF-A0A0P0Y3R8    184 YKDHDRVYRYD----VYNDLGEPDSGNPRPVLG---------------GS    214
+                     ::|.....|.|    |:.|:...||....|.||               |.
+AF-P54317-F1     201 FQDEPEEVRLDPSDAVFVDVIHTDSSPIVPSLGFGMSQKVGHLDFFPNGG    250
+
+AF-A0A0P0Y3R8    215 DEHPYPRRCRTGRRRTNTDPDSESRNV-GFPLTNHFYVPRDEVFNDRKKA    263
+                     .|.|   .|:.....|.||.|.....: ||...||.          |...
+AF-P54317-F1     251 KEMP---GCKKNVLSTITDIDGIWEGIGGFVSCNHL----------RSFE    287
+
+AF-A0A0P0Y3R8    264 YFDTNNLKL-----YIMQKYATFL----------------LHADQ-----    287
+                     |:.::.|..     |....|..|.                .:|||     
+AF-P54317-F1     288 YYSSSVLNPDGFLGYPCASYDEFQESKCFPCPAEGCPKMGHYADQFKGKT    337
+
+AF-A0A0P0Y3R8    288 ----QTPF-------EFDSFADVLSLYDEGSINLPGWLNTFL--------    318
+                         ||.|       .|.|:...:|:...|...:.|::...|        
+AF-P54317-F1     338 SAVEQTFFLNTGESGNFTSWRYKISVTLSGKEKVNGYIRIALYGSNENSK    387
+
+AF-A0A0P0Y3R8    319 QPLLGIIPFKLLQQVLTPDSEFILKFPMP---AVIREDKTAWQTDEEFAR    365
+                     |       :::.:..|.||:.......:.   ..|::.|..|..      
+AF-P54317-F1     388 Q-------YEIFKGSLKPDASHTCAIDVDFNVGKIQKVKFLWNK------    424
+
+AF-A0A0P0Y3R8    366 EMLAGTN---PVVIRRLGETEFPPKSKLDTSKYHNQNSRITAAHVEK---    409
+                        .|.|   |    :||.::...:|..|.::|:..:|.....:|.:   
+AF-P54317-F1     425 ---RGINLSEP----KLGASQITVQSGEDGTEYNFCSSDTVEENVLQSLY    467
+
+AF-A0A0P0Y3R8    410 -CLEVEGLTVEQVLADGRLFILDHHDHFMPYLLDANHQPDTFVYATRTLL    458
+                      |                                                
+AF-P54317-F1     468 PC------------------------------------------------    469
+
+AF-A0A0P0Y3R8    459 FHRNDGTLQPAAIELSLPRFEAGSTLISSVGEVYTPASDGVEGHIWQLAK    508
+                                                                       
+AF-P54317-F1     469 --------------------------------------------------    469
+
+AF-A0A0P0Y3R8    509 AYVTVNDYSWHQLVSHWLNTHAVMEPFAIATHRQLSVAHPIHKLLHPHYR    558
+                                                                       
+AF-P54317-F1     469 --------------------------------------------------    469
+
+AF-A0A0P0Y3R8    559 DNLFINALGRQSLINAGGSSENTVFLGKYGLSMTSEVYRNWNFTEQALPE    608
+                                                                       
+AF-P54317-F1     469 --------------------------------------------------    469
+
+AF-A0A0P0Y3R8    609 DFIKRGVAKRRSNGELELLIKDYPYAVDGLAIWSAIETWVRDYCAIYYAD    658
+                                                                       
+AF-P54317-F1     469 --------------------------------------------------    469
+
+AF-A0A0P0Y3R8    659 DAAVQGDAELQSWWKDVREEGHGDLKDHKWWPEMKTVAELVQSCATIIWI    708
+                                                                       
+AF-P54317-F1     469 --------------------------------------------------    469
+
+AF-A0A0P0Y3R8    709 ASALHAAVNFGQYMYAGYVPNRPSVSRRPMPKPGTDLYRELELHPEKEFL    758
+                                                                       
+AF-P54317-F1     469 --------------------------------------------------    469
+
+AF-A0A0P0Y3R8    759 LTITKQDLSIAGIALVELLSSHSDDEVYLGQRDSPNWTSDLDAMNAFDRF    808
+                                                                       
+AF-P54317-F1     469 --------------------------------------------------    469
+
+AF-A0A0P0Y3R8    809 RERLLEVEKNIVAKNDKGSGFKNRTGPVNIPYNLLFPYASGDAEANTGVT    858
+                                                                       
+AF-P54317-F1     469 --------------------------------------------------    469
+
+AF-A0A0P0Y3R8    859 GKGIPNSASI    868
+                               
+AF-P54317-F1     469 ----------    469
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:03
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q12851-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q12851-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q12851-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q12851-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:      61/208 (29.3%)
+# Similarity:   100/208 (48.1%)
+# Gaps:          27/208 (13.0%)
+# Score: 178.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     612 IGKGGFGTVYHGILENNDEVAVKVLVETSIAESKDFL-PEVQTLSKVHHK    660
+                     :|.|.:|.||........|:|...:|:....:....| .|:..|.:..|.
+AF-Q12851-F1      22 VGAGTYGDVYKARDTVTSELAAVKIVKLDPGDDISSLQQEITILRECRHP     71
+
+AF-B7FAC9-F1     661 NLVALVG-YCQNKKCLALVYDFMPRGNLQQLLRGGYDSLN-WEER--LHI    706
+                     |:||.:| |.:|.: |.:..:|...|:||::    |.:.. .|||  .::
+AF-Q12851-F1      72 NVVAYIGSYLRNDR-LWICMEFCGGGSLQEI----YHATGPLEERQIAYV    116
+
+AF-B7FAC9-F1     707 ALDAAQGLEYLHESCTPSIVHRDVKTPNILLDKNLVAKISDFGLSRAFNA    756
+                     ..:|.:||.:||   :...:|||:|..|:||......|::|||:|....|
+AF-Q12851-F1     117 CREALKGLHHLH---SQGKIHRDIKGANLLLTLQGDVKLADFGVSGELTA    163
+
+AF-B7FAC9-F1     757 AHTHISTVA-----AGTLGYLDPEYHATFQ---LTVKTDVYSFGIVLLEI    798
+                           :||     .||..::.||..|..:   .....||::.||..:|:
+AF-Q12851-F1     164 ------SVAKRRSFIGTPYWMAPEVAAVERKGGYNELCDVWALGITAIEL    207
+
+AF-B7FAC9-F1     799 VTGQPPVF    806
+                     ...|||:|
+AF-Q12851-F1     208 GELQPPLF    215
+
+
+#---------------------------------------
+#---------------------------------------

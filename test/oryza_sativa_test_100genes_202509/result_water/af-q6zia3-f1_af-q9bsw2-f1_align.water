@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:13
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6zia3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9bsw2-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6zia3-f1_af-q9bsw2-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6zia3-f1_af-q9bsw2-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6ZIA3-F1
+# 2: AF-Q9BSW2-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 244
+# Identity:      48/244 (19.7%)
+# Similarity:    83/244 (34.0%)
+# Gaps:          73/244 (29.9%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+AF-Q6ZIA3-F1      41 GGNDAPAA------------VNGFAPPPPP--------------SAAAAA     64
+                     ||.:.|.:            |.|..|..||              ..|...
+AF-Q9BSW2-F1     485 GGFEQPLSKCSEEEEVSDQGVQGQIPEAPPLKLTPTSPRGQPVGKEALCK    534
+
+AF-Q6ZIA3-F1      65 EEGSKQP----FVIGVSGGTASGKTT----VCD------MIIQQLHDHRV    100
+                     ||.|...    |.|...|.:|.|||:    .|:      |......|:||
+AF-Q9BSW2-F1     535 EESSPSAPDRLFKIVFVGNSAVGKTSFLRRFCEDRFSPGMAATVGIDYRV    584
+
+AF-Q6ZIA3-F1     101 VLVNQDSF--------------YRGLTEE---ESDRVQDYNFDHPDAFDT    133
+                     ..:|.|:.              ||.:|::   ::|.| ...:|..|....
+AF-Q9BSW2-F1     585 KTLNVDNSQVALQLWDTAGQERYRCITQQFFRKADGV-IVMYDLTDKQSF    633
+
+AF-Q6ZIA3-F1     134 EQLLECMGQLKSGLSVNIPIYDFKNHRRCSESFRKV--NASDVIILEGIL    181
+                     ..:...:..::..:...:|:....| :..:|..|:|  ...:.:..|..|
+AF-Q9BSW2-F1     634 LSVRRWLSSVEEAVGDRVPVLLLGN-KLDNEKEREVPRGLGEQLATENNL    682
+
+AF-Q6ZIA3-F1     182 VFHD-------QRVRDLMDMKIFVDTDADIRLARRIRRDTVERG    218
+                     :|::       .....|:.:..|:....|     .:|.||::.|
+AF-Q9BSW2-F1     683 IFYECSAYSGHNTKESLLHLARFLKEQED-----TVREDTIQVG    721
+
+
+#---------------------------------------
+#---------------------------------------

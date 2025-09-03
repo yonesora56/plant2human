@@ -1,0 +1,109 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:20
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p21127-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6aue3-f1_af-p21127-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6aue3-f1_af-p21127-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-P21127-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 852
+# Identity:     100/852 (11.7%)
+# Similarity:   153/852 (18.0%)
+# Gaps:         530/852 (62.2%)
+# Score: 186.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P21127-F1       1 MGDEKDSWKVKTLDEILQEKKRRKEQEEKAEIKRLKNSDDRDSKRDSLEE     50
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P21127-F1      51 GELRDHRMEITIRNSPYRREDSMEDRGEEDDSLAIKPPQQMSRKEKAHHR    100
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P21127-F1     101 KDEKRKEKRRHRSHSAEGGKHARVKEKEREHERRKRHREEQDKARREWER    150
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P21127-F1     151 QKRREMAREHSRRERDRLEQLERKRERERKMREQQKEQREQKERERRAEE    200
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P21127-F1     201 RRKEREARREVSAHHRTMREDYSDKVKASHWSRSPPRPPRERFELGDGRK    250
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P21127-F1     251 PGEARPAPAQKPAQLKEEKMEERDLLSDLQDISDSERKTSSAESSSAESG    300
+
+AF-Q6AUE3-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P21127-F1     301 SGSEEEEEEEEEEEEEGSTSEESEEEEEEEEEEEEETGSNSEEASEQSAE    350
+
+AF-Q6AUE3-F1       1 ---------------------------------MASSTSDIPEGREKLKR     17
+                                                      ...:..::.||   ..:
+AF-P21127-F1     351 EVSEEEMSEDEERENENHLLVVPESRFDRDSGESEEAEEEVGEG---TPQ    397
+
+AF-Q6AUE3-F1      18 SGSLGSSDTAYVRADKIDLTSLDI--QLEKQLTKTWGKANLKAHGPKEDW     65
+                     |.:|...|  || .|...|:.:::  :|.|.|....|..::      |::
+AF-P21127-F1     398 SSALTEGD--YV-PDSPALSPIELKQELPKYLPALQGCRSV------EEF    438
+
+AF-Q6AUE3-F1      66 EIDLAKLEIRYVIAQGTYGTVYRGTYDGQD--VAVKLLDWGEDGFATEAE    113
+                     :. |.::|      :||||.|||......|  ||:|.|       ..|.|
+AF-P21127-F1     439 QC-LNRIE------EGTYGVVYRAKDKKTDEIVALKRL-------KMEKE    474
+
+AF-Q6AUE3-F1     114 TAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTN    163
+                     ......:..:|:....|..|||:.......:|:...||            
+AF-P21127-F1     475 KEGFPITSLREINTILKAQHPNIVTVREIVVGSNMDKI------------    512
+
+AF-Q6AUE3-F1     164 LPARACCVVVEYLAGG------TLKQYLIKNSRRKLAYKVVVQLALDLAR    207
+                           .:|:.|:...      |:||..:...        |..|.:.|.|
+AF-P21127-F1     513 ------YIVMNYVEHDLKSLMETMKQPFLPGE--------VKTLMIQLLR    548
+
+AF-Q6AUE3-F1     208 GLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQNPKDMTGAT    257
+                     |:.:||...|:|||:||.|:||.....||:.|||:||......|..|...
+AF-P21127-F1     549 GVKHLHDNWILHRDLKTSNLLLSHAGILKVGDFGLAREYGSPLKAYTPVV    598
+
+AF-Q6AUE3-F1     258 GTLGYMAPEVLDG-KPYNRKCDVYSFGICLWEIYCCDMPYPDLSFADVSS    306
+                     .||.|.|||:|.| |.|:...|::|.|....|:......:|..|..|..:
+AF-P21127-F1     599 VTLWYRAPELLLGAKEYSTAVDMWSVGCIFGELLTQKPLFPGKSEIDQIN    648
+
+AF-Q6AUE3-F1     307 AVVHQNLRP---------DVPRCCPSAFA----NIMRKCWDANPDKRPDM    343
+                     .|......|         ::|......|:    |.:||.:.|...     
+AF-P21127-F1     649 KVFKDLGTPSEKIWPGYSELPAVKKMTFSEHPYNNLRKRFGALLS-----    693
+
+AF-Q6AUE3-F1     344 DEVVQLLEALDTSKGGGMIPDGQSSGCLCFTKARGP--------------    379
+                     |:...|:....|...|..|..........|.:...|              
+AF-P21127-F1     694 DQGFDLMNKFLTYFPGRRISAEDGLKHEYFRETPLPIDPSMFPTWPAKSE    743
+
+AF-Q6AUE3-F1     379 --------------------------------------------------    379
+                                                                       
+AF-P21127-F1     744 QQRVKRGTSPRPPEGGLGYSQLGDDDLKETGFHLTTTNQGASAAGPGFSL    793
+
+AF-Q6AUE3-F1     379 --    379
+                       
+AF-P21127-F1     794 KF    795
+
+
+#---------------------------------------
+#---------------------------------------

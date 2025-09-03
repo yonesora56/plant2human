@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:25
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o14576-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vcb7-f1_af-o14576-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vcb7-f1_af-o14576-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-O14576-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 655
+# Identity:      47/655 ( 7.2%)
+# Similarity:    81/655 (12.4%)
+# Gaps:         487/655 (74.4%)
+# Score: 109.0
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14576-F1       1 MSDKSDLKAELERKKQRLAQIREEKKRKEEERKKKEADMQQKKEPVQDDS     50
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14576-F1      51 DLDRKRRETEALLQSIGISPEPPLVQPLHFLTWDTCYFHYLVPTPMSPSS    100
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14576-F1     101 KSVSTPSEAGSQDSGDLGPLTRTLQWDTDPSVLQLQSDSELGRRLHKLGV    150
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14576-F1     151 SKVTQVDFLPREVVSYSKETQTPLATHQSEEDEEDEEMVESKVGQDSELE    200
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14576-F1     201 NQDKKQEVKEAPPRELTEEEKQQILHSEEFLIFFDRTIRVIERALAEDSD    250
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14576-F1     251 IFFDYSGRELEEKDGDVQAGANLSFNRQFYDEHWSKHRVVTCMDWSLQYP    300
+
+AF-A0A0P0VCB7      1 ------------------------------------------VQSVAWSR      8
+                                                               |.||.::|
+AF-O14576-F1     301 ELMVASYNNNEDAPHEPDGVALVWNMKFKKTTPEYVFHCQSSVMSVCFAR    350
+
+AF-A0A0P0VCB7      9 QSPEVLLSGSFDKSVAMND-------------------------------     27
+                     ..|.:::.|::...:.:.|                               
+AF-O14576-F1     351 FHPNLVVGGTYSGQIVLWDNRSHRRTPVQRTPLSAAAHTHPVYCVNVVGT    400
+
+AF-A0A0P0VCB7     28 --------MKDGGQSCNKWSVE------------------ADVESLAWDP     51
+                             :...|:.|: ||::                  ..|..:|:..
+AF-O14576-F1     401 QNAHNLITVSTDGKMCS-WSLDMLSTPQESMELVYNKSKPVAVTGMAFPT    449
+
+AF-A0A0P0VCB7     52 HNEHSFMVSLENGMVQAFDKRTASSNSNSGR-------PTFTLHAHEKAV     94
+                     .:.::|:|..|.|.|....:.  .|.:..|.       |...::.| .||
+AF-O14576-F1     450 GDVNNFVVGSEEGTVYTACRH--GSKAGIGEVFEGHQGPVTGINCH-MAV    496
+
+AF-A0A0P0VCB7     95 SSISFSPSTPNFLATGSTDKMVKLWDLSNNQPSCIASLNPKLGAIFSVSF    144
+                     ..|.||    :...|.|.|..||||...:|:|  :.|.......::.|.:
+AF-O14576-F1     497 GPIDFS----HLFVTSSFDWTVKLWTTKHNKP--LYSFEDNADYVYDVMW    540
+
+AF-A0A0P0VCB7    145 SNDSPFLLASGGSKGKLKVWNTLTEPAVANKFGK----------------    178
+                     |...|.|.|.....|:|.:||...:..|......                
+AF-O14576-F1     541 SPVHPALFACVDGMGRLDLWNLNNDTEVPTASVAIEGASALNRVRWAQAG    590
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-O14576-F1     591 KEVAVGDSEGRIWVYDVGELAVPHNDEWTRFARTLVEIRANRADSEEEGT    640
+
+AF-A0A0P0VCB7    178 -----    178
+                          
+AF-O14576-F1     641 VELSA    645
+
+
+#---------------------------------------
+#---------------------------------------

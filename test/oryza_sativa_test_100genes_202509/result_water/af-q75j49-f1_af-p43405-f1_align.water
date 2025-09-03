@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:43
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p43405-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-p43405-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-p43405-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-P43405-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 319
+# Identity:      82/319 (25.7%)
+# Similarity:   139/319 (43.6%)
+# Gaps:          62/319 (19.4%)
+# Score: 289.5
+# 
+#
+#=======================================
+
+AF-Q75J49-F1      31 ADKIDLTSLDIQLEKQLTKTWGKANLKAHGPKEDWEIDLAKLEIRYVIAQ     80
+                     ||..::...::.|:::|...            ||.|           :..
+AF-P43405-F1     353 ADPEEIRPKEVYLDRKLLTL------------EDKE-----------LGS    379
+
+AF-Q75J49-F1      81 GTYGTVYRGTYD----GQDVAVKLLDWGEDGFATEAETAALRTSFKQEVA    126
+                     |.:|||.:|.|.    .:.||||:|       ..||...||:.....|..
+AF-P43405-F1     380 GNFGTVKKGYYQMKKVVKTVAVKIL-------KNEANDPALKDELLAEAN    422
+
+AF-Q75J49-F1     127 VWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARACCVVVEYL    176
+                     |..:|.:|.:.:.:|.                     ..|.:..:|:|..
+AF-P43405-F1     423 VMQQLDNPYIVRMIGI---------------------CEAESWMLVMEMA    451
+
+AF-Q75J49-F1     177 AGGTLKQYLIKNSRRKLAYKVVVQLALDLARGLSYLHSRKIVHRDVKTEN    226
+                     ..|.|.:||.:|  |.:..|.:::|...::.|:.||.....||||:...|
+AF-P43405-F1     452 ELGPLNKYLQQN--RHVKDKNIIELVHQVSMGMKYLEESNFVHRDLAARN    499
+
+AF-Q75J49-F1     227 MLLDTQRNLKIADFGVA---RVEAQNPKDMTGATGTLGYMAPEVLDGKPY    273
+                     :||.||...||:|||::   |.:....|..|.....:.:.|||.::...:
+AF-P43405-F1     500 VLLVTQHYAKISDFGLSKALRADENYYKAQTHGKWPVKWYAPECINYYKF    549
+
+AF-Q75J49-F1     274 NRKCDVYSFGICLWEIYCC-DMPYPDLSFADVSSAVVHQNLRPDVPRCCP    322
+                     :.|.||:|||:.:||.:.. ..||..:..::| :|::.:..|...|..||
+AF-P43405-F1     550 SSKSDVWSFGVLMWEAFSYGQKPYRGMKGSEV-TAMLEKGERMGCPAGCP    598
+
+AF-Q75J49-F1     323 SAFANIMRKCWDANPDKRP    341
+                     ....::|..||..:.:.||
+AF-P43405-F1     599 REMYDLMNLCWTYDVENRP    617
+
+
+#---------------------------------------
+#---------------------------------------

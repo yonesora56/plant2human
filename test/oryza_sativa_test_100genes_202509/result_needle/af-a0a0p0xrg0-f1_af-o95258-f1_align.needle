@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:22:47
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0xrg0-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o95258-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0xrg0-f1_af-o95258-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0xrg0-f1_af-o95258-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0XRG0-F1
+# 2: AF-O95258-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 331
+# Identity:      50/331 (15.1%)
+# Similarity:    78/331 (23.6%)
+# Gaps:         155/331 (46.8%)
+# Score: 136.5
+# 
+#
+#=======================================
+
+AF-A0A0P0XRG0      1 MPEMGARGG---------EAGAARVANGGGGGGTGGMRLFSPEYYALCTG     41
+                        ||...|         .|.||.:.:|.....|....:....:.....|
+AF-O95258-F1       1 ---MGIFPGIILIFLRVKFATAAVIVSGHQKSTTVSHEMSGLNWKPFVYG     47
+
+AF-A0A0P0XRG0     42 GGMLAAGATHLAITPLDVLKVNMQV---------NPMKYNSIFSGLNILV     82
+                     |  ||:........|:|:.|..:||         ..:||..:|..|..:.
+AF-O95258-F1      48 G--LASIVAEFGTFPVDLTKTRLQVQGQSIDARFKEIKYRGMFHALFRIC     95
+
+AF-A0A0P0XRG0     83 KEEGASSLWRGWAGKFFGYGFQGGCKFGLYEYFKKKYSDVLVDRNKSTIY    132
+                     ||||..:|:.|.|.........|..|.|:|:..|:.:.:.|.|.. ..|.
+AF-O95258-F1      96 KEEGVLALYSGIAPALLRQASYGTIKIGIYQSLKRLFVERLEDET-LLIN    144
+
+AF-A0A0P0XRG0    133 FISSASAQIIADVALCPFESVKVRVQTQ-PMFAKGLIDGFPRVYATEGLS    181
+                     .|....:.:|:.....|.:.:|:|:|.| .:|...:|..|..:|..||..
+AF-O95258-F1     145 MICGVVSGVISSTIANPTDVLKIRMQAQGSLFQGSMIGSFIDIYQQEGTR    194
+
+AF-A0A0P0XRG0    182 G-------------------------------------------------    182
+                     |                                                 
+AF-O95258-F1     195 GLWRGVVPTAQRAAIVVGVELPVYDITKKHLILSGMMGDTILTHFVSSFT    244
+
+AF-A0A0P0XRG0    182 --------------------------------------------------    182
+                                                                       
+AF-O95258-F1     245 CGLAGALASNPVDVVRTRMMNQRAIVGHVDLYKGTVDGILKMWKHEGFFA    294
+
+AF-A0A0P0XRG0    182 -------------------------------    182
+                                                    
+AF-O95258-F1     295 LYKGFWPNWLRLGPWNIIFFITYEQLKRLQI    325
+
+
+#---------------------------------------
+#---------------------------------------

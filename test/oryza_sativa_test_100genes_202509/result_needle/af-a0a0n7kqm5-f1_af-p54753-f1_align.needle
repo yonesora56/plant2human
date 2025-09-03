@@ -1,0 +1,121 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:39
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0n7kqm5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p54753-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0n7kqm5-f1_af-p54753-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0n7kqm5-f1_af-p54753-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0N7KQM5-F1
+# 2: AF-P54753-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1023
+# Identity:      51/1023 ( 5.0%)
+# Similarity:    94/1023 ( 9.2%)
+# Gaps:         817/1023 (79.9%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+AF-A0A0N7KQM5      1 -------------------MALLVLVAVLVFEAAVRADGQT---------     22
+                                        :..|:|:.:|:..|..||..:|         
+AF-P54753-F1       1 MARARPPPPPSPPPGLLPLLPPLLLLPLLLLPAGCRALEETLMDTKWVTS     50
+
+AF-A0A0N7KQM5     23 --GFLS-IDCGLEADDSYPDDLTGITYVPDGHYTDAGENHKVTTVYRNAW     69
+                       .:.| .:.|.|....|.:.:..|......:..::.:|:.:.|.:  .|
+AF-P54753-F1      51 ELAWTSHPESGWEEVSGYDEAMNPIRTYQVCNVRESSQNNWLRTGF--IW     98
+
+AF-A0A0N7KQM5     70 WGPDRTLYTVRSFPSAEGQRNCYSLPNDVRS-KYLVRLKFLYGNYDGLDS    118
+                     ....:.:|....|.    .|:|.|:||...| |....| |.|.....:.|
+AF-P54753-F1      99 RRDVQRVYVELKFT----VRDCNSIPNIPGSCKETFNL-FYYEADSDVAS    143
+
+AF-A0A0N7KQM5    119 SSLKFNLTLGVKHW---DTVSIDTTDGNDGYNVHEA--VFVAWASWAPVC    163
+                     :|..|        |   ..|.:||...::.::..:|  |.....|:.|:.
+AF-P54753-F1     144 ASSPF--------WMENPYVKVDTIAPDESFSRLDAGRVNTKVRSFGPLS    185
+
+AF-A0A0N7KQM5    164 -----LINIGQGTPFMSMVELRPLGILPYPAVMGNVS-LSLYVRSNVGSS    207
+                          |....||. .||::.:|..    |.......: .:|:..:..|:.
+AF-P54753-F1     186 KAGFYLAFQDQGA-CMSLISVRAF----YKKCASTTAGFALFPETLTGAE    230
+
+AF-A0A0N7KQM5    208 PDDDKLVRYICSEFPWILYILQLS--------------------------    231
+                     |....:....|     |...:::|                          
+AF-P54753-F1     231 PTSLVIAPGTC-----IPNAVEVSVPLKLYCNGDGEWMVPVGACTCATGH    275
+
+AF-A0A0N7KQM5    231 --------------------------------------------------    231
+                                                                       
+AF-P54753-F1     276 EPAAKESQCRPCPPGSYKAKQGEGPCLPCPPNSRTTSPAASICTCHNNFY    325
+
+AF-A0A0N7KQM5    231 --------------------------------------------------    231
+                                                                       
+AF-P54753-F1     326 RADSDSADSACTTVPSPPRGVISNVNETSLILEWSEPRDLGGRDDLLYNV    375
+
+AF-A0A0N7KQM5    231 --------------------------------------------------    231
+                                                                       
+AF-P54753-F1     376 ICKKCHGAGGASACSRCDDNVEFVPRQLGLTERRVHISHLLAHTRYTFEV    425
+
+AF-A0A0N7KQM5    231 --------------------------------------------------    231
+                                                                       
+AF-P54753-F1     426 QAVNGVSGKSPLPPRYAAVNITTNQAAPSEVPTLRLHSSSGSSLTLSWAP    475
+
+AF-A0A0N7KQM5    231 --------------------------------------------------    231
+                                                                       
+AF-P54753-F1     476 PERPNGVILDYEMKYFEKSEGIASTVTSQMNSVQLDGLRPDARYVVQVRA    525
+
+AF-A0A0N7KQM5    231 --------------------------------------------------    231
+                                                                       
+AF-P54753-F1     526 RTVAGYGQYSRPAEFETTSERGSGAQQLQEQLPLIVGSATAGLVFVVAVV    575
+
+AF-A0A0N7KQM5    231 --------------------------------------------------    231
+                                                                       
+AF-P54753-F1     576 VIAIVCLRKQRHGSDSEYTEKLQQYIAPGMKVYIDPFTYEDPNEAVREFA    625
+
+AF-A0A0N7KQM5    231 --------------------------------------------------    231
+                                                                       
+AF-P54753-F1     626 KEIDVSCVKIEEVIGAGEFGEVCRGRLKQPGRREVFVAIKTLKVGYTERQ    675
+
+AF-A0A0N7KQM5    231 --------------------------------------------------    231
+                                                                       
+AF-P54753-F1     676 RRDFLSEASIMGQFDHPNIIRLEGVVTKSRPVMILTEFMENCALDSFLRL    725
+
+AF-A0A0N7KQM5    231 --------------------------------------------------    231
+                                                                       
+AF-P54753-F1     726 NDGQFTVIQLVGMLRGIAAGMKYLSEMNYVHRDLAARNILVNSNLVCKVS    775
+
+AF-A0A0N7KQM5    231 --------------------------------------------------    231
+                                                                       
+AF-P54753-F1     776 DFGLSRFLEDDPSDPTYTSSLGGKIPIRWTAPEAIAYRKFTSASDVWSYG    825
+
+AF-A0A0N7KQM5    231 --------------------------------------------------    231
+                                                                       
+AF-P54753-F1     826 IVMWEVMSYGERPYWDMSNQDVINAVEQDYRLPPPMDCPTALHQLMLDCW    875
+
+AF-A0A0N7KQM5    231 --------------------------------------------------    231
+                                                                       
+AF-P54753-F1     876 VRDRNLRPKFSQIVNTLDKLIRNAASLKVIASAQSGMSQPLLDRTVPDYT    925
+
+AF-A0A0N7KQM5    231 --------------------------------------------------    231
+                                                                       
+AF-P54753-F1     926 TFTTVGDWLDAIKMGRYKESFVSAGFASFDLVAQMTAEDLLRIGVTLAGH    975
+
+AF-A0A0N7KQM5    231 -----------------------    231
+                                            
+AF-P54753-F1     976 QKKILSSIQDMRLQMNQTLPVQV    998
+
+
+#---------------------------------------
+#---------------------------------------

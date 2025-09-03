@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:58
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q00535-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q00535-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q00535-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q00535-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 290
+# Identity:      74/290 (25.5%)
+# Similarity:   125/290 (43.1%)
+# Gaps:          50/290 (17.2%)
+# Score: 201.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     612 IGKGGFGTVYHGILENNDEVAVKVLVETSIAESKDFLP-----EVQTLSK    656
+                     ||:|.:|||:..  :|.:...:..|....:.:..:.:|     |:..|.:
+AF-Q00535-F1      10 IGEGTYGTVFKA--KNRETHEIVALKRVRLDDDDEGVPSSALREICLLKE     57
+
+AF-B7FAC9-F1     657 VHHKNLVALVGYCQNKKCLALVYDFMPRGNLQQLLRGGYDSLNWEERLHI    706
+                     :.|||:|.|.....:.|.|.||::|     ..|.|:..:||.|.:....|
+AF-Q00535-F1      58 LKHKNIVRLHDVLHSDKKLTLVFEF-----CDQDLKKYFDSCNGDLDPEI    102
+
+AF-B7FAC9-F1     707 A----LDAAQGLEYLHESCTPSIVHRDVKTPNILLDKNLVAKISDFGLSR    752
+                     .    ....:||.:.|   :.:::|||:|..|:|:::|...|::||||:|
+AF-Q00535-F1     103 VKSFLFQLLKGLGFCH---SRNVLHRDLKPQNLLINRNGELKLADFGLAR    149
+
+AF-B7FAC9-F1     753 AFNAAHTHISTVAAGTLGYLDPEYHATFQL-TVKTDVYSFGIVLLEIVTG    801
+                     ||... ....:....||.|..|:.....:| :...|::|.|.:..|:...
+AF-Q00535-F1     150 AFGIP-VRCYSAEVVTLWYRPPDVLFGAKLYSTSIDMWSAGCIFAELANA    198
+
+AF-B7FAC9-F1     802 QPPVF----MDPQTVHL---------PNWVRQKIANGSVHDVVDKKLLDQ    838
+                     ..|:|    :|.|...:         ..|       .|:..:.|.|....
+AF-Q00535-F1     199 GRPLFPGNDVDDQLKRIFRLLGTPTEEQW-------PSMTKLPDYKPYPM    241
+
+AF-B7FAC9-F1     839 YDA-THLQTVI--------DLAMNCLENASIDRPSMTEVV    869
+                     |.| |.|..|:        ||..|.|:...:.|.|..|.:
+AF-Q00535-F1     242 YPATTSLVNVVPKLNATGRDLLQNLLKCNPVQRISAEEAL    281
+
+
+#---------------------------------------
+#---------------------------------------

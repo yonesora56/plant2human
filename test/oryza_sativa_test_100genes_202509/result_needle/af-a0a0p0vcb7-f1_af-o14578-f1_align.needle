@@ -1,0 +1,205 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:29
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o14578-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vcb7-f1_af-o14578-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vcb7-f1_af-o14578-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-O14578-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2081
+# Identity:      38/2081 ( 1.8%)
+# Similarity:    60/2081 ( 2.9%)
+# Gaps:        1957/2081 (94.0%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1       1 MLKFKYGARNPLDAGAAEPIASRASRLNLFFQGKPPFMTQQQMSPLSREG     50
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1      51 ILDALFVLFEECSQPALMKIKHVSNFVRKYSDTIAELQELQPSAKDFEVR    100
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     101 SLVGCGHFAEVQVVREKATGDIYAMKVMKKKALLAQEQVSFFEEERNILS    150
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     151 RSTSPWIPQLQYAFQDKNHLYLVMEYQPGGDLLSLLNRYEDQLDENLIQF    200
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     201 YLAELILAVHSVHLMGYVHRDIKPENILVDRTGHIKLVDFGSAAKMNSNK    250
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     251 MVNAKLPIGTPDYMAPEVLTVMNGDGKGTYGLDCDWWSVGVIAYEMIYGR    300
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     301 SPFAEGTSARTFNNIMNFQRFLKFPDDPKVSSDFLDLIQSLLCGQKERLK    350
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     351 FEGLCCHPFFSKIDWNNIRNSPPPFVPTLKSDDDTSNFDEPEKNSWVSSS    400
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     401 PCQLSPSGFSGEELPFVGFSYSKALGILGRSESVVSGLDSPAKTSSMEKK    450
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     451 LLIKSKELQDSQDKCHKMEQEMTRLHRRVSEVEAVLSQKEVELKASETQR    500
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     501 SLLEQDLATYITECSSLKRSLEQARMEVSQEDDKALQLLHDIREQSRKLQ    550
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     551 EIKEQEYQAQVEEMRLMMNQLEEDLVSARRRSDLYESELRESRLAAEEFK    600
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     601 RKATECQHKLLKAKDQGKPEVGEYAKLEKINAEQQLKIQELQEKLEKAVK    650
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     651 ASTEATELLQNIRQAKERAERELEKLQNREDSSEGIRKKLVEAEELEEKH    700
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     701 REAQVSAQHLEVHLKQKEQHYEEKIKVLDNQIKKDLADKETLENMMQRHE    750
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     751 EEAHEKGKILSEQKAMINAMDSKIRSLEQRIVELSEANKLAANSSLFTQR    800
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     801 NMKAQEEMISELRQQKFYLETQAGKLEAQNRKLEEQLEKISHQDHSDKNR    850
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     851 LLELETRLREVSLEHEEQKLELKRQLTELQLSLQERESQLTALQAARAAL    900
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     901 ESQLRQAKTELEETTAEAEEEIQALTAHRDEIQRKFDALRNSCTVITDLE    950
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1     951 EQLNQLTEDNAELNNQNFYLSKQLDEASGANDEIVQLRSEVDHLRREITE   1000
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1001 REMQLTSQKQTMEALKTTCTMLEEQVMDLEALNDELLEKERQWEAWRSVL   1050
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1051 GDEKSQFECRVRELQRMLDTEKQSRARADQRITESRQVVELAVKEHKAEI   1100
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1101 LALQQALKEQKLKAESLSDKLNDLEKKHAMLEMNARSLQQKLETERELKQ   1150
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1151 RLLEEQAKLQQQMDLQKNHIFRLTQGLQEALDRADLLKTERSDLEYQLEN   1200
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1201 IQVLYSHEKVKMEGTISQQTKLIDFLQAKMDQPAKKKKGLFSRRKEDPAL   1250
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1251 PTQVPLQYNELKLALEKEKARCAELEEALQKTRIELRSAREEAAHRKATD   1300
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1301 HPHPSTPATARQQIAMSAIVRSPEHQPSAMSLLAPPSSRRKESSTPEEFS   1350
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1351 RRLKERMHHNIPHRFNVGLNMRATKCAVCLDTVHFGRQASKCLECQVMCH   1400
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1401 PKCSTCLPATCGLPAEYATHFTEAFCRDKMNSPGLQTKEPSSSLHLEGWM   1450
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1451 KVPRNNKRGQQGWDRKYIVLEGSKVLIYDNEAREAGQRPVEEFELCLPDG   1500
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1501 DVSIHGAVGASELANTAKADVPYILKMESHPHTTCWPGRTLYLLAPSFPD   1550
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1551 KQRWVTALESVVAGGRVSREKAEADAKLLGNSLLKLEGDDRLDMNCTLPF   1600
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1601 SDQVVLVGTEEGLYALNVLKNSLTHVPGIGAVFQIYIIKDLEKLLMIAGE   1650
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1651 ERALCLVDVKKVKQSLAQSHLPAQPDISPNIFEAVKGCHLFGAGKIENGL   1700
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1701 CICAAMPSKVVILRYNENLSKYCIRKEIETSEPCSCIHFTNYSILIGTNK   1750
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1751 FYEIDMKQYTLEEFLDKNDHSLAPAVFAASSNSFPVSIVQVNSAGQREEY   1800
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O14578-F1    1801 LLCFHEFGVFVDSYGRRSRTDDLKWSRLPLAFAYREPYLFVTHFNSLEVI   1850
+
+AF-A0A0P0VCB7      1 ---------------------------VQSVAWSRQSPEVLLSGSFDKSV     23
+                                                :.|.|       :.|:.|:...:
+AF-O14578-F1    1851 EIQARSSAGTPARAYLDIPNPRYLGPAISSGA-------IYLASSYQDKL   1893
+
+AF-A0A0P0VCB7     24 AM-----NDMKDGGQSCNKWSVEADVESLAWDPHNEHSFMVSLENGMVQA     68
+                     .:     |.:|:.|                    .||      ..|    
+AF-O14578-F1    1894 RVICCKGNLVKESG--------------------TEH------HRG----   1913
+
+AF-A0A0P0VCB7     69 FDKRTASSNSNSGRPTFTLHAHEKAVSSIS--------FSPSTPNFLATG    110
+                      ...:.||.:..|.||:..|..::..||.:        ..||||:....|
+AF-O14578-F1    1914 -PSTSRSSPNKRGPPTYNEHITKRVASSPAPPEGPSHPREPSTPHRYREG   1962
+
+AF-A0A0P0VCB7    111 STDKMVKLWDLSNNQPSCIASLNPKLGAIFSVSFSNDSPFLLASGGSKGK    160
+                     .|:..   .|.|..:|   .......|.:.|.. ...||..|....|:|:
+AF-O14578-F1    1963 RTELR---RDKSPGRP---LEREKSPGRMLSTR-RERSPGRLFEDSSRGR   2005
+
+AF-A0A0P0VCB7    161 L-------------KVWNTLTEPAVANKFGK    178
+                     |             |||:..:.         
+AF-O14578-F1    2006 LPAGAVRTPLSQVNKVWDQSSV---------   2027
+
+
+#---------------------------------------
+#---------------------------------------

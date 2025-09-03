@@ -1,0 +1,133 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:50
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o43295-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10nk5-f1_af-o43295-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10nk5-f1_af-o43295-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-O43295-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1154
+# Identity:      91/1154 ( 7.9%)
+# Similarity:   156/1154 (13.5%)
+# Gaps:         815/1154 (70.6%)
+# Score: 102.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O43295-F1       1 MSSQTKFKKDKEIIAEYEAQIKEIRTQLVEQFKCLEQQSESRLQLLQDLQ     50
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O43295-F1      51 EFFRRKAEIELEYSRSLEKLAERFSSKIRSSREHQFKKDQYLLSPVNCWY    100
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O43295-F1     101 LVLHQTRRESRDHATLNDIFMNNVIVRLSQISEDVIRLFKKSKEIGLQMH    150
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O43295-F1     151 EELLKVTNELYTVMKTYHMYHAESISAESKLKEAEKQEEKQFNKSGDLSM    200
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O43295-F1     201 NLLRHEDRPQRRSSVKKIEKMKEKRQAKYSENKLKCTKARNDYLLNLAAT    250
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O43295-F1     251 NAAISKYYIHDVSDLIDCCDLGFHASLARTFRTYLSAEYNLETSRHEGLD    300
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O43295-F1     301 VIENAVDNLDSRSDKHTVMDMCNQVFCPPLKFEFQPHMGDEVCQVSAQQP    350
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O43295-F1     351 VQTELLMRYHQLQSRLATLKIENEEVRKTLDATMQTLQDMLTVEDFDVSD    400
+
+AF-Q10NK5-F1       1 --------------------------------METLRKQASKLREHVAKQ     18
+                                                     .||.....:|.:|:|...
+AF-O43295-F1     401 AFQHSRSTESVKSAASETYMSKINIAKRRANQQETEMFYFTKFKEYVNGS    450
+
+AF-Q10NK5-F1      19 QQAVRKQFSARYNQDPSLVDEAE-LEC-----------HQNLQRLYNSTR     56
+                     ....:.|  |:::.....:.|.| .||           .|.::|    .|
+AF-O43295-F1     451 NLITKLQ--AKHDLLKQTLGEGERAECGTTRPPCLPPKPQKMRR----PR    494
+
+AF-Q10NK5-F1      57 AAKHFQRSIVRG-VEGFIAVSTKQMEIVKKLAEDCCR----YGNDNQNFG    101
+                     ....:...:..| :|.||..|.:.:.:|   .|.|.|    ||...|.. 
+AF-O43295-F1     495 PLSVYSHKLFNGSMEAFIKDSGQAIPLV---VESCIRYINLYGLQQQGI-    540
+
+AF-Q10NK5-F1     102 FILARASVEFGNSHSQMEKERENLLKFLGEQVFEPLREMIMSAPLEDARL    151
+                     |.:..:.||..:..:..|:         ||.            ||.|   
+AF-O43295-F1     541 FRVPGSQVEVNDIKNSFER---------GED------------PLVD---    566
+
+AF-Q10NK5-F1     152 LTYRYQRIRQDMESQIADVMR-------KQLKSKESSGNADNSVKLQHAE    194
+                          .:..:|:.| :|.|::       ..|..||...:..:::||::..
+AF-O43295-F1     567 -----DQNERDINS-VAGVLKLYFRGLENPLFPKERFQDLISTIKLENPA    610
+
+AF-Q10NK5-F1     195 SKLSELRTTLSALGREATAAMEAVEVQQQQVTFDRLLAMVDAERAY-HQN    243
+                     .::.:::..|..|.|.....|.            .|.|.::....| .:|
+AF-O43295-F1     611 ERVHQIQQILVTLPRVVIVVMR------------YLFAFLNHLSQYSDEN    648
+
+AF-Q10NK5-F1     244 AADILN--------KLH-----DEMVQAKHHDEPEN----HYDETSSDPK    276
+                     ..|..|        .:|     |.:....|.:|...    |::.....|:
+AF-O43295-F1     649 MMDPYNLAICFGPTLMHIPDGQDPVSCQAHINEVIKTIIIHHEAIFPSPR    698
+
+AF-Q10NK5-F1     277 --TAATHEHSRSTSEDHIFTNTSEPTRTETSEPTRTETSEPTRNGQEVHY    324
+                       ....:|...:..|::..:..|||...:  |......:||..:.:||..
+AF-O43295-F1     699 ELEGPVYEKCMAGGEEYCDSPHSEPGAID--EVDHDNGTEPHTSDEEVEQ    746
+
+AF-Q10NK5-F1     325 VGEVIHPFD--AQADGELSISVGDYVVVRQVAPNGWSEGECKGKAGWFPS    372
+                     : |.|..||  .::..|||...|..:::...|...|.||...|..|..|.
+AF-O43295-F1     747 I-EAIAKFDYMGRSPRELSFKKGASLLLYHRASEDWWEGRHNGVDGLIPH    795
+
+AF-Q10NK5-F1     373 AYVEQRDKAPA----------SKVIEPGLLTT------------------    394
+                     .|:..:|...|          |:.....||..                  
+AF-O43295-F1     796 QYIVVQDMDDAFSDSLSQKADSEASSGPLLDDKASSKNDLQSPTEHISDY    845
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43295-F1     846 GFGGVMGRVRLRSDGAAIPRRRSGGDTHSPPRGLGPSIDTPPRAAACPSS    895
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43295-F1     896 PHKIPLTRGRIESPEKRRMATFGSAGSINYPDKKALSEGHSMRSTCGSTR    945
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43295-F1     946 HSSLGDHKSLEAEALAEDIEKTMSTALHELRELERQNTVKQAPDVVLDTL    995
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43295-F1     996 EPLKNPPGPVSSEPASPLHTIVIRDPDAAMRRSSSSSTEMMTTFKPALSA   1045
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-O43295-F1    1046 RLAGAQLRPPPMRPVRPVVQHRSSSSSSSGVGSPAVTPTEKMFPNSSADK   1095
+
+AF-Q10NK5-F1     394 ----    394
+                         
+AF-O43295-F1    1096 SGTM   1099
+
+
+#---------------------------------------
+#---------------------------------------

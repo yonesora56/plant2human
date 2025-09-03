@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:09
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9unl4-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q10nk5-f1_af-q9unl4-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q10nk5-f1_af-q9unl4-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-Q9UNL4-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 286
+# Identity:      56/286 (19.6%)
+# Similarity:    97/286 (33.9%)
+# Gaps:          93/286 (32.5%)
+# Score: 68.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1     139 EMIMSAPLEDARLLTYRYQRIR------QDMESQIADVMRKQLKSKESSG    182
+                     :.|.:.|.|    |...:|.:|      :|::::|..:..:.:.|..|..
+AF-Q9UNL4-F1      12 DSIENLPFE----LQRNFQLMRDLDQRTEDLKAEIDKLATEYMSSARSLS     57
+
+AF-Q10NK5-F1     183 NADNSVKLQHAESKLSELRTTLSALGR-------EATAAMEAVEVQQQQV    225
+                               :|.||:.|:....|.|:       :...||:..|:     
+AF-Q9UNL4-F1      58 ----------SEEKLALLKQIQEAYGKCKEFGDDKVQLAMQTYEM-----     92
+
+AF-Q10NK5-F1     226 TFDRLLAMVDAERAYHQNAADILNKLHDEMVQAKHHDEPENHYDETSSDP    275
+                      .|:.:..:|.:.|..:  ||:..|      |.:..|     ||.:||..
+AF-Q9UNL4-F1      93 -VDKHIRRLDTDLARFE--ADLKEK------QIESSD-----YDSSSSKG    128
+
+AF-Q10NK5-F1     276 K--------TAATHEHSRSTSEDHIFTNTSEP------TRTETSEPTRTE    311
+                     |        ..|....|:..:.|.....|::.      |..|...|:.|.
+AF-Q9UNL4-F1     129 KKKGRTQKEKKAARARSKGKNSDEEAPKTAQKKLKLVRTSPEYGMPSVTF    178
+
+AF-Q10NK5-F1     312 TSEPTRNGQEVHYVGEVIHPFDAQADGELSISVGDYVVVRQVA-------    354
+                     .|               :||.|. .|..:..:...|.:..||:       
+AF-Q9UNL4-F1     179 GS---------------VHPSDV-LDMPVDPNEPTYCLCHQVSYGEMIGC    212
+
+AF-Q10NK5-F1     355 --PN---GWSEGECKG-----KAGWFPSAYVEQRDK    380
+                       |:   .|....|.|     :..||.....::|.|
+AF-Q9UNL4-F1     213 DNPDCSIEWFHFACVGLTTKPRGKWFCPRCSQERKK    248
+
+
+#---------------------------------------
+#---------------------------------------

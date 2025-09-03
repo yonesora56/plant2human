@@ -1,0 +1,61 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:04
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q6k7h2-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q9nww6-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q6k7h2-f1_af-q9nww6-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q6k7h2-f1_af-q9nww6-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6K7H2-F1
+# 2: AF-Q9NWW6-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 259
+# Identity:      35/259 (13.5%)
+# Similarity:    76/259 (29.3%)
+# Gaps:         105/259 (40.5%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+AF-Q6K7H2-F1       1 MGSVVDAPTVVAGQEEVTDNMLGDKKVTVVFVLGGPGSGKGTQCANIVEH     50
+                                             .|..::.:.|...|||.|...|:.:|
+AF-Q9NWW6-F1       1 ------------------------MKTFIIGISGVTNSGKTTLAKNLQKH     26
+
+AF-Q6K7H2-F1      51 F-GFIHLSAGDLLRAEI-----KSGSENGTMIENMIKEGKIVPSEVTIKL     94
+                     . ....:|..|..:.|.     |:|.....::|.:..|..:......::.
+AF-Q9NWW6-F1      27 LPNCSVISQDDFFKPESEIETDKNGFLQYDVLEALNMEKMMSAISCWMES     76
+
+AF-Q6K7H2-F1      95 LQEAMIKSGNDK------FLIDGF------PRNE-ENRAAFENVTKITPA    131
+                     .:.:::.:..:.      .:|:||      |.:. .||:.|..:      
+AF-Q9NWW6-F1      77 ARHSVVSTDQESAEEIPILIIEGFLLFNYKPLDTIWNRSYFLTI------    120
+
+AF-Q6K7H2-F1     132 FVLFFDCSEEEMERRLLGR------NQGRVDDNIETIRKRFK--------    167
+                            ..||.:||...|      :.|..|.::..:..:::        
+AF-Q9NWW6-F1     121 -------PYEECKRRRSTRVYQPPDSPGYFDGHVWPMYLKYRQEMQDITW    163
+
+AF-Q6K7H2-F1     168 --VFVESSLP----VIEYYN------AKDKVKKIDAAKPIPEVFEDVKAI    205
+                       |:::.:..    .::.|.      ||.|..::.|              
+AF-Q9NWW6-F1     164 EVVYLDGTKSEEDLFLQVYEDLIQELAKQKCLQVTA--------------    199
+
+AF-Q6K7H2-F1     206 FAPYAPNAA    214
+                              
+AF-Q9NWW6-F1     199 ---------    199
+
+
+#---------------------------------------
+#---------------------------------------

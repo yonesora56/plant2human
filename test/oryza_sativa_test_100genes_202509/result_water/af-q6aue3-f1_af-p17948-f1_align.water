@@ -1,0 +1,73 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:31
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p17948-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-p17948-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-p17948-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-P17948-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 432
+# Identity:     112/432 (25.9%)
+# Similarity:   164/432 (38.0%)
+# Gaps:         124/432 (28.7%)
+# Score: 319.0
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      14 KLKRSGSLGSSDTAYVRADKIDLTSLDIQLEKQLTKTWGKANLKAHGPKE     63
+                     |:|||.|...:|...:..|. |...||.|.|:          |.....| 
+AF-P17948-F1     782 KMKRSSSEIKTDYLSIIMDP-DEVPLDEQCER----------LPYDASK-    819
+
+AF-Q6AUE3-F1      64 DWEIDLAKLEIRYVIAQGTYGTVYRGTYDG-------QDVAVKLLDWGED    106
+                      ||....:|::...:.:|.:|.|.:.:..|       :.||||:|..|  
+AF-P17948-F1     820 -WEFARERLKLGKSLGRGAFGKVVQASAFGIKKSPTCRTVAVKMLKEG--    866
+
+AF-Q6AUE3-F1     107 GFATEAETAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNS    156
+                       ||.:|..||.|..|....:.|   |.||...:||.            :
+AF-P17948-F1     867 --ATASEYKALMTELKILTHIGH---HLNVVNLLGAC------------T    899
+
+AF-Q6AUE3-F1     157 NAGARTNLPARACCVVVEYLAGGTLKQYLIKNSRRKLAY-----------    195
+                     ..|.       ...|:|||...|.|..||  .|:|.|.:           
+AF-P17948-F1     900 KQGG-------PLMVIVEYCKYGNLSNYL--KSKRDLFFLNKDAALHMEP    940
+
+AF-Q6AUE3-F1     195 --------------------------------------------------    195
+                                                                       
+AF-P17948-F1     941 KKEKMEPGLEQGKKPRLDSVTSSESFASSGFQEDKSLSDVEEEEDSDGFY    990
+
+AF-Q6AUE3-F1     196 ------KVVVQLALDLARGLSYLHSRKIVHRDVKTENMLLDTQRNLKIAD    239
+                           :.::..:..:|||:.:|.|||.:|||:...|:||.....:||.|
+AF-P17948-F1     991 KEPITMEDLISYSFQVARGMEFLSSRKCIHRDLAARNILLSENNVVKICD   1040
+
+AF-Q6AUE3-F1     240 FGVARVEAQNPKDMTGATGT---LGYMAPEVLDGKPYNRKCDVYSFGICL    286
+                     ||:||...:|| |......|   |.:||||.:..|.|:.|.||:|:|:.|
+AF-P17948-F1    1041 FGLARDIYKNP-DYVRKGDTRLPLKWMAPESIFDKIYSTKSDVWSYGVLL   1089
+
+AF-Q6AUE3-F1     287 WEIYCC-DMPYPDLSFADVSSAVVHQNLRPDVPRCCPSAFANIMRKCWDA    335
+                     |||:.. ..|||.:...:...:.:.:.:|...|.........||..||..
+AF-P17948-F1    1090 WEIFSLGGSPYPGVQMDEDFCSRLREGMRMRAPEYSTPEIYQIMLDCWHR   1139
+
+AF-Q6AUE3-F1     336 NPDKRPDMDEVVQ----LLEALDTSKGGGMIP    363
+                     :|.:||...|:|:    ||:|.....|...||
+AF-P17948-F1    1140 DPKERPRFAELVEKLGDLLQANVQQDGKDYIP   1171
+
+
+#---------------------------------------
+#---------------------------------------

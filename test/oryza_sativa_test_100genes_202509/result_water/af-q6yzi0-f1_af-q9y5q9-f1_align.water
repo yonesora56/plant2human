@@ -1,0 +1,93 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:13
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6yzi0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9y5q9-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6yzi0-f1_af-q9y5q9-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6yzi0-f1_af-q9y5q9-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6YZI0-F1
+# 2: AF-Q9Y5Q9-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 652
+# Identity:     125/652 (19.2%)
+# Similarity:   206/652 (31.6%)
+# Gaps:         202/652 (31.0%)
+# Score: 117.0
+# 
+#
+#=======================================
+
+AF-Q6YZI0-F1       7 DSSEGRESNGVVPER-NGGAVPAKQQLDGKDTLRYANILRSRNKFAEALQ     55
+                     :..|..|.....||: ..|.|...:.:..::|.:.....|.|:|...||:
+AF-Q9Y5Q9-F1     101 EEEEEEEEEEETPEQPTAGDVFVLEMVLNRETKKMMKEKRPRSKLPRALR    150
+
+AF-Q6YZI0-F1      56 LYNNVLEKDEANVEALIGKGICLQAQSLPMQAIECFNEAVRIDPGNACAL    105
+                                   .|:|:.....|:....:||....|.:|..|     |
+AF-Q9Y5Q9-F1     151 --------------GLMGEANIRFARGEREEAILMCMEIIRQAP-----L    181
+
+AF-Q6YZI0-F1     106 TY-----CGMIYKDEGHLVEAAEAYQKARNADPSYKPAAEFLAIVLTDLG    150
+                     .|     ..|||:|:|.:.::.:....|.:.:||                
+AF-Q9Y5Q9-F1     182 AYEPFSTLAMIYEDQGDMEKSLQFELIAAHLNPS----------------    215
+
+AF-Q6YZI0-F1     151 TSLKLAGNTEEGIQKYCEALEVDSHYAPAYYNLGVVYSEMMQFDLALTCY    200
+                            :|||.::....:||.|:                  ...|:.||
+AF-Q9Y5Q9-F1     216 -------DTEEWVRLAEMSLEQDN------------------IKQAIFCY    240
+
+AF-Q6YZI0-F1     201 EKAALERPLYAEAYCNMGVIYKNRGELEAAIACYERCLT-ISPN-----F    244
+                     .||....|...........:|:..|:.:.|:..|.|.|. :||:     .
+AF-Q9Y5Q9-F1     241 TKALKYEPTNVRYLWERSSLYEQMGDHKMAMDGYRRILNLLSPSDGERFM    290
+
+AF-Q6YZI0-F1     245 EIAKN-----------NMAIALTDLG----------TKVKIEGDINQGVA    273
+                     ::|::           ..||.:.|..          ..|.|..::.....
+AF-Q9Y5Q9-F1     291 QLARDMAKSYYEANDVTSAINIIDEAFSKHQGLVSMEDVNIAAELYISNK    340
+
+AF-Q6YZI0-F1     274 YYKKALFYNWHYA-----------------DAMYNLGVAYGEMLNFEMAI    306
+                     .|.|||.....::                 .|..|:.....:.:..::.:
+AF-Q9Y5Q9-F1     341 QYDKALEIITDFSGIVLEKKTSEEGTSEENKAPENVTCTIPDGVPIDITV    390
+
+AF-Q6YZI0-F1     307 VFYELALHFNPRCAEACN------------NLGVIYKDRDNLDKAVECYQ    344
+                     ......:|.|  ..|..|            ::|.:|.|.......|..|.
+AF-Q9Y5Q9-F1     391 KLMVCLVHLN--ILEPLNPLLTTLVEQNPEDMGDLYLDVAEAFLDVGEYN    438
+
+AF-Q6YZI0-F1     345 MALSIKPNFSQSLN-NLGVVY-------TVQGKMDAASSMIQKAIFANST    386
+                     .||.:......|.. ||.||:       ...|.|:.|:....|.:.....
+AF-Q9Y5Q9-F1     439 SALPLLSALVCSERYNLAVVWLRHAECLKALGYMERAAESYGKVVDLAPL    488
+
+AF-Q6YZI0-F1     387 YAEAYNNLGVLYRDAGSITSAVQAYEKCLQIDPDS----RNAGQNRLLAL    432
+                     :.:|..:|..|.:..|....|::|.|.  ..|||:    .||.|..|..|
+AF-Q9Y5Q9-F1     489 HLDARISLSTLQQQLGQPEKALEALEP--MYDPDTLAQDANAAQQELKLL    536
+
+AF-Q6YZI0-F1     433 NYIDEGFDDKLYQAHR-----EWGKRF-------------LKL---YPQY    461
+                                  .||     ..||.:             ||:   ..|.
+AF-Q9Y5Q9-F1     537 -------------LHRSTLLFSQGKMYGYVDTLLTMLAMLLKVAMNRAQV    573
+
+AF-Q6YZI0-F1     462 TSWDNPKVADRPLVIGYVSPDYFTHSVSYFIEAPLAHHDYSNYKVVVYSG    511
+                     ....:.|..:|.|.:..||.|..:.|           :|..:        
+AF-Q9Y5Q9-F1     574 CLISSSKSGERHLYLIKVSRDKISDS-----------NDQES--------    604
+
+AF-Q6YZI0-F1     512 VVKADAKTL-RFKDKVLKKGGLW----RDIYGIDEKKVASLVREDKVDIL    556
+                      ...|||.: .....||.|...|    :.||.:     ..|.|..:.::|
+AF-Q9Y5Q9-F1     605 -ANCDAKAIFAVLTSVLTKDDWWNLLLKAIYSL-----CDLSRFQEAELL    648
+
+AF-Q6YZI0-F1     557 VE    558
+                     |:
+AF-Q9Y5Q9-F1     649 VD    650
+
+
+#---------------------------------------
+#---------------------------------------

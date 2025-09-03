@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:14
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6yzi0-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q15785-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6yzi0-f1_af-q15785-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6yzi0-f1_af-q15785-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6YZI0-F1
+# 2: AF-Q15785-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 260
+# Identity:      58/260 (22.3%)
+# Similarity:    98/260 (37.7%)
+# Gaps:          59/260 (22.7%)
+# Score: 101.0
+# 
+#
+#=======================================
+
+AF-Q6YZI0-F1      35 KDTLRYANILRSRNKFAEALQLYNNVLEKDEANVEALIGKGICLQAQSL-     83
+                     |..||.|:...:..|:..|...|..||:.|: ||.:.: :||....::| 
+AF-Q15785-F1      86 KPLLRRASAYEALEKYPMAYVDYKTVLQIDD-NVTSAV-EGINRMTRALM    133
+
+AF-Q6YZI0-F1      84 -----------------PMQAIECFNEAVRIDPGNACALTYCGMIYKDEG    116
+                                      |:.|.:.:|.                  ...|.
+AF-Q15785-F1     134 DSLGPEWRLKLPSIPLVPVSAQKRWNS------------------LPSEN    165
+
+AF-Q6YZI0-F1     117 HLVEAAEAYQKARNADPSYKPAAEFL--AIVLTDLGTSLKLAGNTEEGIQ    164
+                     | .|.|::..|...|..:..|:|..:  |.||.:.|..|...||.::.|:
+AF-Q15785-F1     166 H-KEMAKSKSKETTATKNRVPSAGDVEKARVLKEEGNELVKKGNHKKAIE    214
+
+AF-Q6YZI0-F1     165 KYCEALEVDSHYAPAYYNLGVVYSEMMQFDLAL-TCYEKAALERPLYAEA    213
+                     ||.|:|...:..:..|.|..:.|..:.|:..|: .|.|...|:..     
+AF-Q15785-F1     215 KYSESLLCSNLESATYSNRALCYLVLKQYTEAVKDCTEALKLDGK-----    259
+
+AF-Q6YZI0-F1     214 YCNMGVIYKNRGELEAAIACYERCLT-ISPNFEIAKNNMAIALTDLGTKV    262
+                       |:...|: |.:...|:..|:.... ||...:|...|        |...
+AF-Q15785-F1     260 --NVKAFYR-RAQAHKALKDYKSSFADISNLLQIEPRN--------GPAQ    298
+
+AF-Q6YZI0-F1     263 KIEGDINQGV    272
+                     |:..::.|.:
+AF-Q15785-F1     299 KLRQEVKQNL    308
+
+
+#---------------------------------------
+#---------------------------------------

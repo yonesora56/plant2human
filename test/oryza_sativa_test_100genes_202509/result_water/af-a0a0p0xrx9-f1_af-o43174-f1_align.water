@@ -1,0 +1,81 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:11
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0xrx9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o43174-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0xrx9-f1_af-o43174-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0xrx9-f1_af-o43174-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0XRX9-F1
+# 2: AF-O43174-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 520
+# Identity:     124/520 (23.8%)
+# Similarity:   189/520 (36.3%)
+# Gaps:          94/520 (18.1%)
+# Score: 241.5
+# 
+#
+#=======================================
+
+AF-A0A0P0XRX9      8 LPWLLAALLSVYLLDLLAHSRRL------------------LPPGPRPLP     39
+                     ||.|||:.|..::|.||.....:                  ||||....|
+AF-O43174-F1       3 LPALLASALCTFVLPLLLFLAAIKLWDLYCVSGRDRSCALPLPPGTMGFP     52
+
+AF-A0A0P0XRX9     40 LIGSLHLLGDQPHRSLAGLAKMYGPLMSLRLGAVTTVVVSSPDVAREFLQ     89
+                     ..|....:..|..:.|....:.||.:....|....||.|...|..|..| 
+AF-O43174-F1      53 FFGETLQMVLQRRKFLQMKRRKYGFIYKTHLFGRPTVRVMGADNVRRIL-    101
+
+AF-A0A0P0XRX9     90 RHNAAFASRSVPDATGDHATNSVAW---------------LPNSPRWRAL    124
+                                   .|:|...||.|               |.:|...:..
+AF-O43174-F1     102 --------------LGEHRLVSVHWPASVRTILGSGCLSNLHDSSHKQRK    137
+
+AF-A0A0P0XRX9    125 RRIMAAELFAPHRLDALRRLRREKVQELVDHVARLAEREGGAAAVDVGRV    174
+                     :.||.|  |:...|:....:..|:|...::......|| |.....:|.|:
+AF-O43174-F1     138 KVIMRA--FSREALECYVPVITEEVGSSLEQWLSCGER-GLLVYPEVKRL    184
+
+AF-A0A0P0XRX9    175 AFATSLNLLSSTIFSRNLTSLDDHGESMEFKEVVVEIMEAGGCPNVSDFF    224
+                     .|..::.:|...     ...|...|:|   ::.:||..|    ....:.|
+AF-O43174-F1     185 MFRIAMRILLGC-----EPQLAGDGDS---EQQLVEAFE----EMTRNLF    222
+
+AF-A0A0P0XRX9    225 PAIAAADLQGWRRRMAGLFAR--LHRVFDAVVEERLSERDAGEARKG--D    270
+                     .........|..|   |:.||  :|...:..:..::....|.||.:|  |
+AF-O43174-F1     223 SLPIDVPFSGLYR---GMKARNLIHARIEQNIRAKICGLRASEAGQGCKD    269
+
+AF-A0A0P0XRX9    271 FLDVLLDVAARDNDSAGLDRDTLRSLFTDLFAAGSDTSPSIVEWAIAELM    320
+                     .|.:|::.:....:.  ||...|:...|:|...|.:|:.|.....|..|.
+AF-O43174-F1     270 ALQLLIEHSWERGER--LDMQALKQSSTELLFGGHETTASAATSLITYLG    317
+
+AF-A0A0P0XRX9    321 RNPLWFLHQCCDELSQ-----VIGSGTNIEESDIGQLPYLQAVVKETFRL    365
+                     ..| ..|.:..:||..     .......::...:.||.|:..|:|||.||
+AF-O43174-F1     318 LYP-HVLQKVREELKSKGLLCKSNQDNKLDMEILEQLKYIGCVIKETLRL    366
+
+AF-A0A0P0XRX9    366 HPPVPLLLPRQAETTTNIAGYTIPKGARVFVNVWAIGRHKDTWSQPEKFM    415
+                     :||||... |.|..|..:.||.||||..|..::.......:.::..|:|.
+AF-O43174-F1     367 NPPVPGGF-RVALKTFELNGYQIPKGWNVIYSICDTHDVAEIFTNKEEFN    415
+
+AF-A0A0P0XRX9    416 PERFFERNIDFRGVHFELIPFGAGRRICPRMPLANRMVHLVLGSLLNQFK    465
+                     |:||...:.: ....|..||||.|.|.|.....|..::.:....|.....
+AF-O43174-F1     416 PDRFMLPHPE-DASRFSFIPFGGGLRSCVGKEFAKILLKIFTVELARHCD    464
+
+AF-A0A0P0XRX9    466 WNL--------------PVD    471
+                     |.|              |||
+AF-O43174-F1     465 WQLLNGPPTMKTSPTVYPVD    484
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:37
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q6q0c0-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a0p0vcb7-f1_af-q6q0c0-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a0p0vcb7-f1_af-q6q0c0-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-Q6Q0C0-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 223
+# Identity:      42/223 (18.8%)
+# Similarity:    72/223 (32.3%)
+# Gaps:          91/223 (40.8%)
+# Score: 94.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7     12 EVLLSGSFDKSVAMNDM------------KDG------GQSCNKWSVEAD     43
+                     ::|.|||.||::.:.|.            .||      .|.|..:|..||
+AF-Q6Q0C0-F1     409 DLLFSGSSDKTIKVWDTCTTYKCQKTLEGHDGIVLALCIQGCKLYSGSAD    458
+
+AF-A0A0P0VCB7     44 VESLAWDPHNEHSFMVSLENGMVQAFDKRTASSNSNSGRPTFTLHAHEKA     93
+                     ...:.||               :|...|            ..|:.||:..
+AF-Q6Q0C0-F1     459 CTIIVWD---------------IQNLQK------------VNTIRAHDNP    481
+
+AF-A0A0P0VCB7     94 VSSISFSPSTPNFLATGSTDKMVKLWDLSNNQ------------------    125
+                     |.::   .|:.|.|.:||. |.:|:||:...:                  
+AF-Q6Q0C0-F1     482 VCTL---VSSHNVLFSGSL-KAIKVWDIVGTELKLKKELTGLNHWVRALV    527
+
+AF-A0A0P0VCB7    126 ---------------------PSCIASLNPKLGAIFSVSFSNDSPFLLAS    154
+                                          ..||..|....|:::|::.:|..   :..
+AF-Q6Q0C0-F1     528 AAQSYLYSGSYQTIKIWDIRTLDCIHVLQTSGGSVYSIAVTNHH---IVC    574
+
+AF-A0A0P0VCB7    155 GGSKGKLKVWNTLTEPAVANKFG    177
+                     |..:..:.||:..::..|....|
+AF-Q6Q0C0-F1     575 GTYENLIHVWDIESKEQVRTLTG    597
+
+
+#---------------------------------------
+#---------------------------------------

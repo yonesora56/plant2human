@@ -1,0 +1,85 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:28:37
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b9f2u5-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o60841-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b9f2u5-f1_af-o60841-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b9f2u5-f1_af-o60841-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B9F2U5-F1
+# 2: AF-O60841-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 592
+# Identity:     114/592 (19.3%)
+# Similarity:   208/592 (35.1%)
+# Gaps:         197/592 (33.3%)
+# Score: 193.5
+# 
+#
+#=======================================
+
+AF-B9F2U5-F1      63 DAGQDRLQKVPVSNIRNFS----------IIAHIDHGKSTLADKLL----     98
+                     |..:.|::|..:.:.:|.:          ::.|:|.||:.:.|||.    
+AF-O60841-F1     607 DKAKRRIEKRRLEHSKNVNTEKLRAPIICVLGHVDTGKTKILDKLRHTHV    656
+
+AF-B9F2U5-F1      99 ---ELTGTVQK--------REMKQQ--FLDNMDLERER--GITIKLQAAR    133
+                        |..|..|:        ..:.:|  .:.|.|.|..|  |:.|      
+AF-O60841-F1     657 QDGEAGGITQQIGATNVPLEAINEQTKMIKNFDRENVRIPGMLI------    700
+
+AF-B9F2U5-F1     134 MRYIMNDEPYCLNLIDTPGHVDFSYEVSRSLAACEGALLVVDASQGVEAQ    183
+                                   ||||||..||...:|..:.|:.|:||||...|:|.|
+AF-O60841-F1     701 --------------IDTPGHESFSNLRNRGSSLCDIAILVVDIMHGLEPQ    736
+
+AF-B9F2U5-F1     184 TLANVYLALENDLEIIPVLNKID-------LPGAE------------PDR    214
+                     |:.::.|........|..|||||       .|.::            .|.
+AF-O60841-F1     737 TIESINLLKSKKCPFIVALNKIDRLYDWKKSPDSDVAATLKKQKKNTKDE    786
+
+AF-B9F2U5-F1     215 VAQEIEEII------GMDCS------------NAIRCSAKEGIG------    240
+                     ..:..:.||      |::.:            :.:..||..|.|      
+AF-O60841-F1     787 FEERAKAIIVEFAQQGLNAALFYENKDPRTFVSLVPTSAHTGDGMGSLIY    836
+
+AF-B9F2U5-F1     241 -ITEILDAIVTKIPPPQNTAISPLRALIFDSYYDPYRGVIVYFRVVDGSI    289
+                      :.|:...:::|    :......|||.:.:....|..|..:...:::|.:
+AF-O60841-F1     837 LLVELTQTMLSK----RLAHCEELRAQVMEVKALPGMGTTIDVILINGRL    882
+
+AF-B9F2U5-F1     290 KKGDKICFMASGKEYVADEIGVLSP---NQMQVSELYAGEVGYLSASIRS    336
+                     |:||.|.........|....|:|.|   .:::|...|...        :.
+AF-O60841-F1     883 KEGDTIIVPGVEGPIVTQIRGLLLPPPMKELRVKNQYEKH--------KE    924
+
+AF-B9F2U5-F1     337 VADARVGDTITHSSKRAECALP---GYSQATPMVFCGLFPIDADQ-FEEL    382
+                     |..|:....:....::....||   .|.:..       .|:..|: ..||
+AF-O60841-F1     925 VEAAQGVKILGKDLEKTLAGLPLLVAYKEDE-------IPVLKDELIHEL    967
+
+AF-B9F2U5-F1     383 REALEKLQLND----------AALKAVTRF--------------------    402
+                     ::.|..::|.:          .:|:|:..|                    
+AF-O60841-F1     968 KQTLNAIKLEEKGVYVQASTLGSLEALLEFLKTSEVPYAGINIGPVHKKD   1017
+
+AF-B9F2U5-F1     403 ------SMQFEPESSSAMGFGFRCGFLGLLHMEIVQERLEREYNLNLIIT    446
+                           .::.:|:.:..:.|..|          |.::..|...:|.:.|.
+AF-O60841-F1    1018 VMKASVMLEHDPQYAVILAFDVR----------IERDAQEMADSLGVRIF   1057
+
+AF-B9F2U5-F1     447 APSVVYHVNLADGETVECSNPSLLPEPGKRRSIEEPYV-----KIDMLTP    491
+                     :..::||  |.|..|      ....:..|::..|..::     ||.:|  
+AF-O60841-F1    1058 SAEIIYH--LFDAFT------KYRQDYKKQKQEEFKHIAVFPCKIKIL--   1097
+
+AF-B9F2U5-F1     492 KEYI---------GPIMELGQERRG--------EFKEMNFIT    516
+                     .:||         |..:|.||.::|        .|.::..:|
+AF-O60841-F1    1098 PQYIFNSRDPIVMGVTVEAGQVKQGTPMCVPSKNFVDIGIVT   1139
+
+
+#---------------------------------------
+#---------------------------------------

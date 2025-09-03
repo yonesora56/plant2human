@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:33:23
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-a0a5s6rcw4-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q9ult8-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-a0a5s6rcw4-f1_af-q9ult8-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-a0a5s6rcw4-f1_af-q9ult8-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A5S6RCW4-F1
+# 2: AF-Q9ULT8-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 349
+# Identity:      59/349 (16.9%)
+# Similarity:   107/349 (30.7%)
+# Gaps:         130/349 (37.2%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+AF-A0A5S6RCW4     56 LRKVRSEAGVTEYFDEKNELFQCTG--------TFVIRRVIQPQGLLVPR     97
+                     |.:|.:.||.....:::.|.::..|        .:|::|..   ..|||.
+AF-Q9ULT8-F1    1731 LPQVPAGAGSRPIGEQEEEEYETKGGRRRTWDDDYVLKRQF---SALVPA   1777
+
+AF-A0A5S6RCW4     98 YSNTPGLVYIIQGRGSMGLTFPGCPAT-----------------------    124
+                     :...||... :|....:.:..||.|.:                       
+AF-Q9ULT8-F1    1778 FDPRPGRTN-VQQTTDLEIPPPGTPHSELLEEVECTPSPRLALTLKVTGL   1826
+
+AF-A0A5S6RCW4    125 -------------------YQQQFQQFSSQGQSQSQKFR-----------    144
+                                        |.|:..|.|..|..:|.|.|           
+AF-Q9ULT8-F1    1827 GTTREVELPLTNFRSTIFYYVQKLLQLSCNGNVKSDKLRRIWEPTYTIMY   1876
+
+AF-A0A5S6RCW4    145 -----------------------DEHQKIHQFRQGDVV------ALPAGV    165
+                                            :::....:..:.|::      |..|.:
+AF-Q9ULT8-F1    1877 REMKDSDKEKENGKMGCWSIEHVEQYLGTDELPKNDLITYLQKNADAAFL   1926
+
+AF-A0A5S6RCW4    166 AHWFYNDGDASVVAIYVYDINNSANQLEPRQKEFLLAGNNNRVQQVYGSS    215
+                     .||.....:.|:..      |.:.:||....|:|...|..:.:.|   .:
+AF-Q9ULT8-F1    1927 RHWKLTGTNKSIRK------NRNCSQLIAAYKDFCEHGTKSGLNQ---GA   1967
+
+AF-A0A5S6RCW4    216 IEQHSSQNIFNGFGTELLSEALGINTVAAKRLQSQNDQRGEIVHVKNGLQ    265
+                     |....|.:|.|          |......||....||.     ..|::.||
+AF-Q9ULT8-F1    1968 ISTLQSSDILN----------LTKEQPQAKAGNGQNS-----CGVEDVLQ   2002
+
+AF-A0A5S6RCW4    266 LLK----------PTLTQQ--QEQAQAQYQEVQYSEQQQTSSRWNGLEE    302
+                     ||:          ..::|:  .||.|..:...:::.::.|:.....:||
+AF-Q9ULT8-F1    2003 LLRILYIVASDPYSRISQEDGDEQLQFTFPPDEFTSKKITTKILQQIEE   2051
+
+
+#---------------------------------------
+#---------------------------------------

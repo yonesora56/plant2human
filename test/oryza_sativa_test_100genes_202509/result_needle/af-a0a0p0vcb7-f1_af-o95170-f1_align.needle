@@ -1,0 +1,101 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:26:10
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-a0a0p0vcb7-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o95170-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-a0a0p0vcb7-f1_af-o95170-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-a0a0p0vcb7-f1_af-o95170-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-A0A0P0VCB7-F1
+# 2: AF-O95170-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 770
+# Identity:      52/770 ( 6.8%)
+# Similarity:    83/770 (10.8%)
+# Gaps:         610/770 (79.2%)
+# Score: 95.5
+# 
+#
+#=======================================
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O95170-F1       1 MENLESRLKNAPYFRCEKGTDSIPLCRKCETRVLAWKIFSTKEWFCRIND     50
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O95170-F1      51 ISQRRFLVGILKQLNSLYLLHYFQNILQTTQGKDFIYNRSRIDLSKKEGK    100
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O95170-F1     101 VVKSSLNQMLDKTVEQKMKEILYWFANSTQWTKANYTLLLLQMCNPKLLL    150
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O95170-F1     151 TAANVIRVLFLREENNISGLNQDITDVCFSPEKDHSSKSATSQVYWTAKT    200
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O95170-F1     201 QHTSLPLSKAPENEHFLGAASNPEEPWRNSLRCISEMNRLFSGKADITKP    250
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O95170-F1     251 GYDPCNLLVDLDDIRDLSSGFSKYRDFIRYLPIHLSKYILRMLDRHTLNK    300
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O95170-F1     301 CASVSQHWAAMAQQVKMDLSAHGFIQNQITFLQGSYTRGIDPNYANKVSI    350
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O95170-F1     351 PVPKMVDDGKSMRVKHPKWKLRTKNEYNLWTAYQNEETQQVLMEERNVFC    400
+
+AF-A0A0P0VCB7      0 --------------------------------------------------      0
+                                                                       
+AF-O95170-F1     401 GTYNVRILSDTWDQNRVIHYSGGDLIAVSSNRKIHLLDIIQVKAIPVEFR    450
+
+AF-A0A0P0VCB7      1 -----VQSVAWSRQSPEVLLSGSFDKSVAMNDMK----------------     29
+                          |::: :..:....|||||:|.|:...|:|                
+AF-O95170-F1     451 GHAGSVRAL-FLCEEENFLLSGSYDLSIRYWDLKSGVCTRIFGGHQGTIT    499
+
+AF-A0A0P0VCB7     30 ----------DGGQSC--NKWSVEADVESLAWDPH---------NEHSFM     58
+                               .||:.|  ..|.|:.. :.|....|         |:...:
+AF-O95170-F1     500 CMDLCKNRLVSGGRDCQVKVWDVDTG-KCLKTFRHKDPILATRINDTYIV    548
+
+AF-A0A0P0VCB7     59 VSLENGMVQAFDKRTASSNSNSGRPTFTLHAHEKAVSSISFSPSTPNFLA    108
+                     .|.|.|:|:.:....|       :...||..||.||..:.|...   .|.
+AF-O95170-F1     549 SSCERGLVKVWHIAMA-------QLVKTLSGHEGAVKCLFFDQW---HLL    588
+
+AF-A0A0P0VCB7    109 TGSTDKMVKLWDLSNNQPSCI-ASLNPKLGAIFSVSFSNDSPFL-LASGG    156
+                     :||||.:|..|.:......|: |..:||  .:..||..    || :.|..
+AF-O95170-F1     589 SGSTDGLVMAWSMVGKYERCLMAFKHPK--EVLDVSLL----FLRVISAC    632
+
+AF-A0A0P0VCB7    157 SKGKLKVWNTLTEPAV----ANKFGK------------------------    178
+                     :.||::::|......:    ||..|.                        
+AF-O95170-F1     633 ADGKIRIYNFFNGNCMKVIKANGRGDPVLSFFIQGNRISVCHISTFAKRI    682
+
+AF-A0A0P0VCB7    178 --------------------------------------------------    178
+                                                                       
+AF-O95170-F1     683 NVGWNGIEPSATAQGGNASLTECAHVRLHIAGHLPASRLPVAAVQPMTGG    732
+
+AF-A0A0P0VCB7    178 --------------------    178
+                                         
+AF-O95170-F1     733 MAPTTAPTHVLAMLILFSGV    752
+
+
+#---------------------------------------
+#---------------------------------------

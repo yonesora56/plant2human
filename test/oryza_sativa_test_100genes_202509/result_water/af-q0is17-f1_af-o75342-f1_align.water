@@ -1,0 +1,109 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:50
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0is17-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o75342-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0is17-f1_af-o75342-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0is17-f1_af-o75342-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0IS17-F1
+# 2: AF-O75342-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 888
+# Identity:     217/888 (24.4%)
+# Similarity:   335/888 (37.7%)
+# Gaps:         241/888 (27.1%)
+# Score: 491.5
+# 
+#
+#=======================================
+
+AF-Q0IS17-F1      30 VRKALDTNLNSG--DVVCQLVSSTVGDPDN------GN---RGMLGQEA-     67
+                     ||.|..|:|.||  |.:...:..|.|:...      |.   .|.:||.. 
+AF-O75342-F1       6 VRVATGTDLLSGTRDSISLTIVGTQGESHKQLLNHFGRDFATGAVGQYTV     55
+
+AF-Q0IS17-F1      68 -CVHINSELHPTPYEASTFSFEFIWDMKKQGVPGAVIVKNYCDEEFFVNT    116
+                      |.....||.........::|                   :..:.::.|.
+AF-O75342-F1      56 QCPQDLGELIIIRLHKERYAF-------------------FPKDPWYCNY     86
+
+AF-Q0IS17-F1     117 ITLDIVPGYGTIVFTAESWVYPDEIYDHLPRVFFSNQPYLPNQMPAPLVP    166
+                     :.: ..|......|.|..|:   :.|:.|.....:.:....:.:|. |:.
+AF-O75342-F1      87 VQI-CAPNGRIYHFPAYQWM---DGYETLALREATGKTTADDSLPV-LLE    131
+
+AF-Q0IS17-F1     167 YREEELRNLRGDDNPGPYKD--HDRVYRYDVYNDLGEPDSGNPRPVLGGS    214
+                     :|:||:|         ..:|  |.||:.           .|.|..|    
+AF-O75342-F1     132 HRKEEIR---------AKQDFYHWRVFL-----------PGLPSYV----    157
+
+AF-Q0IS17-F1     215 DEHPYPRRCRTGRRRTNTDPDSESRNVGFPLTNHFYVPRDEVFNDRKKAY    264
+                       |....|....|.|....|:......|||:..:|           |...
+AF-O75342-F1     158 --HIPSYRPPVRRHRNPNRPEWNGYIPGFPILINF-----------KATK    194
+
+AF-Q0IS17-F1     265 FDTNNLKLYIMQKYATFLLHADQQTPFEFDSFADVLSLYDEGSINLP-GW    313
+                     |...||: |...|.|:|.:.....          .|:....|.::.. .|
+AF-O75342-F1     195 FLNLNLR-YSFLKTASFFVRLGPM----------ALAFKVRGLLDCKHSW    233
+
+AF-Q0IS17-F1     314 LNTFLQPLLGIIPFKLLQQVLTPDSEFILKFPMPAVIREDKTAWQTDEEF    363
+                     ..  |:.:..|.|.|  :.|:   ||::.:.            |..|..|
+AF-O75342-F1     234 KR--LKDIRKIFPGK--KSVV---SEYVAEH------------WAEDTFF    264
+
+AF-Q0IS17-F1     364 AREMLAGTNPVVIRRLGETEFPPKSKLDTSKYHNQNSRITAAHVEKCLEV    413
+                     ..:.|.|.||.:|||.  |..|.|..            :|...|...|. 
+AF-O75342-F1     265 GYQYLNGVNPGLIRRC--TRIPDKFP------------VTDDMVAPFLG-    299
+
+AF-Q0IS17-F1     414 EGLTVEQVLADGRLFILD-----------------HHDHFMPYLLDANHQ    446
+                     ||..::..|..|.:::.|                 ||             
+AF-O75342-F1     300 EGTCLQAELEKGNIYLADYRIMEGIPTVELSGRKQHH-------------    336
+
+AF-Q0IS17-F1     447 PDTFVYATRTLLFHRNDGTLQPAAIELSLPRFEAGSTLISSVG---EVYT    493
+                          .|...||....:|.:.|.||:||           .:.|   .::.
+AF-O75342-F1     337 -----CAPLCLLHFGPEGKMMPIAIQLS-----------QTPGPDCPIFL    370
+
+AF-Q0IS17-F1     494 PASDGVEGHIWQLAKAYVTVNDYSWHQLVSHWLNTHAVMEPFAIATHRQL    543
+                     |:....:   |.|||.:|...::..|:.::|.|.||.:.|.|.:|..|.|
+AF-O75342-F1     371 PSDSEWD---WLLAKTWVRYAEFYSHEAIAHLLETHLIAEAFCLALLRNL    417
+
+AF-Q0IS17-F1     544 SVAHPIHKLLHPHYRDNLFINALGRQSLINAGGSSENTVFLGKYGLS---    590
+                     .:.||::|||.||.|..:.||::||..|:|.||.|...:.||..|.:   
+AF-O75342-F1     418 PMCHPLYKLLIPHTRYTVQINSIGRAVLLNEGGLSAKGMSLGVEGFAGVM    467
+
+AF-Q0IS17-F1     591 --MTSEVYRNWNFTEQALPEDFIKRGVAKRRSNGELELLIKDYPYAVDGL    638
+                       ..||:    .:....||.||::|||..          :..|.|..|.|
+AF-O75342-F1     468 VRALSEL----TYDSLYLPNDFVERGVQD----------LPGYYYRDDSL    503
+
+AF-Q0IS17-F1     639 AIWSAIETWVRDYCAIYYADDAAVQGDAELQSWWKDVREE---GHGDLKD    685
+                     |:|:|:|.:|.:....||..||||:||.|||||.:::.:|   |    ::
+AF-O75342-F1     504 AVWNALEKYVTEIITYYYPSDAAVEGDPELQSWVQEIFKECLLG----RE    549
+
+AF-Q0IS17-F1     686 HKWWPE-MKTVAELVQSCATIIWIASALHAAVNFGQYMYAGYVPNRPSVS    734
+                     ...:|. ::||.||::....:|:..||.|||||.||..:..::||.|:..
+AF-O75342-F1     550 SSGFPRCLRTVPELIRYVTIVIYTCSAKHAAVNTGQMEFTAWMPNFPASM    599
+
+AF-Q0IS17-F1     735 RRP--MPKPGTDLYRELELHPEKEFLLTITKQDLSIAGIALVEL--LSSH    780
+                     |.|  ..|..|.|...::..|           |:....|.|:.|  ||..
+AF-O75342-F1     600 RNPPIQTKGLTTLETFMDTLP-----------DVKTTCITLLVLWTLSRE    638
+
+AF-Q0IS17-F1     781 SDDEVYLGQRDSPNWTSDLDAMNAFDRFRERLLEVEKNIVAKNDKGSGFK    830
+                     .||...||.....::..:. ...:.:.||:||.::..:|          :
+AF-O75342-F1     639 PDDRRPLGHFPDIHFVEEA-PRRSIEAFRQRLNQISHDI----------R    677
+
+AF-Q0IS17-F1     831 NRTGPVNIPYNLLFPYASGDAEANTGVTGKGIPNSASI    868
+                     .|...:.|||..|.|..              |.||.||
+AF-O75342-F1     678 QRNKCLPIPYYYLDPVL--------------IENSISI    701
+
+
+#---------------------------------------
+#---------------------------------------

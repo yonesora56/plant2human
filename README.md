@@ -52,11 +52,25 @@ This analysis workflow is tested using [cwltool](https://github.com/common-workf
 
 &nbsp;
 
-&nbsp;
+### **3. Python Environment**
+
+I've already checked python package version below.
+Using “Devcontainers” makes it easy to reproduce your execution environment.
+
+```python3
+python==3.11
+polars==1.17.1
+matplotlib==3.8.2
+seaborn==0.13.2
+unipressed==1.4.0
+papermill==2.6.0
+```
 
 &nbsp;
 
-## Example 1 ( *Oryza sativa* vs *Homo sapiens*)
+&nbsp;
+
+## Example 1 ( *Oryza sativa 100 genes* vs *Homo sapiens*)
 
 Here, we will explain how to use the list of 10 rice genes as an example.
 
@@ -64,42 +78,61 @@ Here, we will explain how to use the list of 10 rice genes as an example.
 
 ### **1. Creation of a TSV file of gene and UniProt ID correspondences**
 
-First, you need the following [gene list tsv file](./test/oryza_sativa_test/oryza_sativa_random_gene_list.tsv). (Please set the column name as "From")
+First, you need the following [gene list tsv file](./test/oryza_sativa_test_100genes_202509/oryza_sativa_random_100genes_list.tsv). (Please set the column name as "From")
 
 ```tsv
 From
-Os01g0187600
-Os12g0129300
-Os12g0159500
-Os02g0609000
-Os05g0468600
-Os05g0352750
-Os06g0140700
-Os04g0391500
-Os01g0795250
-Os01g0859200
+Os12g0269700
+Os10g0410900
+Os05g0403000
+Os06g0127250
+Os02g0249600
+Os09g0349700
+Os03g0735150
+Os08g0547350
+Os06g0282400
+Os05g0576750
+Os07g0216600
+Os10g0164500
+Os07g0201300
+Os01g0567200
+Os05g0563050
+Os03g0660050
+Os11g0436450
+...
 ```
 
-The following [TSV file](./test/oryza_sativa_test/rice_random_gene_idmapping_all.tsv) is required to execute the following workflow. 
+The following [TSV file](./test/oryza_sativa_test_100genes_202509/os_100_genes_idmapping_all.tsv) is required to execute the following workflow. 
 
 ```tsv
 From	UniProt Accession
-Os01g0187600	A0A0P0UZ77
-Os12g0129300	A0A0P0Y6G7
-Os12g0129300	B9GBP4
-Os12g0159500	A0A0P0Y794
-Os12g0159500	A0A8J8YJ44
-Os12g0159500	B9GBZ8
+Os01g0104800	A0A0N7KC66
+Os01g0104800	Q657Z6
+Os01g0104800	Q658C6
+Os01g0152300	Q9LGI2
+Os01g0322300	A0A9K3Y6N1
+Os01g0322300	Q657N1
+Os01g0567200	A0A0N7KD66
+Os01g0567200	Q657K0
+Os01g0571133	A0A0P0V4A8
+Os01g0664500	A0A8J8XFG3
+Os01g0664500	Q5SN58
+Os01g0810800	A0A8J8XDQ1
+Os01g0810800	B7FAC9
+Os01g0875300	A0A0P0VB72
+Os01g0924300	A0A0P0VCB7
 ...
 ```
 To do this, you need to follow the CWL workflow command below.
-This [yaml file](./job/uniprot_idmapping_job_example_os.yml) is the parameter file for the workflow, for example.
+This [yaml file](./job/oryza_sativa_100_genes/os_uniprot_idmapping.yml) is the parameter file for the workflow, for example.
 
 ```bash
-cwltool --debug --outdir ./test/oryza_sativa_test ./Tools/01_uniprot_idmapping.cwl ./job/uniprot_idmapping_job_example_os.yml
+cwltool --debug --outdir ./test/oryza_sativa_test_100genes_202509/ ./Tools/01_uniprot_idmapping.cwl ./job/oryza_sativa_100_genes/os_uniprot_idmapping.yml
 ```
-In this execution, [mmcif files](./test/oryza_sativa_test/rice_random_gene_mmcif) are also retrieved.
-The execution results are output with the [jupyter notebook](./test/oryza_sativa_test/rice_random_gene_uniprot_idmapping.ipynb).
+In this execution, [mmcif files](./test/oryza_sativa_test_100genes_202509/os_100_genes_mmcif) are also retrieved.
+The execution results are output with the [jupyter notebook](./test/oryza_sativa_test_100genes_202509/oryza_sativa_100_genes_uniprot_idmapping.ipynb).
+
+**Note**: Network access required in this process!
 
 &nbsp;
 
@@ -163,20 +196,21 @@ Download URL: https://ftp.ebi.ac.uk/pub/databases/alphafold/sequences.fasta
 
 ```bash
 # Preparation for BLAST index
+mkdir cwl_cache
 cd ./index
 curl -O https://ftp.ebi.ac.uk/pub/databases/alphafold/sequences.fasta
 mv sequences.fasta afdb_all_sequneces.fasta
-pigz -p 8 afdb_all_sequneces.fasta > afdb_all_sequneces.fasta.gz
 ```
 
 &nbsp;
 
 ```bash
 # execute creation of BLAST index using "makeblastdb"
-cwltool --debug --outdir ./index/ ./Tools/14_makeblastdb_v2.cwl
+mv ../
+cwltool --debug --cachedir ./cwl_cache/ --outdir ./index/ ./Tools/14_makeblastdb_v2.cwl
 ```
 
-**Note:**: It is estimated to take 2 hours for creating index.
+**Note:**: It is estimated to take 2 hours for creating index. We are currently investigating whether it can be executed by another method.
 
 &nbsp;
 
@@ -185,24 +219,57 @@ cwltool --debug --outdir ./index/ ./Tools/14_makeblastdb_v2.cwl
 ### 3. Execution of the [Main Workflow](./Workflow/plant2human.cwl)
 
 In this process, we perform a structural similarity search using the `foldseek easy-search` command and then perform a pairwise alignment of the amino acid sequences of the hit pairs using the `needle` and `water` commands.
-Finally, based on this information, we create a scatter plot and output a [jupyter notebook](./test/oryza_sativa_test/plant2human_report.ipynb) as a report.
+Finally, based on this information, we create a scatter plot and output a [jupyter notebook](./test/oryza_sativa_test_100genes_202509/os_100_genes_plant2human_report.ipynb) as a report.
 Examples of commands are as follows.
 
 ```bash
-cwltool --debug --outdir ./test/oryza_sativa_test ./Workflow/plant2human.cwl ./job/plant2human_job_example_os.yml
+cwltool --debug --outdir ./test/oryza_sativa_test_100genes_202509/ ./Workflow/plant2human_v2.cwl ./job/oryza_sativa_100_genes/plant2human_job_example_os100.yml
 ```
 
 &nbsp;
 
 For example, you can visualize the results of structural similarity and global alignment, as shown below.
-In this case, the x-axis represents the global alignment similarity match (%), and the y-axis represents the LDDT score (an indicator of structural alignment).
+In this case, the x-axis represents the global alignment similarity match (%), and the y-axis represents the average lDDT score (an indicator of structural alignment).
 
-![image](./image/rice_test_scatter_plot.png)
+The hit pairs in the upper-right plot indicate higher sequence similarity and structural similarity.
+
+![image](./image/rice_test_100genes_global_scatterplot.png)
+
+&nbsp;
+
+In this case, the x-axis represents the global alignment similarity match (%), and the y-axis represents the average lDDT score (an indicator of structural alignment).
+
+![image](./image/rice_test_100genes_local_scatterplot.png)
 
 &nbsp;
 
-The following scatter diagram can also be obtained from the test results of [Zey Mays random 100 genes vs. Homo sapiens](./test/zea_mays_test).
+&nbsp;
 
-![image](./image/zey_mays_scatter_plot.png)
+### After Filtering
+
+The report notebook for the plant2human workflow also outputs scatter plots after applying the filtering conditions set in this workflow.
+
+#### Filtering criteria
+
+1. structural alignment coverage >= 50%
+2. If there are hits with the same target for the same gene-derived UniProt ID, the one with the highest qcov is selected, and if the qcov is the same, the one with the highest lDDT is selected.
+
+    **Note that in this study, we leave the states with the same foldseek hit even if the rice genes are different.**
+
+3. Select hits that can be converted to Ensembl gene id and HGNC Gene nomenclature with TogoID API
 
 &nbsp;
+
+By applying these filtering conditions, you can examine hit pairs that are easier to investigate!
+
+&nbsp;
+
+##### Global alignment
+
+![image](./image/rice_test_100genes_global_scatterplot_filter.png)
+
+&nbsp;
+
+##### local alignment
+
+![image](./image/rice_test_100genes_local_scatterplot_filter.png)

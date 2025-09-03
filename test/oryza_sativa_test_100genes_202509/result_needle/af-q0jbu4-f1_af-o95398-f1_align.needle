@@ -1,0 +1,113 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:50
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0jbu4-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o95398-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0jbu4-f1_af-o95398-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0jbu4-f1_af-o95398-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0JBU4-F1
+# 2: AF-O95398-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 949
+# Identity:      26/949 ( 2.7%)
+# Similarity:    40/949 ( 4.2%)
+# Gaps:         866/949 (91.3%)
+# Score: 21.5
+# 
+#
+#=======================================
+
+AF-Q0JBU4-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O95398-F1       1 MKVGWPGESCWQVGLAVEDSPALGAPRVGALPDVVPEGTLLNMVLRRMHR     50
+
+AF-Q0JBU4-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O95398-F1      51 PRSCSYQLLLEHQRPSCIQGLRWTPLTNSEESLDFSESLEQASTERVLRA    100
+
+AF-Q0JBU4-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O95398-F1     101 GRQLHRHLLATCPNLIRDRKYHLRLYRQCCSGRELVDGILALGLGVHSRS    150
+
+AF-Q0JBU4-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O95398-F1     151 QVVGICQVLLDEGALCHVKHDWAFQDRDAQFYRFPGPEPEPVRTHEMEEE    200
+
+AF-Q0JBU4-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O95398-F1     201 LAEAVALLSQRGPDALLTVALRKPPGQRTDEELDLIFEELLHIKAVAHLS    250
+
+AF-Q0JBU4-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O95398-F1     251 NSVKRELAAVLLFEPHSKAGTVLFSQGDKGTSWYIIWKGSVNVVTHGKGL    300
+
+AF-Q0JBU4-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O95398-F1     301 VTTLHEGDDFGQLALVNDAPRAATIILREDNCHFLRVDKQDFNRIIKDVE    350
+
+AF-Q0JBU4-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O95398-F1     351 AKTMRLEEHGKVVLVLERASQGAGPSRPPTPGRNRYTVMSGTPEKILELL    400
+
+AF-Q0JBU4-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O95398-F1     401 LEAMGPDSSAHDPTETFLSDFLLTHRVFMPSAQLCAALLHHFHVEPAGGS    450
+
+AF-Q0JBU4-F1       1 -------------------------MGTTSSPDTMAAAAGPSLSITVEKN     25
+                                              .|:....|.:|.:....||..|.: 
+AF-O95398-F1     451 EQERSTYVCNKRQQILRLVSQWVALYGSMLHTDPVATSFLQKLSDLVGR-    499
+
+AF-Q0JBU4-F1      26 PPEARLLQLGIKSWPKWGCPPGKFPLKFDARLTCYLLKGRVRASVKGTGR     75
+                       :.||..|..:.||:              |..|:.|:       .|.|.
+AF-O95398-F1     500 --DTRLSNLLREQWPE--------------RRRCHRLE-------NGCGN    526
+
+AF-Q0JBU4-F1      76 C-VEFGAGDLVVF-PK------GLSCTWDVVVGIDKHYNFDS--------    109
+                     . .:..|.:|.|: |.      |.||.  :.||....|:...        
+AF-O95398-F1     527 ASPQMKARNLPVWLPNQDEPLPGSSCA--IQVGDKVPYDICRPDHSVLTL    574
+
+AF-Q0JBU4-F1     109 --------------------------------------------------    109
+                                                                       
+AF-O95398-F1     575 QLPVTASVREVMAALAQEDGWTKGQVLVKVNSAGDAIGLQPDARGVATSL    624
+
+AF-Q0JBU4-F1     109 --------------------------------------------------    109
+                                                                       
+AF-O95398-F1     625 GLNERLFVVNPQEVHELIPHPDQLGPTVGSAEGLDLVSAKDLAGQLTDHD    674
+
+AF-Q0JBU4-F1     109 --------------------------------------------------    109
+                                                                       
+AF-O95398-F1     675 WSLFNSIHQVELIHYVLGPQHLRDVTTANLERFMRRFNELQYWVATELCL    724
+
+AF-Q0JBU4-F1     109 --------------------------------------------------    109
+                                                                       
+AF-O95398-F1     725 CPVPGPRAQLLRKFIKLAAHLKEQKNLNSFFAVMFGLSNSAISRLAHTWE    774
+
+AF-Q0JBU4-F1     109 --------------------------------------------------    109
+                                                                       
+AF-O95398-F1     775 RLPHKVRKLYSALERLLDPSWNHRVYRLALAKLSPPVIPFMPLLLKDMTF    824
+
+AF-Q0JBU4-F1     109 --------------------------------------------------    109
+                                                                       
+AF-O95398-F1     825 IHEGNHTLVENLINFEKMRMMARAARMLHHCRSHNPVPLSPLRSRVSHLH    874
+
+AF-Q0JBU4-F1     109 -------------------------------------------------    109
+                                                                      
+AF-O95398-F1     875 EDSQVARISTCSEQSLSTRSPASTWAYVQQLKVIDNQRELSRLSRELEP    923
+
+
+#---------------------------------------
+#---------------------------------------

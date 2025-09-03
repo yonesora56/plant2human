@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:29
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q5jjp8-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p53621-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5jjp8-f1_af-p53621-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5jjp8-f1_af-p53621-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5JJP8-F1
+# 2: AF-P53621-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 297
+# Identity:      61/297 (20.5%)
+# Similarity:   108/297 (36.4%)
+# Gaps:          97/297 (32.7%)
+# Score: 149.5
+# 
+#
+#=======================================
+
+AF-Q5JJP8-F1     223 IEIWD------LDIVDE------------VQPHMVLGGHSKKKKKVKGKK    254
+                     |::||      :|..||            .||..|.||...|.|      
+AF-P53621-F1      33 IQLWDYRMCTLIDKFDEHDGPVRGIDFHKQQPLFVSGGDDYKIK------     76
+
+AF-Q5JJP8-F1     255 AKKYKKGSHRSSVLGLAWNKEVRNVL----------------------AS    282
+                                     .||.::|..|                      .|
+AF-P53621-F1      77 ----------------VWNYKLRRCLFTLLGHLDYIRTTFFHHEYPWILS    110
+
+AF-Q5JJP8-F1     283 ASADKTVKIWDVSVGKCAVTLEHHDDKVQSVAWSRQSPEVLLSGSFDKSV    332
+                     ||.|:|:::|:.....|...|..|:..|. .|....:.::::|.|.|::|
+AF-P53621-F1     111 ASDDQTIRVWNWQSRTCVCVLTGHNHYVM-CAQFHPTEDLVVSASLDQTV    159
+
+AF-Q5JJP8-F1     333 AMNDMKD-GGQSCNKWSVEADVESLAWDPHNEHSFMVSLENGMVQAFDKR    381
+                     .:.|:.. ..::.:..:||:||..:..         |.| .|...|..|.
+AF-P53621-F1     160 RVWDISGLRKKNLSPGAVESDVRGITG---------VDL-FGTTDAVVKH    199
+
+AF-Q5JJP8-F1     382 TASSNSNSGRPTFTLHAHEKAVSSISFSPSTPNFLATGSTDKMVKLWDLS    431
+                                  .|..|::.|:..:|.|:.| .:.:|:.|:.||:|.::
+AF-P53621-F1     200 -------------VLEGHDRGVNWAAFHPTMP-LIVSGADDRQVKIWRMN    235
+
+AF-Q5JJP8-F1     432 NNQ----PSCIASLNPKLGAIFSVSFSNDSPFLLASGGSKGKLKVWN    474
+                     .::    .:|....|....|:|     :....|:.|......::||:
+AF-P53621-F1     236 ESKAWEVDTCRGHYNNVSCAVF-----HPRQELILSNSEDKSIRVWD    277
+
+
+#---------------------------------------
+#---------------------------------------

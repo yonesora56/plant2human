@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:05
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q96q40-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q96q40-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q96q40-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q96Q40-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 251
+# Identity:      70/251 (27.9%)
+# Similarity:   117/251 (46.6%)
+# Gaps:          35/251 (13.9%)
+# Score: 198.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     569 KGKSRKSEEEDYDMYEEETPLHIDIRR---------FTYAELKLITNNFQ    609
+                     |.||::..... |.::||     |:|:         |..|...|   |.:
+AF-Q96Q40-F1      67 KFKSKRPRSNS-DCFQEE-----DLRQGFQWRKSLPFGAASSYL---NLE    107
+
+AF-B7FAC9-F1     610 SIIGKGGFGTVYHGILENNDEVAVKVLVETSIAESKDF--LPEVQTLSKV    657
+                     . :|:|.:.|||.||...|.::....::..:..|...|  :.|...|..:
+AF-Q96Q40-F1     108 K-LGEGSYATVYKGISRINGQLVALKVISMNAEEGVPFTAIREASLLKGL    156
+
+AF-B7FAC9-F1     658 HHKNLVALVGYCQNKKCLALVYDFMPRGNLQQLLR--GGYDSLNWEERLH    705
+                     .|.|:|.|......|:.|..|:::|.....|.:.:  ||....|  .||.
+AF-Q96Q40-F1     157 KHANIVLLHDIIHTKETLTFVFEYMHTDLAQYMSQHPGGLHPHN--VRLF    204
+
+AF-B7FAC9-F1     706 IALDAAQGLEYLHESCTPSIVHRDVKTPNILLDKNLVAKISDFGLSRAFN    755
+                     : ....:||.|:|..   .::|||:|..|:|:......|::||||:||.:
+AF-Q96Q40-F1     205 M-FQLLRGLAYIHHQ---HVLHRDLKPQNLLISHLGELKLADFGLARAKS    250
+
+AF-B7FAC9-F1     756 -AAHTHISTVAAGTLGYLDPE--YHATFQLTVKTDVYSFGIVLLEIVTGQ    802
+                      .:.|:.|.|.  ||.|..|:  ..|| :.:.:.|::..|.:.:|:..||
+AF-Q96Q40-F1     251 IPSQTYSSEVV--TLWYRPPDALLGAT-EYSSELDIWGAGCIFIEMFQGQ    297
+
+AF-B7FAC9-F1     803 P    803
+                     |
+AF-Q96Q40-F1     298 P    298
+
+
+#---------------------------------------
+#---------------------------------------

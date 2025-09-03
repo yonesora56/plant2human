@@ -1,0 +1,133 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:47
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q10nk5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q92619-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q10nk5-f1_af-q92619-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q10nk5-f1_af-q92619-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q10NK5-F1
+# 2: AF-Q92619-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1187
+# Identity:     104/1187 ( 8.8%)
+# Similarity:   168/1187 (14.2%)
+# Gaps:         844/1187 (71.1%)
+# Score: 82.0
+# 
+#
+#=======================================
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q92619-F1       1 MFSRKKRELMKTPSISKKNRAGSPSPQPSGELPRKDGADAVFPGPSLEPP     50
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q92619-F1      51 AGSSGVKATGTLKRPTSLSRHASAAGFPLSGAASWTLGRSHRSPLTAASP    100
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q92619-F1     101 GELPTEGAGPDVVEDISHLLADVARFAEGLEKLKECVLRDDLLEARRPRA    150
+
+AF-Q10NK5-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q92619-F1     151 HECLGEALRVMHQIISKYPLLNTVETLTAAGTLIAKVKAFHYESNNDLEK    200
+
+AF-Q10NK5-F1       1 ------------------------------------------METLRKQA      8
+                                                               ||:|....
+AF-Q92619-F1     201 QEFEKALETIAVAFSSTVSEFLMGEVDSSTLLAVPPGDSSQSMESLYGPG    250
+
+AF-Q10NK5-F1       9 SKLREHVAKQQQAVRKQFSARYNQDPSLVD------EAELECHQNLQRLY     52
+                     |:                    ...|||.|      .|| |....|||..
+AF-Q92619-F1     251 SE--------------------GTPPSLEDCDAGCLPAE-EVDVLLQRCE    279
+
+AF-Q10NK5-F1      53 NSTRAAKHFQRSIVRGVEGFIAV----STKQMEIVK---KLAEDCCRYGN     95
+                     ....||..:.:::.:.::..|:.    :|.:||..|   |:|.:|.:...
+AF-Q92619-F1     280 GGVDAALLYAKNMAKYMKDLISYLEKRTTLEMEFAKGLQKIAHNCRQSVM    329
+
+AF-Q10NK5-F1      96 DNQNFGFI----LA-RASVEFGNSHSQMEKERENLLKFLGEQVF-EP--L    137
+                     ...:...:    || ...:|||:|..|       .:..|..|.| :|  |
+AF-Q92619-F1     330 QEPHMPLLSIYSLALEQDLEFGHSMVQ-------AVGTLQTQTFMQPLTL    372
+
+AF-Q10NK5-F1     138 REMIMSAPLEDARLLTYRYQRIRQDMESQIADVMRKQLK-----------    176
+                     |.:......::.:...:|.||..|:.||.:....:..::           
+AF-Q92619-F1     373 RRLEHEKRRKEIKEAWHRAQRKLQEAESNLRKAKQGYVQRCEDHDKARFL    422
+
+AF-Q10NK5-F1     177 ----SKESSGNA-----------DNSVKL-QHAESKLSELRTTLSALGRE    210
+                         .:|.:|:|           |...:| :.|::|..|...|......:
+AF-Q92619-F1     423 VAKAEEEQAGSAPGAGSTATKTLDKRRRLEEEAKNKAEEAMATYRTCVAD    472
+
+AF-Q10NK5-F1     211 A------------TAAMEAVEVQQQQ--------VTFDRLLAMVDAERAY    240
+                     |            ||..:..||.:|.        :::.:::.|..|....
+AF-Q92619-F1     473 AKTQKQELEDTKVTALRQIQEVIRQSDQTIKSATISYYQMMHMQTAPLPV    522
+
+AF-Q10NK5-F1     241 HQNAADILNKLHDEMVQAKHH-------DEPENHYDETSSDPKTAATH--    281
+                     |.......:||:|...|...|       .||:.|||   .:|..:|..  
+AF-Q92619-F1     523 HFQMLCESSKLYDPGQQYASHVRQLQRDQEPDVHYD---FEPHVSANAWS    569
+
+AF-Q10NK5-F1     282 --EHSRSTSEDHIFTNTSEPTRTET--SEPTRTETSEPT-------RNGQ    320
+                       ..:|.:|     .|.|:..|.|.  |.|.....:|.|       ..|.
+AF-Q92619-F1     570 PVMRARKSS-----FNVSDVARPEAAGSPPEEGGCTEGTPAKDHRAGRGH    614
+
+AF-Q10NK5-F1     321 EVHYVGEVIHPFDAQADGELSIS-----------VGDYVVVRQVAPNGWS    359
+                     :||            ....||||           .||:....:.:.:|..
+AF-Q92619-F1     615 QVH------------KSWPLSISDSDSGLDPGPGAGDFKKFERTSSSGTM    652
+
+AF-Q10NK5-F1     360 EG-----ECKGKAGWFPSAYVEQRD----------KAPASKVIEPGLLTT    394
+                     ..     :..|.||  .||: ||.|          ..|:......||...
+AF-Q92619-F1     653 SSTEELVDPDGGAG--ASAF-EQADLNGMTPELPVAVPSGPFRHEGLSKA    699
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q92619-F1     700 ARTHRLRKLRTPAKCRECNSYVYFQGAECEECCLACHKKCLETLAIQCGH    749
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q92619-F1     750 KKLQGRLQLFGQDFSHAARSAPDGVPFIVKKCVCEIERRALRTKGIYRVN    799
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q92619-F1     800 GVKTRVEKLCQAFENGKELVELSQASPHDISNVLKLYLRQLPEPLISFRL    849
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q92619-F1     850 YHELVGLAKDSLKAEAEAKAASRGRQDGSESEAVAVALAGRLRELLRDLP    899
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q92619-F1     900 PENRASLQYLLRHLRRIVEVEQDNKMTPGNLGIVFGPTLLRPRPTEATVS    949
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q92619-F1     950 LSSLVDYPHQARVIETLIVHYGLVFEEEPEETPGGQDESSNQRAEVVVQV    999
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q92619-F1    1000 PYLEAGEAVVYPLQEAAADGCRESRVVSNDSDSDLEEASELLSSSEASAL   1049
+
+AF-Q10NK5-F1     394 --------------------------------------------------    394
+                                                                       
+AF-Q92619-F1    1050 GHLSFLEQQQSEASLEVASGSHSGSEEQLEATAREDGDGDEDGPAQQLSG   1099
+
+AF-Q10NK5-F1     394 -------------------------------------    394
+                                                          
+AF-Q92619-F1    1100 FNTNQSNNVLQAPLPPMRLRGGRMTLGSCRERQPEFV   1136
+
+
+#---------------------------------------
+#---------------------------------------

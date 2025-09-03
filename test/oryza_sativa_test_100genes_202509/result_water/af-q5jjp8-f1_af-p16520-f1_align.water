@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:28
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q5jjp8-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p16520-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q5jjp8-f1_af-p16520-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q5jjp8-f1_af-p16520-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q5JJP8-F1
+# 2: AF-P16520-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 317
+# Identity:      69/317 (21.8%)
+# Similarity:   125/317 (39.4%)
+# Gaps:          60/317 (18.9%)
+# Score: 161.0
+# 
+#
+#=======================================
+
+AF-Q5JJP8-F1     172 LLEETEDGDLNMF-------VHHEVPLADFPLCTAWMDFNLKGGDKGNFV    214
+                     |:..::||.|.::       ||      ..||.::|: ........||||
+AF-P16520-F1      70 LVSASQDGKLIVWDSYTTNKVH------AIPLRSSWV-MTCAYAPSGNFV    112
+
+AF-Q5JJP8-F1     215 AVGTMDPAIEIWDLDIVDEVQPHMVLGGHSKKKKKVKGKKAKKYKKGSHR    264
+                     |.|.:|....|::|                    |.:....|..::.|..
+AF-P16520-F1     113 ACGGLDNMCSIYNL--------------------KSREGNVKVSRELSAH    142
+
+AF-Q5JJP8-F1     265 SSVLGLAWNKEVRNVLASASADKTVKIWDVSVGKCAVTLEHHDDKVQSVA    314
+                     :..|......:..|::.| |.|.|..:||:..|:.......|.....|:|
+AF-P16520-F1     143 TGYLSCCRFLDDNNIVTS-SGDTTCALWDIETGQQKTVFVGHTGDCMSLA    191
+
+AF-Q5JJP8-F1     315 WSRQSPE--VLLSGSFDKSVAMNDMKDGGQSCNKWSV--EADVESLAWDP    360
+                        .||:  :.:||:.|.|..:.|:::|  :|.:...  |:|:.::.:.|
+AF-P16520-F1     192 ---VSPDFNLFISGACDASAKLWDVREG--TCRQTFTGHESDINAICFFP    236
+
+AF-Q5JJP8-F1     361 HNEHSFMVSLENGMVQAFDKRTASSNSNSGRPTFTLHAHEK---AVSSIS    407
+                     :.| :.....::...:.||.|....        ....:||.   .::|::
+AF-P16520-F1     237 NGE-AICTGSDDASCRLFDLRADQE--------LICFSHESIICGITSVA    277
+
+AF-Q5JJP8-F1     408 FSPSTPNFLATGSTDKMVKLWDLSNNQPSCIASLNPKLGAIFSVSFSNDS    457
+                     ||.| ...|..|..|....:||...::...|.|.:....:...|:...  
+AF-P16520-F1     278 FSLS-GRLLFAGYDDFNCNVWDSMKSERVGILSGHDNRVSCLGVTADG--    324
+
+AF-Q5JJP8-F1     458 PFLLASGGSKGKLKVWN    474
+                      ..:|:|.....||:||
+AF-P16520-F1     325 -MAVATGSWDSFLKIWN    340
+
+
+#---------------------------------------
+#---------------------------------------

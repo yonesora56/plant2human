@@ -1,0 +1,121 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:28
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q02897-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q16832-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q02897-f1_af-q16832-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q02897-f1_af-q16832-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q02897-F1
+# 2: AF-Q16832-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1022
+# Identity:      89/1022 ( 8.7%)
+# Similarity:   152/1022 (14.9%)
+# Gaps:         694/1022 (67.9%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+AF-Q02897-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q16832-F1       1 MILIPRMLLVLFLLLPILSSAKAQVNPAICRYPLGMSGGQIPDEDITASS     50
+
+AF-Q02897-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q16832-F1      51 QWSESTAAKYGRLDSEEGDGAWCPEIPVEPDDLKEFLQIDLHTLHFITLV    100
+
+AF-Q02897-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q16832-F1     101 GTQGRHAGGHGIEFAPMYKINYSRDGTRWISWRNRHGKQVLDGNSNPYDI    150
+
+AF-Q02897-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q16832-F1     151 FLKDLEPPIVARFVRFIPVTDHSMNVCMRVELYGCVWLDGLVSYNAPAGQ    200
+
+AF-Q02897-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q16832-F1     201 QFVLPGGSIIYLNDSVYDGAVGYSMTEGLGQLTDGVSGLDDFTQTHEYHV    250
+
+AF-Q02897-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q16832-F1     251 WPGYDYVGWRNESATNGYIEIMFEFDRIRNFTTMKVHCNNMFAKGVKIFK    300
+
+AF-Q02897-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q16832-F1     301 EVQCYFRSEASEWEPNAISFPLVLDDVNPSARFVTVPLHHRMASAIKCQY    350
+
+AF-Q02897-F1       0 --------------------------------------------------      0
+                                                                       
+AF-Q16832-F1     351 HFADTWMMFSEITFQSDAAMYNNSEALPTSPMAPTTYDPMLKVDDSNTRI    400
+
+AF-Q02897-F1       1 ------------MATTIFSRFSIYFCAML---------------LCQGSM     23
+                                 :|..:...:..::..||               |...|.
+AF-Q16832-F1     401 LIGCLVAIIFILLAIIVIILWRQFWQKMLEKASRRMLDDEMTVSLSLPSD    450
+
+AF-Q02897-F1      24 AQLFNPSTNPWHSP-RQGSFRECRFDRLQAF-----EPLRKVRSEAGVTE     67
+                     :.:||  .|...|| .|||  ...:||:...     ||.|.:|.   :.|
+AF-Q16832-F1     451 SSMFN--NNRSSSPSEQGS--NSTYDRIFPLRPDYQEPSRLIRK---LPE    493
+
+AF-Q02897-F1      68 YFDEKNELFQCTGTFVIRRVIQPQGLL-VPRYSN---------TPGLVY-    106
+                     :...:.| ..|:|   :.:.:||.|.. ||.|:.         |.|..| 
+AF-Q16832-F1     494 FAPGEEE-SGCSG---VVKPVQPSGPEGVPHYAEADIVNLQGVTGGNTYS    539
+
+AF-Q02897-F1     107 -------IIQGRGSMGLTFPGCPATYQQQFQQFSSQGQ---------SQS    140
+                            ::.|:......||....|::::.    .:||         ...
+AF-Q16832-F1     540 VPAVTMDLLSGKDVAVEEFPRKLLTFKEKL----GEGQFGEVHLCEVEGM    585
+
+AF-Q02897-F1     141 QKFRDEHQKIHQFRQGDVVALPAGVAHWFYNDGDASVVAIYVYDINNSAN    190
+                     :||:|                                             
+AF-Q16832-F1     586 EKFKD---------------------------------------------    590
+
+AF-Q02897-F1     191 QLEPRQKEFLLAGNNNRVQQVYGSSIEQHSSQNIFNGFGTELLSEALGIN    240
+                           |:|.|..:.|:...|....:...:::|..|.|..|:        
+AF-Q16832-F1     591 ------KDFALDVSANQPVLVAVKMLRADANKNARNDFLKEI--------    626
+
+AF-Q02897-F1     241 TVAAKRLQSQNDQRGEIVH-----------------VKNG-----LQLLK    268
+                      ....||:..|     |:|                 ::||     |...:
+AF-Q16832-F1     627 -KIMSRLKDPN-----IIHLLAVCITDDPLCMITEYMENGDLNQFLSRHE    670
+
+AF-Q02897-F1     269 PTLTQQQEQAQAQYQEVQYSEQQQTSSRWNGLEENF---------CTIKA    309
+                     |..:...:.....|..:::...|..|........||         |.:..
+AF-Q16832-F1     671 PPNSSSSDVRTVSYTNLKFMATQIASGMKYLSSLNFVHRDLATRNCLVGK    720
+
+AF-Q02897-F1     310 RVNIENPSRADSYNPRAGRISSVNSQKFPILNLIQMSATRVNLYQNAILS    359
+                     ...|:......|.|..:|....:..:  .:|.:..||...:.|.:....|
+AF-Q16832-F1     721 NYTIKIADFGMSRNLYSGDYYRIQGR--AVLPIRWMSWESILLGKFTTAS    768
+
+AF-Q02897-F1     360 PFW--NVNAHSLVYMIQGQ-----SRVQVVSNFGKTVFDGVLRPGQLLII    402
+                     ..|  .|.........|.|     |..||:.|.|:...|    .|:...:
+AF-Q16832-F1     769 DVWAFGVTLWETFTFCQEQPYSQLSDEQVIENTGEFFRD----QGRQTYL    814
+
+AF-Q02897-F1     403 PQ-----------------------------HYAVLKKAEREGCQYIAIK    423
+                     ||                             |..:|::.:.         
+AF-Q16832-F1     815 PQPAICPDSVYKLMLSCWRRDTKNRPSFQEIHLLLLQQGDE---------    855
+
+AF-Q02897-F1     424 TNANAFVSHLAGKNSVFRALPVDVVANAYRISREQARSIKNNRGEEHGAF    473
+                                                                       
+AF-Q16832-F1     855 --------------------------------------------------    855
+
+AF-Q02897-F1     474 TPRFQQQYYPGFSNESESETSE    495
+                                           
+AF-Q16832-F1     855 ----------------------    855
+
+
+#---------------------------------------
+#---------------------------------------

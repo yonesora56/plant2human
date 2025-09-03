@@ -1,0 +1,149 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:25:30
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-o60674-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-b7fac9-f1_af-o60674-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-b7fac9-f1_af-o60674-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-O60674-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1376
+# Identity:     213/1376 (15.5%)
+# Similarity:   361/1376 (26.2%)
+# Gaps:         683/1376 (49.6%)
+# Score: 240.5
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60674-F1       1 MGMACLTMTEMEGTSTSSIYQNGDISGNANSMKQIDPVLQVYLYHSLGKS     50
+
+AF-B7FAC9-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60674-F1      51 EADYLTFPSGEYVAEEICIAASKACGITPVYHNMFALMSETERIWYPPNH    100
+
+AF-B7FAC9-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60674-F1     101 VFHIDESTRHNVLYRIRFYFPRWYCSGSNRAYRHGISRGAEAPLLDDFVM    150
+
+AF-B7FAC9-F1       0 --------------------------------------------------      0
+                                                                       
+AF-O60674-F1     151 SYLFAQWRHDFVHGWIKVPVTHETQEECLGMAVLDMMRIAKENDQTPLAI    200
+
+AF-B7FAC9-F1       1 ----------------------MLKQKDL------MVISYS-CSA---GT     18
+                                           :|.:|.:      .:..:| |.|   ..
+AF-O60674-F1     201 YNSISYKTFLPKCIRAKIQDYHILTRKRIRYRFRRFIQQFSQCKATARNL    250
+
+AF-B7FAC9-F1      19 KLTWILSLLLILVA-ATQVHGVSPPGFLNVDCGLTNRSTYNDTDTTLTYV     67
+                     ||.::::|..:..| .|:...|..||     .|.:....:    .|:...
+AF-O60674-F1     251 KLKYLINLETLQSAFYTEKFEVKEPG-----SGPSGEEIF----ATIIIT    291
+
+AF-B7FAC9-F1      68 SDREFVES-GKSYDIMAQYMADATNEQEKTLR-SFPDGQRNCYTLPTNSS    115
+                     .:.....| ||..:      ::...||:..|. .||:             
+AF-O60674-F1     292 GNGGIQWSRGKHKE------SETLTEQDLQLYCDFPN-------------    322
+
+AF-B7FAC9-F1     116 KKYLIRATFTYGNYDGLNSSEKGSLFIFGLHIGVNFWTTVNLTKWDPSST    165
+                        :|..:....|.:|.|.|.                 .|.:.|.|    
+AF-O60674-F1     323 ---IIDVSIKQANQEGSNESR-----------------VVTIHKQD----    348
+
+AF-B7FAC9-F1     166 VWKEVITVAPDKSVSVCLINMGSGTPFISTLD------------------    197
+                               .|::.:.|.::.....|:|.:|                  
+AF-O60674-F1     349 ----------GKNLEIELSSLREALSFVSLIDGYYRLTADAHHYLCKEVA    388
+
+AF-B7FAC9-F1     198 ----LRPLQDTMYPFVNASTSVSYFSRIRFGSVDEYITRFPTDQYDRFW-    242
+                         |..:|...:..::...::|...:.. .....|:.|.....::::: 
+AF-O60674-F1     389 PPAVLENIQSNCHGPISMDFAISKLKKAG-NQTGLYVLRCSPKDFNKYFL    437
+
+AF-B7FAC9-F1     243 ------EGWVFTMHTFPWVNKSSNGKVAELPNIDTFGLPPAILGSASTIN    286
+                           |..:...|..  :.|:.|         :.:.|        |...
+AF-O60674-F1     438 TFAVERENVIEYKHCL--ITKNEN---------EEYNL--------SGTK    468
+
+AF-B7FAC9-F1     287 GNFSWL---------------------------------NISVSASNSLA    303
+                     .|||.|                                 |:.|..:|.: 
+AF-O60674-F1     469 KNFSSLKDLLNCYQMETVRSDNIIFQFTKCCPPKPKDKSNLLVFRTNGV-    517
+
+AF-B7FAC9-F1     304 TDLELLP-----------VFHFVELGNNGSKRIFD-IYNVDEPQALFSNF    341
+                     :|:...|           |||.:        |..| |:|....|..|:. 
+AF-O60674-F1     518 SDVPTSPTLQRPTHMNQMVFHKI--------RNEDLIFNESLGQGTFTK-    558
+
+AF-B7FAC9-F1     342 SPPSFLSSMFHNWFLRKGRRA----YFQLRKTPDSQLPPLINAYEVYSRV    387
+                                   :.||.|.    |.||.:| :..|..|..|:..||  
+AF-O60674-F1     559 --------------IFKGVRREVGDYGQLHET-EVLLKVLDKAHRNYS--    591
+
+AF-B7FAC9-F1     388 QVENFTTASSDVDSMKTIKEKYMVIKNWNGDPCSP-----REYIWNGLTC    432
+                       |:|..|:|   .|..:..|::|: |:....|..     :|::..|...
+AF-O60674-F1     592 --ESFFEAAS---MMSKLSHKHLVL-NYGVCVCGDENILVQEFVKFGSLD    635
+
+AF-B7FAC9-F1     433 TYPNGGQNPRIVEINLSGSGLQGELEIS---FMKMSSLKKLDLSHNNL--    477
+                     ||....:|.    ||     :..:||::   ...|..|::..|.|.|:  
+AF-O60674-F1     636 TYLKKNKNC----IN-----ILWKLEVAKQLAWAMHFLEENTLIHGNVCA    676
+
+AF-B7FAC9-F1     478 ------------TGTIPDYQVN----SLTVIDLSNNQLNGSIPDSILQRY    511
+                                 ||..|..:::    |:||           :|..|||. 
+AF-O60674-F1     677 KNILLIREEDRKTGNPPFIKLSDPGISITV-----------LPKDILQE-    714
+
+AF-B7FAC9-F1     512 KAGLLELRLEG-NPICSKVRASYCGNKKNTRTRILLISVLVPVTSLLVVL    560
+                            |:.. .|.|.:       |.||       :::.....|....|
+AF-O60674-F1     715 -------RIPWVPPECIE-------NPKN-------LNLATDKWSFGTTL    743
+
+AF-B7FAC9-F1     561 FIFWRLCWKGK---SRKSEEEDYDMYEEETPLHIDIRRFTYAELKLITNN    607
+                        |.:|..|.   |....:.....||:...|...    .:|||..:.||
+AF-O60674-F1     744 ---WEICSGGDKPLSALDSQRKLQFYEDRHQLPAP----KWAELANLINN    786
+
+AF-B7FAC9-F1     608 -----------FQSII----------------------------------    612
+                                |::||                                  
+AF-O60674-F1     787 CMDYEPDFRPSFRAIIRDLNSLFTPDYELLTENDMLPNMRIGALGFSGAF    836
+
+AF-B7FAC9-F1     613 -------------------GKGGFGTV----YHGILENNDE-VAVKVLVE    638
+                                        |||.||:|    |..:.:|..| ||||.|..
+AF-O60674-F1     837 EDRDPTQFEERHLKFLQQLGKGNFGSVEMCRYDPLQDNTGEVVAVKKLQH    886
+
+AF-B7FAC9-F1     639 TSIAESKDFLPEVQTLSKVHHKNLVALVGYCQN--KKCLALVYDFMPRGN    686
+                     ::....:||..|::.|..:.|.|:|...|.|.:  ::.|.|:.:::|.|:
+AF-O60674-F1     887 STEEHLRDFEREIEILKSLQHDNIVKYKGVCYSAGRRNLKLIMEYLPYGS    936
+
+AF-B7FAC9-F1     687 LQQLLRGGYDSLNWEERLHIALDAAQGLEYLHESCTPSIVHRDVKTPNIL    736
+                     |:..|:...:.::..:.|.......:|:|||.   |...:|||:.|.|||
+AF-O60674-F1     937 LRDYLQKHKERIDHIKLLQYTSQICKGMEYLG---TKRYIHRDLATRNIL    983
+
+AF-B7FAC9-F1     737 LDKNLVAKISDFGLSRAF--NAAHTHISTVAAGTLGYLDPEYHATFQLTV    784
+                     ::.....||.||||::..  :..:..:.......:.:..||.....:.:|
+AF-O60674-F1     984 VENENRVKIGDFGLTKVLPQDKEYYKVKEPGESPIFWYAPESLTESKFSV   1033
+
+AF-B7FAC9-F1     785 KTDVYSFGIVLLEIVT------GQPPVFMDPQTVHLPNWVRQKIANGSVH    828
+                     .:||:|||:||.|:.|      ..|..||            :.|.|    
+AF-O60674-F1    1034 ASDVWSFGVVLYELFTYIEKSKSPPAEFM------------RMIGN----   1067
+
+AF-B7FAC9-F1     829 DVVDKKLLDQYDATHLQTVIDLAMNCLENASIDRPS--MTEVVSVLKVC-    875
+                        ||:  .|....||   |:|..|   |..:.||.  ..|:..::..| 
+AF-O60674-F1    1068 ---DKQ--GQMIVFHL---IELLKN---NGRLPRPDGCPDEIYMIMTECW   1106
+
+AF-B7FAC9-F1     876 --------------LPISSERQSATSTPRKKNVMDAEIPRQFQLMISGAS    911
+                                   |.:...|.:...                        
+AF-O60674-F1    1107 NNNVNQRPSFRDLALRVDQIRDNMAG------------------------   1132
+
+AF-B7FAC9-F1     912 TTSYEGSSFQSGYTGGVSEISHISGR    937
+                                               
+AF-O60674-F1    1132 --------------------------   1132
+
+
+#---------------------------------------
+#---------------------------------------

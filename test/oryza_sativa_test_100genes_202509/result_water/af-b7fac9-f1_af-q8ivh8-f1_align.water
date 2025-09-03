@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:10
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q8ivh8-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q8ivh8-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q8ivh8-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q8IVH8-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 252
+# Identity:      68/252 (27.0%)
+# Similarity:   110/252 (43.7%)
+# Gaps:          61/252 (24.2%)
+# Score: 201.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     572 SRKSEEEDYDMYEEETPLHIDIRRFTYAELKLITNNFQSIIGKGGFGTVY    621
+                     ||::.:||:::.:.                          ||.|.:|.||
+AF-Q8IVH8-F1       8 SRRNPQEDFELIQR--------------------------IGSGTYGDVY     31
+
+AF-B7FAC9-F1     622 HGILENNDEV-AVKVLVETSIAESKDFL---PEVQTLSKVHHKNLVALVG    667
+                     .....|..|: |:||:   .:...:||.   .|:..:....|.|:||..|
+AF-Q8IVH8-F1      32 KARNVNTGELAAIKVI---KLEPGEDFAVVQQEIIMMKDCKHPNIVAYFG     78
+
+AF-B7FAC9-F1     668 YCQNKKCLALVYDFMPRGNLQQL--LRGGYDSLNWEERLHIALDAAQGLE    715
+                     ....:..|.:..:|...|:||.:  :.|....|   :..:::.:..|||.
+AF-Q8IVH8-F1      79 SYLRRDKLWICMEFCGGGSLQDIYHVTGPLSEL---QIAYVSRETLQGLY    125
+
+AF-B7FAC9-F1     716 YLHESCTPSIVHRDVKTPNILLDKNLVAKISDFGLSRAFNAAHTHISTVA    765
+                     |||   :...:|||:|..||||..|...|::|||:|....|      |:|
+AF-Q8IVH8-F1     126 YLH---SKGKMHRDIKGANILLTDNGHVKLADFGVSAQITA------TIA    166
+
+AF-B7FAC9-F1     766 -----AGTLGYLDPEYHAT------FQLTVKTDVYSFGIVLLEIVTGQPP    804
+                          .||..::.||..|.      .||   .|:::.||..:|:...|||
+AF-Q8IVH8-F1     167 KRKSFIGTPYWMAPEVAAVERKGGYNQL---CDLWAVGITAIELAELQPP    213
+
+AF-B7FAC9-F1     805 VF    806
+                     :|
+AF-Q8IVH8-F1     214 MF    215
+
+
+#---------------------------------------
+#---------------------------------------

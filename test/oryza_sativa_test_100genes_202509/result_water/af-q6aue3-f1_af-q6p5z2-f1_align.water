@@ -1,0 +1,61 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:47
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q6p5z2-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-q6p5z2-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-q6p5z2-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-Q6P5Z2-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 298
+# Identity:      81/298 (27.2%)
+# Similarity:   128/298 (43.0%)
+# Gaps:          77/298 (25.8%)
+# Score: 228.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      77 VIAQGTYGTV----YRGTYDGQDVAVKLLDWGEDGFATEAETAALRTSFK    122
+                     |:.:|.:|.|    ::||  |:..|:|.|.                   |
+AF-Q6P5Z2-F1     564 VLGRGHFGKVLLVQFKGT--GKYYAIKALK-------------------K    592
+
+AF-Q6AUE3-F1     123 QEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTNLPARAC---    169
+                     |||....::......|.:..::|.|           |....|...||   
+AF-Q6P5Z2-F1     593 QEVLSRDEIESLYCEKRILEAVGCT-----------GHPFLLSLLACFQT    631
+
+AF-Q6AUE3-F1     170 ----CVVVEYLAGGTLKQYLIKN---SRRKLAYKVVVQLALDLARGLSYL    212
+                         |.|.|::.||.|...:.::   ..:...|...|.|      ||.:|
+AF-Q6P5Z2-F1     632 SSHACFVTEFVPGGDLMMQIHEDVFPEPQARFYVACVVL------GLQFL    675
+
+AF-Q6AUE3-F1     213 HSRKIVHRDVKTENMLLDTQRNLKIADFGVARVEAQNPKDMTGA-TGTLG    261
+                     |.:||::||:|.:|:|||.|..|||||||:.: |.....|.|.. .||..
+AF-Q6P5Z2-F1     676 HEKKIIYRDLKLDNLLLDAQGFLKIADFGLCK-EGIGFGDRTSTFCGTPE    724
+
+AF-Q6AUE3-F1     262 YMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDMPYPDLSFADVSSAVVHQ    311
+                     ::|||||..:.|.|..|.:..|:.|:|:...:.|:|..:..:|...:|:.
+AF-Q6P5Z2-F1     725 FLAPEVLTQEAYTRAVDWWGLGVLLYEMLVGECPFPGDTEEEVFDCIVNM    774
+
+AF-Q6AUE3-F1     312 NLRPDVPRCCPSAFA--------NIMRKCWDANPDKR-----PDMDEV    346
+                         |.|  .|...:        .:::||    |:||     .|.:|:
+AF-Q6P5Z2-F1     775 ----DAP--YPGFLSVQGLEFIQKLLQKC----PEKRLGAGEQDAEEI    812
+
+
+#---------------------------------------
+#---------------------------------------

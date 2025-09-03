@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:31:13
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-b7fac9-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-q13308-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-b7fac9-f1_af-q13308-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-b7fac9-f1_af-q13308-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B7FAC9-F1
+# 2: AF-Q13308-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 339
+# Identity:      81/339 (23.9%)
+# Similarity:   145/339 (42.8%)
+# Gaps:          58/339 (17.1%)
+# Score: 230.0
+# 
+#
+#=======================================
+
+AF-B7FAC9-F1     567 CWKGKSRKSEEEDYDMYEE-------ETPLHIDIRRFTYAELKLITNNFQ    609
+                     |..|...::.:...::.||       ..|...:.|..|..::....::.|
+AF-Q13308-F1     748 CLNGGPLQNGQPSAEIQEEVALTSLGSGPAATNKRHSTSDKMHFPRSSLQ    797
+
+AF-B7FAC9-F1     610 SI--IGKGGFGTVYHGILENNDEVAVKVLVETSIAESK------DFLPEV    651
+                     .|  :||..||.|:....:..:|...:.||.....:||      ||..|:
+AF-Q13308-F1     798 PITTLGKSEFGEVFLAKAQGLEEGVAETLVLVKSLQSKDEQQQLDFRREL    847
+
+AF-B7FAC9-F1     652 QTLSKVHHKNLVALVGYCQNKKCLALVYDFMPRGNLQQLLRGGYDS----    697
+                     :...|::|.|:|.|:|.|:..:...:|.:::..|:|:|.||.....    
+AF-Q13308-F1     848 EMFGKLNHANVVRLLGLCREAEPHYMVLEYVDLGDLKQFLRISKSKDEKL    897
+
+AF-B7FAC9-F1     698 ----LNWEERLHIALDAAQGLEYLHESCTPSIVHRDVKTPNILLDKNLVA    743
+                         |:.::::.:....|.|:|:|..:   ..||:|:...|.|:......
+AF-Q13308-F1     898 KSQPLSTKQKVALCTQVALGMEHLSNN---RFVHKDLAARNCLVSAQRQV    944
+
+AF-B7FAC9-F1     744 KISDFGLSR-AFNAAHTHISTVAAGTLGYLDPEYHATFQLTVKTDVYSFG    792
+                     |:|..|||: .:|:.:.|... |...|.::.||.......:.|:||::||
+AF-Q13308-F1     945 KVSALGLSKDVYNSEYYHFRQ-AWVPLRWMSPEAILEGDFSTKSDVWAFG    993
+
+AF-B7FAC9-F1     793 IVLLEIVT-GQPPVFMDPQTVHLPNWVRQKIANGSVHDVVDKKLLD-QYD    840
+                     :::.|:.| |:.|                   :|...|  |:.|.| |..
+AF-Q13308-F1     994 VLMWEVFTHGEMP-------------------HGGQAD--DEVLADLQAG   1022
+
+AF-B7FAC9-F1     841 ATHL-------QTVIDLAMNCLENASIDRPSMTEVVSVL    872
+                     ...|       ..:..|...|...:..||||.:|:.|.|
+AF-Q13308-F1    1023 KARLPQPEGCPSKLYRLMQRCWALSPKDRPSFSEIASAL   1061
+
+
+#---------------------------------------
+#---------------------------------------

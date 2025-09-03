@@ -1,0 +1,73 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:29:47
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q75j49-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o15021-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q75j49-f1_af-o15021-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q75j49-f1_af-o15021-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q75J49-F1
+# 2: AF-O15021-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 402
+# Identity:      95/402 (23.6%)
+# Similarity:   152/402 (37.8%)
+# Gaps:         128/402 (31.8%)
+# Score: 212.0
+# 
+#
+#=======================================
+
+AF-Q75J49-F1       6 SDIPE--------GREKLKRSGSLGSSDTAYVRADKID--LTSLDIQLEK     45
+                     :|||.        .::.|:....||:.|:......:.|  ::|       
+AF-O15021-F1     512 TDIPRYIISQLGLNKDPLEEMAHLGNYDSGTAETPETDESVSS-------    554
+
+AF-Q75J49-F1      46 QLTKTWGKANLKAHGPKEDWEIDLAKLEIRYVIAQGTYGTVY--RGTYDG     93
+                           ..|:||......:.:.:..||     |:.|.||.||  |.....
+AF-O15021-F1     555 ------SNASLKLRRKPRESDFETIKL-----ISNGAYGAVYFVRHKESR    593
+
+AF-Q75J49-F1      94 QDVAVKLLDWGEDGFATEAETAALRTSFKQ---EVAVWHKLSHPNVTKFV    140
+                     |..|:|.::         .:...||...:|   |..:.....:|.|....
+AF-O15021-F1     594 QRFAMKKIN---------KQNLILRNQIQQAFVERDILTFAENPFVVSMY    634
+
+AF-Q75J49-F1     141 GASMGTTDLKIPTNNSNAGARTNLPARACCVVVEYLAGGTLKQYLIKNSR    190
+                      .|..|                   .|..|:|:||:.||.... |:||  
+AF-O15021-F1     635 -CSFET-------------------RRHLCMVMEYVEGGDCAT-LMKN--    661
+
+AF-Q75J49-F1     191 RKLAYKVVVQLALDLAR--------GLSYLHSRKIVHRDVKTENMLLDTQ    232
+                            :..|.:|:||        .|.|||:..|||||:|.:|:|:.:.
+AF-O15021-F1     662 -------MGPLPVDMARMYFAETVLALEYLHNYGIVHRDLKPDNLLVTSM    704
+
+AF-Q75J49-F1     233 RNLKIADFGVARV----------EAQNPKDM-----TGATGTLGYMAPEV    267
+                     .::|:.|||:::|          |....||.     ....||..|:||||
+AF-O15021-F1     705 GHIKLTDFGLSKVGLMSMTTNLYEGHIEKDAREFLDKQVCGTPEYIAPEV    754
+
+AF-Q75J49-F1     268 LDGKPYNRKCDVYSFGICLWEIYCCDMPYPDLSFADVSSAVVHQNLRPDV    317
+                     :..:.|.:..|.::.||.|:|.....:|:    |.|....:..|.:..::
+AF-O15021-F1     755 ILRQGYGKPVDWWAMGIILYEFLVGCVPF----FGDTPEELFGQVISDEI    800
+
+AF-Q75J49-F1     318 PRCCPSAFANIMRKCWDANPDK----RPDMDEVVQL------LEALDTSK    357
+                     .              |   |:|    .||..:::.|      ||.|.|  
+AF-O15021-F1     801 N--------------W---PEKDEAPPPDAQDLITLLLRQNPLERLGT--    831
+
+AF-Q75J49-F1     358 GG    359
+                     ||
+AF-O15021-F1     832 GG    833
+
+
+#---------------------------------------
+#---------------------------------------

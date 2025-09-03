@@ -1,0 +1,145 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:24
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0d554-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p19823-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0d554-f1_af-p19823-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0d554-f1_af-p19823-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0D554-F1
+# 2: AF-P19823-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1332
+# Identity:      70/1332 ( 5.3%)
+# Similarity:   126/1332 ( 9.5%)
+# Gaps:        1060/1332 (79.6%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P19823-F1       1 MKRLTCFFICFFLSEVSGFEIPINGLSEFVDYEDLVELAPGKFQLVAENR     50
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P19823-F1      51 RYQRSLPGESEEMMEEVDQVTLYSYKVQSTITSRMATTMIQSKVVNNSPQ    100
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P19823-F1     101 PQNVVFDVQIPKGAFISNFSMTVDGKTFRSSIKEKTVGRALYAQARAKGK    150
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P19823-F1     151 TAGLVRSSALDMENFRTEVNVLPGAKVQFELHYQEVKWRKLGSYEHRIYL    200
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P19823-F1     201 QPGRLAKHLEVDVWVIEPQGLRFLHVPDTFEGHFDGVPVISKGQQKAHVS    250
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P19823-F1     251 FKPTVAQQRICPNCRETAVDGELVVLYDVKREEKAGELEVFNGYFVHFFA    300
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P19823-F1     301 PDNLDPIPKNILFVIDVSGSMWGVKMKQTVEAMKTILDDLRAEDHFSVID    350
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P19823-F1     351 FNQNIRTWRNDLISATKTQVADAKRYIEKIQPSGGTNINEALLRAIFILN    400
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P19823-F1     401 EANNLGLLDPNSVSLIILVSDGDPTVGELKLSKIQKNVKENIQDNISLFS    450
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P19823-F1     451 LGMGFDVDYDFLKRLSNENHGIAQRIYGNQDTSSQLKKFYNQVSTPLLRN    500
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P19823-F1     501 VQFNYPHTSVTDVTQNNFHNYFGGSEIVVAGKFDPAKLDQIESVITATSA    550
+
+AF-Q0D554-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P19823-F1     551 NTQLVLETLAQMDDLQDFLSKDKHADPDFTRKLWAYLTINQLLAERSLAP    600
+
+AF-Q0D554-F1       1 -----------------------------MESGQPNSAAAADKTQNSSVP     21
+                                                  :|:      .|.|:...:..|
+AF-P19823-F1     601 TAAAKRRITRSILQMSLDHHIVTPLTSLVIEN------EAGDERMLADAP    644
+
+AF-Q0D554-F1      22 PVE-GVAGGGTSYGWVDGGLQASSLGNGAIDPTKIHSADLLHVWSMPSTA     70
+                     |.: ....|...||             ..:.|....|      |:.||..
+AF-P19823-F1     645 PQDPSCCSGALYYG-------------SKVVPDSTPS------WANPSPT    675
+
+AF-Q0D554-F1      71 NV-------SQQEAPRPLEHVNLLAARNERESFQIALRPKVSWATSGIAG    113
+                     .|       ||.....|..||    .|.|.:...|...||          
+AF-P19823-F1     676 PVISMLAQGSQVLESTPPPHV----MRVENDPHFIIYLPK----------    711
+
+AF-Q0D554-F1     114 SVQVQCTDLCSSAGDRLVVGQSVTLRRVVPMLGVPDALVPIDPLNSQINL    163
+                     |.:..|.::.|..|            :::.::..|::.:.:   |.|:  
+AF-P19823-F1     712 SQKNICFNIDSEPG------------KILNLVSDPESGIVV---NGQL--    744
+
+AF-Q0D554-F1     164 LPGETSAIWVSLNVPCGQQPGLYEGEI--FISAVRAEAESRGESLTKS--    209
+                              |....|...:...|.|::  :..:...:.|...|::|.|  
+AF-P19823-F1     745 ---------VGAKKPNNGKLSTYFGKLGFYFQSEDIKIEISTETITLSHG    785
+
+AF-Q0D554-F1     210 ----------------ERYQLYKELRNCIDITEPRDYSSSEEMVQRLTSA    243
+                                     :|.|:..:....:.||..::.|.| .::.|:...
+AF-P19823-F1     786 SSTFSLSWSDTAQVTNQRVQISVKKEKVVTITLDKEMSFS-VLLHRVWKK    834
+
+AF-Q0D554-F1     244 STTLRRMLAL---PSFQDCQENNGL-GDMMDE---DIMN----NVAVRLK    282
+                     .......|.:   |:.:...:.:|| |..|.|   .|.|    ....:.:
+AF-P19823-F1     835 HPVNVDFLGIYIPPTNKFSPKAHGLIGQFMQEPKIHIFNERPGKDPEKPE    884
+
+AF-Q0D554-F1     283 LSLTVWDFTLPLTPSL------PAVFGISETVIEDRFCLEHGTKGWYDAL    326
+                     .|:.|....|.:|..|      ..|||...|.    :.:.:..||:   :
+AF-P19823-F1     885 ASMEVKGQKLIITRGLQKDYRTDLVFGTDVTC----WFVHNSGKGF---I    927
+
+AF-Q0D554-F1     327 DHHFRWLLQYRISPFFCRWGDSMRILAYTCPWPADHPKAKEYYSDPRLAA    376
+                     |.|::.....::..|..|.                               
+AF-P19823-F1     928 DGHYKDYFVPQLYSFLKRP-------------------------------    946
+
+AF-Q0D554-F1     377 YAVPYAPILSSTDAAKNSLRREVEILKSEAHWSKSYFYLWDEPLNMEQYD    426
+                                                                       
+AF-P19823-F1     946 --------------------------------------------------    946
+
+AF-Q0D554-F1     427 VICSISNELRSYASDVRILTTYYCGPSGSELAPSTFEAFVKVPNVLRPHT    476
+                                                                       
+AF-P19823-F1     946 --------------------------------------------------    946
+
+AF-Q0D554-F1     477 QIFCTSEWVLGTREDLVKDIVAELRPDLGEEWWTYVCMGPSDPQPNWHLG    526
+                                                                       
+AF-P19823-F1     946 --------------------------------------------------    946
+
+AF-Q0D554-F1     527 MRGTQHRAVMWRVWKEGGTGFLYWGTNCYEKAMIPSAEICFRRGLPPGDG    576
+                                                                       
+AF-P19823-F1     946 --------------------------------------------------    946
+
+AF-Q0D554-F1     577 VLFYPGEVFSSSHEPVASTRLERILSGMQDIEYLKLYSSRYGREEGLALL    626
+                                                                       
+AF-P19823-F1     946 --------------------------------------------------    946
+
+AF-Q0D554-F1     627 EKTGVYLGPDRYALDHGPIDVMRGEVYRTCRS    658
+                                                     
+AF-P19823-F1     946 --------------------------------    946
+
+
+#---------------------------------------
+#---------------------------------------

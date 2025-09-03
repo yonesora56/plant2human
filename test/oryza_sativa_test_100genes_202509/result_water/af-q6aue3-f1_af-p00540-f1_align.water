@@ -1,0 +1,65 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:30:19
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q6aue3-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-p00540-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q6aue3-f1_af-p00540-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q6aue3-f1_af-p00540-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q6AUE3-F1
+# 2: AF-P00540-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 320
+# Identity:      87/320 (27.2%)
+# Similarity:   144/320 (45.0%)
+# Gaps:          54/320 (16.9%)
+# Score: 282.5
+# 
+#
+#=======================================
+
+AF-Q6AUE3-F1      64 DWEIDLAKLEIRYVIAQGTYGTVYRGTYDGQDVAVKLLDWGEDGFATEAE    113
+                     |||    ::.:...:..|.:|:||:.||.|..||:|.::      .....
+AF-P00540-F1      56 DWE----QVCLLQRLGAGGFGSVYKATYRGVPVAIKQVN------KCTKN     95
+
+AF-Q6AUE3-F1     114 TAALRTSFKQEVAVWHKLSHPNVTKFVGASMGTTDLKIPTNNSNAGARTN    163
+                     ..|.|.||..|:.| .:|.|.|:.:.|.||..|     |..:::.|.   
+AF-P00540-F1      96 RLASRRSFWAELNV-ARLRHDNIVRVVAASTRT-----PAGSNSLGT---    136
+
+AF-Q6AUE3-F1     164 LPARACCVVVEYLAGGTLKQYLIK--------------NSRRKLAYKVVV    199
+                            :::|:....||.|.:..              .:..:|:....:
+AF-P00540-F1     137 -------IIMEFGGNVTLHQVIYGAAGHPEGDAGEPHCRTGGQLSLGKCL    179
+
+AF-Q6AUE3-F1     200 QLALDLARGLSYLHSRKIVHRDVKTENMLLDTQRNLKIADFGVA-RVE--    246
+                     :.:||:..||.:|||:.|||.|:|..|:|:..|...||:|||.: ::|  
+AF-P00540-F1     180 KYSLDVVNGLLFLHSQSIVHLDLKPANILISEQDVCKISDFGCSEKLEDL    229
+
+AF-Q6AUE3-F1     247 --AQNPKDMTGATGTLGYMAPEVLDGKPYNRKCDVYSFGICLWEIYCCDM    294
+                       .|.|....|  ||..:.|||:|.|:....|.|:|||.|.||::.....
+AF-P00540-F1     230 LCFQTPSYPLG--GTYTHRAPELLKGEGVTPKADIYSFAITLWQMTTKQA    277
+
+AF-Q6AUE3-F1     295 PYPDLSFADVSSAVVHQNLRPDVPRCC------PSAFANIMRKCWDANPD    338
+                     ||.. ....:..|||..:|||.:....      .....:::::||..:..
+AF-P00540-F1     278 PYSG-ERQHILYAVVAYDLRPSLSAAVFEDSLPGQRLGDVIQRCWRPSAA    326
+
+AF-Q6AUE3-F1     339 KRPDMDEVVQLLEALDTSKG    358
+                     :||....::..|.:|....|
+AF-P00540-F1     327 QRPSARLLLVDLTSLKAELG    346
+
+
+#---------------------------------------
+#---------------------------------------

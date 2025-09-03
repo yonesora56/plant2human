@@ -1,0 +1,57 @@
+########################################
+# Program: water
+# Rundate: Wed  3 Sep 2025 19:32:00
+# Commandline: water
+#    -asequence /var/lib/cwl/stg3c511ba3-e08e-413b-b166-9a3fadfdb88b/split_fasta_query_species/af-q0j381-f1.fasta
+#    -bsequence /var/lib/cwl/stg9db1d05d-9301-4e79-8ad5-4a1aee38ab5b/split_fasta_hit_species/af-o60662-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_water/af-q0j381-f1_af-o60662-f1_align.water
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_water/af-q0j381-f1_af-o60662-f1_align.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0J381-F1
+# 2: AF-O60662-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 222
+# Identity:      46/222 (20.7%)
+# Similarity:    83/222 (37.4%)
+# Gaps:          28/222 (12.6%)
+# Score: 127.5
+# 
+#
+#=======================================
+
+AF-Q0J381-F1       5 AGTWVKLEQKGDGPGARSSHAITLVGGTAYAFGG-EFTPRVPVDNAMYAF     53
+                     |..||.|...   |.||....:..|....|...| :......:|:.: .:
+AF-O60662-F1     375 ASEWVGLPPL---PSARCLFGLGEVDDKIYVVAGKDLQTEASLDSVL-CY    420
+
+AF-Q0J381-F1      54 DLKSQCWSALDASGDVPPPRVGVTMASVGATVYMFGGRDQEHKELNELYS    103
+                     |..:..|:.:.   .:|....|..:.|....:|..||:..:.|..|.::.
+AF-O60662-F1     421 DPVAAKWNEVK---KLPIKVYGHNVISHKGMIYCLGGKTDDKKCTNRVFI    467
+
+AF-Q0J381-F1     104 FDTATNRWTLLSSGAGDGPPHRSYHSMVADAAGGGKVYVFGGCGDAGRLN    153
+                     |:.....|.       |..|.:...||...|...||:.:.||..:.|...
+AF-O60662-F1     468 FNPKKGDWK-------DLAPMKIPRSMFGVAVHKGKIVIAGGVTEDGLSA    510
+
+AF-Q0J381-F1     154 DLWAYDVAAGRWEALPSPGEACKPRGGPGLAVAGGKVWVVYG--------    195
+                     .:.|:|:...:|:.:.   |..:.|....|....|.::.:.|        
+AF-O60662-F1     511 SVEAFDLTTNKWDVMT---EFPQERSSISLVSLAGSLYAIGGFAMIQLES    557
+
+AF-Q0J381-F1     196 --FSGEELDDVHCYDPGTGAWS    215
+                       |:..|::|:..|:.....|:
+AF-O60662-F1     558 KEFAPTEVNDIWKYEDDKKEWA    579
+
+
+#---------------------------------------
+#---------------------------------------

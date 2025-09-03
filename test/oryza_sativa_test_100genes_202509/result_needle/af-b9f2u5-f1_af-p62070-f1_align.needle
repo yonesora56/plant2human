@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:11
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-b9f2u5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p62070-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-b9f2u5-f1_af-p62070-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-b9f2u5-f1_af-p62070-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-B9F2U5-F1
+# 2: AF-P62070-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 705
+# Identity:      46/705 ( 6.5%)
+# Similarity:    90/705 (12.8%)
+# Gaps:         526/705 (74.6%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+AF-B9F2U5-F1       1 MATATASRLAVPAPRTSPQAPGRRRPAAPLPSAPPRPRALSAAPRGRVVC     50
+                                                                       
+AF-P62070-F1       0 --------------------------------------------------      0
+
+AF-B9F2U5-F1      51 PAAPASSPASTTD-AGQDRLQKVPVSNIRNFSIIAHIDHGKSTLADKLLE     99
+                          .:.|...| :||::.:.|         ::.....|||.|      
+AF-P62070-F1       1 -----MAAAGWRDGSGQEKYRLV---------VVGGGGVGKSAL------     30
+
+AF-B9F2U5-F1     100 LTGTVQKREMKQQFLDNMDLERERGITIKLQAARMRYIMNDEPYCLNLID    149
+                        |:|  .::..|:.:.|...|...|       .:.:::|....|:::|
+AF-P62070-F1      31 ---TIQ--FIQSYFVTDYDPTIEDSYT-------KQCVIDDRAARLDILD     68
+
+AF-B9F2U5-F1     150 TPGHVDFSYEVSRSLAACEGALLVVDASQGVEAQTLANVY-----LALEN    194
+                     |.|..:|.....:.:...||.|||...:   :..:...:|     :....
+AF-P62070-F1      69 TAGQEEFGAMREQYMRTGEGFLLVFSVT---DRGSFEEIYKFQRQILRVK    115
+
+AF-B9F2U5-F1     195 DLEIIPVL---NKIDL------PGAEPDRVAQEIEEIIGMDCSNAIRCSA    235
+                     |.:..|::   ||.||      ...|..::|::: ::..|:.|..||.:.
+AF-P62070-F1     116 DRDEFPMILIGNKADLDHQRQVTQEEGQQLARQL-KVTYMEASAKIRMNV    164
+
+AF-B9F2U5-F1     236 KEGIGITEILDAIVTKI------PPPQNTAISP----LRALIFDSYYDPY    275
+                     .:..   ..|..::.|.      |.|:.|....    ...:||       
+AF-P62070-F1     165 DQAF---HELVRVIRKFQEQECPPSPEPTRKEKDKKGCHCVIF-------    204
+
+AF-B9F2U5-F1     276 RGVIVYFRVVDGSIKKGDKICFMASGKEYVADEIGVLSPNQMQVSELYAG    325
+                                                                       
+AF-P62070-F1     204 --------------------------------------------------    204
+
+AF-B9F2U5-F1     326 EVGYLSASIRSVADARVGDTITHSSKRAECALPGYSQATPMVFCGLFPID    375
+                                                                       
+AF-P62070-F1     204 --------------------------------------------------    204
+
+AF-B9F2U5-F1     376 ADQFEELREALEKLQLNDAALKAVTRFSMQFEPESSSAMGFGFRCGFLGL    425
+                                                                       
+AF-P62070-F1     204 --------------------------------------------------    204
+
+AF-B9F2U5-F1     426 LHMEIVQERLEREYNLNLIITAPSVVYHVNLADGETVECSNPSLLPEPGK    475
+                                                                       
+AF-P62070-F1     204 --------------------------------------------------    204
+
+AF-B9F2U5-F1     476 RRSIEEPYVKIDMLTPKEYIGPIMELGQERRGEFKEMNFITENRASVVYE    525
+                                                                       
+AF-P62070-F1     204 --------------------------------------------------    204
+
+AF-B9F2U5-F1     526 LPLAEMVGDFFDQLKSRSKGYASMEYSLIGYRESNLVKLDIQINGDPVEA    575
+                                                                       
+AF-P62070-F1     204 --------------------------------------------------    204
+
+AF-B9F2U5-F1     576 LSTIVHRDKAYSVGRALTQKLKELIPRQMFRVPIQACIGAKVIASEALSA    625
+                                                                       
+AF-P62070-F1     204 --------------------------------------------------    204
+
+AF-B9F2U5-F1     626 IRKDVLSKCYGGDISRKKKLLKKQAEGKKRMKAIGRVDVPQEAFMAVLKL    675
+                                                                       
+AF-P62070-F1     204 --------------------------------------------------    204
+
+AF-B9F2U5-F1     676 EKEVL    680
+                          
+AF-P62070-F1     204 -----    204
+
+
+#---------------------------------------
+#---------------------------------------

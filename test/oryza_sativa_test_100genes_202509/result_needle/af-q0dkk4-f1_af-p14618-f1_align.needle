@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:27:30
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q0dkk4-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-p14618-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q0dkk4-f1_af-p14618-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q0dkk4-f1_af-p14618-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q0DKK4-F1
+# 2: AF-P14618-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 729
+# Identity:      61/729 ( 8.4%)
+# Similarity:    98/729 (13.4%)
+# Gaps:         515/729 (70.6%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+AF-Q0DKK4-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P14618-F1       1 MSKPHSEAGTAFIQTQQLHAAMADTFLEHMCRLDIDSPPITARNTGIICT     50
+
+AF-Q0DKK4-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P14618-F1      51 IGPASRSVETLKEMIKSGMNVARLNFSHGTHEYHAETIKNVRTATESFAS    100
+
+AF-Q0DKK4-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P14618-F1     101 DPILYRPVAVALDTKGPEIRTGLIKGSGTAEVELKKGATLKITLDNAYME    150
+
+AF-Q0DKK4-F1       0 --------------------------------------------------      0
+                                                                       
+AF-P14618-F1     151 KCDENILWLDYKNICKVVEVGSKIYVDDGLISLQVKQKGADFLVTEVENG    200
+
+AF-Q0DKK4-F1       1 --------------------------------------MAPPTARSLLAS     12
+                                                           |       :.||
+AF-P14618-F1     201 GSLGSKKGVNLPGAAVDLPAVSEKDIQDLKFGVEQDVDM-------VFAS    243
+
+AF-Q0DKK4-F1      13 HAAVRAAASARRGRLAGDHHPPQVAALRRGDWVKLICGASFEDAADVRNL     62
+                     ..           |.|.|.|..:.....:|..:|:|  :..|:...||..
+AF-P14618-F1     244 FI-----------RKASDVHEVRKVLGEKGKNIKII--SKIENHEGVRRF    280
+
+AF-Q0DKK4-F1      63 SLVYTLAGVDCIDCAADASVVGAVNEGIDVAASIV---------------     97
+                              |.|..|:|..:|...:.||::.|..|               
+AF-P14618-F1     281 ---------DEILEASDGIMVARGDLGIEIPAEKVFLAQKMMIGRCNRAG    321
+
+AF-Q0DKK4-F1      98 -PAVQRPWVMVSVNDDCRDLH-----FRKAEFDPEDCPPDCSKPCEKVCP    141
+                      |.:....::.|:....|...     ...|..|..||.....:..:...|
+AF-P14618-F1     322 KPVICATQMLESMIKKPRPTRAEGSDVANAVLDGADCIMLSGETAKGDYP    371
+
+AF-Q0DKK4-F1     142 ADAILLERVMIEEE-----HSQ------------SDPSCGKLEGGVITER    174
+                     .:|:.::.::..|.     |.|            |||:.....|.|  |.
+AF-P14618-F1     372 LEAVRMQHLIAREAEAAIYHLQLFEELRRLAPITSDPTEATAVGAV--EA    419
+
+AF-Q0DKK4-F1     175 CYGC-----------GRCLSVCPYDRIRA--MSYVRDP--AMTAELLK--    207
+                     .:.|           ||........|.||  ::..|:|  |..|.|.:  
+AF-P14618-F1     420 SFKCCSGAIIVLTKSGRSAHQVARYRPRAPIIAVTRNPQTARQAHLYRGI    469
+
+AF-Q0DKK4-F1     208 -------------RNDVDAIEIH---TTGKGTDMFN--------TLWSNL    233
+                                  ..||| :.::   ..||....|.        |.|...
+AF-P14618-F1     470 FPVLCKDPVQEAWAEDVD-LRVNFAMNVGKARGFFKKGDVVIVLTGWRPG    518
+
+AF-Q0DKK4-F1     234 GESINNVKLIAVSLPDVGDSTVNLMNAIYTTMQSHLQGYNLWQLDGRPMS    283
+                     ....|.::::.|.                                     
+AF-P14618-F1     519 SGFTNTMRVVPVP-------------------------------------    531
+
+AF-Q0DKK4-F1     284 GDIGRGATRETVSFAVHLSSMSNRPPGFYQLAGGTNSYTIESLKKAGLFQ    333
+                                                                       
+AF-P14618-F1     531 --------------------------------------------------    531
+
+AF-Q0DKK4-F1     334 STTFPGAATSGVTDCQQAFIGGIAYGGYARKIVGRVLRKIPAQFGHARIE    383
+                                                                       
+AF-P14618-F1     531 --------------------------------------------------    531
+
+AF-Q0DKK4-F1     384 DHPDYLLEALQEALSLVGPVKGYPTLPSL    412
+                                                  
+AF-P14618-F1     531 -----------------------------    531
+
+
+#---------------------------------------
+#---------------------------------------

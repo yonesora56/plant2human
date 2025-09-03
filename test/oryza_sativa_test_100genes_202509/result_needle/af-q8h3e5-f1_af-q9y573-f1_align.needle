@@ -1,0 +1,105 @@
+########################################
+# Program: needle
+# Rundate: Wed  3 Sep 2025 19:23:47
+# Commandline: needle
+#    -asequence /var/lib/cwl/stg17d2feb4-4d75-47be-ab31-3cb0b356466d/split_fasta_query_species/af-q8h3e5-f1.fasta
+#    -bsequence /var/lib/cwl/stgafc75956-ca8a-4425-9acf-081323b8052c/split_fasta_hit_species/af-q9y573-f1.fasta
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -outfile result_needle/af-q8h3e5-f1_af-q9y573-f1_align.needle
+#    -sprotein1
+#    -sprotein2
+#    -verbose
+# Align_format: srspair
+# Report_file: result_needle/af-q8h3e5-f1_af-q9y573-f1_align.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AF-Q8H3E5-F1
+# 2: AF-Q9Y573-F1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 807
+# Identity:      67/807 ( 8.3%)
+# Similarity:   110/807 (13.6%)
+# Gaps:         596/807 (73.9%)
+# Score: 132.0
+# 
+#
+#=======================================
+
+AF-Q8H3E5-F1       1 MGAGRACRGGPSSSSPAAAAAAVGRPFPPIAASCPFSSSSAAAAAPAAPS     50
+                                                                       
+AF-Q9Y573-F1       0 --------------------------------------------------      0
+
+AF-Q8H3E5-F1      51 ETASTSVTKTVNGSHHFKIAGYPLAKGIGVGKYIASECFTVGGYDWAIYF    100
+                                                                       
+AF-Q9Y573-F1       0 --------------------------------------------------      0
+
+AF-Q8H3E5-F1     101 YPDGKSPEDGAAYVSLFIALASEGTDVRALFELTLVDQSGKGQDKVHTHF    150
+                                                                       
+AF-Q9Y573-F1       0 --------------------------------------------------      0
+
+AF-Q8H3E5-F1     151 GRSLEGGPYTLKYRGSMWGYKRFFKRSALETSDYLKDDCLLVNCTVGVVQ    200
+                                                                      .
+AF-Q9Y573-F1       1 -------------------------------------------------M      1
+
+AF-Q8H3E5-F1     201 SHTEGPKIYTIPVPPSNMSQ----HIGQLLTDGKRTDITFEVDGEVFPAH    246
+                     ::.:.||....|......:|    .|.::.......|:..:|..|.|.||
+AF-Q9Y573-F1       2 ANEDCPKAADSPFSSDKHAQLILAQINKMRNGQHFCDVQLQVGQESFKAH     51
+
+AF-Q8H3E5-F1     247 KVVLAARSPVFRAQLFGPMKDKNMKRITIEDMEASVFKALLHFMYWDELP    296
+                     ::||||.||.|.|...|.||:.:...:.|..:||.:|:.||.|:|     
+AF-Q9Y573-F1      52 RLVLAASSPYFAALFTGGMKESSKDVVPILGIEAGIFQILLDFIY-----     96
+
+AF-Q8H3E5-F1     297 DIEELTGLNTTWVSTLMAQHLLAAADRYAL-ERLKLLCE-----------    334
+                          ||:....|:.:  |.|:.|||...| |.:.|.||           
+AF-Q9Y573-F1      97 -----TGIVNIGVNNV--QELIIAADMLQLTEVVHLCCEFLKGQIDPLNC    139
+
+AF-Q8H3E5-F1     335 ------------------------------------LKLCEDVAINTV-A    347
+                                                         |.|.:|..|..: :
+AF-Q9Y573-F1     140 IGIFQFSEQIACHDLLEFSENYIHVHFLEVHSGEEFLALTKDQLIKILRS    189
+
+AF-Q8H3E5-F1     348 NTLALAEQHHCY-------------QLKTVC-----LRFVALPEN--LKA    377
+                     ..|::.:::..:             :.|.|.     :||..||..  ||.
+AF-Q9Y573-F1     190 EELSIEDEYQVFLAAMQWILKDLGKRRKHVVEVLDPIRFPLLPPQRLLKY    239
+
+AF-Q8H3E5-F1     378 VMQTDGFDYLQQSCPSLLTELLEYVAKVGEHSVSPCLYSNEVLDGGDANG    427
+                     :.....|: |:.:..:||.|..|......|:.....|.::          
+AF-Q9Y573-F1     240 IEGVSDFN-LRVALQTLLKEYCEVCKSPKENKFCSFLQTS----------    278
+
+AF-Q8H3E5-F1     428 RRVKPRI-------------------------------------------    434
+                      :|:||.                                           
+AF-Q9Y573-F1     279 -KVRPRKKARKYLYAVGGYTRLQGGRWSDSRALSCVERFDTFSQYWTTVS    327
+
+AF-Q8H3E5-F1     434 --------------------------------------------------    434
+                                                                       
+AF-Q9Y573-F1     328 SLHQARSGLGVTVLGGMVYAIGGEKDSMIFDCTECYDPVTKQWTTVASMN    377
+
+AF-Q8H3E5-F1     434 --------------------------------------------------    434
+                                                                       
+AF-Q9Y573-F1     378 HPRCGLGVCVCYGAIYALGGWVGAEIGNTIERFDPDENKWEVVGNMAVSR    427
+
+AF-Q8H3E5-F1     434 --------------------------------------------------    434
+                                                                       
+AF-Q9Y573-F1     428 YYFGCCEMQGLIYVIGGISNEGIELRSFEVYDPLSKRWSPLPPMGTRRAY    477
+
+AF-Q8H3E5-F1     434 --------------------------------------------------    434
+                                                                       
+AF-Q9Y573-F1     478 LGVAALNDCIYSVGGWNETQDALHTVEKYSFEEEKWVEVASMKVPRAGMC    527
+
+AF-Q8H3E5-F1     434 --------------------------------------------------    434
+                                                                       
+AF-Q9Y573-F1     528 VVAVNGLLYVSGGRSSSHDFLAPGTLDSVEVYNPHSDTWTEIGNMITSRC    577
+
+AF-Q8H3E5-F1     434 -------    434
+                            
+AF-Q9Y573-F1     578 EGGVAVL    584
+
+
+#---------------------------------------
+#---------------------------------------
