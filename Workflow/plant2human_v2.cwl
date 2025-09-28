@@ -1,6 +1,7 @@
 #!/usr/bin/env cwl-runner
 cwlVersion: v1.2
 class: Workflow
+id: plant2human_v2
 label: "plant2human main workflow"
 doc: |
   "

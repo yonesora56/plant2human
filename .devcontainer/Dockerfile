@@ -52,6 +52,7 @@ RUN pip install \
     papermill==2.6.0 \
     pipx==1.7.1
 
+RUN pip install cwl2puml==0.29.0
 RUN pipx install benten==2021.1.5
 
 # Jupyter Notebook settings
