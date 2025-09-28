@@ -1,10 +1,10 @@
-# plant2human workflow
+# plant2human workflow 🌾 ↔ 🕺
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/yonesora56/plant2human/main)
 ![Status](https://img.shields.io/badge/status-development-yellow)
 [![cwltool](https://img.shields.io/badge/cwltool-3.1.20250110105449-success)](https://github.com/common-workflow-language/cwltool/releases/tag/3.1.20250110105449)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.1-brightgreen)](https://github.com/yonesora56/plant2human/releases/tag/v1.0.1)
+[![Version](https://img.shields.io/badge/version-2.0-brightgreen)](https://github.com/yonesora56/plant2human/releases/tag/v2.0)
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=python3.11&color=blue&logo=docker)](https://github.com/yonesora56/plant2human/tree/main/.devcontainer)
 [![X (@sorayone56)](https://img.shields.io/badge/X-sorayone56-black?style=flat&logo=x&logoColor=white)](https://x.com/sorayone56)
 
@@ -15,10 +15,10 @@ Based on the list of genes you are interested in, you can easily create a scatte
 
 &nbsp;
 
-## Report
+## 📣 Report 
 
-- 2025-02-02: fix `foldseek easy-search` command process
-- 2025-09-02: update `makeblstadb` command process
+- ✔ 2025-02-02: fix `foldseek easy-search` command process
+- ✔ 2025-09-02: update `makeblstadb` command process
 
 &nbsp;
 
@@ -34,7 +34,31 @@ In recent years, with the [AlphaFold protein structure database](https://alphafo
 
 ## Analysis Environment
 
-### **1. Using Dev Containers (Docker and VScode extension)**
+### Prerequisites
+
+- Docker
+- [`cwltool`](https://github.com/common-workflow-language/cwltool) >= 3.1.20250110105449
+
+&nbsp;
+
+### ⚠ Prerequisites (Python Environment)
+
+I've already checked python 3.11 and package version below. 
+Please install the following packages beforehand!
+
+```python3
+polars==1.17.1
+matplotlib==3.8.2
+seaborn==0.13.2
+unipressed==1.4.0
+papermill==2.6.0
+```
+
+Using “Devcontainers” makes it easy to reproduce your execution environment!
+
+&nbsp;
+
+### **Using Dev Containers (Docker and VScode extension)**
 
 Most processes, such as Foldseek, use container ([BioContainers](https://quay.io/organization/biocontainers)), but some involve processing with jupyter notebook, which requires the preparation of some python libraries (e.g., polars.).
 If you want to experiment with a simple workflow, you can create an analysis environment easily using [Dev Containers](./.devcontainer/devcontainer.json) system, a VScode extension.
@@ -46,33 +70,19 @@ Please check the official website for Dev Container details.
 
 &nbsp;
 
-### **2. Executing with cwltool**
+### The machine used for testing
 
-This analysis workflow is tested using [cwltool](https://github.com/common-workflow-language/cwltool) version 3.1.20250110105449.
-
-&nbsp;
-
-### **3. Python Environment**
-
-I've already checked python package version below.
-Using “Devcontainers” makes it easy to reproduce your execution environment.
-
-```python3
-python==3.11
-polars==1.17.1
-matplotlib==3.8.2
-seaborn==0.13.2
-unipressed==1.4.0
-papermill==2.6.0
-```
+- Machine: 🍎 MacBook Pro 🍎
+- Chip: Apple M3 Max
+- memory: 128 GB
 
 &nbsp;
 
 &nbsp;
 
-## Example 1 ( *Oryza sativa 100 genes* vs *Homo sapiens*)
+## 🌾 Example 1 ( *Oryza sativa 100 genes* vs *Homo sapiens*) 🌾
 
-Here, we will explain how to use the list of 10 rice genes as an example.
+Here, we will explain how to use the list of 100 rice genes as an example.
 
 &nbsp;
 
@@ -179,7 +189,7 @@ cwltool --debug --outdir ./index/ ./Tools/02_foldseek_database.cwl \
 --index_name swissprot \
 --threads 16
 ```
-**Note:**: urrently, this index creation process is not incorporated into the main analysis workflow (plant2human workflow). 
+**📝 Note:**: urrently, this index creation process is not incorporated into the main analysis workflow (plant2human workflow). 
 This is because the process requires network access, and maybe to be able to respond immediately if there are any changes to the tool requirements.
 
 &nbsp;
@@ -210,7 +220,7 @@ mv ../
 cwltool --debug --cachedir ./cwl_cache/ --outdir ./index/ ./Tools/14_makeblastdb_v2.cwl
 ```
 
-**Note:**: It is estimated to take 2 hours for creating index. We are currently investigating whether it can be executed by another method.
+**📝 Note 📝 :**: It is estimated to take 2 hours for creating index. We are currently investigating whether it can be executed by another method.
 
 &nbsp;
 
