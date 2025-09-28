@@ -19,6 +19,7 @@ Based on the list of genes you are interested in, you can easily create a scatte
 
 - ✔ 2025-02-02: fix `foldseek easy-search` command process
 - ✔ 2025-09-02: update `makeblstadb` command process
+- ✔ 2025-09-28: main workflow update! [plant2human_v2.cwl](Workflow/plant2human_v2.cwl)
 
 &nbsp;
 
@@ -226,7 +227,7 @@ cwltool --debug --cachedir ./cwl_cache/ --outdir ./index/ ./Tools/14_makeblastdb
 
 &nbsp;
 
-### 3. Execution of the [Main Workflow](./Workflow/plant2human.cwl)
+### 3. Execution of the [Main Workflow](./Workflow/plant2human_v2.cwl)
 
 In this process, we perform a structural similarity search using the `foldseek easy-search` command and then perform a pairwise alignment of the amino acid sequences of the hit pairs using the `needle` and `water` commands.
 Finally, based on this information, we create a scatter plot and output a [jupyter notebook](./test/oryza_sativa_test_100genes_202509/os_100_genes_plant2human_report.ipynb) as a report.
