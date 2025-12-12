@@ -24,7 +24,7 @@ inputs:
     default:
       class: File
       format: edam:format_3996
-      location: ../scripts/extract_target_species_v2.py
+      location: ../scripts/extract_target_species_v3.py
   - id: input_file
     label: "foldseek easy-search result"
     doc: "foldseek easy-search result"
