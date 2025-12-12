@@ -1,0 +1,31 @@
+createdb /var/lib/cwl/stgc7bcf898-9229-4de9-a01d-504da63d5e83/UP000005640_9606_HUMAN_v6.tar human_proteome_v6 --input-format 2 --write-mapping 1 --threads 16 
+
+MMseqs Version:        	9.427df8a
+Path to ProstT5        	
+Chain name mode        	0
+Write mapping file     	1
+Mask b-factor threshold	0
+Coord store mode       	2
+Write lookup file      	1
+Input format           	2
+File Inclusion Regex   	.*
+File Exclusion Regex   	^$
+Threads                	16
+Verbosity              	3
+
+Output file: human_proteome_v6
+[=================================================================] 1 0s 1ms
+Time for merging to human_proteome_v6_ss: 0h 0m 0s 14ms
+Time for merging to human_proteome_v6_h: 0h 0m 0s 3ms
+Time for merging to human_proteome_v6_ca: 0h 0m 0s 37ms
+Time for merging to human_proteome_v6: 0h 0m 0s 9ms
+Time for merging to human_proteome_v6_mapping_tmp: 0h 0m 0s 3ms
+Reordering by identifier
+Time for merging to human_proteome_v6_h: 0h 0m 0s 3ms
+Time for merging to human_proteome_v6_ss: 0h 0m 0s 9ms
+Time for merging to human_proteome_v6_ca: 0h 0m 0s 26ms
+Time for merging to human_proteome_v6: 0h 0m 0s 7ms
+Time for merging to human_proteome_v6_mapping_tmp: 0h 0m 0s 3ms
+Ignore 23586 out of 23586.
+Too short: 0, incorrect: 23586, not proteins: 0.
+Time for processing: 0h 0m 26s 820ms

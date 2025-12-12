@@ -1,0 +1,88 @@
+# ============================================================
+# YAML Parameter File for plant2human_v3_permissive.cwl
+# Species: Oryza sativa (Rice) 100 genes
+# Date: 2025-12-12
+# ============================================================
+
+# ---------- INPUT DIRECTORY ----------
+# Directory containing mmCIF structure files from AFDB
+INPUT_DIRECTORY:
+  class: Directory
+  location: ../test/oryza_sativa_test_100genes_202512/os_100_genes_mmcif/
+
+FILE_MATCH_PATTERN: "*.cif"
+
+# ---------- FOLDSEEK INDEX (Permissive Mode) ----------
+# Pre-built index from "foldseek databases" command
+FOLDSEEK_INDEX:
+  class: File
+  location: ../index/index_swiss_prot/swissprot
+  secondaryFiles:
+    - class: File
+      location: ../index/index_swiss_prot/swissprot_ca
+    - class: File
+      location: ../index/index_swiss_prot/swissprot_ca.dbtype
+    - class: File
+      location: ../index/index_swiss_prot/swissprot_ca.index
+    - class: File
+      location: ../index/index_swiss_prot/swissprot_h
+    - class: File
+      location: ../index/index_swiss_prot/swissprot_h.dbtype
+    - class: File
+      location: ../index/index_swiss_prot/swissprot_h.index
+    - class: File
+      location: ../index/index_swiss_prot/swissprot_mapping
+    - class: File
+      location: ../index/index_swiss_prot/swissprot_ss
+    - class: File
+      location: ../index/index_swiss_prot/swissprot_ss.dbtype
+    - class: File
+      location: ../index/index_swiss_prot/swissprot_ss.index
+    - class: File
+      location: ../index/index_swiss_prot/swissprot_taxonomy
+    - class: File
+      location: ../index/index_swiss_prot/swissprot.dbtype
+    - class: File
+      location: ../index/index_swiss_prot/swissprot.index
+    - class: File
+      location: ../index/index_swiss_prot/swissprot.lookup
+    - class: File
+      location: ../index/index_swiss_prot/swissprot.version
+
+# ---------- FOLDSEEK PARAMETERS ----------
+OUTPUT_FILE_NAME1: "foldseek_output_swissprot_os_100genes_evalue01_permissive.tsv"
+EVALUE: 0.1
+ALIGNMENT_TYPE: 2  # 2 = 3Di + AA (local alignment)
+THREADS: 16
+SPLIT_MEMORY_LIMIT: "120G"
+TAXONOMY_ID_LIST: "9606,10090,3702,4577,4529"
+
+# ---------- EXTRACT TARGET SPECIES ----------
+OUTPUT_FILE_NAME2: "foldseek_os_100genes_9606_permissive.tsv"
+
+# ---------- EXTRACT ID COLUMNS ----------
+WF_COLUMN_NUMBER_QUERY_SPECIES: 1
+OUTPUT_FILE_NAME_QUERY_SPECIES: "foldseek_result_query_species_permissive.txt"
+WF_COLUMN_NUMBER_HIT_SPECIES: 2
+OUTPUT_FILE_NAME_HIT_SPECIES: "foldseek_result_hit_species_permissive.txt"
+
+# ---------- BLAST INDEX ----------
+# Using default from sub-workflow (AFDB v6)
+# BLAST_INDEX_FILES: (using default)
+
+# ---------- TOGOID CONVERT ----------
+ROUTE_DATASET: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
+OUTPUT_FILE_NAME3: "foldseek_hit_species_togoid_convert_permissive.tsv"
+
+# ---------- PAPERMILL (Report Notebook) ----------
+OUT_NOTEBOOK_NAME: "os_100_genes_plant2human_report_permissive.ipynb"
+
+QUERY_IDMAPPING_TSV:
+  class: File
+  format: edam:format_3475
+  location: ../test/oryza_sativa_test_100genes_202512/os_100_genes_idmapping_all.tsv
+
+QUERY_GENE_LIST_TSV:
+  class: File
+  format: edam:format_3475
+  location: ../test/oryza_sativa_test_100genes_202512/oryza_sativa_random_100genes_list.tsv

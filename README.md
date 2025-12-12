@@ -17,7 +17,7 @@ Based on the list of genes you are interested in, you can easily create a scatte
 
 &nbsp;
 
-## 📣 Report 
+## 📣 Report
 
 - ✔ 2025-02-02: fix `foldseek easy-search` command process
 - ✔ 2025-09-02: update `makeblstadb` command process
@@ -27,7 +27,7 @@ Based on the list of genes you are interested in, you can easily create a scatte
 
 &nbsp;
 
-## Implementation Background
+## 🔧 Implementation Background
 
 In recent years, with the [AlphaFold protein structure database](https://alphafold.ebi.ac.uk/), it has become easier to obtain protein structure prediction data and perform structural similarity searches even for plant species such as rice. Against this background, searching for hits with **“low sequence similarity and high structural similarity”** for the gene groups being focused on has become possible. This approach may allow us to discover proteins that are conserved in distantly related species and to consider the characteristics of these proteins based on the wealth of knowledge we have about humans.
 
@@ -35,7 +35,7 @@ In recent years, with the [AlphaFold protein structure database](https://alphafo
 
 &nbsp;
 
-## Analysis Environment
+## 📈 Analysis Environment
 
 ### Prerequisites
 
@@ -85,7 +85,7 @@ Please check the official website for Dev Container details.
 
 &nbsp;
 
-## 🌾 Analysis Example ( *Oryza sativa* 100 genes vs *Homo sapiens*) 🌾
+## 🌾 Analysis Example ( *Oryza sativa subsp.japonica* 100 genes vs *Homo sapiens*) 🌾
 
 Here, we will explain how to use the list of 100 rice genes as an example.
 
@@ -377,7 +377,6 @@ Download URL: https://ftp.ebi.ac.uk/pub/databases/alphafold/sequences.fasta
 
 ```bash
 # Preparation for BLAST index
-mkdir cwl_cache
 cd ./index
 curl -O https://ftp.ebi.ac.uk/pub/databases/alphafold/sequences.fasta # AFDB version 6
 mv sequences_v6.fasta afdb_all_sequences_v6.fasta
@@ -389,7 +388,7 @@ cd ../
 ```bash
 # execute creation of BLAST index using "makeblastdb"
 # test date: 2025-12-12
-cwltool --debug --cachedir ./cwl_cache/ \
+cwltool --debug \
 --outdir ./index/ \
 ./Tools/03_makeblastdb.cwl \
 --index_dir_name index_uniprot_afdb_all_sequences_v6 \
@@ -407,7 +406,7 @@ We are currently investigating whether it can be executed by another method.
 
 ## 3. Execution of the `plant2human` workflow (main workflow)
 
-In this process, we perform a structural similarity search using the `foldseek easy-search` command and then perform a pairwise alignment of the amino acid sequences of the hit pairs using the `needle` and `water` commands.
+In this process, we perform a structural similarity search using the `foldseek easy-search` command and then perform a pairwise sequnence alignment of the amino acid sequences of the hit pairs using the `needle` and `water` commands.
 Finally, based on this information, we create a scatter plot and output a [jupyter notebook](./test/oryza_sativa_test_100genes_202509/os_100_genes_plant2human_report.ipynb) as a report.
 Examples of commands are as follows.
 

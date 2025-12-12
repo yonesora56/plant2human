@@ -1,0 +1,218 @@
+databases Alphafold/Swiss-Prot swissprot temp_db --threads 16 
+
+MMseqs Version:              	9.427df8a
+Tsv                          	false
+Force restart with latest tmp	false
+Remove temporary files       	false
+Compressed                   	0
+Threads                      	16
+Verbosity                    	3
+
+
+12/12 09:33:49 [[1;32mNOTICE[0m] Downloading 1 item(s)
+
+12/12 09:33:50 [[1;32mNOTICE[0m] CUID#7 - Redirecting to https://steineggerlab.s3.amazonaws.com/foldseek/afdb_swissprot.tar.gz
+[#6ee6de 0B/0B CN:1 DL:0B]
+[#6ee6de 0B/0B CN:1 DL:0B]
+[#6ee6de 0B/0B CN:1 DL:0B]
+[#6ee6de 0B/0B CN:1 DL:0B]
+[#6ee6de 0B/0B CN:1 DL:0B]
+
+12/12 09:33:56 [[1;32mNOTICE[0m] CUID#9 - Redirecting to https://steineggerlab.s3.amazonaws.com/foldseek/afdb_swissprot.tar.gz
+
+12/12 09:33:56 [[1;32mNOTICE[0m] CUID#10 - Redirecting to https://steineggerlab.s3.amazonaws.com/foldseek/afdb_swissprot.tar.gz
+
+12/12 09:33:56 [[1;32mNOTICE[0m] CUID#11 - Redirecting to https://steineggerlab.s3.amazonaws.com/foldseek/afdb_swissprot.tar.gz
+
+12/12 09:33:56 [[1;32mNOTICE[0m] CUID#12 - Redirecting to https://steineggerlab.s3.amazonaws.com/foldseek/afdb_swissprot.tar.gz
+
+12/12 09:33:56 [[1;32mNOTICE[0m] CUID#11 - Redirecting to https://steineggerlab.s3.amazonaws.com/foldseek/afdb_swissprot.tar.gz
+
+12/12 09:33:56 [[1;32mNOTICE[0m] CUID#12 - Redirecting to https://steineggerlab.s3.amazonaws.com/foldseek/afdb_swissprot.tar.gz
+
+12/12 09:33:56 [[1;32mNOTICE[0m] CUID#12 - Redirecting to https://steineggerlab.s3.amazonaws.com/foldseek/afdb_swissprot.tar.gz
+[#6ee6de 64KiB/1.4GiB(0%) CN:5 DL:70KiB ETA:5h58m29s]
+[#6ee6de 4.6MiB/1.4GiB(0%) CN:5 DL:2.3MiB ETA:10m34s]
+[#6ee6de 14MiB/1.4GiB(0%) CN:5 DL:4.7MiB ETA:5m12s]
+[#6ee6de 23MiB/1.4GiB(1%) CN:5 DL:5.9MiB ETA:4m4s]
+[#6ee6de 31MiB/1.4GiB(2%) CN:5 DL:6.3MiB ETA:3m49s]
+[#6ee6de 40MiB/1.4GiB(2%) CN:5 DL:6.7MiB ETA:3m34s]
+[#6ee6de 49MiB/1.4GiB(3%) CN:5 DL:7.0MiB ETA:3m24s]
+[#6ee6de 58MiB/1.4GiB(3%) CN:5 DL:7.3MiB ETA:3m14s]
+[#6ee6de 68MiB/1.4GiB(4%) CN:5 DL:7.6MiB ETA:3m5s]
+[#6ee6de 78MiB/1.4GiB(5%) CN:5 DL:7.9MiB ETA:2m57s]
+[#6ee6de 88MiB/1.4GiB(5%) CN:5 DL:8.9MiB ETA:2m36s]
+[#6ee6de 99MiB/1.4GiB(6%) CN:5 DL:9.5MiB ETA:2m24s]
+[#6ee6de 110MiB/1.4GiB(7%) CN:5 DL:9.7MiB ETA:2m21s]
+[#6ee6de 121MiB/1.4GiB(8%) CN:5 DL:9.8MiB ETA:2m19s]
+[#6ee6de 132MiB/1.4GiB(8%) CN:5 DL:10MiB ETA:2m12s]
+[#6ee6de 142MiB/1.4GiB(9%) CN:5 DL:10MiB ETA:2m9s]
+[#6ee6de 153MiB/1.4GiB(10%) CN:5 DL:10MiB ETA:2m6s]
+[#6ee6de 165MiB/1.4GiB(11%) CN:5 DL:10MiB ETA:2m3s]
+[#6ee6de 176MiB/1.4GiB(11%) CN:5 DL:10MiB ETA:1m59s]
+[#6ee6de 188MiB/1.4GiB(12%) CN:5 DL:11MiB ETA:1m57s]
+[#6ee6de 200MiB/1.4GiB(13%) CN:5 DL:11MiB ETA:1m54s]
+[#6ee6de 211MiB/1.4GiB(14%) CN:5 DL:11MiB ETA:1m53s]
+[#6ee6de 222MiB/1.4GiB(14%) CN:5 DL:11MiB ETA:1m52s]
+[#6ee6de 233MiB/1.4GiB(15%) CN:5 DL:11MiB ETA:1m50s]
+[#6ee6de 245MiB/1.4GiB(16%) CN:5 DL:11MiB ETA:1m49s]
+[#6ee6de 257MiB/1.4GiB(17%) CN:5 DL:11MiB ETA:1m46s]
+[#6ee6de 269MiB/1.4GiB(18%) CN:5 DL:11MiB ETA:1m45s]
+[#6ee6de 283MiB/1.4GiB(19%) CN:5 DL:11MiB ETA:1m41s]
+[#6ee6de 295MiB/1.4GiB(19%) CN:5 DL:11MiB ETA:1m40s]
+[#6ee6de 308MiB/1.4GiB(20%) CN:5 DL:12MiB ETA:1m37s]
+[#6ee6de 321MiB/1.4GiB(21%) CN:5 DL:12MiB ETA:1m35s]
+[#6ee6de 334MiB/1.4GiB(22%) CN:5 DL:12MiB ETA:1m33s]
+[#6ee6de 346MiB/1.4GiB(23%) CN:5 DL:12MiB ETA:1m31s]
+[#6ee6de 358MiB/1.4GiB(24%) CN:5 DL:12MiB ETA:1m30s]
+[#6ee6de 368MiB/1.4GiB(24%) CN:5 DL:12MiB ETA:1m29s]
+[#6ee6de 379MiB/1.4GiB(25%) CN:5 DL:12MiB ETA:1m30s]
+[#6ee6de 389MiB/1.4GiB(26%) CN:5 DL:11MiB ETA:1m31s]
+[#6ee6de 400MiB/1.4GiB(26%) CN:5 DL:11MiB ETA:1m31s]
+[#6ee6de 411MiB/1.4GiB(27%) CN:5 DL:11MiB ETA:1m32s]
+[#6ee6de 422MiB/1.4GiB(28%) CN:5 DL:11MiB ETA:1m33s]
+[#6ee6de 433MiB/1.4GiB(29%) CN:5 DL:11MiB ETA:1m33s]
+[#6ee6de 445MiB/1.4GiB(30%) CN:5 DL:11MiB ETA:1m32s]
+[#6ee6de 458MiB/1.4GiB(30%) CN:5 DL:11MiB ETA:1m31s]
+[#6ee6de 470MiB/1.4GiB(31%) CN:5 DL:11MiB ETA:1m29s]
+[#6ee6de 481MiB/1.4GiB(32%) CN:5 DL:11MiB ETA:1m28s]
+[#6ee6de 492MiB/1.4GiB(33%) CN:5 DL:11MiB ETA:1m26s]
+[#6ee6de 504MiB/1.4GiB(33%) CN:5 DL:11MiB ETA:1m24s]
+[#6ee6de 516MiB/1.4GiB(34%) CN:5 DL:11MiB ETA:1m22s]
+[#6ee6de 529MiB/1.4GiB(35%) CN:5 DL:11MiB ETA:1m20s]
+[#6ee6de 543MiB/1.4GiB(36%) CN:5 DL:12MiB ETA:1m16s]
+[#6ee6de 558MiB/1.4GiB(37%) CN:5 DL:12MiB ETA:1m13s]
+[#6ee6de 572MiB/1.4GiB(38%) CN:5 DL:12MiB ETA:1m11s]
+[#6ee6de 585MiB/1.4GiB(39%) CN:5 DL:12MiB ETA:1m10s]
+ *** Download Progress Summary as of Fri Dec 12 09:34:50 2025 *** 
+===============================================================================
+[#6ee6de 598MiB/1.4GiB(40%) CN:5 DL:12MiB ETA:1m8s]
+FILE: temp_db/3921849594636981995/afdb_swissprot.tar.gz
+-------------------------------------------------------------------------------
+
+[#6ee6de 598MiB/1.4GiB(40%) CN:5 DL:12MiB ETA:1m8s]
+[#6ee6de 612MiB/1.4GiB(41%) CN:5 DL:13MiB ETA:1m5s]
+[#6ee6de 627MiB/1.4GiB(42%) CN:5 DL:13MiB ETA:1m2s]
+[#6ee6de 643MiB/1.4GiB(43%) CN:5 DL:14MiB ETA:59s]
+[#6ee6de 658MiB/1.4GiB(44%) CN:5 DL:14MiB ETA:57s]
+[#6ee6de 675MiB/1.4GiB(45%) CN:5 DL:14MiB ETA:55s]
+[#6ee6de 690MiB/1.4GiB(46%) CN:5 DL:14MiB ETA:53s]
+[#6ee6de 707MiB/1.4GiB(47%) CN:5 DL:15MiB ETA:51s]
+[#6ee6de 723MiB/1.4GiB(48%) CN:5 DL:15MiB ETA:49s]
+[#6ee6de 740MiB/1.4GiB(49%) CN:5 DL:15MiB ETA:47s]
+[#6ee6de 758MiB/1.4GiB(51%) CN:5 DL:16MiB ETA:44s]
+[#6ee6de 776MiB/1.4GiB(52%) CN:5 DL:16MiB ETA:42s]
+[#6ee6de 793MiB/1.4GiB(53%) CN:5 DL:16MiB ETA:41s]
+[#6ee6de 811MiB/1.4GiB(54%) CN:5 DL:17MiB ETA:39s]
+[#6ee6de 828MiB/1.4GiB(55%) CN:5 DL:17MiB ETA:38s]
+[#6ee6de 843MiB/1.4GiB(56%) CN:5 DL:16MiB ETA:37s]
+[#6ee6de 857MiB/1.4GiB(57%) CN:5 DL:16MiB ETA:37s]
+[#6ee6de 871MiB/1.4GiB(58%) CN:5 DL:16MiB ETA:37s]
+[#6ee6de 886MiB/1.4GiB(59%) CN:5 DL:16MiB ETA:36s]
+[#6ee6de 901MiB/1.4GiB(60%) CN:5 DL:16MiB ETA:36s]
+[#6ee6de 916MiB/1.4GiB(61%) CN:5 DL:15MiB ETA:36s]
+[#6ee6de 0.9GiB/1.4GiB(62%) CN:5 DL:15MiB ETA:36s]
+[#6ee6de 0.9GiB/1.4GiB(63%) CN:5 DL:14MiB ETA:36s]
+[#6ee6de 0.9GiB/1.4GiB(64%) CN:5 DL:14MiB ETA:36s]
+[#6ee6de 0.9GiB/1.4GiB(65%) CN:5 DL:14MiB ETA:36s]
+[#6ee6de 0.9GiB/1.4GiB(66%) CN:5 DL:14MiB ETA:35s]
+[#6ee6de 0.9GiB/1.4GiB(67%) CN:5 DL:14MiB ETA:34s]
+[#6ee6de 0.9GiB/1.4GiB(68%) CN:5 DL:14MiB ETA:33s]
+[#6ee6de 1.0GiB/1.4GiB(69%) CN:5 DL:14MiB ETA:31s]
+[#6ee6de 1.0GiB/1.4GiB(70%) CN:5 DL:14MiB ETA:30s]
+[#6ee6de 1.0GiB/1.4GiB(71%) CN:5 DL:14MiB ETA:29s]
+[#6ee6de 1.0GiB/1.4GiB(72%) CN:5 DL:14MiB ETA:28s]
+[#6ee6de 1.0GiB/1.4GiB(73%) CN:5 DL:14MiB ETA:28s]
+[#6ee6de 1.0GiB/1.4GiB(73%) CN:5 DL:14MiB ETA:27s]
+[#6ee6de 1.0GiB/1.4GiB(74%) CN:5 DL:14MiB ETA:26s]
+[#6ee6de 1.0GiB/1.4GiB(75%) CN:5 DL:14MiB ETA:25s]
+[#6ee6de 1.1GiB/1.4GiB(76%) CN:5 DL:13MiB ETA:24s]
+[#6ee6de 1.1GiB/1.4GiB(77%) CN:5 DL:13MiB ETA:24s]
+[#6ee6de 1.1GiB/1.4GiB(78%) CN:5 DL:13MiB ETA:23s]
+[#6ee6de 1.1GiB/1.4GiB(79%) CN:5 DL:13MiB ETA:23s]
+[#6ee6de 1.1GiB/1.4GiB(80%) CN:5 DL:13MiB ETA:22s]
+[#6ee6de 1.1GiB/1.4GiB(80%) CN:5 DL:13MiB ETA:21s]
+[#6ee6de 1.1GiB/1.4GiB(81%) CN:5 DL:13MiB ETA:20s]
+[#6ee6de 1.2GiB/1.4GiB(82%) CN:5 DL:13MiB ETA:19s]
+[#6ee6de 1.2GiB/1.4GiB(83%) CN:5 DL:13MiB ETA:18s]
+[#6ee6de 1.2GiB/1.4GiB(84%) CN:5 DL:12MiB ETA:17s]
+[#6ee6de 1.2GiB/1.4GiB(85%) CN:5 DL:12MiB ETA:17s]
+[#6ee6de 1.2GiB/1.4GiB(86%) CN:5 DL:12MiB ETA:16s]
+[#6ee6de 1.2GiB/1.4GiB(86%) CN:5 DL:12MiB ETA:15s]
+[#6ee6de 1.2GiB/1.4GiB(87%) CN:5 DL:12MiB ETA:14s]
+[#6ee6de 1.2GiB/1.4GiB(88%) CN:5 DL:12MiB ETA:13s]
+[#6ee6de 1.2GiB/1.4GiB(89%) CN:5 DL:12MiB ETA:12s]
+[#6ee6de 1.3GiB/1.4GiB(90%) CN:5 DL:12MiB ETA:11s]
+[#6ee6de 1.3GiB/1.4GiB(91%) CN:5 DL:12MiB ETA:10s]
+[#6ee6de 1.3GiB/1.4GiB(91%) CN:5 DL:12MiB ETA:9s]
+[#6ee6de 1.3GiB/1.4GiB(92%) CN:5 DL:12MiB ETA:8s]
+[#6ee6de 1.3GiB/1.4GiB(93%) CN:5 DL:12MiB ETA:7s]
+[#6ee6de 1.3GiB/1.4GiB(94%) CN:5 DL:12MiB ETA:6s]
+[#6ee6de 1.3GiB/1.4GiB(95%) CN:5 DL:12MiB ETA:5s]
+[#6ee6de 1.3GiB/1.4GiB(96%) CN:5 DL:13MiB ETA:3s]
+[#6ee6de 1.4GiB/1.4GiB(97%) CN:5 DL:13MiB ETA:2s]
+ *** Download Progress Summary as of Fri Dec 12 09:35:50 2025 *** 
+===============================================================================
+[#6ee6de 1.4GiB/1.4GiB(98%) CN:2 DL:13MiB ETA:1s]
+FILE: temp_db/3921849594636981995/afdb_swissprot.tar.gz
+-------------------------------------------------------------------------------
+
+[#6ee6de 1.4GiB/1.4GiB(98%) CN:2 DL:13MiB ETA:1s]
+[#6ee6de 1.4GiB/1.4GiB(98%) CN:2 DL:12MiB ETA:1s]
+[#6ee6de 1.4GiB/1.4GiB(99%) CN:2 DL:12MiB ETA:1s]
+[#6ee6de 1.4GiB/1.4GiB(99%) CN:1 DL:11MiB]
+[#6ee6de 1.4GiB/1.4GiB(99%) CN:1 DL:10MiB]
+[#6ee6de 1.4GiB/1.4GiB(99%) CN:1 DL:9.1MiB]
+[#6ee6de 1.4GiB/1.4GiB(99%) CN:1 DL:7.3MiB]
+
+12/12 09:35:57 [[1;32mNOTICE[0m] Download complete: temp_db/3921849594636981995/afdb_swissprot.tar.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+6ee6de|OK  |    12MiB/s|temp_db/3921849594636981995/afdb_swissprot.tar.gz
+
+Status Legend:
+(OK):download completed.
+
+12/12 09:35:57 [[1;32mNOTICE[0m] Downloading 1 item(s)
+
+12/12 09:35:57 [[1;32mNOTICE[0m] CUID#7 - Redirecting to https://steineggerlab.s3.amazonaws.com/foldseek/afdb_swissprot.version
+[#458be9 0B/0B CN:1 DL:0B]
+
+12/12 09:35:58 [[1;32mNOTICE[0m] Download complete: temp_db/3921849594636981995/version
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+458be9|OK  |     687B/s|temp_db/3921849594636981995/version
+
+Status Legend:
+(OK):download completed.
+afdb_swissprot
+afdb_swissprot_ca
+afdb_swissprot_ca.dbtype
+afdb_swissprot_ca.index
+afdb_swissprot.dbtype
+afdb_swissprot_h
+afdb_swissprot_h.dbtype
+afdb_swissprot_h.index
+afdb_swissprot.index
+afdb_swissprot.lookup
+afdb_swissprot_mapping
+afdb_swissprot_ss
+afdb_swissprot_ss.dbtype
+afdb_swissprot_ss.index
+afdb_swissprot_taxonomy
+mvdb temp_db/3921849594636981995/afdb_swissprot swissprot 
+
+Time for processing: 0h 0m 0s 2ms
+mvdb temp_db/3921849594636981995/afdb_swissprot_ss swissprot_ss 
+
+Time for processing: 0h 0m 0s 2ms
+mvdb temp_db/3921849594636981995/afdb_swissprot_h swissprot_h 
+
+Time for processing: 0h 0m 0s 2ms
+mvdb temp_db/3921849594636981995/afdb_swissprot_ca swissprot_ca 
+
+Time for processing: 0h 0m 0s 2ms

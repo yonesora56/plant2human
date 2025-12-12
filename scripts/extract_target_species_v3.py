@@ -46,8 +46,9 @@ def main():
     # Apply transformations
     foldseek_result_df = foldseek_result_df.with_columns(
         # Correspond to the format of the header in multi-FASTA format
-        (pl.col("query").str.replace(r"-model_v\d+$", "").str.replace(r"^AF-", "AFDB:AF-").alias("query")), 
-        (pl.col("target").str.replace(r"-model_v\d+\.cif$", "").str.replace(r"^AF-", "AFDB:AF-").alias("target"))
+        # Remove -model_v\d+ suffix (with or without .cif) and add AFDB: prefix
+        (pl.col("query").str.replace(r"-model_v\d+(\.cif)?$", "").str.replace(r"^AF-", "AFDB:AF-").alias("query")),
+        (pl.col("target").str.replace(r"-model_v\d+(\.cif)?$", "").str.replace(r"^AF-", "AFDB:AF-").alias("target"))
     ).rename(
         {
             "query" : "UniProt Accession",

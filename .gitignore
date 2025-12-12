@@ -3,15 +3,21 @@
 Archive/
 /Data
 /cwl_cache
-!/index/comment.md
-!/index/foldseek_database.log
-!/index/foldseek_createdb.log
-/index/
+/index/index_human_proteome_v6
+/index/index_swiss_prot
+/index/index_uniprot_afdb_all_sequences_v6
+/index/afdb_all_sequences_v6.fasta.gz
+/index/UP000005640_9606_HUMAN_v6.tar
+
 
 .DS_Store
 /index/.DS_Store
 
-/scripts/archive
+/test/oryza_sativa_test_100genes_202512/plant2human_v3_permissive_result/result_needle/
+/test/oryza_sativa_test_100genes_202512/plant2human_v3_permissive_result/result_water/
+/test/oryza_sativa_test_100genes_202512/plant2human_v3_permissive_result/split_fasta_hit_species/
+/test/oryza_sativa_test_100genes_202512/plant2human_v3_permissive_result/split_fasta_query_species/
+
 /test/zea_mays_test/uniprotkb_9606_all.fasta
 /test/zea_mays_test/uniprotkb_4577_all.fasta
 /test/oryza_sativa_test/index_hit_species/*
@@ -26,3 +32,4 @@ Archive/
 /test/zey_mays_test/split_fasta_query_species/*
 /test/zea_mays_test/foldseek_output_swissprot_zm_random_evalue01.tsv
 cmd_history.txt
+/notebooks/cwl2puml_test.ipynb
