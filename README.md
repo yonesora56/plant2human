@@ -24,6 +24,7 @@ Based on the list of genes you are interested in, you can easily create a scatte
 - ✔ 2025-09-28: main workflow update! `plant2human_v2.cwl`
 - ✔ 2025-12-13: main workflow update! [`plant2human_v3_stringent.cwl` (recommend)](./Workflow/plant2human_v3_stringent.cwl) and [`plant2human_v3_permissive.cwl`](./Workflow/plant2human_v3_permissive.cwl)
 - ✔ 2025-12-13: Add *Arabidopsis thaliana* 100 genes (Ensembl plants release 62) test example ([details](./test/arabidopsis_test_100genes_202512/README.md))
+- ✔ 2025-12-13: Add *Zea mays* 100 genes (Ensembl plants release 62) test example ([details](./test/zea_mays_test_100genes_202512/README.md))
 
 &nbsp;
 
@@ -530,6 +531,8 @@ cwltool --debug --outdir ./test/oryza_sativa_test_100genes_202512/plant2human_v3
 ```
 
 The execution results are output with the [jupyter notebook](./test/oryza_sativa_test_100genes_202512/plant2human_v3_stringent_result/os_100_genes_plant2human_report_stringent.ipynb).
+
+**📝 Note:** For more detailed analysis or to modify the parameters in the figure, you can interactively operate this notebook again yourself.
 
 &nbsp;
 
