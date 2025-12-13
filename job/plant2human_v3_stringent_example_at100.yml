@@ -1,0 +1,91 @@
+# ============================================================
+# YAML Parameter File for plant2human_v3_stringent.cwl
+# Species: Oryza sativa (Rice) 100 genes
+# Date: 2025-12-13
+# ============================================================
+
+# ---------- INPUT DIRECTORY ----------
+# Directory containing mmCIF structure files from AFDB
+INPUT_DIRECTORY:
+  class: Directory
+  location: ../test/arabidopsis_test_100genes_202512/at_100_genes_mmcif/
+
+FILE_MATCH_PATTERN: "*.cif"
+
+# ---------- FOLDSEEK INDEX (Stringent Mode) ----------
+# Self-built index from Human Proteome v6 using "foldseek createdb"
+FOLDSEEK_INDEX:
+  class: File
+  location: ../index/index_human_proteome_v6/human_proteome_v6
+  secondaryFiles:
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ca
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ca.dbtype
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ca.index
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_h
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_h.dbtype
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_h.index
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_mapping
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ss
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ss.dbtype
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ss.index
+    # No _taxonomy for self-built index
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6.dbtype
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6.index
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6.lookup
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6.source
+    # No .version for self-built index
+
+# ---------- FOLDSEEK PARAMETERS ----------
+OUTPUT_FILE_NAME1: "foldseek_output_human_proteome_v6_at_100genes_evalue01_stringent.tsv"
+EVALUE: 0.1
+ALIGNMENT_TYPE: 2  # 2 = 3Di + AA (local alignment)
+THREADS: 16
+SPLIT_MEMORY_LIMIT: "120G"
+# No TAXONOMY_ID_LIST for Stringent Mode
+
+# ---------- EXTRACT TARGET SPECIES ----------
+OUTPUT_FILE_NAME2: "foldseek_at_100genes_9606_stringent.tsv"
+
+# ---------- EXTRACT ID COLUMNS ----------
+WF_COLUMN_NUMBER_QUERY_SPECIES: 1
+OUTPUT_FILE_NAME_QUERY_SPECIES: "foldseek_result_query_species_stringent.txt"
+WF_COLUMN_NUMBER_HIT_SPECIES: 2
+OUTPUT_FILE_NAME_HIT_SPECIES: "foldseek_result_hit_species_stringent.txt"
+
+# ---------- BLAST INDEX ----------
+# Using default from workflow (AFDB v6)
+# BLAST_INDEX_FILES: (using default)
+
+# ---------- TOGOID CONVERT ----------
+ROUTE_DATASET: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
+OUTPUT_FILE_NAME3: "foldseek_hit_species_togoid_convert_stringent.tsv"
+
+# ---------- PAPERMILL (Report Notebook) ----------
+OUT_NOTEBOOK_NAME: "at_100_genes_plant2human_report_stringent.ipynb"
+
+# Stringent Mode uses foldseek_result_parse_stringent.ipynb (default in workflow)
+# FOLDSEEK_RESULT_PARSE_NOTEBOOK: (using default)
+
+QUERY_IDMAPPING_TSV:
+  class: File
+  format: edam:format_3475
+  location: ../test/arabidopsis_test_100genes_202512/at_100_genes_idmapping_all.tsv
+
+QUERY_GENE_LIST_TSV:
+  class: File
+  format: edam:format_3475
+  location: ../test/arabidopsis_test_100genes_202512/arabidopsis_random_100genes_list.tsv

@@ -23,6 +23,7 @@ Based on the list of genes you are interested in, you can easily create a scatte
 - ✔ 2025-09-02: update `makeblstadb` command process
 - ✔ 2025-09-28: main workflow update! `plant2human_v2.cwl`
 - ✔ 2025-12-13: main workflow update! [`plant2human_v3_stringent.cwl` (recommend)](./Workflow/plant2human_v3_stringent.cwl) and [`plant2human_v3_permissive.cwl`](./Workflow/plant2human_v3_permissive.cwl)
+- ✔ 2025-12-13: Add *Arabidopsis thaliana* 100 genes (Ensembl plants release 62) test example ([details](./test/arabidopsis_test_100genes_202512/README.md))
 
 &nbsp;
 
@@ -406,6 +407,8 @@ We are currently investigating whether it can be executed by another method.
 &nbsp;
 
 ## 3. Execution of the `plant2human` workflow (main workflow)
+
+**📝 Note:** Network access required in this process!
 
 In this process, we perform a structural similarity search using the `foldseek easy-search` command and then perform a pairwise sequence alignment of the amino acid sequences of the hit pairs using the `needle` and `water` commands.
 Finally, based on this information, we create a scatter plot and output a jupyter notebook as a report.
