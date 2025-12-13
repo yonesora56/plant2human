@@ -41,7 +41,7 @@ inputs:
     type: File
     default:
       class: File
-      location: ../index/index_human_proteome/index_human_proteome
+      location: ../index/index_human_proteome_v6/human_proteome_v6
     secondaryFiles:
       - _ca
       - _ca.dbtype

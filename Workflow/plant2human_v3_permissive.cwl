@@ -26,7 +26,7 @@ s:dateCreated: "2024-11-13"
 s:dateModified: "2025-12-12"
 s:license: https://spdx.org/licenses/MIT
 s:keywords:
-  - "Gene Mining"
+  - "Functional Annotation"
   - "alphafold"
   - "protein structure"
 
@@ -567,14 +567,13 @@ steps:
     doc: |
       "Perform pairwise alignment of protein sequences for pairs identified by structural similarity search.
       Step 1: retrieve sequence from blastdbcmd result
-      Step 2: makeblastdb: ../Tools/14_makeblastdb.cwl
-      Step 3: blastdbcmd: ../Tools/15_blastdbcmd.cwl
-      Step 4: seqretsplit: ../Tools/16_seqretsplit.cwl
-      Step 5: needle (Global alignment): ../Tools/17_needle.cwl
-      Step 6: water (Local alignment): ../Tools/17_water.cwl
+      Step 2: blastdbcmd: ../Tools/14_blastdbcmd.cwl
+      Step 3: seqretsplit: ../Tools/15_seqretsplit.cwl
+      Step 4: needle (Global alignment): ../Tools/16_needle.cwl
+      Step 5: water (Local alignment): ../Tools/16_water.cwl
       "
 
-    run: ./11_retrieve_sequence_swf_permissive.cwl
+    run: ./11_retrieve_sequence_swf.cwl
     in:
       BLAST_INDEX_FILES: BLAST_INDEX_FILES
       ENTRY_BATCH_QUERY_SPECIES: extract_query_species_column/output_file # workflow input

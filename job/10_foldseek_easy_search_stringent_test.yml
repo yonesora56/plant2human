@@ -1,0 +1,49 @@
+# ============================================================
+# YAML Parameter File for 10_foldseek_easy_search_swf_stringent.cwl
+# Sub-workflow test for Stringent Mode
+# ============================================================
+
+INPUT_DIRECTORY:
+  class: Directory
+  location: ../test/oryza_sativa_test_100genes_202512/os_100_genes_mmcif/
+
+FILE_MATCH_PATTERN: "*.cif"
+
+FOLDSEEK_INDEX:
+  class: File
+  location: ../index/index_human_proteome_v6/human_proteome_v6
+  secondaryFiles:
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ca
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ca.dbtype
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ca.index
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_h
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_h.dbtype
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_h.index
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_mapping
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ss
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ss.dbtype
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ss.index
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6.dbtype
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6.index
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6.lookup
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6.source
+
+OUTPUT_FILE_NAME1: "foldseek_output_human_proteome_v6_os_100genes_evalue01_stringent.tsv"
+EVALUE: 0.1
+ALIGNMENT_TYPE: 2
+THREADS: 16
+SPLIT_MEMORY_LIMIT: "120G"

@@ -21,7 +21,8 @@ Based on the list of genes you are interested in, you can easily create a scatte
 
 - ✔ 2025-02-02: fix `foldseek easy-search` command process
 - ✔ 2025-09-02: update `makeblstadb` command process
-- ✔ 2025-09-28: main workflow update! [plant2human_v2.cwl](Workflow/plant2human_v2.cwl)
+- ✔ 2025-09-28: main workflow update! `plant2human_v2.cwl`
+- ✔ 2025-12-13: main workflow update! [`plant2human_v3_stringent.cwl` (recommend)](./Workflow/plant2human_v3_stringent.cwl) and [`plant2human_v3_permissive.cwl`](./Workflow/plant2human_v3_permissive.cwl)
 
 &nbsp;
 
@@ -406,32 +407,153 @@ We are currently investigating whether it can be executed by another method.
 
 ## 3. Execution of the `plant2human` workflow (main workflow)
 
-In this process, we perform a structural similarity search using the `foldseek easy-search` command and then perform a pairwise sequnence alignment of the amino acid sequences of the hit pairs using the `needle` and `water` commands.
-Finally, based on this information, we create a scatter plot and output a [jupyter notebook](./test/oryza_sativa_test_100genes_202509/os_100_genes_plant2human_report.ipynb) as a report.
-Examples of commands are as follows.
+In this process, we perform a structural similarity search using the `foldseek easy-search` command and then perform a pairwise sequence alignment of the amino acid sequences of the hit pairs using the `needle` and `water` commands.
+Finally, based on this information, we create a scatter plot and output a jupyter notebook as a report.
 
-```bash
-cwltool --debug --outdir ./test/oryza_sativa_test_100genes_202509/ \
-./Workflow/plant2human_v2.cwl \
-./job/oryza_sativa_100_genes/plant2human_job_example_os100.yml
+**📝 Note:** For Permissive Mode (using pre-built indexes like Swiss-Prot), see [Workflow/README.md](./Workflow/README.md).
+
+&nbsp;
+
+## 📋 YAML Parameter File Reference (Stringent Mode)
+
+The main workflow requires a YAML parameter file to specify input files and parameters.
+Below is a detailed explanation of each parameter.
+
+**Example file:** [`job/plant2human_v3_stringent_example_os100.yml`](./job/plant2human_v3_stringent_example_os100.yml)
+
+&nbsp;
+
+### Input File Parameters
+
+| Parameter | Type | Description | Example |
+|-----------|------|-------------|---------|
+| `INPUT_DIRECTORY` | Directory | Directory containing mmCIF structure files from Step 1 | `../test/.../os_100_genes_mmcif/` |
+| `FILE_MATCH_PATTERN` | string | File pattern for structure files | `"*.cif"` |
+| `FOLDSEEK_INDEX` | File | Foldseek index created in Step 2-1b | `../index/index_human_proteome_v6/human_proteome_v6` |
+| `QUERY_IDMAPPING_TSV` | File | ID mapping TSV from Step 1 | `..._idmapping_all.tsv` |
+| `QUERY_GENE_LIST_TSV` | File | Original gene list TSV | `oryza_sativa_random_100genes_list.tsv` |
+
+&nbsp;
+
+#### Output File Names (Customize for your analysis)
+
+| Parameter | Description | Example |
+|-----------|-------------|---------|
+| `OUTPUT_FILE_NAME1` | Foldseek all hits result | `"foldseek_output_..._stringent.tsv"` |
+| `OUTPUT_FILE_NAME2` | Human-filtered result | `"foldseek_os_100genes_9606_stringent.tsv"` |
+| `OUTPUT_FILE_NAME3` | TogoID conversion result | `"foldseek_hit_species_togoid_convert_stringent.tsv"` |
+| `OUT_NOTEBOOK_NAME` | Report notebook name | `"os_100_genes_plant2human_report_stringent.ipynb"` |
+
+&nbsp;
+
+## Foldseek Parameters
+
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `EVALUE` | `0.1` | E-value threshold for structural similarity search |
+| `ALIGNMENT_TYPE` | `2` | 0: 3Di only, 1: TM alignment, **2: 3Di+AA (recommended)** |
+| `THREADS` | `16` | Number of CPU threads |
+| `SPLIT_MEMORY_LIMIT` | `"120G"` | Memory limit for large searches |
+
+&nbsp;
+
+## YAML Template for Stringent Mode
+
+Copy and modify this template for your analysis:
+
+```YAML
+# ============================================================
+# YAML Parameter File for plant2human_v3_stringent.cwl
+# Species: [Your Species Name]
+# ============================================================
+
+# ---------- INPUT DIRECTORY ----------
+INPUT_DIRECTORY:
+  class: Directory
+  location: ./path/to/your_mmcif_directory/           # <-- CHANGE THIS!
+
+FILE_MATCH_PATTERN: "*.cif"
+
+# ---------- FOLDSEEK INDEX (Stringent Mode) ----------
+FOLDSEEK_INDEX:
+  class: File
+  location: ../index/index_human_proteome_v6/human_proteome_v6  # <-- Adjust path if needed
+  secondaryFiles:
+    # ... (see example file for full list)
+
+# ---------- FOLDSEEK PARAMETERS ----------
+OUTPUT_FILE_NAME1: "foldseek_output_[species]_stringent.tsv"    # <-- CHANGE THIS!
+EVALUE: 0.1
+ALIGNMENT_TYPE: 2
+THREADS: 16
+SPLIT_MEMORY_LIMIT: "120G"
+
+# ---------- EXTRACT TARGET SPECIES ----------
+OUTPUT_FILE_NAME2: "foldseek_[species]_9606_stringent.tsv"      # <-- CHANGE THIS!
+
+# ---------- EXTRACT ID COLUMNS ----------
+WF_COLUMN_NUMBER_QUERY_SPECIES: 1
+OUTPUT_FILE_NAME_QUERY_SPECIES: "foldseek_result_query_species_stringent.txt"
+WF_COLUMN_NUMBER_HIT_SPECIES: 2
+OUTPUT_FILE_NAME_HIT_SPECIES: "foldseek_result_hit_species_stringent.txt"
+
+# ---------- TOGOID CONVERT ----------
+ROUTE_DATASET: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
+OUTPUT_FILE_NAME3: "foldseek_hit_species_togoid_convert_stringent.tsv"
+
+# ---------- PAPERMILL (Report Notebook) ----------
+OUT_NOTEBOOK_NAME: "[species]_plant2human_report_stringent.ipynb"  # <-- CHANGE THIS!
+
+QUERY_IDMAPPING_TSV:
+  class: File
+  format: edam:format_3475
+  location: ./path/to/your_idmapping_all.tsv          # <-- CHANGE THIS!
+
+QUERY_GENE_LIST_TSV:
+  class: File
+  format: edam:format_3475
+  location: ./path/to/your_gene_list.tsv              # <-- CHANGE THIS!&nbsp;
 ```
 
 &nbsp;
 
+### Command Execution Example (Stringent Mode - Recommended)
+
+```bash
+# test date: 2025-12-13
+cwltool --debug --outdir ./test/oryza_sativa_test_100genes_202512/plant2human_v3_stringent_result/ \
+./Workflow/plant2human_v3_stringent.cwl \
+./job/plant2human_v3_stringent_example_os100.yml
+```
+
+The execution results are output with the [jupyter notebook](./test/oryza_sativa_test_100genes_202512/plant2human_v3_stringent_result/os_100_genes_plant2human_report_stringent.ipynb).
+
 &nbsp;
+
+**📝 Note:** For Permissive Mode (using pre-built indexes like Swiss-Prot), see [Workflow/README.md](./Workflow/README.md).
+
+---
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+## rice vs human result (strngent mode result) 🌾 ↔ 🕺
 
 For example, you can visualize the results of structural similarity and global alignment, as shown below.
 In this case, the x-axis represents the global alignment similarity match (%), and the y-axis represents the average lDDT score (an indicator of structural alignment).
 
 The hit pairs in the upper-right plot indicate higher sequence similarity and structural similarity.
 
-![image](./image/rice_test_100genes_global_scatterplot.png)
+![image](./image/os_100_stringent_needle.png)
 
 &nbsp;
 
 In this case, the x-axis represents the local alignment similarity match (%), and the y-axis represents the average lDDT score (an indicator of structural alignment).
 
-![image](./image/rice_test_100genes_local_scatterplot.png)
+![image](./image/os_100_stringent_water.png)
 
 &nbsp;
 
@@ -448,7 +570,7 @@ The report notebook for the plant2human workflow also outputs scatter plots afte
 
 **📝 Note:** In this workflow, we leave the states with the same foldseek hit even if the query genes are different.
 
-3. Select hits that can be converted to Ensembl gene id and HGNC Gene nomenclature with TogoID API
+3. Select hits that can be converted to Ensembl gene id and HGNC Gene nomenclature with [TogoID API](https://togoid.dbcls.jp/)
 
 &nbsp;
 
@@ -456,13 +578,13 @@ By applying these filtering conditions, you can examine hit pairs that are easie
 
 &nbsp;
 
-##### Global alignment
+## Global alignment (x-axis)
 
-![image](./image/rice_test_100genes_global_scatterplot_filter.png)
+![image](./image/os_100_stringent_needle_filter.png)
 
 &nbsp;
 
-##### local alignment
+## local alignment (x-axis)
 
-![image](./image/rice_test_100genes_local_scatterplot_filter.png)
+![image](./image/os_100_stringent_water_filter.png)
 
