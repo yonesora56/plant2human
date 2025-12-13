@@ -1,0 +1,14 @@
+# test date: 2025-12-13
+output_notebook_name: "solanum_lycopersicum_100_genes_uniprot_idmapping.ipynb"
+gene_id_file:
+  class: File
+  format: http://edamontology.org/format_3475
+  location: ../test/solanum_lycopersicum_test_100genes_202512/solanum_lycopersicum_random_100genes_list.tsv
+
+uniprot_api_query_db: "Ensembl_Genomes"
+uniprot_api_target_db: "UniProtKB"
+
+json_dir_name: "sl_100_genes_afinfo_json"
+data_url: "cifUrl"
+structure_dir_name: "sl_100_genes_mmcif"
+id_mapping_all_file_name: "sl_100_genes_idmapping_all.tsv"

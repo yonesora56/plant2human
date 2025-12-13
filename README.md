@@ -25,6 +25,8 @@ Based on the list of genes you are interested in, you can easily create a scatte
 - ✔ 2025-12-13: main workflow update! [`plant2human_v3_stringent.cwl` (recommend)](./Workflow/plant2human_v3_stringent.cwl) and [`plant2human_v3_permissive.cwl`](./Workflow/plant2human_v3_permissive.cwl)
 - ✔ 2025-12-13: Add *Arabidopsis thaliana* 100 genes (Ensembl plants release 62) test example ([details](./test/arabidopsis_test_100genes_202512/README.md))
 - ✔ 2025-12-13: Add *Zea mays* 100 genes (Ensembl plants release 62) test example ([details](./test/zea_mays_test_100genes_202512/README.md))
+- ✔ 2025-12-13: Add *Solanum lycopersicum* 100 genes (Ensembl plants release 62) test example ([details](./test/solanum_lycopersicum_test_100genes_202512/README.md))
+- ✔ 2025-12-13: Add *Glycine max* 100 genes (Ensembl plants release 62) test example ([details](./test/glycine_max_test_100genes_202512/README.md))
 
 &nbsp;
 
