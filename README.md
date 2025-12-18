@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/status-development-yellow)
 [![cwltool](https://img.shields.io/badge/cwltool-3.1.20250110105449-success)](https://github.com/common-workflow-language/cwltool/releases/tag/3.1.20250110105449)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-[![Version](https://img.shields.io/badge/version-2.0-brightgreen)](https://github.com/yonesora56/plant2human/releases/tag/v2.0)
+[![Version](https://img.shields.io/badge/version-3.0-brightgreen)](https://github.com/yonesora56/plant2human/releases/tag/v3.0)
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=python3.11&color=blue&logo=docker)](https://github.com/yonesora56/plant2human/tree/main/.devcontainer)
 [![X (@sorayone56)](https://img.shields.io/badge/X-sorayone56-black?style=flat&logo=x&logoColor=white)](https://x.com/sorayone56)
 
