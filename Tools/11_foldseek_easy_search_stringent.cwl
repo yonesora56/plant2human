@@ -3,7 +3,7 @@
 class: CommandLineTool
 cwlVersion: v1.2
 label: "foldseek easy-search (default: 3Di+AA mode)"
-doc: "foldseek easy-search command process. Performs structural similarity search of structure files (e.g., CIF format) obtained from 01_uniprot_id_mapping.cwl against the index (default: swissprot index)."
+doc: "foldseek easy-search command process. Performs structural similarity search of structure files (e.g., CIF format) obtained from 01_uniprot_idmapping.cwl against the index (default: Human Proteome v6 index)."
 
 
 baseCommand: [foldseek, easy-search]

@@ -566,11 +566,10 @@ steps:
     label: "retrieve sequence sub-workflow process using EMBOSS package"
     doc: |
       "Perform pairwise alignment of protein sequences for pairs identified by structural similarity search.
-      Step 1: retrieve sequence from blastdbcmd result
-      Step 2: blastdbcmd: ../Tools/14_blastdbcmd.cwl
-      Step 3: seqretsplit: ../Tools/15_seqretsplit.cwl
-      Step 4: needle (Global alignment): ../Tools/16_needle.cwl
-      Step 5: water (Local alignment): ../Tools/16_water.cwl
+      Step 1: blastdbcmd: ../Tools/14_blastdbcmd.cwl
+      Step 2: seqretsplit: ../Tools/15_seqretsplit.cwl
+      Step 3: needle (Global alignment): ../Tools/16_needle.cwl
+      Step 4: water (Local alignment): ../Tools/16_water.cwl
       "
 
     run: ./11_retrieve_sequence_swf.cwl
@@ -605,7 +604,7 @@ steps:
   
   togoid_convert:
     label: "togoid convert process"
-    doc: "retrieve UniProt ID to HGNC gene symbol using togoID python script. execute: ../Tools/18_togoid_convert.cwl"
+    doc: "retrieve UniProt ID to HGNC gene symbol using togoID python script. execute: ../Tools/17_togoid_convert.cwl"
     run: ../Tools/17_togoid_convert.cwl
     in:
       # togoid_convert_script: default
@@ -617,7 +616,7 @@ steps:
 
   papermill:
     label: "papermill process"
-    doc: "output notebook using papermill. This process allows you to create a scatter plot of structural similarity vs. sequence similarity. execute: ../Tools/19_papermill.cwl"
+    doc: "output notebook using papermill. This process allows you to create a scatter plot of structural similarity vs. sequence similarity. execute: ../Tools/18_papermill.cwl"
     run: ../Tools/18_papermill.cwl
     in:
       # foldseek_result_parse_notebook: default

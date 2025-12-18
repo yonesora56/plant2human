@@ -96,6 +96,15 @@ Here, we will explain how to use the list of 100 rice genes as an example.
 
 &nbsp;
 
+## 0. Clone Repository
+
+```bash
+git clone https://github.com/yonesora56/plant2human.git
+cd ./plant2human/
+```
+
+&nbsp;
+
 ## 1. Creation of a TSV file of gene and UniProt ID correspondences 🧬
 
 First, you need the following [gene list tsv file](./test/oryza_sativa_test_100genes_202512/oryza_sativa_random_100genes_list.tsv). 
@@ -441,7 +450,7 @@ Below is a detailed explanation of each parameter.
 
 &nbsp;
 
-#### Output File Names (Customize for your analysis)
+### Output File Names (Customize for your analysis)
 
 | Parameter | Description | Example |
 |-----------|-------------|---------|
@@ -452,7 +461,7 @@ Below is a detailed explanation of each parameter.
 
 &nbsp;
 
-## Foldseek Parameters
+### Foldseek Parameters
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
@@ -484,8 +493,37 @@ FILE_MATCH_PATTERN: "*.cif"
 FOLDSEEK_INDEX:
   class: File
   location: ../index/index_human_proteome_v6/human_proteome_v6  # <-- Adjust path if needed
-  secondaryFiles:
-    # ... (see example file for full list)
+  secondaryFiles:                                               # <-- If you do not place the index in the “index” directory, you must specify the path to all generated index files! (This is generally not required.)
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ca
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ca.dbtype
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ca.index
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_h
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_h.dbtype
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_h.index
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_mapping
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ss
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ss.dbtype
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6_ss.index
+    # No _taxonomy for self-built index
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6.dbtype
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6.index
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6.lookup
+    - class: File
+      location: ../index/index_human_proteome_v6/human_proteome_v6.source
+    # No .version for self-built index
 
 # ---------- FOLDSEEK PARAMETERS ----------
 OUTPUT_FILE_NAME1: "foldseek_output_[species]_stringent.tsv"    # <-- CHANGE THIS!
@@ -595,4 +633,67 @@ By applying these filtering conditions, you can examine hit pairs that are easie
 ## local alignment (x-axis)
 
 ![image](./image/os_100_stringent_water_filter.png)
+
+&nbsp;
+
+&nbsp;
+
+## 🌿 Running the Pipeline for Another Plant Species 🌿
+
+This workflow can be applied to **any plant species** available in the [AlphaFold Protein Structure Database (AFDB)](https://alphafold.ebi.ac.uk/).
+
+&nbsp;
+
+### Step 1: Check Species Availability in AFDB
+
+Before running the pipeline, verify that your target plant species is available:
+
+1. Visit [AFDB Page](https://alphafold.ebi.ac.uk/)
+2. Search for your species name or UniProt proteome ID
+3. Confirm protein structures are available for your genes
+
+**📝 Note:** Most model organisms and many crop species are available in AFDB v6.
+
+&nbsp;
+
+### Step 2: Prepare Your Gene List
+
+Create a TSV file with column header "From" containing your gene IDs:
+
+| Species | Gene ID Format | Example |
+|---------|----------------|---------|
+| *Oryza sativa* | RAP-DB format | `Os01g0104800` |
+| *Arabidopsis thaliana* | TAIR format | `AT1G01010` |
+| *Zea mays* | Ensembl format | `Zm00001eb000010` |
+| *Solanum lycopersicum* | Ensembl format | `Solyc01g005000` |
+| *Glycine max* | Ensembl format | `Glyma.01G000100` |
+
+&nbsp;
+
+### Step 3: Create YAML Parameter Files
+
+1. **Copy the template** from [Section 1 (UniProt ID Mapping)](#yaml-template-for-uniprot-id-mapping) and [Section 3 (Main Workflow)](#yaml-template-for-stringent-mode)
+2. **Modify the paths and filenames** marked with `# <-- CHANGE THIS!`
+3. **Save your YAML files** in the `job/` directory
+
+&nbsp;
+
+### Step 4: Execute the Workflow
+
+Follow the same steps as described in Sections 1-3, using your custom YAML files.
+
+&nbsp;
+
+### 📚 Example Implementations for Other Species
+
+We provide complete examples for multiple plant species. Use these as references:
+
+| Species | Test Directory | YAML Files |
+|---------|----------------|------------|
+| *Arabidopsis thaliana* | [`test/arabidopsis_test_100genes_202512/`](./test/arabidopsis_test_100genes_202512/README.md) | [`job/at_100genes_*.yml`](./job/) |
+| *Zea mays* | [`test/zea_mays_test_100genes_202512/`](./test/zea_mays_test_100genes_202512/README.md) | [`job/zm_100genes_*.yml`](./job/) |
+| *Solanum lycopersicum* | [`test/solanum_lycopersicum_test_100genes_202512/`](./test/solanum_lycopersicum_test_100genes_202512/README.md) | [`job/sl_100genes_*.yml`](./job/) |
+| *Glycine max* | [`test/glycine_max_test_100genes_202512/`](./test/glycine_max_test_100genes_202512/README.md) | [`job/gm_100genes_*.yml`](./job/) |
+
+---
 

@@ -4,11 +4,10 @@ class: Workflow
 label: "retrieve sequence and perform pairwise alignment (sub-workflow process)"
 doc: |
   "Perform pairwise alignment of protein sequences for pairs identified by structural similarity search.
-  Step 1: retrieve sequence using blastdbcmd
-  Step 2: blastdbcmd: ../Tools/14_blastdbcmd.cwl
-  Step 3: seqretsplit: ../Tools/15_seqretsplit.cwl
-  Step 4: needle (Global alignment): ../Tools/16_needle.cwl
-  Step 5: water (Local alignment): ../Tools/16_water.cwl
+  Step 1: blastdbcmd: ../Tools/14_blastdbcmd.cwl
+  Step 2: seqretsplit: ../Tools/15_seqretsplit.cwl
+  Step 3: needle (Global alignment): ../Tools/16_needle.cwl
+  Step 4: water (Local alignment): ../Tools/16_water.cwl
   "
 
 requirements:

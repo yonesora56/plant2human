@@ -3,7 +3,7 @@
 class: CommandLineTool
 cwlVersion: v1.2
 label: "seqretsplit command for split fasta file"
-doc: "seqretsplit command for split fasta file which is created by 15_blastdbcmd.cwl. Before executing, make sure the blastdbcmd result file is already created by 15_blastdbcmd.cwl"
+doc: "seqretsplit command for split fasta file which is created by /Tools/14_blastdbcmd.cwl. Before executing, make sure the blastdbcmd result file is already created by /Tools/14_blastdbcmd.cwl"
 
 requirements:
   ShellCommandRequirement: {}
