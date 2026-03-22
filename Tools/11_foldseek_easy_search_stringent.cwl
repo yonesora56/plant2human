@@ -1,5 +1,4 @@
 #!/usr/bin/env cwl-runner
-# Generated from: foldseek easy-search ../Data/rice_up_mmCIFfile/*.cif ../index/index_uniprot/uniprot ../out/foldseek_output_uniprot_up_all_evalue01.tsv ../tmp -e 0.1 --format-mode 4 --format-output query,target,evalue,prob,gapopen,pident,fident,nident,qstart,qend,qlen,tstart,tend,tlen,alnlen,qcov,tcov,lddt,qtmscore,ttmscore,alntmscore,rmsd,taxid,taxname,taxlineage,qaln,taln,mismatch,lddtfull --threads 10 --split-memory-limit 60G
 class: CommandLineTool
 cwlVersion: v1.2
 label: "foldseek easy-search (default: 3Di+AA mode)"
@@ -16,6 +15,10 @@ arguments:
   - $(inputs.e_value)
   - --alignment-type
   - $(inputs.alignment_type)
+  - -c
+  - $(inputs.coverage_threshold)
+  - --cov-mode
+  - $(inputs.cov_mode)
   - --format-mode
   - $(inputs.format_mode)
   - --format-output
@@ -36,8 +39,7 @@ inputs:
   
   - id: index
     label: "Foldseek index file"
-    doc: |
-      Foldseek index file for searching
+    doc: "Foldseek index file for searching"
     type: File
     default:
       class: File
@@ -62,33 +64,50 @@ inputs:
   
   - id: output_file_name
     label: "Output file name"
-    doc: |
-      Output file name for search results name (tsv format)
+    doc: "Output file name for search results name (tsv format)"
     type: string
     default: "foldseek_output_human_proteome_v6_up_all_evalue01.tsv"
 
   - id: e_value
     label: "E-value"
-    doc: |
-      E-value threshold for search results
+    doc: "E-value threshold for search results"
     type: double
     default: 0.1
 
   - id: alignment_type
     label: "Alignment type (3Di+AA mode)"
     doc: |
-      see `foldseek easy-search --help`
+      "see `foldseek easy-search --help`
       How to compute the alignment:
       0: 3di alignment
-      1: TM alignment
-      2: 3Di+AA
+      1: TM-align
+      2: 3Di+AA"
     type: int
-    default: 2
+    default: 1 # TM-align
+
+  - id: coverage_threshold
+    label: "Coverage threshold"
+    doc: "Coverage threshold for search results"
+    type: float
+    default: 0.75
+
+  - id: cov_mode
+    label: "Coverage mode"
+    doc: |
+      "Coverage mode for search results
+      0: coverage of query and target
+      1: coverage of target
+      2: coverage of query
+      3: target seq. length has to be at least x% of query length
+      4: query seq. length has to be at least x% of target length
+      5: short seq. needs to be at least x% of the other seq. length"
+    type: int
+    default: 5
 
   - id: format_mode
     label: "Format mode"
     doc: |
-      see foldseek easy-search --help
+      "see foldseek easy-search --help
       Output format list:
       0: BLAST-TAB
       1: SAM
@@ -97,7 +116,7 @@ inputs:
       4: BLAST-TAB + column headers
       5: Calpha only PDB super-posed to query
       BLAST-TAB (0) and BLAST-TAB + column headers (4)support custom output formats (--format-output)
-      (5) Superposed PDB files (Calpha only) [0]
+      (5) Superposed PDB files (Calpha only) [0]"
     type: int
     default: 4
 
@@ -120,14 +139,13 @@ inputs:
   - id: input_file_format
     label: "Input file format"
     doc: |
-      Format of input structures:
+      "Format of input structures:
       0: Auto-detect by extension
       1: PDB
       2: mmCIF
       3: mmJSON
       4: ChemComp
-      5: Foldcomp [0]
-    
+      5: Foldcomp [0]"
     type: int
     default: 2
 
@@ -140,10 +158,9 @@ inputs:
   #   default: "9606,10090,3702,4577,4529"
 
 outputs:
-  - id: all
+  - id: output_tsvfile
     label: "Output file"
-    doc: |
-      Output file for search results (tsv format)
+    doc: "Output file for search results (tsv format)"
     type: File
     format: edam:format_3475
     outputBinding:
@@ -151,7 +168,7 @@ outputs:
 
 hints:
   - class: DockerRequirement
-    dockerPull: quay.io/biocontainers/foldseek:9.427df8a--pl5321h5021889_2
+    dockerPull: quay.io/biocontainers/foldseek:10.941cd33--h5021889_1
 
 $namespaces:
   s: https://schema.org/

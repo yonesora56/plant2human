@@ -59,6 +59,9 @@ tail -n +2 "$input_tsv" | while IFS=$'\t' read -r line; do
             -outfile "$output_file" \
             -sprotein1 \
             -sprotein2 \
+            -nobrief \
+            -awidth 100 \
+            -datafile EBLOSUM30 \
             -verbose
         echo "Processed: $query_uniprot_accession vs $target_uniprot_accession"
     else

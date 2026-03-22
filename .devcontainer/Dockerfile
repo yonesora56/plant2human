@@ -1,12 +1,16 @@
-# Get arguments for python version (in this case, python 3.10 image is used)
-ARG VARIANT="3.11-bullseye"
-FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
+# Use the official DevContainers Python image (Python 3.13 on Debian Bullseye)
+# Note: Old path 'mcr.microsoft.com/vscode/devcontainers/' is deprecated
+# New path: 'mcr.microsoft.com/devcontainers/'
+FROM mcr.microsoft.com/devcontainers/python:3.13-bullseye
+
+# Fix for expired Yarn GPG key in the base image
+# Remove the problematic Yarn repository before apt-get update
+RUN rm -f /etc/apt/sources.list.d/yarn.list || true
 
 # linux settings
 # `-y` option is used to automatically answer yes to all prompts
 RUN apt-get update && apt-get -y upgrade && apt-get install -y --no-install-recommends \
     byobu \
-    emboss \
     aria2 \
     libcurl4-gnutls-dev \
     libssl-dev \
@@ -16,43 +20,35 @@ RUN apt-get update && apt-get -y upgrade && apt-get install -y --no-install-reco
     libmagick++-dev \
     libglpk-dev
 
-# RUN SNIPPET="export PROMPT_COMMAND='history -a' && export HISTFILE=/commandhistory/.bash_history" \
-#     && echo "$SNIPPET" >> "/root/.bashrc"
-
-# [Choice] Node.js version: none, lts/*, 16, 14, 12, 10
-# ARG NODE_VERSION="none"
-# RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"; fi
+# install uv
+RUN curl -LsSf https://astral.sh/uv/install.sh | sh
 
 
-# update pip & install packages (including CWL tool)
+# update pip & install packages (including cwltool)
+# update: 2026-03-20
 RUN pip install \
-    --upgrade pip \ 
-    jupyter==1.0.0 \ 
-    ipykernel==6.29.5 \
-    pandas==2.2.3 \
-    pyarrow==15.0.0 \
-    upsetplot==0.9.0 \
-    numpy==1.26.3 \
-    matplotlib==3.8.2 \ 
-    scipy==1.12.0 \
-    statsmodels==0.14.1 \
-    argparse==1.4.0 \
+    --upgrade pip \
+    retry==0.9.2 \
+    jupyter==1.1.1 \
+    ipykernel==7.2.0 \
+    pandas==3.0.1 \
+    pyarrow==23.0.1 \
+    numpy==2.4.3 \
+    matplotlib==3.10.8 \
+    scipy==1.17.1 \
+    statsmodels==0.14.6 \
     seaborn==0.13.2 \
-    urllib3==2.1.0 \ 
-    retry==0.9.2 \ 
-    PyYAML==6.0.1 \ 
-    requests==2.31.0 \ 
-    cwl_runner==1.0 \
-    #polars version update 2024-12-19
-    polars==1.17.1 \
-    ibis-framework==9.5.0 \
-    cwltool==3.1.20250110105449 \
-    cwltest==2.5.20241122133319 \
+    urllib3==2.6.3 \
+    PyYAML==6.0.3 \
+    requests==2.32.5 \
+    polars==1.39.2 \
+    cwltool==3.1.20260315121657 \
+    cwltest==2.6.20251216093331 \
+    papermill==2.7.0 \
     unipressed==1.4.0 \
-    papermill==2.6.0 \
-    pipx==1.7.1
+    pipx==1.10.0
 
-RUN pip install cwl2puml==0.29.0
+RUN pip install cwl2puml==0.35.0
 RUN pipx install benten==2021.1.5
 
 # Jupyter Notebook settings

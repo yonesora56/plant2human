@@ -5,7 +5,7 @@ label: "foldseek easy-search workflow (Stringent Mode)"
 doc: |
   "foldseek easy-search sub-workflow for plant2human workflow (Stringent Mode)
   Uses self-built Foldseek index (e.g., Human Proteome v6) without taxonomy filtering.
-  Step 1: listing files
+  Step 1: listing protein structure files (mmCIF format)
   Step 2: foldseek easy-search process"
 
 requirements:
@@ -17,11 +17,12 @@ inputs:
   # listing files
   - id: INPUT_DIRECTORY
     label: "input protein structure files directory"
-    doc: "input protein structure files directory (default: ../test/oryza_sativa_test/rice_random_gene_mmcif/)"
+    doc: "input protein structure files directory"
     type: Directory
     default:
       class: Directory
-      location: ../test/oryza_sativa_test_100genes_202512/os_100_genes_mmcif/
+      location: ../test/oryza_sativa_test_100genes_202603/os_100_genes_mmcif/
+
 
   - id: FILE_MATCH_PATTERN
     label: "file match pattern"
@@ -54,6 +55,19 @@ inputs:
       - .source
       # No .version for self-built index
 
+  - id: COVERAGE_THRESHOLD
+    label: "coverage threshold (foldseek easy-search)"
+    doc: "coverage threshold for foldseek easy-search. default: 0.75"
+    type: float
+    default: 0.75
+
+  - id: COV_MODE
+    label: "coverage mode (foldseek easy-search)"
+    doc: "coverage mode for foldseek easy-search. for more details, see `foldseek easy-search --help`"
+    type: int
+    default: 5
+
+
   - id: OUTPUT_FILE_NAME1
     label: "output file name (foldseek easy-search)"
     doc: "output file name for foldseek easy-search result (tsv format). default: foldseek_output_human_proteome_v6_up_all_evalue01.tsv"
@@ -74,7 +88,7 @@ inputs:
       1: TM alignment
       2: 3Di+AA default: 2"
     type: int
-    default: 2
+    default: 1 # TM-align
 
   - id: FORMAT_MODE
     label: "format mode (foldseek easy-search)"
@@ -127,7 +141,7 @@ outputs:
     doc: "output file for foldseek easy-search result (tsv format)."
     type: File
     format: edam:format_3475
-    outputSource: foldseek_easy_search/all
+    outputSource: foldseek_easy_search/output_tsvfile
 
 
 # ----------STEPS----------
@@ -148,6 +162,8 @@ steps:
       output_file_name: OUTPUT_FILE_NAME1
       e_value: EVALUE
       alignment_type: ALIGNMENT_TYPE
+      coverage_threshold: COVERAGE_THRESHOLD
+      cov_mode: COV_MODE
       format_mode: FORMAT_MODE
       format_output: FORMAT_OUTPUT
       threads: THREADS
@@ -155,7 +171,7 @@ steps:
       input_file_format: PARAM_INPUT_FORMAT
       # No taxonomy_id_list for Stringent Mode
     out:
-      - all
+      - output_tsvfile
 
 $namespaces:
   s: https://schema.org/

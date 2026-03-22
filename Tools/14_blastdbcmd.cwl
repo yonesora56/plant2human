@@ -1,8 +1,8 @@
 #!/usr/bin/env cwl-runner
-# Generated from: blastdbcmd -db ./data/index/uniprot_rice -entry_batch ./uniprot_id.txt  -out blastdbcmd_result.fasta -logfile blastdbcmd.log
 class: CommandLineTool
 cwlVersion: v1.2
 baseCommand: [blastdbcmd]
+
 arguments:
   - -db
   - $(inputs.index_files)
@@ -12,6 +12,8 @@ arguments:
   - $(inputs.retrieve_result_file_name)
   - -logfile
   - $(inputs.logfile_name)
+
+
 inputs:
   - id: index_files
     type: File
@@ -184,6 +186,12 @@ inputs:
       - .26.pin
       - .26.pog
       - .26.psq
+      - .27.phd
+      - .27.phi
+      - .27.phr
+      - .27.pin
+      - .27.pog
+      - .27.psq
       # === END NEW PARTITIONS ===
       - .pal
       - .pdb
@@ -197,19 +205,18 @@ inputs:
     type: File
     label: "entry batch file"
     doc: "entry batch file for blastdbcmd execution. Make sure the file is already created by 13_extract_id.cwl"
-    default:
-      class: File
-      location: ../test/oryza_sativa_test_202509/foldseek_result_query_species.txt
+
   - id: retrieve_result_file_name
     type: string
     label: "retrieve result file name"
     doc: "retrieve result file name"
-    default: "blastdbcmd_result_rice_up.fasta"
+    default: "blastdbcmd_result_query_species.fasta"
+
   - id: logfile_name
     type: string
     label: "logfile name"
     doc: "logfile name"
-    default: "blastdbcmd_result_rice_up.log"
+    default: "blastdbcmd_result_query_species.log"
 
 outputs:
   - id: blastdbcmd_result
@@ -217,6 +224,7 @@ outputs:
     format: edam:format_1929
     outputBinding:
       glob: "$(inputs.retrieve_result_file_name)"
+
   - id: logfile
     type: File
     outputBinding:

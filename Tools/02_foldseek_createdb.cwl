@@ -3,7 +3,9 @@
 class: CommandLineTool
 cwlVersion: v1.2
 label: "foldseek createdb"
-doc: "foldseek createdb command process. usage: foldseek createdb <i:directory|.tsv>|<i:PDB|mmCIF[.gz]|tar[.gz]|DB> ... <i:PDB|mmCIF[.gz]|tar|DB> <o:sequenceDB> [options]"
+doc: |
+  "foldseek createdb command process.
+   usage:foldseek createdb <i:directory|.tsv>|<i:PDB|mmCIF[.gz]|tar[.gz]|DB> ... <i:PDB|mmCIF[.gz]|tar|DB> <o:sequenceDB> [options]"
 
 requirements:
   ShellCommandRequirement: {}
@@ -114,4 +116,4 @@ outputs:
 
 hints:
   - class: DockerRequirement
-    dockerPull: quay.io/biocontainers/foldseek:9.427df8a--pl5321h5021889_2
+    dockerPull: quay.io/biocontainers/foldseek:10.941cd33--h5021889_1

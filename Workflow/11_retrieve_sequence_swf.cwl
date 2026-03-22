@@ -169,7 +169,7 @@ inputs:
       - .23.pin
       - .23.pog
       - .23.psq
-      # === ADD NEW PARTITIONS ===
+      # === NEW PARTITIONS FOR AFDB v6 ===
       - .24.phd
       - .24.phi
       - .24.phr
@@ -188,6 +188,12 @@ inputs:
       - .26.pin
       - .26.pog
       - .26.psq
+      - .27.phd
+      - .27.phi
+      - .27.phr
+      - .27.pin
+      - .27.pog
+      - .27.psq
       # === END NEW PARTITIONS ===
       - .pal
       - .pdb
@@ -202,17 +208,11 @@ inputs:
     type: File
     label: "entry batch file (blastdbcmd)"
     doc: "entry batch file for blastdbcmd"
-    default:
-      class: File
-      location: ../test/oryza_sativa_test_202509/foldseek_result_query_species.txt
 
   - id: ENTRY_BATCH_HIT_SPECIES
     type: File
     label: "entry batch file (blastdbcmd)"
     doc: "entry batch file for blastdbcmd"
-    default:
-      class: File
-      location: ../test/oryza_sativa_test_202509/foldseek_result_hit_species.txt
 
   - id: BLASTDBCMD_RESULT_FILE_NAME_QUERY_SPECIES
     type: string
@@ -233,14 +233,14 @@ inputs:
     label: "blastdbcmd result file name (blastdbcmd)"
     doc: "blastdbcmd result file name."
     format: edam:data_1050
-    default: "blastdbcmd_result_hit_species.fasta"
+    default: "blastdbcmd_result_target_species.fasta"
 
   - id: BLASTDBCMD_LOGFILE_NAME_HIT_SPECIES
     type: string
     label: "logfile name (blastdbcmd)"
     doc: "logfile name."
     format: edam:data_1050
-    default: "blastdbcmd_result_hit_species.log"
+    default: "blastdbcmd_result_target_species.log"
 
   # seqretsplit inputs
   - id: SEQRETSPLIT_OUTPUT_DIR_NAME_QUERY_SPECIES
@@ -255,7 +255,7 @@ inputs:
     label: "output directory name (seqretsplit)"
     doc: "output directory name for seqretsplit"
     format: edam:data_1049
-    default: "split_fasta_hit_species"
+    default: "split_fasta_target_species"
 
 
   # needle and water inputs
@@ -264,10 +264,6 @@ inputs:
     label: "foldseek extract tsv (foldseek easy-search)"
     doc: "foldseek extract tsv"
     format: edam:format_3475
-    default:
-      class: File
-      format: edam:format_3475
-      location: ../test/oryza_sativa_test_202509/foldseek_os_random_9606.tsv
 
   - id: NEEDLE_RESULT_DIR_NAME
     type: string

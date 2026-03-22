@@ -4,9 +4,9 @@ class: CommandLineTool
 cwlVersion: v1.2
 label: "togoid convert"
 doc: |
-  togoid convert using TOGO ID API
+  "togoid convert using TOGO ID API
   see article: doi:10.1093/bioinformatics/btac491
-  ID conversion process UniProt ID - Ensembl Protein ID - Ensembl Transcript ID - Ensembl Gene ID - HGNC Gene Symbol
+  ID conversion process UniProt ID - Ensembl Protein ID - Ensembl Transcript ID - Ensembl Gene ID - HGNC Gene Symbol"
 
 
 baseCommand: [bash]
@@ -21,6 +21,8 @@ arguments:
   - $(inputs.id_convert_file)
   - $(inputs.route_dataset)
   - $(inputs.output_file_name)
+
+
 inputs:
   - id: togoid_convert_script
     label: "togoid convert script"
@@ -29,23 +31,25 @@ inputs:
     default:
       class: File
       location: ../scripts/togoid_convert_v2.sh
+
   - id: id_convert_file
     label: "id convert file"
     doc: "target id file. default: UniProt ID list."
     type: File
-    default:
-      class: File
-      location: ../test/oryza_sativa_test_202509/foldseek_result_hit_species.txt
+
   - id: route_dataset
     label: "route dataset"
     doc: "route dataset for togoid convert."
     type: string
     default: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
+
+
   - id: output_file_name
     type: string
     label: "output file name (togoid convert)"
     doc: "output file name for togoid convert script."
     default: "foldseek_hit_species_togoid_convert.tsv"
+
 outputs:
   - id: output_file
     type: File

@@ -5,7 +5,7 @@
 [![cwltool](https://img.shields.io/badge/cwltool-3.1.20250110105449-success)](https://github.com/common-workflow-language/cwltool/releases/tag/3.1.20250110105449)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![Version](https://img.shields.io/badge/version-3.0-brightgreen)](https://github.com/yonesora56/plant2human/releases/tag/v3.0)
-[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=python3.11&color=blue&logo=docker)](https://github.com/yonesora56/plant2human/tree/main/.devcontainer)
+[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=python3.13&color=blue&logo=docker)](https://github.com/yonesora56/plant2human/tree/main/.devcontainer)
 [![X (@sorayone56)](https://img.shields.io/badge/X-sorayone56-black?style=flat&logo=x&logoColor=white)](https://x.com/sorayone56)
 
 ## Introduction
@@ -19,14 +19,14 @@ Based on the list of genes you are interested in, you can easily create a scatte
 
 ## 📣 Report
 
-- ✔ 2025-02-02: fix `foldseek easy-search` command process
-- ✔ 2025-09-02: update `makeblstadb` command process
-- ✔ 2025-09-28: main workflow update! `plant2human_v2.cwl`
 - ✔ 2025-12-13: main workflow update! [`plant2human_v3_stringent.cwl` (recommend)](./Workflow/plant2human_v3_stringent.cwl) and [`plant2human_v3_permissive.cwl`](./Workflow/plant2human_v3_permissive.cwl)
 - ✔ 2025-12-13: Add *Arabidopsis thaliana* 100 genes (Ensembl plants release 62) test example ([details](./test/arabidopsis_test_100genes_202512/README.md))
 - ✔ 2025-12-13: Add *Zea mays* 100 genes (Ensembl plants release 62) test example ([details](./test/zea_mays_test_100genes_202512/README.md))
 - ✔ 2025-12-13: Add *Solanum lycopersicum* 100 genes (Ensembl plants release 62) test example ([details](./test/solanum_lycopersicum_test_100genes_202512/README.md))
 - ✔ 2025-12-13: Add *Glycine max* 100 genes (Ensembl plants release 62) test example ([details](./test/glycine_max_test_100genes_202512/README.md))
+- ✔ 2026-01-21: Published in [Bioinformatics Advances](https://doi.org/10.1093/bioadv/vbag013)! The workflow version corresponding to the paper is available on WorkflowHub: [main @ b1c1e73 (latest)](https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.1206.10). We will keep updating it as the project evolves!
+- ✔ 2026-03-22: [`./Workflow/plant2human_v3_stringent.cwl`](./Workflow/plant2human_v3_stringent.cwl) is update!
+- ✔ 2026-03-22: Update *Oryza sativa* 100 genes (Ensembl plants release 62) test example 
 
 &nbsp;
 
@@ -47,6 +47,8 @@ In recent years, with the [AlphaFold protein structure database](https://alphafo
 - Docker / Orbstack
 - [`cwltool`](https://github.com/common-workflow-language/cwltool) >= 3.1.20250110105449
 
+> **📝 Note:** This workflow is based on Common Workflow Language (CWL). Please see the [Official Document](https://www.commonwl.org/user_guide/)
+
 &nbsp;
 
 ### ⚠️  Prerequisites (Python Environment)
@@ -54,14 +56,14 @@ In recent years, with the [AlphaFold protein structure database](https://alphafo
 I've already checked python 3.11 and packages version below. 
 Please install the following packages beforehand!
 
-(Using “Devcontainers” makes it easy to reproduce your execution environment!)
+(Using [Development Containers](https://github.com/devcontainers/spec) makes it easy to reproduce your execution environment!)
 
 ```python3
-polars==1.17.1
-matplotlib==3.8.2
+polars==1.39.2
+matplotlib==3.10.8
 seaborn==0.13.2
 unipressed==1.4.0
-papermill==2.6.0
+papermill==2.7.0
 ```
 
 &nbsp;
@@ -78,7 +80,7 @@ Please check the official website for Dev Container details.
 
 &nbsp;
 
-### The machine used for testing (2025-12-15)
+### The machine used for testing (2026-03-20)
 
 - Machine: 🍎 MacBook Pro 🍎
 - Chip: Apple M3 Max
@@ -90,7 +92,7 @@ Please check the official website for Dev Container details.
 
 &nbsp;
 
-## 🌾 Analysis Example ( *Oryza sativa subsp.japonica* 100 genes vs *Homo sapiens*) 🌾
+## 🌾 Analysis Example ( *Oryza sativa subsp.japonica* 100 genes vs *Homo sapiens*) 🌾 (ver. 2026-03-20)
 
 Here, we will explain how to use the list of 100 rice genes as an example.
 
@@ -107,7 +109,7 @@ cd ./plant2human/
 
 ## 1. Creation of a TSV file of gene and UniProt ID correspondences 🧬
 
-First, you need the following [gene list tsv file](./test/oryza_sativa_test_100genes_202512/oryza_sativa_random_100genes_list.tsv). 
+First, you need the following [gene list tsv file](./test/oryza_sativa_test_100genes_202603/oryza_sativa_random_100genes_list.tsv). 
 
 **📝 Note:** Please set the column name as "From"
 
@@ -135,9 +137,9 @@ Os11g0436450
 
 &nbsp;
 
-The following [TSV file](./) is required to execute the following workflow. 
+The following [TSV file](./test/oryza_sativa_test_100genes_202603/os_100_genes_idmapping_all.tsv) is required to execute the following workflow. 
 
-**📝 Note:** Network access required in this process!
+> **📝 Note:** Network access required in this process!
 
 ```tsv
 From	UniProt Accession
@@ -182,7 +184,7 @@ output_notebook_name: "your_species_uniprot_idmapping.ipynb"  # <-- CHANGE THIS!
 # Your gene list TSV file (column header must be "From")
 gene_id_file:
   class: File                                # <-- DO NOT CHANGE
-  format: http://edamontology.org/format_3475  # <-- DO NOT CHANGE
+  format: edam:format_3475  # <-- DO NOT CHANGE
   location: ./path/to/your_gene_list.tsv     # <-- CHANGE THIS! (path to your gene list)
 
 # ---------- UniProt API SETTINGS ----------
@@ -208,17 +210,19 @@ id_mapping_all_file_name: "your_species_idmapping_all.tsv"  # <-- CHANGE THIS!
 
 &nbsp;
 
+&nbsp;
+
 ## Command Execution Example
 
 ```bash
-# test date: 2025-12-12
-cwltool --debug --outdir ./test/oryza_sativa_test_100genes_202512/ \
+# test date: 2026-03-20
+cwltool --debug --outdir ./test/oryza_sativa_test_100genes_202603/ \
 ./Tools/01_uniprot_idmapping.cwl \
 ./job/os_100genes_uniprot_idmapping.yml
 ```
 
-In this execution, [mmcif files](./test/oryza_sativa_test_100genes_202512/os_100_genes_mmcif) are also retrieved from AlphaFold Database (version 6).
-The execution results are output with the [jupyter notebook](./test/oryza_sativa_test_100genes_202512/oryza_sativa_100_genes_uniprot_idmapping.ipynb).
+In this execution, [mmcif files](./test/oryza_sativa_test_100genes_202603/os_100_genes_mmcif/) are also retrieved from AlphaFold Database (version 6).
+The execution results are output with the [jupyter notebook format](./test/oryza_sativa_test_100genes_202603/oryza_sativa_100_genes_uniprot_idmapping.ipynb).
 
 ---
 
@@ -230,7 +234,7 @@ The execution results are output with the [jupyter notebook](./test/oryza_sativa
 
 ## 2. Creating and Preparing Indexes 📂
 
-I'm sorry, but the [main workflow](./Workflow/plant2human_v2.cwl) does not currently include the creation of an index process (both for protein structure (foldseek index) and protein sequence (BLAST index)).
+I'm sorry, but the [main workflow](./Workflow/plant2human_v3_stringent.cwl) does not currently include the creation of an index process (both for protein structure (foldseek index) and protein sequence (BLAST index)).
 Please perform the following processes in advance.
 
 &nbsp;
@@ -279,6 +283,8 @@ We provide two workflow variants to address this version compatibility issue:
 
 &nbsp;
 
+&nbsp;
+
 ### Option 2: Stringent Mode (Recommended)
 
 **Pros:**
@@ -298,9 +304,9 @@ We provide two workflow variants to address this version compatibility issue:
 
 &nbsp;
 
-## 2-1. Creating a Foldseek Index for structural alignment
-
 &nbsp;
+
+## 2-1. Creating a Foldseek Index for structural alignment
 
 ## 2-1a. Creating a Foldseek Index (Option 1: Permissive Mode)
 
@@ -323,7 +329,7 @@ Alphafold/Swiss-Prot
 You can check the details of this database using the following command.
 
 ```bash
-docker run --rm quay.io/biocontainers/foldseek:9.427df8a--pl5321h5021889_2 foldseek databases --help
+docker run --rm quay.io/biocontainers/foldseek:10.941cd33--h5021889_1 foldseek databases --help
 ```
 
 &nbsp;
@@ -346,6 +352,8 @@ cwltool --debug --outdir ./index/ \
 
 &nbsp;
 
+&nbsp;
+
 ## 2-1b. Creating a Foldseek Index (Option 2: Stringent Mode)
 
 In this mode, you download structure files directly from AFDB v6 and create your own index.
@@ -356,17 +364,28 @@ This ensures version consistency between query and target structures.
 ### Step 1: Download Human proteome from AFDB v6
 
 ```bash
-# Download date: 2025-12-12
-cd ./index
+# Download date: 2026-03-20
 # file size is ~5GB
+
+cd ./index
+
+# curl
 curl -O https://ftp.ebi.ac.uk/pub/databases/alphafold/v6/UP000005640_9606_HUMAN_v6.tar
+
+# or aria2c
+aria2c -c --max-connection-per-server=4 \
+--min-split-size=1M \
+-o "UP000005640_9606_HUMAN_v6.tar" \
+"https://ftp.ebi.ac.uk/pub/databases/alphafold/v6/UP000005640_9606_HUMAN_v6.tar"
+
 cd ../
 ```
 
 ### Step 2: Create Foldseek index using `foldseek createdb` command
 
 ```bash
-# test date: 2025-12-12
+# test date: 2026-03-20
+# foldseek version: https://github.com/steineggerlab/foldseek/releases/tag/10-941cd33
 cwltool --debug --outdir ./index/ \
 ./Tools/02_foldseek_createdb.cwl \
 --input_structure_files ./index/UP000005640_9606_HUMAN_v6.tar \
@@ -380,20 +399,31 @@ cwltool --debug --outdir ./index/ \
 
 &nbsp;
 
-## 2-2. Creating a BLAST Index for sequence alignment (Common)
+&nbsp;
 
-An index FASTA file must be downloaded to obtain the amino acid sequence using the `blastdbcmd` command from the AlphaFold Protein Structure Database. 
+## 2-2. Creating a Index for protein "sequence" alignment (Common)
+
+An index protein sequence FASTA file must be downloaded to obtain the amino acid sequence using the `blastdbcmd` command from the AlphaFold Protein Structure Database. 
 This workflow uses the version of the protein sequence that was used for structure prediction.
 
-Download URL: https://ftp.ebi.ac.uk/pub/databases/alphafold/sequences.fasta
-
-**📝 Note:**: This FASTA file is extremely large (**> 100GB**), so it's probably best to delete it after creating the index.
+>**📝 Note:**: This FASTA file is extremely large (**> 109GB !**), so it's probably best to delete FASTA file after creating the index.
 
 ```bash
 # Preparation for BLAST index
+# test date: 2026-03-21
 cd ./index
+
+# curl
 curl -O https://ftp.ebi.ac.uk/pub/databases/alphafold/sequences.fasta # AFDB version 6
-mv sequences_v6.fasta afdb_all_sequences_v6.fasta
+
+# or aria2c (recommend)
+aria2c --continue=true \
+--max-connection-per-server=4 \
+--min-split-size=1M \
+https://ftp.ebi.ac.uk/pub/databases/alphafold/sequences.fasta # AFDB version 6
+
+# rename
+mv sequences.fasta afdb_all_sequences_v6.fasta
 cd ../
 ```
 
@@ -401,7 +431,7 @@ cd ../
 
 ```bash
 # execute creation of BLAST index using "makeblastdb"
-# test date: 2025-12-12
+# test date: 2026-03-21
 cwltool --debug \
 --outdir ./index/ \
 ./Tools/03_makeblastdb.cwl \
@@ -409,8 +439,11 @@ cwltool --debug \
 --input_fasta_file ./index/afdb_all_sequences_v6.fasta
 ```
 
-**📝 Note:** It is estimated to take 2~ hours for creating index. 
-We are currently investigating whether it can be executed by another method.
+&nbsp;
+
+> **📝 Note:** It is estimated to take 2~ hours for creating index.
+> **This index is about  > 150GB!** 
+> **We are currently investigating whether it can be executed by another method...**
 
 ---
 
@@ -418,14 +451,20 @@ We are currently investigating whether it can be executed by another method.
 
 &nbsp;
 
+&nbsp;
+
 ## 3. Execution of the `plant2human` workflow (main workflow)
 
-**📝 Note:** Network access required in this process!
+> **📝 Note:** Network access required in this process!
+
+&nbsp;
 
 In this process, we perform a structural similarity search using the `foldseek easy-search` command and then perform a pairwise sequence alignment of the amino acid sequences of the hit pairs using the `needle` and `water` commands.
 Finally, based on this information, we create a scatter plot and output a jupyter notebook as a report.
 
-**📝 Note:** For Permissive Mode (using pre-built indexes like Swiss-Prot), see [Workflow/README.md](./Workflow/README.md).
+&nbsp;
+
+> **📝 Note:** For Permissive Mode (using pre-built indexes like Swiss-Prot), see [Workflow/README.md](./Workflow/README.md).
 
 &nbsp;
 
@@ -434,7 +473,7 @@ Finally, based on this information, we create a scatter plot and output a jupyte
 The main workflow requires a YAML parameter file to specify input files and parameters.
 Below is a detailed explanation of each parameter.
 
-**Example file:** [`job/plant2human_v3_stringent_example_os100.yml`](./job/plant2human_v3_stringent_example_os100.yml)
+**Example file (2026-03-22 update!):** [`job/plant2human_v3_stringent_example_os100.yml`](./job/plant2human_v3_stringent_example_os100.yml)
 
 &nbsp;
 
@@ -450,25 +489,25 @@ Below is a detailed explanation of each parameter.
 
 &nbsp;
 
-### Output File Names (Customize for your analysis)
+### Foldseek Parameters (`foldseek easy-search` command)
 
-| Parameter | Description | Example |
-|-----------|-------------|---------|
-| `OUTPUT_FILE_NAME1` | Foldseek all hits result | `"foldseek_output_..._stringent.tsv"` |
-| `OUTPUT_FILE_NAME2` | Human-filtered result | `"foldseek_os_100genes_9606_stringent.tsv"` |
-| `OUTPUT_FILE_NAME3` | TogoID conversion result | `"foldseek_hit_species_togoid_convert_stringent.tsv"` |
-| `OUT_NOTEBOOK_NAME` | Report notebook name | `"os_100_genes_plant2human_report_stringent.ipynb"` |
+for more details, please execute the below command.
 
-&nbsp;
-
-### Foldseek Parameters
+```bash
+docker run --rm quay.io/biocontainers/foldseek:10.941cd33--h5021889_1 \
+foldseek easy-search --help
+```
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
+| `COVERAGE_THRESHOLD` | `0.75` | (0~1) Coverage threshold for search results |
+| `COV_MODE` | `5` | (1,2,3,4,5) Coverage mode for search results. `5` means short sequence needs to be at least x% of the other seq. length |
 | `EVALUE` | `0.1` | E-value threshold for structural similarity search |
-| `ALIGNMENT_TYPE` | `2` | 0: 3Di only, 1: TM alignment, **2: 3Di+AA (recommended)** |
+| `ALIGNMENT_TYPE` | `2` | 0: 3Di only, 1: **TM-align (default)**, 2: 3Di+AA |
 | `THREADS` | `16` | Number of CPU threads |
 | `SPLIT_MEMORY_LIMIT` | `"120G"` | Memory limit for large searches |
+
+&nbsp;
 
 &nbsp;
 
@@ -525,28 +564,17 @@ FOLDSEEK_INDEX:
       location: ../index/index_human_proteome_v6/human_proteome_v6.source
     # No .version for self-built index
 
-# ---------- FOLDSEEK PARAMETERS ----------
-OUTPUT_FILE_NAME1: "foldseek_output_[species]_stringent.tsv"    # <-- CHANGE THIS!
+# ---------- FOLDSEEK DEFAULT PARAMETERS ----------
+COVERAGE_THRESHOLD: 0.75
+COV_MODE: 5
 EVALUE: 0.1
-ALIGNMENT_TYPE: 2
+ALIGNMENT_TYPE: 1  # 1 = TM-align
 THREADS: 16
 SPLIT_MEMORY_LIMIT: "120G"
 
-# ---------- EXTRACT TARGET SPECIES ----------
-OUTPUT_FILE_NAME2: "foldseek_[species]_9606_stringent.tsv"      # <-- CHANGE THIS!
-
 # ---------- EXTRACT ID COLUMNS ----------
 WF_COLUMN_NUMBER_QUERY_SPECIES: 1
-OUTPUT_FILE_NAME_QUERY_SPECIES: "foldseek_result_query_species_stringent.txt"
 WF_COLUMN_NUMBER_HIT_SPECIES: 2
-OUTPUT_FILE_NAME_HIT_SPECIES: "foldseek_result_hit_species_stringent.txt"
-
-# ---------- TOGOID CONVERT ----------
-ROUTE_DATASET: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
-OUTPUT_FILE_NAME3: "foldseek_hit_species_togoid_convert_stringent.tsv"
-
-# ---------- PAPERMILL (Report Notebook) ----------
-OUT_NOTEBOOK_NAME: "[species]_plant2human_report_stringent.ipynb"  # <-- CHANGE THIS!
 
 QUERY_IDMAPPING_TSV:
   class: File
@@ -556,27 +584,37 @@ QUERY_IDMAPPING_TSV:
 QUERY_GENE_LIST_TSV:
   class: File
   format: edam:format_3475
-  location: ./path/to/your_gene_list.tsv              # <-- CHANGE THIS!&nbsp;
+  location: ./path/to/your_gene_list.tsv              # <-- CHANGE THIS!
 ```
+
+---
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
 ### Command Execution Example (Stringent Mode - Recommended)
 
 ```bash
-# test date: 2025-12-13
-cwltool --debug --outdir ./test/oryza_sativa_test_100genes_202512/plant2human_v3_stringent_result/ \
+# test date: 2026-03-22
+cwltool --debug --outdir ./test/oryza_sativa_test_100genes_202603/ \
 ./Workflow/plant2human_v3_stringent.cwl \
 ./job/plant2human_v3_stringent_example_os100.yml
 ```
 
-The execution results are output with the [jupyter notebook](./test/oryza_sativa_test_100genes_202512/plant2human_v3_stringent_result/os_100_genes_plant2human_report_stringent.ipynb).
+&nbsp;
 
-**📝 Note:** For more detailed analysis or to modify the parameters in the figure, you can interactively operate this notebook again yourself.
+The execution results are output with the [jupyter notebook](./test/oryza_sativa_test_100genes_202603/plant2human_report.ipynb).
+
+> **📝 Note:** For more detailed analysis or to modify the parameters in the figure, you can interactively operate this notebook again yourself! 
+> (2026-03-22) We have configured it to output the TSV files and scatter plot images generated in the Jupyter notebook!
+> All result is generated as [TSV file](test/oryza_sativa_test_100genes_202603/foldseek_result_join_alignment_result_all.tsv)
 
 &nbsp;
 
-**📝 Note:** For Permissive Mode (using pre-built indexes like Swiss-Prot), see [Workflow/README.md](./Workflow/README.md).
+> **📝 Note:** For Permissive Mode (using pre-built indexes like Swiss-Prot), see [Workflow/README.md](./Workflow/README.md).
 
 ---
 
@@ -593,13 +631,13 @@ In this case, the x-axis represents the global alignment similarity match (%), a
 
 The hit pairs in the upper-right plot indicate higher sequence similarity and structural similarity.
 
-![image](./image/os_100_stringent_needle.png)
+![image](./test/oryza_sativa_test_100genes_202603/foldseek_result_similarity_percent_needle_lddt_all.png)
 
 &nbsp;
 
 In this case, the x-axis represents the local alignment similarity match (%), and the y-axis represents the average lDDT score (an indicator of structural alignment).
 
-![image](./image/os_100_stringent_water.png)
+![image](./test/oryza_sativa_test_100genes_202603/foldseek_result_similarity_percent_water_lddt_all.png)
 
 &nbsp;
 
@@ -614,7 +652,7 @@ The report notebook for the plant2human workflow also outputs scatter plots afte
 1. structural alignment coverage >= 50%
 2. If there are hits with the same target for the same gene-derived UniProt ID, the one with the highest qcov is selected, and if the qcov is the same, the one with the highest lDDT is selected.
 
-**📝 Note:** In this workflow, we leave the states with the same foldseek hit even if the query genes are different.
+> **📝 Note:** In this workflow, we leave the states with the same foldseek hit even if the query genes are different.
 
 3. Select hits that can be converted to Ensembl gene id and HGNC Gene nomenclature with [TogoID API](https://togoid.dbcls.jp/)
 
@@ -626,13 +664,15 @@ By applying these filtering conditions, you can examine hit pairs that are easie
 
 ## Global alignment (x-axis)
 
-![image](./image/os_100_stringent_needle_filter.png)
+![image](./test/oryza_sativa_test_100genes_202603/foldseek_result_similarity_percent_needle_lddt_filter.png)
 
 &nbsp;
 
 ## local alignment (x-axis)
 
-![image](./image/os_100_stringent_water_filter.png)
+![image](./test/oryza_sativa_test_100genes_202603/foldseek_result_similarity_percent_water_lddt_filter.png)
+
+&nbsp;
 
 &nbsp;
 

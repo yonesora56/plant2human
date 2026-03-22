@@ -1,9 +1,9 @@
-# test date: 2025-12-12
+# test date: 2026-03-20
 output_notebook_name: "oryza_sativa_100_genes_uniprot_idmapping.ipynb"
 gene_id_file:
   class: File
-  format: http://edamontology.org/format_3475
-  location: ../test/oryza_sativa_test_100genes_202512/oryza_sativa_random_100genes_list.tsv
+  format: edam:format_3475
+  location: ../test/oryza_sativa_test_100genes_202603/oryza_sativa_random_100genes_list.tsv
 
 uniprot_api_query_db: "Ensembl_Genomes"
 uniprot_api_target_db: "UniProtKB"

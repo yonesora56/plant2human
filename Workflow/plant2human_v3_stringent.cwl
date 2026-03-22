@@ -1,14 +1,12 @@
 #!/usr/bin/env cwl-runner
 cwlVersion: v1.2
 class: Workflow
-id: plant2human_v3
+id: plant2human_v3_stringent
 label: "plant2human main workflow (Stringent Mode)"
 doc: |
-  "
-  plant2human main workflow: compare structural similarity and sequence similarity (Stringent Mode)
+  "plant2human main workflow: compare structural similarity and sequence similarity (Stringent Mode)
   Compare distantly related species, such as plants and humans, using measures of structural similarity and sequence similarity.
-  This workflow will contribute to the discovery of protein-coding genes with features that are “low sequence similarity but high structural similarity”.
-  "
+  This workflow will contribute to the discovery of protein-coding genes with features that are “low sequence similarity but high structural similarity”."
 
 # ----------WORKFLOW METADATA----------
 $namespaces:
@@ -27,7 +25,8 @@ s:dateModified: "2025-12-12"
 s:license: https://spdx.org/licenses/MIT
 s:keywords:
   - "Functional Annotation"
-  - "alphafold"
+  - "AlphaFold"
+  - "AlphaFold Database"
   - "protein structure"
 
 # ----------WORKFLOW REQUIREMENTS----------
@@ -40,8 +39,9 @@ requirements:
 
 
 # ----------WORKFLOW INPUTS----------
+
 inputs:
-  # foldseek easy-search sub-workflow inputs
+# ---------- foldseek easy-search sub-workflow inputs ----------
   - id: INPUT_DIRECTORY
     label: "input protein structure files directory"
     doc: "query protein structure file (default: mmCIF) directory for foldseek easy-search input."
@@ -85,13 +85,18 @@ inputs:
       - .lookup
       - .source
       # - .version
+  
+  - id: COVERAGE_THRESHOLD
+    label: "coverage threshold (foldseek easy-search)"
+    doc: "coverage threshold for foldseek easy-search. default: 0.75"
+    type: float
+    default: 0.75
 
-  - id: OUTPUT_FILE_NAME1
-    label: "output file name (foldseek easy-search)"
-    doc: "output file name for foldseek easy-search result. Currently, this workflow only supports TSV file output."
-    format: edam:data_1050
-    type: string
-    default: "foldseek_output_swissprot_up_all_evalue01.tsv"
+  - id: COV_MODE
+    label: "coverage mode (foldseek easy-search)"
+    doc: "coverage mode for foldseek easy-search. for more details, see `foldseek easy-search --help`"
+    type: int
+    default: 5
 
   - id: EVALUE
     label: "e-value (foldseek easy-search)"
@@ -101,9 +106,9 @@ inputs:
 
   - id: ALIGNMENT_TYPE
     label: "alignment type (foldseek easy-search)"
-    doc: "alignment type for foldseek easy-search. default: 2 (3Di + AA: local alignment) for detailed information, see foldseek GitHub repository."
+    doc: "alignment type for foldseek easy-search. default: 1 (TM-align) for detailed information, see foldseek GitHub repository."
     type: int
-    default: 2
+    default: 1
 
   - id: THREADS
     label: "threads (foldseek easy-search)"
@@ -117,21 +122,16 @@ inputs:
     type: string
     default: "120G"
 
-  # - id: TAXONOMY_ID_LIST
-  #   label: "taxonomy id list (foldseek easy-search)"
-  #   doc: "taxonomy id list. separated by comma. Be sure to set “9606”. default: 9606 (human), 10090 (mouse), 3702 (Arabidopsis), 4577 (Zea mays), 4529 (Oryza rufipogon)"
+  
+# ---------- 12_extract_target_species_v2.cwl ----------
+  # - id: OUTPUT_FILE_NAME2
+  #   label: "output file name (extract target species)"
+  #   doc: "output file name for extract target species (default: human) python script."
+  #   format: edam:data_1050
   #   type: string
-  #   default: "9606,10090,3702,4577,4529"
+  #   default: "foldseek_os_random_9606.tsv"
   
-  # 12_extract_target_species_v2.cwl
-  - id: OUTPUT_FILE_NAME2
-    label: "output file name (extract target species)"
-    doc: "output file name for extract target species (default: human) python script."
-    format: edam:data_1050
-    type: string
-    default: "foldseek_os_random_9606.tsv"
-  
-  # 13_extract_id.cwl
+# ---------- 13_extract_id.cwl ----------
   - id: WF_COLUMN_NUMBER_QUERY_SPECIES
     label: "column number of query species"
     doc: "column number of query species. default: 1 (UniProt ID list)"
@@ -156,9 +156,9 @@ inputs:
     doc: "output file name for extract hit species column python script. default: foldseek_result_hit_species.txt"
     format: edam:data_1050
     type: string
-    default: "foldseek_result_hit_species.txt"
+    default: "foldseek_result_target_species.txt"
 
-  # 11_retrieve_sequence_wf_v2.cwl
+# ---------- 11_retrieve_sequence_wf_v2.cwl ----------
   - id: BLAST_INDEX_FILES
     type: File
     label: "blast index files (blastdbcmd)"
@@ -311,7 +311,7 @@ inputs:
       - .23.pin
       - .23.pog
       - .23.psq
-      # === ADD NEW PARTITIONS ===
+      # === NEW PARTITIONS FOR AFDB v6 ===
       - .24.phd
       - .24.phi
       - .24.phr
@@ -330,6 +330,12 @@ inputs:
       - .26.pin
       - .26.pog
       - .26.psq
+      - .27.phd
+      - .27.phi
+      - .27.phr
+      - .27.pin
+      - .27.pog
+      - .27.psq
       # === END NEW PARTITIONS ===
       - .pal
       - .pdb
@@ -339,27 +345,20 @@ inputs:
       - .ptf
       - .pto
 
-  # togoid convert process
-  - id: ROUTE_DATASET
-    label: "route dataset (ID conversion using togoID)"
-    doc: "route dataset for ID conversion. This operation selects the UniProt ID of the target species (human) for which cross-references exist (final destination is HGNC gene symbol). default: uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
-    type: string
-    default: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
+# ---------- togoid convert process ----------
+  # - id: ROUTE_DATASET
+  #   label: "route dataset (ID conversion using togoID)"
+  #   doc: "route dataset for ID conversion. This operation selects the UniProt ID of the target species (human) for which cross-references exist (final destination is HGNC gene symbol). default: uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
+  #   type: string
+  #   default: "uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol"
 
-  - id: OUTPUT_FILE_NAME3
-    label: "output file name (ID conversion using togoID)"
-    doc: "output file name for ID conversion. default: foldseek_hit_species_togoid_convert.tsv"
-    format: edam:data_1050
-    type: string
-    default: "foldseek_hit_species_togoid_convert.tsv"
-
-  # papermill process
-  - id: OUT_NOTEBOOK_NAME
-    label: "output notebook name (papermill process)"
-    doc: "output notebook name for papermill.  After the analysis workflow is output, it can be freely customized such as changing the parameter values. default: plant2human_report.ipynb"
-    format: edam:data_1050
-    type: string
-    default: "plant2human_report.ipynb"
+# ---------- papermill process ----------
+  # - id: OUT_NOTEBOOK_NAME
+  #   label: "output notebook name (papermill process)"
+  #   doc: "output notebook name for papermill.  After the analysis workflow is output, it can be freely customized such as changing the parameter values. default: plant2human_report.ipynb"
+  #   format: edam:data_1050
+  #   type: string
+  #   default: "plant2human_report.ipynb"
 
   - id: QUERY_IDMAPPING_TSV
     label: "query idmapping tsv (papermill process)"
@@ -371,6 +370,7 @@ inputs:
       format: edam:format_3475
       location: ../test/oryza_sativa_test_202509/rice_random_gene_idmapping_all.tsv
 
+
   - id: QUERY_GENE_LIST_TSV
     label: "query gene list tsv (papermill process)"
     doc: "query gene list tsv file. Retrieve files in advance. default: rice random gene list"
@@ -381,6 +381,7 @@ inputs:
       format: edam:format_3475
       location: ../test/oryza_sativa_test_202509/oryza_sativa_random_gene_list.tsv
 
+
     # ---------- PAPERMILL (Report Notebook) ----------
   - id: FOLDSEEK_RESULT_PARSE_NOTEBOOK
     label: "jupyter notebook for parse workflow results"
@@ -390,23 +391,10 @@ inputs:
       class: File
       location: ../notebooks/foldseek_result_parse_stringent.ipynb
 
+
+
 # ----------OUTPUTS----------
 outputs:
-
-  - id: TSVFILE1
-    label: "output file (foldseek easy-search result)"
-    doc: "output file for foldseek easy-search all hit result."
-    type: File
-    format: edam:format_3475
-    outputSource: sub_workflow_foldseek_easy_search/tsvfile
-
-  - id: TSVFILE2
-    label: "output file (extract target species)"
-    doc: "extract target species foldseek result file. (in this workflow, human result only)"
-    type: File
-    format: edam:format_3475
-    outputSource: extract_target_species/output_extract_file
-  
   - id: IDLIST1
     label: "output file (extract query species column)"
     doc: "extract query species column UniProt ID list file."
@@ -512,6 +500,33 @@ outputs:
     type: File
     outputSource: papermill/report_notebook
 
+  - id: FOLDSEEK_RESULT_JOIN_ALIGNMENT_RESULT_ALL
+    label: "foldseek result join alignment result all"
+    doc: "foldseek result join alignment result all"
+    type: File
+    format: edam:format_3475
+    outputSource: papermill/foldseek_result_join_alignment_result_all
+
+  - id: FOLDSEEK_RESULT_JOIN_ALIGNMENT_RESULT_FILTER
+    label: "foldseek result join alignment result filter"
+    doc: "foldseek result join alignment result filter"
+    type: File
+    format: edam:format_3475
+    outputSource: papermill/foldseek_result_join_alignment_result_filter
+
+  - id: FOLDSEEK_RESULT_GENE_LEVEL_HIT_COUNT_ALL
+    label: "foldseek result gene level hit count all"
+    doc: "foldseek result gene level hit count all"
+    type: File
+    format: edam:format_3475
+    outputSource: papermill/foldseek_result_gene_level_hit_count_all
+
+  - id: FOLDSEEK_RESULT_SCATTER_PLOT
+    label: "foldseek result scatter plot"
+    doc: "foldseek result scatter plot"
+    type: File[]
+    outputSource: papermill/foldseek_result_scatter_plot
+
 
 # ----------STEPS----------
 steps:
@@ -526,7 +541,9 @@ steps:
       INPUT_DIRECTORY: INPUT_DIRECTORY
       FILE_MATCH_PATTERN: FILE_MATCH_PATTERN
       FOLDSEEK_INDEX: FOLDSEEK_INDEX
-      OUTPUT_FILE_NAME1: OUTPUT_FILE_NAME1
+      COVERAGE_THRESHOLD: COVERAGE_THRESHOLD
+      COV_MODE: COV_MODE
+      # OUTPUT_FILE_NAME1: default
       EVALUE: EVALUE
       ALIGNMENT_TYPE: ALIGNMENT_TYPE
       # FORMAT_MODE: default
@@ -534,7 +551,6 @@ steps:
       THREADS: THREADS
       SPLIT_MEMORY_LIMIT: SPLIT_MEMORY_LIMIT
       # PARAM_INPUT_FORMAT: default
-      # TAXONOMY_ID_LIST: TAXONOMY_ID_LIST
     out:
       - tsvfile
 
@@ -546,7 +562,7 @@ steps:
       # extract_target_species_py: default
       input_file: sub_workflow_foldseek_easy_search/tsvfile # workflow input
       # target_species: default (9606)
-      output_file_name: OUTPUT_FILE_NAME2
+      # output_file_name: default
     out:
       - output_extract_file
   
@@ -619,8 +635,8 @@ steps:
     in:
       # togoid_convert_script: default
       id_convert_file: extract_hit_species_column/output_file # workflow input
-      route_dataset: ROUTE_DATASET
-      output_file_name: OUTPUT_FILE_NAME3
+      # route_dataset: default (uniprot,ensembl_protein,ensembl_transcript,ensembl_gene,hgnc,hgnc_symbol)
+      # output_file_name: default
     out:
       - output_file
 
@@ -630,7 +646,7 @@ steps:
     run: ../Tools/18_papermill.cwl
     in:
       foldseek_result_parse_notebook: FOLDSEEK_RESULT_PARSE_NOTEBOOK
-      report_notebook_name: OUT_NOTEBOOK_NAME
+      # report_notebook_name: default (plant2human_report.ipynb)
       foldseek_result_tsv: extract_target_species/output_extract_file # workflow input
       query_uniprot_idmapping_tsv: QUERY_IDMAPPING_TSV
       water_result_dir: sub_workflow_retrieve_sequence_query_species/output_water_result_dir # workflow input
@@ -639,3 +655,7 @@ steps:
       togoid_convert_tsv: togoid_convert/output_file # workflow input
     out:
       - report_notebook
+      - foldseek_result_join_alignment_result_all
+      - foldseek_result_join_alignment_result_filter
+      - foldseek_result_gene_level_hit_count_all
+      - foldseek_result_scatter_plot

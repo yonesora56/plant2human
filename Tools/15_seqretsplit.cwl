@@ -12,16 +12,14 @@ inputs:
   - id: sequence
     type: File
     label: "sequence file"
-    doc: "sequence file (default: ../test/workflow_test/blastdbcmd_result_query_species.fasta)"
+    doc: "protein sequence FASTA file retrieved from blastdbcmd"
     format: edam:format_1929
-    default:
-      class: File
-      format: edam:format_1929
-      location: ../test/oryza_sativa_test_202509/blastdbcmd_result_query_species.fasta
+
   # - id: sformat1
   #   type: string
   #   doc: "sequence format"
   #   default: "fasta"
+
   - id: output_dir_name
     type: string
     label: "output directory name"
@@ -41,6 +39,8 @@ outputs:
     doc: "output directory"
     outputBinding:
       glob: "$(inputs.output_dir_name)"
+
+
   - id: split_fasta_files
     type: File[]
     label: "split fasta files"

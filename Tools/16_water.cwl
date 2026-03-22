@@ -1,5 +1,4 @@
 #!/usr/bin/env cwl-runner
-# Generated from: bash ./scripts/run_water.sh ./test/rice_up/foldseek_rice_up_9606.tsv ./test/rice_up/split_fasta_query_species/ ./test/rice_up/split_fasta_hit_species/ result_water 1 2
 class: CommandLineTool
 cwlVersion: v1.2
 baseCommand: [bash]
@@ -17,23 +16,17 @@ inputs:
     default:
       class: File
       location: ../scripts/run_water_v2.sh
+
   - id: foldseek_extract_tsv
     type: File
     format: edam:format_3475
-    default:
-      class: File
-      format: edam:format_3475
-      location: ../test/oryza_sativa_test_202509/foldseek_os_random_9606.tsv
+
   - id: split_fasta_query_species_dir
     type: Directory
-    default:
-      class: Directory
-      location: ../test/oryza_sativa_test_202509/split_fasta_query_species/
+
   - id: split_fasta_hit_species_dir
     type: Directory
-    default:
-      class: Directory
-      location: ../test/oryza_sativa_test_202509/split_fasta_hit_species/
+
   - id: result_water_dir_name
     type: string
     default: "result_water"
@@ -43,11 +36,13 @@ inputs:
   - id: target_col_num
     type: int
     default: 2
+
 outputs:
   - id: water_result_dir
     type: Directory
     outputBinding:
       glob: "$(inputs.result_water_dir_name)"
+
   - id: water_result_file
     type: File[]
     outputBinding:

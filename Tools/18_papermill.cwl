@@ -16,7 +16,7 @@ inputs:
     doc: "jupyter notebook for parse workflow results so far (default: ../notebooks/foldseek_result_parse.ipynb)"
     default:
       class: File
-      location: ../notebooks/foldseek_result_parse.ipynb
+      location: ../notebooks/foldseek_result_parse_stringent.ipynb
 
   - id: report_notebook_name
     type: string
@@ -29,10 +29,7 @@ inputs:
     format: edam:format_3475
     label: "foldseek result tsv file"
     doc: "foldseek result tsv file. Before executing, please make sure that you have already completed the execution with “12_extract_target_species.cwl”. (default: ../test/workflow_test/foldseek_rice_up_9606.tsv)"
-    default:
-      class: File
-      format: edam:format_3475
-      location: ../test/oryza_sativa_test_202509/foldseek_os_random_9606.tsv
+
 
   - id: query_uniprot_idmapping_tsv
     type: File
@@ -99,6 +96,37 @@ outputs:
     doc: "output notebook (default: plant2human_report.ipynb). Users can customize the notebook according to their needs."
     outputBinding:
       glob: "$(inputs.report_notebook_name)"
+
+  - id: foldseek_result_join_alignment_result_all
+    type: File
+    format: edam:format_3475
+    label: "foldseek result join alignment result all"
+    doc: "foldseek result join alignment result all"
+    outputBinding:
+      glob: "foldseek_result_join_alignment_result_all.tsv"
+
+  - id: foldseek_result_join_alignment_result_filter
+    type: File
+    format: edam:format_3475
+    label: "foldseek result join alignment result filter"
+    doc: "foldseek result join alignment result filter"
+    outputBinding:
+      glob: "foldseek_result_join_alignment_result_filter.tsv"
+
+  - id: foldseek_result_gene_level_hit_count_all
+    type: File
+    format: edam:format_3475
+    label: "foldseek result gene level hit count all"
+    doc: "foldseek result gene level hit count all"
+    outputBinding:
+      glob: "foldseek_result_gene_level_hit_count_all.tsv"
+
+  - id: foldseek_result_scatter_plot
+    type: File[]
+    label: "foldseek result scatter plot"
+    doc: "foldseek result scatter plot"
+    outputBinding:
+      glob: "*.png"
 
 $namespaces:
   s: https://schema.org/

@@ -19,11 +19,13 @@ inputs:
       class: File
       format: edam:format_3475
       location: ../test/oryza_sativa_test_202509/foldseek_os_random_9606.tsv
+
   - id: column_number
     type: int
     label: "column number"
     doc: "Column number with the UniProt ID of the species (in this workflow, query species or target species) to be extracted"
     default: 1
+
   - id: output_file_name
     type: string
     label: "output file name"

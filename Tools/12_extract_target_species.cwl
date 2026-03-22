@@ -25,20 +25,19 @@ inputs:
       class: File
       format: edam:format_3996
       location: ../scripts/extract_target_species_v3.py
+
   - id: input_file
     label: "foldseek easy-search result"
     doc: "foldseek easy-search result"
     type: File
     format: edam:format_3475
-    default:
-      class: File
-      format: edam:format_3475
-      location: ../test/oryza_sativa_test_202509/foldseek_output_swissprot_up_all_evalue01.tsv
+
   - id: target_species
     label: "target species"
     doc: "target species"
     type: int
     default: 9606
+
   - id: output_file_name
     label: "output file name"
     doc: "output file name"

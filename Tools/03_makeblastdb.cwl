@@ -4,9 +4,9 @@ class: CommandLineTool
 cwlVersion: v1.2
 label: "makeblastdb command for blastdbcmd execution"
 doc: |
-  This tool is used to create a blast database from a fasta file.
+  "This tool is used to create a blast database from a fasta file.
   This process assumes that the query, target, and both files are data that are predicted in AlphaFold DB.
-  The input fasta file is available from https://ftp.ebi.ac.uk/pub/databases/alphafold/sequences.fasta
+  The input fasta file is available from https://ftp.ebi.ac.uk/pub/databases/alphafold/sequences.fasta"
 
 requirements:
   ShellCommandRequirement: {}
@@ -29,6 +29,9 @@ inputs:
       # format: edam:format_1929
       location: ../index/afdb_all_sequences_v6.fasta
 
+stdout: makeblastdb.log
+stderr: makeblastdb_error.log
+
 arguments:
   - shellQuote: false
     valueFrom: |
@@ -41,6 +44,16 @@ outputs:
     type: Directory
     outputBinding:
       glob: "$(inputs.index_dir_name)"
+  
+  - id: logfile
+    type: File
+    outputBinding:
+      glob: "makeblastdb.log"
+
+  - id: error_logfile
+    type: File
+    outputBinding:
+      glob: "makeblastdb_error.log"
 
   - id: all-for-debugging
     type:
