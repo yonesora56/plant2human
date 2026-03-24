@@ -1,0 +1,105 @@
+# Arabidopsis thaliana 100 Genes Test 🌱 ↔ 🕺
+
+This directory contains the test results for running the plant2human workflow with *Arabidopsis thaliana* (thale cress) genes.
+
+**Test Date:** 2026-03-24
+
+---
+
+## 📊 Dataset Overview
+
+| Item | Value |
+|------|-------|
+| **Species** | *Arabidopsis thaliana* |
+| **Input genes** | 100 randomly selected genes (Ensembl plants release 62) |
+| **Workflow** | `plant2human_v3_stringent.cwl` |
+| **Target species** | *Homo sapiens* (Human) |
+| **Target Proteome** | [UP000005640](https://www.uniprot.org/proteomes/UP000005640) |
+| **AFDB version** | v6 |
+
+---
+
+&nbsp;
+
+## 📁 Directory Structure
+
+```bash
+tree -L 1
+
+.
+├── arabidopsis_100_genes_uniprot_idmapping.ipynb
+├── arabidopsis_random_100genes_list.tsv
+├── at_100_genes_afinfo_json # add .gitignore
+├── at_100_genes_idmapping_all.tsv
+├── at_100_genes_mmcif # add .gitignore
+├── blastdbcmd_result_query_species.fasta
+├── blastdbcmd_result_query_species.log
+├── blastdbcmd_result_target_species.fasta
+├── blastdbcmd_result_target_species.log
+├── foldseek_hit_species_togoid_convert.tsv
+├── foldseek_result_gene_level_hit_count_all.tsv 
+├── foldseek_result_join_alignment_result_all.tsv # <- all result!
+├── foldseek_result_join_alignment_result_filter.tsv
+├── foldseek_result_pident_lddt.png
+├── foldseek_result_query_species.txt
+├── foldseek_result_similarity_percent_needle_lddt_all.png
+├── foldseek_result_similarity_percent_needle_lddt_filter.png
+├── foldseek_result_similarity_percent_water_lddt_all.png
+├── foldseek_result_similarity_percent_water_lddt_filter.png
+├── foldseek_result_target_species.txt
+├── plant2human_report.ipynb # <- result notebook !
+├── README.md
+├── result_needle # add .gitignore
+├── result_water # add .gitignore
+├── split_fasta_query_species # add .gitignore
+└── split_fasta_target_species # add .gitignore
+
+6 directories, 20 files
+```
+
+---
+
+&nbsp;
+
+## How to Reproduce
+
+### Step 1: UniProt ID Mapping
+
+```bash
+# test date: 2025-12-13
+cwltool --debug --outdir ./test/arabidopsis_test_100genes_202512/ \
+./Tools/01_uniprot_idmapping.cwl \
+./job/at_100genes_uniprot_idmapping.yml
+```
+
+### Step 2: Main Workflow (Stringent Mode)
+
+```bash
+# test date: 2026-03-24
+cwltool --debug --outdir ./test/arabidopsis_test_100genes_202603/ \
+./Workflow/plant2human_v3_stringent.cwl \
+./job/plant2human_v3_stringent_example_at100.yml
+```
+---
+
+&nbsp;
+
+## Structural Alignment vs Sequence Alignment (global alignment) (After Filetering)
+
+![image](./foldseek_result_similarity_percent_needle_lddt_filter.png)
+
+&nbsp;
+
+## Structural Alignment vs Sequence Alignment (local alignment)
+
+![image](./foldseek_result_similarity_percent_water_lddt_filter.png)
+
+&nbsp;
+
+## 📚 Related Files
+
+- **YAML parameter file:** [`../../job/plant2human_v3_stringent_example_at100.yml`](../../job/plant2human_v3_stringent_example_at100.yml)
+- **Main README:** [`../../README.md`](../../README.md)
+- **Workflow:** [`../../Workflow/plant2human_v3_stringent.cwl`](../../Workflow/plant2human_v3_stringent.cwl)
+
+---

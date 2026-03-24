@@ -20,13 +20,13 @@ Based on the list of genes you are interested in, you can easily create a scatte
 ## 📣 Report
 
 - ✔ 2025-12-13: main workflow update! [`plant2human_v3_stringent.cwl` (recommend)](./Workflow/plant2human_v3_stringent.cwl) and [`plant2human_v3_permissive.cwl`](./Workflow/plant2human_v3_permissive.cwl)
-- ✔ 2025-12-13: Add *Arabidopsis thaliana* 100 genes (Ensembl plants release 62) test example ([details](./test/arabidopsis_test_100genes_202512/README.md))
-- ✔ 2025-12-13: Add *Zea mays* 100 genes (Ensembl plants release 62) test example ([details](./test/zea_mays_test_100genes_202512/README.md))
-- ✔ 2025-12-13: Add *Solanum lycopersicum* 100 genes (Ensembl plants release 62) test example ([details](./test/solanum_lycopersicum_test_100genes_202512/README.md))
-- ✔ 2025-12-13: Add *Glycine max* 100 genes (Ensembl plants release 62) test example ([details](./test/glycine_max_test_100genes_202512/README.md))
 - ✔ 2026-01-21: Published in [Bioinformatics Advances](https://doi.org/10.1093/bioadv/vbag013)! The workflow version corresponding to the paper is available on WorkflowHub: [main @ b1c1e73 (latest)](https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.1206.10). We will keep updating it as the project evolves!
 - ✔ 2026-03-22: [`./Workflow/plant2human_v3_stringent.cwl`](./Workflow/plant2human_v3_stringent.cwl) is update!
 - ✔ 2026-03-22: Update *Oryza sativa* 100 genes (Ensembl plants release 62) test example 
+- ✔ 2026-03-24: Update *Arabidopsis thaliana* 100 genes (Ensembl plants release 62) test example ([details](./test/arabidopsis_test_100genes_202603/README.md))
+- ✔ 2025-03-24: Update *Zea mays* 100 genes (Ensembl plants release 62) test example ([details](./test/zea_mays_test_100genes_202603/README.md))
+- ✔ 2025-03-24: Update *Solanum lycopersicum* 100 genes (Ensembl plants release 62) test example ([details](./test/solanum_lycopersicum_test_100genes_202603/README.md))
+- ✔ 2025-03-24: Update *Glycine max* 100 genes (Ensembl plants release 62) test example ([details](./test/glycine_max_test_100genes_202603/README.md))
 
 &nbsp;
 
@@ -45,7 +45,7 @@ In recent years, with the [AlphaFold protein structure database](https://alphafo
 ### Prerequisites
 
 - Docker / Orbstack
-- [`cwltool`](https://github.com/common-workflow-language/cwltool) >= 3.1.20250110105449
+- [cwltool](https://github.com/common-workflow-language/cwltool) >= 3.1.20250110105449
 
 > **📝 Note:** This workflow is based on Common Workflow Language (CWL). Please see the [Official Document](https://www.commonwl.org/user_guide/)
 
@@ -662,13 +662,13 @@ By applying these filtering conditions, you can examine hit pairs that are easie
 
 &nbsp;
 
-## Global alignment (x-axis)
+## Global alignment (x-axis) (After Filtering)
 
 ![image](./test/oryza_sativa_test_100genes_202603/foldseek_result_similarity_percent_needle_lddt_filter.png)
 
 &nbsp;
 
-## local alignment (x-axis)
+## local alignment (x-axis) (After Filtering)
 
 ![image](./test/oryza_sativa_test_100genes_202603/foldseek_result_similarity_percent_water_lddt_filter.png)
 
@@ -730,10 +730,10 @@ We provide complete examples for multiple plant species. Use these as references
 
 | Species | Test Directory | YAML Files |
 |---------|----------------|------------|
-| *Arabidopsis thaliana* | [`test/arabidopsis_test_100genes_202512/`](./test/arabidopsis_test_100genes_202512/README.md) | [`job/at_100genes_*.yml`](./job/) |
-| *Zea mays* | [`test/zea_mays_test_100genes_202512/`](./test/zea_mays_test_100genes_202512/README.md) | [`job/zm_100genes_*.yml`](./job/) |
-| *Solanum lycopersicum* | [`test/solanum_lycopersicum_test_100genes_202512/`](./test/solanum_lycopersicum_test_100genes_202512/README.md) | [`job/sl_100genes_*.yml`](./job/) |
-| *Glycine max* | [`test/glycine_max_test_100genes_202512/`](./test/glycine_max_test_100genes_202512/README.md) | [`job/gm_100genes_*.yml`](./job/) |
+| *Arabidopsis thaliana* | [`test/arabidopsis_test_100genes_202603/`](./test/arabidopsis_test_100genes_202603/README.md) | [`job/at_100genes_*.yml`](./job/) |
+| *Zea mays* | [`test/zea_mays_test_100genes_202603/`](./test/zea_mays_test_100genes_202603/README.md) | [`job/zm_100genes_*.yml`](./job/) |
+| *Solanum lycopersicum* | [`test/solanum_lycopersicum_test_100genes_202603/`](./test/solanum_lycopersicum_test_100genes_202603/README.md) | [`job/sl_100genes_*.yml`](./job/) |
+| *Glycine max* | [`test/glycine_max_test_100genes_202603/`](./test/glycine_max_test_100genes_202603/README.md) | [`job/gm_100genes_*.yml`](./job/) |
 
 ---
 
