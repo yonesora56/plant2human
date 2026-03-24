@@ -86,13 +86,13 @@ cwltool --debug --outdir ./test/zea_mays_test_100genes_202603/ \
 
 ## Structural Alignment vs Sequence Alignment (global alignment)
 
-![image](../../image/zm_100_stringent_needle_filter.png)
+![image](./foldseek_result_similarity_percent_needle_lddt_filter.png)
 
 &nbsp;
 
 ## Structural Alignment vs Sequence Alignment (local alignment)
 
-![image](../../image/zm_100_stringent_water_filter.png)
+![image](./foldseek_result_similarity_percent_water_lddt_filter.png)
 
 &nbsp;
 
